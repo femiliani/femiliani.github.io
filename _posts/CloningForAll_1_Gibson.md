@@ -1,10 +1,10 @@
 ---
-title: 'Blog Post number 1'
-date: 2012-08-14
-permalink: /posts/2012/08/blog-post-1/
+title: 'Cloning for all #1 - Gibson Assembly'
+date: 2022-04-08
+permalink: /posts/2022/04/cloning-for-all-1/
 tags:
-  - cool posts
-  - category1
+  - CloningForAll
+  - Gibson Assembly
   - category2
 ---
 
