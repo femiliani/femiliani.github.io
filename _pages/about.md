@@ -10,9 +10,9 @@ redirect_from:
 
 Francesco is still trying to learn how to set up his personal page so please ignore most of what is on here. My priority will be to try to set up the blogs for cloning tutorials and tips. Hope you'll find your way back here once I figure out what I want it to look like! 
 
-header
+Lessons in MolBio
 ======
-test
+I was fortunate to learn cloning techniques from some excellent teachers (who sadly, when I asked for permission to name them, asked to remain anynonymous). Since then I've been challenged by progressively more complex plasmids and have learned (the hard way) some tips and tricks that assure cloning success. I don't pretend to claim that I am the best, just that I've learned simple things that can help everyone. And in the <p class='.btn' markdown='1'> [Lessons in MolBio](https://femiliani.github.io/year-archive/)</p> I will try to share them with you so that you will come to love cloning too. 
 
 header
 ======
@@ -21,8 +21,6 @@ text
 header2
 ------
 text
-
-
 
 **subheading**
 text
