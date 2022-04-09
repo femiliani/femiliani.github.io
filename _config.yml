@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Francesco Emiliani"
-  avatar           : "profile.png"
+  avatar           : "/images/profile.png"
   bio              : "-MD-PhD Candidate <br> -Molecular biologist in training <br> -Finding new ways to use CRISPR <br> -Playing with long-read sequencing"
   location         : "Hanover, NH"
   employer         :

@@ -11,9 +11,10 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.A. in Neuroscience, Johns Hopkins University, 2014
+* M.S. in Neuroscience, Johns Hopkins University, 2014
+* Ph.D in Molecular and Systems Biology, Dartmouth Medical School, 2023 (expected)
+* M.D. Dartmouth Medical School, 2025 (expected)
 
 Work experience
 ======
