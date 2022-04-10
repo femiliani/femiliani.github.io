@@ -164,8 +164,7 @@ I don't want to go into all the details of how to gibson without amplifying the 
 
 Thanks for reading through, I hope you found at least something of use here. Let me know if there was too much/little explaining of some steps. This post was longer than I intended it to be, too many things to mention. In the future I will try to keep them more focused since you will already know many of my secrets common to all cloning projects. 
 
-Next week, Golden Gate or: How I Learned To Stop Worrying About How Many Fragments I Was Shoving Into a Plasmid. 
-
+**Next week, Golden Gate or: How I Learned To Stop Worrying About How Many Fragments I Was Shoving Into a Plasmid.**
 
 
 Original Twitter thread
