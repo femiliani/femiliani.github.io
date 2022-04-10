@@ -12,7 +12,7 @@ Francesco is still trying to learn how to set up his personal page so please ign
 
 Lessons in MolBio
 ======
-I was fortunate to learn cloning techniques from some excellent teachers (who sadly, when I asked for permission to name them, asked to remain anynonymous). Since then I've been challenged by progressively more complex plasmids and have learned (the hard way) some tips and tricks that assure cloning success. I don't pretend to claim that I am the best, just that I've learned simple things that can help everyone. And in the <p class='.btn' markdown='1'> [Lessons in MolBio](https://femiliani.github.io/year-archive/)</p> I will try to share them with you so that you will come to love cloning too. 
+I was fortunate to learn cloning techniques from some excellent teachers. They laid the foundation which I then built-on by creating (unnecessarily) complex plasmids. What I've learned is that cloning is actually easy once you know the rules that are written between the lines of protocols. In the [Lessons in MolBio](https://femiliani.github.io/year-archive/) I will try to share the tips/tricks/rules I learnt with you so that you will come to love cloning too. 
 
 header
 ======
