@@ -8,12 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-Francesco is still trying to learn how to set up his personal page so please ignore most of what is on here. My priority will be to try to set up the blogs for cloning tutorials and tips. Hope you'll find your way back here once I figure out what I want it to look like! 
+Francesco is still trying to decide what else to put on this page and how to format it, that will come in due time. Until then the use for this page will be to host the #CloningForAll blog posts. Hope you'll find your way back here once I figure out what else I want to add! 
 
 Lessons in MolBio
 ======
-I was fortunate to learn cloning techniques from some excellent teachers. They laid the foundation which I then built-on by creating (unnecessarily) complex plasmids. What I've learned is that cloning is actually easy once you know the rules that are written between the lines of protocols. In the [Lessons in MolBio](https://femiliani.github.io/year-archive/) I will try to share the tips/tricks/rules I learnt with you so that you will come to love cloning too. 
+I was fortunate to learn cloning techniques from some excellent teachers. They laid the foundation which I then honed by creating (unnecessarily) complex plasmids. What I've learned is that cloning is actually easy once you know the rules that are written between the lines of protocols. In the [Lessons in MolBio](https://femiliani.github.io/year-archive/) I will try to share the tips/tricks/rules I learnt with you so that you will come to love cloning too. 
 
+<!--
 header
 ======
 text
@@ -25,7 +26,7 @@ text
 **subheading**
 text
 
-<!--
+
 
 How to edit your site's GitHub repository
 ------
