@@ -41,7 +41,7 @@ Goal: Move Cas9 from pX458 to a lentivirus backbone. But because we are space co
   <img src="/images/CFA_1/CFA_1_2.png" width="600" /> 
 </p>
 
-Instead of juggling pieces of DNA around a word document, I like to just create the new plasmid map directly. To start, copy the receiving vector sequence into a new file (all these sequence images are from benchling which is what I use for all my cloning planning). 
+Instead of juggling pieces of DNA around a word document, I like to just create the new plasmid map directly. To start, copy the receiving vector sequence into a new file (all these sequence images are from benchling which is what I use for all my cloning planning, for images showing up with low resolution you can right-click + open in new tab, apologies I can clone but I can't figure out GitHub pages). 
 
 I've zoomed in on the region where we will be making a deletion from the vector. We don’t want the tet operators so we will remove everything from the end of CMV to the start of puro. Translate the protein coding regions to make sure you won't be knocking it out of frame. 
 <p float="left">
@@ -53,7 +53,18 @@ It's helpful when making deletions to add dummy bases to keep track of where it 
   <img src="/images/CFA_1/CFA_1_4.png" width="900" />
 </p>
 
+Next we figure out where Cas9 should start and stop. 
+ProTip™ Kozak sequence, named after Marilyn Kozak, significantly increases translation. The minimum sequence is CCACCATG where ATG is the start codon. Here we have a more complete version (highlighted GCCACCATGG). 
+Notice how the Flag annotation starts on an aspartate (D). If you had copied just from the Flag you would have missed the start codon. 
+Let’s start Cas9 before the kozak (vertical bar). 
+<p float="left">
+  <img src="/images/CFA_1/CFA_1_5.png" width="900" />
+</p>
 
+As for where to end, lets grab to the end of the T2A and keep it all in frame. 
+<p float="left">
+  <img src="/images/CFA_1/CFA_1_6.png" width="900" />
+</p>
 
 Original Twitter thread
 ------
