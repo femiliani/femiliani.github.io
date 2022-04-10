@@ -34,10 +34,23 @@ There are a lot of tools out there for Gibson cloning design. They are confusing
 
 I'm going to walk you through a theoretical cloning project. I picked this example because there are no convenient restriction sites and this would be a nightmare to do with traditional restriction cloning. 
 
+Goal: Move Cas9 from pX458 to a lentivirus backbone. But because we are space concious let's remove the SV40 promoter from Puro and connect the Cas9 to Puro with the T2A that currently connects it to GFP. I've highlighted the region of pX458 we will be taking Cas9 from, and the promoter region we will be removing from pLenti. 
 
 <p float="left">
   <img src="/images/CFA_1/CFA_1_1.png" width="600" />
-  <img src="/images/CFA_1/CFA_1_1.png" width="600" /> 
+  <img src="/images/CFA_1/CFA_1_2.png" width="600" /> 
+</p>
+
+Instead of juggling pieces of DNA around a word document, I like to just create the new plasmid map directly. To start, copy the receiving vector sequence into a new file (all these sequence images are from benchling which is what I use for all my cloning planning). 
+
+I've zoomed in on the region where we will be making a deletion from the vector. We don’t want the tet operators so we will remove everything from the end of CMV to the start of puro. Translate the protein coding regions to make sure you won't be knocking it out of frame. 
+<p float="left">
+  <img src="/images/CFA_1/CFA_1_3.png" width="800" />
+</p>
+
+It's helpful when making deletions to add dummy bases to keep track of where it happened, this helps line up the homology arms later. I add 3W's. 
+<p float="left">
+  <img src="/images/CFA_1/CFA_1_4.png" width="600" />
 </p>
 
 
