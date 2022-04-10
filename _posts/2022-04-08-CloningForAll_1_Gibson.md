@@ -22,11 +22,19 @@ For those interested in more detail here is a link to the [original Gibson assem
 
 When to use Gibson Assembly
 ------
-Gibson assembly can replace restriction cloning, especially when there are no convenient restriction sites in your vector or insert. In addition it can be used to assemble plasmids from multiple fragments (I've never had to use it for more than 6, but there are plenty of reports it can do more). Gibson assembly creates seamless assemblies, i.e. you are not limited by having the restriction site between fragments. 
+Gibson assembly can replace restriction cloning, especially when there are no convenient restriction sites in your vector or insert. In addition it can be used to assemble plasmids from multiple fragments (I've never had to use it for more than 6, but there are plenty of reports it can do more). Gibson assembly creates seamless assemblies, i.e. you are not limited by having the restriction site between fragments when you bring them together. 
 
 When to avoid Gibson Assembly
 ------
 Gibson requires PCR to add homology to either the insert, vector, or both. If you are limited to a region that is very repetitive or GC rich and can't produce clean PCR products it will hurt efficiency (but it can still work if you are desperate). Additionally, and this took a lot of pain to learn, Gibson fails when the pieces you are trying to put in are very similar to each other. For example many CRISPR-screens are now using dual sgRNAs, these are usually created by having two U6 promoter + sgRNA + scaffold, even if you PCR on unique 20-30mers on the end of these U6-guide blocks the sequence inbetween is similar and efficiency takes a massive hit. To assemble these kinds of plasmids I recommend Golden Gate (which will be next weeks topic).
+
+Planning your cloning
+------
+There are a lot of tools out there for Gibson cloning design. They are confusing to me. Gibson is incredibly powerful and so my suggestion is to design the plasmid you want, and the cloning will work. 
+
+I'm going to walk you through a theoretical cloning project. I picked this example because there are no convenient restriction sites and this would be a nightmare to do with traditional restriction cloning. 
+
+
 
 
 
