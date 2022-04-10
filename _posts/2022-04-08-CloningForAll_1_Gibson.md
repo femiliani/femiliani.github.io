@@ -152,11 +152,14 @@ As many twitter users pointed out, the HiFi kit isn't free.
 * For the less experienced user I liked @ProfCamenares suggestion of just reducing volumes. HiFi/Gibson is incredibly efficient, a half or third reaction will give you plenty of material for your transformation. Pipet a volume you are comfortable with. 
 * There we some suggestions and literature for alternative formulations or homebrew recipes that are cheaper, if you are confident in your skills I fully support them. As I mention later, keep in mind HiFi isn't just marked up enzyme, there are other enzymes in it that add functionality.  
 
+What about not PCRing the backbone?
+------
+I don't want to go into all the details of how to gibson without amplifying the backbone right now. The advantage is that you don't have to worry about sequencing the backbone. The basic idea is the same as what we did above. You copy the acceptor vector map, you mimic the digestion and remove the sequence between the restriction sites (you can reconstitute the restriction sites or remove them). You copy paste the insert(s). And design primers only for the insert adding 20bp of homology to the vector or between the inserts. Then you digest the vector (don't alkaline phosphatase it), PCR the inserts, gel purify or DpnI, gibson away.   
 
-> I don't want to go into all the details of how to gibson without amplifying the backbone right now. The advantage is that you don't have to worry about sequencing the backbone. The basic idea is the same as what we did above. You copy the acceptor vector map, you mimic the digestion and remove the sequence between the restriction sites (you can reconstitute the restriction sites or remove them). You copy paste the insert(s). And design primers only for the insert adding 20bp of homology to the vector or between the inserts. Then you digest the vector (don't alkaline phosphatase it), PCR the inserts, gel purify or DpnI, gibson away.   
 
 
-Thanks for reading through, I hope you found at least something of use here. Let me know if there was too much/little explaining of some steps. 
+
+Thanks for reading through, I hope you found at least something of use here. Let me know if there was too much/little explaining of some steps. This post was longer than I intended it to be, too many things to mention. In the future I will try to keep them more focused since you will already know many of my secrets common to all cloning projects. 
 
 Next week, Golden Gate or: How I Learned To Stop Worrying About How Many Fragments I Was Shoving Into a Plasmid. 
 
