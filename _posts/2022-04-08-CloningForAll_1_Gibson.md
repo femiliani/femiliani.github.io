@@ -10,6 +10,9 @@ tags:
 
 In the first #CloningForEveryone session we will look at Gibson Assembly, which in my opinion is the most worthwhile to learn because it will let you clone almost anything. And once you know the secret to it, it's as easy as restriction cloning.
 
+```
+This "blog" post was written after the original twitter thread. I just wanted to thank everyone who read it, shared it, and commented on it. When I wrote it I genuinely thought only a handful of people would see it. And wow was I wrong. There are few things in science more rewarding than knowing you might have helped another scientist. Thank you for brightening up my day! Hope you found it helpful in some way. 
+```
 
 How does Gibson assembly work?
 ======
@@ -30,6 +33,10 @@ Gibson requires PCR to add homology to either the insert, vector, or both. If yo
 
 Planning your cloning
 ------
+```
+Clarification, throughout this post I will be calling it Gibson assembly, because that's what it was originally called. But I use the NEB Hifi DNA assembly mastermix which is an optimized set of enzymes compared to the original Gibson assemblies. 
+```
+
 There are a lot of tools out there for Gibson cloning design. They are confusing to me. Gibson is incredibly powerful and so my suggestion is to design the plasmid you want, and the cloning will work. 
 
 I'm going to walk you through a theoretical cloning project. I picked this example because there are no convenient restriction sites and this would be a nightmare to do with traditional restriction cloning. 
@@ -84,12 +91,14 @@ ProTip™ here is a very easy way to get 30-40bp of homology. You don’t actual
 ProTip™ on primer Tms. I used to take great care in designing primers for cloning, then I switched to NEB Q5 and found that as long as the Tm is 72C, and the primer ends in Gs or Cs, it works. [NEB Tm Calculator](https://tmcalculator.neb.com/) 
 __The 72C should include ONLY the area of your template.__ i.e. Primer1 the sequence the covers the insert should be 72C (ignore the temp of the homology arm) Primer2 look only at the sequence of the CMV promoter not the homology to the insert. 
 
-
 We do the same at the other end. 
 <p float="left">
   <img src="/images/CFA_1/CFA_1_9.png" width="900" />
 </p>
 
+
+Create the fragments
+------
 Now we set up the two PCR reactions:
 1. 10ng pX458 + Primer1 + Primer4 = Cas9 with homology
 2. 10ng pLenti + Primer2 + Primer3 = pLenti vector with homology
@@ -113,7 +122,8 @@ To fully take advantage of this approach set up your PCR protocol as some versio
 </p>
 The 15 seconds of grace period between the imaging and jumping back to denaturing (98C) gives you a chance to skip out of the cycling (most biorad PCR machines allow this).  
 
-We designed the Tms to be 72C. So there's no thinking about Tms to do. 
+We designed the Tms to be 72C. So there's no need to think much about Tms. 
+
 The elongation time is also relatively simple:
 * 1min for <1kb then add 1min per kb. 
 * If you go above 8kb in min = (kb+2min) e.g. 8kb is 10min. 
@@ -121,11 +131,34 @@ The elongation time is also relatively simple:
   * add a little more template for the longer fragments
   * put the fragments in as individual tubes, as they are read pause the machine at the 72C step after image, open lid, remove tubes that are done, close, and unpause run
 
+Purify the fragments 
+------
+We put in a lot of template. If you dont remove it you will end up with background colonies that are useless to you. 
 
+I was taught, and I swear by, gel purification: 
+* Use a 0.7-1% gel, and give it time to separate well. 
+* Please don't stick the gel in a gel doc imager or gel box with high-energy UV. It damages the DNA creating thymidine dimers. Use low-energy UV or blue-light. 
+* Using a SHARP razor blade cut out as small a fragment as possible (I aim for less than 0.1g). 
+* We use the NEB monarch kit to gel extract.  
+
+Alternatively if you are in a rush. DpnI is a restriction enzyme that cuts only methylated DNA. Bacteria methylate the plasmids they make. Your PCR machine does not methyalate your PCR products. So only the plasmid will be destroyed. It works, I found it less efficient so I don’t use it. But it’s faster. Everything has pros and cons. 
+
+Setting up the reaction
+-----
+You've got all the pieces you need to follow the Hifi protocol! 
+
+As many twitter users pointed out, the HiFi kit isn't free. 
+* For the less experienced user I liked @ProfCamenares suggestion of just reducing volumes. HiFi/Gibson is incredibly efficient, a half or third reaction will give you plenty of material for your transformation. Pipet a volume you are comfortable with. 
+* There we some suggestions and literature for alternative formulations or homebrew recipes that are cheaper, if you are confident in your skills I fully support them. As I mention later, keep in mind HiFi isn't just marked up enzyme, there are other enzymes in it that add functionality.  
 
 ```
-I don't want to go into all the details of how to gibson without amplifying the backbone right now. The advantage is that you don't have to worry about sequencing the backbone. The basic idea is the same as what we did above. You copy the acceptor vector map, you mimic the digestion and remove the sequence between the restriction sites (you can reconstitute the restriction sites or remove them). You copy paste the insert(s). And design primers only for the insert adding 20bp of homology to the vector. Then you digest and gel purify the vector, PCR the inserts, gibson away.   
+I don't want to go into all the details of how to gibson without amplifying the backbone right now. The advantage is that you don't have to worry about sequencing the backbone. The basic idea is the same as what we did above. You copy the acceptor vector map, you mimic the digestion and remove the sequence between the restriction sites (you can reconstitute the restriction sites or remove them). You copy paste the insert(s). And design primers only for the insert adding 20bp of homology to the vector or between the inserts. Then you digest the vector (don't alkaline phosphatase it), PCR the inserts, gel purify or DpnI, gibson away.   
 ```
+
+Thanks for reading through, I hope you found at least something of use here. Let me know if there was too much/little explaining of some steps. 
+
+Next week, Golden Gate or: How I Learned To Stop Worrying About How Many Fragments I Was Shoving Into a Plasmid. 
+
 
 
 Original Twitter thread
@@ -135,11 +168,13 @@ Original Twitter thread
 
 Contains a lot of useful comments from people who share their techniques and also literature on cheaper alternatives to Gibson. Keep in mind that the NEB HiFi kit contains multiple enzymes to increase efficiency and also functionality so while these alternative reagents work for generic Gibson they might not work for all applications that NEB lists their HiFi kit can be used for. Refer to the literature to determine what you should and shouldn't use them for.
 
+
 What reagents do I use?
 ------
 I am not sponsored by any of these companies. I just can confidently say their products work. 
 
 * NEB HiFi master mix - Cat# E2621
 * NEB Q5 any will work, we use 2x hot-start master mix -  Cat# M0494
+* NEB Monarch Gel Extraction - Cat# T1020
 * Thermo Fisher SybrGreen - Cat# S7563
 
