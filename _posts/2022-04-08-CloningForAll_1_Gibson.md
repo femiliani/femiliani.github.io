@@ -81,8 +81,8 @@ ProTip™ here is a very easy way to get 30-40bp of homology. You don’t actual
 <p float="left">
   <img src="/images/CFA_1/CFA_1_8.png" width="900" />
 </p>
-ProTip™ on primer Tms. I used to take great care in designing primers for cloning, then I switched to NEB Q5 and found that as long as the Tm is 72C, and the primer ends in Gs or Cs, it works. https://tmcalculator.neb.com/ 
-** The 72C should include ONLY the area of your template. ** i.e. Primer1 the sequence the covers the insert should be 72C (ignore the temp of the homology arm) Primer2 look only at the sequence of the CMV promoter not the homology to the insert. 
+ProTip™ on primer Tms. I used to take great care in designing primers for cloning, then I switched to NEB Q5 and found that as long as the Tm is 72C, and the primer ends in Gs or Cs, it works. [NEB Tm Calculator](https://tmcalculator.neb.com/) 
+__The 72C should include ONLY the area of your template.__ i.e. Primer1 the sequence the covers the insert should be 72C (ignore the temp of the homology arm) Primer2 look only at the sequence of the CMV promoter not the homology to the insert. 
 
 
 
