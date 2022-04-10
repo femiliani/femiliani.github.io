@@ -16,7 +16,7 @@ In the first #CloningForEveryone session we will look at Gibson Assembly, which 
 
 How does Gibson assembly work?
 ======
-The goal of these posts are not to bog you down in detail, but I think it is helpful to understand the principle of Gibson assembly. People familiar with restriction cloning know that it works by creating single stranded DNA (overhangs) by cutting with restriction enzymes, by creating complementary overhangs between two pieces of DNA these can anneal and be ligated together. Gibson assembly does the same thing, except that instead of relying on restriction sites to create overhangs it requires homologous DNA sequences (incorporated by PCR) between the backbone and the insert. This homology is double stranded, what happens next?
+The goal of these posts is not to bog you down in detail, but I think it is helpful to understand the principle of Gibson assembly. People familiar with restriction cloning know that it works by creating single stranded DNA (overhangs) by cutting with restriction enzymes, by creating complementary overhangs between two pieces of DNA these can anneal and be ligated together. Gibson assembly does the same thing, except that instead of relying on restriction sites to create overhangs it requires homologous DNA sequences (incorporated by PCR) between the backbone and the insert. This homology is double stranded, what happens next?
 * exonuclease chews back 5' -> 3' leaving an exposed 3' overhang, this happens on both pieces leaving complementary overhangs that can anneal
 * unlike in restriction cloning the overhangs can be different lengths so a polymerase in the mix fills in the gaps
 * once the gaps are filled the DNA is ligated
