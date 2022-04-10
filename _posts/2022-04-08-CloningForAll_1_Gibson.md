@@ -36,8 +36,8 @@ I'm going to walk you through a theoretical cloning project. I picked this examp
 
 
 <p float="left">
-  <img src="/images/CFA_1/CFA_1_1.png" width="400" />
-  <img src="/images/CFA_1/CFA_1_1.png" width="400" /> 
+  <img src="/images/CFA_1/CFA_1_1.png" width="600" />
+  <img src="/images/CFA_1/CFA_1_1.png" width="600" /> 
 </p>
 
 
