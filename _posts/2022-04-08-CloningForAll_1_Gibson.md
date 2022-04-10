@@ -85,9 +85,45 @@ ProTip™ on primer Tms. I used to take great care in designing primers for clon
 __The 72C should include ONLY the area of your template.__ i.e. Primer1 the sequence the covers the insert should be 72C (ignore the temp of the homology arm) Primer2 look only at the sequence of the CMV promoter not the homology to the insert. 
 
 
+We do the same at the other end. 
+<p float="left">
+  <img src="/images/CFA_1/CFA_1_9.png" width="900" />
+</p>
 
-I used to take great care in designing primers for cloning, then I switched to NEB Q5 and found that as long as the Tm is 72C, and the primer ends in Gs or Cs, it works. 
+Now we set up the two PCR reactions:
+1. 10ng pX458 + Primer1 + Primer4 = Cas9 with homology
+2. 10ng pLenti + Primer2 + Primer3 = pLenti vector with homology
 
+We designed the Tms to be 72C. So there's no thinking about Tms to do. 
+The elongation time is also relatively simple:
+* 1min for <1kb then add 1min per kb. 
+* If you go above 8kb in min = (kb+2min) e.g. 8kb is 10min. 
+* If you have a few fragments ranging from small to 3kb you can set them all at the elongation time for 3kb. But, it's worthwhile to know that small fragments PCR more efficiently than larger fragments. So if running in the same machine together:
+  * add a little more template for the longer fragments
+  * put the fragments in as individual tubes, as they are read pause the machine at the 72C step after image, open lid, remove tubes that are done, close, and unpause run
+
+From a distance I can hear the weathered molecular biologist saying, "PCRing a region as large as the vector is a bad idea". But I have plenty of evidence that it's not that bad. The secret is to not do it the traditional way. How?
+1. Q5 has amazing error correcting abilities
+2. The secret is to minimize the number of cycles
+
+```
+Here is the real tip that most people don't know about. You can clone in a real-time PCR machine (mind blown gif). It will tell you when you have enough product and prevent you from over-amplifying. 
+```
+How do I do it? We purchased SybrGreen from Thermo Fisher, and spike it into our PCRs. Now we can monitor our product as it is made. And we can stop it just before it enters the linear phase. 
+<p float="left">
+  <img src="/images/CFA_1/CFA_1_10.png" width="900" />
+</p>
+I know everyone has concerns about this, does the intercalation affect downstream steps? My answer, it makes sense, so maybe? but 99% of my colonies are 100% error-free, so it's fixing much more error than it's creating.  
+
+To fully take advantage of this approach set up your PCR protocol as some version of the following:
+<p float="left">
+  <img src="/images/CFA_1/CFA_1_11.png" width="900" />
+</p>
+The 15 seconds of grace period between the imaging and jumping back to denaturing (98C) gives you a chance to skip out of the cycling (most biorad PCR machines allow this).  
+
+```
+I don't want to go into all the details of how to gibson without amplifying the backbone right now. The advantage is that you don't have to worry about sequencing the backbone. The basic idea is the same as what we did above. You copy the acceptor vector map, you mimic the digestion and remove the sequence between the restriction sites (you can reconstitute the restriction sites or remove them). You copy paste the insert(s). And design primers only for the insert adding 20bp of homology to the vector. Then you digest and gel purify the vector, PCR the inserts, gibson away.   
+```
 
 
 Original Twitter thread
