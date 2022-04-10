@@ -45,12 +45,12 @@ Instead of juggling pieces of DNA around a word document, I like to just create 
 
 I've zoomed in on the region where we will be making a deletion from the vector. We don’t want the tet operators so we will remove everything from the end of CMV to the start of puro. Translate the protein coding regions to make sure you won't be knocking it out of frame. 
 <p float="left">
-  <img src="/images/CFA_1/CFA_1_3.png" width="800" />
+  <img src="/images/CFA_1/CFA_1_3.png" width="900" />
 </p>
 
 It's helpful when making deletions to add dummy bases to keep track of where it happened, this helps line up the homology arms later. I add 3W's. 
 <p float="left">
-  <img src="/images/CFA_1/CFA_1_4.png" width="800" />
+  <img src="/images/CFA_1/CFA_1_4.png" width="900" />
 </p>
 
 
