@@ -61,7 +61,8 @@ It's helpful when making deletions to add dummy bases to keep track of where it 
 </p>
 
 Next we figure out where Cas9 should start and stop. 
-ProTip™ Kozak sequence, named after Marilyn Kozak, is very important for translation. The minimum sequence is CCACCATG where ATG is the start codon. Here we have a more complete version (highlighted GCCACCATGG). 
+> ProTip™ Kozak sequence, named after Marilyn Kozak, is very important for translation. The minimum sequence is CCACCATG where ATG is the start codon. Here we have a more complete version (highlighted GCCACCATGG). 
+
 **Notice how the Flag annotation starts on an aspartate (D).** If you had copied just from the Flag you would have missed the start codon. 
 Let’s start Cas9 before the kozak sequence (vertical bar). 
 <p float="left">
