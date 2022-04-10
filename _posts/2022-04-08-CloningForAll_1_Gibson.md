@@ -102,6 +102,7 @@ Create the fragments
 Now we set up the two PCR reactions:
 1. 10ng pX458 + Primer1 + Primer4 = Cas9 with homology
 2. 10ng pLenti + Primer2 + Primer3 = pLenti vector with homology
+I use a 50ul rxn, 30ul would be fine, I wouldn't go lower than that. 
 
 From a distance I can hear the weathered molecular biologist saying, "PCRing a region as large as the vector is a bad idea". But I have plenty of evidence that it's not that bad. The secret is to not do it the traditional way. How?
 1. Q5 has amazing error correcting abilities
