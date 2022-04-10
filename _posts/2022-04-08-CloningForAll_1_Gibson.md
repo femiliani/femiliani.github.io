@@ -50,7 +50,7 @@ I've zoomed in on the region where we will be making a deletion from the vector.
 
 It's helpful when making deletions to add dummy bases to keep track of where it happened, this helps line up the homology arms later. I add 3W's. 
 <p float="left">
-  <img src="/images/CFA_1/CFA_1_4.png" width="600" />
+  <img src="/images/CFA_1/CFA_1_4.png" width="800" />
 </p>
 
 
