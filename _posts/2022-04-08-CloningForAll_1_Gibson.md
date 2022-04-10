@@ -10,9 +10,9 @@ tags:
 
 In the first #CloningForEveryone session we will look at Gibson Assembly, which in my opinion is the most worthwhile to learn because it will let you clone almost anything. And once you know the secret to it, it's as easy as restriction cloning.
 
-```
+
 This "blog" post was written after the original twitter thread. I just wanted to thank everyone who read it, shared it, and commented on it. When I wrote it I genuinely thought only a handful of people would see it. And wow was I wrong. There are few things in science more rewarding than knowing you might have helped another scientist. Thank you for brightening up my day! Hope you found it helpful in some way. 
-```
+{: .notice}
 
 How does Gibson assembly work?
 ======
@@ -107,9 +107,10 @@ From a distance I can hear the weathered molecular biologist saying, "PCRing a r
 1. Q5 has amazing error correcting abilities
 2. The secret is to minimize the number of cycles
 
-```
+
 Here is the real tip that most people don't know about. You can clone in a real-time PCR machine (mind blown gif). It will tell you when you have enough product and prevent you from over-amplifying. 
-```
+{: .notice}
+
 How do I do it? We purchased SybrGreen from Thermo Fisher, and spike it into our PCRs. Now we can monitor our product as it is made. And we can stop it just before it enters the linear phase. 
 <p float="left">
   <img src="/images/CFA_1/CFA_1_10.png" width="900" />
@@ -151,9 +152,9 @@ As many twitter users pointed out, the HiFi kit isn't free.
 * For the less experienced user I liked @ProfCamenares suggestion of just reducing volumes. HiFi/Gibson is incredibly efficient, a half or third reaction will give you plenty of material for your transformation. Pipet a volume you are comfortable with. 
 * There we some suggestions and literature for alternative formulations or homebrew recipes that are cheaper, if you are confident in your skills I fully support them. As I mention later, keep in mind HiFi isn't just marked up enzyme, there are other enzymes in it that add functionality.  
 
-```
+
 I don't want to go into all the details of how to gibson without amplifying the backbone right now. The advantage is that you don't have to worry about sequencing the backbone. The basic idea is the same as what we did above. You copy the acceptor vector map, you mimic the digestion and remove the sequence between the restriction sites (you can reconstitute the restriction sites or remove them). You copy paste the insert(s). And design primers only for the insert adding 20bp of homology to the vector or between the inserts. Then you digest the vector (don't alkaline phosphatase it), PCR the inserts, gel purify or DpnI, gibson away.   
-```
+{: .notice}
 
 Thanks for reading through, I hope you found at least something of use here. Let me know if there was too much/little explaining of some steps. 
 
