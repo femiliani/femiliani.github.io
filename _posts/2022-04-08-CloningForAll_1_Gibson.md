@@ -29,7 +29,7 @@ Gibson assembly can replace restriction cloning, especially when there are no co
 
 When to avoid Gibson Assembly
 ------
-Gibson requires PCR to add homology to either the insert, vector, or both. If you are limited to a region that is very repetitive or GC rich and can't produce clean PCR products it will hurt efficiency (but it can still work if you are desperate). Additionally, and this took a lot of pain to learn, Gibson fails when the pieces you are trying to put in are very similar to each other. For example many CRISPR-screens are now using dual sgRNAs, these are usually created by having two U6 promoter + sgRNA + scaffold, even if you PCR on unique 20-30mers on the end of these U6-guide blocks the sequence inbetween is similar and efficiency takes a massive hit. To assemble these kinds of plasmids I recommend Golden Gate (which will be next weeks topic).
+Gibson requires PCR to add homology to either the insert, vector, or both. If you are limited to a region that is very repetitive or GC rich and can't produce clean PCR products it will hurt efficiency (but it can still work). Additionally, and this took a lot of pain to learn, Gibson fails when the pieces you are trying to assemble are very similar to each other. For example many CRISPR-screens are now using dual sgRNAs, these are usually created by having two U6 promoter + sgRNA + scaffold, even if you PCR on unique 20-30mers on the end of these U6-guide blocks the sequence inbetween is similar and efficiency takes a massive hit. To assemble these kinds of plasmids I recommend Golden Gate (which will be next week's topic).
 
 Planning your cloning
 ------
@@ -37,7 +37,7 @@ Planning your cloning
 > Clarification, throughout this post I will be calling it Gibson assembly, because that's what it was originally called. But I use the NEB Hifi DNA assembly mastermix which is an optimized set of enzymes compared to the original Gibson assemblies. 
 
 
-There are a lot of tools out there for Gibson cloning design. They are confusing to me. Gibson is incredibly powerful and so my suggestion is to design the plasmid you want, and the cloning will work. 
+There are a lot of tools out there for Gibson cloning design. They are confusing to me. Gibson is incredibly flexible and so my suggestion is to design the plasmid you want, and the cloning will work. 
 
 I'm going to walk you through a theoretical cloning project. I picked this example because there are no convenient restriction sites and this would be a nightmare to do with traditional restriction cloning. 
 
@@ -61,9 +61,9 @@ It's helpful when making deletions to add dummy bases to keep track of where it 
 </p>
 
 Next we figure out where Cas9 should start and stop. 
-ProTip™ Kozak sequence, named after Marilyn Kozak, significantly increases translation. The minimum sequence is CCACCATG where ATG is the start codon. Here we have a more complete version (highlighted GCCACCATGG). 
-Notice how the Flag annotation starts on an aspartate (D). If you had copied just from the Flag you would have missed the start codon. 
-Let’s start Cas9 before the kozak (vertical bar). 
+ProTip™ Kozak sequence, named after Marilyn Kozak, is very important for translation. The minimum sequence is CCACCATG where ATG is the start codon. Here we have a more complete version (highlighted GCCACCATGG). 
+**Notice how the Flag annotation starts on an aspartate (D).** If you had copied just from the Flag you would have missed the start codon. 
+Let’s start Cas9 before the kozak sequence (vertical bar). 
 <p float="left">
   <img src="/images/CFA_1/CFA_1_5.png" width="900" />
 </p>
@@ -84,12 +84,13 @@ Here’s the 5’ seam. We want two primers at this seam.
 * Primer1 amplifying our insert and adding the homology to the backbone  
 * Primer2 going the opposite way, amplifying our backbone. 
 (primers not drawn to scale) 
-ProTip™ here is a very easy way to get 30-40bp of homology. You don’t actually need to add 30 bp of homology to one primer you can add 15bp to each. Primer1 has 15bp to the backbone, primer2 has 15bp to the insert. 
+
+> ProTip™ here is a very easy way to get 30-40bp of homology. You don’t actually need to add 30 bp of homology to one primer you can add 15bp to each. Primer1 has 15bp to the backbone, primer2 has 15bp to the insert. 
+
 <p float="left">
   <img src="/images/CFA_1/CFA_1_8.png" width="900" />
 </p>
-ProTip™ on primer Tms. I used to take great care in designing primers for cloning, then I switched to NEB Q5 and found that as long as the Tm is 72C, and the primer ends in Gs or Cs, it works. [NEB Tm Calculator](https://tmcalculator.neb.com/) 
-__The 72C should include ONLY the area of your template.__ i.e. Primer1 the sequence the covers the insert should be 72C (ignore the temp of the homology arm) Primer2 look only at the sequence of the CMV promoter not the homology to the insert. 
+> ProTip™ on primer Tms. I used to take great care in designing primers for cloning, then I switched to NEB Q5 and found that as long as the Tm is 72C, and the primer ends in Gs or Cs, it works. [NEB Tm Calculator](https://tmcalculator.neb.com/) <br> __The 72C should include ONLY the area of your template.__ i.e. Primer1 the sequence the covers the insert should be 72C (ignore the temp of the homology arm) Primer2 look only at the sequence of the CMV promoter not the homology to the insert. 
 
 We do the same at the other end. 
 <p float="left">
