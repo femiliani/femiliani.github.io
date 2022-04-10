@@ -66,6 +66,30 @@ As for where to end, lets grab to the end of the T2A and keep it all in frame.
   <img src="/images/CFA_1/CFA_1_6.png" width="900" />
 </p>
 
+Now we paste Cas9+T2A in the place of the 3W's, and annotate this entire integration so that we can design homology arms later. This is especially important when introducing multiple pieces. Which would be done the same way we did here, pick the pieces and copy paste them into the receiving vector. 
+<p float="left">
+  <img src="/images/CFA_1/CFA_1_7.png" width="900" />
+</p>
+
+## Designing primers
+The next step is to design primers that add homology between the insert and the vector. 
+Here’s the 5’ seam. We want two primers at this seam.  
+* Primer1 amplifying our insert and adding the homology to the backbone  
+* Primer2 going the opposite way, amplifying our backbone. 
+(primers not drawn to scale) 
+ProTip™ here is a very easy way to get 30-40bp of homology. You don’t actually need to add 30 bp of homology to one primer you can add 15bp to each. Primer1 has 15bp to the backbone, primer2 has 15bp to the insert. 
+<p float="left">
+  <img src="/images/CFA_1/CFA_1_8.png" width="900" />
+</p>
+ProTip™ on primer Tms. I used to take great care in designing primers for cloning, then I switched to NEB Q5 and found that as long as the Tm is 72C, and the primer ends in Gs or Cs, it works. https://tmcalculator.neb.com/ 
+** The 72C should include ONLY the area of your template. ** i.e. Primer1 the sequence the covers the insert should be 72C (ignore the temp of the homology arm) Primer2 look only at the sequence of the CMV promoter not the homology to the insert. 
+
+
+
+I used to take great care in designing primers for cloning, then I switched to NEB Q5 and found that as long as the Tm is 72C, and the primer ends in Gs or Cs, it works. 
+
+
+
 Original Twitter thread
 ------
 
