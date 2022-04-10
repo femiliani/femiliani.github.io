@@ -173,7 +173,8 @@ Original Twitter thread
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">In an attempt to pay-forward all the cloning advice I’ve been given here’s the start of <a href="https://twitter.com/hashtag/CloningForAll?src=hash&amp;ref_src=twsrc%5Etfw">#CloningForAll</a>. Today we start with the biggest bang for your buck. Gibson Assembly (GA). Along the way tips and tricks. 1/n</p>&mdash; Francesco Emiliani (@fe_emiliani) <a href="https://twitter.com/fe_emiliani/status/1512440266388647941?ref_src=twsrc%5Etfw">April 8, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 Contains a lot of useful comments from people who share their techniques and also literature on cheaper alternatives to Gibson. Keep in mind that the NEB HiFi kit contains multiple enzymes to increase efficiency and also functionality so while these alternative reagents work for generic Gibson they might not work for all applications that NEB lists their HiFi kit can be used for. Refer to the literature to determine what you should and shouldn't use them for.
-Special thanks to @darachm for [TEDA cloning](https://t.co/gK4aEhgF74), @M_Crone for [CPEC](https://t.co/3LmpTNHL2g), @ProfBootyPhD for [Gibson deletion(https://t.co/8Z4FPhAty6)], and anyone else I missed because the Twitter notification system is chaos personified. 
+
+Special thanks to @darachm for [TEDA cloning](https://t.co/gK4aEhgF74), @M_Crone for [CPEC](https://t.co/3LmpTNHL2g), @ProfBootyPhD for [Gibson deletion](https://t.co/8Z4FPhAty6), and anyone else I missed because the Twitter notification system is chaos personified. 
 
 What reagents do I use?
 ------
