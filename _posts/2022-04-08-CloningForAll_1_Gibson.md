@@ -113,7 +113,7 @@ Here is the real tip that most people don't know about. You can clone in a real-
 
 How do I do it? We purchased SybrGreen from Thermo Fisher, and spike it into our PCRs. Now we can monitor our product as it is made. And we can stop it just before it enters the linear phase. 
 <p float="left">
-  <img src="/images/CFA_1/CFA_1_10.png" width="900" />
+  <img src="/images/CFA_1/CFA_1_10.png" width="500" />
 </p>
 I know everyone has concerns about this, does the intercalation affect downstream steps? My answer, it makes sense, so maybe? but 99% of my colonies are 100% error-free, so it's fixing much more error than it's creating.  
 
