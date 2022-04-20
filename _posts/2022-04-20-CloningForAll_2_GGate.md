@@ -1,6 +1,6 @@
 ---
 title: 'Cloning for all #2 - Golden Gate'
-date: 2022-04-15
+date: 2022-04-20
 permalink: /posts/2022/04/cloning-for-all-2/
 tags:
   - CloningForAll
@@ -30,7 +30,7 @@ Unlocking the potential of Type IIS Restriction Enzymes
 The true magic of Golden Gate is that you cut away from the recognition site. I am going to use an example that uses Type IIS enzymes to show how they work and then we will get into true Golden Gate. CRISPR, it won a nobel, everybody does it these days. The machinery to express sgRNAs is usually a U6 (250 bp) + guide (20 bp) + scaffold (80 bp) + 6Ts to stop DNA Pol III. Since only 20 bp of that ~350 bp sequence need to change, there's no reason to put that all together every time. Enter Type IIS. Between the U6 and scaffold are two outward facing BsaI sites. i.e. the enzyme sits on the two highlighted portions and cuts outwards towards the U6 and scaffold.
 
 <p float="left">
-  <img src="/images/CFA_2/CFA_2_2.png" width="600" />
+  <img src="/images/CFA_2/CFA_2_2.png" width="900" />
 </p>
 
 When you cut the 2x BsaI fragment drops out leaving unique overhangs. We introduce our guide sequence by annealing two oligos that have the correct overhangs, seamless assembly so that your guide starts at the right base. The position of the guide sequence with regards to the U6 and scaffold are important for its expression and function, so you can't afford to use Type IIP restriction sites that either 1) limit your options sequence wise, and 2) get in the way. 
@@ -60,9 +60,9 @@ Planning your cloning
 You've seen most of my tricks in the [Gibson assembly thread](https://femiliani.github.io/posts/2022/04/cloning-for-all-1/) I will try to give you a visual of how to create the matching overhangs between fragments so you can understand how this all works. The first step is to make sure that the backbone and fragments dont have the Type IIS enzyme you plan to use (and hopefully avoid spending a significant amount of time finding all the sequences just to find that all the possible Type IIS sites are unusable). This is admittedly one of the drawbacks of Golden Gate and a reason Gibson is easier to design. Recently NEB came out with a new enzyme to try to overcome this [PaqCI](https://www.neb.com/products/r0745-paqci#Product%20Information) has a 7 bp recognition site (instead of 6) and is therefore rarer. 
 
 <p float="left">
-  <img src="/images/CFA_2/CFA_2_5.png" width="600" />
-  <img src="/images/CFA_2/CFA_2_6.png" width="600" />
-  <img src="/images/CFA_2/CFA_2_7.png" width="600" />
+  <img src="/images/CFA_2/CFA_2_5.png" width="900" />
+  <img src="/images/CFA_2/CFA_2_6.png" width="900" />
+  <img src="/images/CFA_2/CFA_2_7.png" width="900" />
 </p>
 
 
