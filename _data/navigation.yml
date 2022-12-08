@@ -9,5 +9,5 @@ main:
   - title: "Lessons in MolBio"
     url: /year-archive/   
   
-  #- title: "Hobbies"
-  #  url: /portfolio/
+  - title: "Hobbies"
+    url: /hobbies/
