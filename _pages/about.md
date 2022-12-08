@@ -8,11 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-Francesco is still trying to decide what else to put on this page and how to format it, that will come in due time. Until then the use for this page will be to host the #CloningForAll blog posts. Hope you'll find your way back here once I figure out what else I want to add! 
+Hello! Welcome to the early beginnings of this website. I'm from Milan, Italy, grew up in Dubai, UAE, ended up in Baltimore for college, and now I'm in New Hampshire! I'm currently an MD-PhD student at Dartmouth pursuing my PhD in the lab of Dr. Aaron McKenna. Broadly my research interests lie in developing new molecular and computational tools for research and diagnostics. I have gotten more involved with long-read sequencing lately and can't help but notice the potential it has for rapid and affordable diagnostics. What seemed like a sci-fi dream of putting in a sample and getting a near instant result is slowly becoming reality and I aim to be part of that. 
 
 Lessons in MolBio
 ======
 I was fortunate to learn cloning techniques from some excellent teachers. They laid the foundation which I then honed by creating (unnecessarily) complex plasmids. What I've learned is that cloning is actually easy once you know the rules that are written between the lines of protocols. In the [Lessons in MolBio](https://femiliani.github.io/year-archive/) I will try to share the tips/tricks/rules I learnt with you so that you will come to love cloning too. 
+
+Hobbies 
+======
+Sometimes we have to do things other than science to stay sane. If you want to see some cool drone photography of the upper valley, learn how to make jewelry with lost-wax casting, try out some of my favorite recipes (including my grandmother's apple cake), or try to grow hot peppers in a climate that's definitely not suited for them [check out this section](https://femiliani.github.io/hobbies/). 
 
 <!--
 header
