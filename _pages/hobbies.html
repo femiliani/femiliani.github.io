@@ -1,15 +1,13 @@
 ---
 layout: archive
+title: "Hobbies"
 permalink: /hobbies/
-title: "Things I do to keep sane"
 author_profile: true
-<!--redirect_from:
-  - /wordpress/blog-posts/ -->
 ---
 
-Testing testing one two three
-Here's a picture!
-<p float="left">
-  <img src="/images/photography/210210_ledyard_tracks.jpg" width="600" />
-  <!-- <img src="/images/CFA_1/CFA_1_2.png" width="600" /> -->
-</p>
+{% include base_path %}
+
+
+{% for post in site.hobbies %}
+  {% include archive-single.html %}
+{% endfor %}
