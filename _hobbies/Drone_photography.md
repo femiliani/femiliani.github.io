@@ -12,6 +12,6 @@ tags:
 Testing that I still remember how to do this
 Here's a picture!
 <p float="left">
-  <img src="/images/photography/210210_ledyar_tracks.jpg" width="600" />
+  <img src="/images/photography/210210_ledyard_tracks.jpg" width="600" />
   <!-- <img src="/images/CFA_1/CFA_1_2.png" width="600" /> -->
 </p>
