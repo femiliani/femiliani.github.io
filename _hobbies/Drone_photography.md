@@ -1,6 +1,6 @@
 ---
 title: 'Drone photography of the Upper Valley'
-date: 2022-12-08
+date: 2022-12-07
 permalink: /hobbies/2022/12/drone_photography1/
 tags:
   - Drone
