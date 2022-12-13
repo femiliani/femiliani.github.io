@@ -1,6 +1,6 @@
 ---
 title: "Drone photography of the Upper Valley"
-excerpt: "Some shots I've in New Hampshire <br><img src='/images/photography/201011_ledyard_1.jpg' style='width: 600px;'>"
+excerpt: "Some shots I've taken in New Hampshire <br><img src='/images/photography/201011_ledyard_1.jpg' style='width: 600px;'>"
 collection: portfolio
 ---
 
