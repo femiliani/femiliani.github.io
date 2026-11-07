@@ -1,0 +1,450 @@
+{
+  "case_start": 51,
+  "case_end": 60,
+  "case_count": 10,
+  "cases": [
+    {
+      "id": "w803c1",
+      "url": "https://sp.pathology.jhu.edu/week-803-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 803: Case 1",
+      "case_label": "Week 803: Case 1",
+      "attribution": "Case presented by Dr. Pedram Argani, MD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This is a 60 year old female with a lung mass.",
+      "question_text": "Case presented by Dr. Pedram Argani, MD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis is a 60 year old female with a lung mass.",
+      "source_answer": "B. Atypical carcinoid tumor",
+      "correct_answer": "Atypical carcinoid tumor",
+      "canonical_answer": "Atypical carcinoid tumor",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Carcinoid tumor",
+        "B. Atypical carcinoid tumor",
+        "C. Large cell neuroendocrine carcinoma",
+        "D. Small cell carcinoma"
+      ],
+      "choices": [
+        "Carcinoid tumor",
+        "Atypical carcinoid tumor",
+        "Large cell neuroendocrine carcinoma",
+        "Small cell carcinoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8601.svs-6712268584744560631x-2.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8601.svs-374452711159419437361x-1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8601.svs-581073860564889437372x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8601.svs-647584202665921429067x.png"
+      ],
+      "histology": "This neoplasm is composed of solid nests of uniform epithelioid cells with speckled chromatin and granular eosinophilic cytoplasm. The neoplasm has an infiltrative pattern of growth, as it permeates around bronchial cartilage. The neoplastic cells demonstrate diffuse immunoreactivity for cytokeratin AE1/3 and neuroendocrine markers chromogranin and synaptophysin. While the cells are cytologically bland, the mitotic rate is elevated at approximately 5 per 2mm2 squared. The Ki67 is 7%. Despite the absence of tumor necrosis, these features qualify for an atypical carcinoid tumor.",
+      "discussion": "Atypical carcinoid tumors have a mitotic rate of <2 per 2mm2 square (approximately 8 high power fields on most modern microscopes). Large cell neuroendocrine carcinoma would demonstrate greater necrosis, and a mitotic rate of >10 per 2mm squared. Large cell neuroendocrine carcinoma typically has a neuroendocrine architecture (nested pattern with palisading of tumor nuclei at the edges) but cytology which is non neuroendocrine (open chromatin with fairly prominent nucleoli). Small cell carcinoma would similarly demonstrate necrosis and a high mitotic rate (>10 per 2mm2 squared, and usually far more than that). The neoplastic cells of small cell carcinoma have hyperchromatic chromatin and the nuclei mold to each other.",
+      "references": [],
+      "feedback_text": "Answer: B. Atypical carcinoid tumor\n\nHistologic Description: This neoplasm is composed of solid nests of uniform epithelioid cells with speckled chromatin and granular eosinophilic cytoplasm. The neoplasm has an infiltrative pattern of growth, as it permeates around bronchial cartilage. The neoplastic cells demonstrate diffuse immunoreactivity for cytokeratin AE1/3 and neuroendocrine markers chromogranin and synaptophysin. While the cells are cytologically bland, the mitotic rate is elevated at approximately 5 per 2mm2 squared. The Ki67 is 7%. Despite the absence of tumor necrosis, these features qualify for an atypical carcinoid tumor.\n\nDifferential Diagnosis: Atypical carcinoid tumors have a mitotic rate of <2 per 2mm2 square (approximately 8 high power fields on most modern microscopes). Large cell neuroendocrine carcinoma would demonstrate greater necrosis, and a mitotic rate of >10 per 2mm squared. Large cell neuroendocrine carcinoma typically has a neuroendocrine architecture (nested pattern with palisading of tumor nuclei at the edges) but cytology which is non neuroendocrine (open chromatin with fairly prominent nucleoli). Small cell carcinoma would similarly demonstrate necrosis and a high mitotic rate (>10 per 2mm2 squared, and usually far more than that). The neoplastic cells of small cell carcinoma have hyperchromatic chromatin and the nuclei mold to each other.",
+      "feedback_html": "<strong>Answer:</strong> B. Atypical carcinoid tumor<p></p>\n<p><strong>Histologic Description:</strong> This neoplasm is composed of solid nests of uniform epithelioid cells with speckled chromatin and granular eosinophilic cytoplasm. The neoplasm has an infiltrative pattern of growth, as it permeates around bronchial cartilage. The neoplastic cells demonstrate diffuse immunoreactivity for cytokeratin AE1/3 and neuroendocrine markers chromogranin and synaptophysin. While the cells are cytologically bland, the mitotic rate is elevated at approximately 5 per 2mm2 squared. The Ki67 is 7%. Despite the absence of tumor necrosis, these features qualify for an atypical carcinoid tumor.</p>\n<p><strong>Differential Diagnosis:</strong> Atypical carcinoid tumors have a mitotic rate of &lt;2 per 2mm2 square (approximately 8 high power fields on most modern microscopes). Large cell neuroendocrine carcinoma would demonstrate greater necrosis, and a mitotic rate of &gt;10 per 2mm squared. Large cell neuroendocrine carcinoma typically has a neuroendocrine architecture (nested pattern with palisading of tumor nuclei at the edges) but cytology which is non neuroendocrine (open chromatin with fairly prominent nucleoli). Small cell carcinoma would similarly demonstrate necrosis and a high mitotic rate (&gt;10 per 2mm2 squared, and usually far more than that). The neoplastic cells of small cell carcinoma have hyperchromatic chromatin and the nuclei mold to each other.</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T19:59:35.880Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w802c3",
+      "url": "https://sp.pathology.jhu.edu/week-802-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 802: Case 3",
+      "case_label": "Week 802: Case 3",
+      "attribution": "Case presented by Dr. Ezra Baraban, MD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This case is an adult male with a urethra tumor.",
+      "question_text": "Case presented by Dr. Ezra Baraban, MD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis case is an adult male with a urethra tumor.",
+      "source_answer": "D. Papillary urothelial neoplasm with extensive denudation",
+      "correct_answer": "Papillary urothelial neoplasm with extensive denudation",
+      "canonical_answer": "Papillary urothelial neoplasm with extensive denudation",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "A. Nephrogenic adenoma",
+        "B. Polypoid urethritis",
+        "C. Granulation tissue",
+        "D. Papillary urothelial neoplasm with extensive denudation"
+      ],
+      "choices": [
+        "Nephrogenic adenoma",
+        "Polypoid urethritis",
+        "Granulation tissue",
+        "Papillary urothelial neoplasm with extensive denudation"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/1_8600.svs-56441310890565742571x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/2_8600.svs-56441310845435398051x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/3_8600.svs-144261351426708217541x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/4_8600.svs-279561875731746213002x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/5_8600.svs-180155678120437587122x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8600.svs-246355471126422560862x.png"
+      ],
+      "histology": "Sections show a segment of urethra with a complex branching intraluminal exophytic proliferation of fibrovascular cores and stroma.",
+      "discussion": "Papillary urothelial neoplasms, particularly if high-grade, can become virtually entirely denuded such that all that is available for histologic review is the residual stromal skeleton devoid of neoplastic cells. The delicate, complex, branching architecture is still essentially diagnostic of a papillary urothelial neoplasm. Grading is difficult without associated tumor cells, but due to their frequent discohesion, such tumors often represent high grade papillary urothelial carcinoma. The current case was such an example, as the clinical history was notable for high-grade papillary urothelial carcinoma in the bladder with recurrent urethral tumors, and other sections from the same urethrectomy specimen showed non-invasive high grade papillary urothelial carcinoma. Nephrogenic adenoma can have papillary architecture but typically lacks such extensive branching and architectural complexity and would demonstrate bland cuboidal lining. Polypoid urethritis (or cystitis) is a tumor like lesion that can mimic an epithelial neoplasm but the lesion is mass forming due to underlying edema and fibrosis of the lamina propria rather than due to epithelial proliferation. Granulation tissue could look similar at very high magnification but is composed of an orderly arrangement of capillaries and fibrous tissue rather than a mass lesion with a delicate papillary configuration.",
+      "references": [],
+      "feedback_text": "Answer: D. Papillary urothelial neoplasm with extensive denudation\n\nHistology: Sections show a segment of urethra with a complex branching intraluminal exophytic proliferation of fibrovascular cores and stroma.\n\nDiscussion: Papillary urothelial neoplasms, particularly if high-grade, can become virtually entirely denuded such that all that is available for histologic review is the residual stromal skeleton devoid of neoplastic cells. The delicate, complex, branching architecture is still essentially diagnostic of a papillary urothelial neoplasm. Grading is difficult without associated tumor cells, but due to their frequent discohesion, such tumors often represent high grade papillary urothelial carcinoma. The current case was such an example, as the clinical history was notable for high-grade papillary urothelial carcinoma in the bladder with recurrent urethral tumors, and other sections from the same urethrectomy specimen showed non-invasive high grade papillary urothelial carcinoma. Nephrogenic adenoma can have papillary architecture but typically lacks such extensive branching and architectural complexity and would demonstrate bland cuboidal lining. Polypoid urethritis (or cystitis) is a tumor like lesion that can mimic an epithelial neoplasm but the lesion is mass forming due to underlying edema and fibrosis of the lamina propria rather than due to epithelial proliferation. Granulation tissue could look similar at very high magnification but is composed of an orderly arrangement of capillaries and fibrous tissue rather than a mass lesion with a delicate papillary configuration.",
+      "feedback_html": "<strong>Answer:</strong> D. Papillary urothelial neoplasm with extensive denudation<p></p>\n<p><strong>Histology:</strong> Sections show&nbsp;a segment of urethra with a complex branching intraluminal exophytic proliferation of fibrovascular cores and stroma.</p>\n<p><strong>Discussion:</strong> Papillary urothelial neoplasms, particularly if high-grade, can become virtually entirely denuded such that all that is available for histologic review is the&nbsp;residual&nbsp;stromal skeleton&nbsp;devoid of neoplastic cells.&nbsp;&nbsp;The delicate, complex, branching&nbsp;architecture&nbsp;is still essentially diagnostic of a papillary urothelial neoplasm.&nbsp;&nbsp;Grading is difficult without&nbsp;associated&nbsp;tumor cells, but due to their frequent&nbsp;discohesion, such tumors often&nbsp;represent&nbsp;high grade papillary urothelial carcinoma.&nbsp;&nbsp;The current case was such an example, as the clinical history was notable for high-grade papillary urothelial carcinoma in the bladder&nbsp;with recurrent urethral tumors, and other sections from the same urethrectomy specimen showed non-invasive high grade papillary urothelial carcinoma.&nbsp;Nephrogenic adenoma can have papillary architecture but typically lacks such extensive branching and architectural complexity and would&nbsp;demonstrate&nbsp;bland cuboidal lining.&nbsp;Polypoid urethritis (or cystitis) is a&nbsp;tumor like&nbsp;lesion that can mimic an epithelial&nbsp;neoplasm&nbsp;but the lesion is mass forming due to underlying edema and fibrosis of the&nbsp;lamina propria rather than due to epithelial proliferation.&nbsp;Granulation tissue could look similar at&nbsp;very high&nbsp;magnification but is composed of an orderly arrangement of capillaries and fibrous tissue rather than a mass lesion with a delicate papillary configuration.</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T19:59:47.756Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w802c2",
+      "url": "https://sp.pathology.jhu.edu/week-802-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 802: Case 2",
+      "case_label": "Week 802: Case 2",
+      "attribution": "Case presented by Dr. Ezra Baraban, MD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This case is an adult male who underwent a radical prostatectomy.",
+      "question_text": "Case presented by Dr. Ezra Baraban, MD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis case is an adult male who underwent a radical prostatectomy.",
+      "source_answer": "D. Clear cell cribriform hyperplasia",
+      "correct_answer": "Clear cell cribriform hyperplasia",
+      "canonical_answer": "Clear cell cribriform hyperplasia",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "A. Intraductal carcinoma of the prostate",
+        "B. Atypical intraductal proliferation",
+        "C. High grade prostatic intraepithelial neoplasia",
+        "D. Clear cell cribriform hyperplasia"
+      ],
+      "choices": [
+        "Intraductal carcinoma of the prostate",
+        "Atypical intraductal proliferation",
+        "High grade prostatic intraepithelial neoplasia",
+        "Clear cell cribriform hyperplasia"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/1_8599.svs-276726394104707591401x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/2_8599.svs-251643390856627440151x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/3_8599.svs-387114135048422444691x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/4_8599.svs-424774293644142434704x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/5_8599.svs-429124307943426432449x.png"
+      ],
+      "histology": "Sections show a dense cribriform glandular epithelial proliferation but without cytologic atypia.",
+      "discussion": "Clear cell cribriform hyperplasia is an architectural mimicker of either Atypical intraductal proliferation or Intraductal carcinoma of the prostate, but the lack of nuclear atypia distinguishes this as a benign entity of no clinical significance. Architecturally, there is sufficient density of the epithelium to warrant a diagnosis of intraductal carcinoma, but that entity requires cytologic atypia or necrosis in addition to dense cribriform architecture. The term Atypical intraductal proliferation is typically used for lesions with some but not all the features of Intraductal carcinoma of the prostate. Such lesions show either cribriform growth but with “loose” architecture such that the quantity of epithelium does not definitively exceed that of the luminal spaces, or cytologic atypia beyond that typically seen in High grade prostatic intraepithelial neoplasia but not overtly malignant cytology to warrant a diagnosis of Intraductal carcinoma of the prostate. High grade prostatic intraepithelial neoplasia shows cytologic atypia analogous to that of invasive prostatic adenocarcinoma, but cribriform architecture is no longer accepted in High grade prostatic intraepithelial neoplasia with most lesions previously diagnosed as such likely qualifying as either Atypical intraductal proliferation or Intraductal carcinoma of the prostate by current criteria.",
+      "references": [],
+      "feedback_text": "Answer: D. Clear cell cribriform hyperplasia\n\nHistology: Sections show a dense cribriform glandular epithelial proliferation but without cytologic atypia.\n\nDiscussion: Clear cell cribriform hyperplasia is an architectural mimicker of either Atypical intraductal proliferation or Intraductal carcinoma of the prostate, but the lack of nuclear atypia distinguishes this as a benign entity of no clinical significance. Architecturally, there is sufficient density of the epithelium to warrant a diagnosis of intraductal carcinoma, but that entity requires cytologic atypia or necrosis in addition to dense cribriform architecture. The term Atypical intraductal proliferation is typically used for lesions with some but not all the features of Intraductal carcinoma of the prostate. Such lesions show either cribriform growth but with “loose” architecture such that the quantity of epithelium does not definitively exceed that of the luminal spaces, or cytologic atypia beyond that typically seen in High grade prostatic intraepithelial neoplasia but not overtly malignant cytology to warrant a diagnosis of Intraductal carcinoma of the prostate. High grade prostatic intraepithelial neoplasia shows cytologic atypia analogous to that of invasive prostatic adenocarcinoma, but cribriform architecture is no longer accepted in High grade prostatic intraepithelial neoplasia with most lesions previously diagnosed as such likely qualifying as either Atypical intraductal proliferation or Intraductal carcinoma of the prostate by current criteria.",
+      "feedback_html": "<strong>Answer:</strong> D. Clear cell cribriform hyperplasia<p></p>\n<p><strong>Histology:</strong> Sections show a dense cribriform glandular epithelial proliferation but without cytologic atypia.</p>\n<p><strong>Discussion:</strong> Clear cell cribriform hyperplasia is an architectural mimicker of either Atypical intraductal proliferation or Intraductal carcinoma of the prostate, but the lack of nuclear atypia distinguishes this as a benign entity of no clinical significance. Architecturally, there is sufficient density of the epithelium to warrant a diagnosis of intraductal carcinoma, but that entity requires cytologic atypia or necrosis in addition to dense cribriform architecture. The term Atypical intraductal proliferation is typically used for lesions with some but not all the features of Intraductal carcinoma of the prostate. Such lesions show either cribriform growth but with “loose” architecture such that the quantity of epithelium does not definitively exceed that of the luminal spaces, or cytologic atypia beyond that typically seen in High grade prostatic intraepithelial neoplasia but not overtly malignant cytology to warrant a diagnosis of Intraductal carcinoma of the prostate.&nbsp;&nbsp;High grade prostatic intraepithelial neoplasia shows cytologic atypia analogous to that of invasive prostatic adenocarcinoma, but cribriform architecture is no longer accepted in High grade prostatic intraepithelial neoplasia with most lesions previously diagnosed as such likely qualifying as either Atypical intraductal proliferation or Intraductal carcinoma of the prostate by current criteria.</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T19:59:57.992Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w802c1",
+      "url": "https://sp.pathology.jhu.edu/week-802-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 802: Case 1",
+      "case_label": "Week 802: Case 1",
+      "attribution": "Case presented by Dr. Ezra Baraban, MD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This case is an adult male with a bladder tumor.",
+      "question_text": "Case presented by Dr. Ezra Baraban, MD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis case is an adult male with a bladder tumor.",
+      "source_answer": "C. Inverted urothelial papilloma",
+      "correct_answer": "Inverted urothelial papilloma",
+      "canonical_answer": "Inverted urothelial papilloma",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "A. Urothelial papilloma",
+        "B. Non-invasive low-grade papillary urothelial carcinoma",
+        "C. Inverted urothelial papilloma",
+        "D. Papillary urothelial neoplasm of uncertain malignant potential / PUNLMP"
+      ],
+      "choices": [
+        "Urothelial papilloma",
+        "Non-invasive low-grade papillary urothelial carcinoma",
+        "Inverted urothelial papilloma",
+        "Papillary urothelial neoplasm of uncertain malignant potential / PUNLMP"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/1_8598.svs-210531753941878389511x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/2_8598.svs-340982459838265288832x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/3_8598.svs-292883219330898338483x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/4_8598.svs-250613644025458368489x.png"
+      ],
+      "histology": "Sections show a urothelial neoplasm with entirely inverted growth but without urothelial thickening, cytologic atypia, or invasion.",
+      "discussion": "This case exemplifies the key diagnostic features of inverted urothelial papilloma: lack of an exophytic papillary component, thin nests composed of non-thickened urothelial without cytologic atypia. Peripheral palisading is often present. The distinction of Inverted urothelial papilloma from the other listed entities is clinically significant as this lesion is entirely benign whereas the others all require long term follow-up due to the risk for multifocality and recurrence inherent to all exophytic urothelial neoplasms. Urothelial papilloma is exophytic and is composed of delicate papillary fronds projecting into the urinary space. Non-invasive low-grade papillary urothelial carcinoma can have extensive inverted growth but this diagnosis requires cytologic atypia and/or altered polarity. Almost all urothelial carcinomas with inverted growth also have an exophytic component. Also, the inverted component of urothelial carcinomas typically have broad nests, reflecting the thickened urothelium of the underlying carcinoma. PUNLMP is an exophytic urothelial neoplasm composed of urothelium too thick for the diagnosis of a papilloma but without sufficient alteration in polarity or cytologic atypia to merit a designation of low grade papillary urothelial carcinoma.",
+      "references": [],
+      "feedback_text": "Answer: C. Inverted urothelial papilloma\n\nHistology: Sections show a urothelial neoplasm with entirely inverted growth but without urothelial thickening, cytologic atypia, or invasion.\n\nDiscussion: This case exemplifies the key diagnostic features of inverted urothelial papilloma: lack of an exophytic papillary component, thin nests composed of non-thickened urothelial without cytologic atypia. Peripheral palisading is often present. The distinction of Inverted urothelial papilloma from the other listed entities is clinically significant as this lesion is entirely benign whereas the others all require long term follow-up due to the risk for multifocality and recurrence inherent to all exophytic urothelial neoplasms. Urothelial papilloma is exophytic and is composed of delicate papillary fronds projecting into the urinary space. Non-invasive low-grade papillary urothelial carcinoma can have extensive inverted growth but this diagnosis requires cytologic atypia and/or altered polarity. Almost all urothelial carcinomas with inverted growth also have an exophytic component. Also, the inverted component of urothelial carcinomas typically have broad nests, reflecting the thickened urothelium of the underlying carcinoma. PUNLMP is an exophytic urothelial neoplasm composed of urothelium too thick for the diagnosis of a papilloma but without sufficient alteration in polarity or cytologic atypia to merit a designation of low grade papillary urothelial carcinoma.",
+      "feedback_html": "<strong>Answer:</strong> C. Inverted urothelial papilloma<p></p>\n<p><strong>Histology:</strong> Sections show&nbsp;a&nbsp;urothelial neoplasm with entirely inverted growth but without urothelial thickening, cytologic atypia, or invasion.</p>\n<p><strong>Discussion:</strong> This case exemplifies the key diagnostic features of inverted urothelial papilloma: lack of an exophytic papillary component, thin nests composed of non-thickened urothelial without cytologic atypia.&nbsp;&nbsp;Peripheral palisading is often present.&nbsp;&nbsp;The distinction of Inverted urothelial papilloma from the other listed entities is clinically significant as this lesion is entirely benign whereas the others all require long term follow-up due to the risk for multifocality and recurrence inherent to all exophytic urothelial neoplasms. Urothelial papilloma is exophytic and is composed of delicate papillary fronds projecting into the urinary space.&nbsp;&nbsp;Non-invasive low-grade papillary urothelial carcinoma can have extensive inverted growth but this diagnosis requires cytologic atypia and/or altered polarity.&nbsp;&nbsp;Almost all urothelial carcinomas with inverted growth also have an exophytic component.&nbsp;&nbsp;Also, the inverted component of urothelial carcinomas typically have broad nests, reflecting the thickened urothelium of the underlying carcinoma.&nbsp;&nbsp;PUNLMP is an exophytic urothelial neoplasm composed of urothelium too thick for the diagnosis of a papilloma but without sufficient alteration in polarity or cytologic atypia to merit a designation of low grade papillary urothelial carcinoma.</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:00:07.346Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w801c3",
+      "url": "https://sp.pathology.jhu.edu/week-801-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 801: Case 3",
+      "case_label": "Week 801: Case 3",
+      "attribution": "Case presented by Dr. Brigitte Ronnett, MD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This case is a 27 year old female with a blighted ovum (anembryonic pregnancy).",
+      "question_text": "Case presented by Dr. Brigitte Ronnett, MD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis case is a 27 year old female with a blighted ovum (anembryonic pregnancy).",
+      "source_answer": "D. Complete hydatidiform mole arising in a mosaic conception",
+      "correct_answer": "Complete hydatidiform mole arising in a mosaic conception",
+      "canonical_answer": "Complete hydatidiform mole arising in a mosaic conception",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "A. Complete hydatidiform mole",
+        "B. Partial hydatidiform mole",
+        "C. Non-molar abortus with some abnormal villous morphology, possibly related to trisomy",
+        "D. Complete hydatidiform mole arising in a mosaic conception"
+      ],
+      "choices": [
+        "Complete hydatidiform mole",
+        "Partial hydatidiform mole",
+        "Non-molar abortus with some abnormal villous morphology, possibly related to trisomy",
+        "Complete hydatidiform mole arising in a mosaic conception"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/3A_jc23-06454aCHMmosaic1.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/3B_jc23-06454bCHMmosaic2-1.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/3C_jc23-06454cp57CHMmosaic3.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/3D_jc23-06454dp57CHMmosaic4-1.jpg"
+      ],
+      "histology": "The villi show basically two different populations, with some blending or merging of these. This includes one set with variably hydropically enlarged villi with some cisterns but no trophoblastic hyperplasia and another set with some modest trophoblastic hyperplasia. The latter is somewhat subtle and therefore challenging to appreciate.",
+      "discussion": "This is an example of a complete hydatidiform mole arising in an androgenetic/biparental mosaic conception. Immunohistochemical analysis of p57 expression is quite useful for assisting in recognizing this uncommon entity, particularly when the molar component is somewhat subtle as in this case, and avoiding misclassification of the presence of two populations of villi as a partial hydatidiform mole. The p57 immunostain demonstrate that there are two different expression patterns. The dysmorphic villi that lack trophoblastic hyperplasia have a discordant pattern of p57 expression, manifested as positive nuclear expression in the cytotrophoblastic cell layer and negative in the villous stromal cells. In contrast, in the villi with some trophoblastic hyperplasia both of these cell types are negative. A partial hydatidiform mole would have uniform p57 expression in both of these cell populations. If these different villous populations can be separately genotyped, the p57-negative component will demonstrate a purely androgenetic pattern, consistent with a complete hydatidiform mole component, and the p57-discordant component will demonstrate a biparental pattern with allele ratios enriched for the paternal allele, indicating a mixture of androgenetic (p57-) and biparental (p57+) cells.\n\nReference: Lewis GH, DeScipio C, Murphy KM, Haley L, Beierl K, Mosier S, Tandy S, Cohen DS, Lytwyn A, Elit L, Vang R, Ronnett BM. Characterization of androgenetic/biparental mosaic/chimeric conceptions, including some with a molar component: morphology, p57 immunohistochemistry, molecular genotyping, and risk of persistent gestational trophoblastic disease. Int J Gynecol Pathol 2013;32(2):199-214.",
+      "references": [
+        {
+          "text": "Lewis GH, DeScipio C, Murphy KM, Haley L, Beierl K, Mosier S, Tandy S, Cohen DS, Lytwyn A, Elit L, Vang R, Ronnett BM. Characterization of androgenetic/biparental mosaic/chimeric conceptions, including some with a molar component: morphology, p57 immunohistochemistry, molecular genotyping, and risk of persistent gestational trophoblastic disease. Int J Gynecol Pathol 2013;32(2):199-214.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: D. Complete hydatidiform mole arising in a mosaic conception\n\nHistology: The villi show basically two different populations, with some blending or merging of these. This includes one set with variably hydropically enlarged villi with some cisterns but no trophoblastic hyperplasia and another set with some modest trophoblastic hyperplasia. The latter is somewhat subtle and therefore challenging to appreciate.\n\nDiscussion: This is an example of a complete hydatidiform mole arising in an androgenetic/biparental mosaic conception. Immunohistochemical analysis of p57 expression is quite useful for assisting in recognizing this uncommon entity, particularly when the molar component is somewhat subtle as in this case, and avoiding misclassification of the presence of two populations of villi as a partial hydatidiform mole. The p57 immunostain demonstrate that there are two different expression patterns. The dysmorphic villi that lack trophoblastic hyperplasia have a discordant pattern of p57 expression, manifested as positive nuclear expression in the cytotrophoblastic cell layer and negative in the villous stromal cells. In contrast, in the villi with some trophoblastic hyperplasia both of these cell types are negative. A partial hydatidiform mole would have uniform p57 expression in both of these cell populations. If these different villous populations can be separately genotyped, the p57-negative component will demonstrate a purely androgenetic pattern, consistent with a complete hydatidiform mole component, and the p57-discordant component will demonstrate a biparental pattern with allele ratios enriched for the paternal allele, indicating a mixture of androgenetic (p57-) and biparental (p57+) cells.\n\nReference: Lewis GH, DeScipio C, Murphy KM, Haley L, Beierl K, Mosier S, Tandy S, Cohen DS, Lytwyn A, Elit L, Vang R, Ronnett BM. Characterization of androgenetic/biparental mosaic/chimeric conceptions, including some with a molar component: morphology, p57 immunohistochemistry, molecular genotyping, and risk of persistent gestational trophoblastic disease. Int J Gynecol Pathol 2013;32(2):199-214.",
+      "feedback_html": "<strong>Answer:</strong> D. Complete hydatidiform mole arising in a mosaic conception<p></p>\n<p><strong>Histology:</strong> The villi show basically two different populations, with some blending or merging of these. This includes one set with variably hydropically enlarged villi with some cisterns but no trophoblastic hyperplasia and another set with some modest trophoblastic hyperplasia. The latter is somewhat subtle and therefore challenging to appreciate.</p>\n<p><strong>Discussion:</strong> This is an example of a complete hydatidiform mole arising in an androgenetic/biparental mosaic conception. Immunohistochemical analysis of p57 expression is quite useful for assisting in recognizing this uncommon entity, particularly when the molar component is somewhat subtle as in this case, and avoiding misclassification of the presence of two populations of villi as a partial hydatidiform mole. The p57 immunostain demonstrate that there are two different expression patterns. The dysmorphic villi that lack trophoblastic hyperplasia have a discordant pattern of p57 expression, manifested as positive nuclear expression in the cytotrophoblastic cell layer and negative in the villous stromal cells. In contrast, in the villi with some trophoblastic hyperplasia both of these cell types are negative. A partial hydatidiform mole would have uniform p57 expression in both of these cell populations. If these different villous populations can be separately genotyped, the p57-negative component will demonstrate a purely androgenetic pattern, consistent with a complete hydatidiform mole component, and the p57-discordant component will demonstrate a biparental pattern with allele ratios enriched for the paternal allele, indicating a mixture of androgenetic (p57-) and biparental (p57+) cells.</p>\n<p><strong>Reference:</strong> Lewis GH, DeScipio C, Murphy KM, Haley L, Beierl K, Mosier S, Tandy S, Cohen DS, Lytwyn A, Elit L, Vang R, Ronnett BM. Characterization of androgenetic/biparental mosaic/chimeric conceptions, including some with a molar component: morphology, p57 immunohistochemistry, molecular genotyping, and risk of persistent gestational trophoblastic disease. Int J Gynecol Pathol 2013;32(2):199-214.</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:00:16.501Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w801c2",
+      "url": "https://sp.pathology.jhu.edu/week-801-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 801: Case 2",
+      "case_label": "Week 801: Case 2",
+      "attribution": "Case presented by Dr. Brigitte Ronnett, MD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This case is a 34 year old female with hemoperitoneum, clinically assessed as a ruptured ectopic pregnancy, with HCG >200,000, and an enlarged ovary disrupted by clot.",
+      "question_text": "Case presented by Dr. Brigitte Ronnett, MD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis case is a 34 year old female with hemoperitoneum, clinically assessed as a ruptured ectopic pregnancy, with HCG >200,000, and an enlarged ovary disrupted by clot.",
+      "source_answer": "A. Choriocarcinoma",
+      "correct_answer": "Choriocarcinoma",
+      "canonical_answer": "Choriocarcinoma",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "A. Choriocarcinoma",
+        "B. Yolk sac tumor",
+        "C. Dysgerminoma",
+        "D. Embryonal carcinoma"
+      ],
+      "choices": [
+        "Choriocarcinoma",
+        "Yolk sac tumor",
+        "Dysgerminoma",
+        "Embryonal carcinoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/2A_jc23-01128achorioCA1.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/2B_jc23-01128bchorioCA2.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/2C_jc23-01128cchorioCA3.jpg"
+      ],
+      "histology": "The ovary has a hypercellular sheet-like mass with morphologically distinct yet intimately admixed cell populations. This proliferation is comprised of different types of trophoblastic cells, including cytotrophoblast—the monotonous mononucleated cells with clear cytoplasm cells and readily evident mitotic figures--and syncytiotrophoblast—the multinucleated cells with abundant eosinophilic to amphophilic cytoplasm. The tumor displays the characteristic pattern of syncytiotrophoblastic cells wrapping around aggregates of cytotrophoblast.",
+      "discussion": "This morphology is classical choriocarcinoma. In women, there are various types of choriocarcinoma. These include gestational, germ cell, and somatic types. The most common type occurs within the uterus as a gestational type of tumor. This is most commonly related to a complete hydatidiform mole, which can be an antecedent pregnancy event (recent or even years before) or a concurrent one. However, gestational choriocarcinoma can also occur in a non-molar pregnancy, more commonly as intraplacental choriocarcinoma in the term or near-term setting but also early in a non-molar pregnancy. Choriocarcinoma of germ cell type, whether pure or mixed with other germ cell components, is rare in the ovary. The somatic type is a tumor comprised of some kind of carcinoma, often an adenocarcinoma, with a component having choriocarcinomatous differentiation arising from that carcinomatous component. When in the ovary and occurring as pure choriocarcinoma--lacking other germ cell components or somatic carcinoma components—the differential diagnosis concerns a metastasis from a uterine gestational choriocarcinoma, a rare ectopic ovarian gestational choriocarcinoma, or a rare ovarian choriocarcinoma of germ cell type. Genotyping can distinguish gestational tumors from non-gestational tumors (germ cell and somatic tumors). Gestational choriocarcinoma is purely androgenetic when related to a molar pregnancy and is biparental when related to a non-molar conception. Both germ cell and somatic types of choriocarcinoma have genotypes that match the patient DNA. Molecular testing of this tumor demonstrated that the choriocarcinoma was biparental, consistent with a tumor of gestational rather than of germ cell or somatic type. The biparental genotype indicated that this was the less common gestational type derived from an early non-molar conception rather than the more common molar-associated androgenetic type. There was no evidence of an intrauterine pregnancy, so this is a rare gestational choriocarcinoma arising as an ectopic ovarian pregnancy unrelated to a complete hydatidiform mole.\n\nReference: Savage J, Adams E, Veras E, Murphy KM, Ronnett BM. Choriocarcinoma in women: analysis of a case series with genotyping. Am J Surg Pathol 2017;41(12):1593-1606.",
+      "references": [
+        {
+          "text": "Savage J, Adams E, Veras E, Murphy KM, Ronnett BM. Choriocarcinoma in women: analysis of a case series with genotyping. Am J Surg Pathol 2017;41(12):1593-1606.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: A. Choriocarcinoma\n\nHistology: The ovary has a hypercellular sheet-like mass with morphologically distinct yet intimately admixed cell populations. This proliferation is comprised of different types of trophoblastic cells, including cytotrophoblast—the monotonous mononucleated cells with clear cytoplasm cells and readily evident mitotic figures--and syncytiotrophoblast—the multinucleated cells with abundant eosinophilic to amphophilic cytoplasm. The tumor displays the characteristic pattern of syncytiotrophoblastic cells wrapping around aggregates of cytotrophoblast.\n\nDiscussion: This morphology is classical choriocarcinoma. In women, there are various types of choriocarcinoma. These include gestational, germ cell, and somatic types. The most common type occurs within the uterus as a gestational type of tumor. This is most commonly related to a complete hydatidiform mole, which can be an antecedent pregnancy event (recent or even years before) or a concurrent one. However, gestational choriocarcinoma can also occur in a non-molar pregnancy, more commonly as intraplacental choriocarcinoma in the term or near-term setting but also early in a non-molar pregnancy. Choriocarcinoma of germ cell type, whether pure or mixed with other germ cell components, is rare in the ovary. The somatic type is a tumor comprised of some kind of carcinoma, often an adenocarcinoma, with a component having choriocarcinomatous differentiation arising from that carcinomatous component. When in the ovary and occurring as pure choriocarcinoma--lacking other germ cell components or somatic carcinoma components—the differential diagnosis concerns a metastasis from a uterine gestational choriocarcinoma, a rare ectopic ovarian gestational choriocarcinoma, or a rare ovarian choriocarcinoma of germ cell type. Genotyping can distinguish gestational tumors from non-gestational tumors (germ cell and somatic tumors). Gestational choriocarcinoma is purely androgenetic when related to a molar pregnancy and is biparental when related to a non-molar conception. Both germ cell and somatic types of choriocarcinoma have genotypes that match the patient DNA. Molecular testing of this tumor demonstrated that the choriocarcinoma was biparental, consistent with a tumor of gestational rather than of germ cell or somatic type. The biparental genotype indicated that this was the less common gestational type derived from an early non-molar conception rather than the more common molar-associated androgenetic type. There was no evidence of an intrauterine pregnancy, so this is a rare gestational choriocarcinoma arising as an ectopic ovarian pregnancy unrelated to a complete hydatidiform mole.\n\nReference: Savage J, Adams E, Veras E, Murphy KM, Ronnett BM. Choriocarcinoma in women: analysis of a case series with genotyping. Am J Surg Pathol 2017;41(12):1593-1606.",
+      "feedback_html": "<strong>Answer:</strong> A. Choriocarcinoma<p></p>\n<p><strong>Histology:</strong> The ovary has a hypercellular sheet-like mass with morphologically distinct yet intimately admixed cell populations. This proliferation is comprised of different types of trophoblastic cells, including cytotrophoblast—the monotonous mononucleated cells with clear cytoplasm cells and readily evident mitotic figures--and syncytiotrophoblast—the multinucleated cells with abundant eosinophilic to amphophilic cytoplasm. The tumor displays the characteristic pattern of syncytiotrophoblastic cells wrapping around aggregates of cytotrophoblast.</p>\n<p><strong>Discussion:</strong> This morphology is classical choriocarcinoma. In women, there are various types of choriocarcinoma. These include gestational, germ cell, and somatic types. The most common type occurs within the uterus as a gestational type of tumor. This is most commonly related to a complete hydatidiform mole, which can be an antecedent pregnancy event (recent or even years before) or a concurrent one. However, gestational choriocarcinoma can also occur in a non-molar pregnancy, more commonly as intraplacental choriocarcinoma in the term or near-term setting but also early in a non-molar pregnancy. Choriocarcinoma of germ cell type, whether pure or mixed with other germ cell components, is rare in the ovary. The somatic type is a tumor comprised of some kind of carcinoma, often an adenocarcinoma, with a component having choriocarcinomatous differentiation arising from that carcinomatous component. When in the ovary and occurring as pure choriocarcinoma--lacking other germ cell components or somatic carcinoma components—the differential diagnosis concerns a metastasis from a uterine gestational choriocarcinoma, a rare ectopic ovarian gestational choriocarcinoma, or a rare ovarian choriocarcinoma of germ cell type. Genotyping can distinguish gestational tumors from non-gestational tumors (germ cell and somatic tumors). Gestational choriocarcinoma is purely androgenetic when related to a molar pregnancy and is biparental when related to a non-molar conception. Both germ cell and somatic types of choriocarcinoma have genotypes that match the patient DNA. Molecular testing of this tumor demonstrated that the choriocarcinoma was biparental, consistent with a tumor of gestational rather than of germ cell or somatic type. The biparental genotype indicated that this was the less common gestational type derived from an early non-molar conception rather than the more common molar-associated androgenetic type. There was no evidence of an intrauterine pregnancy, so this is a rare gestational choriocarcinoma arising as an ectopic ovarian pregnancy unrelated to a complete hydatidiform mole.</p>\n<p><strong>Reference:</strong> Savage J, Adams E, Veras E, Murphy KM, Ronnett BM. Choriocarcinoma in women: analysis of a case series with genotyping. Am J Surg Pathol 2017;41(12):1593-1606.</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:00:25.786Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w801c1",
+      "url": "https://sp.pathology.jhu.edu/week-801-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 801: Case 1",
+      "case_label": "Week 801: Case 1",
+      "attribution": "Case presented by Dr. Brigitte Ronnett, MD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This case is a 29 year old female with an incomplete abortion.",
+      "question_text": "Case presented by Dr. Brigitte Ronnett, MD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis case is a 29 year old female with an incomplete abortion.",
+      "source_answer": "B. Complete hydatidiform mole with prominent trophoblastic hyperplasia",
+      "correct_answer": "Complete hydatidiform mole with prominent trophoblastic hyperplasia",
+      "canonical_answer": "Complete hydatidiform mole with prominent trophoblastic hyperplasia",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Choriocarcinoma arising in a complete hydatidiform mole",
+        "B. Complete hydatidiform mole with prominent trophoblastic hyperplasia",
+        "C. Complete hydatidiform mole arising in a mosaic conception",
+        "D. Partial hydatidiform mole"
+      ],
+      "choices": [
+        "Choriocarcinoma arising in a complete hydatidiform mole",
+        "Complete hydatidiform mole with prominent trophoblastic hyperplasia",
+        "Complete hydatidiform mole arising in a mosaic conception",
+        "Partial hydatidiform mole"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/1A_jc23-07504cCHM1-2.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/1B_jc23-07504aCHM2.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/1C_jc23-07504dCHM3.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/1D_jc23-07504eCHM4.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/1E_jc23-07504fp57CHM5.jpg"
+      ],
+      "histology": "The villi are hydropically enlarged, with generally smooth, rounded contours, some central cisterns, a rare trophoblastic inclusion, and prominent trophoblastic hyperplasia. The trophoblastic hyperplasia is manifested as some circumferential proliferation attached to the villi but is most notably present as detached fragments. The detached trophoblast is dominated by an admixture of mononucleate cytotrophoblast and multinucleated syncytiotrophoblast, with some intermediate trophoblast as well (larger mononucleate cells with more abundant eosinophilic cytoplasm).",
+      "discussion": "The morphology is characteristic of a complete hydatidiform mole. This diagnosis can be confirmed with immunohistochemical analysis of p57 expression, which is particularly useful when a hydatidiform mole is an earlier form and morphologic features are less well-developed. The p57 immunostain for this case demonstrates that the villous cytotrophoblast and villous stromal cells lack nuclear p57 expression, while intermediate trophoblastic cells retain p57 expression (this staining of intermediate trophoblast, as well as decidua when present, serves as an internal positive control, which is required to guarantee that the p57 stain is satisfactory). The lack of p57 expression reflects the genetics of complete hydatidiform moles. This is because a complete hydatidiform mole is a purely androgenetic conception, characterized by paternal uniparental disomy and a lack of maternal DNA. P57 is a paternally imprinted gene on chromosome 11, with expression derived from the maternal copy. Thus, since complete hydatidiform moles contain no maternal genetic material, they lack p57 expression (with rare exceptions). The trophoblastic proliferation might raise concern for choriocarcinoma arising from the complete hydatidiform mole, but the appearance in this example is still within the spectrum allowed for molar-type trophoblastic hyperplasia, which can be florid and detached (see unknown case #2 for comparison).",
+      "references": [
+        {
+          "text": "Ronnett BM. Hydatidiform moles: ancillary techniques to refine diagnosis. Arch Pathol Lab Med 2018;142(12):1485-1502.",
+          "url": null
+        },
+        {
+          "text": "Xing D, Adams E, Huang J, Ronnett BM. Refined diagnosis of hydatidiform moles with p57 immunohistochemistry and molecular genotyping: updated analysis of a prospective series of 2,217 cases. Mod Pathol 2021;34(5):961-982.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: B. Complete hydatidiform mole with prominent trophoblastic hyperplasia\n\nHistology: The villi are hydropically enlarged, with generally smooth, rounded contours, some central cisterns, a rare trophoblastic inclusion, and prominent trophoblastic hyperplasia. The trophoblastic hyperplasia is manifested as some circumferential proliferation attached to the villi but is most notably present as detached fragments. The detached trophoblast is dominated by an admixture of mononucleate cytotrophoblast and multinucleated syncytiotrophoblast, with some intermediate trophoblast as well (larger mononucleate cells with more abundant eosinophilic cytoplasm).\n\nDiscussion: The morphology is characteristic of a complete hydatidiform mole. This diagnosis can be confirmed with immunohistochemical analysis of p57 expression, which is particularly useful when a hydatidiform mole is an earlier form and morphologic features are less well-developed. The p57 immunostain for this case demonstrates that the villous cytotrophoblast and villous stromal cells lack nuclear p57 expression, while intermediate trophoblastic cells retain p57 expression (this staining of intermediate trophoblast, as well as decidua when present, serves as an internal positive control, which is required to guarantee that the p57 stain is satisfactory). The lack of p57 expression reflects the genetics of complete hydatidiform moles. This is because a complete hydatidiform mole is a purely androgenetic conception, characterized by paternal uniparental disomy and a lack of maternal DNA. P57 is a paternally imprinted gene on chromosome 11, with expression derived from the maternal copy. Thus, since complete hydatidiform moles contain no maternal genetic material, they lack p57 expression (with rare exceptions). The trophoblastic proliferation might raise concern for choriocarcinoma arising from the complete hydatidiform mole, but the appearance in this example is still within the spectrum allowed for molar-type trophoblastic hyperplasia, which can be florid and detached (see unknown case #2 for comparison).\n\nReferences: Ronnett BM. Hydatidiform moles: ancillary techniques to refine diagnosis. Arch Pathol Lab Med 2018;142(12):1485-1502.\n\nXing D, Adams E, Huang J, Ronnett BM. Refined diagnosis of hydatidiform moles with p57 immunohistochemistry and molecular genotyping: updated analysis of a prospective series of 2,217 cases. Mod Pathol 2021;34(5):961-982.",
+      "feedback_html": "<strong>Answer:</strong> B. Complete hydatidiform mole with prominent trophoblastic hyperplasia<p></p>\n<p><strong>Histology:</strong> The villi are hydropically enlarged, with generally smooth, rounded contours, some central cisterns, a rare trophoblastic inclusion, and prominent trophoblastic hyperplasia. The trophoblastic hyperplasia is manifested as some circumferential proliferation attached to the villi but is most notably present as detached fragments. The detached trophoblast is dominated by an admixture of mononucleate cytotrophoblast and multinucleated syncytiotrophoblast, with some intermediate trophoblast as well (larger mononucleate cells with more abundant eosinophilic cytoplasm).</p>\n<p><strong>Discussion:</strong> The morphology is characteristic of a complete hydatidiform mole. This diagnosis can be confirmed with immunohistochemical analysis of p57 expression, which is particularly useful when a hydatidiform mole is an earlier form and morphologic features are less well-developed. The p57 immunostain for this case demonstrates that the villous cytotrophoblast and villous stromal cells lack nuclear p57 expression, while intermediate trophoblastic cells retain p57 expression (this staining of intermediate trophoblast, as well as decidua when present, serves as an internal positive control, which is required to guarantee that the p57 stain is satisfactory). The lack of p57 expression reflects the genetics of complete hydatidiform moles. This is because a complete hydatidiform mole is a purely androgenetic conception, characterized by paternal uniparental disomy and a lack of maternal DNA. P57 is a paternally imprinted gene on chromosome 11, with expression derived from the maternal copy. Thus, since complete hydatidiform moles contain no maternal genetic material, they lack p57 expression (with rare exceptions). The trophoblastic proliferation might raise concern for choriocarcinoma arising from the complete hydatidiform mole, but the appearance in this example is still within the spectrum allowed for molar-type trophoblastic hyperplasia, which can be florid and detached (see unknown case #2 for comparison).</p>\n<p><strong>References: </strong>Ronnett BM. Hydatidiform moles: ancillary techniques to refine diagnosis. Arch Pathol Lab Med 2018;142(12):1485-1502.</p>\n<p>Xing D, Adams E, Huang J, Ronnett BM. Refined diagnosis of hydatidiform moles with p57 immunohistochemistry and molecular genotyping: updated analysis of a prospective series of 2,217 cases. Mod Pathol 2021;34(5):961-982.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:00:36.192Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w800c3",
+      "url": "https://sp.pathology.jhu.edu/week-800-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 800: Case 3",
+      "case_label": "Week 800: Case 3",
+      "attribution": "Case presented by Dr. Jacqueline Birkness-Gartman, MD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This case is an elderly female with a liver mass.",
+      "question_text": "Case presented by Dr. Jacqueline Birkness-Gartman, MD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis case is an elderly female with a liver mass.",
+      "source_answer": "B. Adrenocortical carcinoma",
+      "correct_answer": "Adrenocortical carcinoma",
+      "canonical_answer": "Adrenocortical carcinoma",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Hepatocellular carcinoma",
+        "B. Adrenocortical carcinoma",
+        "C. Neuroendocrine neoplasm",
+        "D. Epithelioid angiomyolipoma"
+      ],
+      "choices": [
+        "Hepatocellular carcinoma",
+        "Adrenocortical carcinoma",
+        "Neuroendocrine neoplasm",
+        "Epithelioid angiomyolipoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/1_8-70061569818059256041x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/2_8-317884193833100431145x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/3_8-301994000431252409486x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/4_8-3224831590326543195313x.png"
+      ],
+      "histology": "Sections show a neoplasm consisting of sheets of cells with eosinophilic to clear cytoplasm, nuclear pleomorphism, necrosis, and mitotic activity.",
+      "discussion": "All of the diagnoses listed are reasonable considerations. We initially considered hepatocellular carcinoma given that the lesion was designated as a liver mass, but the degree of atypia is greater than that which we typically see and liver markers (HepPar-1, arginase, in situ hybridization for albumin) were negative. Additional immunostains showed that the neoplasm was positive for synaptophysin, focally positive for cytokeratin AE1/3 and Cam5.2, and negative for chromogranin, S100, Melan-A, HMB45, and SMA. Given the morphology and immunolabeling profile, adrenocortical carcinoma was subsequently considered. Immunostains for inhibin and SF-1 were strongly positive, supporting this diagnosis. The patient's history was further investigated, and it turned out that this lesion was actually a large mass involving both the liver and adrenal gland.",
+      "references": [],
+      "feedback_text": "Answer: B. Adrenocortical carcinoma\n\nHistology: Sections show a neoplasm consisting of sheets of cells with eosinophilic to clear cytoplasm, nuclear pleomorphism, necrosis, and mitotic activity.\n\nDiscussion: All of the diagnoses listed are reasonable considerations. We initially considered hepatocellular carcinoma given that the lesion was designated as a liver mass, but the degree of atypia is greater than that which we typically see and liver markers (HepPar-1, arginase, in situ hybridization for albumin) were negative. Additional immunostains showed that the neoplasm was positive for synaptophysin, focally positive for cytokeratin AE1/3 and Cam5.2, and negative for chromogranin, S100, Melan-A, HMB45, and SMA. Given the morphology and immunolabeling profile, adrenocortical carcinoma was subsequently considered. Immunostains for inhibin and SF-1 were strongly positive, supporting this diagnosis. The patient's history was further investigated, and it turned out that this lesion was actually a large mass involving both the liver and adrenal gland.",
+      "feedback_html": "<strong>Answer:</strong> B. Adrenocortical carcinoma<p></p>\n<p><strong>Histology:</strong> Sections show a neoplasm consisting of sheets of cells with eosinophilic to clear cytoplasm, nuclear pleomorphism, necrosis, and mitotic activity.</p>\n<p><strong>Discussion:</strong> All of the diagnoses listed are reasonable considerations. We initially considered hepatocellular carcinoma given that the lesion was designated as a liver mass, but the degree of atypia is greater than that which we typically see and liver markers (HepPar-1, arginase, in situ hybridization for albumin) were negative. Additional immunostains showed that the neoplasm was positive for synaptophysin, focally positive for cytokeratin AE1/3 and Cam5.2, and negative for chromogranin, S100, Melan-A, HMB45, and SMA. Given the morphology and immunolabeling profile, adrenocortical carcinoma was subsequently considered. Immunostains for inhibin and SF-1 were strongly positive, supporting this diagnosis. The patient's history was further investigated, and it turned out that this lesion was actually a large mass involving both the liver and adrenal gland.</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:00:47.311Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w800c2",
+      "url": "https://sp.pathology.jhu.edu/week-800-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 800: Case 2",
+      "case_label": "Week 800: Case 2",
+      "attribution": "Case presented by Dr. Jacqueline Birkness-Gartman, MD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This case is an adult female who was pregnant with appendicitis.",
+      "question_text": "Case presented by Dr. Jacqueline Birkness-Gartman, MD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis case is an adult female who was pregnant with appendicitis.",
+      "source_answer": "C. Deciduosis",
+      "correct_answer": "Deciduosis",
+      "canonical_answer": "Deciduosis",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "A. Metastatic carcinoma",
+        "B. Granular Cell Tumor",
+        "C. Deciduosis",
+        "D. Xanthogranulomatous appendicitis"
+      ],
+      "choices": [
+        "Metastatic carcinoma",
+        "Granular Cell Tumor",
+        "Deciduosis",
+        "Xanthogranulomatous appendicitis"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/1_5-49505337103706938401x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/2_5-380123957468493668901x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/3_5-336336210536536647073x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/4-451138531146009861146x.png"
+      ],
+      "histology": "Sections show a proliferation of eosinophilic cells with abundant cytoplasm, extending from the serosal surface to the submucosa of the appendix.",
+      "discussion": "This is an exuberant example of deciduosis (decidualized endometrial stroma) involving the appendix. On immunostains, the decidualized cells were negative for CD68, S100, and AE1/3, while positive for CD10 and PR. Deciduosis typically affects young women, who may be pregnant or taking oral contraceptives. Appendiceal deciduosis can present as acute appendicitis, and extra-appendiceal involvement is seen in 43% of cases, according to one study.\n\nReference: Noor M, Chen A, Gonzalez RS. Clinicopathologic findings in gynecologic proliferations of the appendix. Hum Pathol. 2019 Oct;92:101-106.",
+      "references": [
+        {
+          "text": "Noor M, Chen A, Gonzalez RS. Clinicopathologic findings in gynecologic proliferations of the appendix. Hum Pathol. 2019 Oct;92:101-106.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: C. Deciduosis\n\nHistology: Sections show a proliferation of eosinophilic cells with abundant cytoplasm, extending from the serosal surface to the submucosa of the appendix.\n\nDiscussion: This is an exuberant example of deciduosis (decidualized endometrial stroma) involving the appendix. On immunostains, the decidualized cells were negative for CD68, S100, and AE1/3, while positive for CD10 and PR. Deciduosis typically affects young women, who may be pregnant or taking oral contraceptives. Appendiceal deciduosis can present as acute appendicitis, and extra-appendiceal involvement is seen in 43% of cases, according to one study.\n\nReference: Noor M, Chen A, Gonzalez RS. Clinicopathologic findings in gynecologic proliferations of the appendix. Hum Pathol. 2019 Oct;92:101-106.",
+      "feedback_html": "<strong>Answer:</strong> C. Deciduosis<p></p>\n<p><strong>Histology:</strong> Sections show a proliferation of eosinophilic cells with abundant cytoplasm, extending from the serosal surface to the submucosa of the appendix.</p>\n<p><strong>Discussion:</strong> This is an exuberant example of deciduosis (decidualized endometrial stroma) involving the appendix. On immunostains, the decidualized cells were negative for CD68, S100, and AE1/3, while positive for CD10 and PR. Deciduosis typically affects young women, who may be pregnant or taking oral contraceptives. Appendiceal deciduosis can present as acute appendicitis, and extra-appendiceal involvement is seen in 43% of cases, according to one study.</p>\n<p><strong>Reference:</strong> Noor M, Chen A, Gonzalez RS. Clinicopathologic findings in gynecologic proliferations of the appendix. Hum Pathol. 2019 Oct;92:101-106.</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:00:56.674Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w800c1",
+      "url": "https://sp.pathology.jhu.edu/week-800-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 800: Case 1",
+      "case_label": "Week 800: Case 1",
+      "attribution": "Case presented by Dr. Jacqueline Birkness-Gartman, MD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This case is an adult female who had an appendectomy.",
+      "question_text": "Case presented by Dr. Jacqueline Birkness-Gartman, MD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis case is an adult female who had an appendectomy.",
+      "source_answer": "D. Endometriosis with intestinal metaplasia",
+      "correct_answer": "Endometriosis with intestinal metaplasia",
+      "canonical_answer": "Endometriosis with intestinal metaplasia",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "A. Appendiceal diverticulum",
+        "B. Low grade appendiceal mucinous neoplasm (LAMN)",
+        "C. Mucinous adenocarcinoma",
+        "D. Endometriosis with intestinal metaplasia"
+      ],
+      "choices": [
+        "Appendiceal diverticulum",
+        "Low grade appendiceal mucinous neoplasm (LAMN)",
+        "Mucinous adenocarcinoma",
+        "Endometriosis with intestinal metaplasia"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/1_4-5368911030104644714791x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/4-636823598979408546461x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/3_4-753452861084354350222x-2.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/2_4-673623573574152414932x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/4_4-831523079784465319735x.png"
+      ],
+      "histology": "Sections show an appendectomy with glands and mucin involving the muscularis propria and peri-appendiceal adipose tissue. Many of the glands are lined by columnar epithelial cells without intracytoplasmic mucin, and surrounded by a spindled stroma. At the tip of the appendix, the cells lining the glands have intracytoplasmic mucin, but similar stroma is seen.",
+      "discussion": "This is an example of intestinal metaplasia in endometriosis, and is a potential diagnostic pitfall, as the findings could mimic a low grade appendiceal mucinous neoplasm (LAMN). A CD10 stain highlighted the endometrial stroma in the more classic foci of endometriosis, as well as the area with intestinal metaplasia. Of note, while endometriosis without intestinal metaplasia will be positive for CK7 and ER in the epithelium, endometriosis with intestinal metaplasia will instead express CDX-2. Identification and immunolabeling of the stroma is therefore helpful for reaching the correct diagnosis.\n\nReference: Vyas M, Wong S, Zhang X. Intestinal metaplasia of appendiceal endometriosis is not uncommon and may mimic appendiceal mucinous neoplasm. Pathol Res Pract. 2017;213(1):39-44.",
+      "references": [
+        {
+          "text": "Vyas M, Wong S, Zhang X. Intestinal metaplasia of appendiceal endometriosis is not uncommon and may mimic appendiceal mucinous neoplasm. Pathol Res Pract. 2017;213(1):39-44.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: D. Endometriosis with intestinal metaplasia\n\nHistology: Sections show an appendectomy with glands and mucin involving the muscularis propria and peri-appendiceal adipose tissue. Many of the glands are lined by columnar epithelial cells without intracytoplasmic mucin, and surrounded by a spindled stroma. At the tip of the appendix, the cells lining the glands have intracytoplasmic mucin, but similar stroma is seen.\n\nDiscussion: This is an example of intestinal metaplasia in endometriosis, and is a potential diagnostic pitfall, as the findings could mimic a low grade appendiceal mucinous neoplasm (LAMN). A CD10 stain highlighted the endometrial stroma in the more classic foci of endometriosis, as well as the area with intestinal metaplasia. Of note, while endometriosis without intestinal metaplasia will be positive for CK7 and ER in the epithelium, endometriosis with intestinal metaplasia will instead express CDX-2. Identification and immunolabeling of the stroma is therefore helpful for reaching the correct diagnosis.\n\nReference: Vyas M, Wong S, Zhang X. Intestinal metaplasia of appendiceal endometriosis is not uncommon and may mimic appendiceal mucinous neoplasm. Pathol Res Pract. 2017;213(1):39-44.",
+      "feedback_html": "<strong>Answer:</strong> D. Endometriosis with intestinal metaplasia<p></p>\n<p><strong>Histology:</strong> Sections show an appendectomy with glands and mucin involving the muscularis propria and peri-appendiceal adipose tissue. Many of the glands are lined by columnar epithelial cells without intracytoplasmic mucin, and surrounded by a spindled stroma. At the tip of the appendix, the cells lining the glands have intracytoplasmic mucin, but similar stroma is seen.</p>\n<p><strong>Discussion:</strong> This is an example of intestinal metaplasia in endometriosis, and is a potential diagnostic pitfall, as the findings could mimic a low grade appendiceal mucinous neoplasm (LAMN). A CD10 stain highlighted the endometrial stroma in the more classic foci of endometriosis, as well as the area with intestinal metaplasia. Of note, while endometriosis without intestinal metaplasia will be positive for CK7 and ER in the epithelium, endometriosis with intestinal metaplasia will instead express CDX-2. Identification and immunolabeling of the stroma is therefore helpful for reaching the correct diagnosis.</p>\n<p><strong>Reference:</strong> Vyas M, Wong S, Zhang X. Intestinal metaplasia of appendiceal endometriosis is not uncommon and may mimic appendiceal mucinous neoplasm.&nbsp;Pathol Res Pract. 2017;213(1):39-44.</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:01:06.143Z",
+      "extractor_version": "1.0.0"
+    }
+  ]
+}
