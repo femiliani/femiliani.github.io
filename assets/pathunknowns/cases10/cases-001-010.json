@@ -1,0 +1,1003 @@
+{
+  "case_start": 1,
+  "case_end": 10,
+  "case_count": 10,
+  "cases": [
+    {
+      "id": "w819c3",
+      "url": "https://sp.pathology.jhu.edu/week-819-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 819: Case 3",
+      "case_label": "Week 819: Case 3",
+      "attribution": "Case presented by Dr. Deyin Xing, MD, PhD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This is a 60 year old female with a uterine mass. Select the correct diagnosis.",
+      "question_text": "Case presented by Dr. Deyin Xing, MD, PhD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis is a 60 year old female with a uterine mass. Select the correct diagnosis.",
+      "source_answer": "Perivascular epithelioid cell tumor (PEComa)",
+      "correct_answer": "Perivascular epithelioid cell tumor (PEComa)",
+      "canonical_answer": "Perivascular epithelioid cell tumor (PEComa)",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "Perivascular epithelioid cell tumor (PEComa)",
+        "Leiomyosarcoma",
+        "Low-grade endometrial stromal sarcoma",
+        "High-grade endometrial stromal sarcoma"
+      ],
+      "choices": [
+        "Perivascular epithelioid cell tumor (PEComa)",
+        "Leiomyosarcoma",
+        "Low-grade endometrial stromal sarcoma",
+        "High-grade endometrial stromal sarcoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/4X-6-1024x803.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/20X-4-1024x803.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/20X-1-3-1024x803.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/20X-2-1-1024x803.jpg"
+      ],
+      "histology": "This tumor is a perivascular epithelioid cell tumor (PEComa), which is a member of a family of mesenchymal neoplasms consisting of perivascular epithelioid cells (PECs) that arise most often in the uterine corpus. Conventional PEComas consist of epithelioid or spindled cells with clear to eosinophilic granular cytoplasm. The epithelioid cells are often arranged in sheets or dyscohesive nests surrounded by thin-walled vessels. The tumor cells may exhibit permeative (tongue-like) or infiltrative growth. Other features that can be observed include a perivascular distribution of tumor cells, multinucleated cells, cells with lipid-rich or rhabdoid cytoplasm, and hyalinization of the stroma. Conventional PEComas will stain positive for melanocytic markers (HMB45, melan-A) and smooth muscle markers (SMA, desmin, and h-caldesmon) with varying intensity and extent. While the majority of cases are sporadic, a subset are associated with tuberous sclerosis. Inactivating mutations of tuberous sclerosis complex 1 and 2 (TSC1/TSC2) can lead to upregulation of mTOR signaling. Thus, mTOR inhibitors may be considered a therapeutic option because of activation of mTOR signalling pathway. There are also a subset of tumors with TFE3-rearrangements or fusions, which can be confirmed by in situ hybridization. TFE3 translocation–associated PEComas would be diffusely positive for TFE3, HMB45, and cathepsin K, with focal to absent melan-A. Other tumors have RAD51B or HTR4-ST3GAL1 fusions.\n\nFeatures associated with aggressive behavior in perivascular epithelioid cell tumors (PEComas) in general include size >5 cm, infiltrative growth, high nuclear grade and cellularity, mitotic index >1 MF/50 HPFs, necrosis, and vascular invasion. Tumors are classified as malignant PEComa when at least 2 of these features are present, as benign when no worrisome features are identified, and as of uncertain malignant potential when only nuclear pleomorphism or only size >5 cm is present. More specific criteria have been proposed for identifying malignant PEComas of the gynecologic tract. Based on one study, tumors with 4 or more of the following features are classified as malignant: size >5 cm, significant nuclear atypia, necrosis, lymph-vascular invasion, and mitotic index equal to or >1 MF/50 HPFs. Tumors with none of these features would be classified as benign and those with 1-3 of these features would be classified as of uncertain malignant potential. Based on a subsequent study, modified criteria for classification have been proposed. Tumors with 3 or more of the above listed features are classified as malignant and it is recommended that the remainder (those with less than 3 of those features) should be classified as of uncertain malignant potential (elimination of the benign category).",
+      "discussion": "The differential diagnosis includes endometrial stromal sarcoma (low-grade and high-grade) which usually lacks melanocytic markers. There is dispute about whether PEComas are a distinct type of neoplasm or a variant of a smooth muscle neoplasm. Recent study showed modified smooth muscle cells could represent the origin of a subset of PEComas but this observation does not dispute the recognition of PEComas as a distinct entity.",
+      "references": [
+        {
+          "text": "Folpe AL et al. Perivascular epithelioid cell neoplasms of soft tissue and gynecologic origin: a clinicopathologic study of 26 cases and review of the literature. Am J Surg Pathol 2005;29:1558-1575.",
+          "url": null
+        },
+        {
+          "text": "Schoolmeester JK et al. Perivascular epithelioid cell neoplasm (PEComa) of the gynecologic tract: clinicopathologic and immunohistochemical characterization of 16 cases. Am J Surg Pathol 2014;38:176-188.",
+          "url": null
+        },
+        {
+          "text": "Bennett JA, et al. Uterine PEComas: a morphologic, immunohistochemical, and molecular analysis of 32 tumors. Am J Surg Pathol 2018;42(10):1370-1383.",
+          "url": null
+        },
+        {
+          "text": "Katsakhyan L, Shahi M, Eugene HC, Nonogaki H, Gross JM, Nucci MR, Vang R, Xing D. Uterine Leiomyosarcoma Associated With Perivascular Epithelioid Cell Tumor: A Phenomenon of Differentiation/Dedifferentiation and Evidence Suggesting Cell-of-Origin. Am J Surg Pathol. 2024 Jun 1;48(6):761-772.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38497360/"
+        }
+      ],
+      "feedback_text": "Answer: A. Perivascular epithelioid cell tumor (PEComa)\n\nHistology: This tumor is a perivascular epithelioid cell tumor (PEComa), which is a member of a family of mesenchymal neoplasms consisting of perivascular epithelioid cells (PECs) that arise most often in the uterine corpus. Conventional PEComas consist of epithelioid or spindled cells with clear to eosinophilic granular cytoplasm. The epithelioid cells are often arranged in sheets or dyscohesive nests surrounded by thin-walled vessels. The tumor cells may exhibit permeative (tongue-like) or infiltrative growth. Other features that can be observed include a perivascular distribution of tumor cells, multinucleated cells, cells with lipid-rich or rhabdoid cytoplasm, and hyalinization of the stroma. Conventional PEComas will stain positive for melanocytic markers (HMB45, melan-A) and smooth muscle markers (SMA, desmin, and h-caldesmon) with varying intensity and extent. While the majority of cases are sporadic, a subset are associated with tuberous sclerosis. Inactivating mutations of tuberous sclerosis complex 1 and 2 (TSC1/TSC2) can lead to upregulation of mTOR signaling. Thus, mTOR inhibitors may be considered a therapeutic option because of activation of mTOR signalling pathway. There are also a subset of tumors with TFE3-rearrangements or fusions, which can be confirmed by in situ hybridization. TFE3 translocation–associated PEComas would be diffusely positive for TFE3, HMB45, and cathepsin K, with focal to absent melan-A. Other tumors have RAD51B or HTR4-ST3GAL1 fusions.\n\nFeatures associated with aggressive behavior in perivascular epithelioid cell tumors (PEComas) in general include size >5 cm, infiltrative growth, high nuclear grade and cellularity, mitotic index >1 MF/50 HPFs, necrosis, and vascular invasion. Tumors are classified as malignant PEComa when at least 2 of these features are present, as benign when no worrisome features are identified, and as of uncertain malignant potential when only nuclear pleomorphism or only size >5 cm is present. More specific criteria have been proposed for identifying malignant PEComas of the gynecologic tract. Based on one study, tumors with 4 or more of the following features are classified as malignant: size >5 cm, significant nuclear atypia, necrosis, lymph-vascular invasion, and mitotic index equal to or >1 MF/50 HPFs. Tumors with none of these features would be classified as benign and those with 1-3 of these features would be classified as of uncertain malignant potential. Based on a subsequent study, modified criteria for classification have been proposed. Tumors with 3 or more of the above listed features are classified as malignant and it is recommended that the remainder (those with less than 3 of those features) should be classified as of uncertain malignant potential (elimination of the benign category).\n\nDiscussion: The differential diagnosis includes endometrial stromal sarcoma (low-grade and high-grade) which usually lacks melanocytic markers. There is dispute about whether PEComas are a distinct type of neoplasm or a variant of a smooth muscle neoplasm. Recent study showed modified smooth muscle cells could represent the origin of a subset of PEComas but this observation does not dispute the recognition of PEComas as a distinct entity.\n\nReferences:\n\nFolpe AL et al. Perivascular epithelioid cell neoplasms of soft tissue and gynecologic origin: a clinicopathologic study of 26 cases and review of the literature. Am J Surg Pathol 2005;29:1558-1575.\n\nSchoolmeester JK et al. Perivascular epithelioid cell neoplasm (PEComa) of the gynecologic tract: clinicopathologic and immunohistochemical characterization of 16 cases. Am J Surg Pathol 2014;38:176-188.\n\nBennett JA, et al. Uterine PEComas: a morphologic, immunohistochemical, and molecular analysis of 32 tumors. Am J Surg Pathol 2018;42(10):1370-1383.\n\nKatsakhyan L, Shahi M, Eugene HC, Nonogaki H, Gross JM, Nucci MR, Vang R, Xing D. Uterine Leiomyosarcoma Associated With Perivascular Epithelioid Cell Tumor: A Phenomenon of Differentiation/Dedifferentiation and Evidence Suggesting Cell-of-Origin. Am J Surg Pathol. 2024 Jun 1;48(6):761-772.",
+      "feedback_html": "<strong>Answer: A.</strong> Perivascular epithelioid cell tumor (PEComa)<p></p>\n<p><strong>Histology: </strong>This tumor is a perivascular epithelioid cell tumor (PEComa), which is a member of a family of mesenchymal neoplasms consisting of perivascular epithelioid cells (PECs) that arise most often in the uterine corpus. Conventional PEComas consist of epithelioid or spindled cells with clear to eosinophilic granular cytoplasm. The epithelioid cells are often arranged in sheets or dyscohesive nests surrounded by thin-walled vessels. The tumor cells may exhibit permeative (tongue-like) or infiltrative growth. Other features that can be observed include a perivascular distribution of tumor cells, multinucleated cells, cells with lipid-rich or rhabdoid cytoplasm, and hyalinization of the stroma. Conventional PEComas will stain positive for melanocytic markers (HMB45, melan-A) and smooth muscle markers (SMA, desmin, and h-caldesmon) with varying intensity and extent. While the majority of cases are sporadic, a subset are associated with tuberous sclerosis. Inactivating mutations of tuberous sclerosis complex 1 and 2 (<em>TSC1</em>/<em>TSC2)</em>&nbsp;can lead to upregulation of mTOR signaling. Thus, mTOR inhibitors may be considered a therapeutic option because of activation of mTOR signalling pathway. There are also a subset of tumors with TFE3-rearrangements or fusions, which can be confirmed by in&nbsp;situ hybridization.<em> TFE3</em>&nbsp;translocation–associated PEComas would be diffusely positive for TFE3, HMB45, and cathepsin&nbsp;K, with focal to absent melan-A. Other tumors have&nbsp;<em>RAD51B</em> or&nbsp;<em>HTR4</em>-<em>ST3GAL1</em>&nbsp;fusions.</p>\n<p>Features associated with aggressive behavior in perivascular epithelioid cell tumors (PEComas) in general include size &gt;5 cm, infiltrative growth, high nuclear grade and cellularity, mitotic index &gt;1 MF/50 HPFs, necrosis, and vascular invasion.&nbsp; Tumors are classified as malignant PEComa when at least 2 of these features are present, as benign when no worrisome features are identified, and as of uncertain malignant potential when only nuclear pleomorphism or only size &gt;5 cm is present.&nbsp; More specific criteria have been proposed for identifying malignant PEComas of the gynecologic tract.&nbsp; Based on one study, tumors with 4 or more of the following features are classified as malignant: size &gt;5 cm, significant nuclear atypia, necrosis, lymph-vascular invasion, and mitotic index equal to or &gt;1 MF/50 HPFs.&nbsp; Tumors with none of these features would be classified as benign and those with 1-3 of these features would be classified as of uncertain malignant potential.&nbsp; Based on a subsequent study, modified criteria for classification have been proposed.&nbsp; Tumors with 3 or more of the above listed features are classified as malignant and it is recommended that the remainder (those with less than 3 of those features) should be classified as of uncertain malignant potential (elimination of the benign category).</p>\n<p><strong>Discussion: </strong>The differential diagnosis includes endometrial stromal sarcoma (low-grade and high-grade) which usually lacks melanocytic markers. There is dispute about whether PEComas are a distinct type of neoplasm or a variant of a smooth muscle neoplasm. Recent study showed modified smooth muscle cells could represent the origin of a subset of PEComas but this observation does not dispute the recognition of PEComas as a distinct entity.</p>\n<p>&nbsp;</p>\n<p>References:</p>\n<ol>\n<li>Folpe AL et al. Perivascular epithelioid cell neoplasms of soft tissue and gynecologic origin: a clinicopathologic study of 26 cases and review of the literature. Am J Surg Pathol 2005;29:1558-1575.</li>\n<li>Schoolmeester JK et al. Perivascular epithelioid cell neoplasm (PEComa) of the gynecologic tract: clinicopathologic and immunohistochemical characterization of 16 cases. Am J Surg Pathol 2014;38:176-188.</li>\n<li>Bennett JA, et al. Uterine PEComas: a morphologic, immunohistochemical, and molecular analysis of 32 tumors. Am J Surg Pathol 2018;42(10):1370-1383.</li>\n<li>Katsakhyan L, Shahi M, Eugene HC, Nonogaki H, Gross JM, Nucci MR, Vang R,&nbsp;Xing D<strong>. </strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/38497360/\">Uterine Leiomyosarcoma Associated With Perivascular Epithelioid Cell Tumor: A Phenomenon of Differentiation/Dedifferentiation and Evidence Suggesting Cell-of-Origin.</a> Am J Surg Pathol. 2024 Jun 1;48(6):761-772.</li>\n</ol>\n",
+      "stains": [
+        {
+          "name": "HMB45",
+          "aliases": [
+            "HMB-45"
+          ],
+          "result": "Positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: conventional PEComas stain positive for HMB45."
+        },
+        {
+          "name": "Melan-A",
+          "aliases": [
+            "Melan A",
+            "MART1",
+            "MART-1"
+          ],
+          "result": "Positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: conventional PEComas stain positive for melan-A."
+        },
+        {
+          "name": "SMA",
+          "aliases": [
+            "smooth muscle actin"
+          ],
+          "result": "Positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: conventional PEComas stain positive for smooth muscle markers including SMA."
+        },
+        {
+          "name": "Desmin",
+          "aliases": [],
+          "result": "Positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: conventional PEComas stain positive for smooth muscle markers including desmin."
+        },
+        {
+          "name": "h-caldesmon",
+          "aliases": [
+            "caldesmon",
+            "H-caldesmon"
+          ],
+          "result": "Positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: conventional PEComas stain positive for smooth muscle markers including h-caldesmon."
+        },
+        {
+          "name": "TFE3",
+          "aliases": [],
+          "result": "Positive",
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Simulated for gameplay per project design. JHU notes TFE3-rearranged PEComas are diffusely TFE3-positive; the page does not establish this case as TFE3-rearranged."
+        }
+      ],
+      "stain_status": "curated",
+      "extracted_at": "2026-11-07T19:42:21.824Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w819c2",
+      "url": "https://sp.pathology.jhu.edu/week-819-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 819: Case 2",
+      "case_label": "Week 819: Case 2",
+      "attribution": "Case presented by Dr. Deyin Xing, MD, PhD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This is a 70 year old female with an intraabdominal mass. Select the correct diagnosis.",
+      "question_text": "Case presented by Dr. Deyin Xing, MD, PhD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis is a 70 year old female with an intraabdominal mass. Select the correct diagnosis.",
+      "source_answer": "Mesonephric/mesonephic-like carcinosarcoma",
+      "correct_answer": "Mesonephric/mesonephic-like carcinosarcoma",
+      "canonical_answer": "Mesonephric/mesonephic-like carcinosarcoma",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "Carcinosarcoma with serous carcinoma component",
+        "Mesonephric/mesonephic-like carcinosarcoma",
+        "Carcinosarcoma with endometrioid carcinoma component",
+        "Carcinosarcoma with clear cell carcinoma component"
+      ],
+      "choices": [
+        "Carcinosarcoma with serous carcinoma component",
+        "Mesonephric/mesonephic-like carcinosarcoma",
+        "Carcinosarcoma with endometrioid carcinoma component",
+        "Carcinosarcoma with clear cell carcinoma component"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/2X-1-1024x803.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/4X-5-1024x803.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/20X-3-1024x803.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/20X-1-2-1024x803.jpg"
+      ],
+      "histology": "This tumor is a mesonephric/mesonephric-like carcinosarcoma, which is characterized as a biphasic malignant neoplasm consisting of well-demarcated and juxtaposed epithelial (carcinomatous) and mesenchymal (sarcomatous) components. Mesonephric-like carcinosarcomas are extremely rare. The carcinomatous component consists exclusively of mesonephric-like adenocarcinoma, which displays a characteristic small tubular pattern with tubules that are lined by cuboidal epithelium with small, hyperchromatic nuclei. The epithelial component in tumors of the mesonephric type will stain positive for Pax8, CK7, GATA3, TTF and luminal CD10, but negative for WT-1, ER and PR. P53 is usually wild-type and p16 is patchy.. The mesenchymal component consists predominantly of high-grade nonspecific sarcoma, which displays elongated tumor cells with ovoid or tapered, hyperchromatic nuclei with high-grade cytologic atypia, including nuclear enlargement, pleomorphism, and brisk mitotic activity. The high-grade non-specific sarcoma component contains variable amount of cytoplasm.",
+      "discussion": "A biphasic growth pattern supports a carcinosarcoma. The carcinomatous component concerns other Mullerian-type tumor. Unlike high-grade serous carcinoma, the mesonephric-like carcinoma shows a wild-type p53 staining pattern and negative for WT-1. Most endometrioid carcinoma is positive for ER and PR. Clear cell carcinoma lacks Gata3 and TTF-1 expression.",
+      "references": [
+        {
+          "text": "WHO Classification of Tumours Editorial Board. Female Genital Tumours. WHO Classification of Tumours, ( 5th ed.). IARC; 2020.",
+          "url": null
+        },
+        {
+          "text": "Mirkovic J, Olkhov-Mitsel E, Amemiya Y, Al-Hussaini M, Nofech-Mozes S, Djordjevic B, Kupets R, Seth A, McCluggage WG. Mesonephric-likeadenocarcinoma of the female genital tract: novel observations and detailed molecular characterisation of mixed tumours and mesonephric-like carcinosarcomas. 2023 Jun;82(7):978-990.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36860193/"
+        }
+      ],
+      "feedback_text": "Answer: B. Mesonephric/mesonephric-like carcinosarcoma\n\nHistology: This tumor is a mesonephric/mesonephric-like carcinosarcoma, which is characterized as a biphasic malignant neoplasm consisting of well-demarcated and juxtaposed epithelial (carcinomatous) and mesenchymal (sarcomatous) components. Mesonephric-like carcinosarcomas are extremely rare. The carcinomatous component consists exclusively of mesonephric-like adenocarcinoma, which displays a characteristic small tubular pattern with tubules that are lined by cuboidal epithelium with small, hyperchromatic nuclei. The epithelial component in tumors of the mesonephric type will stain positive for Pax8, CK7, GATA3, TTF and luminal CD10, but negative for WT-1, ER and PR. P53 is usually wild-type and p16 is patchy.. The mesenchymal component consists predominantly of high-grade nonspecific sarcoma, which displays elongated tumor cells with ovoid or tapered, hyperchromatic nuclei with high-grade cytologic atypia, including nuclear enlargement, pleomorphism, and brisk mitotic activity. The high-grade non-specific sarcoma component contains variable amount of cytoplasm.\n\nDiscussion: A biphasic growth pattern supports a carcinosarcoma. The carcinomatous component concerns other Mullerian-type tumor. Unlike high-grade serous carcinoma, the mesonephric-like carcinoma shows a wild-type p53 staining pattern and negative for WT-1. Most endometrioid carcinoma is positive for ER and PR. Clear cell carcinoma lacks Gata3 and TTF-1 expression.\n\nReferences:\n\nWHO Classification of Tumours Editorial Board. Female Genital Tumours. WHO Classification of Tumours, ( 5th ed.). IARC; 2020.\n\nMirkovic J, Olkhov-Mitsel E, Amemiya Y, Al-Hussaini M, Nofech-Mozes S, Djordjevic B, Kupets R, Seth A, McCluggage WG. Mesonephric-likeadenocarcinoma of the female genital tract: novel observations and detailed molecular characterisation of mixed tumours and mesonephric-like carcinosarcomas. 2023 Jun;82(7):978-990.",
+      "feedback_html": "<strong>Answer: B.</strong> Mesonephric/mesonephric-like carcinosarcoma<p></p>\n<p><strong>Histology: </strong>This tumor is a mesonephric/mesonephric-like carcinosarcoma, which is characterized as a biphasic malignant neoplasm consisting of well-demarcated and juxtaposed epithelial (carcinomatous) and mesenchymal (sarcomatous) components. Mesonephric-like carcinosarcomas are extremely rare. The carcinomatous component consists exclusively of mesonephric-like adenocarcinoma, which displays a characteristic small tubular pattern with tubules that are lined by cuboidal epithelium with small, hyperchromatic nuclei. The epithelial component in tumors of the mesonephric type will stain positive for Pax8, CK7, GATA3, TTF and luminal CD10, but negative for WT-1, ER and PR. P53 is usually wild-type and p16 is patchy.. The mesenchymal component consists predominantly of high-grade nonspecific sarcoma, which displays elongated tumor cells with ovoid or tapered, hyperchromatic nuclei with high-grade cytologic atypia, including nuclear enlargement, pleomorphism, and brisk mitotic activity. The high-grade non-specific sarcoma component contains variable amount of cytoplasm.</p>\n<p><strong>Discussion:</strong> A biphasic growth pattern supports a carcinosarcoma. The carcinomatous component concerns other Mullerian-type tumor. Unlike high-grade serous carcinoma, the mesonephric-like carcinoma shows a wild-type p53 staining pattern and negative for WT-1. Most endometrioid carcinoma is positive for ER and PR. Clear cell carcinoma lacks Gata3 and TTF-1 expression.</p>\n<p>&nbsp;</p>\n<p>References:</p>\n<ol>\n<li>WHO Classification of Tumours Editorial Board.&nbsp;<em>Female Genital Tumours. WHO Classification of Tumours</em>, (&nbsp;5th ed.). IARC;&nbsp;2020.</li>\n<li>Mirkovic J, Olkhov-Mitsel E, Amemiya Y, Al-Hussaini M, Nofech-Mozes S, Djordjevic B, Kupets R, Seth A, McCluggage WG. <a href=\"https://pubmed.ncbi.nlm.nih.gov/36860193/\">Mesonephric-likeadenocarcinoma of the female genital tract: novel observations and detailed molecular characterisation of mixed tumours and&nbsp;mesonephric-like&nbsp;carcinosarcomas.</a> 2023 Jun;82(7):978-990.</li>\n</ol>\n",
+      "stains": [
+        {
+          "name": "PAX8",
+          "aliases": [
+            "Pax8"
+          ],
+          "result": "Positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: mesonephric-type epithelial component is PAX8 positive."
+        },
+        {
+          "name": "CK7",
+          "aliases": [
+            "cytokeratin 7"
+          ],
+          "result": "Positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: mesonephric-type epithelial component is CK7 positive."
+        },
+        {
+          "name": "GATA3",
+          "aliases": [],
+          "result": "Positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: mesonephric-type epithelial component is GATA3 positive."
+        },
+        {
+          "name": "TTF-1",
+          "aliases": [
+            "TTF1",
+            "TTF"
+          ],
+          "result": "Positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer lists TTF positivity in the mesonephric-type epithelial component."
+        },
+        {
+          "name": "CD10",
+          "aliases": [],
+          "result": "Luminal positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: luminal CD10 positivity."
+        },
+        {
+          "name": "WT1",
+          "aliases": [
+            "WT-1"
+          ],
+          "result": "Negative",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: WT-1 negative."
+        },
+        {
+          "name": "ER",
+          "aliases": [
+            "estrogen receptor"
+          ],
+          "result": "Negative",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: ER negative."
+        },
+        {
+          "name": "PR",
+          "aliases": [
+            "progesterone receptor"
+          ],
+          "result": "Negative",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: PR negative."
+        },
+        {
+          "name": "p53",
+          "aliases": [
+            "TP53"
+          ],
+          "result": "Wild-type pattern",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: p53 is usually wild-type."
+        },
+        {
+          "name": "p16",
+          "aliases": [
+            "CDKN2A"
+          ],
+          "result": "Patchy",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: p16 is patchy."
+        }
+      ],
+      "stain_status": "curated",
+      "extracted_at": "2026-11-07T19:43:56.698Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w819c1",
+      "url": "https://sp.pathology.jhu.edu/week-819-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 819: Case 1",
+      "case_label": "Week 819: Case 1",
+      "attribution": "Case presented by Dr. Deyin Xing, MD, PhD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This is 50 year old female with an ileal mass. Select the correct diagnosis.",
+      "question_text": "Case presented by Dr. Deyin Xing, MD, PhD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis is 50 year old female with an ileal mass. Select the correct diagnosis.",
+      "source_answer": "Low grade endometrioid stromal sarcoma",
+      "correct_answer": "Low grade endometrioid stromal sarcoma",
+      "canonical_answer": "Low grade endometrioid stromal sarcoma",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "Gastrointestinal stromal tumor (GIST)",
+        "Leiomyosarcoma",
+        "Inflammatory myofibroblastic tumor",
+        "Low grade endometrioid stromal sarcoma"
+      ],
+      "choices": [
+        "Gastrointestinal stromal tumor (GIST)",
+        "Leiomyosarcoma",
+        "Inflammatory myofibroblastic tumor",
+        "Low grade endometrioid stromal sarcoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/2X-1024x803.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/4X-4-1024x803.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/20X-2-1024x803.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/40X-2-1024x803.jpg"
+      ],
+      "histology": "This tumor is a low-grade endometrioid stromal sarcoma. The malignant tumor cells resemble proliferative-phase endometrial stroma. In uterus, the tumor displays permeative or infiltrative growth (tongue-like) into the myometrium with or without lymphovascular invasion. While the tumors more commonly involve the uterine corpus, they can occur in the extrauterine location and probably arise from endometriosis. This patient had a histologically unremarkable uterus, and thus, the tumor may originate from an occult endometriosis. Microscopically, the tumor cells are arranged in irregularly, densely cellular islands. On higher power, the tumor cells have uniform, oval to fusiform nuclei with minimal to mild atypia and scant cytoplasm. Mitotic activity is usually low. There is often a delicate arteriolar network, and the tumor cells can be seen whorling around vessels. There are variant features that can be observed in this tumor including sex cord-like differentiation, fibrous/fibromyxoid changes, and smooth muscle differentiation. Immunohistochemistry staining will show that the tumors have strong expression of CD10, ER, and PR. Two thirds of low-grade endometrial stromal sarcomas have gene fusions involving the polycomb family genes, with the most common mutation being JAZF1-SUZ12.",
+      "discussion": "The top differential diagnosis is gastrointestinal stromal tumor (GIST) given its location. GIST is positive for C-Kit and DOG-1, negative for ER and PR. Smooth muscle tumors, particularly leiomyosarcoma, form interlacing but disorganized fascicles. Inflammatory myofibroblastic tumors consist of spindle, polygonal or stellate cells growing in intersecting fascicles or set in a hypocellular (myxoid) or hyalinized background with inflammatory cells. The tumor cells are usually ALK positive.",
+      "references": [
+        {
+          "text": "Deb PQ, Heller DS. Extrauterine endometrial stromal sarcoma: A systematic review and outcome analysis. Ann Diagn Pathol. 2022 Aug;59:151966.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: D. Low grade endometrioid stromal sarcoma.\n\nHistology: This tumor is a low-grade endometrioid stromal sarcoma. The malignant tumor cells resemble proliferative-phase endometrial stroma. In uterus, the tumor displays permeative or infiltrative growth (tongue-like) into the myometrium with or without lymphovascular invasion. While the tumors more commonly involve the uterine corpus, they can occur in the extrauterine location and probably arise from endometriosis. This patient had a histologically unremarkable uterus, and thus, the tumor may originate from an occult endometriosis. Microscopically, the tumor cells are arranged in irregularly, densely cellular islands. On higher power, the tumor cells have uniform, oval to fusiform nuclei with minimal to mild atypia and scant cytoplasm. Mitotic activity is usually low. There is often a delicate arteriolar network, and the tumor cells can be seen whorling around vessels. There are variant features that can be observed in this tumor including sex cord-like differentiation, fibrous/fibromyxoid changes, and smooth muscle differentiation. Immunohistochemistry staining will show that the tumors have strong expression of CD10, ER, and PR. Two thirds of low-grade endometrial stromal sarcomas have gene fusions involving the polycomb family genes, with the most common mutation being JAZF1-SUZ12.\n\nDiscussion: The top differential diagnosis is gastrointestinal stromal tumor (GIST) given its location. GIST is positive for C-Kit and DOG-1, negative for ER and PR. Smooth muscle tumors, particularly leiomyosarcoma, form interlacing but disorganized fascicles. Inflammatory myofibroblastic tumors consist of spindle, polygonal or stellate cells growing in intersecting fascicles or set in a hypocellular (myxoid) or hyalinized background with inflammatory cells. The tumor cells are usually ALK positive.\n\nReferences:\n\nDeb PQ, Heller DS. Extrauterine endometrial stromal sarcoma: A systematic review and outcome analysis. Ann Diagn Pathol. 2022 Aug;59:151966.",
+      "feedback_html": "<strong>Answer: D.</strong> Low grade endometrioid stromal sarcoma.<p></p>\n<p><strong>Histology: </strong>This tumor is a low-grade endometrioid stromal sarcoma. The malignant tumor cells resemble proliferative-phase endometrial stroma. In uterus, the tumor displays permeative or infiltrative growth (tongue-like) into the myometrium with or without lymphovascular invasion. While the tumors more commonly involve the uterine corpus, they can occur in the extrauterine location and probably arise from endometriosis. This patient had a histologically unremarkable uterus, and thus, the tumor may originate from an occult endometriosis. Microscopically, the tumor cells are arranged in irregularly, densely cellular islands. On higher power, the tumor cells have uniform, oval to fusiform nuclei with minimal to mild atypia and scant cytoplasm. Mitotic activity is usually low. There is often a delicate arteriolar network, and the tumor cells can be seen whorling around vessels. There are variant features that can be observed in this tumor including sex cord-like differentiation, fibrous/fibromyxoid changes, and smooth muscle differentiation. Immunohistochemistry staining will show that the tumors have strong expression of CD10, ER, and PR. Two&nbsp;thirds of low-grade endometrial stromal sarcomas have gene fusions involving the polycomb family genes, with the most common mutation being JAZF1-SUZ12.</p>\n<p><strong>Discussion: </strong>The top differential diagnosis is gastrointestinal stromal tumor (GIST) given its location. GIST is positive for C-Kit and DOG-1, negative for ER and PR. Smooth muscle tumors, particularly leiomyosarcoma, form interlacing but disorganized fascicles. Inflammatory myofibroblastic&nbsp;<em>tumors consist of </em>spindle, polygonal or stellate cells growing in intersecting fascicles or set in a hypocellular (myxoid) or hyalinized background with inflammatory cells. The tumor cells are usually ALK positive.</p>\n<p>&nbsp;</p>\n<p>References:</p>\n<p><a href=\"https://pubmed.ncbi.nlm.nih.gov/35569210/\">Deb PQ, Heller DS. Extrauterine&nbsp;endometrial&nbsp;stromal&nbsp;sarcoma: A systematic review and outcome analysis.</a> Ann Diagn Pathol. 2022 Aug;59:151966.</p>",
+      "stains": [
+        {
+          "name": "CD10",
+          "aliases": [],
+          "result": "Strong positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: low-grade endometrial stromal sarcoma shows strong CD10 expression."
+        },
+        {
+          "name": "ER",
+          "aliases": [
+            "estrogen receptor"
+          ],
+          "result": "Strong positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: strong ER expression."
+        },
+        {
+          "name": "PR",
+          "aliases": [
+            "progesterone receptor"
+          ],
+          "result": "Strong positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: strong PR expression."
+        }
+      ],
+      "stain_status": "curated",
+      "extracted_at": "2026-11-07T19:44:05.915Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w818c3",
+      "url": "https://sp.pathology.jhu.edu/week-818-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 818: Case 3",
+      "case_label": "Week 818: Case 3",
+      "attribution": "Case presented by Dr. Russell Vang, MD, and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This is a 20 year old female with a left ovarian mass during pregnancy. Select the correct diagnosis.",
+      "question_text": "Case presented by Dr. Russell Vang, MD, and prepared by Dr. Annie A. Wu, MD, PhD.\nThis is a 20 year old female with a left ovarian mass during pregnancy. Select the correct diagnosis.",
+      "source_answer": "Pregnancy luteoma",
+      "correct_answer": "Pregnancy luteoma",
+      "canonical_answer": "Pregnancy luteoma",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "Pregnancy luteoma",
+        "Luteinized thecoma",
+        "Luteinized granulosa cell tumor",
+        "Steroid cell tumor"
+      ],
+      "choices": [
+        "Pregnancy luteoma",
+        "Luteinized thecoma",
+        "Luteinized granulosa cell tumor",
+        "Steroid cell tumor"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8696.svs-4028311795130668964100.2x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8696.svs-641383197979636464881.2x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8696.svs-6580041450672764283212.7x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8696.svs-6351860497643386126522.9x.png"
+      ],
+      "histology": "This entity is a pregnancy luteoma, which is a hyperplastic diffuse, sheet-like proliferation of large, luteinized ovarian cells that occurs during pregnancy. The stroma is minimal and shows delicate blood vessels. Follicle-like spaces containing eosinophilic colloid-like secretions are commonly seen. The luteinized cells have abundant eosinophilic cytoplasm which may contain eosinophilic globules. On higher power, the luteinized cells exhibit uniform round nuclei. Immunostains will show strong positivity of inhibin in the tumor cells. Reticulin stain will show positive fibers enclosing groups of cells, rather than individual cells. Pregnancy luteomas are a benign incidental finding near term or immediately post-partum, and they tend to regress spontaneously post-partum.",
+      "discussion": "The differential diagnosis of pregnancy luteoma can include other oxyphilic tumors of the ovary, such as luteinized thecomas and granulosa cell tumors. Luteinized thecoma would show at least focal areas of classical thecoma cells with round to oval cells containing spindled nuclei and less eosinophilic cytoplasm than seen in pregnancy luteomas. Luteinized adult granulosa cell tumor would likewise show at least focal areas of granulosa cell tumor with classical morphology. However, adult granulosa cell tumors retain evidence of sex cord architecture and do not tend to show luteinization to the extent seen in pregnancy luteomas. Steroid cell tumors can qualitatively appear histologically similar to pregnancy luteoma. Distinguishing between the two is important as a subset of steroid cell tumors are malignant. Bilaterality and a multinodular pattern favor pregnancy luteoma. In the setting of a unilateral tumor with a uninodular pattern, it may not be possible to definitively distinguish these two lesions; however, pregnancy luteoma would typically be favored based on prior odds.",
+      "references": [
+        {
+          "text": "WHO Classification of Tumours Editorial Board. Female Genital Tumours. WHO Classification of Tumours, ( 5th ed.). IARC; 2020.",
+          "url": null
+        },
+        {
+          "text": "Burandt E, Young RH. Pregnancy luteoma: a study of 20 cases on the occasion of the 50th anniversary of its description by Dr. William H. Sternberg, with an emphasis on the common presence of follicle-like spaces and their diagnostic implications. Am J Surg Pathol. 2014 Feb;38(2):239-44.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: A. Pregnancy luteoma\n\nHistology: This entity is a pregnancy luteoma, which is a hyperplastic diffuse, sheet-like proliferation of large, luteinized ovarian cells that occurs during pregnancy. The stroma is minimal and shows delicate blood vessels. Follicle-like spaces containing eosinophilic colloid-like secretions are commonly seen. The luteinized cells have abundant eosinophilic cytoplasm which may contain eosinophilic globules. On higher power, the luteinized cells exhibit uniform round nuclei. Immunostains will show strong positivity of inhibin in the tumor cells. Reticulin stain will show positive fibers enclosing groups of cells, rather than individual cells. Pregnancy luteomas are a benign incidental finding near term or immediately post-partum, and they tend to regress spontaneously post-partum.\n\nDiscussion: The differential diagnosis of pregnancy luteoma can include other oxyphilic tumors of the ovary, such as luteinized thecomas and granulosa cell tumors. Luteinized thecoma would show at least focal areas of classical thecoma cells with round to oval cells containing spindled nuclei and less eosinophilic cytoplasm than seen in pregnancy luteomas. Luteinized adult granulosa cell tumor would likewise show at least focal areas of granulosa cell tumor with classical morphology. However, adult granulosa cell tumors retain evidence of sex cord architecture and do not tend to show luteinization to the extent seen in pregnancy luteomas. Steroid cell tumors can qualitatively appear histologically similar to pregnancy luteoma. Distinguishing between the two is important as a subset of steroid cell tumors are malignant. Bilaterality and a multinodular pattern favor pregnancy luteoma. In the setting of a unilateral tumor with a uninodular pattern, it may not be possible to definitively distinguish these two lesions; however, pregnancy luteoma would typically be favored based on prior odds.\n\nReferences:\n\nWHO Classification of Tumours Editorial Board. Female Genital Tumours. WHO Classification of Tumours, ( 5th ed.). IARC; 2020.\n\nBurandt E, Young RH. Pregnancy luteoma: a study of 20 cases on the occasion of the 50th anniversary of its description by Dr. William H. Sternberg, with an emphasis on the common presence of follicle-like spaces and their diagnostic implications. Am J Surg Pathol. 2014 Feb;38(2):239-44.",
+      "feedback_html": "<strong>Answer: A.</strong> Pregnancy luteoma<p></p>\n<p><strong>Histology: </strong>This entity is a pregnancy luteoma, which is a hyperplastic diffuse, sheet-like proliferation of large, luteinized ovarian cells that occurs during pregnancy. The stroma is minimal and shows delicate blood vessels. Follicle-like spaces containing eosinophilic colloid-like secretions are commonly seen. The luteinized cells have abundant eosinophilic cytoplasm which may contain eosinophilic globules. On higher power, the luteinized cells exhibit uniform round nuclei. Immunostains will show strong positivity of inhibin in the tumor cells. Reticulin stain will show positive fibers enclosing groups of cells, rather than individual cells. Pregnancy luteomas are a benign incidental finding near term or immediately post-partum, and they tend to regress spontaneously post-partum.</p>\n<p><strong>Discussion: </strong>The differential diagnosis of pregnancy luteoma can include other oxyphilic tumors of the ovary, such as luteinized thecomas and granulosa cell tumors. Luteinized thecoma would show at least focal areas of classical thecoma cells with round to oval cells containing spindled nuclei and less eosinophilic cytoplasm than seen in pregnancy luteomas. Luteinized adult granulosa cell tumor would likewise show at least focal areas of granulosa cell tumor with classical morphology. However, adult granulosa cell tumors retain evidence of sex cord architecture and do not tend to show luteinization to the extent seen in pregnancy luteomas. Steroid cell tumors can qualitatively appear histologically similar to pregnancy luteoma. Distinguishing between the two is important as a subset of steroid cell tumors are malignant. Bilaterality and a multinodular pattern favor pregnancy luteoma. In the setting of a unilateral tumor with a uninodular pattern, it may not be possible to definitively distinguish these two lesions; however, pregnancy luteoma would typically be favored based on prior odds.</p>\n<p>&nbsp;</p>\n<p>References:</p>\n<ol>\n<li>WHO Classification of Tumours Editorial Board.&nbsp;<em>Female Genital Tumours. WHO Classification of Tumours</em>, (&nbsp;5th ed.). IARC;&nbsp;2020.</li>\n<li>Burandt E, Young RH. Pregnancy luteoma: a study of 20 cases on the occasion of the 50th anniversary of its description by Dr. William H. Sternberg, with an emphasis on the common presence of follicle-like spaces and their diagnostic implications. Am J Surg Pathol. 2014 Feb;38(2):239-44.</li>\n</ol>\n",
+      "stains": [
+        {
+          "name": "Inhibin",
+          "aliases": [
+            "alpha-inhibin",
+            "α-inhibin"
+          ],
+          "result": "Strong positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: strong inhibin positivity."
+        },
+        {
+          "name": "Reticulin",
+          "aliases": [
+            "reticulin stain"
+          ],
+          "result": "Fibers enclose groups of cells",
+          "type": "special stain",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: reticulin fibers enclose groups of cells rather than individual cells."
+        }
+      ],
+      "stain_status": "curated",
+      "extracted_at": "2026-11-07T19:44:13.398Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w818c2",
+      "url": "https://sp.pathology.jhu.edu/week-818-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 818: Case 2",
+      "case_label": "Week 818: Case 2",
+      "attribution": "Case presented by Dr. Russell Vang, MD, and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This is a 40 year old female with a uterine mass. Select the correct diagnosis.",
+      "question_text": "Case presented by Dr. Russell Vang, MD, and prepared by Dr. Annie A. Wu, MD, PhD.\nThis is a 40 year old female with a uterine mass. Select the correct diagnosis.",
+      "source_answer": "Fumarate hydratase-deficient atypical leiomyoma",
+      "correct_answer": "Fumarate hydratase-deficient atypical leiomyoma",
+      "canonical_answer": "Fumarate hydratase-deficient atypical leiomyoma",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "Perivascular epithelioid cell tumor (PEComa)",
+        "Fumarate hydratase-deficient atypical leiomyoma",
+        "Leiomyosarcoma",
+        "Classical leiomyoma"
+      ],
+      "choices": [
+        "Perivascular epithelioid cell tumor (PEComa)",
+        "Fumarate hydratase-deficient atypical leiomyoma",
+        "Leiomyosarcoma",
+        "Classical leiomyoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8694.svs-6057971301613401015930.2x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8694.svs-378583426647456432651.9x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8694.svs-301491843435482234343.5x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8694.svs-12831464614477618911.3x.png"
+      ],
+      "histology": "This tumor is a fumarate hydratase (FH)-deficient atypical leiomyoma. The characteristic morphologic features include hypercellularity, eosinophilic hyaline globules, prominent staghorn vasculature, and zones of patchy alveolar pattern edema. On higher power, the tumor cells have fibrillary or neuropil-like cytoplasm, and round to ovoid nuclei with prominent macronucleoli surrounded by clear perinucleolar halos. Another histologic feature that is associated with FH deficiency is “schwannoma-like” growth with nuclear palisading. Immunohistochemical stains will show positivity for myogenic markers (desmin, SMA, caldesmon). In addition, the tumor will exhibit diffuse positive staining for 2-succinocysteine (2SC) and complete loss of staining for FH. The loss of FH IHC staining correlates with the presence of an FH gene mutation, either germline or somatic. The germline mutation in fumarate hydratase can cause hereditary leiomyomatosis and renal cell cancer (HLRCC) syndrome.",
+      "discussion": "The differential diagnosis includes perivascular epithelioid cell tumors (PEComas), which will have sheets and nests of epithelioid cells with clear to eosinophilic granular cytoplasm. They typically have thin and delicate vessels although staghorn vessels can be seen. These tumors will stain positive for melanocytic markers (HMB45, MART1), cathepsin K, and GPNMB, as well as myogenic markers (SMA, desmin, caldesmon). Leiomyosarcomas will have marked cytologic atypia with significant mitotic activity or coagulative necrosis. Classical leiomyomas have a well-demarcated border and are composed of spindle cells arranged in intersecting fascicles. The cells will have cigar-shaped nuclei with small nucleoli. Retained or variable FH staining patterns (and negative 2SC) may be observed across these other entities.",
+      "references": [
+        {
+          "text": "WHO Classification of Tumours Editorial Board. Female Genital Tumours. WHO Classification of Tumours, ( 5th ed.). IARC; 2020.",
+          "url": null
+        },
+        {
+          "text": "Chan E, Rabban JT, Mak J, Zaloudek C, Garg K. Detailed Morphologic and Immunohistochemical Characterization of Myomectomy and Hysterectomy Specimens From Women With Hereditary Leiomyomatosis and Renal Cell Carcinoma Syndrome (HLRCC). Am J Surg Pathol. 2019 Sep;43(9):1170-1179.",
+          "url": null
+        },
+        {
+          "text": "Liu C, Dillon J, Beavis AL, Liu Y, Lombardo K, Fader AN, Hung CF, Wu TC, Vang R, Garcia JE, Xing D. Prevalence of somatic and germline mutations of Fumarate hydratase in uterine leiomyomas from young patients. Histopathology. 2020 Feb;76(3):354-365.",
+          "url": null
+        },
+        {
+          "text": "Harrison WJ, Andrici J, Maclean F, Madadi-Ghahan R, Farzin M, Sioson L, Toon CW, Clarkson A, Watson N, Pickett J, Field M, Crook A, Tucker K, Goodwin A, Anderson L, Srinivasan B, Grossmann P, Martinek P, Ondič O, Hes O, Trpkov K, Clifton-Bligh RJ, Dwight T, Gill AJ. Fumarate Hydratase-deficient Uterine Leiomyomas Occur in Both the Syndromic and Sporadic Settings. Am J Surg Pathol. 2016 May;40(5):599-607.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: B. Fumarate hydratase-deficient atypical leiomyoma\n\nHistology: This tumor is a fumarate hydratase (FH)-deficient atypical leiomyoma. The characteristic morphologic features include hypercellularity, eosinophilic hyaline globules, prominent staghorn vasculature, and zones of patchy alveolar pattern edema. On higher power, the tumor cells have fibrillary or neuropil-like cytoplasm, and round to ovoid nuclei with prominent macronucleoli surrounded by clear perinucleolar halos. Another histologic feature that is associated with FH deficiency is “schwannoma-like” growth with nuclear palisading. Immunohistochemical stains will show positivity for myogenic markers (desmin, SMA, caldesmon). In addition, the tumor will exhibit diffuse positive staining for 2-succinocysteine (2SC) and complete loss of staining for FH. The loss of FH IHC staining correlates with the presence of an FH gene mutation, either germline or somatic. The germline mutation in fumarate hydratase can cause hereditary leiomyomatosis and renal cell cancer (HLRCC) syndrome.\n\nDiscussion: The differential diagnosis includes perivascular epithelioid cell tumors (PEComas), which will have sheets and nests of epithelioid cells with clear to eosinophilic granular cytoplasm. They typically have thin and delicate vessels although staghorn vessels can be seen. These tumors will stain positive for melanocytic markers (HMB45, MART1), cathepsin K, and GPNMB, as well as myogenic markers (SMA, desmin, caldesmon). Leiomyosarcomas will have marked cytologic atypia with significant mitotic activity or coagulative necrosis. Classical leiomyomas have a well-demarcated border and are composed of spindle cells arranged in intersecting fascicles. The cells will have cigar-shaped nuclei with small nucleoli. Retained or variable FH staining patterns (and negative 2SC) may be observed across these other entities.\n\nReferences:\n\nWHO Classification of Tumours Editorial Board. Female Genital Tumours. WHO Classification of Tumours, ( 5th ed.). IARC; 2020.\n\nChan E, Rabban JT, Mak J, Zaloudek C, Garg K. Detailed Morphologic and Immunohistochemical Characterization of Myomectomy and Hysterectomy Specimens From Women With Hereditary Leiomyomatosis and Renal Cell Carcinoma Syndrome (HLRCC). Am J Surg Pathol. 2019 Sep;43(9):1170-1179.\n\nLiu C, Dillon J, Beavis AL, Liu Y, Lombardo K, Fader AN, Hung CF, Wu TC, Vang R, Garcia JE, Xing D. Prevalence of somatic and germline mutations of Fumarate hydratase in uterine leiomyomas from young patients. Histopathology. 2020 Feb;76(3):354-365.\n\nHarrison WJ, Andrici J, Maclean F, Madadi-Ghahan R, Farzin M, Sioson L, Toon CW, Clarkson A, Watson N, Pickett J, Field M, Crook A, Tucker K, Goodwin A, Anderson L, Srinivasan B, Grossmann P, Martinek P, Ondič O, Hes O, Trpkov K, Clifton-Bligh RJ, Dwight T, Gill AJ. Fumarate Hydratase-deficient Uterine Leiomyomas Occur in Both the Syndromic and Sporadic Settings. Am J Surg Pathol. 2016 May;40(5):599-607.",
+      "feedback_html": "<strong>Answer: B</strong>. Fumarate hydratase-deficient atypical leiomyoma<p></p>\n<p><strong>Histology: </strong>This tumor is a fumarate hydratase (FH)-deficient atypical leiomyoma. The characteristic morphologic features include hypercellularity, eosinophilic hyaline globules, prominent staghorn vasculature, and zones of patchy alveolar pattern edema. On higher power, the tumor cells have fibrillary or neuropil-like cytoplasm, and round to ovoid nuclei with prominent macronucleoli surrounded by clear perinucleolar halos. Another histologic feature that is associated with FH deficiency is “schwannoma-like” growth with nuclear palisading. Immunohistochemical stains will show positivity for myogenic markers (desmin, SMA, caldesmon). In addition, the tumor will exhibit diffuse positive staining for 2-succinocysteine (2SC) and complete loss of staining for FH. The loss of FH IHC staining correlates with the presence of an FH gene mutation, either germline or somatic. The germline mutation in fumarate hydratase can cause hereditary leiomyomatosis and renal cell cancer (HLRCC) syndrome.</p>\n<p><strong>Discussion: </strong>The differential diagnosis includes perivascular epithelioid cell tumors (PEComas), which will have sheets and nests of epithelioid cells with clear to eosinophilic granular cytoplasm. They typically have thin and delicate vessels although staghorn vessels can be seen. These tumors will stain positive for melanocytic markers (HMB45, MART1), cathepsin K, and GPNMB, as well as myogenic markers (SMA, desmin, caldesmon). Leiomyosarcomas will have marked cytologic atypia with significant mitotic activity or coagulative necrosis. Classical leiomyomas have a well-demarcated border and are composed of spindle cells arranged in intersecting fascicles. The cells will have cigar-shaped nuclei with small nucleoli. Retained or variable FH staining patterns (and negative 2SC) may be observed across these other entities.</p>\n<p>&nbsp;</p>\n<p>References:</p>\n<ol>\n<li>WHO Classification of Tumours Editorial Board.&nbsp;<em>Female Genital Tumours. WHO Classification of Tumours</em>, (&nbsp;5th ed.). IARC;&nbsp;2020.</li>\n<li>Chan E, Rabban JT, Mak J, Zaloudek C, Garg K. Detailed Morphologic and Immunohistochemical Characterization of Myomectomy and Hysterectomy Specimens From Women With Hereditary Leiomyomatosis and Renal Cell Carcinoma Syndrome (HLRCC). Am J Surg Pathol. 2019 Sep;43(9):1170-1179.</li>\n<li>Liu C, Dillon J, Beavis AL, Liu Y, Lombardo K, Fader AN, Hung CF, Wu TC, Vang R, Garcia JE, Xing D. Prevalence of somatic and germline mutations of Fumarate hydratase in uterine leiomyomas from young patients. Histopathology. 2020 Feb;76(3):354-365.</li>\n</ol>\n<p>Harrison WJ, Andrici J, Maclean F, Madadi-Ghahan R, Farzin M, Sioson L, Toon CW, Clarkson A, Watson N, Pickett J, Field M, Crook A, Tucker K, Goodwin A, Anderson L, Srinivasan B, Grossmann P, Martinek P, Ondič O, Hes O, Trpkov K, Clifton-Bligh RJ, Dwight T, Gill AJ. Fumarate Hydratase-deficient Uterine Leiomyomas Occur in Both the Syndromic and Sporadic Settings. Am J Surg Pathol. 2016 May;40(5):599-607.</p>\n",
+      "stains": [
+        {
+          "name": "Desmin",
+          "aliases": [],
+          "result": "Positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: myogenic markers including desmin are positive."
+        },
+        {
+          "name": "SMA",
+          "aliases": [
+            "smooth muscle actin"
+          ],
+          "result": "Positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: myogenic markers including SMA are positive."
+        },
+        {
+          "name": "h-caldesmon",
+          "aliases": [
+            "caldesmon",
+            "H-caldesmon"
+          ],
+          "result": "Positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: myogenic markers including caldesmon are positive."
+        },
+        {
+          "name": "2SC",
+          "aliases": [
+            "2-SC",
+            "2-succinocysteine"
+          ],
+          "result": "Diffuse positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: diffuse 2-succinocysteine positivity."
+        },
+        {
+          "name": "FH",
+          "aliases": [
+            "fumarate hydratase"
+          ],
+          "result": "Complete loss",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: complete loss of FH staining."
+        }
+      ],
+      "stain_status": "curated",
+      "extracted_at": "2026-11-07T19:44:21.129Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w818c1",
+      "url": "https://sp.pathology.jhu.edu/week-818-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 818: Case 1",
+      "case_label": "Week 818: Case 1",
+      "attribution": "Case presented by Dr. Russell Vang, MD, and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This is a 50 year old female with a left ovarian mass. Select the correct diagnosis.",
+      "question_text": "Case presented by Dr. Russell Vang, MD, and prepared by Dr. Annie A. Wu, MD, PhD.\nThis is a 50 year old female with a left ovarian mass. Select the correct diagnosis.",
+      "source_answer": "Appendiceal-type low-grade mucinous neoplasm arising from a mature cystic teratoma",
+      "correct_answer": "Appendiceal-type low-grade mucinous neoplasm arising from a mature cystic teratoma",
+      "canonical_answer": "Appendiceal-type low-grade mucinous neoplasm arising from a mature cystic teratoma",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "Metastatic mucinous carcinoma of the lower gastrointestinal tract",
+        "Mucinous borderline tumor",
+        "Appendiceal-type low-grade mucinous neoplasm arising from a mature cystic teratoma",
+        "Mucinous cystadenoma"
+      ],
+      "choices": [
+        "Metastatic mucinous carcinoma of the lower gastrointestinal tract",
+        "Mucinous borderline tumor",
+        "Appendiceal-type low-grade mucinous neoplasm arising from a mature cystic teratoma",
+        "Mucinous cystadenoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8693.svs-37317212191422191056470.2x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8693.svs-439776975449529742223.6x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8693.svs-260463996444034544411.1x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8693.svs-375053315840589356406.4x.png"
+      ],
+      "histology": "This tumor is an appendiceal-type low-grade mucinous neoplasm arising from a mature cystic teratoma. The tumor is composed of cysts lined by one or two layers of columnar mucinous cells contiguous or noncontiguous with other teratomatous elements. The epithelium is hypermucinous and goblet-cell rich, exhibiting morphologic features of gastrointestinal-type mucinous differentiation identical to the morphology of appendiceal origin. Extracellular mucin is present within ovarian stroma as pools or dissecting lakes, representing the presence of pseudomyxoma ovarii. The teratomatous elements may or may not contain more than one germ layer, including ectodermal elements (squamous epithelium and cutaneous adnexal structures) found in a dermoid cyst. Other tissues that can be found in teratomas include neuroectodermal derivatives (glial tissue, ependyma, and cerebellum, neuronal tissue), mesodermal derivatives (adipose tissue, bone, cartilage, smooth muscle), and endodermal derivatives (respiratory epithelium, thyroid, salivary gland, gastrointestinal), among many others. Mucinous tumors in general are present in 2-11% of ovarian mature cystic teratomas. Teratoma-associated mucinous tumors can range in appearance from cystadenomatous or borderline tumor-like to adenocarcinoma. These tumors share morphologic and immunohistochemical features of low-grade mucinous tumors of appendiceal origin, often displaying a CK7 negative, CK20 positive immunoprofile.",
+      "discussion": "Metastatic mucinous carcinoma of the lower gastrointestinal tract to the ovary is certainly on the differential diagnosis. However, in this case, the appendix was entirely examined microscopically and showed no evidence of tumor. Other characteristic features of metastatic disease would include bilateral ovarian tumor, nodularity with surface involvement, and extraovarian tumor morphologically similar to the primary tumor. Mucinous borderline tumors would contain cysts lined by proliferative mucinous epithelium forming tufts and have cystic growth displaying greater degrees of architectural complexity and epithelial stratification. These tumors would exhibit CK7-positive and CK20-negative immunoprofiles. Mucinous cystadenomas are composed of cysts lined by 1 or 2 layers of columnar mucinous cells with minor foci exhibiting focal epithelial budding and branching. These tumors also exhibit CK7-positive and CK20-negative immunoprofiles.",
+      "references": [
+        {
+          "text": "WHO Classification of Tumours Editorial Board. Female Genital Tumours. WHO Classification of Tumours, ( 5th ed.). IARC; 2020.",
+          "url": null
+        },
+        {
+          "text": "Vang R, Gown AM, Zhao C, Barry TS, Isacson C, Richardson MS, Ronnett BM. Ovarian mucinous tumors associated with mature cystic teratomas: morphologic and immunohistochemical analysis identifies a subset of potential teratomatous origin that shares features of lower gastrointestinal tract mucinous tumors more commonly encountered as secondary tumors in the ovary. Am J Surg Pathol. 2007 Jun;31(6):854-69.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: C. Appendiceal-type low-grade mucinous neoplasm arising from a mature cystic teratoma.\n\nHistology: This tumor is an appendiceal-type low-grade mucinous neoplasm arising from a mature cystic teratoma. The tumor is composed of cysts lined by one or two layers of columnar mucinous cells contiguous or noncontiguous with other teratomatous elements. The epithelium is hypermucinous and goblet-cell rich, exhibiting morphologic features of gastrointestinal-type mucinous differentiation identical to the morphology of appendiceal origin. Extracellular mucin is present within ovarian stroma as pools or dissecting lakes, representing the presence of pseudomyxoma ovarii. The teratomatous elements may or may not contain more than one germ layer, including ectodermal elements (squamous epithelium and cutaneous adnexal structures) found in a dermoid cyst. Other tissues that can be found in teratomas include neuroectodermal derivatives (glial tissue, ependyma, and cerebellum, neuronal tissue), mesodermal derivatives (adipose tissue, bone, cartilage, smooth muscle), and endodermal derivatives (respiratory epithelium, thyroid, salivary gland, gastrointestinal), among many others. Mucinous tumors in general are present in 2-11% of ovarian mature cystic teratomas. Teratoma-associated mucinous tumors can range in appearance from cystadenomatous or borderline tumor-like to adenocarcinoma. These tumors share morphologic and immunohistochemical features of low-grade mucinous tumors of appendiceal origin, often displaying a CK7 negative, CK20 positive immunoprofile.\n\nDiscussion: Metastatic mucinous carcinoma of the lower gastrointestinal tract to the ovary is certainly on the differential diagnosis. However, in this case, the appendix was entirely examined microscopically and showed no evidence of tumor. Other characteristic features of metastatic disease would include bilateral ovarian tumor, nodularity with surface involvement, and extraovarian tumor morphologically similar to the primary tumor. Mucinous borderline tumors would contain cysts lined by proliferative mucinous epithelium forming tufts and have cystic growth displaying greater degrees of architectural complexity and epithelial stratification. These tumors would exhibit CK7-positive and CK20-negative immunoprofiles. Mucinous cystadenomas are composed of cysts lined by 1 or 2 layers of columnar mucinous cells with minor foci exhibiting focal epithelial budding and branching. These tumors also exhibit CK7-positive and CK20-negative immunoprofiles.\n\nReferences:\n\nWHO Classification of Tumours Editorial Board. Female Genital Tumours. WHO Classification of Tumours, ( 5th ed.). IARC; 2020.\n\nVang R, Gown AM, Zhao C, Barry TS, Isacson C, Richardson MS, Ronnett BM. Ovarian mucinous tumors associated with mature cystic teratomas: morphologic and immunohistochemical analysis identifies a subset of potential teratomatous origin that shares features of lower gastrointestinal tract mucinous tumors more commonly encountered as secondary tumors in the ovary. Am J Surg Pathol. 2007 Jun;31(6):854-69.",
+      "feedback_html": "<strong>Answer: C.</strong> Appendiceal-type low-grade mucinous neoplasm arising from a mature cystic teratoma.<p></p>\n<p><strong>Histology: </strong>This tumor is an appendiceal-type low-grade mucinous neoplasm arising from a mature cystic teratoma. The tumor is composed of cysts lined by one or two layers of columnar mucinous cells contiguous or noncontiguous with other teratomatous elements. The epithelium is hypermucinous and goblet-cell rich, exhibiting morphologic features of gastrointestinal-type mucinous differentiation identical to the morphology of appendiceal origin. Extracellular mucin is present within ovarian stroma as pools or dissecting lakes, representing the presence of pseudomyxoma ovarii. The teratomatous elements may or may not contain more than one germ layer, including ectodermal elements (squamous epithelium and cutaneous adnexal structures) found in a dermoid cyst. Other tissues that can be found in teratomas include neuroectodermal derivatives (glial tissue, ependyma, and cerebellum, neuronal tissue), mesodermal derivatives (adipose tissue, bone, cartilage, smooth muscle), and endodermal derivatives (respiratory epithelium, thyroid, salivary gland, gastrointestinal), among many others. Mucinous tumors in general are present in 2-11% of ovarian mature cystic teratomas. Teratoma-associated mucinous tumors can range in appearance from cystadenomatous or borderline tumor-like to adenocarcinoma. These tumors share morphologic and immunohistochemical features of low-grade mucinous tumors of appendiceal origin, often displaying a CK7 negative, CK20 positive immunoprofile.</p>\n<p><strong>Discussion: </strong>Metastatic mucinous carcinoma of the lower gastrointestinal tract to the ovary is certainly on the differential diagnosis. However, in this case, the appendix was entirely examined microscopically and showed no evidence of tumor. Other characteristic features of metastatic disease would include bilateral ovarian tumor, nodularity with surface involvement, and extraovarian tumor morphologically similar to the primary tumor. Mucinous borderline tumors would contain cysts lined by proliferative mucinous epithelium forming tufts and have cystic growth displaying greater degrees of architectural complexity and epithelial stratification. These tumors would exhibit CK7-positive and CK20-negative immunoprofiles. Mucinous cystadenomas are composed of cysts lined by 1 or 2 layers of columnar mucinous cells with minor foci exhibiting focal epithelial budding and branching. These tumors also exhibit CK7-positive and CK20-negative immunoprofiles.</p>\n<p>&nbsp;</p>\n<p>References:</p>\n<ol>\n<li>WHO Classification of Tumours Editorial Board.&nbsp;<em>Female Genital Tumours. WHO Classification of Tumours</em>, (&nbsp;5th ed.). IARC;&nbsp;2020.</li>\n<li>Vang R, Gown AM, Zhao C, Barry TS, Isacson C, Richardson MS, Ronnett BM. Ovarian mucinous tumors associated with mature cystic teratomas: morphologic and immunohistochemical analysis identifies a subset of potential teratomatous origin that shares features of lower gastrointestinal tract mucinous tumors more commonly encountered as secondary tumors in the ovary. Am J Surg Pathol. 2007 Jun;31(6):854-69.</li>\n</ol>\n",
+      "stains": [
+        {
+          "name": "CK7",
+          "aliases": [
+            "cytokeratin 7"
+          ],
+          "result": "Negative",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: teratoma-associated appendiceal-type mucinous tumors often show a CK7-negative profile."
+        },
+        {
+          "name": "CK20",
+          "aliases": [
+            "cytokeratin 20"
+          ],
+          "result": "Positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: teratoma-associated appendiceal-type mucinous tumors often show a CK20-positive profile."
+        }
+      ],
+      "stain_status": "curated",
+      "extracted_at": "2026-11-07T19:44:28.708Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w817c3",
+      "url": "https://sp.pathology.jhu.edu/week-817-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 817: Case 3",
+      "case_label": "Week 817: Case 3",
+      "attribution": "Case presented by Dr. Russell Vang, MD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This is a 30 year old female who had a hysterectomy for abnormal uterine bleeding unresponsive to endometrial ablation. Select the correct diagnosis.",
+      "question_text": "Case presented by Dr. Russell Vang, MD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis is a 30 year old female who had a hysterectomy for abnormal uterine bleeding unresponsive to endometrial ablation. Select the correct diagnosis.",
+      "source_answer": "Uterine tumor resembling ovarian sex cord tumor (UTROSCT)",
+      "correct_answer": "Uterine tumor resembling ovarian sex cord tumor (UTROSCT)",
+      "canonical_answer": "Uterine tumor resembling ovarian sex cord tumor (UTROSCT)",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "Leiomyoma",
+        "Leiomyosarcoma",
+        "Low-grade endometrial stromal sarcoma",
+        "Uterine tumor resembling ovarian sex cord tumor (UTROSCT)"
+      ],
+      "choices": [
+        "Leiomyoma",
+        "Leiomyosarcoma",
+        "Low-grade endometrial stromal sarcoma",
+        "Uterine tumor resembling ovarian sex cord tumor (UTROSCT)"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8842.ndpi-26742177411481401191170.2x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8842.ndpi-758785120087443608571.7x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8842.ndpi-6911432187709253369910.6x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8842.ndpi-9221826636932242747619.1x.png"
+      ],
+      "histology": "This entity is a uterine tumor resembling ovarian sex cord tumor (UTROSCT). The tumor in this case has an infiltrating type pattern with cord-like architecture and cytology that can be seen in the ovary but is located in the uterus. Small tubular glands are present resembling those observed in Sertoli cell tumors, which are sex-cord stromal tumors in the ovary. These tumors can also display a wide morphologic spectrum, including solid and corded patterns, pushing bordeers or infiltrating type patterns, retiform pattern, tubular pattern, and lipidized tumor cells. The tumor cells are small and epithelioid with round to oval nuclei and minimal mitotic activity. Along with characteristic morphology resembling sex cord stromal tumors, another feature is a polyphenotypic immunoprofile. Immunohistochemistry can show positive expression of cytokeratin (panCK), smooth muscle markers (desmin), endometrial stromal markers, and sex cord markers (inhibin, SF1, calretinin). If a fusion panel is performed, these tumors often have fusions involving NCOA1/2/3 and ESR1. Features suggesting malignant potential have been proposed.",
+      "discussion": "The differential diagnosis includes smooth muscle tumors such as leiomyomas and leiomyosarcomas, particularly those with collageneous stroma and hydropic change, which are features that can impart an epithelial-like appearance. However, UTROSCTs typically do not display hydropic change. Epithelioid smooth muscle tumors may also enter in the differential diagnosis based on their morphologic appearance and immunohistochemical profile. Low-grade endometrial stromal sarcoma can have an infiltrative type pattern and sex cord differentiation to a minor degree, but no pronounced epithelial-type pattern. Moreover, low grade endometrial stromal sarcomas have different genetic profiles (JAZF1 or PHF1 fusions, etc.).",
+      "references": [
+        {
+          "text": "WHO Classification of Tumours Editorial Board. Female Genital Tumours. WHO Classification of Tumours, ( 5th ed.). IARC; 2020.",
+          "url": null
+        },
+        {
+          "text": "Boyraz B, Watkins JC, Young RH, Oliva E. Uterine Tumors Resembling Ovarian Sex Cord Tumors: A Clinicopathologic Study of 75 Cases Emphasizing Features Predicting Adverse Outcome and Differential Diagnosis. Am J Surg Pathol. 2023 Feb 1;47(2):234-247.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: D. Uterine Tumor Resembling Ovarian Sex Cord Tumor (UTROSCT)\n\nHistology: This entity is a uterine tumor resembling ovarian sex cord tumor (UTROSCT). The tumor in this case has an infiltrating type pattern with cord-like architecture and cytology that can be seen in the ovary but is located in the uterus. Small tubular glands are present resembling those observed in Sertoli cell tumors, which are sex-cord stromal tumors in the ovary. These tumors can also display a wide morphologic spectrum, including solid and corded patterns, pushing bordeers or infiltrating type patterns, retiform pattern, tubular pattern, and lipidized tumor cells. The tumor cells are small and epithelioid with round to oval nuclei and minimal mitotic activity. Along with characteristic morphology resembling sex cord stromal tumors, another feature is a polyphenotypic immunoprofile. Immunohistochemistry can show positive expression of cytokeratin (panCK), smooth muscle markers (desmin), endometrial stromal markers, and sex cord markers (inhibin, SF1, calretinin). If a fusion panel is performed, these tumors often have fusions involving NCOA1/2/3 and ESR1. Features suggesting malignant potential have been proposed.\n\nDiscussion: The differential diagnosis includes smooth muscle tumors such as leiomyomas and leiomyosarcomas, particularly those with collageneous stroma and hydropic change, which are features that can impart an epithelial-like appearance. However, UTROSCTs typically do not display hydropic change. Epithelioid smooth muscle tumors may also enter in the differential diagnosis based on their morphologic appearance and immunohistochemical profile. Low-grade endometrial stromal sarcoma can have an infiltrative type pattern and sex cord differentiation to a minor degree, but no pronounced epithelial-type pattern. Moreover, low grade endometrial stromal sarcomas have different genetic profiles (JAZF1 or PHF1 fusions, etc.).\n\nReferences:\n\nWHO Classification of Tumours Editorial Board. Female Genital Tumours. WHO Classification of Tumours, ( 5th ed.). IARC; 2020.\n\nBoyraz B, Watkins JC, Young RH, Oliva E. Uterine Tumors Resembling Ovarian Sex Cord Tumors: A Clinicopathologic Study of 75 Cases Emphasizing Features Predicting Adverse Outcome and Differential Diagnosis. Am J Surg Pathol. 2023 Feb 1;47(2):234-247.",
+      "feedback_html": "<strong>Answer: D. </strong>Uterine Tumor Resembling Ovarian Sex Cord Tumor (UTROSCT)<p></p>\n<p><strong>Histology: </strong>This entity is a uterine tumor resembling ovarian sex cord tumor (UTROSCT). The tumor in this case has an infiltrating type pattern with cord-like architecture and cytology that can be seen in the ovary but is located in the uterus. Small tubular glands are present resembling those observed in Sertoli cell tumors, which are sex-cord stromal tumors in the ovary. These tumors can also display a wide morphologic spectrum, including solid and corded patterns, pushing bordeers or infiltrating type patterns, retiform pattern, tubular pattern, and lipidized tumor cells. The tumor cells are small and epithelioid with round to oval nuclei and minimal mitotic activity. Along with characteristic morphology resembling sex cord stromal tumors, another feature is a polyphenotypic immunoprofile. Immunohistochemistry can show positive expression of cytokeratin (panCK), smooth muscle markers (desmin), endometrial stromal markers, and sex cord markers (inhibin, SF1, calretinin). If a fusion panel is performed, these tumors often have fusions involving NCOA1/2/3 and ESR1. Features suggesting malignant potential have been proposed.</p>\n<p><strong>Discussion: </strong>The differential diagnosis includes smooth muscle tumors such as leiomyomas and leiomyosarcomas, particularly those with collageneous stroma and hydropic change, which are features that can impart an epithelial-like appearance. However, UTROSCTs typically do not display hydropic change. Epithelioid smooth muscle tumors may also enter in the differential diagnosis based on their morphologic appearance and immunohistochemical profile. Low-grade endometrial stromal sarcoma can have an infiltrative type pattern and sex cord differentiation to a minor degree, but no pronounced epithelial-type pattern. Moreover, low grade endometrial stromal sarcomas have different genetic profiles (<em>JAZF1</em>&nbsp;or&nbsp;<em>PHF1</em>&nbsp;fusions, etc.).</p>\n<p>&nbsp;</p>\n<p>References:</p>\n<ol>\n<li>WHO Classification of Tumours Editorial Board.&nbsp;<em>Female Genital Tumours. WHO Classification of Tumours</em>, (&nbsp;5th ed.). IARC;&nbsp;2020.</li>\n<li>Boyraz B, Watkins JC, Young RH, Oliva E. Uterine Tumors Resembling Ovarian Sex Cord Tumors: A Clinicopathologic Study of 75 Cases Emphasizing Features Predicting Adverse Outcome and Differential Diagnosis. Am J Surg Pathol. 2023 Feb 1;47(2):234-247.</li>\n</ol>\n",
+      "stains": [
+        {
+          "name": "panCK",
+          "aliases": [
+            "pan-CK",
+            "pancytokeratin",
+            "cytokeratin"
+          ],
+          "result": "Positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: UTROSCT can express cytokeratin (panCK)."
+        },
+        {
+          "name": "Desmin",
+          "aliases": [],
+          "result": "Positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: UTROSCT can express desmin."
+        },
+        {
+          "name": "Inhibin",
+          "aliases": [
+            "alpha-inhibin",
+            "α-inhibin"
+          ],
+          "result": "Positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: UTROSCT can express inhibin."
+        },
+        {
+          "name": "SF1",
+          "aliases": [
+            "SF-1"
+          ],
+          "result": "Positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: UTROSCT can express SF1."
+        },
+        {
+          "name": "Calretinin",
+          "aliases": [],
+          "result": "Positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: UTROSCT can express calretinin."
+        }
+      ],
+      "stain_status": "curated",
+      "extracted_at": "2026-11-07T19:44:36.079Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w817c2",
+      "url": "https://sp.pathology.jhu.edu/week-817-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 817: Case 2",
+      "case_label": "Week 817: Case 2",
+      "attribution": "Case presented by Dr. Russell Vang, MD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This is a 60 yo female who had a hysterectomy after an endometrial biopsy diagnosis. Select the correct diagnosis.",
+      "question_text": "Case presented by Dr. Russell Vang, MD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis is a 60 yo female who had a hysterectomy after an endometrial biopsy diagnosis. Select the correct diagnosis.",
+      "source_answer": "Primary endometrial squamous cell carcinoma",
+      "correct_answer": "Primary endometrial squamous cell carcinoma",
+      "canonical_answer": "Primary endometrial squamous cell carcinoma",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "Endometrial endometrioid carcinoma with extensive squamous differentiation",
+        "HPV-associated primary cervical squamous cell carcinoma",
+        "Primary endometrial squamous cell carcinoma",
+        "Metastatic cutaneous squamous cell carcinoma"
+      ],
+      "choices": [
+        "Endometrial endometrioid carcinoma with extensive squamous differentiation",
+        "HPV-associated primary cervical squamous cell carcinoma",
+        "Primary endometrial squamous cell carcinoma",
+        "Metastatic cutaneous squamous cell carcinoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8840.ndpi-60986141231780361216430.2x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8840.ndpi-9247423131110537397241.1x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8840.ndpi-9199229947937133152811.1x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8840.ndpi-9201926294937392787511.1x.png"
+      ],
+      "histology": "This tumor is a primary endometrial squamous cell carcinoma. The endometrium is replaced by nests of well-differentiated keratinizing squamous proliferations that have an exophytic papillary growth pattern, a broad pushing border, and small foci of irregular nests and single cells that invade myometrium. The tumor contains pink necrotic areas, keratin pearl formation, and dyskeratosis. The tumor cells have rare mitotic activity, including atypical forms. The entire cervix was submitted and showed no involvement of squamous cell carcinoma. There was no malignant glandular component within the endometrium. However, there were benign endometrial and endocervical glands at the endomyometrial interface. Altogether, these findings characterize a primary endometrial squamous cell carcinoma, which is a diagnosis of exclusion. This tumor is rare and represents <1% of all endometrial tumors. Endometrial squamous cell carcinomas show aberrant/mutation-type p53 expression, are negative for ER, PR, and p16, and have no detectable HPV by ISH. Per whole-exome sequencing, these tumors can have co-mutations in TP53 and CDKN2A.",
+      "discussion": "Endometrial endometrioid carcinoma with squamous differentiation (EECSD) contains a coexisting endometrial adenocarcinoma. The presence of a glandular component of the tumor and primary site of the disease located in the uterine corpus would suggest this entity. Thus, the endometrium should be entirely submitted to rule out an EECSD. EECSD would have immature squamous type differentiation and would not be cytologically malignant. Whereas, this tumor is a keratinizing well-differentiated type squamous lesion. Primary cervical squamous cell carcinoma extending to the endometrium should be excluded by submitting the entire cervix. An HPV-associated cervical squamous cell carcinoma will have diffuse or block positive immunohistochemical staining of p16 or ISH detection of HPV, unlike this entity that is HPV and p16 negative. A metastatic cutaneous squamous cell carcinoma would have a primary site of disease located in the skin and should have a distribution of disease in the uterine corpus that is not endometrial-based.",
+      "references": [
+        {
+          "text": "WHO Classification of Tumours Editorial Board. Female Genital Tumours. WHO Classification of Tumours, ( 5th ed.). IARC; 2020.",
+          "url": null
+        },
+        {
+          "text": "Hopkins MR, Palsgrove DN, Ronnett BM, Vang R, Lin J, Murdock TA. Molecular Analysis of HPV-independent Primary Endometrial Squamous Cell Carcinoma Reveals TP53 and CDKN2A Comutations : A Clinicopathologic Analysis With Re-evaluation of Diagnostic Criteria. Am J Surg Pathol. 2022 Dec 1;46(12):1611-1622.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: C. Primary endometrial squamous cell carcinoma\n\nHistology: This tumor is a primary endometrial squamous cell carcinoma. The endometrium is replaced by nests of well-differentiated keratinizing squamous proliferations that have an exophytic papillary growth pattern, a broad pushing border, and small foci of irregular nests and single cells that invade myometrium. The tumor contains pink necrotic areas, keratin pearl formation, and dyskeratosis. The tumor cells have rare mitotic activity, including atypical forms. The entire cervix was submitted and showed no involvement of squamous cell carcinoma. There was no malignant glandular component within the endometrium. However, there were benign endometrial and endocervical glands at the endomyometrial interface. Altogether, these findings characterize a primary endometrial squamous cell carcinoma, which is a diagnosis of exclusion. This tumor is rare and represents <1% of all endometrial tumors. Endometrial squamous cell carcinomas show aberrant/mutation-type p53 expression, are negative for ER, PR, and p16, and have no detectable HPV by ISH. Per whole-exome sequencing, these tumors can have co-mutations in TP53 and CDKN2A.\n\nDiscussion: Endometrial endometrioid carcinoma with squamous differentiation (EECSD) contains a coexisting endometrial adenocarcinoma. The presence of a glandular component of the tumor and primary site of the disease located in the uterine corpus would suggest this entity. Thus, the endometrium should be entirely submitted to rule out an EECSD. EECSD would have immature squamous type differentiation and would not be cytologically malignant. Whereas, this tumor is a keratinizing well-differentiated type squamous lesion. Primary cervical squamous cell carcinoma extending to the endometrium should be excluded by submitting the entire cervix. An HPV-associated cervical squamous cell carcinoma will have diffuse or block positive immunohistochemical staining of p16 or ISH detection of HPV, unlike this entity that is HPV and p16 negative. A metastatic cutaneous squamous cell carcinoma would have a primary site of disease located in the skin and should have a distribution of disease in the uterine corpus that is not endometrial-based.\n\nReferences:\n\nWHO Classification of Tumours Editorial Board. Female Genital Tumours. WHO Classification of Tumours, ( 5th ed.). IARC; 2020.\n\nHopkins MR, Palsgrove DN, Ronnett BM, Vang R, Lin J, Murdock TA. Molecular Analysis of HPV-independent Primary Endometrial Squamous Cell Carcinoma Reveals TP53 and CDKN2A Comutations : A Clinicopathologic Analysis With Re-evaluation of Diagnostic Criteria. Am J Surg Pathol. 2022 Dec 1;46(12):1611-1622.",
+      "feedback_html": "<strong>Answer: C. </strong>Primary endometrial squamous cell carcinoma<p></p>\n<p><strong>Histology: </strong>This tumor is a primary endometrial squamous cell carcinoma. The endometrium is replaced by nests of well-differentiated keratinizing squamous proliferations that have an exophytic papillary growth pattern, a broad pushing border, and small foci of irregular nests and single cells that invade myometrium. The tumor contains pink necrotic areas, keratin pearl formation, and dyskeratosis. The tumor cells have rare mitotic activity, including atypical forms. The entire cervix was submitted and showed no involvement of squamous cell carcinoma. There was no malignant glandular component within the endometrium. However, there were benign endometrial and endocervical glands at the endomyometrial interface. Altogether, these findings characterize a primary endometrial squamous cell carcinoma, which is a diagnosis of exclusion. This tumor is rare and represents &lt;1% of all endometrial tumors. Endometrial squamous cell carcinomas show aberrant/mutation-type p53 expression, are negative for ER, PR, and p16, and have no detectable HPV by ISH. Per whole-exome sequencing, these tumors can have co-mutations in TP53 and CDKN2A.</p>\n<p><strong>Discussion: </strong>Endometrial endometrioid carcinoma with squamous differentiation (EECSD) contains a coexisting endometrial adenocarcinoma. The presence of a glandular component of the tumor and primary site of the disease located in the uterine corpus would suggest this entity. Thus, the endometrium should be entirely submitted to rule out an EECSD. EECSD would have immature squamous type differentiation and would not be cytologically malignant. Whereas, this tumor is a keratinizing well-differentiated type squamous lesion. Primary cervical squamous cell carcinoma extending to the endometrium should be excluded by submitting the entire cervix. An HPV-associated cervical squamous cell carcinoma will have diffuse or block positive immunohistochemical staining of p16 or ISH detection of HPV, unlike this entity that is HPV and p16 negative. A metastatic cutaneous squamous cell carcinoma would have a primary site of disease located in the skin and should have a distribution of disease in the uterine corpus that is not endometrial-based.</p>\n<p>&nbsp;</p>\n<p>References:</p>\n<ol>\n<li>WHO Classification of Tumours Editorial Board.&nbsp;<em>Female Genital Tumours. WHO Classification of Tumours</em>, (&nbsp;5th ed.). IARC;&nbsp;2020.</li>\n</ol>\n<p>Hopkins MR, Palsgrove DN, Ronnett BM, Vang R, Lin J, Murdock TA. Molecular Analysis of HPV-independent Primary Endometrial Squamous Cell Carcinoma Reveals TP53 and CDKN2A Comutations : A Clinicopathologic Analysis With Re-evaluation of Diagnostic Criteria. Am J Surg Pathol. 2022 Dec 1;46(12):1611-1622.</p>\n",
+      "stains": [
+        {
+          "name": "p53",
+          "aliases": [
+            "TP53"
+          ],
+          "result": "Aberrant / mutation-type",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: primary endometrial squamous cell carcinomas show aberrant/mutation-type p53 expression."
+        },
+        {
+          "name": "ER",
+          "aliases": [
+            "estrogen receptor"
+          ],
+          "result": "Negative",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: ER negative."
+        },
+        {
+          "name": "PR",
+          "aliases": [
+            "progesterone receptor"
+          ],
+          "result": "Negative",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: PR negative."
+        },
+        {
+          "name": "p16",
+          "aliases": [
+            "CDKN2A"
+          ],
+          "result": "Negative",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: p16 negative."
+        },
+        {
+          "name": "HPV ISH",
+          "aliases": [
+            "HPV",
+            "HPV in situ hybridization",
+            "HPV-ISH"
+          ],
+          "result": "Negative",
+          "type": "ISH",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: no detectable HPV by ISH."
+        }
+      ],
+      "stain_status": "curated",
+      "extracted_at": "2026-11-07T19:44:44.272Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w817c1",
+      "url": "https://sp.pathology.jhu.edu/week-817-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 817: Case 1",
+      "case_label": "Week 817: Case 1",
+      "attribution": "Case presented by Dr. Russell Vang, MD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This is a 30 yo female with a hysterectomy performed for a presumed leiomyoma. Select the correct diagnosis.",
+      "question_text": "Case presented by Dr. Russell Vang, MD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis is a 30 yo female with a hysterectomy performed for a presumed leiomyoma. Select the correct diagnosis.",
+      "source_answer": "Low-grade endometrial stromal sarcoma",
+      "correct_answer": "Low-grade endometrial stromal sarcoma",
+      "canonical_answer": "Low-grade endometrial stromal sarcoma",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "Low-grade endometrial stromal sarcoma",
+        "Leiomyosarcoma",
+        "High-grade endometrial stromal sarcoma",
+        "Endometrial stromal nodule"
+      ],
+      "choices": [
+        "Low-grade endometrial stromal sarcoma",
+        "Leiomyosarcoma",
+        "High-grade endometrial stromal sarcoma",
+        "Endometrial stromal nodule"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8838.ndpi-37415110851349571006850.2x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8838.ndpi-265445621331706609553.7x-1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8838.ndpi-296811626232549188966.7x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8838.ndpi-2833257807299255927112.0x.png"
+      ],
+      "histology": "This is a low-grade endometrial stromal sarcoma. This malignant stromal tumor has a tongue-like pattern of infiltration through the myometrium with or without lymphovascular invasion. The tumor cells may whorl around small arteriolar-type vessels throughout the whole tumor, reminiscent of proliferative phase endometrial stroma. The neoplastic cells are spindle to oval with small, round, uniform nuclei and have no significant atypia or mitotic activity. Necrosis, foamy histiocytes, hyaline-type deposits, or cystic change can be seen. These tumors may stain positive for CD10, IFITM1, WT1, ER, PR, keratins, smooth muscle markers (desmin and h-caldesmon), sex cord markers (inhibin, calretinin, melan-A, CD99), and beta catenin. However, they typically have CD10 overexpression with very little muscle marker expression except for cases with smooth muscle differentiation. In terms of genetics, low-grade endometrial stromal sarcoma can frequently contain fusions, such as JAZF1/JJAZ1.",
+      "discussion": "The differential diagnosis includes leiomyosarcomas, which contain large thick-walled blood vessels with fascicular architecture, but the tumor cells show spindle cell differentiation and contain marked cytologic atypia, mitotic activity, and necrosis. High-grade endometrial stromal sarcoma has more atypia and mitotic activity than that seen in low-grade tumors. High-grade endometrial stromal sarcomas also have YWHAE-NUTM2AB/fusions, BCOR fusions, or internal tandem duplications; they are frequently positive for Cyclin D1 and BCOR while negative for ER/PR, which contrasts with low-grade endometrial stromal sarcomas that are positive for ER/PR, but negative for BCOR and Cyclin D1. Endometrial stromal nodule is a benign counterpart with the same cytology as low-grade endometrial stromal sarcoma but has a circumscribed interface between myometrium and stroma with absent to minimal myometrial invasion. This differs from the pattern of infiltration seen in endometrial stromal sarcomas. Interestingly, endometrial stromal nodules may contain the same fusions seen in low-grade endometrial stromal sarcoma, which suggests that the two are related through the same pathogenesis pathway.",
+      "references": [
+        {
+          "text": "WHO Classification of Tumours Editorial Board. Female Genital Tumours. WHO Classification of Tumours, ( 5th ed.). IARC; 2020.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: A. Low-grade endometrial stromal sarcoma\n\nHistology: This is a low-grade endometrial stromal sarcoma. This malignant stromal tumor has a tongue-like pattern of infiltration through the myometrium with or without lymphovascular invasion. The tumor cells may whorl around small arteriolar-type vessels throughout the whole tumor, reminiscent of proliferative phase endometrial stroma. The neoplastic cells are spindle to oval with small, round, uniform nuclei and have no significant atypia or mitotic activity. Necrosis, foamy histiocytes, hyaline-type deposits, or cystic change can be seen. These tumors may stain positive for CD10, IFITM1, WT1, ER, PR, keratins, smooth muscle markers (desmin and h-caldesmon), sex cord markers (inhibin, calretinin, melan-A, CD99), and beta catenin. However, they typically have CD10 overexpression with very little muscle marker expression except for cases with smooth muscle differentiation. In terms of genetics, low-grade endometrial stromal sarcoma can frequently contain fusions, such as JAZF1/JJAZ1.\n\nDiscussion: The differential diagnosis includes leiomyosarcomas, which contain large thick-walled blood vessels with fascicular architecture, but the tumor cells show spindle cell differentiation and contain marked cytologic atypia, mitotic activity, and necrosis. High-grade endometrial stromal sarcoma has more atypia and mitotic activity than that seen in low-grade tumors. High-grade endometrial stromal sarcomas also have YWHAE-NUTM2AB/fusions, BCOR fusions, or internal tandem duplications; they are frequently positive for Cyclin D1 and BCOR while negative for ER/PR, which contrasts with low-grade endometrial stromal sarcomas that are positive for ER/PR, but negative for BCOR and Cyclin D1. Endometrial stromal nodule is a benign counterpart with the same cytology as low-grade endometrial stromal sarcoma but has a circumscribed interface between myometrium and stroma with absent to minimal myometrial invasion. This differs from the pattern of infiltration seen in endometrial stromal sarcomas. Interestingly, endometrial stromal nodules may contain the same fusions seen in low-grade endometrial stromal sarcoma, which suggests that the two are related through the same pathogenesis pathway.\n\nReferences:\n\n1. WHO Classification of Tumours Editorial Board. Female Genital Tumours. WHO Classification of Tumours, ( 5th ed.). IARC; 2020.",
+      "feedback_html": "<strong>Answer: A.</strong> Low-grade endometrial stromal sarcoma<p></p>\n<p><strong>Histology: </strong>This is a low-grade endometrial stromal sarcoma. This malignant stromal tumor has a tongue-like pattern of infiltration through the myometrium with or without lymphovascular invasion. The tumor cells may whorl around small arteriolar-type vessels throughout the whole tumor, reminiscent of proliferative phase endometrial stroma. The neoplastic cells are spindle to oval with small, round, uniform nuclei and have no significant atypia or mitotic activity. Necrosis, foamy histiocytes, hyaline-type deposits, or cystic change can be seen. These tumors may stain positive for CD10, IFITM1, WT1, ER, PR, keratins, smooth muscle markers (desmin and h-caldesmon), sex cord markers (inhibin, calretinin, melan-A, CD99), and beta catenin.&nbsp; However, they typically have CD10 overexpression with very little muscle marker expression except for cases with smooth muscle differentiation. In terms of genetics, low-grade endometrial stromal sarcoma can frequently contain fusions, such as JAZF1/JJAZ1.</p>\n<p><strong>Di</strong><strong>scussion</strong>: The differential diagnosis includes leiomyosarcomas, which contain large thick-walled blood vessels with fascicular architecture, but the tumor cells show spindle cell differentiation and contain marked cytologic atypia, mitotic activity, and necrosis. High-grade endometrial stromal sarcoma has more atypia and mitotic activity than that seen in low-grade tumors. High-grade endometrial stromal sarcomas also have YWHAE-NUTM2AB/fusions, BCOR fusions, or internal tandem duplications; they are frequently positive for Cyclin D1 and BCOR while negative for ER/PR, which contrasts with low-grade endometrial stromal sarcomas that are positive for ER/PR, but negative for BCOR and Cyclin D1. Endometrial stromal nodule is a benign counterpart with the same cytology as low-grade endometrial stromal sarcoma but has a circumscribed interface between myometrium and stroma with absent to minimal myometrial invasion. This differs from the pattern of infiltration seen in endometrial stromal sarcomas. Interestingly, endometrial stromal nodules may contain the same fusions seen in low-grade endometrial stromal sarcoma, which suggests that the two are related through the same pathogenesis pathway.</p>\n<p>&nbsp;</p>\n<p>References:</p>\n<p>1. WHO Classification of Tumours Editorial Board.&nbsp;<em>Female Genital Tumours. WHO Classification of Tumours</em>, (&nbsp;5th ed.). IARC;&nbsp;2020.</p>",
+      "stains": [
+        {
+          "name": "CD10",
+          "aliases": [],
+          "result": "Positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: low-grade endometrial stromal sarcoma typically shows CD10 overexpression."
+        },
+        {
+          "name": "ER",
+          "aliases": [
+            "estrogen receptor"
+          ],
+          "result": "Positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: ER positive."
+        },
+        {
+          "name": "PR",
+          "aliases": [
+            "progesterone receptor"
+          ],
+          "result": "Positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: PR positive."
+        },
+        {
+          "name": "BCOR",
+          "aliases": [],
+          "result": "Negative",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU discussion contrasts low-grade ESS as BCOR negative."
+        },
+        {
+          "name": "Cyclin D1",
+          "aliases": [
+            "CyclinD1",
+            "CCND1"
+          ],
+          "result": "Negative",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU discussion contrasts low-grade ESS as Cyclin D1 negative."
+        }
+      ],
+      "stain_status": "curated",
+      "extracted_at": "2026-11-07T19:44:51.437Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w816c3",
+      "url": "https://sp.pathology.jhu.edu/week-816-week-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 816: Case 3",
+      "case_label": "Week 816: Case 3",
+      "attribution": "Case presented by Dr. Deyin Xing, MD, PhD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This is a 20 year old female with a right ovarian mass. Select the correct diagnosis.",
+      "question_text": "Case presented by Dr. Deyin Xing, MD, PhD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis is a 20 year old female with a right ovarian mass. Select the correct diagnosis.",
+      "source_answer": "Sertoli-leydig cell tumor with high-grade sarcomatous component",
+      "correct_answer": "Sertoli-leydig cell tumor with high-grade sarcomatous component",
+      "canonical_answer": "Sertoli-leydig cell tumor with high-grade sarcomatous component",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "Sertoli-leydig cell tumor with high-grade sarcomatous component",
+        "Carcinosarcoma",
+        "Undifferentiated sarcoma",
+        "Adenosarcoma with sarcomatous overgrowth"
+      ],
+      "choices": [
+        "Sertoli-leydig cell tumor with high-grade sarcomatous component",
+        "Carcinosarcoma",
+        "Undifferentiated sarcoma",
+        "Adenosarcoma with sarcomatous overgrowth"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/4X-3-1024x803.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/10X-1024x803.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/20X-1-1024x803.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/20X-1-1-1024x803.jpg"
+      ],
+      "histology": "This tumor is a moderately-poorly differentiated sertoli-leydig cell tumor with high-grade sarcomatous component. The tumor focally has a lobular pattern containing sertoli cells growing as nests or solid tubules or cords with moderate cytologic atypia and conspicuous mitotic activity. At the periphery of the lobules are leydig cells with eosinophilic, plump cytoplasm present in clusters. There is also sarcomatoid stroma resembling primitive gonadal stroma. Heterologous elements can be observed in approximately 20% of these tumors and be epithelial or mesenchymal. In this case, this tumor contains heterologous elements with sarcomatous transformation to rhabdomyosarcoma as demonstrated by primitive-looking skeletal muscle. The sertoli cells and leydig cells will stain positive for sex cord markers (α-inhibin, calretinin, SF1, WT1, and FOXL2). The rhabdomyosarcoma will stain positive for myogenin. While moderately and poorly differentiated tumors behave in a malignant fashion, the presence of heterologous skeletal muscle as an additional poor prognostic feature. These tumors are mostly sporadic, but can occur in DICER1 syndrome.",
+      "discussion": "Since a rhabdomyosarcoma component is present, the top differential is a carcinosarcoma. However, the other component is a sex-cord stromal tumor rather than a carcinoma. Likewise, the presence of moderately to poorly differentiated sertoli-leydig cell tumor argues against undifferentiated carcinoma or adenosarcoma with rhabdomyosarcomatous overgrowth.",
+      "references": [
+        {
+          "text": "WHO Classification of Tumours Editorial Board. Female Genital Tumours. WHO Classification of Tumours, ( 5th ed.). IARC; 2020.",
+          "url": null
+        },
+        {
+          "text": "Shero N, Dhir A, Bejarano P, Rhode S, Goicocechea JC. Case DICER1-related Sertoli-Leydigcell tumor and rhabdomyosarcoma: An evolving disease with a challenging clinical course and treatment: A case report. Rep Womens Health. 2024 Jan 6;41:e00580.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38282900/"
+        }
+      ],
+      "feedback_text": "Answer: A. Sertoli-leydig cell tumor with high-grade sarcomatous component\n\nHistology: This tumor is a moderately-poorly differentiated sertoli-leydig cell tumor with high-grade sarcomatous component. The tumor focally has a lobular pattern containing sertoli cells growing as nests or solid tubules or cords with moderate cytologic atypia and conspicuous mitotic activity. At the periphery of the lobules are leydig cells with eosinophilic, plump cytoplasm present in clusters. There is also sarcomatoid stroma resembling primitive gonadal stroma. Heterologous elements can be observed in approximately 20% of these tumors and be epithelial or mesenchymal. In this case, this tumor contains heterologous elements with sarcomatous transformation to rhabdomyosarcoma as demonstrated by primitive-looking skeletal muscle. The sertoli cells and leydig cells will stain positive for sex cord markers (α-inhibin, calretinin, SF1, WT1, and FOXL2). The rhabdomyosarcoma will stain positive for myogenin. While moderately and poorly differentiated tumors behave in a malignant fashion, the presence of heterologous skeletal muscle as an additional poor prognostic feature. These tumors are mostly sporadic, but can occur in DICER1 syndrome.\n\nDiscussion: Since a rhabdomyosarcoma component is present, the top differential is a carcinosarcoma. However, the other component is a sex-cord stromal tumor rather than a carcinoma. Likewise, the presence of moderately to poorly differentiated sertoli-leydig cell tumor argues against undifferentiated carcinoma or adenosarcoma with rhabdomyosarcomatous overgrowth.\n\nReferences:\n\nWHO Classification of Tumours Editorial Board. Female Genital Tumours. WHO Classification of Tumours, ( 5th ed.). IARC; 2020.\n\nShero N, Dhir A, Bejarano P, Rhode S, Goicocechea JC. Case DICER1-related Sertoli-Leydigcell tumor and rhabdomyosarcoma: An evolving disease with a challenging clinical course and treatment: A case report. Rep Womens Health. 2024 Jan 6;41:e00580.",
+      "feedback_html": "<strong>Answer: A.</strong> Sertoli-leydig&nbsp;cell tumor with high-grade sarcomatous component<p></p>\n<p><strong>Histology: </strong>This tumor is a moderately-poorly differentiated sertoli-leydig&nbsp;cell tumor with high-grade sarcomatous component. The tumor focally has a lobular pattern containing sertoli cells growing as nests or solid tubules or cords with moderate cytologic atypia and conspicuous mitotic activity. At the periphery of the lobules are leydig cells with eosinophilic, plump cytoplasm present in clusters. There is also sarcomatoid stroma resembling primitive gonadal stroma. Heterologous elements can be observed in approximately 20% of these tumors and be epithelial or mesenchymal. In this case, this tumor contains heterologous elements with sarcomatous transformation to rhabdomyosarcoma as demonstrated by primitive-looking skeletal muscle. The sertoli cells and leydig cells will stain positive for sex cord markers (α-inhibin, calretinin, SF1, WT1, and FOXL2).&nbsp; The rhabdomyosarcoma will stain positive for myogenin. While moderately and poorly differentiated tumors behave in a malignant fashion, the presence of heterologous skeletal muscle as an additional poor prognostic feature. These tumors are mostly sporadic, but can occur in DICER1 syndrome.</p>\n<p><strong>Discussion:</strong> Since a rhabdomyosarcoma component is present, the top differential is a carcinosarcoma. However, the other component is a sex-cord stromal tumor rather than a carcinoma. Likewise, the presence of moderately to poorly differentiated sertoli-leydig cell tumor argues against undifferentiated carcinoma or adenosarcoma with rhabdomyosarcomatous overgrowth.</p>\n<p>&nbsp;</p>\n<p>References:</p>\n<ol>\n<li>WHO Classification of Tumours Editorial Board.&nbsp;<em>Female Genital Tumours. WHO Classification of Tumours</em>, (&nbsp;5th ed.). IARC;&nbsp;2020.</li>\n<li>Shero N, Dhir A, Bejarano P, Rhode S, Goicocechea JC. Case <a href=\"https://pubmed.ncbi.nlm.nih.gov/38282900/\">DICER1-related&nbsp;Sertoli-Leydigcell tumor and&nbsp;rhabdomyosarcoma: An evolving disease with a challenging clinical course and treatment: A case report.</a> Rep Womens Health. 2024 Jan 6;41:e00580.</li>\n</ol>\n",
+      "stains": [
+        {
+          "name": "Inhibin",
+          "aliases": [
+            "alpha-inhibin",
+            "α-inhibin"
+          ],
+          "result": "Positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: Sertoli and Leydig cells are positive for alpha-inhibin."
+        },
+        {
+          "name": "Calretinin",
+          "aliases": [],
+          "result": "Positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: Sertoli and Leydig cells are positive for calretinin."
+        },
+        {
+          "name": "SF1",
+          "aliases": [
+            "SF-1"
+          ],
+          "result": "Positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: Sertoli and Leydig cells are positive for SF1."
+        },
+        {
+          "name": "WT1",
+          "aliases": [
+            "WT-1"
+          ],
+          "result": "Positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: Sertoli and Leydig cells are positive for WT1."
+        },
+        {
+          "name": "FOXL2",
+          "aliases": [],
+          "result": "Positive",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: Sertoli and Leydig cells are positive for FOXL2."
+        },
+        {
+          "name": "Myogenin",
+          "aliases": [],
+          "result": "Positive in rhabdomyosarcoma component",
+          "type": "IHC",
+          "source_type": "jhu_entity_profile",
+          "basis": "JHU answer: rhabdomyosarcoma component is myogenin positive."
+        }
+      ],
+      "stain_status": "curated",
+      "extracted_at": "2026-11-07T19:44:58.813Z",
+      "extractor_version": "1.0.0"
+    }
+  ]
+}

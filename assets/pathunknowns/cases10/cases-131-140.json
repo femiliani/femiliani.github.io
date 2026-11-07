@@ -1,0 +1,454 @@
+{
+  "case_start": 131,
+  "case_end": 140,
+  "case_count": 10,
+  "cases": [
+    {
+      "id": "w776c2",
+      "url": "https://sp.pathology.jhu.edu/week-776-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 776: Case 2",
+      "case_label": "Week 776: Case 2",
+      "attribution": "Cases presented by Dr. Ashley Cimino-Mathews and prepared by Dr. Katherine Fomchenko.",
+      "vignette": "This case is a middle-aged female with a breast mass.",
+      "question_text": "Cases presented by Dr. Ashley Cimino-Mathews and prepared by Dr. Katherine Fomchenko.\nThis case is a middle-aged female with a breast mass.",
+      "source_answer": "B. Cystic neutrophilic granulomatous mastitis",
+      "correct_answer": "Cystic neutrophilic granulomatous mastitis",
+      "canonical_answer": "Cystic neutrophilic granulomatous mastitis",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Mycobacterium tuberculosis mastitis",
+        "B. Cystic neutrophilic granulomatous mastitis",
+        "C. Invasive lobular carcinoma",
+        "D. Chronic lymphocytic leukemia/small lymphocytic lymphoma",
+        "E. Lactational abscess"
+      ],
+      "choices": [
+        "Mycobacterium tuberculosis mastitis",
+        "Cystic neutrophilic granulomatous mastitis",
+        "Invasive lobular carcinoma",
+        "Chronic lymphocytic leukemia/small lymphocytic lymphoma",
+        "Lactational abscess"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8400.svs-6574600755579494301x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8400.svs-2982940884333374305722x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8400.svs-3695514824404631699722x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8400.svs-3811828421400672962840x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8400.svs-453939386473421059440x.png"
+      ],
+      "histology": "This case depicts breast tissue with mixed acute, chronic, and granulomatous inflammation surrounding lobules and spanning larger portions of the breast biopsy cores. There are variably sized cystic spaces within the granulomatous inflammation. On high power inspection, the cystic spaces are rimmed with neutrophils.",
+      "discussion": "Cystic neutrophilic granulomatous mastitis (CNGM) is a rare subtype of mastitis that is often associated with Corynebacterium infection, though this can be challenging to prove histologically. CNGM consists of granulomas or lipogranulomas with mixed inflammation, often centered around lobules within the breast. Lesions are typically unilateral and the majority present as a mass. Corynebacterium are gram positive bacilli and can be visible on gram stain (e.g., Gram-Weigert) within the cystic spaces. While cystic spaces are characteristic, and they are not strictly necessary for diagnosis. When granulomatous inflammation is present in the breast, mycobacterial or fungal infections should be considered. It is also important to rule out breast carcinomas, especially in older patients, as they can rarely have a granulomatous inflammatory reaction. If the patient has had previous surgical procedure in the breast, granulomatous inflammation can also result from a foreign body giant cell reaction to foreign materials.",
+      "references": [
+        {
+          "text": "Wu JM, Turashvili G. Cystic neutrophilic granulomatous mastitis: an update. J Clin Pathol. 2020 Aug;73(8):445-453. doi: 10.1136/jclinpath-2019-206180. Epub 2020 Feb 24. PMID: 32094275.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: B. Cystic neutrophilic granulomatous mastitis\n\nHistology: This case depicts breast tissue with mixed acute, chronic, and granulomatous inflammation surrounding lobules and spanning larger portions of the breast biopsy cores. There are variably sized cystic spaces within the granulomatous inflammation. On high power inspection, the cystic spaces are rimmed with neutrophils.\n\nDiscussion: Cystic neutrophilic granulomatous mastitis (CNGM) is a rare subtype of mastitis that is often associated with Corynebacterium infection, though this can be challenging to prove histologically. CNGM consists of granulomas or lipogranulomas with mixed inflammation, often centered around lobules within the breast. Lesions are typically unilateral and the majority present as a mass. Corynebacterium are gram positive bacilli and can be visible on gram stain (e.g., Gram-Weigert) within the cystic spaces. While cystic spaces are characteristic, and they are not strictly necessary for diagnosis. When granulomatous inflammation is present in the breast, mycobacterial or fungal infections should be considered. It is also important to rule out breast carcinomas, especially in older patients, as they can rarely have a granulomatous inflammatory reaction. If the patient has had previous surgical procedure in the breast, granulomatous inflammation can also result from a foreign body giant cell reaction to foreign materials.\n\nReferences:\n\nWu JM, Turashvili G. Cystic neutrophilic granulomatous mastitis: an update. J Clin Pathol. 2020 Aug;73(8):445-453. doi: 10.1136/jclinpath-2019-206180. Epub 2020 Feb 24. PMID: 32094275.",
+      "feedback_html": "Answer: B. Cystic neutrophilic granulomatous mastitis<p></p>\n<p>Histology: This case depicts breast tissue with mixed acute, chronic, and granulomatous inflammation surrounding lobules and spanning larger portions of the breast biopsy cores. There are variably sized cystic spaces within the granulomatous inflammation. On high power inspection, the cystic spaces are rimmed with neutrophils.</p>\n<p>Discussion: Cystic neutrophilic granulomatous mastitis (CNGM) is a rare subtype of mastitis that is often associated with Corynebacterium infection, though this can be challenging to prove histologically. CNGM consists of granulomas or lipogranulomas with mixed inflammation, often centered around lobules within the breast. Lesions are typically unilateral and the majority present as a mass. Corynebacterium are gram positive bacilli and can be visible on gram stain (e.g., Gram-Weigert) within the cystic spaces. While cystic spaces are characteristic, and they are not strictly necessary for diagnosis. When granulomatous inflammation is present in the breast, mycobacterial or fungal infections should be considered. It is also important to rule out breast carcinomas, especially in older patients, as they can rarely have a granulomatous inflammatory reaction. If the patient has had previous surgical procedure in the breast, granulomatous inflammation can also result from a foreign body giant cell reaction to foreign materials.</p>\n<p>References:<br>\nWu JM, Turashvili G. Cystic neutrophilic granulomatous mastitis: an update. J Clin Pathol. 2020 Aug;73(8):445-453. doi: 10.1136/jclinpath-2019-206180. Epub 2020 Feb 24. PMID: 32094275.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:12:39.595Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w776c1",
+      "url": "https://sp.pathology.jhu.edu/week-776-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 776: Case 1",
+      "case_label": "Week 776: Case 1",
+      "attribution": "Cases presented by Dr. Ashley Cimino-Mathews and prepared by Dr. Katherine Fomchenko.",
+      "vignette": "This case is a young female with a nipple mass.",
+      "question_text": "Cases presented by Dr. Ashley Cimino-Mathews and prepared by Dr. Katherine Fomchenko.\nThis case is a young female with a nipple mass.",
+      "source_answer": "B. Granular cell tumor",
+      "correct_answer": "Granular cell tumor",
+      "canonical_answer": "Granular cell tumor",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Fat necrosis",
+        "B. Granular cell tumor",
+        "C. Melanoma",
+        "D. Apocrine carcinoma",
+        "E. Invasive lobular carcinoma"
+      ],
+      "choices": [
+        "Fat necrosis",
+        "Granular cell tumor",
+        "Melanoma",
+        "Apocrine carcinoma",
+        "Invasive lobular carcinoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8399.svs-6978554995435615901x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8399.svs-6640733203720743671314x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8399.svs-6765242743733194625314x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8399.svs-780773315488277394738x.png"
+      ],
+      "histology": "Examination of the breast tissue reveals an infiltrative lesion comprised of epithelioid cells with round nuclei, centrally located and prominent nucleoli, and abundant eosinophilic granular cytoplasm. The cells are infiltrating around and through benign ducts and lobules with no evidence of an atypical intraductal proliferation. There is minimal appreciable mitotic activity. Though not shown in this case, immunostains would show the cells to be diffusely immunoreactive for S100 and inhibin, and to be negative for AE1/AE3 and Cam5.2.",
+      "discussion": "This case depicts a granular cell tumor, which is a rare type of peripheral nerve sheath tumor arising from Schwann cells that can infrequently involve the breast. Granular cell tumors characteristically involve the head and neck and skin, where they can incite a prominent pseudoepitheliomatous hyperplasia in overlying squamous epithelium. In the breast, granular cell tumors clinically, radiographically and grossly mimic infiltrating carcinoma because they can appear as a fixed, stellate, and infiltrative solid mass. They may occur sporadically or in the setting of prior surgery. Histologically, granular cell tumors display abundant eosinophilic, granular cytoplasm and can be either epithelioid or spindled, and occur either as nests of cells or as single-file rows of cells. The case illustrated here does exhibit atypical features including prominent nucleoli, but does not meet criteria for malignancy. The differential diagnosis includes histiocytic proliferations such as xanthogranulomatous inflammation and fat necrosis, as well as other pink cell tumors—melanoma, apocrine carcinomas, and histiocytoid lobular carcinomas. Immunohistochemistry can resolve any diagnostic dilemma, as granular cell tumors are immunoreactive for inhibin, CD68, S100 protein, and NSE, and are negative for cytokeratin and more specific melanocytic markers (HMB45, Melan A). Most granular cell tumors are benign and are adequately treated with complete surgical excision.",
+      "references": [
+        {
+          "text": "Adeniran A, Al-Ahmadie H, Mahoney MC, Robinson-Smith TM. Granular cell tumor of the breast: a series of 17 cases and review of the literature. The breast journal. 2004;10(6):528-31Brown AC, Audisio RA, Regitnig P. Granular cell tumour of the breast. Surgical oncology. 2011;20(2):97-105.",
+          "url": null
+        },
+        {
+          "text": "De Simone N, Aggon A, Christy C. Granular cell tumor of the breast: clinical and pathologic characteristics of a rare case in a 14-year-old girl. J Clin Oncol. 2011;29(22):e656-7.",
+          "url": null
+        },
+        {
+          "text": "Fanburg-Smith JC, Meis-Kindblom JM, Fante R, Kindblom LG. Malignant granular cell tumor of soft tissue: diagnostic criteria and clinicopathologic correlation. Am J Surg Pathol. 1998;22(7):779-94.",
+          "url": null
+        },
+        {
+          "text": "Lack EE, Worsham GF, Callihan MD, Crawford BE, Klappenbach S, Rowden G, et al. Granular cell tumor: a clinicopathologic study of 110 patients. Journal of surgical oncology. 1980;13(4):301-16.",
+          "url": null
+        },
+        {
+          "text": "Le BH, Boyer PJ, Lewis JE, Kapadia SB. Granular cell tumor: immunohistochemical assessment of inhibin-alpha, protein gene product 9.5, S100 protein, CD68, and Ki-67 proliferative index with clinical correlation. Archives Pathol Lab Med. 2004;128(7):771-5.",
+          "url": null
+        },
+        {
+          "text": "Mobarki M, Dumollard JM, Dal Col P, Camy F, Peoc'h M, Karpathiou G. Granular cell tumor a study of 42 cases and systemic review of the literature. Pathol Res Pract. 2020 Apr;216(4):152865. doi: 10.1016/j.prp.2020.152865. Epub 2020 Feb 12. PMID: 32089415.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: B. Granular cell tumor\n\nHistology: Examination of the breast tissue reveals an infiltrative lesion comprised of epithelioid cells with round nuclei, centrally located and prominent nucleoli, and abundant eosinophilic granular cytoplasm. The cells are infiltrating around and through benign ducts and lobules with no evidence of an atypical intraductal proliferation. There is minimal appreciable mitotic activity. Though not shown in this case, immunostains would show the cells to be diffusely immunoreactive for S100 and inhibin, and to be negative for AE1/AE3 and Cam5.2.\n\nDiscussion: This case depicts a granular cell tumor, which is a rare type of peripheral nerve sheath tumor arising from Schwann cells that can infrequently involve the breast. Granular cell tumors characteristically involve the head and neck and skin, where they can incite a prominent pseudoepitheliomatous hyperplasia in overlying squamous epithelium. In the breast, granular cell tumors clinically, radiographically and grossly mimic infiltrating carcinoma because they can appear as a fixed, stellate, and infiltrative solid mass. They may occur sporadically or in the setting of prior surgery. Histologically, granular cell tumors display abundant eosinophilic, granular cytoplasm and can be either epithelioid or spindled, and occur either as nests of cells or as single-file rows of cells. The case illustrated here does exhibit atypical features including prominent nucleoli, but does not meet criteria for malignancy. The differential diagnosis includes histiocytic proliferations such as xanthogranulomatous inflammation and fat necrosis, as well as other pink cell tumors—melanoma, apocrine carcinomas, and histiocytoid lobular carcinomas. Immunohistochemistry can resolve any diagnostic dilemma, as granular cell tumors are immunoreactive for inhibin, CD68, S100 protein, and NSE, and are negative for cytokeratin and more specific melanocytic markers (HMB45, Melan A). Most granular cell tumors are benign and are adequately treated with complete surgical excision.\n\nReferences:\n\nAdeniran A, Al-Ahmadie H, Mahoney MC, Robinson-Smith TM. Granular cell tumor of the breast: a series of 17 cases and review of the literature. The breast journal. 2004;10(6):528-31Brown AC, Audisio RA, Regitnig P. Granular cell tumour of the breast. Surgical oncology. 2011;20(2):97-105.\n\nDe Simone N, Aggon A, Christy C. Granular cell tumor of the breast: clinical and pathologic characteristics of a rare case in a 14-year-old girl. J Clin Oncol. 2011;29(22):e656-7.\n\nFanburg-Smith JC, Meis-Kindblom JM, Fante R, Kindblom LG. Malignant granular cell tumor of soft tissue: diagnostic criteria and clinicopathologic correlation. Am J Surg Pathol. 1998;22(7):779-94.\n\nLack EE, Worsham GF, Callihan MD, Crawford BE, Klappenbach S, Rowden G, et al. Granular cell tumor: a clinicopathologic study of 110 patients. Journal of surgical oncology. 1980;13(4):301-16.\n\nLe BH, Boyer PJ, Lewis JE, Kapadia SB. Granular cell tumor: immunohistochemical assessment of inhibin-alpha, protein gene product 9.5, S100 protein, CD68, and Ki-67 proliferative index with clinical correlation. Archives Pathol Lab Med. 2004;128(7):771-5.\n\nMobarki M, Dumollard JM, Dal Col P, Camy F, Peoc'h M, Karpathiou G. Granular cell tumor a study of 42 cases and systemic review of the literature. Pathol Res Pract. 2020 Apr;216(4):152865. doi: 10.1016/j.prp.2020.152865. Epub 2020 Feb 12. PMID: 32089415.",
+      "feedback_html": "Answer: B. Granular cell tumor<p></p>\n<p>Histology: Examination of the breast tissue reveals an infiltrative lesion comprised of epithelioid cells with round nuclei, centrally located and prominent nucleoli, and abundant eosinophilic granular cytoplasm. The cells are infiltrating around and through benign ducts and lobules with no evidence of an atypical intraductal proliferation. There is minimal appreciable mitotic activity. Though not shown in this case, immunostains would show the cells to be diffusely immunoreactive for S100 and inhibin, and to be negative for AE1/AE3 and Cam5.2.</p>\n<p>Discussion: This case depicts a granular cell tumor, which is a rare type of peripheral nerve sheath tumor arising from Schwann cells that can infrequently involve the breast. Granular cell tumors characteristically involve the head and neck and skin, where they can incite a prominent pseudoepitheliomatous hyperplasia in overlying squamous epithelium. In the breast, granular cell tumors clinically, radiographically and grossly mimic infiltrating carcinoma because they can appear as a fixed, stellate, and infiltrative solid mass. They may occur sporadically or in the setting of prior surgery. Histologically, granular cell tumors display abundant eosinophilic, granular cytoplasm and can be either epithelioid or spindled, and occur either as nests of cells or as single-file rows of cells. The case illustrated here does exhibit atypical features including prominent nucleoli, but does not meet criteria for malignancy. The differential diagnosis includes histiocytic proliferations such as xanthogranulomatous inflammation and fat necrosis, as well as other pink cell tumors—melanoma, apocrine carcinomas, and histiocytoid lobular carcinomas. Immunohistochemistry can resolve any diagnostic dilemma, as granular cell tumors are immunoreactive for inhibin, CD68, S100 protein, and NSE, and are negative for cytokeratin and more specific melanocytic markers (HMB45, Melan A). Most granular cell tumors are benign and are adequately treated with complete surgical excision. </p>\n<p>References:<br>\nAdeniran A, Al-Ahmadie H, Mahoney MC, Robinson-Smith TM. Granular cell tumor of the breast: a series of 17 cases and review of the literature. The breast journal. 2004;10(6):528-31Brown AC, Audisio RA, Regitnig P. Granular cell tumour of the breast. Surgical oncology. 2011;20(2):97-105.  </p>\n<p>De Simone N, Aggon A, Christy C. Granular cell tumor of the breast: clinical and pathologic characteristics of a rare case in a 14-year-old girl. J Clin Oncol. 2011;29(22):e656-7.  </p>\n<p>Fanburg-Smith JC, Meis-Kindblom JM, Fante R, Kindblom LG. Malignant granular cell tumor of soft tissue: diagnostic criteria and clinicopathologic correlation. Am J Surg Pathol. 1998;22(7):779-94.  </p>\n<p>Lack EE, Worsham GF, Callihan MD, Crawford BE, Klappenbach S, Rowden G, et al. Granular cell tumor: a clinicopathologic study of 110 patients. Journal of surgical oncology. 1980;13(4):301-16. </p>\n<p>Le BH, Boyer PJ, Lewis JE, Kapadia SB. Granular cell tumor: immunohistochemical assessment of inhibin-alpha, protein gene product 9.5, S100 protein, CD68, and Ki-67 proliferative index with clinical correlation. Archives Pathol Lab Med. 2004;128(7):771-5.  </p>\n<p>Mobarki M, Dumollard JM, Dal Col P, Camy F, Peoc'h M, Karpathiou G. Granular cell tumor a study of 42 cases and systemic review of the literature. Pathol Res Pract. 2020 Apr;216(4):152865. doi: 10.1016/j.prp.2020.152865. Epub 2020 Feb 12. PMID: 32089415.\n</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:12:49.003Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w775c3",
+      "url": "https://sp.pathology.jhu.edu/week-775-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 775: Case 3",
+      "case_label": "Week 775: Case 3",
+      "attribution": "Cases presented by Dr. Ezra Baraban and prepared by Dr. Katherine Fomchenko.",
+      "vignette": "This case is an elderly male who underwent a partial scrotum resection.",
+      "question_text": "Cases presented by Dr. Ezra Baraban and prepared by Dr. Katherine Fomchenko.\nThis case is an elderly male who underwent a partial scrotum resection.",
+      "source_answer": "D. Paget’s disease",
+      "correct_answer": "Paget’s disease",
+      "canonical_answer": "Paget’s disease",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "A. Melanoma in-situ",
+        "B. Pagetoid spread of urothelial carcinoma",
+        "C. Squamous cell carcinoma in-situ",
+        "D. Paget’s disease"
+      ],
+      "choices": [
+        "Melanoma in-situ",
+        "Pagetoid spread of urothelial carcinoma",
+        "Squamous cell carcinoma in-situ",
+        "Paget’s disease"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8385.svs-7983-326138316880981x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8385.svs-1784043700216714629918x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8385.svs-3270127617395983229710x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8385.svs-8773832659917693565512x.png"
+      ],
+      "histology": "",
+      "discussion": "",
+      "references": [],
+      "feedback_text": "Sections show skin with an intraepithelial population of neoplastic cells with ample cytoplasm with focal duct or gland formation. Melanoma in-situ could be considered, but in areas the tumor cells form clusters and glands with intracytoplasmic mucin, indicating glandular differentiation. Lack of SOX10 or Melan-A expression also excludes melanoma. Squamous cell carcinoma in-situ could show pagetoid growth, but tumor cells should label with squamous markers such as high molecular weight keratin and/or P63/40. A population of cytologically malignant glandular epithelial cells colonizing benign squamous epithelium is diagnostic of Paget’s disease. These cells often have an adnexal immunophenotype and can have an immunoprofile quite similar to breast carcinoma, including labeling with GATA3, GCDFP15, and/or mammaglobin in addition to ER/PR and/or HER2. On the basis of morphology alone, it is very difficult to distinguish from extension from an underlying visceral primary such as colon or bladder, therefore clinical evaluation for an underlying invasive or in-situ neoplasm is mandatory.",
+      "feedback_html": "Sections show skin with an intraepithelial population of neoplastic cells with ample cytoplasm with focal duct or gland formation.    Melanoma in-situ could be considered, but in areas the tumor cells form clusters and glands with intracytoplasmic mucin, indicating glandular differentiation.  Lack of SOX10 or Melan-A expression also excludes melanoma.  Squamous cell carcinoma in-situ could show pagetoid growth, but tumor cells should label with squamous markers such as high molecular weight keratin and/or P63/40.  A population of cytologically malignant glandular epithelial cells colonizing benign squamous epithelium is diagnostic of Paget’s disease.  These cells often have an adnexal immunophenotype and can have an immunoprofile quite similar to breast carcinoma, including labeling with GATA3, GCDFP15, and/or mammaglobin in addition to ER/PR and/or HER2.  On the basis of morphology alone, it is very difficult to distinguish from extension from an underlying visceral primary such as colon or bladder, therefore clinical evaluation for an underlying invasive or in-situ neoplasm is mandatory.  ",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:12:59.457Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w775c2",
+      "url": "https://sp.pathology.jhu.edu/week-775-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 775: Case 2",
+      "case_label": "Week 775: Case 2",
+      "attribution": "Cases presented by Dr. Ezra Baraban and prepared by Dr. Katherine Fomchenko.",
+      "vignette": "This case is an elderly male who underwent a TURBT.",
+      "question_text": "Cases presented by Dr. Ezra Baraban and prepared by Dr. Katherine Fomchenko.\nThis case is an elderly male who underwent a TURBT.",
+      "source_answer": "D. Prostate adenocarcinoma, Grade Group 5, with pleomorphic giant cell features",
+      "correct_answer": "Prostate adenocarcinoma, Grade Group 5, with pleomorphic giant cell features",
+      "canonical_answer": "Prostate adenocarcinoma, Grade Group 5, with pleomorphic giant cell features",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "A. Paraganglioma",
+        "B. Large cell neuroendocrine carcinoma",
+        "C. High grade papillary urothelial carcinoma",
+        "D. Prostate adenocarcinoma, Grade Group 5, with pleomorphic giant cell features"
+      ],
+      "choices": [
+        "Paraganglioma",
+        "Large cell neuroendocrine carcinoma",
+        "High grade papillary urothelial carcinoma",
+        "Prostate adenocarcinoma, Grade Group 5, with pleomorphic giant cell features"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8384.svs-29670102270844291x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8384.svs-3581150627410665509511x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8384.svs-7657237463794923994519x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8384.svs-7371045945789665041311x-1.png"
+      ],
+      "histology": "",
+      "discussion": "",
+      "references": [],
+      "feedback_text": "Sections show a high-grade cellular neoplasm with prominent nucleoli and papillary architecture. Paraganglioma can have abundant vascularity and marked nuclear atypia, but would typically show architecture that is more nested than papillary. Paragangliomas should lack keratin expression and would show labeling for neuroendocrine markers such as synaptophysin. Large cell neuroendocrine carcinoma should have a high proliferation rate, often with basaloid nests with peripheral palisading. In the GU tract, this lesion should, by definition, lack any significant expression of prostate markers such as NKX3.1, PSA, or p501s, and should have significant expression of neuroendocrine markers. High grade papillary urothelial carcinoma can be difficult to distinguish from high grade prostatic adenocarcinoma invading the bladder, as both can show substantial papillary architecture. Marked nuclear pleomorphism, squamous differentiation, and an unequivocal precursor in-situ or non-invasive papillary urothelial neoplasm favor urothelial carcinoma. However, a low threshold for immunohistochemical confirmation is prudent given the substantial morphologic overlap. NKX3.1, p501s, and PSA expression indicate prostatic adenocarcinoma, whereas GATA3, uroplakin, and P63 are frequently expressed in urothelial carcinoma. Rare variants of prostatic adenocarcinoma in particular can mimic urothelial carcinoma. Adenosquamous carcinoma of the prostate can show bona fide squamous differentiation, and prostatic adenocarcinoma with pleomorphic giant cell features can show marked nuclear anaplasia, both leading to potential confusion with urothelial carcinoma. This patient had known recurrent prostatic adenocarcinoma causing urinary obstruction and bladder invasion. Despite the marked nuclear atypia and extensive papillary architecture, this tumor labeled diffusely with NKX3.1, confirming the diagnosis of prostatic adenocarcinoma with pleomorphic giant cell features.",
+      "feedback_html": "Sections show a high-grade cellular neoplasm with prominent nucleoli and papillary architecture.  Paraganglioma can have abundant vascularity and marked nuclear atypia, but would typically show architecture that is more nested than papillary.  Paragangliomas should lack keratin expression and would show labeling for neuroendocrine markers such as synaptophysin.  Large cell neuroendocrine carcinoma should have a high proliferation rate, often with basaloid nests with peripheral palisading.  In the GU tract, this lesion should, by definition, lack any significant expression of prostate markers such as NKX3.1, PSA, or p501s, and should have significant expression of neuroendocrine markers.  High grade papillary urothelial carcinoma can be difficult to distinguish from high grade prostatic adenocarcinoma invading the bladder, as both can show substantial papillary architecture.  Marked nuclear pleomorphism, squamous differentiation, and an unequivocal precursor in-situ or non-invasive papillary urothelial neoplasm favor urothelial carcinoma.  However, a low threshold for immunohistochemical confirmation is prudent given the substantial morphologic overlap.  NKX3.1, p501s, and PSA expression indicate prostatic adenocarcinoma, whereas GATA3, uroplakin, and P63 are frequently expressed in urothelial carcinoma.  Rare variants of prostatic adenocarcinoma in particular can mimic urothelial carcinoma.  Adenosquamous carcinoma of the prostate can show bona fide squamous differentiation, and prostatic adenocarcinoma with pleomorphic giant cell features can show marked nuclear anaplasia, both leading to potential confusion with urothelial carcinoma.  This patient had known recurrent prostatic adenocarcinoma causing urinary obstruction and bladder invasion.  Despite the marked nuclear atypia and extensive papillary architecture, this tumor labeled diffusely with NKX3.1, confirming the diagnosis of prostatic adenocarcinoma with pleomorphic giant cell features.",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:13:08.882Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w775c1",
+      "url": "https://sp.pathology.jhu.edu/week-775-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 775: Case 1",
+      "case_label": "Week 775: Case 1",
+      "attribution": "Cases presented by Dr. Ezra Baraban and prepared by Dr. Katherine Fomchenko.",
+      "vignette": "This case is an elderly male who underwent a hydrocelectomy.",
+      "question_text": "Cases presented by Dr. Ezra Baraban and prepared by Dr. Katherine Fomchenko.\nThis case is an elderly male who underwent a hydrocelectomy.",
+      "source_answer": "B. Benign rete testis epithelium",
+      "correct_answer": "Benign rete testis epithelium",
+      "canonical_answer": "Benign rete testis epithelium",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Small cell carcinoma",
+        "B. Benign rete testis epithelium",
+        "C. Reactive mesothelial cells",
+        "D. Malignant mesothelioma"
+      ],
+      "choices": [
+        "Small cell carcinoma",
+        "Benign rete testis epithelium",
+        "Reactive mesothelial cells",
+        "Malignant mesothelioma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8383.svs-6897-0115970845751x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8383.svs-7940940931858234590410x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8383.svs-8034060882867546585610x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8383.svs-8597066357895336912017x.png"
+      ],
+      "histology": "",
+      "discussion": "",
+      "references": [],
+      "feedback_text": "Sections show benign mesothelial lined fibrous tissue consistent with a hydrocele sac. Scattered cellular clusters of crushed small round blue cells are also seen. The cellularity of these clusters raises concern for a neoplasm, as in a different context such as a transbronchial lung biopsy these foci would be concerning for a neuroendocrine neoplasm. In the setting of a hydrocele sac however, these clusters show the typical morphologic features of crushed aggregates of benign rete testis epithelium, which have shed into the hydrocele sac. Closer inspection reveals no mitotic activity and if performed, a Ki67 stain would be negligible, excluding any sort of neuroendocrine carcinoma, although keratin and CD56 labeling may be misleading if performed. Mesothelial markers would be negative in these cells, excluding the latter two diagnoses.",
+      "feedback_html": "Sections show benign mesothelial lined fibrous tissue consistent with a hydrocele sac.  Scattered cellular clusters of crushed small round blue cells are also seen.  The cellularity of these clusters raises concern for a neoplasm, as in a different context such as a transbronchial lung biopsy these foci would be concerning for a neuroendocrine neoplasm.  In the setting of a hydrocele sac however, these clusters show the typical morphologic features of crushed aggregates of benign rete testis epithelium, which have shed into the hydrocele sac.  Closer inspection reveals no mitotic activity and if performed, a Ki67 stain would be negligible, excluding any sort of neuroendocrine carcinoma, although keratin and CD56 labeling may be misleading if performed.  Mesothelial markers would be negative in these cells, excluding the latter two diagnoses.  ",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:13:18.405Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w774c3",
+      "url": "https://sp.pathology.jhu.edu/week-774-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 774: Case 3",
+      "case_label": "Week 774: Case 3",
+      "attribution": "Cases presented by Dr. Lisa Rooper and prepared by Dr. Katherine Fomchenko.",
+      "vignette": "This case is an elderly male presenting with a nasal mass.",
+      "question_text": "Cases presented by Dr. Lisa Rooper and prepared by Dr. Katherine Fomchenko.\nThis case is an elderly male presenting with a nasal mass.",
+      "source_answer": "D. Chondro-osseous respiratory epithelial (CORE) hamartoma",
+      "correct_answer": "Chondro-osseous respiratory epithelial (CORE) hamartoma",
+      "canonical_answer": "Chondro-osseous respiratory epithelial (CORE) hamartoma",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "A. Chondromesenchymal hamartoma",
+        "B. Respiratory epithelial adenomatoid hamartoma (REAH)",
+        "C. Seromucinous hamartoma",
+        "D. Chondro-osseous respiratory epithelial (CORE) hamartoma"
+      ],
+      "choices": [
+        "Chondromesenchymal hamartoma",
+        "Respiratory epithelial adenomatoid hamartoma (REAH)",
+        "Seromucinous hamartoma",
+        "Chondro-osseous respiratory epithelial (CORE) hamartoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8382.svs-53361536373094768151x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8382.svs-5413157922592866212512x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8382.svs-190365215431221605616x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8382.svs-2016330177269323484710x-1.png"
+      ],
+      "histology": "The lesion consists of a disorganized proliferation of normal elements predominantly composed of ciliated respiratory epithelium with scattered intermixed seromucinous glands. The stroma is variably edematous with scattered chronic inflammation and central areas of bone. All components of the lesion are cytologically benign.",
+      "discussion": "The three most common sinonasal hamartomas are respiratory epithelial adenomatoid hamartoma (REAH), seromucinous hamartoma, and chondro-osseous respiratory epithelial (CORE) hamartoma. These hamartomas exist on a spectrum of morphologic components, with REAH having predominantly respiratory surface epithelium, seromucinous hamartomas having predominantly seromucinous glands, and CORE hamartomas having respiratory epithelium, seromucinous glands, bone, and cartilage. The etiology of these lesions is not fully understood. Another type of sinonasal hamartoma, chondromesenchymal hamartoma, is actually a neoplastic entity is driven by DICER1 mutations and is comprised of a range of immature to mature mesenchymal tissue and cartilage.\n\nDaniel A, Wong E, Ho J, Singh N. Chondro-Osseous Respiratory Epithelial Adenomatoid Hamartoma (COREAH): Case Report and Literature Review. Case Rep Otolaryngol. 2019 Jul 25;2019:5247091. doi: 10.1155/2019/5247091. PMID: 31428496; PMCID: PMC6683791.\n\nBullock MJ. Low-Grade Epithelial Proliferations of the Sinonasal Tract. Head Neck Pathol. 2016 Mar;10(1):47-59. doi: 10.1007/s12105-016-0691-z. Epub 2016 Feb 1. PMID: 26830403; PMCID: PMC4746134.\nLi R, Saluja K, Lin M, Hu Z, Cai Z, Zhu H. Sinonasal Hamartomas: From Nasal Chondromesenchymal Hamartoma to Respiratory Epithelial Adenomatoid Hamartoma. Report of six Cases and Review of the Literature. Int J Surg Pathol. 2022 Jun;30(4):448-456. doi: 10.1177/10668969211064211. Epub 2022 Jan 10. PMID: 35001691.\n\nStewart DR, Messinger Y, Williams GM, Yang J, Field A, Schultz KA, Harney LA, Doros LA, Dehner LP, Hill DA. Nasal chondromesenchymal hamartomas arise secondary to germline and somatic mutations of DICER1 in the pleuropulmonary blastoma tumor predisposition disorder. Hum Genet. 2014 Nov;133(11):1443-50. doi: 10.1007/s00439-014-1474-9. Epub 2014 Aug 14. PMID: 25118636; PMCID: PMC4185226.",
+      "references": [],
+      "feedback_text": "Answer: D. Chondro-osseous respiratory epithelial (CORE) hamartoma\n\nHistology: The lesion consists of a disorganized proliferation of normal elements predominantly composed of ciliated respiratory epithelium with scattered intermixed seromucinous glands. The stroma is variably edematous with scattered chronic inflammation and central areas of bone. All components of the lesion are cytologically benign.\n\nDiscussion: The three most common sinonasal hamartomas are respiratory epithelial adenomatoid hamartoma (REAH), seromucinous hamartoma, and chondro-osseous respiratory epithelial (CORE) hamartoma. These hamartomas exist on a spectrum of morphologic components, with REAH having predominantly respiratory surface epithelium, seromucinous hamartomas having predominantly seromucinous glands, and CORE hamartomas having respiratory epithelium, seromucinous glands, bone, and cartilage. The etiology of these lesions is not fully understood. Another type of sinonasal hamartoma, chondromesenchymal hamartoma, is actually a neoplastic entity is driven by DICER1 mutations and is comprised of a range of immature to mature mesenchymal tissue and cartilage.\n\nDaniel A, Wong E, Ho J, Singh N. Chondro-Osseous Respiratory Epithelial Adenomatoid Hamartoma (COREAH): Case Report and Literature Review. Case Rep Otolaryngol. 2019 Jul 25;2019:5247091. doi: 10.1155/2019/5247091. PMID: 31428496; PMCID: PMC6683791.\n\nBullock MJ. Low-Grade Epithelial Proliferations of the Sinonasal Tract. Head Neck Pathol. 2016 Mar;10(1):47-59. doi: 10.1007/s12105-016-0691-z. Epub 2016 Feb 1. PMID: 26830403; PMCID: PMC4746134.\n\nLi R, Saluja K, Lin M, Hu Z, Cai Z, Zhu H. Sinonasal Hamartomas: From Nasal Chondromesenchymal Hamartoma to Respiratory Epithelial Adenomatoid Hamartoma. Report of six Cases and Review of the Literature. Int J Surg Pathol. 2022 Jun;30(4):448-456. doi: 10.1177/10668969211064211. Epub 2022 Jan 10. PMID: 35001691.\n\nStewart DR, Messinger Y, Williams GM, Yang J, Field A, Schultz KA, Harney LA, Doros LA, Dehner LP, Hill DA. Nasal chondromesenchymal hamartomas arise secondary to germline and somatic mutations of DICER1 in the pleuropulmonary blastoma tumor predisposition disorder. Hum Genet. 2014 Nov;133(11):1443-50. doi: 10.1007/s00439-014-1474-9. Epub 2014 Aug 14. PMID: 25118636; PMCID: PMC4185226.",
+      "feedback_html": "Answer: D. Chondro-osseous respiratory epithelial (CORE) hamartoma<p></p>\n<p>Histology: The lesion consists of a disorganized proliferation of normal elements predominantly composed of ciliated respiratory epithelium with scattered intermixed seromucinous glands. The stroma is variably edematous with scattered chronic inflammation and central areas of bone. All components of the lesion are cytologically benign.</p>\n<p>Discussion: The three most common sinonasal hamartomas are respiratory epithelial adenomatoid hamartoma (REAH), seromucinous hamartoma, and chondro-osseous respiratory epithelial (CORE) hamartoma. These hamartomas exist on a spectrum of morphologic components, with REAH having predominantly respiratory surface epithelium, seromucinous hamartomas having predominantly seromucinous glands, and CORE hamartomas having respiratory epithelium, seromucinous glands, bone, and cartilage. The etiology of these lesions is not fully understood. Another type of sinonasal hamartoma, chondromesenchymal hamartoma, is actually a neoplastic entity is driven by DICER1 mutations and is comprised of a range of immature to mature mesenchymal tissue and cartilage.</p>\n<p>Daniel A, Wong E, Ho J, Singh N. Chondro-Osseous Respiratory Epithelial Adenomatoid Hamartoma (COREAH): Case Report and Literature Review. Case Rep Otolaryngol. 2019 Jul 25;2019:5247091. doi: 10.1155/2019/5247091. PMID: 31428496; PMCID: PMC6683791.</p>\n<p>Bullock MJ. Low-Grade Epithelial Proliferations of the Sinonasal Tract. Head Neck Pathol. 2016 Mar;10(1):47-59. doi: 10.1007/s12105-016-0691-z. Epub 2016 Feb 1. PMID: 26830403; PMCID: PMC4746134.<br>\nLi R, Saluja K, Lin M, Hu Z, Cai Z, Zhu H. Sinonasal Hamartomas: From Nasal Chondromesenchymal Hamartoma to Respiratory Epithelial Adenomatoid Hamartoma. Report of six Cases and Review of the Literature. Int J Surg Pathol. 2022 Jun;30(4):448-456. doi: 10.1177/10668969211064211. Epub 2022 Jan 10. PMID: 35001691.</p>\n<p>Stewart DR, Messinger Y, Williams GM, Yang J, Field A, Schultz KA, Harney LA, Doros LA, Dehner LP, Hill DA. Nasal chondromesenchymal hamartomas arise secondary to germline and somatic mutations of DICER1 in the pleuropulmonary blastoma tumor predisposition disorder. Hum Genet. 2014 Nov;133(11):1443-50. doi: 10.1007/s00439-014-1474-9. Epub 2014 Aug 14. PMID: 25118636; PMCID: PMC4185226.\n</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:13:27.830Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w774c2",
+      "url": "https://sp.pathology.jhu.edu/week-774-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 774: Case 2",
+      "case_label": "Week 774: Case 2",
+      "attribution": "Cases presented by Dr. Lisa Rooper and prepared by Dr. Katherine Fomchenko.",
+      "vignette": "This case is an elderly male presenting with a nasal mass.",
+      "question_text": "Cases presented by Dr. Lisa Rooper and prepared by Dr. Katherine Fomchenko.\nThis case is an elderly male presenting with a nasal mass.",
+      "source_answer": "C. Squamous cell carcinoma ex-inverted papilloma",
+      "correct_answer": "Squamous cell carcinoma ex-inverted papilloma",
+      "canonical_answer": "Squamous cell carcinoma ex-inverted papilloma",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "A. Inverted papilloma",
+        "B. HPV-related squamous cell carcinoma",
+        "C. Squamous cell carcinoma ex-inverted papilloma",
+        "D. DEK::AFF2 carcinoma"
+      ],
+      "choices": [
+        "Inverted papilloma",
+        "HPV-related squamous cell carcinoma",
+        "Squamous cell carcinoma ex-inverted papilloma",
+        "DEK::AFF2 carcinoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8381.svs-66502979119762759931x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8381.svs-327741103544746187636x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8381.svs-4252822563491792685611x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8381.svs-498132168569208342054x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8381.svs-6109724890670832875412x.png"
+      ],
+      "histology": "The lesion is composed of an endophytic proliferation of squamous epithelium beneath the surface of benign respiratory mucosa. Portions of this proliferation consist of rounded nests of admixed squamoid, transitional, and mucinous cells that lack significant cytologic atypia and have neutrophils transmigrating through the epithelium. However, other areas of the lesion show more complex, confluent, and irregular growth with markedly increased nuclear pleomorphism, nuclear to cytoplasmic ratio, conspicuous mitoses, and coarse chromatin with prominent nucleoli.",
+      "discussion": "The lesion in this case exhibits remnants of an inverted sinonasal papilloma with transformation to a squamous cell carcinoma, and the identification of both components is key to the diagnosis. Sinonasal squamous cell carcinoma (SCC) can arise from several pathways, including conventional SCC, HPV-associated SCC, ex papilloma, and new translocation-driven entities such as DEK::AFF2 carcinoma. 5-10% of inverted papillomas can undergo malignant transformation to squamous cell carcinoma. The majority of inverted papillomas and associated squamous cell carcinomas harbor somatic EGFR mutations, with a subset driven by low-risk HPV. Despite conflicting reports in historical literature, recent evidence shows that high-risk HPV is not a common etiologic agent in inverted papillomas or carcinoma ex-papilloma.\n\nLisan Q, Laccourreye O, Bonfils P. Sinonasal inverted papilloma: From diagnosis to treatment. Eur Ann Otorhinolaryngol Head Neck Dis. 2016 Nov;133(5):337-341. doi: 10.1016/j.anorl.2016.03.006. Epub 2016 Apr 1. PMID: 27053431.\n\nFerrari M, Taboni S, Carobbio ALC, Emanuelli E, Maroldi R, Bossi P, Nicolai P. Sinonasal Squamous Cell Carcinoma, a Narrative Reappraisal of the Current Evidence. Cancers (Basel). 2021 Jun 7;13(11):2835. doi: 10.3390/cancers13112835. PMID: 34200193; PMCID: PMC8201377.\n\nUdager AM, McHugh JB, Goudsmit CM, Weigelin HC, Lim MS, Elenitoba-Johnson KSJ, Betz BL, Carey TE, Brown NA. Human papillomavirus (HPV) and somatic EGFR mutations are essential, mutually exclusive oncogenic mechanisms for inverted sinonasal papillomas and associated sinonasal squamous cell carcinomas. Ann Oncol. 2018 Feb 1;29(2):466-471. doi: 10.1093/annonc/mdx736. PMID: 29145573; PMCID: PMC6248771.",
+      "references": [],
+      "feedback_text": "Answer: C. Squamous cell carcinoma ex-inverted papilloma\n\nHistology: The lesion is composed of an endophytic proliferation of squamous epithelium beneath the surface of benign respiratory mucosa. Portions of this proliferation consist of rounded nests of admixed squamoid, transitional, and mucinous cells that lack significant cytologic atypia and have neutrophils transmigrating through the epithelium. However, other areas of the lesion show more complex, confluent, and irregular growth with markedly increased nuclear pleomorphism, nuclear to cytoplasmic ratio, conspicuous mitoses, and coarse chromatin with prominent nucleoli.\n\nDiscussion: The lesion in this case exhibits remnants of an inverted sinonasal papilloma with transformation to a squamous cell carcinoma, and the identification of both components is key to the diagnosis. Sinonasal squamous cell carcinoma (SCC) can arise from several pathways, including conventional SCC, HPV-associated SCC, ex papilloma, and new translocation-driven entities such as DEK::AFF2 carcinoma. 5-10% of inverted papillomas can undergo malignant transformation to squamous cell carcinoma. The majority of inverted papillomas and associated squamous cell carcinomas harbor somatic EGFR mutations, with a subset driven by low-risk HPV. Despite conflicting reports in historical literature, recent evidence shows that high-risk HPV is not a common etiologic agent in inverted papillomas or carcinoma ex-papilloma.\n\nLisan Q, Laccourreye O, Bonfils P. Sinonasal inverted papilloma: From diagnosis to treatment. Eur Ann Otorhinolaryngol Head Neck Dis. 2016 Nov;133(5):337-341. doi: 10.1016/j.anorl.2016.03.006. Epub 2016 Apr 1. PMID: 27053431.\n\nFerrari M, Taboni S, Carobbio ALC, Emanuelli E, Maroldi R, Bossi P, Nicolai P. Sinonasal Squamous Cell Carcinoma, a Narrative Reappraisal of the Current Evidence. Cancers (Basel). 2021 Jun 7;13(11):2835. doi: 10.3390/cancers13112835. PMID: 34200193; PMCID: PMC8201377.\n\nUdager AM, McHugh JB, Goudsmit CM, Weigelin HC, Lim MS, Elenitoba-Johnson KSJ, Betz BL, Carey TE, Brown NA. Human papillomavirus (HPV) and somatic EGFR mutations are essential, mutually exclusive oncogenic mechanisms for inverted sinonasal papillomas and associated sinonasal squamous cell carcinomas. Ann Oncol. 2018 Feb 1;29(2):466-471. doi: 10.1093/annonc/mdx736. PMID: 29145573; PMCID: PMC6248771.",
+      "feedback_html": "Answer: C. Squamous cell carcinoma ex-inverted papilloma<p></p>\n<p>Histology: The lesion is composed of an endophytic proliferation of squamous epithelium beneath the surface of benign respiratory mucosa. Portions of this proliferation consist of rounded nests of admixed squamoid, transitional, and mucinous cells that lack significant cytologic atypia and have neutrophils transmigrating through the epithelium. However, other areas of the lesion show more complex, confluent, and irregular growth with markedly increased nuclear pleomorphism, nuclear to cytoplasmic ratio, conspicuous mitoses, and coarse chromatin with prominent nucleoli.</p>\n<p>Discussion: The lesion in this case exhibits remnants of an inverted sinonasal papilloma with transformation to a squamous cell carcinoma, and the identification of both components is key to the diagnosis. Sinonasal squamous cell carcinoma (SCC) can arise from several pathways, including conventional SCC, HPV-associated SCC, ex papilloma, and new translocation-driven entities such as DEK::AFF2 carcinoma. 5-10% of inverted papillomas can undergo malignant transformation to squamous cell carcinoma. The majority of inverted papillomas and associated squamous cell carcinomas harbor somatic EGFR mutations, with a subset driven by low-risk HPV. Despite conflicting reports in historical literature, recent evidence shows that high-risk HPV is not a common etiologic agent in inverted papillomas or carcinoma ex-papilloma.</p>\n<p>Lisan Q, Laccourreye O, Bonfils P. Sinonasal inverted papilloma: From diagnosis to treatment. Eur Ann Otorhinolaryngol Head Neck Dis. 2016 Nov;133(5):337-341. doi: 10.1016/j.anorl.2016.03.006. Epub 2016 Apr 1. PMID: 27053431.</p>\n<p>Ferrari M, Taboni S, Carobbio ALC, Emanuelli E, Maroldi R, Bossi P, Nicolai P. Sinonasal Squamous Cell Carcinoma, a Narrative Reappraisal of the Current Evidence. Cancers (Basel). 2021 Jun 7;13(11):2835. doi: 10.3390/cancers13112835. PMID: 34200193; PMCID: PMC8201377.</p>\n<p>Udager AM, McHugh JB, Goudsmit CM, Weigelin HC, Lim MS, Elenitoba-Johnson KSJ, Betz BL, Carey TE, Brown NA. Human papillomavirus (HPV) and somatic EGFR mutations are essential, mutually exclusive oncogenic mechanisms for inverted sinonasal papillomas and associated sinonasal squamous cell carcinomas. Ann Oncol. 2018 Feb 1;29(2):466-471. doi: 10.1093/annonc/mdx736. PMID: 29145573; PMCID: PMC6248771.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:13:38.732Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w774c1",
+      "url": "https://sp.pathology.jhu.edu/week-774-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 774: Case 1",
+      "case_label": "Week 774: Case 1",
+      "attribution": "Cases presented by Dr. Lisa Rooper and prepared by Dr. Katherine Fomchenko.",
+      "vignette": "This case is an older male presenting with a tonsil mass.",
+      "question_text": "Cases presented by Dr. Lisa Rooper and prepared by Dr. Katherine Fomchenko.\nThis case is an older male presenting with a tonsil mass.",
+      "source_answer": "A. HPV-associated ciliated adenosquamous carcinoma",
+      "correct_answer": "HPV-associated ciliated adenosquamous carcinoma",
+      "canonical_answer": "HPV-associated ciliated adenosquamous carcinoma",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "A. HPV-associated ciliated adenosquamous carcinoma",
+        "B. Benign tonsillar cyst",
+        "C. Basaloid squamous cell carcinoma",
+        "D. Mucoepidermoid carcinoma"
+      ],
+      "choices": [
+        "HPV-associated ciliated adenosquamous carcinoma",
+        "Benign tonsillar cyst",
+        "Basaloid squamous cell carcinoma",
+        "Mucoepidermoid carcinoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8377.svs-5951-338140283619581x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8377.svs-263252344634483308536x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8377.svs-7296041928800694683610x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8377.svs-2992628621312682969740x.png"
+      ],
+      "histology": "The lesion is composed of nests to sheets of large, atypical cells with markedly pleomorphic nuclei, prominent nucleoli, and scattered atypical mitoses that show a combination of pushing and infiltrative growth through background lymphocytes. There are scattered glandular spaces filled with cellular debris lined by atypical columnar cells, some of which are ciliated.",
+      "discussion": "HPV- associated squamous cell carcinoma generally has a non-keratinizing morphology, with tumor cells that have large nuclei, scant eosinophilic cytoplasm, and minimal keratinization. These carcinomas have several histologic variants, including keratinizing, basaloid, sarcomatoid, lymphoepithelial, and adenosquamous. The adenosquamous variant shows a mix of squamous and glandular morphologies that can rarely be ciliated, as can be seen in this case. Cilia formation can complicate differentiating the tumor from benign upper aerodigestive lesions but the ciliated cells are closely intermixed with the tumor cells and are positive for p16 and high-risk HPV RNA in-situ hybridization. In general, histologic variants of HPV-associated squamous cell carcinoma do not affect prognosis, which is more favorable than HPV-negative squamous cell carcinomas of the head and neck.\n\nThe College of American Pathologists guidelines recommend that all new squamous cell carcinomas arising in the oropharynx or neck metastasis of unknown primary should be tested for involvement by high-risk HPV via p16 immunohistochemistry. In squamous cell carcinoma of the oropharynx and levels II and III of the neck, p16 positivity is regarded as diagnostic of HPV positivity due to the high pretest probability for HPV involvement. Outside of these sites, however, HPV specific testing such as in-situ hybridization or PCR is required to confirm involvement by HPV due to the imperfect specificity for p16 in non-oropharyngeal sites.\n\nBishop JA, Westra WH. Ciliated HPV-related Carcinoma: A Well-differentiated Form of Head and Neck Carcinoma That Can Be Mistaken for a Benign Cyst. Am J Surg Pathol. 2015 Nov;39(11):1591-5. doi: 10.1097/PAS.0000000000000521. PMID: 26457358; PMCID: PMC4602404.\n\nBishop JA, Lewis JS Jr, Rocco JW, Faquin WC. HPV-related squamous cell carcinoma of the head and neck: An update on testing in routine pathology practice. Semin Diagn Pathol. 2015 Sep;32(5):344-51. doi: 10.1053/j.semdp.2015.02.013. Epub 2015 Feb 4. PMID: 25724476.\n\nLewis JS Jr, Beadle B, Bishop JA, Chernock RD, Colasacco C, Lacchetti C, Moncur JT, Rocco JW, Schwartz MR, Seethala RR, Thomas NE, Westra WH, Faquin WC. Human Papillomavirus Testing in Head and Neck Carcinomas: Guideline From the College of American Pathologists. Arch Pathol Lab Med. 2018 May;142(5):559-597. doi: 10.5858/arpa.2017-0286-CP. Epub 2017 Dec 18. PMID: 29251996.",
+      "references": [],
+      "feedback_text": "Answer: A. HPV- associated ciliated adenosquamous carcinoma\n\nHistology: The lesion is composed of nests to sheets of large, atypical cells with markedly pleomorphic nuclei, prominent nucleoli, and scattered atypical mitoses that show a combination of pushing and infiltrative growth through background lymphocytes. There are scattered glandular spaces filled with cellular debris lined by atypical columnar cells, some of which are ciliated.\n\nDiscussion: HPV- associated squamous cell carcinoma generally has a non-keratinizing morphology, with tumor cells that have large nuclei, scant eosinophilic cytoplasm, and minimal keratinization. These carcinomas have several histologic variants, including keratinizing, basaloid, sarcomatoid, lymphoepithelial, and adenosquamous. The adenosquamous variant shows a mix of squamous and glandular morphologies that can rarely be ciliated, as can be seen in this case. Cilia formation can complicate differentiating the tumor from benign upper aerodigestive lesions but the ciliated cells are closely intermixed with the tumor cells and are positive for p16 and high-risk HPV RNA in-situ hybridization. In general, histologic variants of HPV-associated squamous cell carcinoma do not affect prognosis, which is more favorable than HPV-negative squamous cell carcinomas of the head and neck.\n\nThe College of American Pathologists guidelines recommend that all new squamous cell carcinomas arising in the oropharynx or neck metastasis of unknown primary should be tested for involvement by high-risk HPV via p16 immunohistochemistry. In squamous cell carcinoma of the oropharynx and levels II and III of the neck, p16 positivity is regarded as diagnostic of HPV positivity due to the high pretest probability for HPV involvement. Outside of these sites, however, HPV specific testing such as in-situ hybridization or PCR is required to confirm involvement by HPV due to the imperfect specificity for p16 in non-oropharyngeal sites.\n\nBishop JA, Westra WH. Ciliated HPV-related Carcinoma: A Well-differentiated Form of Head and Neck Carcinoma That Can Be Mistaken for a Benign Cyst. Am J Surg Pathol. 2015 Nov;39(11):1591-5. doi: 10.1097/PAS.0000000000000521. PMID: 26457358; PMCID: PMC4602404.\n\nBishop JA, Lewis JS Jr, Rocco JW, Faquin WC. HPV-related squamous cell carcinoma of the head and neck: An update on testing in routine pathology practice. Semin Diagn Pathol. 2015 Sep;32(5):344-51. doi: 10.1053/j.semdp.2015.02.013. Epub 2015 Feb 4. PMID: 25724476.\n\nLewis JS Jr, Beadle B, Bishop JA, Chernock RD, Colasacco C, Lacchetti C, Moncur JT, Rocco JW, Schwartz MR, Seethala RR, Thomas NE, Westra WH, Faquin WC. Human Papillomavirus Testing in Head and Neck Carcinomas: Guideline From the College of American Pathologists. Arch Pathol Lab Med. 2018 May;142(5):559-597. doi: 10.5858/arpa.2017-0286-CP. Epub 2017 Dec 18. PMID: 29251996.",
+      "feedback_html": "Answer: A. HPV- associated ciliated adenosquamous carcinoma<p></p>\n<p>Histology: The lesion is composed of nests to sheets of large, atypical cells with markedly pleomorphic nuclei, prominent nucleoli, and scattered atypical mitoses that show a combination of pushing and infiltrative growth through background lymphocytes. There are scattered glandular spaces filled with cellular debris lined by atypical columnar cells, some of which are ciliated.</p>\n<p>Discussion: HPV- associated squamous cell carcinoma generally has a non-keratinizing morphology, with tumor cells that have large nuclei, scant eosinophilic cytoplasm, and minimal keratinization. These carcinomas have several histologic variants, including keratinizing, basaloid, sarcomatoid, lymphoepithelial, and adenosquamous. The adenosquamous variant shows a mix of squamous and glandular morphologies that can rarely be ciliated, as can be seen in this case. Cilia formation can complicate differentiating the tumor from benign upper aerodigestive lesions but the ciliated cells are closely intermixed with the tumor cells and are positive for p16 and high-risk HPV RNA in-situ hybridization. In general, histologic variants of HPV-associated squamous cell carcinoma do not affect prognosis, which is more favorable than HPV-negative squamous cell carcinomas of the head and neck. </p>\n<p>The College of American Pathologists guidelines recommend that all new squamous cell carcinomas arising in the oropharynx or neck metastasis of unknown primary should be tested for involvement by high-risk HPV via p16 immunohistochemistry. In squamous cell carcinoma of the oropharynx and levels II and III of the neck, p16 positivity is regarded as diagnostic of HPV positivity due to the high pretest probability for HPV involvement. Outside of these sites, however, HPV specific testing such as in-situ hybridization or PCR is required to confirm involvement by HPV due to the imperfect specificity for p16 in non-oropharyngeal sites.</p>\n<p>Bishop JA, Westra WH. Ciliated HPV-related Carcinoma: A Well-differentiated Form of Head and Neck Carcinoma That Can Be Mistaken for a Benign Cyst. Am J Surg Pathol. 2015 Nov;39(11):1591-5. doi: 10.1097/PAS.0000000000000521. PMID: 26457358; PMCID: PMC4602404.</p>\n<p>Bishop JA, Lewis JS Jr, Rocco JW, Faquin WC. HPV-related squamous cell carcinoma of the head and neck: An update on testing in routine pathology practice. Semin Diagn Pathol. 2015 Sep;32(5):344-51. doi: 10.1053/j.semdp.2015.02.013. Epub 2015 Feb 4. PMID: 25724476.</p>\n<p>Lewis JS Jr, Beadle B, Bishop JA, Chernock RD, Colasacco C, Lacchetti C, Moncur JT, Rocco JW, Schwartz MR, Seethala RR, Thomas NE, Westra WH, Faquin WC. Human Papillomavirus Testing in Head and Neck Carcinomas: Guideline From the College of American Pathologists. Arch Pathol Lab Med. 2018 May;142(5):559-597. doi: 10.5858/arpa.2017-0286-CP. Epub 2017 Dec 18. PMID: 29251996.\n</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:13:48.006Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w773c3",
+      "url": "https://sp.pathology.jhu.edu/week-773-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 773: Case 3",
+      "case_label": "Week 773: Case 3",
+      "attribution": "Cases presented by Dr. Marissa White and prepared by Dr. Katherine Fomchenko.",
+      "vignette": "This case is an adult male with a bone lesion.",
+      "question_text": "Cases presented by Dr. Marissa White and prepared by Dr. Katherine Fomchenko.\nThis case is an adult male with a bone lesion.",
+      "source_answer": "D. Malakoplakia",
+      "correct_answer": "Malakoplakia",
+      "canonical_answer": "Malakoplakia",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "A. Chondrosarcoma",
+        "B. Melanoma",
+        "C. Metastatic carcinoma",
+        "D. Malakoplakia"
+      ],
+      "choices": [
+        "Chondrosarcoma",
+        "Melanoma",
+        "Metastatic carcinoma",
+        "Malakoplakia"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8370.svs-68906352130635804211x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8370.svs-3726443472409024565017x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8370.svs-1420319184165972071530x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8370.svs-7712952543789445370340x.png"
+      ],
+      "histology": "The lesion is composed of syncytial sheets of histiocytes with foamy to granular eosinophilic cytoplasm and background chronic inflammation. Focal basophilic round to targetoid appearing cytoplasmic inclusions are scattered throughout.",
+      "discussion": "Malakoplakia is a rare, benign, mass-like lesion usually seen in the genitourinary tract and is associated with infection. It is composed of sheets of distinctive histocytes with eosinophilic granular cytoplasm called von Hansemann cells with interspersed acute and chronic inflammatory cells. The histiocytes also have basophilic intracytoplasmic inclusions called Michaelis-Gutmann bodies, which are a distinct diagnostic feature. These will stain positive for calcium. Malakoplakia of the bone is exceedingly rare, and some case reports have noted an association with osteomyelitis.\n\nLane JL, Land AD, Thompson SM, Weiner SD. Malakoplakia of Bone: A Case Report and Review of the Literature. JBJS Case Connect. 2014 Oct/Dec/Nov;4(4):e116. doi: 10.2106/JBJS.CC.N.00103. PMID: 29252784.\n\nKobayashi A, Utsunomiya Y, Kono M, Ito Y, Yamamoto I, Osaka N, Hasegawa T, Hoshina S, Yamaguchi Y, Kawaguchi Y, Hosoya T. Malakoplakia of the kidney. Am J Kidney Dis. 2008 Feb;51(2):326-30. doi: 10.1053/j.ajkd.2007.08.029. PMID: 18215711.",
+      "references": [],
+      "feedback_text": "Answer: D. Malakoplakia\n\nHistology: The lesion is composed of syncytial sheets of histiocytes with foamy to granular eosinophilic cytoplasm and background chronic inflammation. Focal basophilic round to targetoid appearing cytoplasmic inclusions are scattered throughout.\n\nDiscussion: Malakoplakia is a rare, benign, mass-like lesion usually seen in the genitourinary tract and is associated with infection. It is composed of sheets of distinctive histocytes with eosinophilic granular cytoplasm called von Hansemann cells with interspersed acute and chronic inflammatory cells. The histiocytes also have basophilic intracytoplasmic inclusions called Michaelis-Gutmann bodies, which are a distinct diagnostic feature. These will stain positive for calcium. Malakoplakia of the bone is exceedingly rare, and some case reports have noted an association with osteomyelitis.\n\nLane JL, Land AD, Thompson SM, Weiner SD. Malakoplakia of Bone: A Case Report and Review of the Literature. JBJS Case Connect. 2014 Oct/Dec/Nov;4(4):e116. doi: 10.2106/JBJS.CC.N.00103. PMID: 29252784.\n\nKobayashi A, Utsunomiya Y, Kono M, Ito Y, Yamamoto I, Osaka N, Hasegawa T, Hoshina S, Yamaguchi Y, Kawaguchi Y, Hosoya T. Malakoplakia of the kidney. Am J Kidney Dis. 2008 Feb;51(2):326-30. doi: 10.1053/j.ajkd.2007.08.029. PMID: 18215711.",
+      "feedback_html": "Answer: D. Malakoplakia<p></p>\n<p>Histology: The lesion is composed of syncytial sheets of histiocytes with foamy to granular eosinophilic cytoplasm and background chronic inflammation. Focal basophilic round to targetoid appearing cytoplasmic inclusions are scattered throughout.</p>\n<p>Discussion: Malakoplakia is a rare, benign, mass-like lesion usually seen in the genitourinary tract and is associated with infection. It is composed of sheets of distinctive histocytes with eosinophilic granular cytoplasm called von Hansemann cells with interspersed acute and chronic inflammatory cells. The histiocytes also have basophilic intracytoplasmic inclusions called Michaelis-Gutmann bodies, which are a distinct diagnostic feature. These will stain positive for calcium. Malakoplakia of the bone is exceedingly rare, and some case reports have noted an association with osteomyelitis.</p>\n<p>Lane JL, Land AD, Thompson SM, Weiner SD. Malakoplakia of Bone: A Case Report and Review of the Literature. JBJS Case Connect. 2014 Oct/Dec/Nov;4(4):e116. doi: 10.2106/JBJS.CC.N.00103. PMID: 29252784.</p>\n<p>Kobayashi A, Utsunomiya Y, Kono M, Ito Y, Yamamoto I, Osaka N, Hasegawa T, Hoshina S, Yamaguchi Y, Kawaguchi Y, Hosoya T. Malakoplakia of the kidney. Am J Kidney Dis. 2008 Feb;51(2):326-30. doi: 10.1053/j.ajkd.2007.08.029. PMID: 18215711.\n</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:13:57.277Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w773c2",
+      "url": "https://sp.pathology.jhu.edu/week-773-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 773: Case 2",
+      "case_label": "Week 773: Case 2",
+      "attribution": "Cases presented by Dr. Marissa White and prepared by Dr. Katherine Fomchenko.",
+      "vignette": "This case is an adult female with a lung mass.",
+      "question_text": "Cases presented by Dr. Marissa White and prepared by Dr. Katherine Fomchenko.\nThis case is an adult female with a lung mass.",
+      "source_answer": "A. Large cell neuroendocrine carcinoma",
+      "correct_answer": "Large cell neuroendocrine carcinoma",
+      "canonical_answer": "Large cell neuroendocrine carcinoma",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "A. Large cell neuroendocrine carcinoma",
+        "B. Small cell lung carcinoma",
+        "C. Typical carcinoid tumor",
+        "D. Aypical carcinoid tumor"
+      ],
+      "choices": [
+        "Large cell neuroendocrine carcinoma",
+        "Small cell lung carcinoma",
+        "Typical carcinoid tumor",
+        "Aypical carcinoid tumor"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8369.svs-1368-18199472880401x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8369.svs-6643752091684985350922x-1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8369.svs-2428134573254103554740x-1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8369.svs-7825552880787555338040x-1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8369.svs-7623555694767355619440x-1.png"
+      ],
+      "histology": "This lesion is composed of large cells with round, basophilic nuclei with focal nuclear molding and small nucleoli growing in a sheet-like to nested architecture with an infiltrative growth pattern, focal necrosis, and a high mitotic rate. The cytoplasm is not overwhelmingly abundant. On immunostains (not shown), the neoplastic cells were positive for chromogranin A, synaptophysin, and TTF-1.",
+      "discussion": "Large cell neuroendocrine carcinoma is an aggressive, high grade carcinoid tumor comprised of large polygonal cells growing in an organoid pattern. The four types of neuroendocrine tumors of the lung are typical carcinoid tumor, atypical carcinoid tumor, large cell neuroendocrine carcinoma, and small cell lung carcinoma. Typical and atypical carcinoid tumors are low grade lesions showing low amounts of proliferation (2 mitoses per 10 HPF for typical carcinoid, 2-10 per 10 HPF for atypical carcinoid) and mild nuclear atypia. Large cell neuroendocrine carcinoma and small cell lung carcinoma are high grade lesions with significant proliferation (>11 mitoses per 10 HPF) and atypia and are composed of large and small cells, respectively. All of these lesions will have some neuroendocrine differentiation, but it may be lower in higher grade lesions. Large cell neuroendocrine carcinoma and small cell lung carcinoma are also TTF-1 positive. In this case, the cells are not as large as expected and appear somewhat monotonous, lacking the vesicular chromatin usually present. Though it presents with a more typical carcinoid morphology, the mitotic rate and necrosis indicate a higher rate of proliferation, placing this lesion into the large cell neuroendocrine carcinoma category despite appearing closer to an atypical carcinoid.\n\nGollard R, Jhatakia S, Elliott M, Kosty M. Large cell/neuroendocrine carcinoma. Lung Cancer. 2010 Jul;69(1):13-8. doi: 10.1016/j.lungcan.2009.12.011. Epub 2010 Feb 4. PMID: 20133008.\nRekhtman N. Lung neuroendocrine neoplasms: recent progress and persistent challenges. Mod Pathol. 2022 Jan;35(Suppl 1):36-50. doi: 10.1038/s41379-021-00943-2. Epub 2021 Oct 18. PMID: 34663914; PMCID: PMC8695375.",
+      "references": [],
+      "feedback_text": "Answer: A. Large cell neuroendocrine carcinoma\n\nHistology: This lesion is composed of large cells with round, basophilic nuclei with focal nuclear molding and small nucleoli growing in a sheet-like to nested architecture with an infiltrative growth pattern, focal necrosis, and a high mitotic rate. The cytoplasm is not overwhelmingly abundant. On immunostains (not shown), the neoplastic cells were positive for chromogranin A, synaptophysin, and TTF-1.\n\nDiscussion: Large cell neuroendocrine carcinoma is an aggressive, high grade carcinoid tumor comprised of large polygonal cells growing in an organoid pattern. The four types of neuroendocrine tumors of the lung are typical carcinoid tumor, atypical carcinoid tumor, large cell neuroendocrine carcinoma, and small cell lung carcinoma. Typical and atypical carcinoid tumors are low grade lesions showing low amounts of proliferation (2 mitoses per 10 HPF for typical carcinoid, 2-10 per 10 HPF for atypical carcinoid) and mild nuclear atypia. Large cell neuroendocrine carcinoma and small cell lung carcinoma are high grade lesions with significant proliferation (>11 mitoses per 10 HPF) and atypia and are composed of large and small cells, respectively. All of these lesions will have some neuroendocrine differentiation, but it may be lower in higher grade lesions. Large cell neuroendocrine carcinoma and small cell lung carcinoma are also TTF-1 positive. In this case, the cells are not as large as expected and appear somewhat monotonous, lacking the vesicular chromatin usually present. Though it presents with a more typical carcinoid morphology, the mitotic rate and necrosis indicate a higher rate of proliferation, placing this lesion into the large cell neuroendocrine carcinoma category despite appearing closer to an atypical carcinoid.\n\nGollard R, Jhatakia S, Elliott M, Kosty M. Large cell/neuroendocrine carcinoma. Lung Cancer. 2010 Jul;69(1):13-8. doi: 10.1016/j.lungcan.2009.12.011. Epub 2010 Feb 4. PMID: 20133008.\n\nRekhtman N. Lung neuroendocrine neoplasms: recent progress and persistent challenges. Mod Pathol. 2022 Jan;35(Suppl 1):36-50. doi: 10.1038/s41379-021-00943-2. Epub 2021 Oct 18. PMID: 34663914; PMCID: PMC8695375.",
+      "feedback_html": "Answer: A. Large cell neuroendocrine carcinoma<p></p>\n<p>Histology: This lesion is composed of large cells with round, basophilic nuclei with focal nuclear molding and small nucleoli growing in a sheet-like to nested architecture with an infiltrative growth pattern, focal necrosis, and a high mitotic rate. The cytoplasm is not overwhelmingly abundant. On immunostains (not shown), the neoplastic cells were positive for chromogranin A, synaptophysin, and TTF-1. </p>\n<p>Discussion: Large cell neuroendocrine carcinoma is an aggressive, high grade carcinoid tumor comprised of large polygonal cells growing in an organoid pattern. The four types of neuroendocrine tumors of the lung are typical carcinoid tumor, atypical carcinoid tumor, large cell neuroendocrine carcinoma, and small cell lung carcinoma. Typical and atypical carcinoid tumors are low grade lesions showing low amounts of proliferation (2 mitoses per 10 HPF for typical carcinoid, 2-10 per 10 HPF for atypical carcinoid) and mild nuclear atypia. Large cell neuroendocrine carcinoma and small cell lung carcinoma are high grade lesions with significant proliferation (&gt;11 mitoses per 10 HPF) and atypia and are composed of large and small cells, respectively. All of these lesions will have some neuroendocrine differentiation, but it may be lower in higher grade lesions. Large cell neuroendocrine carcinoma and small cell lung carcinoma are also TTF-1 positive. In this case, the cells are not as large as expected and appear somewhat monotonous, lacking the vesicular chromatin usually present. Though it presents with a more typical carcinoid morphology, the mitotic rate and necrosis indicate a higher rate of proliferation, placing this lesion into the large cell neuroendocrine carcinoma category despite appearing closer to an atypical carcinoid.</p>\n<p>Gollard R, Jhatakia S, Elliott M, Kosty M. Large cell/neuroendocrine carcinoma. Lung Cancer. 2010 Jul;69(1):13-8. doi: 10.1016/j.lungcan.2009.12.011. Epub 2010 Feb 4. PMID: 20133008.<br>\nRekhtman N. Lung neuroendocrine neoplasms: recent progress and persistent challenges. Mod Pathol. 2022 Jan;35(Suppl 1):36-50. doi: 10.1038/s41379-021-00943-2. Epub 2021 Oct 18. PMID: 34663914; PMCID: PMC8695375.\n</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:14:07.614Z",
+      "extractor_version": "1.0.0"
+    }
+  ]
+}
