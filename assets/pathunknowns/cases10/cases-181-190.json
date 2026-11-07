@@ -1,0 +1,451 @@
+{
+  "case_start": 181,
+  "case_end": 190,
+  "case_count": 10,
+  "cases": [
+    {
+      "id": "w760c3",
+      "url": "https://sp.pathology.jhu.edu/week-760-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 760: Case 3",
+      "case_label": "Week 760: Case 3",
+      "attribution": "Presented by Dr. Andres Matoso and prepared by Dr. Sintawat Wangsiricharoen",
+      "vignette": "Adult male with pelvic mass",
+      "question_text": "Presented by Dr. Andres Matoso and prepared by Dr. Sintawat Wangsiricharoen\nAdult male with pelvic mass",
+      "source_answer": "C. Cellular angiofibroma",
+      "correct_answer": "Cellular angiofibroma",
+      "canonical_answer": "Cellular angiofibroma",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "A. Solitary fibrous tumor",
+        "B. Neurofibroma",
+        "C. Cellular angiofibroma",
+        "D. Aggressive angiomyxoma"
+      ],
+      "choices": [
+        "Solitary fibrous tumor",
+        "Neurofibroma",
+        "Cellular angiofibroma",
+        "Aggressive angiomyxoma"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/02/8226.ndpi-1358-8392822990891x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/02/8226.ndpi-1221360638146206112x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/02/8226.ndpi-29691839345578157094x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/02/8226.ndpi-267588538323001109010x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/02/8226.ndpi-4890767606544487015810x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/02/8226.ndpi-282009202308581042620x.png"
+      ],
+      "histology": "This tumor is well circumscribed and composed of uniform short spindled cells in a fibrous background.",
+      "discussion": "This entity, also known as angiomyofibroblastoma-like tumor of the male genital tract. These tumors are low grade and characterized by spindle cells with uniform oval nuclei with open chromatin and low to absent mitotic activity. Some of the spindle cells can show myoid differentiation and express SMA or desmin focally. There are numerous blood vessels some of which can have fibrin within the wall. CD34 is positive in most cases and ER/PR can be variable. The main differential diagnoses include schwannoma and neurofibroma which are positive for S100, while cellular angiofibromas are negative. Low grade fibromyxoid sarcoma could be in the differential diagnosis in biopsies, in which case MUC4 could assist in arriving at the right diagnosis. Perhaps the most critical differential diagnosis is aggressive angiomyxoma for which there is no immunohistochemistry that would be helpful. In contrast to cellular angiofibroma, aggressive angiomyxoma has a more myxoid background and an infiltrative border. Aggressive angiomyxoma requires complete surgical excision to prevent a recurrence.",
+      "references": [
+        {
+          "text": "Am J Surg Pathol. January 1998 - Volume 22 - Issue 1 - p 6-16.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: C. Cellular angiofibroma\n\nHistology: This tumor is well circumscribed and composed of uniform short spindled cells in a fibrous background.\n\nDiscussion: This entity, also known as angiomyofibroblastoma-like tumor of the male genital tract. These tumors are low grade and characterized by spindle cells with uniform oval nuclei with open chromatin and low to absent mitotic activity. Some of the spindle cells can show myoid differentiation and express SMA or desmin focally. There are numerous blood vessels some of which can have fibrin within the wall. CD34 is positive in most cases and ER/PR can be variable. The main differential diagnoses include schwannoma and neurofibroma which are positive for S100, while cellular angiofibromas are negative. Low grade fibromyxoid sarcoma could be in the differential diagnosis in biopsies, in which case MUC4 could assist in arriving at the right diagnosis. Perhaps the most critical differential diagnosis is aggressive angiomyxoma for which there is no immunohistochemistry that would be helpful. In contrast to cellular angiofibroma, aggressive angiomyxoma has a more myxoid background and an infiltrative border. Aggressive angiomyxoma requires complete surgical excision to prevent a recurrence.\n\nReferences:\n\nAm J Surg Pathol. January 1998 - Volume 22 - Issue 1 - p 6-16.",
+      "feedback_html": "<strong>Answer:</strong> C. Cellular angiofibroma<p></p>\n<p><strong>Histology:</strong> This tumor is well circumscribed and composed of uniform short spindled cells in a fibrous background.</p>\n<p><strong>Discussion:</strong> This entity, also known as angiomyofibroblastoma-like tumor of the male genital tract. These tumors are low grade and characterized by spindle cells with uniform oval nuclei with open chromatin and low to absent mitotic activity. Some of the spindle cells can show myoid differentiation and express SMA or desmin focally. There are numerous blood vessels some of which can have fibrin within the wall. CD34 is positive in most cases and ER/PR can be variable. The main differential diagnoses include schwannoma and neurofibroma which are positive for S100, while cellular angiofibromas are negative. Low grade fibromyxoid sarcoma could be in the differential diagnosis in biopsies, in which case MUC4 could assist in arriving at the right diagnosis. Perhaps the most critical differential diagnosis is aggressive angiomyxoma for which there is no immunohistochemistry that would be helpful. In contrast to cellular angiofibroma, aggressive angiomyxoma has a more myxoid background and an infiltrative border. Aggressive angiomyxoma requires complete surgical excision to prevent a recurrence.</p>\n<p><strong>References:</strong><br>\nAm J Surg Pathol. January 1998 - Volume 22 - Issue 1 - p 6-16.</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:23:11.113Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w760c2",
+      "url": "https://sp.pathology.jhu.edu/week-760-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 760: Case 2",
+      "case_label": "Week 760: Case 2",
+      "attribution": "Presented by Dr. Andres Matoso and prepared by Dr. Sintawat Wangsiricharoen",
+      "vignette": "Adult male with bladder tumor",
+      "question_text": "Presented by Dr. Andres Matoso and prepared by Dr. Sintawat Wangsiricharoen\nAdult male with bladder tumor",
+      "source_answer": "A. Small cell carcinoma arising in urothelial carcinoma",
+      "correct_answer": "Small cell carcinoma arising in urothelial carcinoma",
+      "canonical_answer": "Small cell carcinoma arising in urothelial carcinoma",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "A. Small cell carcinoma arising in urothelial carcinoma",
+        "B. Rhabdomyosarcoma",
+        "C. PNET",
+        "D. Sarcomatoid carcinoma"
+      ],
+      "choices": [
+        "Small cell carcinoma arising in urothelial carcinoma",
+        "Rhabdomyosarcoma",
+        "PNET",
+        "Sarcomatoid carcinoma"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/02/8224.ndpi-1531470115661983351x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/02/8224.ndpi-277282818369622474772x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/02/8224.ndpi-4714135582526803813310x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/02/8224.ndpi-4858236246512393747020x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/02/8224.ndpi-479314712103321726310x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/02/8224.ndpi-470232074056993253316x.png"
+      ],
+      "histology": "Tumor shows extensive areas composed of small cells with scant cytoplasm, hyperchromatic nuclei with nuclear molding, inconspicuous nucleoli, frequent mitoses and numerous apoptotic bodies. There are areas of overlying carcinoma in-situ and foci of spindling of tumor cells.",
+      "discussion": "Small cell carcinoma arising in any site is a highly proliferative, high-grade neuroendocrine tumor. Small cell carcinoma of the bladder originates from urothelial cells through specific activation of the neuronal pathways. In support of this divergent differentiation pathway, small cell carcinoma of the bladder is frequently associated with conventional urothelial carcinoma and other histologic variants of urothelial carcinoma with molecular evidence of clonality. Guidelines support use of platinum and etoposide chemotherapy in the neoadjuvant and frontline settings akin to small cell carcinoma of lung. Radical cystectomy is a standard consolidative management strategy for the majority of patients with small cell carcinoma of the bladder with localized disease with/without regional lymphadenopathy. The appropriate identification of a small cell carcinoma component is critical to guide appropriate management. The differential diagnoses include rhabdomyosarcoma, lymphoma, and PNET. While rhabdomyosarcoma could be positive for synaptophysin, in contrast to small cell carcinoma they are negative for cytokeratin and show expression of desmin and/or myogenin. Small cell carcinomas are negative for lymphoid markers but can be focally positive for CD99 and NKX2.2, which are markers of PNET, but similarly to rhabdomyosarcoma, PNETs do not have significant expression of cytokeratin and are diffusely positive for CD99 or NKX2.2.",
+      "references": [
+        {
+          "text": "Hum Pathol. 2018 Sep; 79: 57\"65.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: A. Small cell carcinoma arising in urothelial carcinoma\n\nHistology: Tumor shows extensive areas composed of small cells with scant cytoplasm, hyperchromatic nuclei with nuclear molding, inconspicuous nucleoli, frequent mitoses and numerous apoptotic bodies. There are areas of overlying carcinoma in-situ and foci of spindling of tumor cells.\n\nDiscussion: Small cell carcinoma arising in any site is a highly proliferative, high-grade neuroendocrine tumor. Small cell carcinoma of the bladder originates from urothelial cells through specific activation of the neuronal pathways. In support of this divergent differentiation pathway, small cell carcinoma of the bladder is frequently associated with conventional urothelial carcinoma and other histologic variants of urothelial carcinoma with molecular evidence of clonality. Guidelines support use of platinum and etoposide chemotherapy in the neoadjuvant and frontline settings akin to small cell carcinoma of lung. Radical cystectomy is a standard consolidative management strategy for the majority of patients with small cell carcinoma of the bladder with localized disease with/without regional lymphadenopathy. The appropriate identification of a small cell carcinoma component is critical to guide appropriate management. The differential diagnoses include rhabdomyosarcoma, lymphoma, and PNET. While rhabdomyosarcoma could be positive for synaptophysin, in contrast to small cell carcinoma they are negative for cytokeratin and show expression of desmin and/or myogenin. Small cell carcinomas are negative for lymphoid markers but can be focally positive for CD99 and NKX2.2, which are markers of PNET, but similarly to rhabdomyosarcoma, PNETs do not have significant expression of cytokeratin and are diffusely positive for CD99 or NKX2.2.\n\nReferences:\n\nHum Pathol. 2018 Sep; 79: 57\"65.",
+      "feedback_html": "<strong>Answer:</strong> A. Small cell carcinoma arising in urothelial carcinoma<p></p>\n<p><strong>Histology:</strong> Tumor shows extensive areas composed of small cells with scant cytoplasm, hyperchromatic nuclei with nuclear molding, inconspicuous nucleoli, frequent mitoses and numerous apoptotic bodies. There are areas of overlying carcinoma in-situ and foci of spindling of tumor cells.</p>\n<p><strong>Discussion:</strong> Small cell carcinoma arising in any site is a highly proliferative, high-grade neuroendocrine tumor. Small cell carcinoma of the bladder originates from urothelial cells through specific activation of the neuronal pathways. In support of this divergent differentiation pathway, small cell carcinoma of the bladder is frequently associated with conventional urothelial carcinoma and other histologic variants of urothelial carcinoma with molecular evidence of clonality. Guidelines support use of platinum and etoposide chemotherapy in the neoadjuvant and frontline settings akin to small cell carcinoma of lung. Radical cystectomy is a standard consolidative management strategy for the majority of patients with small cell carcinoma of the bladder with localized disease with/without regional lymphadenopathy. The appropriate identification of a small cell carcinoma component is critical to guide appropriate management. The differential diagnoses include rhabdomyosarcoma, lymphoma, and PNET. While rhabdomyosarcoma could be positive for synaptophysin, in contrast to small cell carcinoma they are negative for cytokeratin and show expression of desmin and/or myogenin. Small cell carcinomas are negative for lymphoid markers but can be focally positive for CD99 and NKX2.2, which are markers of PNET, but similarly to rhabdomyosarcoma, PNETs do not have significant expression of cytokeratin and are diffusely positive for CD99 or NKX2.2.</p>\n<p><strong>References:</strong><br>\nHum Pathol. 2018 Sep; 79: 57\"65.</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:23:20.479Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w760c1",
+      "url": "https://sp.pathology.jhu.edu/week-760-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 760: Case 1",
+      "case_label": "Week 760: Case 1",
+      "attribution": "Presented by Dr. Andres Matoso and prepared by Dr. Sintawat Wangsiricharoen",
+      "vignette": "Adult female with renal mass",
+      "question_text": "Presented by Dr. Andres Matoso and prepared by Dr. Sintawat Wangsiricharoen\nAdult female with renal mass",
+      "source_answer": "C. Renal carcinoid",
+      "correct_answer": "Renal carcinoid",
+      "canonical_answer": "Renal carcinoid",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "A. Urothelial carcinoma",
+        "B. Renal cell carcinoma",
+        "C. Renal carcinoid",
+        "D. Metastatic neuroendocrine tumor"
+      ],
+      "choices": [
+        "Urothelial carcinoma",
+        "Renal cell carcinoma",
+        "Renal carcinoid",
+        "Metastatic neuroendocrine tumor"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/02/8223.ndpi-3098-6398805760451x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/02/8223.ndpi-549662197293571403872x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/02/8223.ndpi-671612759282758347754x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/02/8223.ndpi-7571926783812302932210x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/02/8223.ndpi-7714827442798012866420x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/02/8223.ndpi-7782427753791262835340x.png"
+      ],
+      "histology": "Well demarcated neoplasm composed of tightly packed cords and trabeculae of tumor cells with a ribbonlike appearance. The nuclei of tumor cells are elongated with their long axis perpendicular to the long axis of the cord.",
+      "discussion": "Primary renal carcinoid tumors are extremely rare and for an unknown reason, they have an association with horseshow kidney. They occur evenly divided between males and females, and most patients are diagnosed while asymptomatic and discovered to have metastasis at the time of diagnosis. The morphologic features of renal carcinoids are the same as carcinoid in other places and the most common architectural pattern is the one seen in this case with tightly packed cords of tumor cells. Mitoses range from 0/10HPFs to 3-4/10HPFs. By immunohistochemistry, renal carcinoids are positive for neuroendocrine markers synaptophysin and chromogranin and focally positive for CK7 or CK20 and negative for TTF-1 and WT1. The main differential diagnoses include other tumors with neuroendocrine differentiation such as small cell carcinoma, PNET, paraganglioma and neuroblastoma. Small cell carcinoma has high grade features that are not seen in carcinoid tumors including high mitotic activity, nuclear molding, and necrosis. Glandular structures seen in carcinoid tumors could simulate pseudorosettes seen in PNET but CD99 immunolabeling in PNET should help in that differential diagnosis. Neuroblastomas in the kidney are rare, especially in adults while primary carcinoids of the kidney have not been described yet in pediatric patients. Paragangliomas are negative for cytokeratin and contain a nested arrangement of tumor cells that are positive for GATA3.",
+      "references": [],
+      "feedback_text": "Answer: C. Renal carcinoid\n\nHistology: Well demarcated neoplasm composed of tightly packed cords and trabeculae of tumor cells with a ribbonlike appearance. The nuclei of tumor cells are elongated with their long axis perpendicular to the long axis of the cord.\n\nDiscussion: Primary renal carcinoid tumors are extremely rare and for an unknown reason, they have an association with horseshow kidney. They occur evenly divided between males and females, and most patients are diagnosed while asymptomatic and discovered to have metastasis at the time of diagnosis. The morphologic features of renal carcinoids are the same as carcinoid in other places and the most common architectural pattern is the one seen in this case with tightly packed cords of tumor cells. Mitoses range from 0/10HPFs to 3-4/10HPFs. By immunohistochemistry, renal carcinoids are positive for neuroendocrine markers synaptophysin and chromogranin and focally positive for CK7 or CK20 and negative for TTF-1 and WT1. The main differential diagnoses include other tumors with neuroendocrine differentiation such as small cell carcinoma, PNET, paraganglioma and neuroblastoma. Small cell carcinoma has high grade features that are not seen in carcinoid tumors including high mitotic activity, nuclear molding, and necrosis. Glandular structures seen in carcinoid tumors could simulate pseudorosettes seen in PNET but CD99 immunolabeling in PNET should help in that differential diagnosis. Neuroblastomas in the kidney are rare, especially in adults while primary carcinoids of the kidney have not been described yet in pediatric patients. Paragangliomas are negative for cytokeratin and contain a nested arrangement of tumor cells that are positive for GATA3.\n\nReferences\n\nAm J Surg Pathol. 2007 Oct;31(10):1539-44\n\nJ Surg Oncol. 1998;68:113\"119.\n\nUrology. 1976;8:146\"148.",
+      "feedback_html": "<strong>Answer:</strong> C. Renal carcinoid<p></p>\n<p><strong><u>Histology:</u></strong> Well demarcated neoplasm composed of tightly packed cords and trabeculae of tumor cells with a ribbonlike appearance. The nuclei of tumor cells are elongated with their long axis perpendicular to the long axis of the cord.</p>\n<p><strong><u>Discussion:</u></strong> Primary renal carcinoid tumors are extremely rare and for an unknown reason, they have an association with horseshow kidney. They occur evenly divided between males and females, and most patients are diagnosed while asymptomatic and discovered to have metastasis at the time of diagnosis. The morphologic features of renal carcinoids are the same as carcinoid in other places and the most common architectural pattern is the one seen in this case with tightly packed cords of tumor cells. Mitoses range from 0/10HPFs to 3-4/10HPFs. By immunohistochemistry, renal carcinoids are positive for neuroendocrine markers synaptophysin and chromogranin and focally positive for CK7 or CK20 and negative for TTF-1 and WT1. The main differential diagnoses include other tumors with neuroendocrine differentiation such as small cell carcinoma, PNET, paraganglioma and neuroblastoma. Small cell carcinoma has high grade features that are not seen in carcinoid tumors including high mitotic activity, nuclear molding, and necrosis. Glandular structures seen in carcinoid tumors could simulate pseudorosettes seen in PNET but CD99 immunolabeling in PNET should help in that differential diagnosis. Neuroblastomas in the kidney are rare, especially in adults while primary carcinoids of the kidney have not been described yet in pediatric patients. Paragangliomas are negative for cytokeratin and contain a nested arrangement of tumor cells that are positive for GATA3.</p>\n<p><strong><u>References</u></strong></p>\n<p>Am J Surg Pathol. 2007 Oct;31(10):1539-44</p>\n<p>J Surg Oncol. 1998;68:113\"119.</p>\n<p>Urology. 1976;8:146\"148.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:23:30.467Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w759c3",
+      "url": "https://sp.pathology.jhu.edu/week-759-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 759: Case 3",
+      "case_label": "Week 759: Case 3",
+      "attribution": "Presented by Dr. Pedram Argani and prepared by Dr. Sintawat Wangsiricharoen",
+      "vignette": "This is a solitary gastric mass in a patient with a distant history of melanoma.",
+      "question_text": "Presented by Dr. Pedram Argani and prepared by Dr. Sintawat Wangsiricharoen\nThis is a solitary gastric mass in a patient with a distant history of melanoma.",
+      "source_answer": "B. Gastrointestinal stromal tumor",
+      "correct_answer": "Gastrointestinal stromal tumor",
+      "canonical_answer": "Gastrointestinal stromal tumor",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Metastatic melanoma",
+        "B. Gastrointestinal stromal tumor",
+        "C. Epithelioid leiomyosarcoma",
+        "D. Paraganglioma"
+      ],
+      "choices": [
+        "Metastatic melanoma",
+        "Gastrointestinal stromal tumor",
+        "Epithelioid leiomyosarcoma",
+        "Paraganglioma"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8218.ndpi-4761793116145912911x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8218.ndpi-327663629158916529002x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8218.ndpi-322873910644739464124x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8218.ndpi-3412841478384124402910x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8218.ndpi-2560239859298524241010x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8218.ndpi-3509542142371304336620x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8218.ndpi-3502841981360204258140x.png"
+      ],
+      "histology": "\" The morphology of this neoplasm closely resembles that of metastatic melanoma.\" The neoplastic cells are spindled and epithelioid, have focal intranuclear inclusions, and amphophilic cytoplasm.\" The neoplasm\" demonstrated immunoreactivity (focal) for Melan A, which furthers the overlap with melanoma.\" However, other melanoma markers such as HMB45 and S100 were negative. \"The neoplasm labeled diffusely for CD117 (which could also be seen in melanoma) but also for DOG1.\" Importantly, the neoplasm demonstrated loss of SDH immunoreactivity, supporting the diagnosis of a succinate dehydrogenase deficient gastrointestinal stromal tumor.",
+      "discussion": "\" Melanoma should label for S100, SOX10, and/or HMB45, and would be SDH intact.\" Leiomyosarcoma would demonstrate immunoreactivity for muscle markers, \"and typically does not show the multinodular appearance seen in the current case.\" Paraganglioma would label for neuroendocrine markers such as synaptophysin and chromogranin.\" A subset of these would be SDH deficient, but paragangliomas should not typically label for CD117 or DOG1.\n\nSDH deficient gastrointestinal stromal tumors differ from gastrointestinal stromal tumors in that they often affect children, are commonly multinodular, and associated with lymph node metastases.\" They have thus far been almost exclusively been reported in the stomach and their behavior is not well predicted by the conventional GIST criteria of size and mitosis.",
+      "references": [],
+      "feedback_text": "Answer:\" B. Gastrointestinal stromal tumor\n\nHistologic Description:\" The morphology of this neoplasm closely resembles that of metastatic melanoma.\" The neoplastic cells are spindled and epithelioid, have focal intranuclear inclusions, and amphophilic cytoplasm.\" The neoplasm\" demonstrated immunoreactivity (focal) for Melan A, which furthers the overlap with melanoma.\" However, other melanoma markers such as HMB45 and S100 were negative. \"The neoplasm labeled diffusely for CD117 (which could also be seen in melanoma) but also for DOG1.\" Importantly, the neoplasm demonstrated loss of SDH immunoreactivity, supporting the diagnosis of a succinate dehydrogenase deficient gastrointestinal stromal tumor.\n\nDifferential Diagnosis:\" Melanoma should label for S100, SOX10, and/or HMB45, and would be SDH intact.\" Leiomyosarcoma would demonstrate immunoreactivity for muscle markers, \"and typically does not show the multinodular appearance seen in the current case.\" Paraganglioma would label for neuroendocrine markers such as synaptophysin and chromogranin.\" A subset of these would be SDH deficient, but paragangliomas should not typically label for CD117 or DOG1.\n\nSDH deficient gastrointestinal stromal tumors differ from gastrointestinal stromal tumors in that they often affect children, are commonly multinodular, and associated with lymph node metastases.\" They have thus far been almost exclusively been reported in the stomach and their behavior is not well predicted by the conventional GIST criteria of size and mitosis.",
+      "feedback_html": "<strong>Answer:\"</strong> B. Gastrointestinal stromal tumor<p></p>\n<p><strong>Histologic Description:\"</strong> The morphology of this neoplasm closely resembles that of metastatic melanoma.\" The neoplastic cells are spindled and epithelioid, have focal intranuclear inclusions, and amphophilic cytoplasm.\" The neoplasm\" demonstrated immunoreactivity (focal) for Melan A, which furthers the overlap with melanoma.\" However, other melanoma markers such as HMB45 and S100 were negative. \"The neoplasm labeled diffusely for CD117 (which could also be seen in melanoma) but also for DOG1.\" Importantly, the neoplasm demonstrated loss of SDH immunoreactivity, supporting the diagnosis of a succinate dehydrogenase deficient gastrointestinal stromal tumor.</p>\n<p><strong>Differential Diagnosis:\"</strong> Melanoma should label for S100, SOX10, and/or HMB45, and would be SDH intact.\" Leiomyosarcoma would demonstrate immunoreactivity for muscle markers, \"and typically does not show the multinodular appearance seen in the current case.\" Paraganglioma would label for neuroendocrine markers such as synaptophysin and chromogranin.\" A subset of these would be SDH deficient, but paragangliomas should not typically label for CD117 or DOG1.</p>\n<p>SDH deficient gastrointestinal stromal tumors differ from gastrointestinal stromal tumors in that they often affect children, are commonly multinodular, and associated with lymph node metastases.\" They have thus far been almost exclusively been reported in the stomach and their behavior is not well predicted by the conventional GIST criteria of size and mitosis.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:23:39.885Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w759c2",
+      "url": "https://sp.pathology.jhu.edu/week-759-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 759: Case 2",
+      "case_label": "Week 759: Case 2",
+      "attribution": "Presented by Dr. Pedram Argani and prepared by Dr. Sintawat Wangsiricharoen",
+      "vignette": "This is a 60 year old female with a renal neoplasm.",
+      "question_text": "Presented by Dr. Pedram Argani and prepared by Dr. Sintawat Wangsiricharoen\nThis is a 60 year old female with a renal neoplasm.",
+      "source_answer": "C. Clear cell carcinoma and low grade oncocytic tumor (LOT) (collision)",
+      "correct_answer": "Clear cell carcinoma and low grade oncocytic tumor (LOT) (collision)",
+      "canonical_answer": "Clear cell carcinoma and low grade oncocytic tumor (LOT) (collision)",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "A. Clear cell renal cell carcinoma with high grade areas.",
+        "B. Xp11 translocation renal cell carcinoma",
+        "C. Clear cell carcinoma and low grade oncocytic tumor (LOT) (collision)",
+        "D. Clear cell and granular cell renal cell carcinoma"
+      ],
+      "choices": [
+        "Clear cell renal cell carcinoma with high grade areas",
+        "Xp11 translocation renal cell carcinoma",
+        "Clear cell carcinoma and low grade oncocytic tumor (LOT) (collision)",
+        "Clear cell and granular cell renal cell carcinoma"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8216.ndpi-962-1888101137949771x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8216.ndpi-22273199981566858131x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8216.ndpi-534585916965276664754x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8216.ndpi-6366761514678026406510x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8216.ndpi-7928261053815566247017x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8216.ndpi-57696447217709717784x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8216.ndpi-821565367122056791810x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8216.ndpi-64817386683477509020x.png"
+      ],
+      "histology": "\" The lesion has two distinctive components.\" One is a hypervascular clear cell neoplasm which has the typical morphology of clear cell RCC, and demonstrates diffuse immunoreactivity for CA-IX.\" The second component labels not for CA-IX, but instead for cytokeratin 7 and not CD117.\" The neoplastic cells are epithelioid, and have slightly irregular nuclei with minimal with perinuclear halos, less well developed than those of chromophobe RCC.\" These are the typical features of low grade oncocytic tumor, a provisional entity which has been associated with TSC gene mutations.",
+      "discussion": "\" High grade clear cell RCC typically would not demonstrate diffuse immunoreactivity for cytokeratin 7, and would have hypervascular stroma with greater nuclear atypia.\" Xp11 translocation RCC may have variable morphology, but does not demonstrate diffuse labeling for carbonic anhydrase IX and typically does not demonstrate the hypervascular stroma of the current clear cell lesion.\" Granular cell RCC is a historic term for high grade clear cell RCC which is no longer in use.",
+      "references": [],
+      "feedback_text": "Answer: C. Clear cell carcinoma and low grade oncocytic tumor (LOT) (collision)\n\nHistologic Description:\" The lesion has two distinctive components.\" One is a hypervascular clear cell neoplasm which has the typical morphology of clear cell RCC, and demonstrates diffuse immunoreactivity for CA-IX.\" The second component labels not for CA-IX, but instead for cytokeratin 7 and not CD117.\" The neoplastic cells are epithelioid, and have slightly irregular nuclei with minimal with perinuclear halos, less well developed than those of chromophobe RCC.\" These are the typical features of low grade oncocytic tumor, a provisional entity which has been associated with TSC gene mutations.\n\nDifferential Diagnosis:\" High grade clear cell RCC typically would not demonstrate diffuse immunoreactivity for cytokeratin 7, and would have hypervascular stroma with greater nuclear atypia.\" Xp11 translocation RCC may have variable morphology, but does not demonstrate diffuse labeling for carbonic anhydrase IX and typically does not demonstrate the hypervascular stroma of the current clear cell lesion.\" Granular cell RCC is a historic term for high grade clear cell RCC which is no longer in use.",
+      "feedback_html": "<strong>Answer:</strong> C. Clear cell carcinoma and low grade oncocytic tumor (LOT) (collision)<p></p>\n<p><strong>Histologic Description:\"</strong> The lesion has two distinctive components.\" One is a hypervascular clear cell neoplasm which has the typical morphology of clear cell RCC, and demonstrates diffuse immunoreactivity for CA-IX.\" The second component labels not for CA-IX, but instead for cytokeratin 7 and not CD117.\" The neoplastic cells are epithelioid, and have slightly irregular nuclei with minimal with perinuclear halos, less well developed than those of chromophobe RCC.\" These are the typical features of low grade oncocytic tumor, a provisional entity which has been associated with TSC gene mutations.</p>\n<p><strong>Differential Diagnosis:\"</strong> High grade clear cell RCC typically would not demonstrate diffuse immunoreactivity for cytokeratin 7, and would have hypervascular stroma with greater nuclear atypia.\" Xp11 translocation RCC may have variable morphology, but does not demonstrate diffuse labeling for carbonic anhydrase IX and typically does not demonstrate the hypervascular stroma of the current clear cell lesion.\" Granular cell RCC is a historic term for high grade clear cell RCC which is no longer in use.</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:23:49.181Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w759c1",
+      "url": "https://sp.pathology.jhu.edu/week-759-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 759: Case 1",
+      "case_label": "Week 759: Case 1",
+      "attribution": "Presented by Dr. Pedram Argani and prepared by Dr. Sintawat Wangsiricharoen",
+      "vignette": "This is a 50 year old male with a history of colon cancer.\" A liver nodule was palpated and excised.",
+      "question_text": "Presented by Dr. Pedram Argani and prepared by Dr. Sintawat Wangsiricharoen\nThis is a 50 year old male with a history of colon cancer.\" A liver nodule was palpated and excised.",
+      "source_answer": "D. Focal nodular hyperplasia",
+      "correct_answer": "Focal nodular hyperplasia",
+      "canonical_answer": "Focal nodular hyperplasia",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "A. Cirrhosis",
+        "B. Nodular transformation (nodular regenerative hyperplasia)",
+        "C. Congenital hepatic fibrosis",
+        "D. Focal nodular hyperplasia"
+      ],
+      "choices": [
+        "Cirrhosis",
+        "Nodular transformation (nodular regenerative hyperplasia)",
+        "Congenital hepatic fibrosis",
+        "Focal nodular hyperplasia"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8215.ndpi-47144075102832727441x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8215.ndpi-318453128257556482462x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8215.ndpi-389383457449899418114x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8215.ndpi-4016936788441743933210x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8215.ndpi-4135137450434133867120x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8215.ndpi-286053511941267423024x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8215.ndpi-3179537507363674004510x.png"
+      ],
+      "histology": "The morphology in this focus is essentially identical to that of cirrhosis.\" There is bridging fibrosis and regenerative nodules of hepatocytes.\" However, the lesion is a focal finding in an otherwise uninvolved liver.\" These are the typical features of focal nodular hyperplasia, which historically was once known as \"focal cirrhosis\".",
+      "discussion": "Cirrhosis would have similar histologic features as focal nodular hyperplasia, except it would diffusely involve the liver.\" Nodular transformation diffusely involves the liver and features regenerative nodules, but lacks bridging fibrosis.\" Congenital hepatic fibrosis is another diffuse process with bridging fibrosis, but lacks regenerative nodules.",
+      "references": [],
+      "feedback_text": "Answer: D. Focal nodular hyperplasia\n\nHistologic Description: The morphology in this focus is essentially identical to that of cirrhosis.\" There is bridging fibrosis and regenerative nodules of hepatocytes.\" However, the lesion is a focal finding in an otherwise uninvolved liver.\" These are the typical features of focal nodular hyperplasia, which historically was once known as \"focal cirrhosis\".\n\nDifferential Diagnosis: Cirrhosis would have similar histologic features as focal nodular hyperplasia, except it would diffusely involve the liver.\" Nodular transformation diffusely involves the liver and features regenerative nodules, but lacks bridging fibrosis.\" Congenital hepatic fibrosis is another diffuse process with bridging fibrosis, but lacks regenerative nodules.",
+      "feedback_html": "<strong>Answer:</strong> D. Focal nodular hyperplasia<p></p>\n<p><strong>Histologic Description:</strong> The morphology in this focus is essentially identical to that of cirrhosis.\" There is bridging fibrosis and regenerative nodules of hepatocytes.\" However, the lesion is a focal finding in an otherwise uninvolved liver.\" These are the typical features of focal nodular hyperplasia, which historically was once known as \"focal cirrhosis\".</p>\n<p><strong>Differential Diagnosis:</strong> Cirrhosis would have similar histologic features as focal nodular hyperplasia, except it would diffusely involve the liver.\" Nodular transformation diffusely involves the liver and features regenerative nodules, but lacks bridging fibrosis.\" Congenital hepatic fibrosis is another diffuse process with bridging fibrosis, but lacks regenerative nodules.</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:23:58.825Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w758c3",
+      "url": "https://sp.pathology.jhu.edu/week-758-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 758: Case 3",
+      "case_label": "Week 758: Case 3",
+      "attribution": "Presented by Dr. Jonathan Epstein and prepared by Dr. Sintawat Wangsiricharoen",
+      "vignette": "A 55 year old male underwent a nephrectomy for a 2.4 cm renal mass. Choose the correct diagnosis:",
+      "question_text": "Presented by Dr. Jonathan Epstein and prepared by Dr. Sintawat Wangsiricharoen\nA 55 year old male underwent a nephrectomy for a 2.4 cm renal mass.\nChoose the correct diagnosis:",
+      "source_answer": "B. Tubulocystic carcinoma",
+      "correct_answer": "Tubulocystic carcinoma",
+      "canonical_answer": "Tubulocystic carcinoma",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Oncocytic with tubular formation",
+        "B. Tubulocystic carcinoma",
+        "C. Cystic nephroma",
+        "D. Eosinophilic solid and cystic renal cell carcinoma (ESC RCC)"
+      ],
+      "choices": [
+        "Oncocytic with tubular formation",
+        "Tubulocystic carcinoma",
+        "Cystic nephroma",
+        "Eosinophilic solid and cystic renal cell carcinoma (ESC RCC)"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8211.ndpi-36540-29611341861066401x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8211.ndpi-277763719560052565672x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8211.ndpi-382924322750481505434x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8211.ndpi-4242745982469134853410x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8211.ndpi-4270646852449174807620x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8211.ndpi-3843345572406434679520x.png"
+      ],
+      "histology": "The lesion is well-circumscribed and unencapsulated without necrosis or hemorrhage. Microscopically, the tumor is composed of small to medium-sized cysts. A focal papillary component was present. Cytologically, there are large, round to polygonal cells with abundant eosinophilic cytoplasm. Cysts are lined by cells with hobnail appearance with vesicular nuclei and prominent nucleoli. Nuclei vary in shape, and some have irregular shapes.",
+      "discussion": "A variant of oncocytoma that can be confused with tubulocystic carcinoma is composed of tubules some with cystic dilatation. However, in addition, oncocytoma will typically also have some nests, which are lacking in tubulocystic carcinoma. In oncocytoma, one never see significant papillary component. Although both entities have dense Oncocytic cytoplasm, the nuclei in oncocytomas\nare uniformly round with variably sized nucleoli. Cystic nephromas can have a similar architectural pattern although the cysts tend to be larger and lack the small cysts in tubulocystic carcinoma. Cystic nephromas are lined by cuboidal or hob nail epithelium and lack abundant oncocytic cytoplasm. ESC has more solid components and not just cysts lined by a single cell layer in tubulocystic carcinoma. Tubulocystic carcinomas are low grade with only uncommon metastases, despite having more prominent nucleoli, and should not be graded. In some tubulocystic RCCs there are poorly differentiated foci with solid area, areas resembling collecting duct carcinoma or prominent papillary carcinoma. In cases with poorly differentiated foci, the risk of metastases is significantly higher and a subset of these cases show low of fumarate hydratase (FH), typically sporadic unassociated with hereditary leiomyomatosis associated RCC (HLRCC).",
+      "references": [],
+      "feedback_text": "Answer: B. Tubulocystic carcinoma\n\nHistology: The lesion is well-circumscribed and unencapsulated without necrosis or hemorrhage. Microscopically, the tumor is composed of small to medium-sized cysts. A focal papillary component was present. Cytologically, there are large, round to polygonal cells with abundant eosinophilic cytoplasm. Cysts are lined by cells with hobnail appearance with vesicular nuclei and prominent nucleoli. Nuclei vary in shape, and some have irregular shapes.\n\nDiscussion: A variant of oncocytoma that can be confused with tubulocystic carcinoma is composed of tubules some with cystic dilatation. However, in addition, oncocytoma will typically also have some nests, which are lacking in tubulocystic carcinoma. In oncocytoma, one never see significant papillary component. Although both entities have dense Oncocytic cytoplasm, the nuclei in oncocytomas\n\nare uniformly round with variably sized nucleoli. Cystic nephromas can have a similar architectural pattern although the cysts tend to be larger and lack the small cysts in tubulocystic carcinoma. Cystic nephromas are lined by cuboidal or hob nail epithelium and lack abundant oncocytic cytoplasm. ESC has more solid components and not just cysts lined by a single cell layer in tubulocystic carcinoma. Tubulocystic carcinomas are low grade with only uncommon metastases, despite having more prominent nucleoli, and should not be graded. In some tubulocystic RCCs there are poorly differentiated foci with solid area, areas resembling collecting duct carcinoma or prominent papillary carcinoma. In cases with poorly differentiated foci, the risk of metastases is significantly higher and a subset of these cases show low of fumarate hydratase (FH), typically sporadic unassociated with hereditary leiomyomatosis associated RCC (HLRCC).",
+      "feedback_html": "Answer: B. Tubulocystic carcinoma<p></p>\n<p><strong>Histology:</strong> The lesion is well-circumscribed and unencapsulated without necrosis or hemorrhage. Microscopically, the tumor is composed of small to medium-sized cysts. A focal papillary component was present. Cytologically, there are large, round to polygonal cells with abundant eosinophilic cytoplasm. Cysts are lined by cells with hobnail appearance with vesicular nuclei and prominent nucleoli. Nuclei vary in shape, and some have irregular shapes.</p>\n<p><strong>Discussion: </strong>A variant of oncocytoma that can be confused with tubulocystic carcinoma is composed of tubules some with cystic dilatation. However, in addition, oncocytoma will typically also have some nests, which are lacking in tubulocystic carcinoma. In oncocytoma, one never see significant papillary component. Although both entities have dense Oncocytic cytoplasm, the nuclei in oncocytomas<br>\nare uniformly round with variably sized nucleoli. Cystic nephromas can have a similar architectural pattern although the cysts tend to be larger and lack the small cysts in tubulocystic carcinoma. Cystic nephromas are lined by cuboidal or hob nail epithelium and lack abundant oncocytic cytoplasm. ESC has more solid components and not just cysts lined by a single cell layer in tubulocystic carcinoma. Tubulocystic carcinomas are low grade with only uncommon metastases, despite having more prominent nucleoli, and should not be graded. In some tubulocystic RCCs there are poorly differentiated foci with solid area, areas resembling collecting duct carcinoma or prominent papillary carcinoma. In cases with poorly differentiated foci, the risk of metastases is significantly higher and a subset of these cases show low of fumarate hydratase (FH), typically sporadic unassociated with hereditary leiomyomatosis associated RCC (HLRCC).</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:24:09.786Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w758c2",
+      "url": "https://sp.pathology.jhu.edu/week-758-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 758: Case 2",
+      "case_label": "Week 758: Case 2",
+      "attribution": "Presented by Dr. Jonathan Epstein and prepared by Dr. Sintawat Wangsiricharoen",
+      "vignette": "A 46 year old man underwent a nephrectomy for a 3.5 cm solid and cystic mass. Choose the correct diagnosis:",
+      "question_text": "Presented by Dr. Jonathan Epstein and prepared by Dr. Sintawat Wangsiricharoen\nA 46 year old man underwent a nephrectomy for a 3.5 cm solid and cystic mass.\nChoose the correct diagnosis:",
+      "source_answer": "B. Eosinophilic solid and cystic renal cell carcinoma (ESC RCC)",
+      "correct_answer": "Eosinophilic solid and cystic renal cell carcinoma (ESC RCC)",
+      "canonical_answer": "Eosinophilic solid and cystic renal cell carcinoma (ESC RCC)",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Oncocytoma with prominent tubule formation",
+        "B. Eosinophilic solid and cystic renal cell carcinoma (ESC RCC)",
+        "C. Cystic nephroma",
+        "D. Tubulocystic renal cell carcinoma"
+      ],
+      "choices": [
+        "Oncocytoma with prominent tubule formation",
+        "Eosinophilic solid and cystic renal cell carcinoma (ESC RCC)",
+        "Cystic nephroma",
+        "Tubulocystic renal cell carcinoma"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8213.ndpi-113666405129124963511x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8213.ndpi-7727439182106229582192x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8213.ndpi-868124540098345520154x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8213.ndpi-9069147554947134986110x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8213.ndpi-9177248154937004926020x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8213.ndpi-9726925858982182645840x.png"
+      ],
+      "histology": "The tumor is well circumscribed and non-encapsulated tumor with solid and cystic growth. The solid tumor areas show diffuse and compact nested growth. The cells have eosinophilic, voluminous cytoplasm, with numerous coarse amphophilic cytoplasmic granules (\"stippling\"). The nuclei are round to oval, without prominent nucleoli. Cyst lining has a hobnail arrangement. Small clusters of admixed foamy histiocytes and lymphocytes are noted.",
+      "discussion": "ESC RCC is a recently described entity and the case shown here is classic for this entity. The great majority of ESC RCC are sporadic, but rare tumors with identical morphology have also been reported in patients with tuberous sclerosis. ESC RCC are typically solitary and low-stage tumors, but occasional multifocal and bilateral cases have been documented. Most are in females, with a broad age range, including pediatric patients. The vast majority of ESC RCC are indolent tumors, but rare cases have been reported with metastases. IHC reactivity for CK20 (either diffuse or focal) is present in about 85% of cases, with negative or very focally positive CK7. Molecular evaluation of sporadic ESC RCC by next generation sequencing (NGS) has demonstrated consistent and mutually exclusive, somatic bi-allelic mutations in the TSC genes, TSC1 and TSC2.",
+      "references": [],
+      "feedback_text": "Answer: B. Eosinophilic solid and cystic RCC (ESC RCC)\n\nMicroscopic description: The tumor is well circumscribed and non-encapsulated tumor with solid and cystic growth. The solid tumor areas show diffuse and compact nested growth. The cells have eosinophilic, voluminous cytoplasm, with numerous coarse amphophilic cytoplasmic granules (\"stippling\"). The nuclei are round to oval, without prominent nucleoli. Cyst lining has a hobnail arrangement. Small clusters of admixed foamy histiocytes and lymphocytes are noted.\n\nDiscussion: ESC RCC is a recently described entity and the case shown here is classic for this entity. The great majority of ESC RCC are sporadic, but rare tumors with identical morphology have also been reported in patients with tuberous sclerosis. ESC RCC are typically solitary and low-stage tumors, but occasional multifocal and bilateral cases have been documented. Most are in females, with a broad age range, including pediatric patients. The vast majority of ESC RCC are indolent tumors, but rare cases have been reported with metastases. IHC reactivity for CK20 (either diffuse or focal) is present in about 85% of cases, with negative or very focally positive CK7. Molecular evaluation of sporadic ESC RCC by next generation sequencing (NGS) has demonstrated consistent and mutually exclusive, somatic bi-allelic mutations in the TSC genes, TSC1 and TSC2.",
+      "feedback_html": "Answer: B. Eosinophilic solid and cystic RCC (ESC RCC)<p></p>\n<p><strong>Microscopic description:</strong> The tumor is well circumscribed and non-encapsulated tumor with solid and cystic growth. The solid tumor areas show diffuse and compact nested growth. The cells have eosinophilic, voluminous cytoplasm, with numerous coarse amphophilic cytoplasmic granules (\"stippling\"). The nuclei are round to oval, without prominent nucleoli. Cyst lining has a hobnail arrangement. Small clusters of admixed foamy histiocytes and lymphocytes are noted.</p>\n<p><strong>Discussion:</strong> ESC RCC is a recently described entity and the case shown here is classic for this entity. The great majority of ESC RCC are sporadic, but rare tumors with identical morphology have also been reported in patients with tuberous sclerosis. ESC RCC are typically solitary and low-stage tumors, but occasional multifocal and bilateral cases have been documented. Most are in females, with a broad age range, including pediatric patients. The vast majority of ESC RCC are indolent tumors, but rare cases have been reported with metastases. IHC reactivity for CK20 (either diffuse or focal) is present in about 85% of cases, with negative or very focally positive CK7. Molecular evaluation of sporadic ESC RCC by next generation sequencing (NGS) has demonstrated consistent and mutually exclusive, somatic bi-allelic mutations in the TSC genes, TSC1 and TSC2.</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:24:19.410Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w758c1",
+      "url": "https://sp.pathology.jhu.edu/week-758-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 758: Case 1",
+      "case_label": "Week 758: Case 1",
+      "attribution": "Presented by Dr. Jonathan Epstein and prepared by Dr. Sintawat Wangsiricharoen",
+      "vignette": "A 55 year old man presents with a 2.5 cm solid mass in the kidney. The tumor was diffusely positive for CK7 and negative for CD117 (Ckit). Choose the correct diagnosis:",
+      "question_text": "Presented by Dr. Jonathan Epstein and prepared by Dr. Sintawat Wangsiricharoen\nA 55 year old man presents with a 2.5 cm solid mass in the kidney. The tumor was diffusely positive for CK7 and negative for CD117 (Ckit).\nChoose the correct diagnosis:",
+      "source_answer": "B. Low grade oncocytic tumor (LOT)",
+      "correct_answer": "Low grade oncocytic tumor (LOT)",
+      "canonical_answer": "Low grade oncocytic tumor (LOT)",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Eosinophilic variant of chromophobe renal cell carcinoma",
+        "B. Low grade oncocytic tumor (LOT)",
+        "C. Oncocytoma",
+        "D. Eosinophilic solid and cystic renal cell carcinoma (ESC RCC)"
+      ],
+      "choices": [
+        "Eosinophilic variant of chromophobe renal cell carcinoma",
+        "Low grade oncocytic tumor (LOT)",
+        "Oncocytoma",
+        "Eosinophilic solid and cystic renal cell carcinoma (ESC RCC)"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8209.ndpi-19913616100459885441x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8209.ndpi-556815003579578695042x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8209.ndpi-681175739777870646804x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8209.ndpi-7087559831742636237910x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8209.ndpi-7382354017772315656610x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8209.ndpi-6729252409688935363220x.png"
+      ],
+      "histology": "The tumor is circumscribed but unencapsulated neoplasm. Architecturally, it is composed of solid and compact nested growth. In the middle of the tumor is a sharply delineated loose stromal, edematous areas with loose reticular, cord-like and individual cells resembling tissue culture myofibroblasts. The cells have dense oncocytic cytoplasm with in general round nuclei with only focal nuclear irregularities. Focally, there were perinuclear halos or clearings. The lesions lacks significant cell atypia, pleomorphism, mitotic activity or\n\ncoagulative necrosis.",
+      "discussion": "Low-grade oncocytic tumor (LOT) is a recently proposed distinct renal entity, within the spectrum of oncocytic renal tumors. To date, there has been no malignant behavior, hence labeled as \"tumor\" as opposed to \"carcinoma\". Additional follow up with larger series is needed before exact classification as either benign or low grade carcinoma is needed. In contrast to oncocytoma, the growth pattern is more diffuse compared to nests within a fibromyxoid background seen in oncocytoma. Whereas oncocytomas have round nuclei, LOTs also have a greater degree of nuclear irregularity, although typically focal. Diffuse CK7 staining also rules out oncocytoma, which are negative or shows only patchy staining. In contrast to chromophobe RCC, nuclei are not as crinkly (raisinoid) and LOTs lack the prominent cell borders typical of chromophobe RCC. Chromophobe RCC typically is CK7 and CD117 positive. A characteristic feature of LOT is the myxoid areas with cord-like growth and spindled cells.",
+      "references": [],
+      "feedback_text": "Answer: B. Low grade oncocytic tumor (LOT)\n\nMicroscopic Description: The tumor is circumscribed but unencapsulated neoplasm. Architecturally, it is composed of solid and compact nested growth. In the middle of the tumor is a sharply delineated loose stromal, edematous areas with loose reticular, cord-like and individual cells resembling tissue culture myofibroblasts. The cells have dense oncocytic cytoplasm with in general round nuclei with only focal nuclear irregularities. Focally, there were perinuclear halos or clearings. The lesions lacks significant cell atypia, pleomorphism, mitotic activity or\n\ncoagulative necrosis.\n\nDiscussion: Low-grade oncocytic tumor (LOT) is a recently proposed distinct renal entity, within the spectrum of oncocytic renal tumors. To date, there has been no malignant behavior, hence labeled as \"tumor\" as opposed to \"carcinoma\". Additional follow up with larger series is needed before exact classification as either benign or low grade carcinoma is needed. In contrast to oncocytoma, the growth pattern is more diffuse compared to nests within a fibromyxoid background seen in oncocytoma. Whereas oncocytomas have round nuclei, LOTs also have a greater degree of nuclear irregularity, although typically focal. Diffuse CK7 staining also rules out oncocytoma, which are negative or shows only patchy staining. In contrast to chromophobe RCC, nuclei are not as crinkly (raisinoid) and LOTs lack the prominent cell borders typical of chromophobe RCC. Chromophobe RCC typically is CK7 and CD117 positive. A characteristic feature of LOT is the myxoid areas with cord-like growth and spindled cells.",
+      "feedback_html": "Answer: B. Low grade oncocytic tumor (LOT)<p></p>\n<p><strong>Microscopic Description:</strong> The tumor is circumscribed but unencapsulated neoplasm. Architecturally, it is composed of solid and compact nested growth. In the middle of the tumor is a sharply delineated loose stromal, edematous areas with loose reticular, cord-like and individual cells resembling tissue culture myofibroblasts. The cells have dense oncocytic cytoplasm with in general round nuclei with only focal nuclear irregularities. Focally, there were perinuclear halos or clearings. The lesions lacks significant cell atypia, pleomorphism, mitotic activity or<br>\ncoagulative necrosis.</p>\n<p><strong>Discussion:</strong> Low-grade oncocytic tumor (LOT) is a recently proposed distinct renal entity, within the spectrum of oncocytic renal tumors. To date, there has been no malignant behavior, hence labeled as \"tumor\" as opposed to \"carcinoma\". Additional follow up with larger series is needed before exact classification as either benign or low grade carcinoma is needed. In contrast to oncocytoma, the growth pattern is more diffuse compared to nests within a fibromyxoid background seen in oncocytoma. Whereas oncocytomas have round nuclei, LOTs also have a greater degree of nuclear irregularity, although typically focal. Diffuse CK7 staining also rules out oncocytoma, which are negative or shows only patchy staining. In contrast to chromophobe RCC, nuclei are not as crinkly (raisinoid) and LOTs lack the prominent cell borders typical of chromophobe RCC. Chromophobe RCC typically is CK7 and CD117 positive. A characteristic feature of LOT is the myxoid areas with cord-like growth and spindled cells.</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:24:29.759Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w757c3",
+      "url": "https://sp.pathology.jhu.edu/week-757-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 757: Case 3",
+      "case_label": "Week 757: Case 3",
+      "attribution": "Presented by Dr. Ezra Baraban and prepared by Dr. Sintawat Wangsiricharoen.",
+      "vignette": "A 20-year-old man with a testicular mass. Choose the correct diagnosis:",
+      "question_text": "Presented by Dr. Ezra Baraban and prepared by Dr. Sintawat Wangsiricharoen.\nA 20-year-old man with a testicular mass. Choose the correct diagnosis:",
+      "source_answer": "B. Sclerosing Sertoli cell tumor",
+      "correct_answer": "Sclerosing Sertoli cell tumor",
+      "canonical_answer": "Sclerosing Sertoli cell tumor",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Adenomatoid tumor",
+        "B. Sclerosing Sertoli cell tumor",
+        "C. Metastatic prostatic adenocarcinoma",
+        "D. Carcinoid tumor"
+      ],
+      "choices": [
+        "Adenomatoid tumor",
+        "Sclerosing Sertoli cell tumor",
+        "Metastatic prostatic adenocarcinoma",
+        "Carcinoid tumor"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8205.ndpi-4189216667114597111x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8205.ndpi-31212880455669311702x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8205.ndpi-372601607247892257944x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8205.ndpi-4642023801503632740810x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8205.ndpi-3533720850392812445810x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8205.ndpi-3499721329369222309020x.png"
+      ],
+      "histology": "",
+      "discussion": "",
+      "references": [],
+      "feedback_text": "Answer: B. Sclerosing Sertoli cell tumor.\n\nSections show a low grade neoplasm composed of cords and strands of bland cells within a dense collagenous stroma, between seminiferous tubules. The morphology does not fit with any established germ cell tumor subtype. The oval nuclei and delicate central nucleoli are typical of Sertoli cell tumor. The corded architecture raises adenomatoid tumor, but the entirely intratesticular location essentially excludes that diagnosis. The lack of speckled chromatin and dense collagenous stroma would be somewhat unusual for a carcinoid/neuroendocrine tumor, either primary or metastatic. Reactivity for SF1 would confirm sex-cord differentiation, and in combination with this morphology is diagnostic of a sclerosing sertoli cell tumor, a morphologic variant of sertoli cell tumor, which is divided into the NOS, sclerosing, large cell calcifying, and intratubular hyalinizing sertoli cell neoplasia categories.",
+      "feedback_html": "Answer: B. Sclerosing Sertoli cell tumor.<p></p>\n<p>Sections show a low grade neoplasm composed of cords and strands of bland cells within a dense collagenous stroma, between seminiferous tubules. The morphology does not fit with any established germ cell tumor subtype. The oval nuclei and delicate central nucleoli are typical of Sertoli cell tumor. The corded architecture raises adenomatoid tumor, but the entirely intratesticular location essentially excludes that diagnosis. The lack of speckled chromatin and dense collagenous stroma would be somewhat unusual for a carcinoid/neuroendocrine tumor, either primary or metastatic. Reactivity for SF1 would confirm sex-cord differentiation, and in combination with this morphology is diagnostic of a sclerosing sertoli cell tumor, a morphologic variant of sertoli cell tumor, which is divided into the NOS, sclerosing, large cell calcifying, and intratubular hyalinizing sertoli cell neoplasia categories.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:24:39.054Z",
+      "extractor_version": "1.0.0"
+    }
+  ]
+}
