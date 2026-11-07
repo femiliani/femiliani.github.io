@@ -326,10 +326,10 @@
 
     byId("puGallery").innerHTML = (c.images || []).map(function (src, i) {
       var imageUrl = normalizeImageUrl(src);
-      return '<a href="' + escapeHtml(imageUrl) + '" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer" title="Open source image">' +
+      return '<button type="button" class="pu-image-button" data-pu-image="' + escapeHtml(imageUrl) + '" aria-label="Enlarge image ' + (i + 1) + '">' +
         '<img loading="lazy" referrerpolicy="no-referrer" src="' + escapeHtml(imageUrl) + '" alt="' + escapeHtml(c.title) + ' pathology image ' + (i + 1) + '" ' +
-        'onerror="this.onerror=null;this.closest(\'a\').classList.add(\'pu-image-failed\');">' +
-        '</a>';
+        'onerror="this.onerror=null;this.closest(\'button\').classList.add(\'pu-image-failed\');">' +
+        '</button>';
     }).join("");
 
     renderStainControls();
@@ -352,6 +352,24 @@
     if (window.history && window.history.replaceState) {
       window.history.replaceState(null, "", "#" + c.id);
     }
+  }
+
+  function closeImageLightbox() {
+    var box = byId("puImageLightbox");
+    if (!box) return;
+    box.className = "pu-lightbox";
+    byId("puLightboxImage").removeAttribute("src");
+    document.body.classList.remove("pu-lightbox-open");
+  }
+
+  function openImageLightbox(src, alt) {
+    var box = byId("puImageLightbox");
+    var image = byId("puLightboxImage");
+    if (!box || !image) return;
+    image.src = src;
+    image.alt = alt || "Enlarged pathology image";
+    box.className = "pu-lightbox show";
+    document.body.classList.add("pu-lightbox-open");
   }
 
   function choiceLetter(index) {
@@ -513,6 +531,20 @@
 
   byId("puStainSelect").addEventListener("change", function () {
     byId("puStainStatus").textContent = "";
+  });
+
+  byId("puGallery").addEventListener("click", function (e) {
+    var button = e.target.closest(".pu-image-button");
+    if (!button || button.classList.contains("pu-image-failed")) return;
+    openImageLightbox(button.getAttribute("data-pu-image"), button.querySelector("img") ? button.querySelector("img").alt : "");
+  });
+
+  byId("puLightboxClose").onclick = closeImageLightbox;
+  byId("puImageLightbox").addEventListener("click", function (e) {
+    if (e.target === this) closeImageLightbox();
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") closeImageLightbox();
   });
 
   byId("puSubmitBtn").onclick = showOriginalChoices;
