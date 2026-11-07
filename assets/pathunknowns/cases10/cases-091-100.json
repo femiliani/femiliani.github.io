@@ -1,0 +1,435 @@
+{
+  "case_start": 91,
+  "case_end": 100,
+  "case_count": 10,
+  "cases": [
+    {
+      "id": "w789c3",
+      "url": "https://sp.pathology.jhu.edu/week-789-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 789: Case 3",
+      "case_label": "Week 789: Case 3",
+      "attribution": "Case presented by Dr. Ezra Baraban and prepared by Dr. Eric Young.",
+      "vignette": "This specimen is from a TURP in a 68-year-old male. Diagnosis?",
+      "question_text": "Case presented by Dr. Ezra Baraban and prepared by Dr. Eric Young.\nThis specimen is from a TURP in a 68-year-old male.\nDiagnosis?",
+      "source_answer": "Basal cell carcinoma",
+      "correct_answer": "Basal cell carcinoma",
+      "canonical_answer": "Basal cell carcinoma",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "Basal cell hyperplasia",
+        "Urothelial carcinoma",
+        "Prostatic adenocarcinoma with aberrant P63 expression",
+        "Basal cell carcinoma"
+      ],
+      "choices": [
+        "Basal cell hyperplasia",
+        "Urothelial carcinoma",
+        "Prostatic adenocarcinoma with aberrant P63 expression",
+        "Basal cell carcinoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/789_3.1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/789_3.2.png"
+      ],
+      "histology": "",
+      "discussion": "",
+      "references": [
+        {
+          "text": "Bishop JA, Yonescu R, Epstein JI, Westra WH. A subset of prostatic basal cell carcinomas harbor the MYB rearrangement of adenoid cystic carcinoma. Hum Pathol. 2015 Aug;46(8):1204-8. doi: 10.1016/j.humpath.2015.05.002. Epub 2015 May 22. PMID: 26089205.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Sections show a basophilic neoplasm with lumenal spaces filled with basement membrane type material, with a striking resemblance to adenoid cystic carcinoma most commonly seen in salivary glands. Basal cell hyperplasia of the prostate consists of small evenly sized nests but would not show adenoid cystic like morphology. Urothelial carcinoma and prostatic adenocarcinoma with aberrant P63 expression would have a very similar immunoprofile to prostatic basal cell hyperplasia or carcinoma including expression of P63, high molecular weight keratin, and GATA3, but have distinct morphology. However, if necessary, NKX3.1 and/or uroplakin expression would be discriminatory if positive. Basal cell carcinoma of the prostate may have a striking adenoid cystic carcinoma-like morphology and a subset of cases even share the characteristic MYB fusion seen in a large fraction of salivary adenoid cystic carcinomas.\n\nReference:\n\nBishop JA, Yonescu R, Epstein JI, Westra WH. A subset of prostatic basal cell carcinomas harbor the MYB rearrangement of adenoid cystic carcinoma. Hum Pathol. 2015 Aug;46(8):1204-8. doi: 10.1016/j.humpath.2015.05.002. Epub 2015 May 22. PMID: 26089205.",
+      "feedback_html": "Sections show a basophilic neoplasm with lumenal spaces filled with basement membrane type material, with a striking resemblance to adenoid cystic carcinoma most commonly seen in salivary glands.&nbsp; Basal cell hyperplasia of the prostate consists of small evenly sized nests but would not show adenoid cystic like morphology.&nbsp; Urothelial carcinoma and prostatic adenocarcinoma with aberrant P63 expression would have a very similar immunoprofile to prostatic basal cell hyperplasia or carcinoma including expression of P63, high molecular weight keratin, and GATA3, but have distinct morphology.&nbsp; However, if necessary, NKX3.1 and/or uroplakin expression would be discriminatory if positive.&nbsp; Basal cell carcinoma of the prostate may have a striking adenoid cystic carcinoma-like morphology and a subset of cases even share the characteristic MYB fusion seen in a large fraction of salivary adenoid cystic carcinomas.<p></p>\n<p>Reference:</p>\n<p>Bishop JA, Yonescu R, Epstein JI, Westra WH. A subset of prostatic basal cell carcinomas harbor the MYB rearrangement of adenoid cystic carcinoma. Hum Pathol. 2015 Aug;46(8):1204-8. doi: 10.1016/j.humpath.2015.05.002. Epub 2015 May 22. PMID: 26089205.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:06:05.544Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w789c2",
+      "url": "https://sp.pathology.jhu.edu/week-789-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 789: Case 2",
+      "case_label": "Week 789: Case 2",
+      "attribution": "Case presented by Dr. Ezra Baraban and prepared by Dr. Eric Young.",
+      "vignette": "This specimen is from a bladder mass in a 22-year-old female. Diagnosis?",
+      "question_text": "Case presented by Dr. Ezra Baraban and prepared by Dr. Eric Young.\nThis specimen is from a bladder mass in a 22-year-old female.\nDiagnosis?",
+      "source_answer": "Inflammatory myofibroblastic tumor",
+      "correct_answer": "Inflammatory myofibroblastic tumor",
+      "canonical_answer": "Inflammatory myofibroblastic tumor",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "Melanoma",
+        "Sarcomatoid carcinoma",
+        "Leiomyosarcoma",
+        "Inflammatory myofibroblastic tumor"
+      ],
+      "choices": [
+        "Melanoma",
+        "Sarcomatoid carcinoma",
+        "Leiomyosarcoma",
+        "Inflammatory myofibroblastic tumor"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/789_2.1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/789_2.2.png"
+      ],
+      "histology": "",
+      "discussion": "",
+      "references": [
+        {
+          "text": "Montgomery EA, Shuster DD, Burkart AL, Esteban JM, Sgrignoli A, Elwood L, Vaughn DJ, Griffin CA, Epstein JI. Inflammatory myofibroblastic tumors of the urinary tract: a clinicopathologic study of 46 cases, including a malignant example inflammatory fibrosarcoma and a subset associated with high-grade urothelial carcinoma. Am J Surg Pathol. 2006 Dec;30(12):1502-12. doi: 10.1097/01.pas.0000213280.35413.1b. PMID: 17122505.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Sections show a relatively monotonous spindle cell neoplasm with myxoid stroma and admixed inflammation. Melanoma could show similar cytomorphology but is often pleomorphic and would label with SOX10 and more specific melanocytic markers. Sarcomatoid carcinoma could be diagnosed in the setting of an associated epithelial component as well as nuclear hyperchromasia. Sarcomatoid carcinoma typically shows focal keratin labeling and lacks ALK expression. Leiomyosarcoma shows fascicular growth and eosinophilic cytoplasm, and lacks ALK expression. Inflammatory myofibroblastic tumor is a straightforward diagnosis when ALK is expressed, reflecting the presence of an ALK rearrangement. ALK negative cases, which typically have fusions involving other receptor tyrosine kinases, are more challenging as there can be significant morphologic and immunohistochemical overlap with sarcomatoid carcinoma and this distinction may not be possible in a small biopsy.\n\nReference:\n\nMontgomery EA, Shuster DD, Burkart AL, Esteban JM, Sgrignoli A, Elwood L, Vaughn DJ, Griffin CA, Epstein JI. Inflammatory myofibroblastic tumors of the urinary tract: a clinicopathologic study of 46 cases, including a malignant example inflammatory fibrosarcoma and a subset associated with high-grade urothelial carcinoma. Am J Surg Pathol. 2006 Dec;30(12):1502-12. doi: 10.1097/01.pas.0000213280.35413.1b. PMID: 17122505.",
+      "feedback_html": "Sections show a relatively monotonous spindle cell neoplasm with myxoid stroma and admixed inflammation.&nbsp; Melanoma could show similar cytomorphology but is often pleomorphic and would label with SOX10 and more specific melanocytic markers.&nbsp; Sarcomatoid carcinoma could be diagnosed in the setting of an associated epithelial component as well as nuclear hyperchromasia.&nbsp; Sarcomatoid carcinoma typically shows focal keratin labeling and lacks ALK expression.&nbsp; Leiomyosarcoma shows fascicular growth and eosinophilic cytoplasm, and lacks ALK expression.&nbsp; Inflammatory myofibroblastic tumor is a straightforward diagnosis when ALK is expressed, reflecting the presence of an ALK rearrangement.&nbsp; ALK negative cases, which typically have fusions involving other receptor tyrosine kinases, are more challenging as there can be significant morphologic and immunohistochemical overlap with sarcomatoid carcinoma and this distinction may not be possible in a small biopsy.<p></p>\n<p>Reference:</p>\n<p>Montgomery EA, Shuster DD, Burkart AL, Esteban JM, Sgrignoli A, Elwood L, Vaughn DJ, Griffin CA, Epstein JI. Inflammatory myofibroblastic tumors of the urinary tract: a clinicopathologic study of 46 cases, including a malignant example inflammatory fibrosarcoma and a subset associated with high-grade urothelial carcinoma. Am J Surg Pathol. 2006 Dec;30(12):1502-12. doi: 10.1097/01.pas.0000213280.35413.1b. PMID: 17122505.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:06:16.201Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w789c1",
+      "url": "https://sp.pathology.jhu.edu/week-789-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 789: Case 1",
+      "case_label": "Week 789: Case 1",
+      "attribution": "Case presented by Dr. Ezra Baraban and prepared by Dr. Eric Young.",
+      "vignette": "This specimen is from the inguinal lymph node of a 77-year-old male. Diagnosis?",
+      "question_text": "Case presented by Dr. Ezra Baraban and prepared by Dr. Eric Young.\nThis specimen is from the inguinal lymph node of a 77-year-old male.\nDiagnosis?",
+      "source_answer": "Large cell neuroendocrine carcinoma",
+      "correct_answer": "Large cell neuroendocrine carcinoma",
+      "canonical_answer": "Large cell neuroendocrine carcinoma",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "Adenocarcinoma",
+        "Large cell neuroendocrine carcinoma",
+        "Well-differentiated neuroendocrine tumor",
+        "Paraganglioma"
+      ],
+      "choices": [
+        "Adenocarcinoma",
+        "Large cell neuroendocrine carcinoma",
+        "Well-differentiated neuroendocrine tumor",
+        "Paraganglioma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/789_1.1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/789_1.2.png"
+      ],
+      "histology": "",
+      "discussion": "",
+      "references": [
+        {
+          "text": "Corbett V, Arnold S, Anthony L, Chauhan A. Management of Large Cell Neuroendocrine Carcinoma. Front Oncol. 2021 Aug 27;11:653162. doi: 10.3389/fonc.2021.653162. PMID: 34513663; PMCID: PMC8432609.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Sections show a malignant tumor metastatic to a lymph node. The tumor is cohesive and grows in large nests with peripheral palisading with comedo necrosis and rosette formation. Innumerable mitotic figures are seen. Paraganglioma is typically less cohesive appearing and would lack keratin expression. Well-differentiated neuroendocrine tumors are malignant and may be proliferative but lack this degree of extensive mitotic activity and comedo necrosis. Adenocarcinomas of various primary sites may show expression of neuroendocrine markers but lack the peripheral palisading and large solid nests with comedo necrosis. However, there may be substantial morphologic overlap between high grade adenocarcinoma and large cell neuroendocrine carcinoma, and the latter may arise from the former and may predominate in metastatic sites due to its increased aggressiveness and proliferation rate. Because of the potential morphologic overlap between conventional adenocarcinoma and large cell neuroendocrine carcinoma, strict criteria must be used to establish the latter diagnosis. First, neuroendocrine markers should only be applied if there are morphologic features concerning for large cell neuroendocrine carcinoma (large nests with comedo necrosis and/or peripheral palisading, rosette formation). Further, unlike small cell carcinoma, which in certain instances can be diagnosed without immunohistochemistry documenting neuroendocrine differentiation, strong expression of multiple neuroendocrine markers in combination with the appropriate morphology, as demonstrated in this case, is required for the diagnosis of large cell neuroendocrine carcinoma.\n\nReference:\n\nCorbett V, Arnold S, Anthony L, Chauhan A. Management of Large Cell Neuroendocrine Carcinoma. Front Oncol. 2021 Aug 27;11:653162. doi: 10.3389/fonc.2021.653162. PMID: 34513663; PMCID: PMC8432609.",
+      "feedback_html": "Sections show a malignant tumor metastatic to a lymph node.&nbsp; The tumor is cohesive and grows in large nests with peripheral palisading with comedo necrosis and rosette formation.&nbsp; Innumerable mitotic figures are seen. Paraganglioma is typically less cohesive appearing and would lack keratin expression.&nbsp; Well-differentiated neuroendocrine tumors are malignant and may be proliferative but lack this degree of extensive mitotic activity and comedo necrosis.&nbsp; Adenocarcinomas of various primary sites may show expression of neuroendocrine markers but lack the peripheral palisading and large solid nests with comedo necrosis.&nbsp; However, there may be substantial morphologic overlap between high grade adenocarcinoma and large cell neuroendocrine carcinoma, and the latter may arise from the former and may predominate in metastatic sites due to its increased aggressiveness and proliferation rate.&nbsp; Because of the potential morphologic overlap between conventional adenocarcinoma and large cell neuroendocrine carcinoma, strict criteria must be used to establish the latter diagnosis.&nbsp; First, neuroendocrine markers should only be applied if there are morphologic features concerning for large cell neuroendocrine carcinoma (large nests with comedo necrosis and/or peripheral palisading, rosette formation).&nbsp; Further, unlike small cell carcinoma, which in certain instances can be diagnosed without immunohistochemistry documenting neuroendocrine differentiation, strong expression of multiple neuroendocrine markers in combination with the appropriate morphology, as demonstrated in this case, is required for the diagnosis of large cell neuroendocrine carcinoma.<p></p>\n<p>Reference:</p>\n<p>Corbett V, Arnold S, Anthony L, Chauhan A. Management of Large Cell Neuroendocrine Carcinoma. Front Oncol. 2021 Aug 27;11:653162. doi: 10.3389/fonc.2021.653162. PMID: 34513663; PMCID: PMC8432609.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:06:27.175Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w788c3",
+      "url": "https://sp.pathology.jhu.edu/week-788-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 788: Case 3",
+      "case_label": "Week 788: Case 3",
+      "attribution": "Case presented by Dr. Jonathan Epstein and prepared by Dr. Eric Young.",
+      "vignette": "Case History: A 28 year-old man underwent an orchiectomy for a 4.2 cm. testicular mass. Diagnosis?",
+      "question_text": "Case presented by Dr. Jonathan Epstein and prepared by Dr. Eric Young.\nCase History: A 28 year-old man underwent an orchiectomy for a 4.2 cm. testicular mass.\nDiagnosis?",
+      "source_answer": "Predominantly yolk sac tumor with focal embryonal carcinoma and teratoma",
+      "correct_answer": "Predominantly yolk sac tumor with focal embryonal carcinoma and teratoma",
+      "canonical_answer": "Predominantly yolk sac tumor with focal embryonal carcinoma and teratoma",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "Predominantly immature teratoma with focal mature teratoma",
+        "Predominantly yolk sac tumor with focal teratoma",
+        "Predominantly teratoma with focal embryonal carcinoma",
+        "Predominantly yolk sac tumor with focal embryonal carcinoma and teratoma"
+      ],
+      "choices": [
+        "Predominantly immature teratoma with focal mature teratoma",
+        "Predominantly yolk sac tumor with focal teratoma",
+        "Predominantly teratoma with focal embryonal carcinoma",
+        "Predominantly yolk sac tumor with focal embryonal carcinoma and teratoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/788_3.1-1024x925.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/788_3.2-1024x952.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/788_3.3.png"
+      ],
+      "histology": "Small foci in the mass are composed of sheets of cells, some with lumens, with markedly atypical nuclei containing multiple irregular nucleoli. Other foci have well-formed cytologically atypical glands surrounded by hypercellular atypical stroma with numerous mitotic figures. The majority of the tumor has a myxoid matrix and dilated glands with flattened epithelium. The surrounding testis focally shows germ cell neoplasia in-situ (GCNIS) within tubules that lack spermatogenesis. GCNIS is composed of a single layer of cells indistinguishable from seminoma cells surrounded by a halo. GCNIS always is seen in seminiferous tubules lacking spermatogenesis.",
+      "discussion": "In a post-pubertal type teratoma, there is no distinction between immature or mature teratoma. Also one does not note the presence of malignant cytology in the epithelial or stromal aspect of the teratoma unless these elements sheet out greater than 5 mm, at which point it becomes a somatic malignancy arising in a teratoma. It is not uncommon to have scattered teratoma glands that look like adenocarcinoma or where the surrounding stroma looks like a primitive sarcoma, but as long as these elements have not evolved into an expansile infiltrative carcinoma or sarcoma, then it has no significance and is just part of the post-pubertal type teratoma. The predominant component in this tumor is yolk sac tumor (YST). In this case the YST has a rare morphology composed of dilated cystic glands which is termed the polyvesicular vitelline pattern. In order to verify a yolk sac pattern one can use immunohistochemistry (IHC) for alpha feto protein (AFP). However, in patients with elevated serum AFP levels, IHC with AFP typically results in the entire tissue staining brown and is difficult to interpret. A better marker is glypican-3, which is a specific and sensitive marker for YST and is a much cleaner stain, where only the YST epithelium labels. Prognostically, once there is a malignant mixed germ cell tumor, the various proportions of the tumor elements are not important and the prognosis is determined by the levels of various serum markers and the stage of the tumor. The only situation where the composition of an organ-confined malignant mixed germ cell tumor could have implications is if the tumor is >50% embryonal carcinoma, which carries an increased risk of metastases to retroperitoneal lymph nodes.",
+      "references": [],
+      "feedback_text": "Histology:\n\nSmall foci in the mass are composed of sheets of cells, some with lumens, with markedly atypical nuclei containing multiple irregular nucleoli. Other foci have well-formed cytologically atypical glands surrounded by hypercellular atypical stroma with numerous mitotic figures. The majority of the tumor has a myxoid matrix and dilated glands with flattened epithelium. The surrounding testis focally shows germ cell neoplasia in-situ (GCNIS) within tubules that lack spermatogenesis. GCNIS is composed of a single layer of cells indistinguishable from seminoma cells surrounded by a halo. GCNIS always is seen in seminiferous tubules lacking spermatogenesis.\n\nDiscussion:\n\nIn a post-pubertal type teratoma, there is no distinction between immature or mature teratoma. Also one does not note the presence of malignant cytology in the epithelial or stromal aspect of the teratoma unless these elements sheet out greater than 5 mm, at which point it becomes a somatic malignancy arising in a teratoma. It is not uncommon to have scattered teratoma glands that look like adenocarcinoma or where the surrounding stroma looks like a primitive sarcoma, but as long as these elements have not evolved into an expansile infiltrative carcinoma or sarcoma, then it has no significance and is just part of the post-pubertal type teratoma. The predominant component in this tumor is yolk sac tumor (YST). In this case the YST has a rare morphology composed of dilated cystic glands which is termed the polyvesicular vitelline pattern. In order to verify a yolk sac pattern one can use immunohistochemistry (IHC) for alpha feto protein (AFP). However, in patients with elevated serum AFP levels, IHC with AFP typically results in the entire tissue staining brown and is difficult to interpret. A better marker is glypican-3, which is a specific and sensitive marker for YST and is a much cleaner stain, where only the YST epithelium labels. Prognostically, once there is a malignant mixed germ cell tumor, the various proportions of the tumor elements are not important and the prognosis is determined by the levels of various serum markers and the stage of the tumor. The only situation where the composition of an organ-confined malignant mixed germ cell tumor could have implications is if the tumor is >50% embryonal carcinoma, which carries an increased risk of metastases to retroperitoneal lymph nodes.",
+      "feedback_html": "Histology:<p></p>\n<p>Small foci in the mass are composed of sheets of cells, some with lumens, with markedly atypical nuclei containing multiple irregular nucleoli. Other foci have well-formed cytologically atypical glands surrounded by hypercellular atypical stroma with numerous mitotic figures. The majority of the tumor has a myxoid matrix and dilated glands with flattened epithelium. The surrounding testis focally shows germ cell neoplasia in-situ (GCNIS) within tubules that lack spermatogenesis. GCNIS is composed of a single layer of cells indistinguishable from seminoma cells surrounded by a halo. GCNIS always is seen in seminiferous tubules lacking spermatogenesis.</p>\n<p>Discussion:</p>\n<p>In a post-pubertal type teratoma, there is no distinction between immature or mature teratoma. Also one does not note the presence of malignant cytology in the epithelial or stromal aspect of the teratoma unless these elements sheet out greater than 5 mm, at which point it becomes a somatic malignancy arising in a teratoma. It is not uncommon to have scattered teratoma glands that look like adenocarcinoma or where the surrounding stroma looks like a primitive sarcoma, but as long as these elements have not evolved into an expansile infiltrative carcinoma or sarcoma, then it has no significance and is just part of the post-pubertal type teratoma. The predominant component in this tumor is yolk sac tumor (YST). In this case the YST has a rare morphology composed of dilated cystic glands which is termed the polyvesicular vitelline pattern. In order to verify a yolk sac pattern one can use immunohistochemistry (IHC)&nbsp; for alpha feto protein (AFP).&nbsp; However, in patients with elevated serum AFP levels, IHC with AFP typically results in the entire tissue staining brown and is difficult to interpret. A better marker is glypican-3, which is a specific and sensitive marker for YST and is a much cleaner stain, where only the&nbsp; YST epithelium labels. Prognostically, once there is a malignant mixed germ cell tumor, the various proportions of the tumor elements are not important and the prognosis is determined by the levels of various serum markers and the stage of the tumor. The only situation where the composition of an organ-confined malignant mixed germ cell tumor could have implications is if the tumor is &gt;50% embryonal carcinoma, which carries an increased risk of metastases to retroperitoneal lymph nodes.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:06:36.683Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w788c2",
+      "url": "https://sp.pathology.jhu.edu/week-788-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 788: Case 2",
+      "case_label": "Week 788: Case 2",
+      "attribution": "Case presented by Dr. Jonathan Epstein and prepared by Dr. Eric Young.",
+      "vignette": "Case History: A 45 year-old male underwent a resection of a spermatic cord nodule. Diagnosis?",
+      "question_text": "Case presented by Dr. Jonathan Epstein and prepared by Dr. Eric Young.\nCase History: A 45 year-old male underwent a resection of a spermatic cord nodule.\nDiagnosis?",
+      "source_answer": "Vasitis nodosa",
+      "correct_answer": "Vasitis nodosa",
+      "canonical_answer": "Vasitis nodosa",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "Metastatic prostate adenocarcinoma",
+        "Metastatic pancreas cancer",
+        "Epididymal carcinoma",
+        "Vasitis nodosa"
+      ],
+      "choices": [
+        "Metastatic prostate adenocarcinoma",
+        "Metastatic pancreas cancer",
+        "Epididymal carcinoma",
+        "Vasitis nodosa"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/788_2.1-1024x674.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/788_2.2-1024x704.png"
+      ],
+      "histology": "Adjacent to the vas deferens is a haphazard proliferation of tubules associated with fibrosis and hemosiderin deposition. The tubules have uniform nuclei with visible nucleoli.",
+      "discussion": "Vasitis nodosa typically results after vasectomy, where the cut ends of the vas deference proliferate as small tubules as a result of duct obstruction. The cut ends of the vas deferens are resected at the time of vasovasostomy, where microsurgery is performed to anastomose the ends of the vas deferens to reverse the vasectomy. Less commonly, prior surgery in this area other than vasectomy or trauma can injure the vas deferens and result in vasitis nodosa. Early on in the history of vasectomy there were cases of pregnancy after vasectomy as a result of these small tubules from each end of the cut surface of the vas deferens connecting up with each other. After recognition of this phenomenon, currently during vasectomy a piece of fascia is placed between the cut ends of the vas deferens to prevent this from happening. The tubules in vasitis nodosa are very proliferative and can show perineural invasion and even result in vascular invasion. In contrast to carcinoma, the tubules are cytologically bland, and In most cases, recognition of this entity is facilitated by the presence of sperm within the tubules and sperm granulomas, which result as a reaction to sperm. Due to the presence of prominent nucleoli and the location, metastatic prostate adenocarcinoma is the leading differential diagnosis, which can readily be ruled out with negative stains for NKX3.1, PSA, and P501S.",
+      "references": [],
+      "feedback_text": "Histology:\n\nAdjacent to the vas deferens is a haphazard proliferation of tubules associated with fibrosis and hemosiderin deposition. The tubules have uniform nuclei with visible nucleoli.\n\nDiscussion:\n\nVasitis nodosa typically results after vasectomy, where the cut ends of the vas deference proliferate as small tubules as a result of duct obstruction. The cut ends of the vas deferens are resected at the time of vasovasostomy, where microsurgery is performed to anastomose the ends of the vas deferens to reverse the vasectomy. Less commonly, prior surgery in this area other than vasectomy or trauma can injure the vas deferens and result in vasitis nodosa. Early on in the history of vasectomy there were cases of pregnancy after vasectomy as a result of these small tubules from each end of the cut surface of the vas deferens connecting up with each other. After recognition of this phenomenon, currently during vasectomy a piece of fascia is placed between the cut ends of the vas deferens to prevent this from happening. The tubules in vasitis nodosa are very proliferative and can show perineural invasion and even result in vascular invasion. In contrast to carcinoma, the tubules are cytologically bland, and In most cases, recognition of this entity is facilitated by the presence of sperm within the tubules and sperm granulomas, which result as a reaction to sperm. Due to the presence of prominent nucleoli and the location, metastatic prostate adenocarcinoma is the leading differential diagnosis, which can readily be ruled out with negative stains for NKX3.1, PSA, and P501S.",
+      "feedback_html": "Histology:<p></p>\n<p>Adjacent to the vas deferens is a haphazard proliferation of tubules associated with fibrosis and hemosiderin deposition. The tubules have uniform nuclei with visible nucleoli.</p>\n<p>Discussion:</p>\n<p>Vasitis nodosa typically results after vasectomy, where the cut ends of the vas deference proliferate as small tubules as a result of duct obstruction. The cut ends of the vas deferens are resected at the time of vasovasostomy, where microsurgery is performed to anastomose the ends of the vas deferens to reverse the vasectomy. Less commonly, prior surgery in this area other than vasectomy or trauma can injure the vas deferens and result in vasitis nodosa. Early on in the history of vasectomy there were cases of pregnancy after vasectomy as a result of these small tubules from each end of the cut surface of the vas deferens connecting up with each other. After recognition of this phenomenon, currently during vasectomy a piece of fascia is placed between the cut ends of the vas deferens to prevent this from happening. The tubules in vasitis nodosa are very proliferative and can show perineural invasion and even result in vascular invasion. In contrast to carcinoma, the tubules are cytologically bland, and In most cases, recognition of this entity is facilitated by the presence of sperm within the tubules and sperm granulomas, which result as a reaction to sperm.&nbsp; Due to the presence of prominent nucleoli and the location, metastatic prostate adenocarcinoma is the leading differential diagnosis, which can readily be ruled out with negative stains for NKX3.1, PSA, and P501S.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:06:46.001Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w788c1",
+      "url": "https://sp.pathology.jhu.edu/week-788-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 788: Case 1",
+      "case_label": "Week 788: Case 1",
+      "attribution": "Case presented by Dr. Jonathan Epstein and prepared by Dr. Eric Young.",
+      "vignette": "Case History: A 65 year old male underwent a partial nephrectomy for a 5.3 cm. cystic mass. Diagnosis?",
+      "question_text": "Case presented by Dr. Jonathan Epstein and prepared by Dr. Eric Young.\nCase History: A 65 year old male underwent a partial nephrectomy for a 5.3 cm. cystic mass.\nDiagnosis?",
+      "source_answer": "Clear cell papillary renal cell tumor",
+      "correct_answer": "Clear cell papillary renal cell tumor",
+      "canonical_answer": "Clear cell papillary renal cell tumor",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "Clear cell papillary renal cell tumor",
+        "Cystic clear cell renal cell carcinoma (RCC)",
+        "Muticystic renal epithelial neoplasm of low malignant potential",
+        "Papillary adenoma"
+      ],
+      "choices": [
+        "Clear cell papillary renal cell tumor",
+        "Cystic clear cell renal cell carcinoma (RCC)",
+        "Muticystic renal epithelial neoplasm of low malignant potential",
+        "Papillary adenoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/788_1.1-1024x706.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/788_1.2-1024x704.png"
+      ],
+      "histology": "Surrounding the cyst is a tubulopapillary neoplasm lined by cytologically bland epithelium with clear cytoplasm. Some of the tubules have reverse polarity where the nuclei are located towards the luminal surface with subnuclear clear cytoplasm.",
+      "discussion": "The morphology of this lesion is classic for a clear cell papillary renal cell tumor. It was formally called “clear cell papillary renal cell carcinoma”, but to date none of these lesions have exhibited metastases. It shows tubular and papillary growth patterns, which can vary in their proportion but typically is more tubular than papillary. In contrast, clear cell RCC typically has predominantly small solid nests of clear cells with an intervening rich thin capillary network. Many of the tubules in clear cell papillary renal cell tumor have blunt squared-off ends. Cytologically, the nuclei are always benign-appearing with in some areas showing reverse polarity, a feature that can vary in its prominence. Clear cell papillary renal cell tumors are typically solid, but can be cystic, as in this case, and can even uncommonly show cystic necrosis. Focally within a clear cell papillary renal cell tumor there may be areas that are indistinguishable from a low-grade clear cell RCC with small nests of clear cells separated by a thin vascular network. Similarly, within an otherwise typical clear cell RCC one can see focal areas resembling clear cell papillary renal cell tumor. Hence, one should assess what is the overall pattern of the tumor. Immunohistochemically, clear cell papillary renal tumor has a distinct staining pattern with diffuse CK7 and diffuse CAIX. The latter often has a “cup-shape” distribution, where the membranous CAIX staining is on the bottom and sides of the cells but not on the lumina surface (ie. not circumferential), resembling a goblet or chalice. This staining cup-like staining is not entirely specific or necessary for the diagnosis. A pitfall that many pathologists are not aware of is that low grade clear cell RCC can show a fair degree of CK7 positivity, yet will not be diffusely immunoreactive as in clear cell papillary renal cell tumor. In cases of clear cell papillary renal cell tumor with classic morphology, it is not necessary to stain with CK7 and CAIX, but the staining can be confirmatory if there is any uncertainty with the diagnosis. Multicystic renal epithelial neoplasm of low malignant potential (RCCLMP) is also cystic but multicystic, in contract to the current case. More importantly, RCCLMP consists of small solid non-expansile nests of what looks like low grade clear cell RCC in the septae of the cysts, in contrast to a cystic clear cell RCC, where there are expansile nests and larger solid areas in the cyst walls.",
+      "references": [],
+      "feedback_text": "Histology:\n\nSurrounding the cyst is a tubulopapillary neoplasm lined by cytologically bland epithelium with clear cytoplasm. Some of the tubules have reverse polarity where the nuclei are located towards the luminal surface with subnuclear clear cytoplasm.\n\nDiscussion:\n\nThe morphology of this lesion is classic for a clear cell papillary renal cell tumor. It was formally called “clear cell papillary renal cell carcinoma”, but to date none of these lesions have exhibited metastases. It shows tubular and papillary growth patterns, which can vary in their proportion but typically is more tubular than papillary. In contrast, clear cell RCC typically has predominantly small solid nests of clear cells with an intervening rich thin capillary network. Many of the tubules in clear cell papillary renal cell tumor have blunt squared-off ends. Cytologically, the nuclei are always benign-appearing with in some areas showing reverse polarity, a feature that can vary in its prominence. Clear cell papillary renal cell tumors are typically solid, but can be cystic, as in this case, and can even uncommonly show cystic necrosis. Focally within a clear cell papillary renal cell tumor there may be areas that are indistinguishable from a low-grade clear cell RCC with small nests of clear cells separated by a thin vascular network. Similarly, within an otherwise typical clear cell RCC one can see focal areas resembling clear cell papillary renal cell tumor. Hence, one should assess what is the overall pattern of the tumor. Immunohistochemically, clear cell papillary renal tumor has a distinct staining pattern with diffuse CK7 and diffuse CAIX. The latter often has a “cup-shape” distribution, where the membranous CAIX staining is on the bottom and sides of the cells but not on the lumina surface (ie. not circumferential), resembling a goblet or chalice. This staining cup-like staining is not entirely specific or necessary for the diagnosis. A pitfall that many pathologists are not aware of is that low grade clear cell RCC can show a fair degree of CK7 positivity, yet will not be diffusely immunoreactive as in clear cell papillary renal cell tumor. In cases of clear cell papillary renal cell tumor with classic morphology, it is not necessary to stain with CK7 and CAIX, but the staining can be confirmatory if there is any uncertainty with the diagnosis. Multicystic renal epithelial neoplasm of low malignant potential (RCCLMP) is also cystic but multicystic, in contract to the current case. More importantly, RCCLMP consists of small solid non-expansile nests of what looks like low grade clear cell RCC in the septae of the cysts, in contrast to a cystic clear cell RCC, where there are expansile nests and larger solid areas in the cyst walls.",
+      "feedback_html": "Histology:<p></p>\n<p>Surrounding the cyst is a tubulopapillary neoplasm lined by cytologically bland epithelium with clear cytoplasm. Some of the tubules have reverse polarity where the nuclei are located towards the luminal surface with subnuclear clear cytoplasm.</p>\n<p>Discussion:</p>\n<p>The morphology of this lesion is classic for a clear cell papillary renal cell tumor. It was formally called “clear cell papillary renal cell carcinoma”, but to date none of these lesions have exhibited metastases. It shows tubular and papillary growth patterns,&nbsp; which can vary in their proportion but typically is more tubular than papillary. In contrast, clear cell RCC typically has predominantly small solid nests of clear cells with an intervening rich thin capillary network. &nbsp;Many of the tubules in clear cell papillary renal cell tumor have blunt squared-off ends. Cytologically, the nuclei are always benign-appearing with in some areas showing reverse polarity, a feature that can vary in its prominence. Clear cell papillary renal cell tumors are typically solid, but can be cystic, as in this case, and can even uncommonly show cystic necrosis. Focally within a clear cell papillary renal cell tumor there may be areas that are indistinguishable from a low-grade clear cell RCC with small nests of clear cells separated by a thin vascular network. &nbsp;Similarly, within an otherwise typical clear cell RCC one can see focal areas resembling clear cell papillary renal cell tumor. Hence, one should assess what is the overall pattern of the tumor. Immunohistochemically, clear cell papillary renal tumor has a distinct staining pattern with diffuse CK7 and diffuse CAIX. The latter often has a “cup-shape” distribution, where the membranous CAIX staining is on the bottom and sides of the cells but not on the lumina surface (ie. not circumferential), resembling a goblet or chalice. This staining cup-like staining is not entirely specific or necessary for the diagnosis. A pitfall that many pathologists are not aware of is that low grade clear cell RCC can show a fair degree of CK7 positivity, yet will not be diffusely immunoreactive as in clear cell papillary renal cell tumor. In cases of clear cell papillary renal cell tumor with classic morphology, it is not necessary to stain with CK7 and CAIX, but the staining can be confirmatory if there is any uncertainty with the diagnosis. Multicystic renal epithelial neoplasm of low malignant potential (RCCLMP) is also cystic but multicystic, in contract to the current case. More importantly, &nbsp;RCCLMP consists of small solid non-expansile nests of what looks like low grade clear cell RCC in the septae of the cysts, in contrast to a cystic clear cell RCC, where there are expansile nests and larger solid areas in the cyst walls.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:06:55.121Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w787c3",
+      "url": "https://sp.pathology.jhu.edu/week-787-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 787: Case 3",
+      "case_label": "Week 787: Case 3",
+      "attribution": "Case presented by Dr. Lisa Rooper and prepared by Dr. Eric Young.",
+      "vignette": "This is a 50-year-old male with a parotid mass. Diagnosis?",
+      "question_text": "Case presented by Dr. Lisa Rooper and prepared by Dr. Eric Young.\nThis is a 50-year-old male with a parotid mass.\nDiagnosis?",
+      "source_answer": "Pleomorphic adenoma",
+      "correct_answer": "Pleomorphic adenoma",
+      "canonical_answer": "Pleomorphic adenoma",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "Myoepithelioma",
+        "Adenoid cystic carcinoma",
+        "Mucoepidermoid carcinoma",
+        "Pleomorphic adenoma"
+      ],
+      "choices": [
+        "Myoepithelioma",
+        "Adenoid cystic carcinoma",
+        "Mucoepidermoid carcinoma",
+        "Pleomorphic adenoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/787_3.1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/787_3.2.png"
+      ],
+      "histology": "Here, we see a relatively well-circumscribed sclerotic and lobular nodule involving fibroadipose tissue, no normal parotid gland is apparent. The nodule features hypocellular mucinous areas of myxoid stroma and basophilic epithelioid cells in nests and vague duct-like structures. At higher power, the tumor cells have smooth nuclear borders and homogenous chromatin. These morphologic features are consistent with pleomorphic adenoma.\n\nIHC: (+) p63, S100, keratins, GFAP\n\nMolecular: rearrangements of PLAG1 or HMGA2",
+      "discussion": "mucoepidermoid carcinoma, metastatic carcinoma, polymorphous adenoma salivary type, epithelial myoepithelial tumor, large cell neuroendocrine carcinoma,",
+      "references": [
+        {
+          "text": "Triantafyllou A, Thompson LD, Devaney KO, Bell D, Hunt JL, Rinaldo A, Vander Poorten V, Ferlito A. Functional Histology of Salivary Gland Pleomorphic Adenoma: An Appraisal. Head Neck Pathol. 2015 Sep;9(3):387-404. doi: 10.1007/s12105-014-0581-1. Epub 2014 Nov 8. PMID: 25380577; PMCID: PMC4542802.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Histologic Description:\n\nHere, we see a relatively well-circumscribed sclerotic and lobular nodule involving fibroadipose tissue, no normal parotid gland is apparent. The nodule features hypocellular mucinous areas of myxoid stroma and basophilic epithelioid cells in nests and vague duct-like structures. At higher power, the tumor cells have smooth nuclear borders and homogenous chromatin. These morphologic features are consistent with pleomorphic adenoma.\n\nIHC: (+) p63, S100, keratins, GFAP\n\nMolecular: rearrangements of PLAG1 or HMGA2\n\nDifferential diagnosis:\n\nmucoepidermoid carcinoma, metastatic carcinoma, polymorphous adenoma salivary type, epithelial myoepithelial tumor, large cell neuroendocrine carcinoma,\n\nReference:\n\nTriantafyllou A, Thompson LD, Devaney KO, Bell D, Hunt JL, Rinaldo A, Vander Poorten V, Ferlito A. Functional Histology of Salivary Gland Pleomorphic Adenoma: An Appraisal. Head Neck Pathol. 2015 Sep;9(3):387-404. doi: 10.1007/s12105-014-0581-1. Epub 2014 Nov 8. PMID: 25380577; PMCID: PMC4542802.",
+      "feedback_html": "Histologic Description:<p></p>\n<p>Here, we see a relatively well-circumscribed sclerotic and lobular nodule involving fibroadipose tissue, no normal parotid gland is apparent. The nodule features hypocellular mucinous areas of myxoid stroma and basophilic epithelioid cells in nests and vague duct-like structures. At higher power, the tumor cells have smooth nuclear borders and homogenous chromatin. These morphologic features are consistent with pleomorphic adenoma.</p>\n<p>IHC: (+) p63, S100, keratins, GFAP</p>\n<p>Molecular: rearrangements of PLAG1 or HMGA2</p>\n<p>Differential diagnosis:</p>\n<p>mucoepidermoid carcinoma, metastatic carcinoma, polymorphous adenoma salivary type, epithelial myoepithelial tumor, large cell neuroendocrine carcinoma,</p>\n<p>Reference:</p>\n<p>Triantafyllou A, Thompson LD, Devaney KO, Bell D, Hunt JL, Rinaldo A, Vander Poorten V, Ferlito A. Functional Histology of Salivary Gland Pleomorphic Adenoma: An Appraisal. Head Neck Pathol. 2015 Sep;9(3):387-404. doi: 10.1007/s12105-014-0581-1. Epub 2014 Nov 8. PMID: 25380577; PMCID: PMC4542802.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:07:04.405Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w787c2",
+      "url": "https://sp.pathology.jhu.edu/week-787-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 787: Case 2",
+      "case_label": "Week 787: Case 2",
+      "attribution": "Case presented by Dr. Lisa Rooper and prepared by Dr. Eric Young.",
+      "vignette": "This specimen is from an 80-year-old male with a nasal mass. Diagnosis?",
+      "question_text": "Case presented by Dr. Lisa Rooper and prepared by Dr. Eric Young.\nThis specimen is from an 80-year-old male with a nasal mass.\nDiagnosis?",
+      "source_answer": "Sinonasal glomangiopericytoma",
+      "correct_answer": "Sinonasal glomangiopericytoma",
+      "canonical_answer": "Sinonasal glomangiopericytoma",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "Lobular capillary hemangioma",
+        "Solitary fibrous tumor",
+        "Sinonasal glomangiopericytoma",
+        "Myoepithelioma"
+      ],
+      "choices": [
+        "Lobular capillary hemangioma",
+        "Solitary fibrous tumor",
+        "Sinonasal glomangiopericytoma",
+        "Myoepithelioma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/787_2.1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/787_2.2.png"
+      ],
+      "histology": "Here, we see fragments of sinonasal epithelium with an underlying mass comprised of plump basophilic and epithelioid and spindled cells arranged in loose whorls, thin-walled blood vessels with hyalinzation and extravasated blood. At higher magnification, we can see ovoid nuclei, pinpoint nucleoli, and fibrillary pink cytoplasm. These features are consistent with a sinonasal glomangiopericytoma.\n\nIHC: (+) SMA, Beta catenin (nuclear), (-) CD34, S100, desmin, keratins\n\nMolecular: CTNNB1 mutations (Beta catenin)",
+      "discussion": "olfactory neuroblastoma, nasopharyngeal angiofibroma, lobular capillary hemangioma, solitary fibrous tumor (positive: CD34), myoepithelioma (+keratins, S100, desmin), glomus tumor (+S100), schwannoma (+S100)",
+      "references": [
+        {
+          "text": "Catalano PJ, Brandwein M, Shah DK, Urken ML, Lawson W, Biller HF. Sinonasal hemangiopericytomas: a clinicopathologic and immunohistochemical study of seven cases. Head Neck. 1996 Jan-Feb;18(1):42-53. doi: 10.1002/(SICI)1097-0347(199601/02)18:1<42::AID-HED6>3.0.CO;2-Z. PMID: 8774921.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Histologic Description:\n\nHere, we see fragments of sinonasal epithelium with an underlying mass comprised of plump basophilic and epithelioid and spindled cells arranged in loose whorls, thin-walled blood vessels with hyalinzation and extravasated blood. At higher magnification, we can see ovoid nuclei, pinpoint nucleoli, and fibrillary pink cytoplasm. These features are consistent with a sinonasal glomangiopericytoma.\n\nIHC: (+) SMA, Beta catenin (nuclear), (-) CD34, S100, desmin, keratins\n\nMolecular: CTNNB1 mutations (Beta catenin)\n\nDifferential diagnosis:\n\nolfactory neuroblastoma, nasopharyngeal angiofibroma, lobular capillary hemangioma, solitary fibrous tumor (positive: CD34), myoepithelioma (+keratins, S100, desmin), glomus tumor (+S100), schwannoma (+S100)\n\nReference:\n\nCatalano PJ, Brandwein M, Shah DK, Urken ML, Lawson W, Biller HF. Sinonasal hemangiopericytomas: a clinicopathologic and immunohistochemical study of seven cases. Head Neck. 1996 Jan-Feb;18(1):42-53. doi: 10.1002/(SICI)1097-0347(199601/02)18:1<42::AID-HED6>3.0.CO;2-Z. PMID: 8774921.",
+      "feedback_html": "Histologic Description:<p></p>\n<p>Here, we see fragments of sinonasal epithelium with an underlying mass comprised of plump basophilic and epithelioid and spindled cells arranged in loose whorls, thin-walled blood vessels with hyalinzation and extravasated blood. At higher magnification, we can see ovoid nuclei, pinpoint nucleoli, and fibrillary pink cytoplasm. These features are consistent with a sinonasal glomangiopericytoma.</p>\n<p>IHC: (+) SMA, Beta catenin (nuclear), (-) CD34, S100, desmin, keratins</p>\n<p>Molecular: CTNNB1 mutations (Beta catenin)</p>\n<p>Differential diagnosis:</p>\n<p>olfactory neuroblastoma, nasopharyngeal angiofibroma, lobular capillary hemangioma, solitary fibrous tumor (positive: CD34), myoepithelioma (+keratins, S100, desmin), glomus tumor (+S100), schwannoma (+S100)</p>\n<p>Reference:</p>\n<p>Catalano PJ, Brandwein M, Shah DK, Urken ML, Lawson W, Biller HF. Sinonasal hemangiopericytomas: a clinicopathologic and immunohistochemical study of seven cases. Head Neck. 1996 Jan-Feb;18(1):42-53. doi: 10.1002/(SICI)1097-0347(199601/02)18:1&lt;42::AID-HED6&gt;3.0.CO;2-Z. PMID: 8774921.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:07:14.568Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w787c1",
+      "url": "https://sp.pathology.jhu.edu/week-787-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 787: Case 1",
+      "case_label": "Week 787: Case 1",
+      "attribution": "Case presented by Dr. Lisa Rooper and prepared by Dr. Eric Young.",
+      "vignette": "45-year-old male with a parotid mass and history of sinonasal tumor 10 years prior. Diagnosis?",
+      "question_text": "Case presented by Dr. Lisa Rooper and prepared by Dr. Eric Young.\n45-year-old male with a parotid mass and history of sinonasal tumor 10 years prior.\nDiagnosis?",
+      "source_answer": "Metastatic olfactory neuroblastoma",
+      "correct_answer": "Metastatic olfactory neuroblastoma",
+      "canonical_answer": "Metastatic olfactory neuroblastoma",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "Metastatic olfactory neuroblastoma",
+        "Neuroendocrine carcinoma",
+        "Sinonasal undifferentiated carcinoma",
+        "Pituitary neuroendocrine tumor"
+      ],
+      "choices": [
+        "Metastatic olfactory neuroblastoma",
+        "Neuroendocrine carcinoma",
+        "Sinonasal undifferentiated carcinoma",
+        "Pituitary neuroendocrine tumor"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/787_1.1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/787_1.2.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/787_1.3.png"
+      ],
+      "histology": "Here, we see a basophilic poorly circumscribed and infiltrative mass comprised of basophilic cells in lobules separated by what are revealed at high power as septae comprised of neural matrix. There is an irregular, thick fibrous capsule and no normal parotid is seen. At high power, the tumor cells are primitive appearing and basophilic with a high NC ratio, monomorphic, smudgy, salt and pepper chromatin arranged chromatin. This is consistent with metastatic olfactory neuroblastoma.\n\nIHC: (+)synaptophysin, chromogranin (-)AE1/3",
+      "discussion": "Neuroendocrine carcinoma (positive: AE1/3), Sinonasal undifferentiated carcinoma, lymphoma (positive: CD45), Ewing sarcoma, pituitary neuroendocrine tumor",
+      "references": [
+        {
+          "text": "Fukushima S, Sugita Y, Niino D, Mihashi H, Ohshima K. Clincopathological analysis of olfactory neuroblastoma. Brain Tumor Pathol. 2012 Oct;29(4):207-15. doi: 10.1007/s10014-012-0083-3. Epub 2012 Feb 14. PMID: 22331316.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Histologic Description:\n\nHere, we see a basophilic poorly circumscribed and infiltrative mass comprised of basophilic cells in lobules separated by what are revealed at high power as septae comprised of neural matrix. There is an irregular, thick fibrous capsule and no normal parotid is seen. At high power, the tumor cells are primitive appearing and basophilic with a high NC ratio, monomorphic, smudgy, salt and pepper chromatin arranged chromatin. This is consistent with metastatic olfactory neuroblastoma.\n\nIHC: (+)synaptophysin, chromogranin (-)AE1/3\n\nDifferential diagnosis:\n\nNeuroendocrine carcinoma (positive: AE1/3), Sinonasal undifferentiated carcinoma, lymphoma (positive: CD45), Ewing sarcoma, pituitary neuroendocrine tumor\n\nReference:\n\nFukushima S, Sugita Y, Niino D, Mihashi H, Ohshima K. Clincopathological analysis of olfactory neuroblastoma. Brain Tumor Pathol. 2012 Oct;29(4):207-15. doi: 10.1007/s10014-012-0083-3. Epub 2012 Feb 14. PMID: 22331316.",
+      "feedback_html": "Histologic Description:<p></p>\n<p>Here, we see a basophilic poorly circumscribed and infiltrative mass comprised of basophilic cells in lobules separated by what are revealed at high power as septae comprised of neural matrix. There is an irregular, thick fibrous capsule and no normal parotid is seen. At high power, the tumor cells are primitive appearing and basophilic with a high NC ratio, monomorphic, smudgy, salt and pepper chromatin arranged chromatin. This is consistent with metastatic olfactory neuroblastoma.</p>\n<p>IHC: (+)synaptophysin, chromogranin (-)AE1/3</p>\n<p>Differential diagnosis:</p>\n<p>Neuroendocrine carcinoma (positive: AE1/3), Sinonasal undifferentiated carcinoma, lymphoma (positive: CD45), Ewing sarcoma, pituitary neuroendocrine tumor</p>\n<p>Reference:</p>\n<p>Fukushima S, Sugita Y, Niino D, Mihashi H, Ohshima K. Clincopathological analysis of olfactory neuroblastoma. Brain Tumor Pathol. 2012 Oct;29(4):207-15. doi: 10.1007/s10014-012-0083-3. Epub 2012 Feb 14. PMID: 22331316.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:07:23.684Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w786c3",
+      "url": "https://sp.pathology.jhu.edu/week-786-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 786: Case 3",
+      "case_label": "Week 786: Case 3",
+      "attribution": "Case presented by Dr. Elizabeth Thompson and prepared by Dr. Eric Young.",
+      "vignette": "This is a 60-year-old female with a colon polyp. Diagnosis?",
+      "question_text": "Case presented by Dr. Elizabeth Thompson and prepared by Dr. Eric Young.\nThis is a 60-year-old female with a colon polyp.\nDiagnosis?",
+      "source_answer": "Inflammatory fibroid polyp",
+      "correct_answer": "Inflammatory fibroid polyp",
+      "canonical_answer": "Inflammatory fibroid polyp",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "GIST",
+        "Perineurioma",
+        "Inflammatory fibroid polyp",
+        "Tubular adenoma"
+      ],
+      "choices": [
+        "GIST",
+        "Perineurioma",
+        "Inflammatory fibroid polyp",
+        "Tubular adenoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/786_3.1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/786_3.2-1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/786_3.3-1.png"
+      ],
+      "histology": "Here, we see a portion of colon with areas of crypt distortion, paneth cell metaplasia, increased vascularity, creeping submucosal fat. eosinophilic stroma, and a conspicuous mass comprised of bland, spindled cells which is expanding the musculris mucosa. At higher power, lymphocytic infiltrate is observed with no apparent viral cytopathic effect or organisms. There is a notable onion skinning pattern of fibrosis around vessels and the histology is consistent with an inflammatory fibroid polyp.\n\nIHC: (+) CD34\n\nMolecular: PDGFRA mutations",
+      "discussion": "tubular adenoma, crypt cell dysplasia, GIST(positive: DOG1), schwannoma (positive: S100), perineurioma (positive: EMA, glut1, claudin1, CD34)",
+      "references": [
+        {
+          "text": "Daum O, Hatlova J, Mandys V, Grossmann P, Mukensnabl P, Benes Z, Michal M. Comparison of morphological, immunohistochemical, and molecular genetic features of inflammatory fibroid polyps (Vanek's tumors). Virchows Arch. 2010 May;456(5):491-7. doi: 10.1007/s00428-010-0914-8. PMID: 20393746.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Histologic Description:\n\nHere, we see a portion of colon with areas of crypt distortion, paneth cell metaplasia, increased vascularity, creeping submucosal fat. eosinophilic stroma, and a conspicuous mass comprised of bland, spindled cells which is expanding the musculris mucosa. At higher power, lymphocytic infiltrate is observed with no apparent viral cytopathic effect or organisms. There is a notable onion skinning pattern of fibrosis around vessels and the histology is consistent with an inflammatory fibroid polyp.\n\nIHC: (+) CD34\n\nMolecular: PDGFRA mutations\n\nDifferential diagnosis:\n\ntubular adenoma, crypt cell dysplasia, GIST(positive: DOG1), schwannoma (positive: S100), perineurioma (positive: EMA, glut1, claudin1, CD34)\n\nReference:\n\nDaum O, Hatlova J, Mandys V, Grossmann P, Mukensnabl P, Benes Z, Michal M. Comparison of morphological, immunohistochemical, and molecular genetic features of inflammatory fibroid polyps (Vanek's tumors). Virchows Arch. 2010 May;456(5):491-7. doi: 10.1007/s00428-010-0914-8. PMID: 20393746.",
+      "feedback_html": "Histologic Description:<p></p>\n<p>Here, we see a portion of colon with areas of crypt distortion, paneth cell metaplasia, increased vascularity, creeping submucosal fat. eosinophilic stroma, and a conspicuous mass comprised of bland, spindled cells which is expanding the musculris mucosa. At higher power, lymphocytic infiltrate is observed with no apparent viral cytopathic effect or organisms. There is a notable onion skinning pattern of fibrosis around vessels and the histology is consistent with an inflammatory fibroid polyp.</p>\n<p>IHC: (+) CD34</p>\n<p>Molecular: PDGFRA mutations</p>\n<p>Differential diagnosis:</p>\n<p>tubular adenoma, crypt cell dysplasia, GIST(positive: DOG1), schwannoma (positive: S100), perineurioma (positive: EMA, glut1, claudin1, CD34)</p>\n<p>Reference:</p>\n<p>Daum O, Hatlova J, Mandys V, Grossmann P, Mukensnabl P, Benes Z, Michal M. Comparison of morphological, immunohistochemical, and molecular genetic features of inflammatory fibroid polyps (Vanek's tumors). Virchows Arch. 2010 May;456(5):491-7. doi: 10.1007/s00428-010-0914-8. PMID: 20393746.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:07:33.311Z",
+      "extractor_version": "1.0.0"
+    }
+  ]
+}
