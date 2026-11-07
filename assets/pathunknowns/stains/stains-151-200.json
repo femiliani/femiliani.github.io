@@ -1,0 +1,2126 @@
+{
+  "catalog_version": "1.0.0",
+  "case_start": 151,
+  "case_end": 200,
+  "case_count": 50,
+  "cases": {
+    "w769c3": {
+      "case_label": "Week 769: Case 3",
+      "diagnosis": "Intestinal metaplasia with high grade dysplasia",
+      "stains": [
+        {
+          "name": "CDX2",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Intestinal metaplasia with high grade dysplasia; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "SATB2",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Intestinal metaplasia with high grade dysplasia; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "CK20",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Intestinal metaplasia with high grade dysplasia; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "CK7",
+          "result": "Negative / variable",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Intestinal metaplasia with high grade dysplasia; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        }
+      ]
+    },
+    "w769c2": {
+      "case_label": "Week 769: Case 2",
+      "diagnosis": "Infarct with necrotizing granulomatous vasculitis",
+      "stains": [
+        {
+          "name": "Elastic stain",
+          "result": "Highlights disrupted vessel walls",
+          "aliases": [],
+          "type": "special stain",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Infarct with necrotizing granulomatous vasculitis; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "AFB",
+          "result": "Negative if noninfectious",
+          "aliases": [],
+          "type": "special stain",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Infarct with necrotizing granulomatous vasculitis; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "GMS",
+          "result": "Negative if noninfectious",
+          "aliases": [],
+          "type": "special stain",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Infarct with necrotizing granulomatous vasculitis; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        }
+      ]
+    },
+    "w769c1": {
+      "case_label": "Week 769: Case 1",
+      "diagnosis": "Mucinous tubular spindle cell carcinoma",
+      "stains": [
+        {
+          "name": "PAX8",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Mucinous tubular spindle cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "CK7",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Mucinous tubular spindle cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "AMACR",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Mucinous tubular spindle cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "CD10",
+          "result": "Negative / focal",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Mucinous tubular spindle cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        }
+      ]
+    },
+    "week769bonuscase3": {
+      "case_label": "Week 769: Bonus Case 3",
+      "diagnosis": "ALK rearranged renal cell carcinoma",
+      "stains": [
+        {
+          "name": "ALK",
+          "result": "Diffuse positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for ALK rearranged renal cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "PAX8",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for ALK rearranged renal cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "CK7",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for ALK rearranged renal cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "TFE3",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for ALK rearranged renal cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        }
+      ]
+    },
+    "week769bonuscase2": {
+      "case_label": "Week 769: Bonus Case 2",
+      "diagnosis": "GLI1 rearranged neoplasm",
+      "stains": [
+        {
+          "name": "GLI1",
+          "result": "Nuclear positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for GLI1 rearranged neoplasm; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11186917/"
+        },
+        {
+          "name": "S100",
+          "result": "Variable positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for GLI1 rearranged neoplasm; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11186917/"
+        },
+        {
+          "name": "CD56",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for GLI1 rearranged neoplasm; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11186917/"
+        },
+        {
+          "name": "panCK",
+          "result": "Variable",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for GLI1 rearranged neoplasm; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11186917/"
+        }
+      ]
+    },
+    "week769bonuscase1": {
+      "case_label": "Week 769: Bonus Case 1",
+      "diagnosis": "Biphasic hyalinizing psammomatous renal cell carcinoma",
+      "stains": [
+        {
+          "name": "CK7",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Biphasic hyalinizing psammomatous renal cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7350624/"
+        },
+        {
+          "name": "PAX8",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Biphasic hyalinizing psammomatous renal cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7350624/"
+        },
+        {
+          "name": "Merlin/NF2",
+          "result": "Loss",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Biphasic hyalinizing psammomatous renal cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7350624/"
+        },
+        {
+          "name": "GATA3",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Biphasic hyalinizing psammomatous renal cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7350624/"
+        }
+      ]
+    },
+    "w768c3": {
+      "case_label": "Week 768: Case 3",
+      "diagnosis": "Metastatic carcinoma with apocrine features",
+      "stains": [
+        {
+          "name": "GATA3",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-768-case-3/"
+        },
+        {
+          "name": "GCDFP-15",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Metastatic carcinoma with apocrine features; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "Mammaglobin",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-768-case-3/"
+        },
+        {
+          "name": "AR",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-768-case-3/"
+        }
+      ]
+    },
+    "w768c2": {
+      "case_label": "Week 768: Case 2",
+      "diagnosis": "Squamous cell carcinoma, renal pelvis primary",
+      "stains": [
+        {
+          "name": "p40",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Squamous cell carcinoma, renal pelvis primary; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "p63",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Squamous cell carcinoma, renal pelvis primary; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "CK5/6",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Squamous cell carcinoma, renal pelvis primary; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "GATA3",
+          "result": "Variable",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Squamous cell carcinoma, renal pelvis primary; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        }
+      ]
+    },
+    "w768c1": {
+      "case_label": "Week 768: Case 1",
+      "diagnosis": "Plasmacytoid variant of urothelial carcinoma",
+      "stains": [
+        {
+          "name": "GATA3",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-768-case-1/"
+        },
+        {
+          "name": "p63",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Plasmacytoid variant of urothelial carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "CK7",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Plasmacytoid variant of urothelial carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "Uroplakin II",
+          "result": "Positive / variable",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Plasmacytoid variant of urothelial carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        }
+      ]
+    },
+    "w767c3": {
+      "case_label": "Week 767: Case 3",
+      "diagnosis": "Inflammatory well-differentiated liposarcoma",
+      "stains": [
+        {
+          "name": "MDM2",
+          "result": "Nuclear positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Inflammatory well-differentiated liposarcoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
+        },
+        {
+          "name": "CDK4",
+          "result": "Nuclear positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Inflammatory well-differentiated liposarcoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
+        },
+        {
+          "name": "S100",
+          "result": "Variable",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Inflammatory well-differentiated liposarcoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
+        },
+        {
+          "name": "panCK",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Inflammatory well-differentiated liposarcoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
+        }
+      ]
+    },
+    "w767c2": {
+      "case_label": "Week 767: Case 2",
+      "diagnosis": "Clear cell papillary renal cell tumor",
+      "stains": [
+        {
+          "name": "CK7",
+          "result": "Diffuse positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Clear cell papillary renal cell tumor; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "CAIX",
+          "result": "Cup-shaped positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Clear cell papillary renal cell tumor; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "PAX8",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Clear cell papillary renal cell tumor; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "AMACR",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Clear cell papillary renal cell tumor; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        }
+      ]
+    },
+    "w767c1": {
+      "case_label": "Week 767: Case 1",
+      "diagnosis": "Melanotic Xp11 PEComa",
+      "stains": [
+        {
+          "name": "HMB45",
+          "result": "Positive",
+          "aliases": [
+            "HMB-45"
+          ],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Melanotic Xp11 PEComa; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "Melan-A",
+          "result": "Positive",
+          "aliases": [
+            "MART1",
+            "MART-1"
+          ],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Melanotic Xp11 PEComa; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "SMA",
+          "result": "Positive",
+          "aliases": [
+            "smooth muscle actin"
+          ],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Melanotic Xp11 PEComa; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "TFE3",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Melanotic Xp11 PEComa; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        }
+      ]
+    },
+    "w766c3": {
+      "case_label": "Week 766: Case 3",
+      "diagnosis": "Sex cord stromal nodule or tumor composed of thecal and Leydig cells",
+      "stains": [
+        {
+          "name": "Inhibin",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-766-case-3/"
+        },
+        {
+          "name": "SF1",
+          "result": "Positive",
+          "aliases": [
+            "SF-1"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-766-case-3/"
+        },
+        {
+          "name": "Calretinin",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-766-case-3/"
+        },
+        {
+          "name": "Melan-A",
+          "result": "Variable positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Sex cord stromal nodule or tumor composed of thecal and Leydig cells; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11664289/"
+        }
+      ]
+    },
+    "w766c2": {
+      "case_label": "Week 766: Case 2",
+      "diagnosis": "Invasive high grade urothelial carcinoma with syncytiotrophoblasts",
+      "stains": [
+        {
+          "name": "GATA3",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Invasive high grade urothelial carcinoma with syncytiotrophoblasts; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "p63",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Invasive high grade urothelial carcinoma with syncytiotrophoblasts; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "CK7",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Invasive high grade urothelial carcinoma with syncytiotrophoblasts; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "hCG",
+          "result": "Aberrant / mutation-type",
+          "aliases": [
+            "beta-hCG",
+            "β-hCG"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-766-case-2/"
+        }
+      ]
+    },
+    "w766c1": {
+      "case_label": "Week 766: Case 1",
+      "diagnosis": "Leiomyosarcoma",
+      "stains": [
+        {
+          "name": "Vimentin",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Leiomyosarcoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11664289/"
+        },
+        {
+          "name": "panCK",
+          "result": "Negative / variable",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Leiomyosarcoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11664289/"
+        },
+        {
+          "name": "S100",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-766-case-1/"
+        },
+        {
+          "name": "Desmin",
+          "result": "Variable",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Leiomyosarcoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11664289/"
+        }
+      ]
+    },
+    "w765c3": {
+      "case_label": "Week 765: Case 3",
+      "diagnosis": "In-situ urothelial carcinoma and invasive prostatic adenocarcinoma",
+      "stains": [
+        {
+          "name": "NKX3.1",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for In-situ urothelial carcinoma and invasive prostatic adenocarcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "PSA",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for In-situ urothelial carcinoma and invasive prostatic adenocarcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "AMACR",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for In-situ urothelial carcinoma and invasive prostatic adenocarcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "p63",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for In-situ urothelial carcinoma and invasive prostatic adenocarcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        }
+      ]
+    },
+    "w765c2": {
+      "case_label": "Week 765: Case 2",
+      "diagnosis": "Sarcomatoid mesothelioma",
+      "stains": [
+        {
+          "name": "panCK",
+          "result": "Positive / variable",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Sarcomatoid mesothelioma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7082260/"
+        },
+        {
+          "name": "D2-40",
+          "result": "Positive / variable",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Sarcomatoid mesothelioma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7082260/"
+        },
+        {
+          "name": "GATA3",
+          "result": "Positive / variable",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Sarcomatoid mesothelioma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7082260/"
+        },
+        {
+          "name": "Claudin-4",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Sarcomatoid mesothelioma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7082260/"
+        }
+      ]
+    },
+    "w765c1": {
+      "case_label": "Week 765: Case 1",
+      "diagnosis": "Sarcomatoid squamous cell carcinoma",
+      "stains": [
+        {
+          "name": "panCK",
+          "result": "Positive / focal",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Sarcomatoid squamous cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "p40",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Sarcomatoid squamous cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "p63",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Sarcomatoid squamous cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "CK5/6",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Sarcomatoid squamous cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        }
+      ]
+    },
+    "w764c3": {
+      "case_label": "Week 764: Case 3",
+      "diagnosis": "Eosinophilic solid and cystic renal cell carcinoma",
+      "stains": [
+        {
+          "name": "CK20",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-764-case-3/"
+        },
+        {
+          "name": "CK7",
+          "result": "Focal positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-764-case-3/"
+        },
+        {
+          "name": "PAX8",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-764-case-3/"
+        },
+        {
+          "name": "Cathepsin K",
+          "result": "Variable positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Eosinophilic solid and cystic renal cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        }
+      ]
+    },
+    "w764c2": {
+      "case_label": "Week 764: Case 2",
+      "diagnosis": "Xanthogranulomatous pyelonephritis",
+      "stains": [
+        {
+          "name": "CD68",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Xanthogranulomatous pyelonephritis; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "CD163",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Xanthogranulomatous pyelonephritis; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "panCK",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Xanthogranulomatous pyelonephritis; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "PAX8",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Xanthogranulomatous pyelonephritis; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        }
+      ]
+    },
+    "w764c1": {
+      "case_label": "Week 764: case 1",
+      "diagnosis": "Polypoid cystitis",
+      "stains": [
+        {
+          "name": "GATA3",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Polypoid cystitis; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "p63",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Polypoid cystitis; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "CK7",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Polypoid cystitis; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "CK20",
+          "result": "Superficial / variable",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Polypoid cystitis; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        }
+      ]
+    },
+    "w763c3": {
+      "case_label": "Week 763: Case 3",
+      "diagnosis": "Angiomyolipoma with epithelial cysts (AMLEC)",
+      "stains": [
+        {
+          "name": "HMB45",
+          "result": "Positive",
+          "aliases": [
+            "HMB-45"
+          ],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Angiomyolipoma with epithelial cysts (AMLEC); not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "Melan-A",
+          "result": "Positive",
+          "aliases": [
+            "MART1",
+            "MART-1"
+          ],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Angiomyolipoma with epithelial cysts (AMLEC); not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "SMA",
+          "result": "Positive",
+          "aliases": [
+            "smooth muscle actin"
+          ],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Angiomyolipoma with epithelial cysts (AMLEC); not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "Cathepsin K",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Angiomyolipoma with epithelial cysts (AMLEC); not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        }
+      ]
+    },
+    "w763c2": {
+      "case_label": "Week 763: Case 2",
+      "diagnosis": "Xp11 translocation RCC",
+      "stains": [
+        {
+          "name": "TFE3",
+          "result": "Nuclear positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Xp11 translocation RCC; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "PAX8",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Xp11 translocation RCC; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "Cathepsin K",
+          "result": "Variable positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Xp11 translocation RCC; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "CK7",
+          "result": "Negative / focal",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Xp11 translocation RCC; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        }
+      ]
+    },
+    "w763c1": {
+      "case_label": "Week 763: Case 1",
+      "diagnosis": "TFEB rearranged renal cell carcinoma",
+      "stains": [
+        {
+          "name": "TFEB",
+          "result": "Nuclear positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for TFEB rearranged renal cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "Cathepsin K",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for TFEB rearranged renal cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "HMB45",
+          "result": "Variable positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for TFEB rearranged renal cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "CK7",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for TFEB rearranged renal cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        }
+      ]
+    },
+    "w762c3": {
+      "case_label": "Week 762: Case 3",
+      "diagnosis": "Lymphoepithelioma-like urothelial carcinoma",
+      "stains": [
+        {
+          "name": "GATA3",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-762-case-3/"
+        },
+        {
+          "name": "p63",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Lymphoepithelioma-like urothelial carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "CK7",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-762-case-3/"
+        },
+        {
+          "name": "Uroplakin II",
+          "result": "Positive / variable",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Lymphoepithelioma-like urothelial carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        }
+      ]
+    },
+    "w762c2": {
+      "case_label": "Week 762: Case 2",
+      "diagnosis": "Malakoplakia",
+      "stains": [
+        {
+          "name": "CD68",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-762-case-2/"
+        },
+        {
+          "name": "CD163",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Malakoplakia; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "PAS",
+          "result": "Highlights Michaelis-Gutmann bodies",
+          "aliases": [],
+          "type": "special stain",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Malakoplakia; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "von Kossa",
+          "result": "Positive",
+          "aliases": [],
+          "type": "special stain",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-762-case-2/"
+        }
+      ]
+    },
+    "w762c1": {
+      "case_label": "Week 762: Case 1",
+      "diagnosis": "Oncocytoma",
+      "stains": [
+        {
+          "name": "CD117",
+          "result": "Positive",
+          "aliases": [
+            "KIT"
+          ],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Oncocytoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "S100A1",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Oncocytoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "CK7",
+          "result": "Negative / focal",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Oncocytoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "CAIX",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Oncocytoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        }
+      ]
+    },
+    "w761c3": {
+      "case_label": "Week 761: Case3",
+      "diagnosis": "Melanotic neuroectodermal tumor of infancy",
+      "stains": [
+        {
+          "name": "HMB45",
+          "result": "Positive in melanotic cells",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Melanotic neuroectodermal tumor of infancy; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "panCK",
+          "result": "Positive in epithelial cells",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Melanotic neuroectodermal tumor of infancy; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "Synaptophysin",
+          "result": "Positive / variable",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Melanotic neuroectodermal tumor of infancy; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "S100",
+          "result": "Variable",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Melanotic neuroectodermal tumor of infancy; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        }
+      ]
+    },
+    "w761c2": {
+      "case_label": "Week 761: Case 2",
+      "diagnosis": "Dedifferentiated liposarcoma",
+      "stains": [
+        {
+          "name": "MDM2",
+          "result": "Nuclear positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Dedifferentiated liposarcoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
+        },
+        {
+          "name": "CDK4",
+          "result": "Nuclear positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Dedifferentiated liposarcoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
+        },
+        {
+          "name": "S100",
+          "result": "Variable",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Dedifferentiated liposarcoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
+        },
+        {
+          "name": "panCK",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Dedifferentiated liposarcoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
+        }
+      ]
+    },
+    "w761c1": {
+      "case_label": "Week 761: Case 1",
+      "diagnosis": "Paraganglioma",
+      "stains": [
+        {
+          "name": "Synaptophysin",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Paraganglioma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7177196/"
+        },
+        {
+          "name": "Chromogranin",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Paraganglioma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7177196/"
+        },
+        {
+          "name": "INSM1",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Paraganglioma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7177196/"
+        },
+        {
+          "name": "panCK",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Paraganglioma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7177196/"
+        }
+      ]
+    },
+    "w760c3": {
+      "case_label": "Week 760: Case 3",
+      "diagnosis": "Cellular angiofibroma",
+      "stains": [
+        {
+          "name": "CD34",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-760-case-3/"
+        },
+        {
+          "name": "Desmin",
+          "result": "Positive / variable",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Cellular angiofibroma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
+        },
+        {
+          "name": "RB1",
+          "result": "Loss",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Cellular angiofibroma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
+        },
+        {
+          "name": "S100",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-760-case-3/"
+        }
+      ]
+    },
+    "w760c2": {
+      "case_label": "Week 760: Case 2",
+      "diagnosis": "Small cell carcinoma arising in urothelial carcinoma",
+      "stains": [
+        {
+          "name": "INSM1",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Small cell carcinoma arising in urothelial carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "Synaptophysin",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-760-case-2/"
+        },
+        {
+          "name": "Chromogranin",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Small cell carcinoma arising in urothelial carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "panCK",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-760-case-2/"
+        }
+      ]
+    },
+    "w760c1": {
+      "case_label": "Week 760: Case 1",
+      "diagnosis": "Renal carcinoid",
+      "stains": [
+        {
+          "name": "INSM1",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Renal carcinoid; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "Synaptophysin",
+          "result": "Focal positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-760-case-1/"
+        },
+        {
+          "name": "Chromogranin",
+          "result": "Focal positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-760-case-1/"
+        },
+        {
+          "name": "panCK",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-760-case-1/"
+        }
+      ]
+    },
+    "w759c3": {
+      "case_label": "Week 759: Case 3",
+      "diagnosis": "Gastrointestinal stromal tumor",
+      "stains": [
+        {
+          "name": "DOG1",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Gastrointestinal stromal tumor; not documented as performed in this source case.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/39629000/"
+        },
+        {
+          "name": "CD117",
+          "result": "Positive",
+          "aliases": [
+            "KIT"
+          ],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Gastrointestinal stromal tumor; not documented as performed in this source case.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/39629000/"
+        },
+        {
+          "name": "CD34",
+          "result": "Positive / variable",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Gastrointestinal stromal tumor; not documented as performed in this source case.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/39629000/"
+        },
+        {
+          "name": "S100",
+          "result": "Usually negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Gastrointestinal stromal tumor; not documented as performed in this source case.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/39629000/"
+        }
+      ]
+    },
+    "w759c2": {
+      "case_label": "Week 759: Case 2",
+      "diagnosis": "Clear cell carcinoma and low grade oncocytic tumor (LOT) (collision)",
+      "stains": [
+        {
+          "name": "CK7",
+          "result": "Diffuse positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Clear cell carcinoma and low grade oncocytic tumor (LOT) (collision); not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "GATA3",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Clear cell carcinoma and low grade oncocytic tumor (LOT) (collision); not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "CD117",
+          "result": "Negative",
+          "aliases": [
+            "KIT"
+          ],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Clear cell carcinoma and low grade oncocytic tumor (LOT) (collision); not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "CK20",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Clear cell carcinoma and low grade oncocytic tumor (LOT) (collision); not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        }
+      ]
+    },
+    "w759c1": {
+      "case_label": "Week 759: Case 1",
+      "diagnosis": "Focal nodular hyperplasia",
+      "stains": [
+        {
+          "name": "Glutamine synthetase",
+          "result": "Map-like positive",
+          "aliases": [
+            "GS"
+          ],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Focal nodular hyperplasia; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12428263/"
+        },
+        {
+          "name": "CK7",
+          "result": "Highlights ductular reaction",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Focal nodular hyperplasia; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12428263/"
+        },
+        {
+          "name": "Beta-catenin",
+          "result": "Membranous; no aberrant nuclear staining",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Focal nodular hyperplasia; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12428263/"
+        }
+      ]
+    },
+    "w758c3": {
+      "case_label": "Week 758: Case 3",
+      "diagnosis": "Tubulocystic carcinoma",
+      "stains": [
+        {
+          "name": "PAX8",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Tubulocystic carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "AMACR",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Tubulocystic carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "CK7",
+          "result": "Negative / focal",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Tubulocystic carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "CAIX",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Tubulocystic carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        }
+      ]
+    },
+    "w758c2": {
+      "case_label": "Week 758: Case 2",
+      "diagnosis": "Eosinophilic solid and cystic renal cell carcinoma (ESC RCC)",
+      "stains": [
+        {
+          "name": "CK20",
+          "result": "Focal positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-758-case-2/"
+        },
+        {
+          "name": "CK7",
+          "result": "Focal positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-758-case-2/"
+        },
+        {
+          "name": "PAX8",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Eosinophilic solid and cystic renal cell carcinoma (ESC RCC); not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "Cathepsin K",
+          "result": "Variable positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Eosinophilic solid and cystic renal cell carcinoma (ESC RCC); not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        }
+      ]
+    },
+    "w758c1": {
+      "case_label": "Week 758: Case 1",
+      "diagnosis": "Low grade oncocytic tumor (LOT)",
+      "stains": [
+        {
+          "name": "CK7",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-758-case-1/"
+        },
+        {
+          "name": "GATA3",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Low grade oncocytic tumor (LOT); not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "CD117",
+          "result": "Positive",
+          "aliases": [
+            "KIT"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-758-case-1/"
+        },
+        {
+          "name": "CK20",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Low grade oncocytic tumor (LOT); not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        }
+      ]
+    },
+    "w757c3": {
+      "case_label": "Week 757: Case 3",
+      "diagnosis": "Sclerosing Sertoli cell tumor",
+      "stains": [
+        {
+          "name": "SF1",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Sclerosing Sertoli cell tumor; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11664289/"
+        },
+        {
+          "name": "Inhibin",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Sclerosing Sertoli cell tumor; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11664289/"
+        },
+        {
+          "name": "Calretinin",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Sclerosing Sertoli cell tumor; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11664289/"
+        },
+        {
+          "name": "Beta-catenin",
+          "result": "Nuclear positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Sclerosing Sertoli cell tumor; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11664289/"
+        }
+      ]
+    },
+    "w757c2": {
+      "case_label": "Week 757: Case 2",
+      "diagnosis": "Epithelioid angiosarcoma",
+      "stains": [
+        {
+          "name": "ERG",
+          "result": "Nuclear positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Epithelioid angiosarcoma; not documented as performed in this source case.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/38360216/"
+        },
+        {
+          "name": "CD31",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Epithelioid angiosarcoma; not documented as performed in this source case.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/38360216/"
+        },
+        {
+          "name": "FLI1",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Epithelioid angiosarcoma; not documented as performed in this source case.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/38360216/"
+        },
+        {
+          "name": "panCK",
+          "result": "Variable in epithelioid tumors",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Epithelioid angiosarcoma; not documented as performed in this source case.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/38360216/"
+        }
+      ]
+    },
+    "w757c1": {
+      "case_label": "Week 757: Case 1",
+      "diagnosis": "Malignant mesothelioma",
+      "stains": [
+        {
+          "name": "Calretinin",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Malignant mesothelioma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7082260/"
+        },
+        {
+          "name": "WT1",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Malignant mesothelioma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7082260/"
+        },
+        {
+          "name": "D2-40",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Malignant mesothelioma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7082260/"
+        },
+        {
+          "name": "Claudin-4",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Malignant mesothelioma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7082260/"
+        }
+      ]
+    },
+    "w756c3": {
+      "case_label": "Week 756: Case 3",
+      "diagnosis": "Sarcomatoid carcinoma",
+      "stains": [
+        {
+          "name": "panCK",
+          "result": "Positive / focal",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Sarcomatoid carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "AE1/AE3",
+          "result": "Positive / focal",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Sarcomatoid carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "EMA",
+          "result": "Positive / focal",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Sarcomatoid carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "Vimentin",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Sarcomatoid carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        }
+      ]
+    },
+    "w756c2": {
+      "case_label": "Week 756: Case 2",
+      "diagnosis": "Dysgenetic testis",
+      "stains": [
+        {
+          "name": "OCT3/4",
+          "result": "Positive in germ cells",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Dysgenetic testis; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "PLAP",
+          "result": "Positive in germ cells",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Dysgenetic testis; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "SALL4",
+          "result": "Positive in germ cells",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Dysgenetic testis; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "Inhibin",
+          "result": "Positive in Sertoli cells",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Dysgenetic testis; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        }
+      ]
+    },
+    "w756c1": {
+      "case_label": "Week 756: Case 1",
+      "diagnosis": "Metastatic HPV(+) carcinoma",
+      "stains": [
+        {
+          "name": "panCK",
+          "result": "Positive",
+          "aliases": [
+            "cytokeratin"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-756-case-1/"
+        },
+        {
+          "name": "GATA3",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-756-case-1/"
+        },
+        {
+          "name": "p16",
+          "result": "Block positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Educational simulated result for an HPV-associated carcinoma; JHU suggests p16/HPV testing but does not report this case-specific result.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "HPV ISH",
+          "result": "Positive",
+          "aliases": [
+            "HPV",
+            "HPV-ISH"
+          ],
+          "type": "ISH",
+          "source_type": "educational_simulated",
+          "basis": "Educational simulated result for an HPV-associated carcinoma; JHU suggests p16/HPV testing but does not report this case-specific result.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        }
+      ]
+    },
+    "w755c3": {
+      "case_label": "Week 755: Case 3",
+      "diagnosis": "Wilms tumor with perilobar nephrogenic rests",
+      "stains": [
+        {
+          "name": "WT1",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Wilms tumor with perilobar nephrogenic rests; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "PAX8",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Wilms tumor with perilobar nephrogenic rests; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "panCK",
+          "result": "Variable positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Wilms tumor with perilobar nephrogenic rests; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "SIX1",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Wilms tumor with perilobar nephrogenic rests; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        }
+      ]
+    },
+    "w755c2": {
+      "case_label": "Week 755: Case 2",
+      "diagnosis": "Rhabdoid tumor",
+      "stains": [
+        {
+          "name": "INI1/SMARCB1",
+          "result": "Loss",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Rhabdoid tumor; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "panCK",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Rhabdoid tumor; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "EMA",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Rhabdoid tumor; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        },
+        {
+          "name": "S100",
+          "result": "Variable",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Rhabdoid tumor; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+        }
+      ]
+    },
+    "w755c1": {
+      "case_label": "Week 755: Case 1",
+      "diagnosis": "Lobular capillary hemangioma",
+      "stains": [
+        {
+          "name": "ERG",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Lobular capillary hemangioma; not documented as performed in this source case.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/38360216/"
+        },
+        {
+          "name": "CD31",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Lobular capillary hemangioma; not documented as performed in this source case.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/38360216/"
+        },
+        {
+          "name": "CD34",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Lobular capillary hemangioma; not documented as performed in this source case.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/38360216/"
+        },
+        {
+          "name": "HHV8",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Lobular capillary hemangioma; not documented as performed in this source case.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/38360216/"
+        }
+      ]
+    },
+    "w754c3": {
+      "case_label": "Week 754: Case 3",
+      "diagnosis": "Oncocytoma",
+      "stains": [
+        {
+          "name": "CD117",
+          "result": "Positive",
+          "aliases": [
+            "KIT"
+          ],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Oncocytoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "S100A1",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Oncocytoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "CK7",
+          "result": "Negative / focal",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Oncocytoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "CAIX",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Oncocytoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        }
+      ]
+    },
+    "w754c2": {
+      "case_label": "Week 754: Case 2",
+      "diagnosis": "Eosinophilic vacuolated tumor (EVT)",
+      "stains": [
+        {
+          "name": "Cathepsin K",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-754-case-2/"
+        },
+        {
+          "name": "PAX8",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-754-case-2/"
+        },
+        {
+          "name": "CK7",
+          "result": "Focal positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_url": "https://sp.pathology.jhu.edu/week-754-case-2/"
+        },
+        {
+          "name": "CD117",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Eosinophilic vacuolated tumor (EVT); not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        }
+      ]
+    }
+  }
+}
