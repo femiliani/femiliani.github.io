@@ -1,0 +1,303 @@
+---
+layout: single
+title: "PathUnknowns"
+permalink: /pathunknowns/
+author_profile: false
+---
+
+<style>
+.pathunknowns { --pu-bg:#f6f7f9; --pu-card:#fff; --pu-text:#17191c; --pu-muted:#646a73; --pu-line:#dfe3e8; --pu-accent:#111827; --pu-soft:#eef1f5; color:var(--pu-text); }
+.pathunknowns * { box-sizing:border-box; }
+.pathunknowns .pu-intro { margin:0 0 1.5rem; }
+.pathunknowns .pu-intro p { color:var(--pu-muted); max-width:54rem; line-height:1.55; }
+.pathunknowns .pu-card { background:var(--pu-card); border:1px solid var(--pu-line); border-radius:16px; box-shadow:0 8px 24px rgba(0,0,0,.05); overflow:hidden; }
+.pathunknowns .pu-topbar { padding:1rem 1.2rem; border-bottom:1px solid var(--pu-line); display:flex; justify-content:space-between; gap:1rem; align-items:center; flex-wrap:wrap; }
+.pathunknowns .pu-meta { color:var(--pu-muted); font-size:.9rem; }
+.pathunknowns .pu-controls { display:flex; gap:.5rem; }
+.pathunknowns button { border:1px solid var(--pu-line); background:#fff; color:var(--pu-text); padding:.62rem .85rem; border-radius:9px; font:inherit; cursor:pointer; }
+.pathunknowns button.pu-primary { background:var(--pu-accent); color:#fff; border-color:var(--pu-accent); }
+.pathunknowns button:disabled { opacity:.45; cursor:not-allowed; }
+.pathunknowns .pu-content { padding:1.25rem; }
+.pathunknowns .pu-attribution { font-size:.9rem; color:var(--pu-muted); background:var(--pu-soft); padding:.7rem .8rem; border-radius:9px; margin-bottom:1rem; }
+.pathunknowns .pu-vignette { font-size:1.05rem; line-height:1.6; margin:0 0 1.25rem; }
+.pathunknowns .pu-gallery { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.75rem; margin:0 0 1.25rem; }
+.pathunknowns .pu-gallery a { display:block; border:1px solid var(--pu-line); border-radius:10px; overflow:hidden; background:#fafafa; }
+.pathunknowns .pu-gallery img { display:block; width:100%; aspect-ratio:4/3; object-fit:cover; transition:transform .18s ease; }
+.pathunknowns .pu-gallery a:hover img { transform:scale(1.015); }
+.pathunknowns .pu-answer { border-top:1px solid var(--pu-line); padding-top:1.1rem; }
+.pathunknowns label { display:block; font-weight:650; margin-bottom:.5rem; }
+.pathunknowns .pu-answer-row { display:flex; gap:.6rem; }
+.pathunknowns input { flex:1; min-width:0; padding:.72rem .8rem; border:1px solid #cdd3da; border-radius:9px; font:inherit; }
+.pathunknowns .pu-hint { color:var(--pu-muted); font-size:.86rem; margin-top:.55rem; line-height:1.45; }
+.pathunknowns .pu-result { margin-top:.85rem; padding:.85rem; border:1px solid var(--pu-line); border-radius:10px; background:#fafbfc; display:none; line-height:1.5; }
+.pathunknowns .pu-result.show { display:block; }
+.pathunknowns .pu-case-list { margin-top:1rem; display:grid; grid-template-columns:repeat(5,1fr); gap:.45rem; }
+.pathunknowns .pu-case-list button.active { background:var(--pu-accent); color:#fff; border-color:var(--pu-accent); }
+.pathunknowns .pu-footer { margin-top:1rem; color:var(--pu-muted); font-size:.84rem; line-height:1.5; }
+@media (max-width:760px) {
+  .pathunknowns .pu-gallery { grid-template-columns:1fr; }
+  .pathunknowns .pu-answer-row { flex-direction:column; }
+  .pathunknowns .pu-case-list { grid-template-columns:repeat(2,1fr); }
+}
+</style>
+
+<div class="pathunknowns">
+  <div class="pu-intro">
+    <p>
+      A small pathology unknowns prototype using the 10 most recent cases sampled from the
+      Johns Hopkins Surgical Pathology Unknown Conference. Images are displayed from their
+      original JHU media URLs and are not stored in this repository.
+    </p>
+  </div>
+
+  <section class="pu-card">
+    <div class="pu-topbar">
+      <div>
+        <strong id="puCaseTitle"></strong>
+        <div class="pu-meta" id="puCaseCounter"></div>
+      </div>
+      <div class="pu-controls">
+        <button id="puPrevBtn">Previous</button>
+        <button id="puRandomBtn">Random</button>
+        <button id="puNextBtn">Next</button>
+      </div>
+    </div>
+
+    <div class="pu-content">
+      <div class="pu-attribution" id="puAttribution"></div>
+      <p class="pu-vignette" id="puVignette"></p>
+      <div class="pu-gallery" id="puGallery"></div>
+
+      <div class="pu-answer">
+        <label for="puDiagnosisInput">What is the diagnosis?</label>
+        <div class="pu-answer-row">
+          <input id="puDiagnosisInput" list="puDiagnosisList" autocomplete="off" placeholder="Start typing a diagnosis..." />
+          <datalist id="puDiagnosisList"></datalist>
+          <button class="pu-primary" id="puSubmitBtn">Submit</button>
+        </div>
+        <div class="pu-hint">
+          The autocomplete pool is built from all answer choices in these 10 source cases.
+          The official answer key for these newest JavaScript quizzes is not exposed in the
+          public static text used for this demo, so this prototype does not fabricate correctness.
+        </div>
+        <div class="pu-result" id="puResult"></div>
+      </div>
+
+      <div class="pu-case-list" id="puCaseList"></div>
+    </div>
+  </section>
+
+  <div class="pu-footer">
+    Educational prototype. Case wording, attribution, and linked images originate from the
+    Johns Hopkins Surgical Pathology Unknown Conference. Each case links back to its original source page.
+  </div>
+</div>
+
+<script>
+(function () {
+  var cases = [
+    {
+      id:"w819c3", title:"Week 819: Case 3", source:"https://sp.pathology.jhu.edu/week-819-case-3/",
+      attribution:"Case presented by Dr. Deyin Xing, MD, PhD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      vignette:"This is a 60 year old female with a uterine mass. Select the correct diagnosis.",
+      choices:["Perivascular epithelioid cell tumor (PEComa)","Leiomyosarcoma","Low-grade endometrial stromal sarcoma","High-grade endometrial stromal sarcoma"],
+      images:[
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/4X-6-1024x803.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/20X-4-1024x803.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/20X-1-3-1024x803.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/20X-2-1-1024x803.jpg"
+      ]
+    },
+    {
+      id:"w819c2", title:"Week 819: Case 2", source:"https://sp.pathology.jhu.edu/week-819-case-2/",
+      attribution:"Case presented by Dr. Deyin Xing, MD, PhD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      vignette:"This is a 70 year old female with an intraabdominal mass. Select the correct diagnosis.",
+      choices:["Carcinosarcoma with serous carcinoma component","Mesonephric/mesonephic-like carcinosarcoma","Carcinosarcoma with endometrioid carcinoma component","Carcinosarcoma with clear cell carcinoma component"],
+      images:[
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/2X-1-1024x803.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/4X-5-1024x803.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/20X-3-1024x803.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/20X-1-2-1024x803.jpg"
+      ]
+    },
+    {
+      id:"w819c1", title:"Week 819: Case 1", source:"https://sp.pathology.jhu.edu/week-819-case-1/",
+      attribution:"Case presented by Dr. Deyin Xing, MD, PhD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      vignette:"This is 50 year old female with an ileal mass. Select the correct diagnosis.",
+      choices:["Gastrointestinal stromal tumor (GIST)","Leiomyosarcoma","Inflammatory myofibroblastic tumor","Low grade endometrioid stromal sarcoma"],
+      images:[
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/2X-1024x803.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/4X-4-1024x803.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/20X-2-1024x803.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/40X-2-1024x803.jpg"
+      ]
+    },
+    {
+      id:"w818c3", title:"Week 818: Case 3", source:"https://sp.pathology.jhu.edu/week-818-case-3/",
+      attribution:"Case presented by Dr. Russell Vang, MD, and prepared by Dr. Annie A. Wu, MD, PhD.",
+      vignette:"This is a 20 year old female with a left ovarian mass during pregnancy. Select the correct diagnosis.",
+      choices:["Pregnancy luteoma","Luteinized thecoma","Luteinized granulosa cell tumor","Steroid cell tumor"],
+      images:[
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8696.svs-4028311795130668964100.2x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8696.svs-641383197979636464881.2x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8696.svs-6580041450672764283212.7x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8696.svs-6351860497643386126522.9x.png"
+      ]
+    },
+    {
+      id:"w818c2", title:"Week 818: Case 2", source:"https://sp.pathology.jhu.edu/week-818-case-2/",
+      attribution:"Case presented by Dr. Russell Vang, MD, and prepared by Dr. Annie A. Wu, MD, PhD.",
+      vignette:"This is a 40 year old female with a uterine mass. Select the correct diagnosis.",
+      choices:["Perivascular epithelioid cell tumor (PEComa)","Fumarate hydratase-deficient atypical leiomyoma","Leiomyosarcoma","Classical leiomyoma"],
+      images:[
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8694.svs-6057971301613401015930.2x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8694.svs-378583426647456432651.9x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8694.svs-301491843435482234343.5x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8694.svs-12831464614477618911.3x.png"
+      ]
+    },
+    {
+      id:"w818c1", title:"Week 818: Case 1", source:"https://sp.pathology.jhu.edu/week-818-case-1/",
+      attribution:"Case presented by Dr. Russell Vang, MD, and prepared by Dr. Annie A. Wu, MD, PhD.",
+      vignette:"This is a 50 year old female with a left ovarian mass. Select the correct diagnosis.",
+      choices:["Metastatic mucinous carcinoma of the lower gastrointestinal tract","Mucinous borderline tumor","Appendiceal-type low-grade mucinous neoplasm arising from a mature cystic teratoma","Mucinous cystadenoma"],
+      images:[
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8693.svs-37317212191422191056470.2x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8693.svs-439776975449529742223.6x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8693.svs-260463996444034544411.1x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8693.svs-375053315840589356406.4x.png"
+      ]
+    },
+    {
+      id:"w817c3", title:"Week 817: Case 3", source:"https://sp.pathology.jhu.edu/week-817-case-3/",
+      attribution:"Case presented by Dr. Russell Vang, MD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      vignette:"This is a 30 year old female who had a hysterectomy for abnormal uterine bleeding unresponsive to endometrial ablation. Select the correct diagnosis.",
+      choices:["Leiomyoma","Leiomyosarcoma","Low-grade endometrial stromal sarcoma","Uterine tumor resembling ovarian sex cord tumor (UTROSCT)"],
+      images:[
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8842.ndpi-758785120087443608571.7x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8842.ndpi-9221826636932242747619.1x.png"
+      ]
+    },
+    {
+      id:"w817c2", title:"Week 817: Case 2", source:"https://sp.pathology.jhu.edu/week-817-case-2/",
+      attribution:"Case presented by Dr. Russell Vang, MD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      vignette:"This is a 60 yo female who had a hysterectomy after an endometrial biopsy diagnosis. Select the correct diagnosis.",
+      choices:["Endometrial endometrioid carcinoma with extensive squamous differentiation","HPV-associated primary cervical squamous cell carcinoma","Primary endometrial squamous cell carcinoma","Metastatic cutaneous squamous cell carcinoma"],
+      images:[
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8840.ndpi-60986141231780361216430.2x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8840.ndpi-9247423131110537397241.1x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8840.ndpi-9199229947937133152811.1x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8840.ndpi-9201926294937392787511.1x.png"
+      ]
+    },
+    {
+      id:"w817c1", title:"Week 817: Case 1", source:"https://sp.pathology.jhu.edu/week-817-case-1/",
+      attribution:"Case presented by Dr. Russell Vang, MD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      vignette:"This is a 30 yo female with a hysterectomy performed for a presumed leiomyoma. Select the correct diagnosis.",
+      choices:["Low-grade endometrial stromal sarcoma","Leiomyosarcoma","High-grade endometrial stromal sarcoma","Endometrial stromal nodule"],
+      images:[
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8838.ndpi-37415110851349571006850.2x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8838.ndpi-265445621331706609553.7x-1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8838.ndpi-296811626232549188966.7x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/8838.ndpi-2833257807299255927112.0x.png"
+      ]
+    },
+    {
+      id:"w816c3", title:"Week 816: Case 3", source:"https://sp.pathology.jhu.edu/week-816-week-3/",
+      attribution:"Case presented by Dr. Deyin Xing, MD, PhD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      vignette:"This is a 20 year old female with a right ovarian mass. Select the correct diagnosis.",
+      choices:["Sertoli-leydig cell tumor with high-grade sarcomatous component","Carcinosarcoma","Undifferentiated sarcoma","Adenosarcoma with sarcomatous overgrowth"],
+      images:[
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/4X-3-1024x803.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/10X-1024x803.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/20X-1-1024x803.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2025/08/20X-1-1-1024x803.jpg"
+      ]
+    }
+  ];
+
+  var diagnosisPool = Array.from(new Set([].concat.apply([], cases.map(function (c) { return c.choices; })))).sort(function (a,b) { return a.localeCompare(b); });
+  var current = 0;
+  function byId(id) { return document.getElementById(id); }
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>'"]/g, function (c) {
+      return {"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c];
+    });
+  }
+
+  function renderDiagnosisPool() {
+    byId("puDiagnosisList").innerHTML = diagnosisPool.map(function (d) {
+      return '<option value="' + escapeHtml(d) + '"></option>';
+    }).join("");
+  }
+
+  function render() {
+    var c = cases[current];
+    byId("puCaseTitle").textContent = c.title;
+    byId("puCaseCounter").textContent = "Case " + (current + 1) + " of " + cases.length;
+    byId("puAttribution").textContent = c.attribution;
+    byId("puVignette").textContent = c.vignette;
+    byId("puGallery").innerHTML = c.images.map(function (src, i) {
+      return '<a href="' + src + '" target="_blank" rel="noopener" title="Open source image">' +
+        '<img loading="lazy" src="' + src + '" alt="' + escapeHtml(c.title) + ' pathology image ' + (i + 1) + '">' +
+        '</a>';
+    }).join("");
+    byId("puDiagnosisInput").value = "";
+    byId("puResult").className = "pu-result";
+    byId("puResult").innerHTML = "";
+    byId("puPrevBtn").disabled = current === 0;
+    byId("puNextBtn").disabled = current === cases.length - 1;
+    Array.prototype.forEach.call(byId("puCaseList").children, function (b, i) {
+      b.classList.toggle("active", i === current);
+    });
+    if (window.history && window.history.replaceState) {
+      window.history.replaceState(null, "", "#"+c.id);
+    }
+  }
+
+  function submit() {
+    var c = cases[current];
+    var answer = byId("puDiagnosisInput").value.trim();
+    var recognized = diagnosisPool.some(function (d) { return d.toLowerCase() === answer.toLowerCase(); });
+    byId("puResult").className = "pu-result show";
+    byId("puResult").innerHTML =
+      "<strong>" + (recognized ? "Answer recorded" : "Answer not in prototype diagnosis list") + ".</strong><br>" +
+      (answer ? "Your answer: <em>" + escapeHtml(answer) + "</em>.<br>" : "No diagnosis entered.<br>") +
+      "The official correctness/explanation for this newest JHU quiz is not exposed in the public static text used to build this demo, so the prototype deliberately does not guess it.<br>" +
+      '<span class="pu-meta">' + escapeHtml(c.attribution) + "</span><br>" +
+      '<a href="' + c.source + '" target="_blank" rel="noopener">Open the original JHU case</a>';
+  }
+
+  function buildCaseList() {
+    byId("puCaseList").innerHTML = cases.map(function (c, i) {
+      return '<button data-i="' + i + '">' + escapeHtml(c.title.replace("Week ","W")) + "</button>";
+    }).join("");
+    byId("puCaseList").addEventListener("click", function (e) {
+      var b = e.target.closest("button[data-i]");
+      if (!b) return;
+      current = Number(b.dataset.i);
+      render();
+      var target = document.querySelector(".pathunknowns");
+      if (target) target.scrollIntoView({behavior:"smooth", block:"start"});
+    });
+  }
+
+  byId("puPrevBtn").onclick = function () { if (current > 0) { current--; render(); } };
+  byId("puNextBtn").onclick = function () { if (current < cases.length - 1) { current++; render(); } };
+  byId("puRandomBtn").onclick = function () {
+    var n = current;
+    while (n === current && cases.length > 1) n = Math.floor(Math.random() * cases.length);
+    current = n;
+    render();
+  };
+  byId("puSubmitBtn").onclick = submit;
+  byId("puDiagnosisInput").addEventListener("keydown", function (e) { if (e.key === "Enter") submit(); });
+
+  renderDiagnosisPool();
+  buildCaseList();
+  var hash = window.location.hash.slice(1);
+  var idx = cases.findIndex(function (c) { return c.id === hash; });
+  if (idx >= 0) current = idx;
+  render();
+})();
+</script>
