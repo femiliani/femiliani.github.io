@@ -6488,132 +6488,6 @@
         }
       ]
     },
-    "w769b3": {
-      "case_label": "Week 769: Bonus Case 3",
-      "diagnosis": "ALK rearranged renal cell carcinoma",
-      "stains": [
-        {
-          "name": "ALK",
-          "result": "Diffuse positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for ALK rearranged renal cell carcinoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
-        },
-        {
-          "name": "PAX8",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for ALK rearranged renal cell carcinoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
-        },
-        {
-          "name": "CK7",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for ALK rearranged renal cell carcinoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
-        },
-        {
-          "name": "TFE3",
-          "result": "Negative",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for ALK rearranged renal cell carcinoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
-        }
-      ]
-    },
-    "w769b2": {
-      "case_label": "Week 769: Bonus Case 2",
-      "diagnosis": "GLI1 rearranged neoplasm",
-      "stains": [
-        {
-          "name": "GLI1",
-          "result": "Nuclear positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for GLI1 rearranged neoplasm; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11186917/"
-        },
-        {
-          "name": "S100",
-          "result": "Variable positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for GLI1 rearranged neoplasm; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11186917/"
-        },
-        {
-          "name": "CD56",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for GLI1 rearranged neoplasm; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11186917/"
-        },
-        {
-          "name": "panCK",
-          "result": "Variable",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for GLI1 rearranged neoplasm; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11186917/"
-        }
-      ]
-    },
-    "w769b1": {
-      "case_label": "Week 769: Bonus Case 1",
-      "diagnosis": "Biphasic hyalinizing psammomatous renal cell carcinoma",
-      "stains": [
-        {
-          "name": "CK7",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Biphasic hyalinizing psammomatous renal cell carcinoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7350624/"
-        },
-        {
-          "name": "PAX8",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Biphasic hyalinizing psammomatous renal cell carcinoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7350624/"
-        },
-        {
-          "name": "Merlin/NF2",
-          "result": "Loss",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Biphasic hyalinizing psammomatous renal cell carcinoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7350624/"
-        },
-        {
-          "name": "GATA3",
-          "result": "Negative",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Biphasic hyalinizing psammomatous renal cell carcinoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7350624/"
-        }
-      ]
-    },
     "w768c3": {
       "case_label": "Week 768: Case 3",
       "diagnosis": "Metastatic carcinoma with apocrine features",
@@ -8486,6 +8360,132 @@
           "source_type": "educational_simulated",
           "basis": "Expected educational immunophenotype for Eosinophilic vacuolated tumor (EVT); not documented as performed in this source case.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        }
+      ]
+    },
+    "week769bonuscase3": {
+      "case_label": "Week 769: Bonus Case 3",
+      "diagnosis": "ALK rearranged renal cell carcinoma",
+      "stains": [
+        {
+          "name": "ALK",
+          "result": "Diffuse positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for ALK rearranged renal cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "PAX8",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for ALK rearranged renal cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "CK7",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for ALK rearranged renal cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        },
+        {
+          "name": "TFE3",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for ALK rearranged renal cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+        }
+      ]
+    },
+    "week769bonuscase2": {
+      "case_label": "Week 769: Bonus Case 2",
+      "diagnosis": "GLI1 rearranged neoplasm",
+      "stains": [
+        {
+          "name": "GLI1",
+          "result": "Nuclear positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for GLI1 rearranged neoplasm; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11186917/"
+        },
+        {
+          "name": "S100",
+          "result": "Variable positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for GLI1 rearranged neoplasm; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11186917/"
+        },
+        {
+          "name": "CD56",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for GLI1 rearranged neoplasm; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11186917/"
+        },
+        {
+          "name": "panCK",
+          "result": "Variable",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for GLI1 rearranged neoplasm; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11186917/"
+        }
+      ]
+    },
+    "week769bonuscase1": {
+      "case_label": "Week 769: Bonus Case 1",
+      "diagnosis": "Biphasic hyalinizing psammomatous renal cell carcinoma",
+      "stains": [
+        {
+          "name": "CK7",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Biphasic hyalinizing psammomatous renal cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7350624/"
+        },
+        {
+          "name": "PAX8",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Biphasic hyalinizing psammomatous renal cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7350624/"
+        },
+        {
+          "name": "Merlin/NF2",
+          "result": "Loss",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Biphasic hyalinizing psammomatous renal cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7350624/"
+        },
+        {
+          "name": "GATA3",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "educational_simulated",
+          "basis": "Expected educational immunophenotype for Biphasic hyalinizing psammomatous renal cell carcinoma; not documented as performed in this source case.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7350624/"
         }
       ]
     }
