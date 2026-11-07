@@ -1,0 +1,424 @@
+{
+  "case_start": 141,
+  "case_end": 150,
+  "case_count": 10,
+  "cases": [
+    {
+      "id": "w773c1",
+      "url": "https://sp.pathology.jhu.edu/week-773-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 773: Case 1",
+      "case_label": "Week 773: Case 1",
+      "attribution": "Cases presented by Dr. Marissa White and prepared by Dr. Katherine Fomchenko.",
+      "vignette": "This case is the explanted lung of an adult who is status post lung transplant.",
+      "question_text": "Cases presented by Dr. Marissa White and prepared by Dr. Katherine Fomchenko.\nThis case is the explanted lung of an adult who is status post lung transplant.",
+      "source_answer": "B. Bronchiolitis obliterans",
+      "correct_answer": "Bronchiolitis obliterans",
+      "canonical_answer": "Bronchiolitis obliterans",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Usual interstitial pneumonia",
+        "B. Bronchiolitis obliterans",
+        "C. Microscopic polyangiitis",
+        "D. Asbestosis"
+      ],
+      "choices": [
+        "Usual interstitial pneumonia",
+        "Bronchiolitis obliterans",
+        "Microscopic polyangiitis",
+        "Asbestosis"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/773-1-1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/773-1-2.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/773-1-3.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/773-1-4.png"
+      ],
+      "histology": "The lesion in this case has a patchy distribution involving the small bronchioles, with fibrosis and an inflammatory infiltrate completely or near-completely occluding the lumen of the bronchioles. Large bronchioles and the background emphysematous lung parenchyma are unaffected by this process.",
+      "discussion": "Bronchiolitis obliterans is a rare disease in which the bronchioles of the lung are narrowed or completely destroyed (obliterated). Proliferative bronchiolitis obliterans destroys the respiratory bronchioles by connective tissue initially forming a polypoid intraluminal lesion and progressively filling the lumen of the bronchiole. Constrictive bronchiolitis obliterans affects the larger bronchioles, which are destroyed by fibrosis. There is often a cellular chronic inflammatory infiltrate around the bronchioles. This is an irreversible process, and has a number of potential etiologies, including post infectious, autoimmune, transplant rejection/graft versus host disease, exposure to toxic fumes, and idiopathic.\n\nEzri T, Kunichezky S, Eliraz A, Soroker D, Halperin D, Schattner A. Bronchiolitis obliterans--current concepts. Q J Med. 1994 Jan;87(1):1-10. doi: 10.1093/oxfordjournals.qjmed.a068855. PMID: 8140211; PMCID: PMC7108655.",
+      "references": [],
+      "feedback_text": "Answer: B. Bronchiolitis obliterans\n\nHistology: The lesion in this case has a patchy distribution involving the small bronchioles, with fibrosis and an inflammatory infiltrate completely or near-completely occluding the lumen of the bronchioles. Large bronchioles and the background emphysematous lung parenchyma are unaffected by this process.\n\nDiscussion: Bronchiolitis obliterans is a rare disease in which the bronchioles of the lung are narrowed or completely destroyed (obliterated). Proliferative bronchiolitis obliterans destroys the respiratory bronchioles by connective tissue initially forming a polypoid intraluminal lesion and progressively filling the lumen of the bronchiole. Constrictive bronchiolitis obliterans affects the larger bronchioles, which are destroyed by fibrosis. There is often a cellular chronic inflammatory infiltrate around the bronchioles. This is an irreversible process, and has a number of potential etiologies, including post infectious, autoimmune, transplant rejection/graft versus host disease, exposure to toxic fumes, and idiopathic.\n\nEzri T, Kunichezky S, Eliraz A, Soroker D, Halperin D, Schattner A. Bronchiolitis obliterans--current concepts. Q J Med. 1994 Jan;87(1):1-10. doi: 10.1093/oxfordjournals.qjmed.a068855. PMID: 8140211; PMCID: PMC7108655.",
+      "feedback_html": "Answer: B. Bronchiolitis obliterans<p></p>\n<p>Histology: The lesion in this case has a patchy distribution involving the small bronchioles, with fibrosis and an inflammatory infiltrate completely or near-completely occluding the lumen of the bronchioles. Large bronchioles and the background emphysematous lung parenchyma are unaffected by this process.</p>\n<p>Discussion: Bronchiolitis obliterans is a rare disease in which the bronchioles of the lung are narrowed or completely destroyed (obliterated). Proliferative bronchiolitis obliterans destroys the respiratory bronchioles by connective tissue initially forming a polypoid intraluminal lesion and progressively filling the lumen of the bronchiole. Constrictive bronchiolitis obliterans affects the larger bronchioles, which are destroyed by fibrosis. There is often a cellular chronic inflammatory infiltrate around the bronchioles. This is an irreversible process, and has a number of potential etiologies, including post infectious, autoimmune, transplant rejection/graft versus host disease, exposure to toxic fumes, and idiopathic.</p>\n<p>Ezri T, Kunichezky S, Eliraz A, Soroker D, Halperin D, Schattner A. Bronchiolitis obliterans--current concepts. Q J Med. 1994 Jan;87(1):1-10. doi: 10.1093/oxfordjournals.qjmed.a068855. PMID: 8140211; PMCID: PMC7108655.\n</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:14:17.086Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w772c3",
+      "url": "https://sp.pathology.jhu.edu/week-772-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 772: Case 3",
+      "case_label": "Week 772: Case 3",
+      "attribution": "Presented by Dr. Ashley Cimino-Mathews and prepared by Dr. Katherine Fomchenko",
+      "vignette": "This case is a young adult male with a testis mass.",
+      "question_text": "Presented by Dr. Ashley Cimino-Mathews and prepared by Dr. Katherine Fomchenko\nThis case is a young adult male with a testis mass.",
+      "source_answer": "A. Seminoma",
+      "correct_answer": "Seminoma",
+      "canonical_answer": "Seminoma",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "A. Seminoma",
+        "B. Lymphoma",
+        "C. Spermatocytic tumor",
+        "D. Embryonal carcinoma"
+      ],
+      "choices": [
+        "Seminoma",
+        "Lymphoma",
+        "Spermatocytic tumor",
+        "Embryonal carcinoma"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/09/8354-1x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/09/8354-20x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/09/8354-tumor-to-normal.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/09/8354.svs-6238729747665323200712x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/09/8354.svs-602542091167521247007x.png"
+      ],
+      "histology": "The lesion is composed of nests of loosely cohesive cells with round to cuboidal nuclei, coarse chromatin, conspicuous nucleoli, and background chronic inflammation. The lesion is unencapsulated but relatively well circumscribed.",
+      "discussion": "Seminomas are the most common malignant germ cell tumor of the testis and most frequently occur in young adult males, but they do have a bimodal age distribution. The neoplastic cells are often accompanied by a lymphoplasmacytic infiltrate, as well as non-necrotizing granulomas. By immunohistochemistry, the neoplastic seminoma cells label for OCT 3/4, and are negative for hematolymphoid markers and cytokeratins. Like seminoma, diffuse large B cell lymphoma cells are also loosely cohesive, but they are negative for OCT 3/4 and instead label for CD45 (pan-lymphoid) and CD20 (B-cell lineage). Embryonal carcinoma, another type of malignant germ cell tumor, is histologically high-grade and labels for cytokeratins and CD30. Finally, spermatocytic tumors (formerly, spermatocytic seminomas) are composed of three different cell types (small, intermediate, and giant cells) and have a benign clinical course.\n\nWilliamson SR, Delahunt B, Magi-Galluzzi C, Algaba F, Egevad L, Ulbright TM, Tickoo SK, Srigley JR, Epstein JI, Berney DM; Members of the ISUP Testicular Tumour Panel. The World Health Organization 2016 classification of testicular germ cell tumours: a review and update from the International Society of Urological Pathology Testis Consultation Panel. Histopathology. 2017 Feb;70(3):335-346. doi: 10.1111/his.13102. Epub 2016 Dec 14. PMID: 27747907.\n\nMoch H, Cubilla AL, Humphrey PA, Reuter VE, Ulbright TM. The 2016 WHO Classification of Tumours of the Urinary System and Male Genital Organs-Part A: Renal, Penile, and Testicular Tumours. Eur Urol. 2016 Jul;70(1):93-105. doi: 10.1016/j.eururo.2016.02.029. Epub 2016 Feb 28. PMID: 26935559.",
+      "references": [],
+      "feedback_text": "Answer: A. Seminoma\n\nHistology: The lesion is composed of nests of loosely cohesive cells with round to cuboidal nuclei, coarse chromatin, conspicuous nucleoli, and background chronic inflammation. The lesion is unencapsulated but relatively well circumscribed.\n\nDiscussion: Seminomas are the most common malignant germ cell tumor of the testis and most frequently occur in young adult males, but they do have a bimodal age distribution. The neoplastic cells are often accompanied by a lymphoplasmacytic infiltrate, as well as non-necrotizing granulomas. By immunohistochemistry, the neoplastic seminoma cells label for OCT 3/4, and are negative for hematolymphoid markers and cytokeratins. Like seminoma, diffuse large B cell lymphoma cells are also loosely cohesive, but they are negative for OCT 3/4 and instead label for CD45 (pan-lymphoid) and CD20 (B-cell lineage). Embryonal carcinoma, another type of malignant germ cell tumor, is histologically high-grade and labels for cytokeratins and CD30. Finally, spermatocytic tumors (formerly, spermatocytic seminomas) are composed of three different cell types (small, intermediate, and giant cells) and have a benign clinical course.\n\nWilliamson SR, Delahunt B, Magi-Galluzzi C, Algaba F, Egevad L, Ulbright TM, Tickoo SK, Srigley JR, Epstein JI, Berney DM; Members of the ISUP Testicular Tumour Panel. The World Health Organization 2016 classification of testicular germ cell tumours: a review and update from the International Society of Urological Pathology Testis Consultation Panel. Histopathology. 2017 Feb;70(3):335-346. doi: 10.1111/his.13102. Epub 2016 Dec 14. PMID: 27747907.\n\nMoch H, Cubilla AL, Humphrey PA, Reuter VE, Ulbright TM. The 2016 WHO Classification of Tumours of the Urinary System and Male Genital Organs-Part A: Renal, Penile, and Testicular Tumours. Eur Urol. 2016 Jul;70(1):93-105. doi: 10.1016/j.eururo.2016.02.029. Epub 2016 Feb 28. PMID: 26935559.",
+      "feedback_html": "Answer: A. Seminoma <p></p>\n<p>Histology: The lesion is composed of nests of loosely cohesive cells with round to cuboidal nuclei, coarse chromatin, conspicuous nucleoli, and background chronic inflammation. The lesion is unencapsulated but relatively well circumscribed.  </p>\n<p>Discussion: Seminomas are the most common malignant germ cell tumor of the testis and most frequently occur in young adult males, but they do have a bimodal age distribution. The neoplastic cells are often accompanied by a lymphoplasmacytic infiltrate, as well as non-necrotizing granulomas. By immunohistochemistry, the neoplastic seminoma cells label for OCT 3/4, and are negative for hematolymphoid markers and cytokeratins. Like seminoma, diffuse large B cell lymphoma cells are also loosely cohesive, but they are negative for OCT 3/4 and instead label for CD45 (pan-lymphoid) and CD20 (B-cell lineage).  Embryonal carcinoma, another type of malignant germ cell tumor, is histologically high-grade and labels for cytokeratins and CD30. Finally, spermatocytic tumors (formerly, spermatocytic seminomas) are composed of three different cell types (small, intermediate, and giant cells) and have a benign clinical course. </p>\n<p>Williamson SR, Delahunt B, Magi-Galluzzi C, Algaba F, Egevad L, Ulbright TM, Tickoo SK, Srigley JR, Epstein JI, Berney DM; Members of the ISUP Testicular Tumour Panel. The World Health Organization 2016 classification of testicular germ cell tumours: a review and update from the International Society of Urological Pathology Testis Consultation Panel. Histopathology. 2017 Feb;70(3):335-346. doi: 10.1111/his.13102. Epub 2016 Dec 14. PMID: 27747907. </p>\n<p>Moch H, Cubilla AL, Humphrey PA, Reuter VE, Ulbright TM. The 2016 WHO Classification of Tumours of the Urinary System and Male Genital Organs-Part A: Renal, Penile, and Testicular Tumours. Eur Urol. 2016 Jul;70(1):93-105. doi: 10.1016/j.eururo.2016.02.029. Epub 2016 Feb 28. PMID: 26935559. </p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:14:26.401Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w772c2",
+      "url": "https://sp.pathology.jhu.edu/week-772-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 772: Case 2",
+      "case_label": "Week 772: Case 2",
+      "attribution": "Presented by Dr. Ashley Cimino-Mathews and prepared by Dr. Katherine Fomchenko",
+      "vignette": "This case is a middle-aged female with a breast mass.",
+      "question_text": "Presented by Dr. Ashley Cimino-Mathews and prepared by Dr. Katherine Fomchenko\nThis case is a middle-aged female with a breast mass.",
+      "source_answer": "D. Angiosarcoma",
+      "correct_answer": "Angiosarcoma",
+      "canonical_answer": "Angiosarcoma",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "A. Angiolipoma",
+        "B. Cavernous hemangioma",
+        "C. Metaplastic carcinoma",
+        "D. Angiosarcoma",
+        "E. Atypical vascular lesion"
+      ],
+      "choices": [
+        "Angiolipoma",
+        "Cavernous hemangioma",
+        "Metaplastic carcinoma",
+        "Angiosarcoma",
+        "Atypical vascular lesion"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/09/8352-1x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/09/8352-40x-2.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/09/8352-40x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/09/8352-blood-lake.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/09/8352.svs-1725853130212365520412x.png"
+      ],
+      "histology": "The lesion is an infiltrative neoplasm composed of a vascular proliferation with anastomosing vessels, blood lakes, nuclear atypia and endothelial mitotic activity. Vascular spaces infiltrate irregularly through fat and around and through breast terminal duct lobular units.",
+      "discussion": "Angiosarcoma is a malignant vascular neoplasm. There are broadly to types of angiosarcoma in the breast: primary angiosarcoma and secondary (post-radiation) sarcoma. Primary angiosarcomas of the breast typically present as breast masses in pre-menopausal females, and the lesions are generally centered in the breast parenchyma. Secondary, or post-radiation, angiosarcomas of the breast typically present as skin changes in post-menopausal females approximately 7-10 years after breast radiation, and the lesions are generally centered in the dermis. Primary and secondary angiosarcomas of the breast may be widely infiltrative, and although the mainstay of treatment is complete surgical resection with widely clear margins, they frequently recur and cause significant morbidity and mortality.\n\nThe differential diagnosis of angiosarcoma includes benign vascular proliferations and other spindle cell lesions of the breast such as metaplastic carcinoma. Unlike atypical vascular lesions and hemangiomas, angiosarcomas display nuclear atypia, endothelial cell multilayering, mitotic activity, and infiltrative growth. Immunohistochemical stains can be used to classify spindle cell lesions of the breast. Angiosarcomas will label for markers used for endothelial differentiation, such as CD34, CD31, and ERG. Unlike breast carcinomas, angiosarcomas are typically negative for cytokeratins.\n\nEsposito E, Avino F, di Giacomo R, Donzelli I, Marone U, Melucci MT, Rinaldo C, Ruffolo F, Saponara R, Siani C, Tortoriello R, Botti G, Rinaldo M, Fucito A. Angiosarcoma of the breast, the unknown-a review of the current literature. Transl Cancer Res. 2019 Oct;8(Suppl 5):S510-S517. doi: 10.21037/tcr.2019.07.38. PMID: 35117129; PMCID: PMC8798946.",
+      "references": [],
+      "feedback_text": "Answer: D. Angiosarcoma\n\nHistology: The lesion is an infiltrative neoplasm composed of a vascular proliferation with anastomosing vessels, blood lakes, nuclear atypia and endothelial mitotic activity. Vascular spaces infiltrate irregularly through fat and around and through breast terminal duct lobular units.\n\nDiscussion: Angiosarcoma is a malignant vascular neoplasm. There are broadly to types of angiosarcoma in the breast: primary angiosarcoma and secondary (post-radiation) sarcoma. Primary angiosarcomas of the breast typically present as breast masses in pre-menopausal females, and the lesions are generally centered in the breast parenchyma. Secondary, or post-radiation, angiosarcomas of the breast typically present as skin changes in post-menopausal females approximately 7-10 years after breast radiation, and the lesions are generally centered in the dermis. Primary and secondary angiosarcomas of the breast may be widely infiltrative, and although the mainstay of treatment is complete surgical resection with widely clear margins, they frequently recur and cause significant morbidity and mortality.\n\nThe differential diagnosis of angiosarcoma includes benign vascular proliferations and other spindle cell lesions of the breast such as metaplastic carcinoma. Unlike atypical vascular lesions and hemangiomas, angiosarcomas display nuclear atypia, endothelial cell multilayering, mitotic activity, and infiltrative growth. Immunohistochemical stains can be used to classify spindle cell lesions of the breast. Angiosarcomas will label for markers used for endothelial differentiation, such as CD34, CD31, and ERG. Unlike breast carcinomas, angiosarcomas are typically negative for cytokeratins.\n\nEsposito E, Avino F, di Giacomo R, Donzelli I, Marone U, Melucci MT, Rinaldo C, Ruffolo F, Saponara R, Siani C, Tortoriello R, Botti G, Rinaldo M, Fucito A. Angiosarcoma of the breast, the unknown-a review of the current literature. Transl Cancer Res. 2019 Oct;8(Suppl 5):S510-S517. doi: 10.21037/tcr.2019.07.38. PMID: 35117129; PMCID: PMC8798946.",
+      "feedback_html": "Answer: D. Angiosarcoma <p></p>\n<p>Histology: The lesion is an infiltrative neoplasm composed of a vascular proliferation with anastomosing vessels, blood lakes, nuclear atypia and endothelial mitotic activity. Vascular spaces infiltrate irregularly through fat and around and through breast terminal duct lobular units. </p>\n<p>Discussion: Angiosarcoma is a malignant vascular neoplasm. There are broadly to types of angiosarcoma in the breast: primary angiosarcoma and secondary (post-radiation) sarcoma. Primary angiosarcomas of the breast typically present as breast masses in pre-menopausal females, and the lesions are generally centered in the breast parenchyma. Secondary, or post-radiation, angiosarcomas of the breast typically present as skin changes in post-menopausal females approximately 7-10 years after breast radiation, and the lesions are generally centered in the dermis. Primary and secondary angiosarcomas of the breast may be widely infiltrative, and although the mainstay of treatment is complete surgical resection with widely clear margins, they frequently recur and cause significant morbidity and mortality. </p>\n<p>The differential diagnosis of angiosarcoma includes benign vascular proliferations and other spindle cell lesions of the breast such as metaplastic carcinoma. Unlike atypical vascular lesions and hemangiomas, angiosarcomas display nuclear atypia, endothelial cell multilayering, mitotic activity, and infiltrative growth. Immunohistochemical stains can be used to classify spindle cell lesions of the breast. Angiosarcomas will label for markers used for endothelial differentiation, such as CD34, CD31, and ERG. Unlike breast carcinomas, angiosarcomas are typically negative for cytokeratins.  </p>\n<p>Esposito E, Avino F, di Giacomo R, Donzelli I, Marone U, Melucci MT, Rinaldo C, Ruffolo F, Saponara R, Siani C, Tortoriello R, Botti G, Rinaldo M, Fucito A. Angiosarcoma of the breast, the unknown-a review of the current literature. Transl Cancer Res. 2019 Oct;8(Suppl 5):S510-S517. doi: 10.21037/tcr.2019.07.38. PMID: 35117129; PMCID: PMC8798946. </p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:14:37.253Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w772c1",
+      "url": "https://sp.pathology.jhu.edu/week-772-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 772: Case 1",
+      "case_label": "Week 772: Case 1",
+      "attribution": "Presented by Dr. Ashley Cimino-Mathews and prepared by Dr. Katherine Fomchenko",
+      "vignette": "This case is an elderly female with a parotid mass. There is no known history of malignancy, and a previous biopsy was benign.",
+      "question_text": "Presented by Dr. Ashley Cimino-Mathews and prepared by Dr. Katherine Fomchenko\nThis case is an elderly female with a parotid mass. There is no known history of malignancy, and a previous biopsy was benign.",
+      "source_answer": "A. Traumatic neuroma",
+      "correct_answer": "Traumatic neuroma",
+      "canonical_answer": "Traumatic neuroma",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "A. Traumatic neuroma",
+        "B. Schwannoma",
+        "C. Neurofibroma",
+        "D. Scar"
+      ],
+      "choices": [
+        "Traumatic neuroma",
+        "Schwannoma",
+        "Neurofibroma",
+        "Scar"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/09/8349.-1x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/09/8349-2x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/09/8349-10x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/09/8349-capsule.png"
+      ],
+      "histology": "The lesion consists of a disorganized proliferation of peripheral nerve bundles with intervening scar tissue. The nerve fibers form irregular clusters with intervening fibrous scar. The lesion is relatively well-circumscribed but not encapsulated, with surrounding skeletal muscle.",
+      "discussion": "Traumatic neuromas are non-neoplastic lesions that develop in the setting of previous trauma to an area, usually in the form of a prior biopsy or procedure at the site of the lesion. The lesion contains both axonal cells and Schwann cells. In contrast, a Schwannoma is a benign peripheral nerve sheath tumor composed entirely of Schwann cells, is encapsulated, has hyalinization of blood vessels, and has hypocellular (Antoni A) and hypercellular (Antoni B) areas. Neurofibromas are a benign peripheral nerve sheath tumor composed of all components of the nerve sheath, with spindled cells, hyalinized stroma, and mast cells.\n\nZabaglo M, Dreyer MA. Neuroma. 2022 Jan 9. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2022 Jan\". PMID: 31751028.\n\nAlotaiby FM, Fitzpatrick S, Upadhyaya J, Islam MN, Cohen D, Bhattacharyya I. Demographic, Clinical and Histopathological Features of Oral Neural Neoplasms: A Retrospective Study. Head Neck Pathol. 2019 Jun;13(2):208-214. doi: 10.1007/s12105-018-0943-1. Epub 2018 Jun 21. PMID: 29931661; PMCID: PMC6513954.",
+      "references": [],
+      "feedback_text": "Answer: A. Traumatic Neuroma\n\nHistology: The lesion consists of a disorganized proliferation of peripheral nerve bundles with intervening scar tissue. The nerve fibers form irregular clusters with intervening fibrous scar. The lesion is relatively well-circumscribed but not encapsulated, with surrounding skeletal muscle.\n\nDiscussion: Traumatic neuromas are non-neoplastic lesions that develop in the setting of previous trauma to an area, usually in the form of a prior biopsy or procedure at the site of the lesion. The lesion contains both axonal cells and Schwann cells. In contrast, a Schwannoma is a benign peripheral nerve sheath tumor composed entirely of Schwann cells, is encapsulated, has hyalinization of blood vessels, and has hypocellular (Antoni A) and hypercellular (Antoni B) areas. Neurofibromas are a benign peripheral nerve sheath tumor composed of all components of the nerve sheath, with spindled cells, hyalinized stroma, and mast cells.\n\nZabaglo M, Dreyer MA. Neuroma. 2022 Jan 9. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2022 Jan\". PMID: 31751028.\n\nAlotaiby FM, Fitzpatrick S, Upadhyaya J, Islam MN, Cohen D, Bhattacharyya I. Demographic, Clinical and Histopathological Features of Oral Neural Neoplasms: A Retrospective Study. Head Neck Pathol. 2019 Jun;13(2):208-214. doi: 10.1007/s12105-018-0943-1. Epub 2018 Jun 21. PMID: 29931661; PMCID: PMC6513954.",
+      "feedback_html": "Answer: A. Traumatic Neuroma <p></p>\n<p>Histology: The lesion consists of a disorganized proliferation of peripheral nerve bundles with intervening scar tissue. The nerve fibers form irregular clusters with intervening fibrous scar. The lesion is relatively well-circumscribed but not encapsulated, with surrounding skeletal muscle. </p>\n<p>Discussion: Traumatic neuromas are non-neoplastic lesions that develop in the setting of previous trauma to an area, usually in the form of a prior biopsy or procedure at the site of the lesion. The lesion contains both axonal cells and Schwann cells. In contrast, a Schwannoma is a benign peripheral nerve sheath tumor composed entirely of Schwann cells, is encapsulated, has hyalinization of blood vessels, and has hypocellular (Antoni A) and hypercellular (Antoni B) areas. Neurofibromas are a benign peripheral nerve sheath tumor composed of all components of the nerve sheath, with spindled cells, hyalinized stroma, and mast cells.  </p>\n<p> Zabaglo M, Dreyer MA. Neuroma. 2022 Jan 9. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2022 Jan\". PMID: 31751028. </p>\n<p>Alotaiby FM, Fitzpatrick S, Upadhyaya J, Islam MN, Cohen D, Bhattacharyya I. Demographic, Clinical and Histopathological Features of Oral Neural Neoplasms: A Retrospective Study. Head Neck Pathol. 2019 Jun;13(2):208-214. doi: 10.1007/s12105-018-0943-1. Epub 2018 Jun 21. PMID: 29931661; PMCID: PMC6513954. </p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:14:46.738Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w771c3",
+      "url": "https://sp.pathology.jhu.edu/week-771-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 771: Case 3",
+      "case_label": "Week 771: Case 3",
+      "attribution": "Presented by Dr. Andres Matoso and prepared by Dr. Katherine Fomchenko.",
+      "vignette": "This case is an adult female with a renal mass.",
+      "question_text": "Presented by Dr. Andres Matoso and prepared by Dr. Katherine Fomchenko.\nThis case is an adult female with a renal mass.",
+      "source_answer": "C. Renal carcinoid tumor",
+      "correct_answer": "Renal carcinoid tumor",
+      "canonical_answer": "Renal carcinoid tumor",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "A. Succinate dehydrogenase-deficient renal cell carcinoma",
+        "B. Renal oncocytoma",
+        "C. Renal carcinoid tumor",
+        "D. Chromophobe renal cell carcinoma"
+      ],
+      "choices": [
+        "Succinate dehydrogenase-deficient renal cell carcinoma",
+        "Renal oncocytoma",
+        "Renal carcinoid tumor",
+        "Chromophobe renal cell carcinoma"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/09/8374-1x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/09/8374-closeup-tumor.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/09/8374-capsule-infiltration.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/09/8374-tumor-to-uninvolved.png"
+      ],
+      "histology": "The lesion is a generally well-defined nodule within the kidney with focal areas of infiltrative growth at the edge of the nodule. The monotonous neoplastic cells have a nested and trabecular growth pattern and nuclei with finely speckled \"salt and pepper\" chromatin typical of neuroendocrine neoplasms.",
+      "discussion": "Neuroendocrine neoplasms of the kidney are rare tumor that can behave more aggressively than carcinoid tumors originating from other sites, with a high rate of recurrence at the site of resection and metastasis to other sites. In one case study of this entity, 24% of patients with this tumor had a horseshoe kidney. Immunostains for neuroendocrine markers such as synaptophysin and chromogranin A will be positive. Case reports of the tumor show that many express somatostatin receptors, raising the possibility of using somatostatin analogues as an adjuvant treatment.\n\nHansel DE, Epstein JI, Berbescu E, Fine SW, Young RH, Cheville JC.. Renal?carcinoid?tumor: a clinicopathologic study of 21 cases. Am J Surg Pathol. 2007 Oct;31(10):1539-44\n\nMcGarrah PW, Westin GFM, Hobday TJ, Scales JA, Ingimarsson JP, Leibovich BC, Halfdanarson TR. Renal Neuroendocrine Neoplasms: A Single-center Experience. Clin Genitourin Cancer. 2020 Aug;18(4):e343-e349. doi: 10.1016/j.clgc.2019.11.003. Epub 2019 Dec 5. PMID: 31911122.",
+      "references": [],
+      "feedback_text": "Answer: C. Renal carcinoid tumor\n\nHistology: The lesion is a generally well-defined nodule within the kidney with focal areas of infiltrative growth at the edge of the nodule. The monotonous neoplastic cells have a nested and trabecular growth pattern and nuclei with finely speckled \"salt and pepper\" chromatin typical of neuroendocrine neoplasms.\n\nDiscussion: Neuroendocrine neoplasms of the kidney are rare tumor that can behave more aggressively than carcinoid tumors originating from other sites, with a high rate of recurrence at the site of resection and metastasis to other sites. In one case study of this entity, 24% of patients with this tumor had a horseshoe kidney. Immunostains for neuroendocrine markers such as synaptophysin and chromogranin A will be positive. Case reports of the tumor show that many express somatostatin receptors, raising the possibility of using somatostatin analogues as an adjuvant treatment.\n\nHansel DE, Epstein JI, Berbescu E, Fine SW, Young RH, Cheville JC.. Renal?carcinoid?tumor: a clinicopathologic study of 21 cases. Am J Surg Pathol. 2007 Oct;31(10):1539-44\n\nMcGarrah PW, Westin GFM, Hobday TJ, Scales JA, Ingimarsson JP, Leibovich BC, Halfdanarson TR. Renal Neuroendocrine Neoplasms: A Single-center Experience. Clin Genitourin Cancer. 2020 Aug;18(4):e343-e349. doi: 10.1016/j.clgc.2019.11.003. Epub 2019 Dec 5. PMID: 31911122.",
+      "feedback_html": "Answer: C. Renal carcinoid tumor <p></p>\n<p>Histology: The lesion is a generally well-defined nodule within the kidney with focal areas of infiltrative growth at the edge of the nodule. The monotonous neoplastic cells have a nested and trabecular growth pattern and nuclei with finely speckled \"salt and pepper\" chromatin typical of neuroendocrine neoplasms. </p>\n<p>Discussion: Neuroendocrine neoplasms of the kidney are rare tumor that can behave more aggressively than carcinoid tumors originating from other sites, with a high rate of recurrence at the site of resection and metastasis to other sites. In one case study of this entity, 24% of patients with this tumor had a horseshoe kidney. Immunostains for neuroendocrine markers such as synaptophysin and chromogranin A will be positive. Case reports of the tumor show that many express somatostatin receptors, raising the possibility of using somatostatin analogues as an adjuvant treatment. </p>\n<p>Hansel DE, Epstein JI, Berbescu E, Fine SW, Young RH, Cheville JC.. Renal?carcinoid?tumor: a clinicopathologic study of 21 cases. Am J Surg Pathol. 2007 Oct;31(10):1539-44 </p>\n<p>McGarrah PW, Westin GFM, Hobday TJ, Scales JA, Ingimarsson JP, Leibovich BC, Halfdanarson TR. Renal Neuroendocrine Neoplasms: A Single-center Experience. Clin Genitourin Cancer. 2020 Aug;18(4):e343-e349. doi: 10.1016/j.clgc.2019.11.003. Epub 2019 Dec 5. PMID: 31911122. </p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:14:56.100Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w771c2",
+      "url": "https://sp.pathology.jhu.edu/week-771-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 771: Case 2",
+      "case_label": "Week 771: Case 2",
+      "attribution": "Presented by Dr. Andres Matoso and prepared by Dr. Katherine Fomchenko.",
+      "vignette": "This case is a middle-aged female with a bladder mass.",
+      "question_text": "Presented by Dr. Andres Matoso and prepared by Dr. Katherine Fomchenko.\nThis case is a middle-aged female with a bladder mass.",
+      "source_answer": "B. Squamous Cell Carcinoma",
+      "correct_answer": "Squamous Cell Carcinoma",
+      "canonical_answer": "Squamous Cell Carcinoma",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Urothelial carcinoma",
+        "B. Squamous Cell Carcinoma",
+        "C. Papillary Urothelial Neoplasm of Low Malignant Potential",
+        "D. Nephrogenic adenoma"
+      ],
+      "choices": [
+        "Urothelial carcinoma",
+        "Squamous Cell Carcinoma",
+        "Papillary Urothelial Neoplasm of Low Malignant Potential",
+        "Nephrogenic adenoma"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/09/8376-1x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/09/8376-caut-b9-uro-over-cancer.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/09/8376-addl-tumor.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/09/8376-19x-tumor-cells.png"
+      ],
+      "histology": "The lesion is composed of an invasive neoplasm composed of sheets and nests of cells with pleomorphic nuclei invading into the detrusor muscle. Nuclei have prominent, sometimes multiple nucleoli with focal nuclear molding and a high nuclear to cytoplasmic ratio. There is also prominent lymphovascular invasion and focal necrosis. Of note, there are areas of benign urothelium overlying the invasive carcinoma.",
+      "discussion": "This lesion is a metastatic HPV-related squamous cell carcinoma from the cervix involving the bladder. Most primary squamous cell carcinomas of the bladder occur in the context of squamous metaplasia from a process causing chronic irritation, such as schistosomiasis. Primary squamous cell carcinoma is rare and more difficult to treat than urothelial carcinoma, as it is typically resistant to chemotherapy. Urothelial carcinoma can exhibit squamous features, which may be associated with a more aggressive and treatment resistant course. The basaloid appearance of the tumor, along with its location undermining benign urothelium, are suggestive of a carcinoma from another site that is involving the bladder as a metastasis or direct extension. In women, HPV-related basaloid squamous cell carcinoma is most commonly an extension from the gynecologic tract.\n\nDotson A, May A, Davaro F, Raza SJ, Siddiqui S, Hamilton Z. Squamous cell carcinoma of the bladder: poor response to neoadjuvant chemotherapy. Int J Clin Oncol. 2019 Jun;24(6):706-711. doi: 10.1007/s10147-019-01409-x. Epub 2019 Feb 1. PMID: 30707342.\n\nClark PE. Urothelial carcinoma with squamous differentiation: response to chemotherapy and radiation. Urol Oncol. 2015 Oct;33(10):434-6. doi: 10.1016/j.urolonc.2015.06.019. Epub 2015 Aug 14. PMID: 26278365.",
+      "references": [],
+      "feedback_text": "Answer: B. Squamous Cell Carcinoma\n\nHistology: The lesion is composed of an invasive neoplasm composed of sheets and nests of cells with pleomorphic nuclei invading into the detrusor muscle. Nuclei have prominent, sometimes multiple nucleoli with focal nuclear molding and a high nuclear to cytoplasmic ratio. There is also prominent lymphovascular invasion and focal necrosis. Of note, there are areas of benign urothelium overlying the invasive carcinoma.\n\nDiscussion: This lesion is a metastatic HPV-related squamous cell carcinoma from the cervix involving the bladder. Most primary squamous cell carcinomas of the bladder occur in the context of squamous metaplasia from a process causing chronic irritation, such as schistosomiasis. Primary squamous cell carcinoma is rare and more difficult to treat than urothelial carcinoma, as it is typically resistant to chemotherapy. Urothelial carcinoma can exhibit squamous features, which may be associated with a more aggressive and treatment resistant course. The basaloid appearance of the tumor, along with its location undermining benign urothelium, are suggestive of a carcinoma from another site that is involving the bladder as a metastasis or direct extension. In women, HPV-related basaloid squamous cell carcinoma is most commonly an extension from the gynecologic tract.\n\nDotson A, May A, Davaro F, Raza SJ, Siddiqui S, Hamilton Z. Squamous cell carcinoma of the bladder: poor response to neoadjuvant chemotherapy. Int J Clin Oncol. 2019 Jun;24(6):706-711. doi: 10.1007/s10147-019-01409-x. Epub 2019 Feb 1. PMID: 30707342.\n\nClark PE. Urothelial carcinoma with squamous differentiation: response to chemotherapy and radiation. Urol Oncol. 2015 Oct;33(10):434-6. doi: 10.1016/j.urolonc.2015.06.019. Epub 2015 Aug 14. PMID: 26278365.",
+      "feedback_html": "Answer: B. Squamous Cell Carcinoma <p></p>\n<p>Histology: The lesion is composed of an invasive neoplasm composed of sheets and nests of cells with pleomorphic nuclei invading into the detrusor muscle. Nuclei have prominent, sometimes multiple nucleoli with focal nuclear molding and a high nuclear to cytoplasmic ratio. There is also prominent lymphovascular invasion and focal necrosis. Of note, there are areas of benign urothelium overlying the invasive carcinoma.  </p>\n<p>Discussion: This lesion is a metastatic HPV-related squamous cell carcinoma from the cervix involving the bladder. Most primary squamous cell carcinomas of the bladder occur in the context of squamous metaplasia from a process causing chronic irritation, such as schistosomiasis. Primary squamous cell carcinoma is rare and more difficult to treat than urothelial carcinoma, as it is typically resistant to chemotherapy. Urothelial carcinoma can exhibit squamous features, which may be associated with a more aggressive and treatment resistant course. The basaloid appearance of the tumor, along with its location undermining benign urothelium, are suggestive of a carcinoma from another site that is involving the bladder as a metastasis or direct extension. In women, HPV-related basaloid squamous cell carcinoma is most commonly an extension from the gynecologic tract.  </p>\n<p>Dotson A, May A, Davaro F, Raza SJ, Siddiqui S, Hamilton Z. Squamous cell carcinoma of the bladder: poor response to neoadjuvant chemotherapy. Int J Clin Oncol. 2019 Jun;24(6):706-711. doi: 10.1007/s10147-019-01409-x. Epub 2019 Feb 1. PMID: 30707342. </p>\n<p>Clark PE. Urothelial carcinoma with squamous differentiation: response to chemotherapy and radiation. Urol Oncol. 2015 Oct;33(10):434-6. doi: 10.1016/j.urolonc.2015.06.019. Epub 2015 Aug 14. PMID: 26278365. </p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:15:06.232Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w771c1",
+      "url": "https://sp.pathology.jhu.edu/week-771-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 771: Case 1",
+      "case_label": "Week 771: Case 1",
+      "attribution": "Presented by Dr. Andres Matoso and and prepared by Dr. Katherine Fomchenko",
+      "vignette": "This case is an adult male with a urethral mass.",
+      "question_text": "Presented by Dr. Andres Matoso and and prepared by Dr. Katherine Fomchenko\nThis case is an adult male with a urethral mass.",
+      "source_answer": "D. Condyloma",
+      "correct_answer": "Condyloma",
+      "canonical_answer": "Condyloma",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "A. Urothelial carcinoma",
+        "B. Squamous cell carcinoma",
+        "C. Acrochordon",
+        "D. Condyloma"
+      ],
+      "choices": [
+        "Urothelial carcinoma",
+        "Squamous cell carcinoma",
+        "Acrochordon",
+        "Condyloma"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/09/8371-1x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/09/8371-lsil-papillary.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/09/8371-lsil.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/09/8371-papillary.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/09/8371-nuc-atypia.png"
+      ],
+      "histology": "The lesion consists of an exophytic appearing squamous cell proliferation composed of papillary projections with fibrovascular cores. The squamous epithelium shows moderate nuclear atypia and koilocytic changes.",
+      "discussion": "Condyloma accuminata is an HPV-related sexually transmitted infection causing a wart-like lesion arising in the squamous mucosa of the genital area. The distal penile urethra, specifically the fossa navicularis, is lined by a non-keratinizing squamous epithelium, allowing the urethral meatus and distal urethra to be involved by these lesions. Lesions at this site are uncommon, and can be asymptomatic or cause symptoms of dysuria. HPV 6 and 11 commonly cause genital warts but do not commonly progress to HPV related neoplastic lesions like HPV 16 and 18. Immunostains for p16 will show diffuse, block like positivity. Unlike a carcinoma, the lesion is benign and will not have any features of invasion.\n\nVives \", Vazquez A, Rajmil O, Cosentino M. Urethral condylomas in men: experience in 123 patients without previous treatment. Int J STD AIDS. 2016 Jan;27(1):39-43. doi: 10.1177/0956462415574627. Epub 2015 Feb 22. PMID: 25712107.\n\nHolstein AF, Davidoff MS, Breucker H, Countouris N, Orlandini G. Different epithelia in the distal human male urethra. Cell Tissue Res. 1991 Apr;264(1):23-32. doi: 10.1007/BF00305719. PMID: 2054843.",
+      "references": [],
+      "feedback_text": "Answer: D. Condyloma\n\nHistology: The lesion consists of an exophytic appearing squamous cell proliferation composed of papillary projections with fibrovascular cores. The squamous epithelium shows moderate nuclear atypia and koilocytic changes.\n\nDiscussion: Condyloma accuminata is an HPV-related sexually transmitted infection causing a wart-like lesion arising in the squamous mucosa of the genital area. The distal penile urethra, specifically the fossa navicularis, is lined by a non-keratinizing squamous epithelium, allowing the urethral meatus and distal urethra to be involved by these lesions. Lesions at this site are uncommon, and can be asymptomatic or cause symptoms of dysuria. HPV 6 and 11 commonly cause genital warts but do not commonly progress to HPV related neoplastic lesions like HPV 16 and 18. Immunostains for p16 will show diffuse, block like positivity. Unlike a carcinoma, the lesion is benign and will not have any features of invasion.\n\nVives \", Vazquez A, Rajmil O, Cosentino M. Urethral condylomas in men: experience in 123 patients without previous treatment. Int J STD AIDS. 2016 Jan;27(1):39-43. doi: 10.1177/0956462415574627. Epub 2015 Feb 22. PMID: 25712107.\n\nHolstein AF, Davidoff MS, Breucker H, Countouris N, Orlandini G. Different epithelia in the distal human male urethra. Cell Tissue Res. 1991 Apr;264(1):23-32. doi: 10.1007/BF00305719. PMID: 2054843.",
+      "feedback_html": "Answer: D. Condyloma <p></p>\n<p>Histology: The lesion consists of an exophytic appearing squamous cell proliferation composed of papillary projections with fibrovascular cores. The squamous epithelium shows moderate nuclear atypia and koilocytic changes. </p>\n<p>Discussion: Condyloma accuminata is an HPV-related sexually transmitted infection causing a wart-like lesion arising in the squamous mucosa of the genital area. The distal penile urethra, specifically the fossa navicularis, is lined by a non-keratinizing squamous epithelium, allowing the urethral meatus and distal urethra to be involved by these lesions. Lesions at this site are uncommon, and can be asymptomatic or cause symptoms of dysuria. HPV 6 and 11 commonly cause genital warts but do not commonly progress to HPV related neoplastic lesions like HPV 16 and 18. Immunostains for p16 will show diffuse, block like positivity. Unlike a carcinoma, the lesion is benign and will not have any features of invasion. </p>\n<p>Vives \", Vazquez A, Rajmil O, Cosentino M. Urethral condylomas in men: experience in 123 patients without previous treatment. Int J STD AIDS. 2016 Jan;27(1):39-43. doi: 10.1177/0956462415574627. Epub 2015 Feb 22. PMID: 25712107. </p>\n<p>Holstein AF, Davidoff MS, Breucker H, Countouris N, Orlandini G. Different epithelia in the distal human male urethra. Cell Tissue Res. 1991 Apr;264(1):23-32. doi: 10.1007/BF00305719. PMID: 2054843. </p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:15:15.552Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w770c3",
+      "url": "https://sp.pathology.jhu.edu/week-770-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 770: Case 3",
+      "case_label": "Week 770: Case 3",
+      "attribution": "Presented by Dr. Pedram Argani and prepared by Dr. Katherine Fomchenko",
+      "vignette": "This is an elderly male with a history of prostate cancer and an inguinal mass.",
+      "question_text": "Presented by Dr. Pedram Argani and prepared by Dr. Katherine Fomchenko\nThis is an elderly male with a history of prostate cancer and an inguinal mass.",
+      "source_answer": "C. Clear cell hidradenoma",
+      "correct_answer": "Clear cell hidradenoma",
+      "canonical_answer": "Clear cell hidradenoma",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "A. Metastatic urothelial carcinoma",
+        "B. Metastatic prostate adenocarcinoma",
+        "C. Clear cell hidradenoma",
+        "D. Invasive squamous cell carcinoma"
+      ],
+      "choices": [
+        "Metastatic urothelial carcinoma",
+        "Metastatic prostate adenocarcinoma",
+        "Clear cell hidradenoma",
+        "Invasive squamous cell carcinoma"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/08/8364-1x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/08/8364-papillary4x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/08/8364-lesion-1.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/08/8364-hyalinized-lesion.png"
+      ],
+      "histology": "This is a somewhat cystic lesion with solid and papillary architectures. The neoplastic cells closely resemble urothelium in that they have a transitional type appearance and are associated with flatted cells at the top which resemble urothelial umbrella cells. The stroma is hyalinized, and there is essentially no mitotic activity. These features are typical of clear cell hidradenoma, an adnexal neoplasm.",
+      "discussion": "Metastatic urothelial carcinoma would have a similar pattern but would demonstrate greater cytologic atypia and mitotic activity. This would be extremely unusual in the absence of a history of urothelial carcinoma. Given the patient\"s history of prostatic adenocarcinoma, a metastases from that tumor is a significant concern; however, the absence of immunoreactivity for prostatic markers like NKX3.1, as well as diffuse immunoreactivity for GATA3, excluded that possibility. Invasive squamous cell carcinoma would demonstrate keratinization as well as greater cytologic atypia and mitotic activity.\n\nRecently, clear cell hidradenomas have been shown to have the same gene fusion has been identified in mucoepidermoid carcinoma of salivary glands (CRTC1/3-MAML2).",
+      "references": [],
+      "feedback_text": "Answer: C. Clear cell hidradenoma\n\nHistologic Description: This is a somewhat cystic lesion with solid and papillary architectures. The neoplastic cells closely resemble urothelium in that they have a transitional type appearance and are associated with flatted cells at the top which resemble urothelial umbrella cells. The stroma is hyalinized, and there is essentially no mitotic activity. These features are typical of clear cell hidradenoma, an adnexal neoplasm.\n\nDifferential Diagnosis: Metastatic urothelial carcinoma would have a similar pattern but would demonstrate greater cytologic atypia and mitotic activity. This would be extremely unusual in the absence of a history of urothelial carcinoma. Given the patient\"s history of prostatic adenocarcinoma, a metastases from that tumor is a significant concern; however, the absence of immunoreactivity for prostatic markers like NKX3.1, as well as diffuse immunoreactivity for GATA3, excluded that possibility. Invasive squamous cell carcinoma would demonstrate keratinization as well as greater cytologic atypia and mitotic activity.\n\nRecently, clear cell hidradenomas have been shown to have the same gene fusion has been identified in mucoepidermoid carcinoma of salivary glands (CRTC1/3-MAML2).",
+      "feedback_html": "Answer: C. Clear cell hidradenoma <p></p>\n<p>Histologic Description:  This is a somewhat cystic lesion with solid and papillary architectures.  The neoplastic cells closely resemble urothelium in that they have a transitional type appearance and are associated with flatted cells at the top which resemble urothelial umbrella cells.  The stroma is hyalinized, and there is essentially no mitotic activity.  These features are typical of clear cell hidradenoma, an adnexal neoplasm. </p>\n<p>Differential Diagnosis:  Metastatic urothelial carcinoma would have a similar pattern but would demonstrate greater cytologic atypia and mitotic activity.  This would be extremely unusual in the absence of a history of urothelial carcinoma.  Given the patient\"s history of prostatic adenocarcinoma, a metastases from that tumor is a significant concern; however, the absence of immunoreactivity for prostatic markers like NKX3.1, as well as diffuse immunoreactivity for GATA3, excluded that possibility.  Invasive squamous cell carcinoma would demonstrate keratinization as well as greater cytologic atypia and mitotic activity.   </p>\n<p>Recently, clear cell hidradenomas have been shown to have the same gene fusion has been identified in mucoepidermoid carcinoma of salivary glands (CRTC1/3-MAML2).  </p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:15:24.937Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w770c2",
+      "url": "https://sp.pathology.jhu.edu/week-770-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 770: Case 2",
+      "case_label": "Week 770: Case 2",
+      "attribution": "Presented by Dr. Pedram Argani and prepared by Dr. Katherine Fomchenko",
+      "vignette": "This is a middle-aged female with a renal tumor.",
+      "question_text": "Presented by Dr. Pedram Argani and prepared by Dr. Katherine Fomchenko\nThis is a middle-aged female with a renal tumor.",
+      "source_answer": "B. Xp11 translocation carcinoma",
+      "correct_answer": "Xp11 translocation carcinoma",
+      "canonical_answer": "Xp11 translocation carcinoma",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Clear cell carcinoma",
+        "B. Xp11 translocation carcinoma",
+        "C. TCEB1 mutated renal cell carcinoma",
+        "D. Clear cell papillary carcinoma"
+      ],
+      "choices": [
+        "Clear cell carcinoma",
+        "Xp11 translocation carcinoma",
+        "TCEB1 mutated renal cell carcinoma",
+        "Clear cell papillary carcinoma"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8363-1x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8363-lesion.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8363-lesion-to-capillary.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8363-lesion-adjacent-capsule.png"
+      ],
+      "histology": "This is a clear cell neoplasm with a solid/nested architecture. The stroma is somewhat hyalinized, and there are associated psammoma bodies. In many areas, there are prominent subnuclear vacuoles. The neoplasm is essentially non-immunoreactive for carbonic anhydrase 9 (CA-IX) and cytokeratin 7, but demonstrates strong nuclear immunoreactivity for TFE3. This supports the diagnosis of Xp11 translocation renal cell carcinoma.",
+      "discussion": "Many areas of the neoplasm overlaps with clear cell carcinoma. One difference is that the stroma of clear cell RCC is typically more cellular and hypervascular than the hyalinized stroma of an Xp11 translocation RCC. The absence of CA-IX labeling and strong TFE3 labeling excludes clear cell RCC. TCEB1 mutated renal cell carcinomas also have extensive clear cells, and can overlap in areas with clear cell RCC. However, TCEB1-mutated RCCs typically have prominent smooth muscle stroma and branching arborizing papillary architecture. Clear cell papillary renal cell carcinoma atypically demonstrates subnuclear vacuoles, and may have a prominent tubular architecture. However, clear cell papillary RCC labels for both cytokeratin 7 and carbonic anhydrase 9, but not for TFE3.\n\nThis case illustrated the ability of Xp11 translocation RCC to demonstrate subnuclear vacuoles that mimic those of clear cell papillary RCC.",
+      "references": [],
+      "feedback_text": "Answer: B. Xp11 translocation carcinoma\n\nHistologic Description: This is a clear cell neoplasm with a solid/nested architecture. The stroma is somewhat hyalinized, and there are associated psammoma bodies. In many areas, there are prominent subnuclear vacuoles. The neoplasm is essentially non-immunoreactive for carbonic anhydrase 9 (CA-IX) and cytokeratin 7, but demonstrates strong nuclear immunoreactivity for TFE3. This supports the diagnosis of Xp11 translocation renal cell carcinoma.\n\nDifferential Diagnosis: Many areas of the neoplasm overlaps with clear cell carcinoma. One difference is that the stroma of clear cell RCC is typically more cellular and hypervascular than the hyalinized stroma of an Xp11 translocation RCC. The absence of CA-IX labeling and strong TFE3 labeling excludes clear cell RCC. TCEB1 mutated renal cell carcinomas also have extensive clear cells, and can overlap in areas with clear cell RCC. However, TCEB1-mutated RCCs typically have prominent smooth muscle stroma and branching arborizing papillary architecture. Clear cell papillary renal cell carcinoma atypically demonstrates subnuclear vacuoles, and may have a prominent tubular architecture. However, clear cell papillary RCC labels for both cytokeratin 7 and carbonic anhydrase 9, but not for TFE3.\n\nThis case illustrated the ability of Xp11 translocation RCC to demonstrate subnuclear vacuoles that mimic those of clear cell papillary RCC.",
+      "feedback_html": "Answer: B. Xp11 translocation carcinoma<p></p>\n<p>Histologic Description:  This is a clear cell neoplasm with a solid/nested architecture.  The stroma is somewhat hyalinized, and there are associated psammoma bodies.  In many areas, there are prominent subnuclear vacuoles.  The neoplasm is essentially non-immunoreactive for carbonic anhydrase 9 (CA-IX) and cytokeratin 7, but demonstrates strong nuclear immunoreactivity for TFE3.  This supports the diagnosis of Xp11 translocation renal cell carcinoma.</p>\n<p>Differential Diagnosis:  Many areas of the neoplasm overlaps with clear cell carcinoma.  One difference is that the stroma of clear cell RCC is typically more cellular and hypervascular than the hyalinized stroma of an Xp11 translocation RCC.  The absence of CA-IX labeling and strong TFE3 labeling excludes clear cell RCC.  TCEB1 mutated renal cell carcinomas also have extensive clear cells, and can overlap in areas with clear cell RCC.  However, TCEB1-mutated RCCs typically have prominent smooth muscle stroma and branching arborizing papillary architecture.  Clear cell papillary renal cell carcinoma atypically demonstrates subnuclear vacuoles, and may have a prominent tubular architecture.  However, clear cell papillary RCC labels for both cytokeratin 7 and carbonic anhydrase 9, but not for TFE3.<br>\nThis case illustrated the ability of Xp11 translocation RCC to demonstrate subnuclear vacuoles that mimic those of clear cell papillary RCC.\n</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:15:34.295Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w770c1",
+      "url": "https://sp.pathology.jhu.edu/week-770-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 770: Case 1",
+      "case_label": "Week 770: Case 1",
+      "attribution": "Presented by Dr. Pedram Argani and prepared by Dr. Katherine Fomchenko",
+      "vignette": "This is a middle-aged female with a breast mass.",
+      "question_text": "Presented by Dr. Pedram Argani and prepared by Dr. Katherine Fomchenko\nThis is a middle-aged female with a breast mass.",
+      "source_answer": "C. Malignant phyllodes tumor",
+      "correct_answer": "Malignant phyllodes tumor",
+      "canonical_answer": "Malignant phyllodes tumor",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "A. Metaplastic carcinoma",
+        "B. Mammary sarcoma",
+        "C. Malignant phyllodes tumor",
+        "D. Fibromatosis"
+      ],
+      "choices": [
+        "Metaplastic carcinoma",
+        "Mammary sarcoma",
+        "Malignant phyllodes tumor",
+        "Fibromatosis"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8358-1x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8358-lipomatous-differentiation.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8358-sarcomatoid-differentiation.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8358-lesion-edge.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8358-lesion-different-areas-2.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8358-lesion-different-areas.png"
+      ],
+      "histology": "The vast majority of this neoplasm consists of a nondescript high grade pleomorphic spindle cell sarcoma. The neoplastic cells demonstrate high mitotic activity including atypical mitoses, and extensive necrosis. Focally, after multiple additional sections were taken, a lower grade phyllodes tumor component with liposarcomatous differentiation was identified. This latter area was key to the diagnosis of malignant phyllodes tumor in this case, as the high grade spindle cell areas demonstrated no specific immunostaining.",
+      "discussion": "Metaplastic carcinoma would be expected to either demonstrate immunoreactivity for epithelial markers and or a carcinomatous component. A primary mammary sarcoma is a diagnosis of exclusion, since phyllodes tumors with stromal overgrowth overlap with primary mammary sarcomas. Fibromatosis would lack the pleomorphism, mitotic activity and necrosis of the current case.\n\nThis case highlights the utility of additional tissue sampling in characterizing high grade pleomorphic neoplasms. Multiple rounds of immunostains on a high grade anaplastic component are less useful than well taken additional sections.",
+      "references": [],
+      "feedback_text": "Answer: C. Malignant phyllodes tumor\n\nHistologic Description: The vast majority of this neoplasm consists of a nondescript high grade pleomorphic spindle cell sarcoma. The neoplastic cells demonstrate high mitotic activity including atypical mitoses, and extensive necrosis. Focally, after multiple additional sections were taken, a lower grade phyllodes tumor component with liposarcomatous differentiation was identified. This latter area was key to the diagnosis of malignant phyllodes tumor in this case, as the high grade spindle cell areas demonstrated no specific immunostaining.\n\nDifferential Diagnosis: Metaplastic carcinoma would be expected to either demonstrate immunoreactivity for epithelial markers and or a carcinomatous component. A primary mammary sarcoma is a diagnosis of exclusion, since phyllodes tumors with stromal overgrowth overlap with primary mammary sarcomas. Fibromatosis would lack the pleomorphism, mitotic activity and necrosis of the current case.\n\nThis case highlights the utility of additional tissue sampling in characterizing high grade pleomorphic neoplasms. Multiple rounds of immunostains on a high grade anaplastic component are less useful than well taken additional sections.",
+      "feedback_html": "Answer: C. Malignant phyllodes tumor <p></p>\n<p>Histologic Description:  The vast majority of this neoplasm consists of a nondescript high grade pleomorphic spindle cell sarcoma.  The neoplastic cells demonstrate high mitotic activity including atypical mitoses, and extensive necrosis.  Focally, after multiple additional sections were taken, a lower grade phyllodes tumor component with liposarcomatous differentiation was identified.  This latter area was key to the diagnosis of malignant phyllodes tumor in this case, as the high grade spindle cell areas demonstrated no specific immunostaining.   </p>\n<p>Differential Diagnosis:  Metaplastic carcinoma would be expected to either demonstrate immunoreactivity for epithelial markers and or a carcinomatous component.  A primary mammary sarcoma is a diagnosis of exclusion, since phyllodes tumors with stromal overgrowth overlap with primary mammary sarcomas.  Fibromatosis would lack the pleomorphism, mitotic activity and necrosis of the current case.   </p>\n<p>This case highlights the utility of additional tissue sampling in characterizing high grade pleomorphic neoplasms.  Multiple rounds of immunostains on a high grade anaplastic component are less useful than well taken additional sections.  </p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:15:45.353Z",
+      "extractor_version": "1.0.0"
+    }
+  ]
+}
