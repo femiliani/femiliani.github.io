@@ -1,0 +1,429 @@
+{
+  "case_start": 101,
+  "case_end": 110,
+  "case_count": 10,
+  "cases": [
+    {
+      "id": "w786c2",
+      "url": "https://sp.pathology.jhu.edu/week-786-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 786: Case 2",
+      "case_label": "Week 786: Case 2",
+      "attribution": "Case presented by Dr. Elizabeth Thompson and prepared by Dr. Eric Young.",
+      "vignette": "This is a 35-year-old female with clinically suspected appendicitis. Diagnosis?",
+      "question_text": "Case presented by Dr. Elizabeth Thompson and prepared by Dr. Eric Young.\nThis is a 35-year-old female with clinically suspected appendicitis.\nDiagnosis?",
+      "source_answer": "Mullerianosis/endometriosis",
+      "correct_answer": "Mullerianosis/endometriosis",
+      "canonical_answer": "Mullerianosis/endometriosis",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "Invasive adenocarcinoma",
+        "Mullerianosis/endometriosis",
+        "Chronic appendicitis",
+        "Fibrous obliteration of the appendix"
+      ],
+      "choices": [
+        "Invasive adenocarcinoma",
+        "Mullerianosis/endometriosis",
+        "Chronic appendicitis",
+        "Fibrous obliteration of the appendix"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/786_2.1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/786_2.2.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/786_2.3.png"
+      ],
+      "histology": "In this resection, we see a portion of appendix with submucosal adipose tissue, fibrous tissue, and benign appearing glands scattered throughout the muscularis propria. There are a number of vessels with hypertrophic smooth muscle. At high power, there are endometrioid glands with scant areas of endometrial type stroma, consistent with Mullerian-osis/endometriosis.\n\nIHC: (+) CD10 (stroma), PAX8, ER",
+      "discussion": "fibrous obliteration of the appendix, invasive adenocarcinoma (negative: ER)",
+      "references": [
+        {
+          "text": "Birkness J, Lam-Himlin D, Byrnes K, Wood L, Voltaggio L. The inverted appendix - a potentially problematic diagnosis: clinicopathologic analysis of 21 cases. Histopathology. 2019 May;74(6):853-860. doi: 10.1111/his.13824. Epub 2019 Mar 20. PMID: 30667075.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Histologic Description:\n\nIn this resection, we see a portion of appendix with submucosal adipose tissue, fibrous tissue, and benign appearing glands scattered throughout the muscularis propria. There are a number of vessels with hypertrophic smooth muscle. At high power, there are endometrioid glands with scant areas of endometrial type stroma, consistent with Mullerian-osis/endometriosis.\n\nIHC: (+) CD10 (stroma), PAX8, ER\n\nDifferential diagnosis:\n\nfibrous obliteration of the appendix, invasive adenocarcinoma (negative: ER)\n\nReference:\n\nBirkness J, Lam-Himlin D, Byrnes K, Wood L, Voltaggio L. The inverted appendix - a potentially problematic diagnosis: clinicopathologic analysis of 21 cases. Histopathology. 2019 May;74(6):853-860. doi: 10.1111/his.13824. Epub 2019 Mar 20. PMID: 30667075.",
+      "feedback_html": "Histologic Description:<p></p>\n<p>In this resection, we see a portion of appendix with submucosal adipose tissue, fibrous tissue, and benign appearing glands scattered throughout the muscularis propria. There are a number of vessels with hypertrophic smooth muscle. At high power, there are endometrioid glands with scant areas of endometrial type stroma, consistent with Mullerian-osis/endometriosis.</p>\n<p>IHC: (+) CD10 (stroma), PAX8, ER</p>\n<p>Differential diagnosis:</p>\n<p>fibrous obliteration of the appendix, invasive adenocarcinoma (negative: ER)</p>\n<p>Reference:</p>\n<p>Birkness J, Lam-Himlin D, Byrnes K, Wood L, Voltaggio L. The inverted appendix - a potentially problematic diagnosis: clinicopathologic analysis of 21 cases. Histopathology. 2019 May;74(6):853-860. doi: 10.1111/his.13824. Epub 2019 Mar 20. PMID: 30667075.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:07:45.207Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w786c1",
+      "url": "https://sp.pathology.jhu.edu/week-786-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 786: Case 1",
+      "case_label": "Week 786: Case 1",
+      "attribution": "Case presented by Dr. Elizabeth Thompson and prepared by Dr. Eric Young.",
+      "vignette": "This is a 25-year-old male with pancreas cysts. Diagnosis?",
+      "question_text": "Case presented by Dr. Elizabeth Thompson and prepared by Dr. Eric Young.\nThis is a 25-year-old male with pancreas cysts.\nDiagnosis?",
+      "source_answer": "Acinar cell cystadenoma (acinar cystic transformation)",
+      "correct_answer": "Acinar cell cystadenoma (acinar cystic transformation)",
+      "canonical_answer": "Acinar cell cystadenoma (acinar cystic transformation)",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "Serous cystadenoma",
+        "Pancreatic intraepithelial neoplasia",
+        "Mucinous cystic neoplasm",
+        "Acinar cell cystadenoma (acinar cystic transformation)"
+      ],
+      "choices": [
+        "Serous cystadenoma",
+        "Pancreatic intraepithelial neoplasia",
+        "Mucinous cystic neoplasm",
+        "Acinar cell cystadenoma (acinar cystic transformation)"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/786_1.1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/786_1.2.png"
+      ],
+      "histology": "Here, we see a portion of pancreas with dilated cystic spaces, lined by epithelium. At higher power, we see the epithelium is comprised of cuboidal cells with acinar like nuclei and chromatin pattern and without atypia or mitoses. Notably, no ovarian type stroma is seen in the adjacent stromal tissue. This is consistent with an acinar cell cystadenoma of the pancreas (acinar cystic transformation).\n\nIHC: (+) BCL10, CK19, trypsin, PAS",
+      "discussion": "serous cystadenoma (positive: PAS negative: PAS-D), retention cyst, simple mucinous cyst",
+      "references": [
+        {
+          "text": "Singhi AD, Norwood S, Liu TC, Sharma R, Wolfgang CL, Schulick RD, Zeh HJ, Hruban RH. Acinar cell cystadenoma of the pancreas: a benign neoplasm or non-neoplastic ballooning of acinar and ductal epithelium? Am J Surg Pathol. 2013 Sep;37(9):1329-35. doi: 10.1097/PAS.0b013e3182a1ad72. PMID: 24076773.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Histologic Description:\n\nHere, we see a portion of pancreas with dilated cystic spaces, lined by epithelium. At higher power, we see the epithelium is comprised of cuboidal cells with acinar like nuclei and chromatin pattern and without atypia or mitoses. Notably, no ovarian type stroma is seen in the adjacent stromal tissue. This is consistent with an acinar cell cystadenoma of the pancreas (acinar cystic transformation).\n\nIHC: (+) BCL10, CK19, trypsin, PAS\n\nDifferential diagnosis:\n\nserous cystadenoma (positive: PAS negative: PAS-D), retention cyst, simple mucinous cyst\n\nReference:\n\nSinghi AD, Norwood S, Liu TC, Sharma R, Wolfgang CL, Schulick RD, Zeh HJ, Hruban RH. Acinar cell cystadenoma of the pancreas: a benign neoplasm or non-neoplastic ballooning of acinar and ductal epithelium? Am J Surg Pathol. 2013 Sep;37(9):1329-35. doi: 10.1097/PAS.0b013e3182a1ad72. PMID: 24076773.",
+      "feedback_html": "Histologic Description:<p></p>\n<p>Here, we see a portion of pancreas with dilated cystic spaces, lined by epithelium. At higher power, we see the epithelium is comprised of cuboidal cells with acinar like nuclei and chromatin pattern and without atypia or mitoses. Notably, no ovarian type stroma is seen in the adjacent stromal tissue. This is consistent with an acinar cell cystadenoma of the pancreas (acinar cystic transformation).</p>\n<p>IHC: (+) BCL10, CK19, trypsin, PAS</p>\n<p>Differential diagnosis:</p>\n<p>serous cystadenoma (positive: PAS negative: PAS-D), retention cyst, simple mucinous cyst</p>\n<p>Reference:</p>\n<p>Singhi AD, Norwood S, Liu TC, Sharma R, Wolfgang CL, Schulick RD, Zeh HJ, Hruban RH. Acinar cell cystadenoma of the pancreas: a benign neoplasm or non-neoplastic ballooning of acinar and ductal epithelium? Am J Surg Pathol. 2013 Sep;37(9):1329-35. doi: 10.1097/PAS.0b013e3182a1ad72. PMID: 24076773.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:07:56.365Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w785c3",
+      "url": "https://sp.pathology.jhu.edu/week-785-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 785: Case 3",
+      "case_label": "Week 785: Case 3",
+      "attribution": "Case presented by Dr. Marissa White and prepared by Dr. Eric Young.",
+      "vignette": "This is an adult with a parotid mass. Diagnosis?",
+      "question_text": "Case presented by Dr. Marissa White and prepared by Dr. Eric Young.\nThis is an adult with a parotid mass.\nDiagnosis?",
+      "source_answer": "Warthin tumor",
+      "correct_answer": "Warthin tumor",
+      "canonical_answer": "Warthin tumor",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "Benign lymphoepithelial cyst",
+        "Mucoepidermoid carcinoma",
+        "Papillary cystadenoma",
+        "Warthin tumor"
+      ],
+      "choices": [
+        "Benign lymphoepithelial cyst",
+        "Mucoepidermoid carcinoma",
+        "Papillary cystadenoma",
+        "Warthin tumor"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/785_3.1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/785_3.2.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/785_3.3.png"
+      ],
+      "histology": "At low power, we see a well-circumscribed mass with germinal center- like areas lined by pseuodostratified epithelium containing central necrotic/hemorrhagic debris. At higher power, we see that the epithelial cells of this Warthin tumor are pseudostratified and/or bilayered with prominent nucleoli.\n\nIHC: (+) CK7, CK18, EMA (epithelial cells), CD20, CD3, CD56, CD4, CD4 (lymphoid) (-) S100, p63, GFAP (epithelial cells)",
+      "discussion": "mucoepidermoid carcinoma (CRTC1-MAML2 fusion), papillary cystadenoma, lymphoepithelial cyst (lacks germinal centers)",
+      "references": [
+        {
+          "text": "Xu W, Lu H, Zhu Y, Ruan M, Zhang C, Yang W, Liu S. Warthin's tumour in oral and maxillofacial regions: an 18-year retrospective study of 1084 cases in an eastern-Chinese population. Int J Oral Maxillofac Surg. 2018 Jul;47(7):913-917. doi: 10.1016/j.ijom.2018.03.013. Epub 2018 Apr 5. PMID: 29627151.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Histologic Description:\n\nAt low power, we see a well-circumscribed mass with germinal center- like areas lined by pseuodostratified epithelium containing central necrotic/hemorrhagic debris. At higher power, we see that the epithelial cells of this Warthin tumor are pseudostratified and/or bilayered with prominent nucleoli.\n\nIHC: (+) CK7, CK18, EMA (epithelial cells), CD20, CD3, CD56, CD4, CD4 (lymphoid) (-) S100, p63, GFAP (epithelial cells)\n\nDifferential diagnosis:\n\nmucoepidermoid carcinoma (CRTC1-MAML2 fusion), papillary cystadenoma, lymphoepithelial cyst (lacks germinal centers)\n\nReference:\n\nXu W, Lu H, Zhu Y, Ruan M, Zhang C, Yang W, Liu S. Warthin's tumour in oral and maxillofacial regions: an 18-year retrospective study of 1084 cases in an eastern-Chinese population. Int J Oral Maxillofac Surg. 2018 Jul;47(7):913-917. doi: 10.1016/j.ijom.2018.03.013. Epub 2018 Apr 5. PMID: 29627151.",
+      "feedback_html": "Histologic Description:<p></p>\n<p>At low power, we see a well-circumscribed mass with germinal center- like areas lined by pseuodostratified epithelium containing central necrotic/hemorrhagic debris. At higher power, we see that the epithelial cells of this Warthin tumor are pseudostratified and/or bilayered with prominent nucleoli.</p>\n<p>IHC: (+) CK7, CK18, EMA (epithelial cells), CD20, CD3, CD56, CD4, CD4 (lymphoid) (-) S100, p63, GFAP (epithelial cells)</p>\n<p>Differential diagnosis:</p>\n<p>mucoepidermoid carcinoma (CRTC1-MAML2 fusion), papillary cystadenoma, lymphoepithelial cyst (lacks germinal centers)</p>\n<p>Reference:</p>\n<p>Xu W, Lu H, Zhu Y, Ruan M, Zhang C, Yang W, Liu S. Warthin's tumour in oral and maxillofacial regions: an 18-year retrospective study of 1084 cases in an eastern-Chinese population. Int J Oral Maxillofac Surg. 2018 Jul;47(7):913-917. doi: 10.1016/j.ijom.2018.03.013. Epub 2018 Apr 5. PMID: 29627151.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:08:05.616Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w785c2",
+      "url": "https://sp.pathology.jhu.edu/week-785-case-2-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 785: Case 2",
+      "case_label": "Week 785: Case 2",
+      "attribution": "Case presented by Dr. Marissa White and prepared by Dr. Eric Young.",
+      "vignette": "This is an adult with a lung wedge resection. Diagnosis?",
+      "question_text": "Case presented by Dr. Marissa White and prepared by Dr. Eric Young.\nThis is an adult with a lung wedge resection.\nDiagnosis?",
+      "source_answer": "Adenoid cystic carcinoma",
+      "correct_answer": "Adenoid cystic carcinoma",
+      "canonical_answer": "Adenoid cystic carcinoma",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "Lung adenocarcinoma, lepidic predominant",
+        "Epithelial-myoepithelial carcinoma",
+        "Adenoid cystic carcinoma",
+        "Metastatic prostate carcinoma"
+      ],
+      "choices": [
+        "Lung adenocarcinoma, lepidic predominant",
+        "Epithelial-myoepithelial carcinoma",
+        "Adenoid cystic carcinoma",
+        "Metastatic prostate carcinoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/785_2.1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/785_2.2.png"
+      ],
+      "histology": "Here, we see a portion of lung with well circumscribed mass, an adenoid cystic carcinoma. At higher power, we see this epithelioid neoplasm with glandular, papillary, pseudo/cystic areas involving large vessels, septa, and peripherally lining alveolar spaces. These hyperchromatic cells feature minimal cytoplasm, seem to be hobnailing into alveolar spaces, and feature coarse chromatin, with prominent nucleoli.\n\nIHC: (+) CK7, P63, SMA, S100 (myoepithelial component), keratin (epithelial component), CD117\n\nMolecular: t(6;9)(MYB-NFIB)",
+      "discussion": "adenocarcinoma (positive: TTF1, NapsinA negative: S100, CD117), epithelial-myoepithelial carcinoma (no cribriform structures), small cell carcinoma (negative: MYB-NFIB fusion)",
+      "references": [
+        {
+          "text": "Li M, Zhao BR, Liu SQ, An J, Deng PB, Han-Zhang H, Ye JY, Mao XR, Chuai SK, Hu CP. Mutational landscape and clonal diversity of pulmonary adenoid cystic carcinoma. Cancer Biol Ther. 2018;19(10):898-903. doi: 10.1080/15384047.2018.1480296. Epub 2018 Aug 1. PMID: 30067437; PMCID: PMC6300342.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Histologic Description:\n\nHere, we see a portion of lung with well circumscribed mass, an adenoid cystic carcinoma. At higher power, we see this epithelioid neoplasm with glandular, papillary, pseudo/cystic areas involving large vessels, septa, and peripherally lining alveolar spaces. These hyperchromatic cells feature minimal cytoplasm, seem to be hobnailing into alveolar spaces, and feature coarse chromatin, with prominent nucleoli.\n\nIHC: (+) CK7, P63, SMA, S100 (myoepithelial component), keratin (epithelial component), CD117\n\nMolecular: t(6;9)(MYB-NFIB)\n\nDifferential diagnosis:\n\nadenocarcinoma (positive: TTF1, NapsinA negative: S100, CD117), epithelial-myoepithelial carcinoma (no cribriform structures), small cell carcinoma (negative: MYB-NFIB fusion)\n\nReference:\n\nLi M, Zhao BR, Liu SQ, An J, Deng PB, Han-Zhang H, Ye JY, Mao XR, Chuai SK, Hu CP. Mutational landscape and clonal diversity of pulmonary adenoid cystic carcinoma. Cancer Biol Ther. 2018;19(10):898-903. doi: 10.1080/15384047.2018.1480296. Epub 2018 Aug 1. PMID: 30067437; PMCID: PMC6300342.",
+      "feedback_html": "Histologic Description:<p></p>\n<p>Here, we see a portion of lung with well circumscribed mass, an adenoid cystic carcinoma. At higher power, we see this epithelioid neoplasm with glandular, papillary, pseudo/cystic areas involving large vessels, septa, and peripherally lining alveolar spaces. These hyperchromatic cells feature minimal cytoplasm, seem to be hobnailing into alveolar spaces, and feature coarse chromatin, with prominent nucleoli.</p>\n<p>IHC: (+) CK7, P63, SMA, S100 (myoepithelial component), keratin (epithelial component), CD117</p>\n<p>Molecular:&nbsp; t(6;9)(MYB-NFIB)</p>\n<p>Differential diagnosis:</p>\n<p>adenocarcinoma (positive: TTF1, NapsinA negative: S100, CD117), epithelial-myoepithelial carcinoma (no cribriform structures), small cell carcinoma (negative: MYB-NFIB fusion)</p>\n<p>Reference:</p>\n<p>Li M, Zhao BR, Liu SQ, An J, Deng PB, Han-Zhang H, Ye JY, Mao XR, Chuai SK, Hu CP. Mutational landscape and clonal diversity of pulmonary adenoid cystic carcinoma. Cancer Biol Ther. 2018;19(10):898-903. doi: 10.1080/15384047.2018.1480296. Epub 2018 Aug 1. PMID: 30067437; PMCID: PMC6300342.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:08:14.961Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w785c1",
+      "url": "https://sp.pathology.jhu.edu/week-785-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 785: Case 1",
+      "case_label": "Week 785: Case 1",
+      "attribution": "Case presented by Dr. Marissa White and prepared by Dr. Eric Young.",
+      "vignette": "This is an adult with a cardiac mass. Diagnosis?",
+      "question_text": "Case presented by Dr. Marissa White and prepared by Dr. Eric Young.\nThis is an adult with a cardiac mass.\nDiagnosis?",
+      "source_answer": "Atrial myxoma",
+      "correct_answer": "Atrial myxoma",
+      "canonical_answer": "Atrial myxoma",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "Metastatic carcinoma",
+        "Atrial myxoma",
+        "Surgical material",
+        "Fungus"
+      ],
+      "choices": [
+        "Metastatic carcinoma",
+        "Atrial myxoma",
+        "Surgical material",
+        "Fungus"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/785_1.1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/785_1.2.png"
+      ],
+      "histology": "At low power, the slide features a portion of cardiac muscle, hemosiderin and hemorrhage with a large, well circumscribed mass. The mass, an atrial myxoma, is hyperchromatic and features branching fasicles and is surrounded by dense fibrous tissue. At high power, areas of edema, hemorrhage, hemosiderin, and chronic inflammation are evident. Gamna-Gandy bodies, calcification of connective tissue fibers morphologically resembling hyphal structures, are evident. These lesions can be associated with Carney complex.\n\nIHC: (+) calretinin, CD34 (-) CD117\n\nMolecular:\n\n17p1 and 12p1 rearrangements, PRKAR1A (17q24) rearrangements (Carney complex).",
+      "discussion": "myxofibrosarcoma",
+      "references": [
+        {
+          "text": "Burke AP, Virmani R. Cardiac myxoma. A clinicopathologic study. Am J Clin Pathol. 1993 Dec;100(6):671-80. doi: 10.1093/ajcp/100.6.671. PMID: 8249916.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Histologic Description:\n\nAt low power, the slide features a portion of cardiac muscle, hemosiderin and hemorrhage with a large, well circumscribed mass. The mass, an atrial myxoma, is hyperchromatic and features branching fasicles and is surrounded by dense fibrous tissue. At high power, areas of edema, hemorrhage, hemosiderin, and chronic inflammation are evident. Gamna-Gandy bodies, calcification of connective tissue fibers morphologically resembling hyphal structures, are evident. These lesions can be associated with Carney complex.\n\nIHC: (+) calretinin, CD34 (-) CD117\n\nMolecular:\n\n17p1 and 12p1 rearrangements, PRKAR1A (17q24) rearrangements (Carney complex).\n\nDifferential diagnosis: myxofibrosarcoma\n\nReference:\n\nBurke AP, Virmani R. Cardiac myxoma. A clinicopathologic study. Am J Clin Pathol. 1993 Dec;100(6):671-80. doi: 10.1093/ajcp/100.6.671. PMID: 8249916.",
+      "feedback_html": "Histologic Description:<p></p>\n<p>At low power, the slide features a portion of cardiac muscle, hemosiderin and hemorrhage with a large, well circumscribed mass. The mass, an atrial myxoma, is hyperchromatic and features branching fasicles and is surrounded by dense fibrous tissue. At high power, areas of edema, hemorrhage, hemosiderin, and chronic inflammation are evident. Gamna-Gandy bodies, calcification of connective tissue fibers morphologically resembling hyphal structures, are evident. These lesions can be associated with Carney complex.</p>\n<p>IHC: (+) calretinin, CD34 (-) CD117</p>\n<p>Molecular:</p>\n<p>17p1 and 12p1 rearrangements, PRKAR1A (17q24) rearrangements (Carney complex).</p>\n<p>Differential diagnosis: myxofibrosarcoma</p>\n<p>Reference:</p>\n<p>Burke AP, Virmani R. Cardiac myxoma. A clinicopathologic study. Am J Clin Pathol. 1993 Dec;100(6):671-80. doi: 10.1093/ajcp/100.6.671. PMID: 8249916.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:08:25.331Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w784c3",
+      "url": "https://sp.pathology.jhu.edu/week-784-case-2-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 784: Case 3",
+      "case_label": "Week 784: Case 3",
+      "attribution": "Case presented by Dr. Pedram Argani and prepared by Dr. Eric Young.",
+      "vignette": "This is a 41 year old male with renal mass.",
+      "question_text": "Case presented by Dr. Pedram Argani and prepared by Dr. Eric Young.\nThis is a 41 year old male with renal mass.",
+      "source_answer": "Xp11 translocation renal cell carcinoma",
+      "correct_answer": "Xp11 translocation renal cell carcinoma",
+      "canonical_answer": "Xp11 translocation renal cell carcinoma",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "Xp11 translocation renal cell carcinoma",
+        "Clear cell carcinoma",
+        "Papillary renal cell carcinoma",
+        "Clear cell papillary renal cell tumor"
+      ],
+      "choices": [
+        "Xp11 translocation renal cell carcinoma",
+        "Clear cell carcinoma",
+        "Papillary renal cell carcinoma",
+        "Clear cell papillary renal cell tumor"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/7843.1.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/784_3.2.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/784_3.3.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/784_3.4.jpg"
+      ],
+      "histology": "This is a case that demonstrates striking hyalinization within the primary tumor, leading to negative scans performed in radiology. Away from the extensive hyalinization, one can appreciate areas of nested to papillary architecture and neoplastic epithelioid cells with abundant pale to eosinophilic cytoplasm. These cells label diffusely for TFE3 and demonstrate rearrangement of TFE3 by FISH.",
+      "discussion": "Clear cell renal cell carcinoma could demonstrate hyalinization like this, but would be expected to label for carbonic anhydrase 9 and not for TFE3. Papillary renal cell carcinoma may have clear cell areas in regions of hemorrhage. It would not demonstrate the extensive hyalinization seen in the current case. Clear cell papillary renal cell tumor is typically not extensively hyalinized, and should feature low grade nuclei. It would label for cytokeratin 7 and carbonic anhydrase 9, not for TFE3. Xp11 translocation RCC and TFEB rearranged RCC often demonstrate striking stromal hyalinization, likely reflecting their slow proliferative rates and gradual fibrosis.",
+      "references": [],
+      "feedback_text": "Histologic Description:\n\nThis is a case that demonstrates striking hyalinization within the primary tumor, leading to negative scans performed in radiology. Away from the extensive hyalinization, one can appreciate areas of nested to papillary architecture and neoplastic epithelioid cells with abundant pale to eosinophilic cytoplasm. These cells label diffusely for TFE3 and demonstrate rearrangement of TFE3 by FISH.\n\nDifferential Diagnosis:\n\nClear cell renal cell carcinoma could demonstrate hyalinization like this, but would be expected to label for carbonic anhydrase 9 and not for TFE3. Papillary renal cell carcinoma may have clear cell areas in regions of hemorrhage. It would not demonstrate the extensive hyalinization seen in the current case. Clear cell papillary renal cell tumor is typically not extensively hyalinized, and should feature low grade nuclei. It would label for cytokeratin 7 and carbonic anhydrase 9, not for TFE3. Xp11 translocation RCC and TFEB rearranged RCC often demonstrate striking stromal hyalinization, likely reflecting their slow proliferative rates and gradual fibrosis.",
+      "feedback_html": "Histologic Description:<p></p>\n<p>This is a case that demonstrates striking hyalinization within the primary tumor, leading to negative scans performed in radiology.&nbsp; Away from the extensive hyalinization, one can appreciate areas of nested to papillary architecture and neoplastic epithelioid cells with abundant pale to eosinophilic cytoplasm.&nbsp; These cells label diffusely for TFE3 and demonstrate rearrangement of TFE3 by FISH.</p>\n<p>Differential Diagnosis:</p>\n<p>Clear cell renal cell carcinoma could demonstrate hyalinization like this, but would be expected to label for carbonic anhydrase 9 and not for TFE3.&nbsp; Papillary renal cell carcinoma may have clear cell areas in regions of hemorrhage.&nbsp; It would not demonstrate the extensive hyalinization seen in the current case.&nbsp; Clear cell papillary renal cell tumor is typically not extensively hyalinized, and should feature low grade nuclei.&nbsp; It would label for cytokeratin 7 and carbonic anhydrase 9, not for TFE3.&nbsp; Xp11 translocation RCC and TFEB rearranged RCC often demonstrate striking stromal hyalinization, likely reflecting their slow proliferative rates and gradual fibrosis.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:08:34.680Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w784c2",
+      "url": "https://sp.pathology.jhu.edu/week-784-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 784: Case 2",
+      "case_label": "Week 784: Case 2",
+      "attribution": "Case presented by Dr. Pedram Argani and prepared by Dr. Eric Young.",
+      "vignette": "This is a 40 year old female with a history of pneumothorax and pleural biopsy. Diagnosis?",
+      "question_text": "Case presented by Dr. Pedram Argani and prepared by Dr. Eric Young.\nThis is a 40 year old female with a history of pneumothorax and pleural biopsy.\nDiagnosis?",
+      "source_answer": "Endometriosis",
+      "correct_answer": "Endometriosis",
+      "canonical_answer": "Endometriosis",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "Organizing hematoma",
+        "Endometriosis",
+        "Mesothelioma, spindle cell type",
+        "Epithelioid hemangioendothelioma"
+      ],
+      "choices": [
+        "Organizing hematoma",
+        "Endometriosis",
+        "Mesothelioma, spindle cell type",
+        "Epithelioid hemangioendothelioma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/784_2.1-1024x945.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/784_2.2-1024x945.png"
+      ],
+      "histology": "The pleura contains areas of striking chronic inflammation with hemosiderin deposition and paucicellular fibrosis. Focally between the inflammatory cells are more cellular areas consisting of bland spindle cells associated with prominent capillary vasculature. The spindle cells label diffusely for estrogen receptor and for CD10, consistent with endometrial stroma This patient had a history of endometriosis in other organ sites.",
+      "discussion": "Organizing hematoma could have similar features, though the cellular spindle cell proliferation would not be typical. Organizing hematoma would not be expected to label diffusely for estrogen receptor. Spindle cell mesothelioma would demonstrate greater nuclear atypia and would label for cytokeratin. Epithelioid hemangioendothelioma typically features more epithelioid neoplastic cells in myxochondroid matrix. It would not be expected to label for estrogen receptor.\n\nEndometriosis involving the pleura can present as recurrent pneumothorax.",
+      "references": [],
+      "feedback_text": "Histologic Description:\n\nThe pleura contains areas of striking chronic inflammation with hemosiderin deposition and paucicellular fibrosis. Focally between the inflammatory cells are more cellular areas consisting of bland spindle cells associated with prominent capillary vasculature. The spindle cells label diffusely for estrogen receptor and for CD10, consistent with endometrial stroma This patient had a history of endometriosis in other organ sites.\n\nDifferential Diagnosis:\n\nOrganizing hematoma could have similar features, though the cellular spindle cell proliferation would not be typical. Organizing hematoma would not be expected to label diffusely for estrogen receptor. Spindle cell mesothelioma would demonstrate greater nuclear atypia and would label for cytokeratin. Epithelioid hemangioendothelioma typically features more epithelioid neoplastic cells in myxochondroid matrix. It would not be expected to label for estrogen receptor.\n\nEndometriosis involving the pleura can present as recurrent pneumothorax.",
+      "feedback_html": "Histologic Description:<p></p>\n<p>The pleura contains areas of striking chronic inflammation with hemosiderin deposition and paucicellular fibrosis.&nbsp; Focally between the inflammatory cells are more cellular areas consisting of bland spindle cells associated with prominent capillary vasculature.&nbsp; The spindle cells label diffusely for estrogen receptor and for CD10, consistent with endometrial stroma&nbsp; This patient had a history of endometriosis in other organ sites.</p>\n<p>Differential Diagnosis:</p>\n<p>Organizing hematoma could have similar features, though the cellular spindle cell proliferation would not be typical.&nbsp; Organizing hematoma would not be expected to label diffusely for estrogen receptor.&nbsp; Spindle cell mesothelioma would demonstrate greater nuclear atypia and would label for cytokeratin.&nbsp; Epithelioid hemangioendothelioma typically features more epithelioid neoplastic cells in myxochondroid matrix.&nbsp; It would not be expected to label for estrogen receptor.</p>\n<p>Endometriosis involving the pleura can present as recurrent pneumothorax.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:08:44.052Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w784c1",
+      "url": "https://sp.pathology.jhu.edu/week-784-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 784: Case 1",
+      "case_label": "Week 784: Case 1",
+      "attribution": "Case presented by Dr. Pedram Argani and prepared by Dr. Eric Young.",
+      "vignette": "This is a 60 year old male with long standing ulcerative colitis. Diagnosis?",
+      "question_text": "Case presented by Dr. Pedram Argani and prepared by Dr. Eric Young.\nThis is a 60 year old male with long standing ulcerative colitis.\nDiagnosis?",
+      "source_answer": "Crypt cell dysplasia",
+      "correct_answer": "Crypt cell dysplasia",
+      "canonical_answer": "Crypt cell dysplasia",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "Conventional dysplasia",
+        "Hypermucinous dysplasia",
+        "Reactive changes",
+        "Crypt cell dysplasia"
+      ],
+      "choices": [
+        "Conventional dysplasia",
+        "Hypermucinous dysplasia",
+        "Reactive changes",
+        "Crypt cell dysplasia"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/784_1.1.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/784_1.3.jpg"
+      ],
+      "histology": "There is a prominent giant cell reaction in the bowel wall consistent with prior endoscopic mucosal resection. The colon demonstrates the typical features of ulcerative colitis, including increased chronic inflammation with basal cell plasmacytosis and crypt distortion, along with activity in the form of cryptitis. The lesional crypts demonstrate minimally-stratified nuclei generally limited to the crypt base with mild nuclear enlargement, hyperchromasia and irregularity. They do stand out from the surrounding reactive epithelial changes. By immunohistochemistry, these areas diffusely overexpress p53 protein.",
+      "discussion": "Hypermucinous dysplasia would demonstrate lower N/C ratio and prominent cytoplasmic and luminal mucin. Reactive changes would not demonstrate the nuclear irregularity of the current lesion and diffuse p53 labeling. Conventional dysplasia typically involves the surface epithelium, and demonstrates greater degrees of nuclear stratification and irregularity.\n\nThere is limited outcome data on the behavior of crypt cell dysplasia, but there is reason to consider it high grade based upon cases that have progressed.",
+      "references": [
+        {
+          "text": "Histopathology 2021; 78:658-675.",
+          "url": null
+        }
+      ],
+      "feedback_text": "P53 Immunohistochemistry:\n\nHistologic Description:\n\nThere is a prominent giant cell reaction in the bowel wall consistent with prior endoscopic mucosal resection. The colon demonstrates the typical features of ulcerative colitis, including increased chronic inflammation with basal cell plasmacytosis and crypt distortion, along with activity in the form of cryptitis. The lesional crypts demonstrate minimally-stratified nuclei generally limited to the crypt base with mild nuclear enlargement, hyperchromasia and irregularity. They do stand out from the surrounding reactive epithelial changes. By immunohistochemistry, these areas diffusely overexpress p53 protein.\n\nDifferential Diagnosis:\n\nHypermucinous dysplasia would demonstrate lower N/C ratio and prominent cytoplasmic and luminal mucin. Reactive changes would not demonstrate the nuclear irregularity of the current lesion and diffuse p53 labeling. Conventional dysplasia typically involves the surface epithelium, and demonstrates greater degrees of nuclear stratification and irregularity.\n\nThere is limited outcome data on the behavior of crypt cell dysplasia, but there is reason to consider it high grade based upon cases that have progressed.\n\nReference:\n\nHistopathology 2021; 78:658-675.",
+      "feedback_html": "&nbsp;<p></p>\n<p>P53 Immunohistochemistry:</p>\n<p><img class=\"alignnone size-full wp-image-23937\" src=\"https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/784_1.2.jpg\" alt=\"\" width=\"468\" height=\"333\"></p>\n<p><img class=\"alignnone size-full wp-image-23936\" src=\"https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/784_1.1.jpg\" alt=\"\" width=\"468\" height=\"333\"></p>\n<p>Histologic Description:</p>\n<p>There is a prominent giant cell reaction in the bowel wall consistent with prior endoscopic mucosal resection. The colon demonstrates the typical features of ulcerative colitis, including increased chronic inflammation with basal cell plasmacytosis and crypt distortion, along with activity in the form of cryptitis.&nbsp; The lesional crypts demonstrate minimally-stratified nuclei generally limited to the crypt base with mild nuclear enlargement, hyperchromasia and irregularity.&nbsp; They do stand out from the surrounding reactive epithelial changes.&nbsp; By immunohistochemistry, these areas diffusely overexpress p53 protein.</p>\n<p>Differential Diagnosis:</p>\n<p>Hypermucinous dysplasia would demonstrate lower N/C ratio and prominent cytoplasmic and luminal mucin.&nbsp; Reactive changes would not demonstrate the nuclear irregularity of the current lesion and diffuse p53 labeling.&nbsp; Conventional dysplasia typically involves the surface epithelium, and demonstrates greater degrees of nuclear stratification and irregularity.</p>\n<p>There is limited outcome data on the behavior of crypt cell dysplasia, but there is reason to consider it high grade based upon cases that have progressed.</p>\n<p>Reference:</p>\n<p>Histopathology 2021; 78:658-675.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:08:53.381Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w783c3",
+      "url": "https://sp.pathology.jhu.edu/week-783-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 783: Case 3",
+      "case_label": "Week 783: Case 3",
+      "attribution": "Case presented by Dr. Jonathan Epstein and prepared by Dr. Eric Young.",
+      "vignette": "Clinical History: A 68 year-old man underwent a prostatic needle biopsy for elevated serum PSA. Choose the correct diagnosis:",
+      "question_text": "Case presented by Dr. Jonathan Epstein and prepared by Dr. Eric Young.\nClinical History: A 68 year-old man underwent a prostatic needle biopsy for elevated serum PSA.\nChoose the correct diagnosis:",
+      "source_answer": "Stromal tumor of uncertain malignant potential (STUMP)",
+      "correct_answer": "Stromal tumor of uncertain malignant potential (STUMP)",
+      "canonical_answer": "Stromal tumor of uncertain malignant potential (STUMP)",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "Prostatic stromal sarcoma",
+        "Sarcomatoid carcinoma of the prostate",
+        "Stromal tumor of uncertain malignant potential (STUMP)",
+        "BPH with degenerative atypia."
+      ],
+      "choices": [
+        "Prostatic stromal sarcoma",
+        "Sarcomatoid carcinoma of the prostate",
+        "Stromal tumor of uncertain malignant potential (STUMP)",
+        "BPH with degenerative atypia"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/783_3.1-1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/783_3.2-1.png"
+      ],
+      "histology": "The lesion consists of slightly hypercellular stroma with scattered atypical, but degenerative appearing cells. The adjacent glands are crowded with basal cell hyperplasia. The lesion lacks mitotic figures and in particular atypical mitotic figures.",
+      "discussion": "This is the most common pattern of STUMP. Other patterns include: 1) hypercellular stroma consisting of bland fusiform stromal cells with eosinophilic cytoplasm admixed with benign glands; 2) myxoid stroma containing bland stromal cells and often lacking admixed glands in sheets of stroma without nodularity, lacking the thick walled vessels of BPH; 3) phyllodes with leaf-like hypocellular fibrous stroma covered by benign appearing prostatic epithelium; and 4) round cell with increased stromal cellularity composed of cells with round bland nuclei, in contrast to stromal BPH nuclei which are oval and spindled. STUMPS may recur within a few months or years after TURP only. STUMPs have been associated with stromal sarcoma on concurrent biopsy material or have demonstrated stromal sarcoma on repeat biopsy, suggesting a malignant progression in at least some cases. If a STUMP is entirely resected and there is no sarcomatous component, then the lesion is entirely cured. Some cases of prostatic stromal sarcoma can resemble a STUMP, but will be more cellular and often have increased mitotic figures including atypical ones. Immunohistochemistry is not helpful in the differential diagnosis as STUMP, stromal sarcoma, and stromal BPH will be positive for CD34, smooth muscle actin, desmin, and progesterone receptor. If sarcomatoid carcinoma was being considered, high molecular weight cytokeratin and p63 would be helpful, as the glands would contain basal cells. Although the primary process in a STUMP is stromal, they are often accompanied by glandular proliferations, such as basal cell hyperplasia, adenosis, cribriform hyperplasia, squamous and urothelial metaplasia.",
+      "references": [],
+      "feedback_text": "Histologic description:\n\nThe lesion consists of slightly hypercellular stroma with scattered atypical, but degenerative appearing cells. The adjacent glands are crowded with basal cell hyperplasia. The lesion lacks mitotic figures and in particular atypical mitotic figures.\n\nDiscussion:\n\nThis is the most common pattern of STUMP. Other patterns include: 1) hypercellular stroma consisting of bland fusiform stromal cells with eosinophilic cytoplasm admixed with benign glands; 2) myxoid stroma containing bland stromal cells and often lacking admixed glands in sheets of stroma without nodularity, lacking the thick walled vessels of BPH; 3) phyllodes with leaf-like hypocellular fibrous stroma covered by benign appearing prostatic epithelium; and 4) round cell with increased stromal cellularity composed of cells with round bland nuclei, in contrast to stromal BPH nuclei which are oval and spindled. STUMPS may recur within a few months or years after TURP only. STUMPs have been associated with stromal sarcoma on concurrent biopsy material or have demonstrated stromal sarcoma on repeat biopsy, suggesting a malignant progression in at least some cases. If a STUMP is entirely resected and there is no sarcomatous component, then the lesion is entirely cured. Some cases of prostatic stromal sarcoma can resemble a STUMP, but will be more cellular and often have increased mitotic figures including atypical ones. Immunohistochemistry is not helpful in the differential diagnosis as STUMP, stromal sarcoma, and stromal BPH will be positive for CD34, smooth muscle actin, desmin, and progesterone receptor. If sarcomatoid carcinoma was being considered, high molecular weight cytokeratin and p63 would be helpful, as the glands would contain basal cells. Although the primary process in a STUMP is stromal, they are often accompanied by glandular proliferations, such as basal cell hyperplasia, adenosis, cribriform hyperplasia, squamous and urothelial metaplasia.",
+      "feedback_html": "Histologic description:<p></p>\n<p>The lesion consists of slightly hypercellular stroma with scattered atypical, but degenerative appearing cells. The adjacent glands are crowded with basal cell hyperplasia. The lesion lacks mitotic figures and in particular atypical mitotic figures.</p>\n<p>Discussion:</p>\n<p>This is the most common pattern of STUMP. Other patterns include: 1) hypercellular stroma consisting of bland fusiform stromal cells with eosinophilic cytoplasm admixed with benign glands; 2) myxoid stroma containing bland stromal cells and often lacking admixed glands in sheets of stroma without nodularity, lacking the thick walled vessels of BPH; 3) phyllodes with leaf-like hypocellular fibrous stroma covered by benign appearing prostatic epithelium; and 4) round cell with increased stromal cellularity composed of cells with round bland nuclei, in contrast to stromal BPH nuclei which are oval and spindled. STUMPS may recur within a few months or years after TURP only. STUMPs have been associated with stromal sarcoma on concurrent biopsy material or have demonstrated stromal sarcoma on repeat biopsy, suggesting a malignant progression in at least some cases. If a STUMP is entirely resected and there is no sarcomatous component, then the lesion is entirely cured. Some cases of prostatic stromal sarcoma can resemble a STUMP, but will be more cellular and often have increased mitotic figures including atypical ones. Immunohistochemistry is not helpful in the differential diagnosis as STUMP, stromal sarcoma, and stromal BPH will be positive for CD34, smooth muscle actin, desmin, and progesterone receptor. If sarcomatoid carcinoma was being considered, high molecular weight cytokeratin and p63 would be helpful, as the glands would contain basal cells. Although the primary process in a STUMP is stromal, they are often accompanied by glandular proliferations, such as basal cell hyperplasia, adenosis, cribriform hyperplasia, squamous and urothelial metaplasia.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:09:04.346Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w783c2",
+      "url": "https://sp.pathology.jhu.edu/week-783-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 783: Case 2",
+      "case_label": "Week 783: Case 2",
+      "attribution": "Case presented by Dr. Jonathan Epstein and prepared by Dr. Eric Young.",
+      "vignette": "Clinical History: A 48-year-old man underwent a transurethral resection of the prostate. Choose the correct diagnosis:",
+      "question_text": "Case presented by Dr. Jonathan Epstein and prepared by Dr. Eric Young.\nClinical History: A 48-year-old man underwent a transurethral resection of the prostate.\nChoose the correct diagnosis:",
+      "source_answer": "Infarcted stromal nodular BPH",
+      "correct_answer": "Infarcted stromal nodular BPH",
+      "canonical_answer": "Infarcted stromal nodular BPH",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "Stromal tumor of uncertain malignant potential (STUMP) with necrosis",
+        "Low grade prostatic stromal sarcoma with necrosis",
+        "Infarcted stromal nodular BPH"
+      ],
+      "choices": [
+        "Stromal tumor of uncertain malignant potential (STUMP) with necrosis",
+        "Low grade prostatic stromal sarcoma with necrosis",
+        "Infarcted stromal nodular BPH"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/783_2.1-1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/783_2.2-1.png"
+      ],
+      "histology": "The TUR is completely composed of moderately hypercellular stroma. In some areas, nodularity can be appreciated. Scattered throughout the stroma are thick-walled capillaries. Areas of the stroma are necrotic.",
+      "discussion": "The most common stromal lesion sent to me in consultation is stromal nodular BPH. The key to recognizing cellular stromal BPH are small capillaries that in cross-section have relatively thick walls for the size of the vessels. In settings other than BPH, these small vessels would not be expected to have such thick walls and typically no apparent wall at all. The unusual aspect to this case is the necrosis. Prominent BPH can undergo infarction, but typically it is with glandular-stromal nodular BPH, where the histological pitfall is reactive urothelial metaplasia mimicking urothelial carcinoma in the prostate glands immediately adjacent to the necrotic center of the infarct. In the current case, it is a purely stromal BPH that has undergone infarction. In addition to the classic capillaries of BPH that are not seen in STUMPs or prostatic stromal sarcomas, the lesion lacks the atypia that would be seen in a stromal sarcoma of the prostate.",
+      "references": [],
+      "feedback_text": "Histologic description:\n\nThe TUR is completely composed of moderately hypercellular stroma. In some areas, nodularity can be appreciated. Scattered throughout the stroma are thick-walled capillaries. Areas of the stroma are necrotic.\n\nDiscussion:\n\nThe most common stromal lesion sent to me in consultation is stromal nodular BPH. The key to recognizing cellular stromal BPH are small capillaries that in cross-section have relatively thick walls for the size of the vessels. In settings other than BPH, these small vessels would not be expected to have such thick walls and typically no apparent wall at all. The unusual aspect to this case is the necrosis. Prominent BPH can undergo infarction, but typically it is with glandular-stromal nodular BPH, where the histological pitfall is reactive urothelial metaplasia mimicking urothelial carcinoma in the prostate glands immediately adjacent to the necrotic center of the infarct. In the current case, it is a purely stromal BPH that has undergone infarction. In addition to the classic capillaries of BPH that are not seen in STUMPs or prostatic stromal sarcomas, the lesion lacks the atypia that would be seen in a stromal sarcoma of the prostate.",
+      "feedback_html": "Histologic description:<p></p>\n<p>The TUR is completely composed of moderately hypercellular stroma. In some areas, nodularity can be appreciated. Scattered throughout the stroma are thick-walled capillaries. Areas of the stroma are necrotic.</p>\n<p>Discussion:</p>\n<p>The most common stromal lesion sent to me in consultation is stromal nodular BPH. The key to recognizing cellular stromal BPH are small capillaries that in cross-section have relatively thick walls for the size of the vessels. In settings other than BPH, these small vessels would not be expected to have such thick walls and typically no apparent wall at all. The unusual aspect to this case is the necrosis. Prominent BPH can undergo infarction, but typically it is with glandular-stromal nodular BPH, where the histological pitfall is reactive urothelial metaplasia mimicking urothelial carcinoma in the prostate glands immediately adjacent to the necrotic center of the infarct. In the current case, it is a purely stromal BPH that has undergone infarction. In addition to the classic capillaries of BPH that are not seen in STUMPs or prostatic stromal sarcomas, the lesion lacks the atypia that would be seen in a stromal sarcoma of the prostate.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:09:13.766Z",
+      "extractor_version": "1.0.0"
+    }
+  ]
+}
