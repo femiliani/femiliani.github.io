@@ -1,0 +1,436 @@
+{
+  "case_start": 161,
+  "case_end": 170,
+  "case_count": 10,
+  "cases": [
+    {
+      "id": "w767c2",
+      "url": "https://sp.pathology.jhu.edu/week-767-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 767: Case 2",
+      "case_label": "Week 767: Case 2",
+      "attribution": "Presented by Dr. Pedram Argani and prepared by Dr. Harsimar Kaur",
+      "vignette": "This is a 50 year old male with multiple renal tumors.",
+      "question_text": "Presented by Dr. Pedram Argani and prepared by Dr. Harsimar Kaur\nThis is a 50 year old male with multiple renal tumors.",
+      "source_answer": "A. Clear cell papillary renal cell tumor",
+      "correct_answer": "Clear cell papillary renal cell tumor",
+      "canonical_answer": "Clear cell papillary renal cell tumor",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "A. Clear cell papillary renal cell tumor",
+        "B. Clear cell carcinoma",
+        "C. Xp11 translocation renal cell carcinoma",
+        "D. Renal cell carcinoma with leiomyomatous stroma"
+      ],
+      "choices": [
+        "Clear cell papillary renal cell tumor",
+        "Clear cell carcinoma",
+        "Xp11 translocation renal cell carcinoma",
+        "Renal cell carcinoma with leiomyomatous stroma"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/06/8312.svs-6329550785488717751x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/06/8312.svs-498514724568655595102x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/06/8312.svs-3662035972391963765210x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/06/8312.svs-470071373751643167626x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/06/8312.svs-724834869279117530204x.png"
+      ],
+      "histology": "This neoplasm has a predominantly tubular and focally papillary architecture. The neoplastic cells have low grade nuclei. They have clear cytoplasm which is often located at the base of the cell. The neoplastic cells label for CK7 and carbonic anhydrase 9 (the latter in a cup shaped pattern), but not for TFE3. The background kidney shows evidence of end stage renal disease.",
+      "discussion": "Clear cell RCC typically would not label diffusely for CK7, though occasion low grade variants do. The subnuclear vacuoles of the current are not typical of clear cell RCC. Xp11 translocation RCC are typically associated with psammomatous calcifications, usually do not label for diffusely for cytokeratins, and demonstrate TFE3 immunoreactivity. Renal cell carcinomas with leiomyomatous stroma have a similar labeling pattern for CK7 and CA-IX as the current lesion; however, they typically have voluminous cytoplasm, and are associated with mutations in either the ELOC1 or TSC genes.",
+      "references": [],
+      "feedback_text": "Answer: A\n\nHistologic Description: This neoplasm has a predominantly tubular and focally papillary architecture. The neoplastic cells have low grade nuclei. They have clear cytoplasm which is often located at the base of the cell. The neoplastic cells label for CK7 and carbonic anhydrase 9 (the latter in a cup shaped pattern), but not for TFE3. The background kidney shows evidence of end stage renal disease.\n\nDifferential Diagnosis: Clear cell RCC typically would not label diffusely for CK7, though occasion low grade variants do. The subnuclear vacuoles of the current are not typical of clear cell RCC. Xp11 translocation RCC are typically associated with psammomatous calcifications, usually do not label for diffusely for cytokeratins, and demonstrate TFE3 immunoreactivity. Renal cell carcinomas with leiomyomatous stroma have a similar labeling pattern for CK7 and CA-IX as the current lesion; however, they typically have voluminous cytoplasm, and are associated with mutations in either the ELOC1 or TSC genes.",
+      "feedback_html": "Answer: A<br>\nHistologic Description: This neoplasm has a predominantly tubular and focally papillary architecture.  The neoplastic cells have low grade nuclei.  They have clear cytoplasm which is often located at the base of the cell.  The neoplastic cells label for CK7 and carbonic anhydrase 9 (the latter in a cup shaped pattern), but not for TFE3.   The background kidney shows evidence of end stage renal disease.<p></p>\n<p>Differential Diagnosis:  Clear cell RCC typically would not label diffusely for CK7, though occasion low grade variants do.  The subnuclear vacuoles of the current are not typical of clear cell RCC.  Xp11 translocation RCC are typically associated with psammomatous calcifications, usually do not label for diffusely for cytokeratins, and demonstrate TFE3 immunoreactivity.  Renal cell carcinomas with leiomyomatous stroma have a similar labeling pattern for CK7 and CA-IX as the current lesion; however, they typically have voluminous cytoplasm, and are associated with mutations in either the ELOC1 or TSC genes.\n</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:19:53.268Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w767c1",
+      "url": "https://sp.pathology.jhu.edu/week-767-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 767: Case 1",
+      "case_label": "Week 767: Case 1",
+      "attribution": "Presented by Dr. Pedram Argani and prepared by Dr. Harsimar Kaur",
+      "vignette": "This is a 7 year old male with a renal mass.",
+      "question_text": "Presented by Dr. Pedram Argani and prepared by Dr. Harsimar Kaur\nThis is a 7 year old male with a renal mass.",
+      "source_answer": "C. Melanotic Xp11 PEComa",
+      "correct_answer": "Melanotic Xp11 PEComa",
+      "canonical_answer": "Melanotic Xp11 PEComa",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "A. Xp11 renal cell carcinoma",
+        "B. Melanoma",
+        "C. Melanotic Xp11 PEComa",
+        "D. Clear cell sarcoma of soft parts"
+      ],
+      "choices": [
+        "Xp11 renal cell carcinoma",
+        "Melanoma",
+        "Melanotic Xp11 PEComa",
+        "Clear cell sarcoma of soft parts"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/06/8311.svs-7103-076079689751x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/06/8311.svs-367381484056084278022x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/06/8311.svs-399442821143262304348x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/06/8311.svs-2441329292254823000823x.png"
+      ],
+      "histology": "This is a nested clear cell tumor associated abundant brown melanin pigment, leading to a black gross appearance. The neoplastic cells label for HMB45, but not for epithelial markers such as cytokeratins or for renal tubular markers like PAX8. Break-apart FISH demonstrates a TFE3 gene rearrangement.",
+      "discussion": "Xp11 translocation renal cell carcinoma may express melanocytic markers, but should express PAX8 and often express some epithelial markers such as cytokeratins or EMA. Melanoma may have a balloon cell appearance, but is unassociated with TFE3 rearrangements. Clear cell sarcoma is typically characterized the gene fusion EWS-ATF1, but not with TFE3 gene rearrangements. It would also label for S100 protein unlike the current lesion.\n\nThe lesion illustrated herein was originally reported as melanotic Xp11 translocation renal cancer. With a greater experience, we believe these are closely related to Xp11 translocation PEComas, and represent a variant of that with melanin pigment.\n\nReferences\n\nArgani P, Illei P, Netto G, Ro J, Cho HY, Dogan S, Ladanyi M, Martignoni G, Aulmann S, Weiss SW. A Distinctive Subset of PEComas Harbor TFE3 Gene Fusions. Am J Surg Pathol 2010; 34: 1395-1406.\n\nArgani P, Aulmann S, Karanjawala Z, Fraser RB, Ladanyi M, Rodriguez MM. Melanotic Xp11 translocation Renal Cancers: A Distinctive Neoplasm with overlapping features of PEComa, Carcinoma, and Melanoma. Am J Surg Pathol 2009; 33: 609-619.",
+      "references": [],
+      "feedback_text": "Answer: C\n\nHistologic Description: This is a nested clear cell tumor associated abundant brown melanin pigment, leading to a black gross appearance. The neoplastic cells label for HMB45, but not for epithelial markers such as cytokeratins or for renal tubular markers like PAX8. Break-apart FISH demonstrates a TFE3 gene rearrangement.\n\nDifferential Diagnosis: Xp11 translocation renal cell carcinoma may express melanocytic markers, but should express PAX8 and often express some epithelial markers such as cytokeratins or EMA. Melanoma may have a balloon cell appearance, but is unassociated with TFE3 rearrangements. Clear cell sarcoma is typically characterized the gene fusion EWS-ATF1, but not with TFE3 gene rearrangements. It would also label for S100 protein unlike the current lesion.\n\nThe lesion illustrated herein was originally reported as melanotic Xp11 translocation renal cancer. With a greater experience, we believe these are closely related to Xp11 translocation PEComas, and represent a variant of that with melanin pigment.\n\nReferences\n\nArgani P, Illei P, Netto G, Ro J, Cho HY, Dogan S, Ladanyi M, Martignoni G, Aulmann S, Weiss SW. A Distinctive Subset of PEComas Harbor TFE3 Gene Fusions. Am J Surg Pathol 2010; 34: 1395-1406.\n\nArgani P, Aulmann S, Karanjawala Z, Fraser RB, Ladanyi M, Rodriguez MM. Melanotic Xp11 translocation Renal Cancers: A Distinctive Neoplasm with overlapping features of PEComa, Carcinoma, and Melanoma. Am J Surg Pathol 2009; 33: 609-619.",
+      "feedback_html": "Answer:  C<br>\nHistologic Description:  This is a nested clear cell tumor associated abundant brown melanin pigment, leading to a black gross appearance.  The neoplastic cells label for HMB45, but not for epithelial markers such as cytokeratins or for renal tubular markers like PAX8.  Break-apart FISH demonstrates a TFE3 gene rearrangement.<br>\nDifferential Diagnosis:  Xp11 translocation renal cell carcinoma may express melanocytic markers, but should express PAX8 and often express some epithelial markers such as cytokeratins or EMA.  Melanoma may have a balloon cell appearance, but is unassociated with TFE3 rearrangements.  Clear cell sarcoma is typically characterized the gene fusion EWS-ATF1, but not with TFE3 gene rearrangements.  It would also label for S100 protein unlike the current lesion.<br>\nThe lesion illustrated herein was originally reported as melanotic Xp11 translocation renal cancer. With a greater experience, we believe these are closely related to Xp11 translocation PEComas, and represent a variant of that with melanin pigment.<br>\nReferences<br>\nArgani P, Illei P, Netto G, Ro J, Cho HY, Dogan S, Ladanyi M, Martignoni G, Aulmann S, Weiss SW.  A Distinctive Subset of PEComas Harbor TFE3 Gene Fusions.   Am J Surg Pathol 2010; 34: 1395-1406.<br>\nArgani P, Aulmann S, Karanjawala Z, Fraser RB, Ladanyi M, Rodriguez MM. Melanotic Xp11 translocation Renal Cancers: A Distinctive Neoplasm with overlapping features of PEComa, Carcinoma, and Melanoma.  Am J Surg Pathol 2009; 33: 609-619.\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:20:02.586Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w766c3",
+      "url": "https://sp.pathology.jhu.edu/week-766-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 766: Case 3",
+      "case_label": "Week 766: Case 3",
+      "attribution": "Presented by Dr. Jonathan Epstein and prepared by Dr. Harsimar Kaur",
+      "vignette": "A 68 year old female underwent a resection of a 1.5 cm. adrenal mass. The lesion appeared to be adherent and to the adrenal, but not within the adrenal.",
+      "question_text": "Presented by Dr. Jonathan Epstein and prepared by Dr. Harsimar Kaur\nA 68 year old female underwent a resection of a 1.5 cm. adrenal mass. The lesion appeared to be adherent and to the adrenal, but not within the adrenal.",
+      "source_answer": "A. Sex cord stromal nodule or tumor composed of thecal and Leydig cells",
+      "correct_answer": "Sex cord stromal nodule or tumor composed of thecal and Leydig cells",
+      "canonical_answer": "Sex cord stromal nodule or tumor composed of thecal and Leydig cells",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "A. Sex cord stromal nodule or tumor composed of thecal and Leydig cells",
+        "B. Adrenal cortical adenoma",
+        "C. Sarcomatoid carcinoma of the adrenal"
+      ],
+      "choices": [
+        "Sex cord stromal nodule or tumor composed of thecal and Leydig cells",
+        "Adrenal cortical adenoma",
+        "Sarcomatoid carcinoma of the adrenal"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/05/8296.svs-448455520552226599265x-1024x655.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/05/8296.svs-219493118526049334778x-1024x572.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/05/8296.svs-2251021417237722213423x-1024x582.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/05/8296.svs-2920035842304613655923x-1024x582.png"
+      ],
+      "histology": "Adjacent to the adrenal is a nodule with a biphasic appearance. There are nests of cells with abundant eosinophilic cytoplasm, indistinguishable from Leydig cells. Between these nests is a very cellular spindle cell proliferation composed of bland cells with elongated nuclei, no atypia, and no mitotic activity. These cells are identical to thecal cells seen in ovarian or testicular thecomas.",
+      "discussion": "In this case there is unremarkable adrenal tissue with an adherent nodule of thecal/Leydig cells. Stains were performed at the outside institution demonstrating that the Leydig cell component was positive for SF1 and synaptophysin. The spindle cell component was positive for SMA (patchy) and desmin (focal). Both were negative for PAX8, inhibin, calretinin, S100, CD34, HMB45, p63, and chromogranin. Additional stains were performed at Johns Hopkins showing that the Leydig cell component was focally positive for PR and the spindle cell component was diffusely positive for ER and PR. This case represents a rare entity which could be regarded as either \"ovarian thecal metaplasia of the adrenal gland\" or \"benign sex cord stromal tumor/nodule\" arising adjacent to the adrenal gland.\" The adrenal cortex is derived from the intermediate mesoderm in the region between the genital ridge and the root of the mesentery, such that embryologically gonadal tissue fused with the adrenal would be feasible. It is much more common to see this close relationship of adrenal and gonadal tissue manifest with adrenal cortical tissue in the inguinal or testicular region, representing adrenal cortical tissue that descends with the testis from the abdomen down to the scrotum during fetal development.",
+      "references": [],
+      "feedback_text": "Answer: A\n\nHistological Description:\n\nAdjacent to the adrenal is a nodule with a biphasic appearance. There are nests of cells with abundant eosinophilic cytoplasm, indistinguishable from Leydig cells. Between these nests is a very cellular spindle cell proliferation composed of bland cells with elongated nuclei, no atypia, and no mitotic activity. These cells are identical to thecal cells seen in ovarian or testicular thecomas.\n\nDiscussion: In this case there is unremarkable adrenal tissue with an adherent nodule of thecal/Leydig cells. Stains were performed at the outside institution demonstrating that the Leydig cell component was positive for SF1 and synaptophysin. The spindle cell component was positive for SMA (patchy) and desmin (focal). Both were negative for PAX8, inhibin, calretinin, S100, CD34, HMB45, p63, and chromogranin. Additional stains were performed at Johns Hopkins showing that the Leydig cell component was focally positive for PR and the spindle cell component was diffusely positive for ER and PR. This case represents a rare entity which could be regarded as either \"ovarian thecal metaplasia of the adrenal gland\" or \"benign sex cord stromal tumor/nodule\" arising adjacent to the adrenal gland.\" The adrenal cortex is derived from the intermediate mesoderm in the region between the genital ridge and the root of the mesentery, such that embryologically gonadal tissue fused with the adrenal would be feasible. It is much more common to see this close relationship of adrenal and gonadal tissue manifest with adrenal cortical tissue in the inguinal or testicular region, representing adrenal cortical tissue that descends with the testis from the abdomen down to the scrotum during fetal development.",
+      "feedback_html": "Answer: A<br>\nHistological Description:<br>\nAdjacent to the adrenal is a nodule with a biphasic appearance. There are nests of cells with abundant eosinophilic cytoplasm, indistinguishable from Leydig cells. Between these nests is a very cellular spindle cell proliferation composed of bland cells with elongated nuclei, no atypia, and no mitotic activity. These cells are identical to thecal cells seen in ovarian or testicular thecomas. <p></p>\n<p>Discussion: In this case there is unremarkable adrenal tissue with an adherent nodule of thecal/Leydig cells.   Stains were performed at the outside institution demonstrating that the Leydig cell component was positive for SF1 and synaptophysin.  The spindle cell component was positive for SMA (patchy) and desmin (focal).  Both were negative for PAX8, inhibin, calretinin, S100, CD34, HMB45, p63, and chromogranin. Additional stains were performed at Johns Hopkins showing that the Leydig cell component was focally positive for PR and the spindle cell component was diffusely positive for ER and PR. This case represents a rare entity which could be regarded as either \"ovarian thecal metaplasia of the adrenal gland\" or \"benign sex cord stromal tumor/nodule\" arising adjacent to the adrenal gland.\" The adrenal cortex is derived from the intermediate mesoderm in the region between the genital ridge and the root of the mesentery, such that embryologically gonadal tissue fused with the adrenal would be feasible. It is much more common to see this close relationship of adrenal and gonadal tissue manifest with adrenal cortical tissue in the inguinal or testicular region, representing adrenal cortical tissue that descends with the testis from the abdomen down to the scrotum during fetal development.\n</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:20:11.906Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w766c2",
+      "url": "https://sp.pathology.jhu.edu/week-766-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 766: Case 2",
+      "case_label": "Week 766: Case 2",
+      "attribution": "Presented by Dr. Jonathan Epstein and prepared by Dr. Harsimar Kaur",
+      "vignette": "A 55 year old man underwent a TURB for a bladder tumor.",
+      "question_text": "Presented by Dr. Jonathan Epstein and prepared by Dr. Harsimar Kaur\nA 55 year old man underwent a TURB for a bladder tumor.",
+      "source_answer": "B. Invasive high grade urothelial carcinoma with syncytiotrophoblasts",
+      "correct_answer": "Invasive high grade urothelial carcinoma with syncytiotrophoblasts",
+      "canonical_answer": "Invasive high grade urothelial carcinoma with syncytiotrophoblasts",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Choriocarcinoma",
+        "B. Invasive high grade urothelial carcinoma with syncytiotrophoblasts",
+        "C. Invasive high grade urothelial carcinoma with pleomorphic multinucleated tumor giant cells",
+        "D. Undifferentiated invasive urothelial carcinoma with osteoclastic giant cells"
+      ],
+      "choices": [
+        "Choriocarcinoma",
+        "Invasive high grade urothelial carcinoma with syncytiotrophoblasts",
+        "Invasive high grade urothelial carcinoma with pleomorphic multinucleated tumor giant cells",
+        "Undifferentiated invasive urothelial carcinoma with osteoclastic giant cells"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/05/8302.svs-68731324552609409821x-1024x621.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/05/8302.svs-194591906224074217357x-1024x593.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/05/8302.svs-39921921344732119037x-1024x572.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/05/8302.svs-5090750045532785152013x-1024x637.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/05/8302.svs-92061359113475159128x-1024x557.png"
+      ],
+      "histology": "",
+      "discussion": "Urothelial carcinoma with trophoblastic differentiation can manifest as: 1) invasive high grade pleomorphic urothelial carcinoma without syncytiotrophoblasts aberrantly expressing HCG; 2) invasive urothelial carcinoma or non-invasive papillary urothelial carcinoma of various grades with syncytiotrophoblasts; or rarely 3) choriocarcinoma. In high grade pleomorphic urothelial carcinoma, HCG can be present in tumor cells or elevated in the serum that lack the histological features of syncytiotrophoblasts. Aberrantly expression of HCG can be seen in in pleomorphic tumors in other organs, as well. As in this case, rarely, one can see cells with the typical appearance of syncytiotrophoblasts in various pattern of urothelial carcinoma. These cells will express HCG, but if there is elevated levels of serum HCG then often there is a lot of background staining immunohistochemically with HCG. A cleaner trophoblastic marker is HSD3B1 which will only label the syncytiotrophoblasts. There is no prognostic significance to the presence of syncytiotrophoblasts, yet if numerous can result in elevated serum HCG levels and gynecomastia in men. Choriocarcinoma of the bladder is very rare and has a dimorphic population of cytotrophoblasts and intimately admixed syncytiotrophoblasts, with a very poor prognosis.",
+      "references": [],
+      "feedback_text": "Answer: B\n\nHistological description. The TURB shows invasive high grade papillary urothelial carcinoma. In addition, there is CIS with involvement of Von Brun nests. There is extensive lamina propria invasion with no muscularis propria present. Scattered amongst the invasive carcinoma are multinucleated cells typical of syncytiotrophoblasts.\n\nDiscussion: Urothelial carcinoma with trophoblastic differentiation can manifest as: 1) invasive high grade pleomorphic urothelial carcinoma without syncytiotrophoblasts aberrantly expressing HCG; 2) invasive urothelial carcinoma or non-invasive papillary urothelial carcinoma of various grades with syncytiotrophoblasts; or rarely 3) choriocarcinoma. In high grade pleomorphic urothelial carcinoma, HCG can be present in tumor cells or elevated in the serum that lack the histological features of syncytiotrophoblasts. Aberrantly expression of HCG can be seen in in pleomorphic tumors in other organs, as well. As in this case, rarely, one can see cells with the typical appearance of syncytiotrophoblasts in various pattern of urothelial carcinoma. These cells will express HCG, but if there is elevated levels of serum HCG then often there is a lot of background staining immunohistochemically with HCG. A cleaner trophoblastic marker is HSD3B1 which will only label the syncytiotrophoblasts. There is no prognostic significance to the presence of syncytiotrophoblasts, yet if numerous can result in elevated serum HCG levels and gynecomastia in men. Choriocarcinoma of the bladder is very rare and has a dimorphic population of cytotrophoblasts and intimately admixed syncytiotrophoblasts, with a very poor prognosis.",
+      "feedback_html": "Answer: B<br>\nHistological description. The TURB shows invasive high grade papillary urothelial carcinoma. In addition, there is CIS with involvement of Von Brun nests. There is extensive lamina propria invasion with no muscularis propria present. Scattered amongst the invasive carcinoma are multinucleated cells typical of syncytiotrophoblasts.<p></p>\n<p>Discussion:  Urothelial carcinoma with trophoblastic differentiation can manifest as: 1) invasive high grade pleomorphic urothelial carcinoma without syncytiotrophoblasts aberrantly expressing HCG; 2) invasive urothelial carcinoma or non-invasive papillary urothelial carcinoma of various grades with syncytiotrophoblasts; or rarely 3) choriocarcinoma. In high grade pleomorphic urothelial carcinoma, HCG can be present in tumor cells or elevated in the serum that lack the histological features of syncytiotrophoblasts. Aberrantly expression of HCG can be seen in in pleomorphic tumors in other organs, as well. As in this case, rarely, one can see cells with the typical appearance of syncytiotrophoblasts in various pattern of urothelial carcinoma. These cells will express HCG, but if there is elevated levels of serum HCG then often there is a lot of background staining immunohistochemically with HCG. A cleaner trophoblastic marker is HSD3B1 which will only label the syncytiotrophoblasts.  There is no prognostic significance to the presence of syncytiotrophoblasts, yet if numerous can result in elevated serum HCG levels and gynecomastia in men. Choriocarcinoma of the bladder is very rare and has a dimorphic population of cytotrophoblasts and intimately admixed syncytiotrophoblasts, with a very poor prognosis.\n</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:20:22.023Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w766c1",
+      "url": "https://sp.pathology.jhu.edu/week-766-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 766: Case 1",
+      "case_label": "Week 766: Case 1",
+      "attribution": "Presented by Dr. Jonathan Epstein and prepared by Dr. Harsimar Kaur",
+      "vignette": "A 65 year-old man underwent a radical nephrectomy for a renal hilar mass.",
+      "question_text": "Presented by Dr. Jonathan Epstein and prepared by Dr. Harsimar Kaur\nA 65 year-old man underwent a radical nephrectomy for a renal hilar mass.",
+      "source_answer": "B. Leiomyosarcoma",
+      "correct_answer": "Leiomyosarcoma",
+      "canonical_answer": "Leiomyosarcoma",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Leiomyoma",
+        "B. Leiomyosarcoma",
+        "C. Angiomyolipoma",
+        "D. Atypical angiomyolipoma"
+      ],
+      "choices": [
+        "Leiomyoma",
+        "Leiomyosarcoma",
+        "Angiomyolipoma",
+        "Atypical angiomyolipoma"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/05/8298.svs-7399089438820381x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/05/8298.svs-284125572636227625573x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/05/8298.svs-7656951539791815301513x-1024x578.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/05/8298.svs-5973120336611812115623x-1024x578.png"
+      ],
+      "histology": "Adjacent to the renal pelvis is a spindle cell tumor composed of well-formed fascicles. Nuclei are cigar-shaped with occasional nuclear hyperchromasia yet still relatively uniform. Scattered mitotic activity is present. The lesion lacks necrosis. Adjacent renal parenchyma is uninvolved.",
+      "discussion": "First, in terms of the distinction of AML and a smooth muscle tumor involving the kidney, there is a difference in location. AMLs involve the kidney or peri-renal tissue, but typically not the hilum of the kidney. In contrast, smooth muscle tumors arise from the large vessels of the renal hilum. Histologically, smooth muscle cells have identical nuclei to those in low grade leiomyosarcomas yet the cytoplasm is looser and filamentous, whereas in smooth muscle the overall appearance is more dense pink due to more compact eosinophilic cytoplasm. Smooth muscle tumors also tend to have a more regular fascicular growth pattern compared to AML. Immunohistochemically, both AML and smooth muscle tumors express desmin and smooth muscle actin. However, AMLs are also positive for HMB45 and Melan A, yet can be very focal. S100 protein can be positive. Typically, Cathepsin K is diffusely positive in AMLs but not smooth muscle tumors. A more recently described marker GPNMB is also positive in AML and negative in smooth muscle tumors. In the current case, immunohistochemistry confirmed the diagnosis of a smooth muscle tumor. Once it is recognized that this is a smooth muscle tumor, the differential is between a leiomyoma and leiomyosarcoma. In this site, a leiomyoma is diagnosed only if the lesion is virtually identical to normal smooth muscle in terms of cellularity and no atypia and no mitotic activity, yet recognizable as a tumor because it is forming a spherical mass. In this case, the lesion is hypercellular with occasional hyperchromatic nuclei and scatter mitotic activity diagnostic of a low grade (Grade 1) leiomyosarcoma.",
+      "references": [],
+      "feedback_text": "Answer: B\n\nHistological Description: Adjacent to the renal pelvis is a spindle cell tumor composed of well-formed fascicles. Nuclei are cigar-shaped with occasional nuclear hyperchromasia yet still relatively uniform. Scattered mitotic activity is present. The lesion lacks necrosis. Adjacent renal parenchyma is uninvolved.\n\nDiscussion: First, in terms of the distinction of AML and a smooth muscle tumor involving the kidney, there is a difference in location. AMLs involve the kidney or peri-renal tissue, but typically not the hilum of the kidney. In contrast, smooth muscle tumors arise from the large vessels of the renal hilum. Histologically, smooth muscle cells have identical nuclei to those in low grade leiomyosarcomas yet the cytoplasm is looser and filamentous, whereas in smooth muscle the overall appearance is more dense pink due to more compact eosinophilic cytoplasm. Smooth muscle tumors also tend to have a more regular fascicular growth pattern compared to AML. Immunohistochemically, both AML and smooth muscle tumors express desmin and smooth muscle actin. However, AMLs are also positive for HMB45 and Melan A, yet can be very focal. S100 protein can be positive. Typically, Cathepsin K is diffusely positive in AMLs but not smooth muscle tumors. A more recently described marker GPNMB is also positive in AML and negative in smooth muscle tumors. In the current case, immunohistochemistry confirmed the diagnosis of a smooth muscle tumor. Once it is recognized that this is a smooth muscle tumor, the differential is between a leiomyoma and leiomyosarcoma. In this site, a leiomyoma is diagnosed only if the lesion is virtually identical to normal smooth muscle in terms of cellularity and no atypia and no mitotic activity, yet recognizable as a tumor because it is forming a spherical mass. In this case, the lesion is hypercellular with occasional hyperchromatic nuclei and scatter mitotic activity diagnostic of a low grade (Grade 1) leiomyosarcoma.",
+      "feedback_html": "Answer: B<p></p>\n<p>Histological Description: Adjacent to the renal pelvis is a spindle cell tumor composed of well-formed fascicles. Nuclei are cigar-shaped with occasional nuclear hyperchromasia yet still relatively uniform. Scattered mitotic activity is present. The lesion lacks necrosis. Adjacent renal parenchyma is uninvolved. </p>\n<p>Discussion: First, in terms of the distinction of AML and a smooth muscle tumor involving the kidney, there is a difference in location. AMLs involve the kidney or peri-renal tissue, but typically not the hilum of the kidney. In contrast, smooth muscle tumors arise from the large vessels of the renal hilum. Histologically, smooth muscle cells have identical nuclei to those in low grade leiomyosarcomas yet the cytoplasm is looser and filamentous, whereas in smooth muscle the overall appearance is more dense pink due to more compact eosinophilic cytoplasm.  Smooth muscle tumors also tend to have a more regular fascicular growth pattern compared to AML. Immunohistochemically, both AML and smooth muscle tumors express desmin and smooth muscle actin. However, AMLs are also positive for HMB45 and Melan A, yet can be very focal. S100 protein can be positive. Typically, Cathepsin K is diffusely positive in AMLs but not smooth muscle tumors. A more recently described marker GPNMB is also positive in AML and negative in smooth muscle tumors. In the current case, immunohistochemistry confirmed the diagnosis of a smooth muscle tumor. Once it is recognized that this is a smooth muscle tumor, the differential is between a leiomyoma and leiomyosarcoma. In this site, a leiomyoma is diagnosed only if the lesion is virtually identical to normal smooth muscle in terms of cellularity and no atypia and no mitotic activity, yet recognizable as a tumor because it is forming a spherical mass. In this case, the lesion is hypercellular with occasional hyperchromatic nuclei and scatter mitotic activity diagnostic of a low grade (Grade 1) leiomyosarcoma.\n</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:20:31.667Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w765c3",
+      "url": "https://sp.pathology.jhu.edu/week-765-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 765: Case 3",
+      "case_label": "Week 765: Case 3",
+      "attribution": "Presented by Dr. Ezra Baraban and prepared by Dr. Harsimar Kaur",
+      "vignette": "Elderly male status post cystoprostatectomy.",
+      "question_text": "Presented by Dr. Ezra Baraban and prepared by Dr. Harsimar Kaur\nElderly male status post cystoprostatectomy.",
+      "source_answer": "C. In-situ urothelial carcinoma and invasive prostatic adenocarcinoma",
+      "correct_answer": "In-situ urothelial carcinoma and invasive prostatic adenocarcinoma",
+      "canonical_answer": "In-situ urothelial carcinoma and invasive prostatic adenocarcinoma",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "A. Intraductal and invasive carcinoma of the prostate",
+        "B. Invasive and In-situ urothelial carcinoma",
+        "C. In-situ urothelial carcinoma and invasive prostatic adenocarcinoma",
+        "D. Invasive urothelial carcinoma and intraductal carcinoma of the prostate"
+      ],
+      "choices": [
+        "Intraductal and invasive carcinoma of the prostate",
+        "Invasive and In-situ urothelial carcinoma",
+        "In-situ urothelial carcinoma and invasive prostatic adenocarcinoma",
+        "Invasive urothelial carcinoma and intraductal carcinoma of the prostate"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/05/8293.tif-23931478808571148151x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/05/8293.tif-445663531261288461094x-1024x661.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/05/8293.tif-5360039504585274283610x-1024x693.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/05/8293.tif-2480249284294905296410x-1024x804.png"
+      ],
+      "histology": "",
+      "discussion": "",
+      "references": [],
+      "feedback_text": "Sections show prostatic tissue with a solid intraductal proliferation of dyscohesive neoplastic cells with eosinophilic cytoplasm, nuclear pleomorphism and mitotic activity. Focally these cells undermine benign prostatic epithelium in a pagetoid distribution. Another area shows an infiltrating tumor composed predominantly of poorly formed glands with amphophilic cytoplasm, monotonous nuclei and prominent nucleoli. Intraductal carcinoma of the prostate shows the cytologic features of prostatic adenocarcinoma but conforms to the architecture of pre-existing benign prostate glands. The non-invasive proliferation in this case conforms to the architecture of pre-existing benign prostate glands but has the cytologic features of urothelial carcinoma, indicating in-situ urothelial carcinoma involving prostatic ducts and acini, which is regarded as pTis under the prostatic urethral staging system. GATA3, P40, or uroplakin, along with negativity for some combination of NKX3.1, P501S, and PSA would confirm the urothelial nature of these cells. Elsewhere there is invasive adenocarcinoma with cytologic features of prostatic adenocarcinoma \" an incidental finding in this cystoprostatectomy performed for muscle invasive urothelial carcinoma.",
+      "feedback_html": "Sections show prostatic tissue with a solid intraductal proliferation of dyscohesive neoplastic cells with eosinophilic cytoplasm, nuclear pleomorphism and mitotic activity.  Focally these cells undermine benign prostatic epithelium in a pagetoid distribution.  Another area shows an infiltrating tumor composed predominantly of poorly formed glands with amphophilic cytoplasm, monotonous nuclei and prominent nucleoli.  Intraductal carcinoma of the prostate shows the cytologic features of prostatic adenocarcinoma but conforms to the architecture of pre-existing benign prostate glands.  The non-invasive proliferation in this case conforms to the architecture of pre-existing benign prostate glands but has the cytologic features of urothelial carcinoma, indicating in-situ urothelial carcinoma involving prostatic ducts and acini, which is regarded as pTis under the prostatic urethral staging system.  GATA3, P40, or uroplakin, along with negativity for some combination of NKX3.1, P501S, and PSA would confirm the urothelial nature of these cells.  Elsewhere there is invasive adenocarcinoma with cytologic features of prostatic adenocarcinoma \" an incidental finding in this cystoprostatectomy performed for muscle invasive urothelial carcinoma.  ",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:20:41.394Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w765c2",
+      "url": "https://sp.pathology.jhu.edu/week-765-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 765: Case 2",
+      "case_label": "Week 765: Case 2",
+      "attribution": "Presented by Dr. Ezra Baraban and prepared by Dr. Harsimar Kaur",
+      "vignette": "Elderly male with pleural mass.",
+      "question_text": "Presented by Dr. Ezra Baraban and prepared by Dr. Harsimar Kaur\nElderly male with pleural mass.",
+      "source_answer": "D. Sarcomatoid mesothelioma",
+      "correct_answer": "Sarcomatoid mesothelioma",
+      "canonical_answer": "Sarcomatoid mesothelioma",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "A. Solitary fibrous tumor",
+        "B. Low grade fibromyxoid sarcoma",
+        "C. Sarcomatoid carcinoma",
+        "D. Sarcomatoid mesothelioma"
+      ],
+      "choices": [
+        "Solitary fibrous tumor",
+        "Low grade fibromyxoid sarcoma",
+        "Sarcomatoid carcinoma",
+        "Sarcomatoid mesothelioma"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/05/8292.tif-131794883027848871x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/05/8292.tif-434153862061344537013x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/05/8292.tif-5390443762569784634713x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/05/8292.tif-2566931213120277757x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/05/8292.tif-28002593028940671940x.png"
+      ],
+      "histology": "",
+      "discussion": "",
+      "references": [],
+      "feedback_text": "Sections show a low-grade cellular spindle cell neoplasm. The monotony and arcing vasculature could suggest low grade fibromyxoid sarcoma, however that lesion should lack keratin staining and express MUC4. Pleura is a typical location for solitary fibrous tumor, however SFT should typically express CD34 and STAT6 and typically features \"staghorn\" vasculature. Sarcomatoid carcinoma of lung origin or other primary sites is a strong consideration and expression of keratin and TTF1 would support this diagnosis. A recent publication suggested that MUC4 positivity and GATA3 negativity can be used to support sarcomatoid carcinoma versus sarcomatoid mesothelioma in the setting of a malignant spindled tumor involving pleura. In this case, an epithelioid component was present in other sections and both components labeled with cytokeratin as well as multiple mesothelial markers, confirming the diagnosis of biphasic (epithelioid and sarcomatoid) mesothelioma.",
+      "feedback_html": "Sections show a low-grade cellular spindle cell neoplasm.  The monotony and arcing vasculature could suggest low grade fibromyxoid sarcoma, however that lesion should lack keratin staining and express MUC4.  Pleura is a typical location for solitary fibrous tumor, however SFT should typically express CD34 and STAT6 and typically features \"staghorn\" vasculature.  Sarcomatoid carcinoma of lung  origin or other primary sites is a strong consideration and expression of keratin and TTF1 would support this diagnosis.  A recent publication suggested that MUC4 positivity  and GATA3 negativity can be used to support sarcomatoid carcinoma versus sarcomatoid mesothelioma in the setting of a malignant spindled tumor involving pleura.  In this case, an epithelioid component was present in other sections and both components labeled with cytokeratin as well as multiple mesothelial markers, confirming the diagnosis of biphasic (epithelioid and sarcomatoid) mesothelioma.  ",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:20:52.660Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w765c1",
+      "url": "https://sp.pathology.jhu.edu/week-765-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 765: Case 1",
+      "case_label": "Week 765: Case 1",
+      "attribution": "Presented by Dr. Ezra Baraban and prepared by Dr. Harsimar Kaur",
+      "vignette": "Adult male with shoulder mass.",
+      "question_text": "Presented by Dr. Ezra Baraban and prepared by Dr. Harsimar Kaur\nAdult male with shoulder mass.",
+      "source_answer": "B. Sarcomatoid squamous cell carcinoma",
+      "correct_answer": "Sarcomatoid squamous cell carcinoma",
+      "canonical_answer": "Sarcomatoid squamous cell carcinoma",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Nodular Fasciitis",
+        "B. Sarcomatoid squamous cell carcinoma",
+        "C. Melanoma",
+        "D. Angiosarcoma"
+      ],
+      "choices": [
+        "Nodular Fasciitis",
+        "Sarcomatoid squamous cell carcinoma",
+        "Melanoma",
+        "Angiosarcoma"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/05/8290.tif-47665101376773871269332x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/05/8290.tif-415947120471315950412x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/05/8290.tif-512031073915403410966214x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/05/8290.tif-2737236933289453819425x.png"
+      ],
+      "histology": "",
+      "discussion": "",
+      "references": [],
+      "feedback_text": "Sections show a spindle cell neoplasm infiltrating deep dermis and subcutis. Nodular fasciitis may involve the dermis but necrosis and fascicular architecture are not typical. A myofibroblastic immunophenotype would be expected and demonstration of a USP6 rearrangement can be used to support the diagnosis. Melanoma can be excluded with negativity for S100 and SOX10 as well as the lack of an overlying in-situ component. Angiosarcoma should label with at least two of the three endothelial markers CD31, ERG, or CD34. This patient had a history of squamous carcinoma at this site. A previous biopsy with similar morphology showed extensive expression of multiple keratins and P40, confirming the diagnosis of sarcomatoid squamous cell carcinoma.",
+      "feedback_html": "Sections show a spindle cell neoplasm infiltrating deep dermis and subcutis.  Nodular fasciitis may involve the dermis but necrosis and fascicular architecture are not typical.  A myofibroblastic immunophenotype would be expected and demonstration of a USP6 rearrangement can be used to support the diagnosis. Melanoma can be excluded with negativity for S100 and SOX10 as well as the lack of an overlying in-situ component.  Angiosarcoma should label with at least two of the three endothelial markers CD31, ERG, or CD34.  This patient had a history of squamous carcinoma at this site.  A previous biopsy with similar morphology showed extensive expression of multiple keratins and P40, confirming the diagnosis of sarcomatoid squamous cell carcinoma.  ",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:21:03.045Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w764c3",
+      "url": "https://sp.pathology.jhu.edu/week-764-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 764: Case 3",
+      "case_label": "Week 764: Case 3",
+      "attribution": "Presented by Dr. Andres Matoso and prepared by Dr. Harsimar Kaur",
+      "vignette": "Adult female with kidney tumor.",
+      "question_text": "Presented by Dr. Andres Matoso and prepared by Dr. Harsimar Kaur\nAdult female with kidney tumor.",
+      "source_answer": "B. Eosinophilic solid and cystic renal cell carcinoma",
+      "correct_answer": "Eosinophilic solid and cystic renal cell carcinoma",
+      "canonical_answer": "Eosinophilic solid and cystic renal cell carcinoma",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Oncocytoma",
+        "B. Eosinophilic solid and cystic renal cell carcinoma",
+        "C. Chromophobe renal cell carcinoma.",
+        "D. Epithelioid angiomyolipoma."
+      ],
+      "choices": [
+        "Oncocytoma",
+        "Eosinophilic solid and cystic renal cell carcinoma",
+        "Chromophobe renal cell carcinoma",
+        "Epithelioid angiomyolipoma"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/04/8267.ndpi-560-13691290051014371x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/04/8267.ndpi-726657480684900842443x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/04/8267.ndpi-601718243263947853456x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/04/8267.ndpi-7680479856779698075518x.png"
+      ],
+      "histology": "This solid and cystic tumor is composed of tumor cells with abundant eosinophilic cytoplasm, enlarged nuclei and prominent nucleoli. The cysts are lined by cells exhibiting hobnail arrangement with voluminous eosinophilic cytoplasm. The cells in the solid areas typically showed diffuse and compact acinar or nested growth. The cytoplasm shows a characteristic granular, fine or coarse stippling, consisting of basophilic to purple inclusions.",
+      "discussion": "Eosinophilic solid and cystic RCC (ESC RCC)shows the characteristic morphology of the case presented here, with often tan, solid, and cystic gross appearance and cells exhibiting eosinophilic, voluminous cytoplasm with granular stippling. The tumors are typically low stage and often show prominent nucleoli. There is frequent CK20 positivity, whereas CK7 is usually negative or only focally positive. Cathepsin-K can be positive, which is also positive in epithelioid AMLs but AMLs are negative for PAX8 while ESC RCC is most frequently positive. ESCs RCC are associated with mutations in the TSC1 gene, with or without association with tuberous sclerosis syndrome. While most patients present with organ confined disease and have a favorable outcome, rare cases of metastatic ESC RCC have been documented.",
+      "references": [
+        {
+          "text": "Trpkov K, Hes O, Bonert M, et al. Eosinophilic, solid, and cystic renal cell carcinoma: clinicopathologic study of 16 unique, sporadic neoplasms occurring in women. Am J Surg Pathol. 2016;40:60\"71.",
+          "url": null
+        },
+        {
+          "text": "Trpkov K, Abou-Ouf H, Hes O, Lopez JI, Nesi G, Comperat E, Sibony M, Osunkoya AO, Zhou M, Gokden N, Leroy X, Berney DM, Werneck Cunha I, Musto ML, Athanazio DA, Yilmaz A, Donnelly B, Hyndman E, Gill AJ, McKenney JK, Bismar TA. Eosinophilic Solid and Cystic Renal Cell Carcinoma (ESC RCC): Further Morphologic and Molecular Characterization of ESC RCC as a Distinct Entity. Am J Surg Pathol. 2017 Oct;41(10):1299-1308.",
+          "url": null
+        },
+        {
+          "text": "Palsgrove DN, Li Y, Pratilas CA, Lin MT, Pallavajjalla A, Gocke C, De Marzo AM, Matoso A, Netto GJ, Epstein JI, Argani P. Eosinophilic Solid and Cystic (ESC) Renal CellCarcinomas Harbor TSC Mutations: Molecular Analysis Supports an Expanding Clinicopathologic Spectrum. Am J Surg Pathol. 2018 Sep;42(9):1166-1181.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Correct: B.\n\nHistology: This solid and cystic tumor is composed of tumor cells with abundant eosinophilic cytoplasm, enlarged nuclei and prominent nucleoli. The cysts are lined by cells exhibiting hobnail arrangement with voluminous eosinophilic cytoplasm. The cells in the solid areas typically showed diffuse and compact acinar or nested growth. The cytoplasm shows a characteristic granular, fine or coarse stippling, consisting of basophilic to purple inclusions.\n\nDiscussion: Eosinophilic solid and cystic RCC (ESC RCC)shows the characteristic morphology of the case presented here, with often tan, solid, and cystic gross appearance and cells exhibiting eosinophilic, voluminous cytoplasm with granular stippling. The tumors are typically low stage and often show prominent nucleoli. There is frequent CK20 positivity, whereas CK7 is usually negative or only focally positive. Cathepsin-K can be positive, which is also positive in epithelioid AMLs but AMLs are negative for PAX8 while ESC RCC is most frequently positive. ESCs RCC are associated with mutations in the TSC1 gene, with or without association with tuberous sclerosis syndrome. While most patients present with organ confined disease and have a favorable outcome, rare cases of metastatic ESC RCC have been documented.\n\nReferences:\n\n1. Trpkov K, Hes O, Bonert M, et al. Eosinophilic, solid, and cystic renal cell carcinoma: clinicopathologic study of 16 unique, sporadic neoplasms occurring in women. Am J Surg Pathol. 2016;40:60\"71.\n\n2. Trpkov K, Abou-Ouf H, Hes O, Lopez JI, Nesi G, Comperat E, Sibony M, Osunkoya AO, Zhou M, Gokden N, Leroy X, Berney DM, Werneck Cunha I, Musto ML, Athanazio DA, Yilmaz A, Donnelly B, Hyndman E, Gill AJ, McKenney JK, Bismar TA. Eosinophilic Solid and Cystic Renal Cell Carcinoma (ESC RCC): Further Morphologic and Molecular Characterization of ESC RCC as a Distinct Entity. Am J Surg Pathol. 2017 Oct;41(10):1299-1308.\n\n3. Palsgrove DN, Li Y, Pratilas CA, Lin MT, Pallavajjalla A, Gocke C, De Marzo AM, Matoso A, Netto GJ, Epstein JI, Argani P. Eosinophilic Solid and Cystic (ESC) Renal CellCarcinomas Harbor TSC Mutations: Molecular Analysis Supports an Expanding Clinicopathologic Spectrum. Am J Surg Pathol. 2018 Sep;42(9):1166-1181.",
+      "feedback_html": "Correct: B.<p></p>\n<p>Histology: This solid and cystic tumor is composed of tumor cells with abundant eosinophilic cytoplasm, enlarged nuclei and prominent nucleoli. The cysts are lined by cells exhibiting hobnail arrangement with voluminous eosinophilic cytoplasm. The cells in the solid areas typically showed diffuse and compact acinar or nested growth. The cytoplasm shows a characteristic granular, fine or coarse stippling, consisting of basophilic to purple inclusions. </p>\n<p>Discussion: Eosinophilic solid and cystic RCC (ESC RCC)shows the characteristic morphology of the case presented here, with often tan, solid, and cystic gross appearance and cells exhibiting eosinophilic, voluminous cytoplasm with granular stippling. The tumors are typically low stage and often show prominent nucleoli. There is frequent CK20 positivity, whereas CK7 is usually negative or only focally positive. Cathepsin-K can be positive, which is also positive in epithelioid AMLs but AMLs are negative for PAX8 while ESC RCC is most frequently positive. ESCs RCC are associated with mutations in the TSC1 gene, with or without association with tuberous sclerosis syndrome. While most patients present with organ confined disease and have a favorable outcome, rare cases of metastatic ESC RCC have been documented.    </p>\n<p>References:<br>\n1.\tTrpkov K, Hes O, Bonert M, et al. Eosinophilic, solid, and cystic renal cell carcinoma: clinicopathologic study of 16 unique, sporadic neoplasms occurring in women. Am J Surg Pathol. 2016;40:60\"71.<br>\n2.\tTrpkov K, Abou-Ouf H, Hes O, Lopez JI, Nesi G, Comperat E, Sibony M, Osunkoya AO, Zhou M, Gokden N, Leroy X, Berney DM, Werneck Cunha I, Musto ML, Athanazio DA, Yilmaz A, Donnelly B, Hyndman E, Gill AJ, McKenney JK, Bismar TA. Eosinophilic Solid and Cystic Renal Cell Carcinoma (ESC RCC): Further Morphologic and Molecular Characterization of ESC RCC as a Distinct Entity. Am J Surg Pathol. 2017 Oct;41(10):1299-1308.<br>\n3.\tPalsgrove DN, Li Y, Pratilas CA, Lin MT, Pallavajjalla A, Gocke C, De Marzo AM, Matoso A, Netto GJ, Epstein JI, Argani P. Eosinophilic Solid and Cystic (ESC) Renal CellCarcinomas Harbor TSC Mutations: Molecular Analysis Supports an Expanding Clinicopathologic Spectrum. Am J Surg Pathol. 2018 Sep;42(9):1166-1181.\n</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:21:12.936Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w764c2",
+      "url": "https://sp.pathology.jhu.edu/week-764-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 764: Case 2",
+      "case_label": "Week 764: Case 2",
+      "attribution": "Presented by Dr. Andres Matoso and prepared by Dr. Harsimar Kaur",
+      "vignette": "Adult female with kidney tumor.",
+      "question_text": "Presented by Dr. Andres Matoso and prepared by Dr. Harsimar Kaur\nAdult female with kidney tumor.",
+      "source_answer": "B. Xanthogranulomatous pyelonephritis",
+      "correct_answer": "Xanthogranulomatous pyelonephritis",
+      "canonical_answer": "Xanthogranulomatous pyelonephritis",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Malakoplakia",
+        "B. Xanthogranulomatous pyelonephritis",
+        "C. Erdheim Chester disease",
+        "D. Rosai Dorfman disease"
+      ],
+      "choices": [
+        "Malakoplakia",
+        "Xanthogranulomatous pyelonephritis",
+        "Erdheim Chester disease",
+        "Rosai Dorfman disease"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/04/8266.ndpi-220948996142447923921x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/04/8266.ndpi-9552645049111662567672x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/04/8266.ndpi-9843056746999675772217x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/04/8266.ndpi-889066529693886684576x-1.png"
+      ],
+      "histology": "The lesion shows a relatively well circumscribed mass composed of a mixed inflammatory infiltrate with sheets of foamy histiocytes.",
+      "discussion": "Xanthogranulomatous pyelonephritis is a variant of chronic pyelonephritis in the setting of chronic obstruction due to renal calculi, which may lead to massive unilateral destruction of the kidney with the presence of granulomatous tissue that contains lipid-filled macrophages. Clinically, the patients can present with back pain, fever, or incidentally found in imaging studies performed for another reason. Image studies reveal an infiltrative mass that is suspicious for carcinoma. Three forms of this condition have been described: diffuse, segmental, and focal. The diffuse type is the most common one, and there are three stages associated with it. The first one is the nephric stage, which is confined to the renal parenchyma; stage II, or the perinephric stage, involves the perirenal space and Gerota's fascia; and stage III, or the paranephric stages, refers to the involvement of the pararenal area and retroperitoneal structures. The differential diagnosis include other histiocytic disorders such as Rosai Dorfman disease, Erdheim Chester disease and malakoplakia. Malakoplakia has similar histologic features but it is characterized by the presence of Michaelis Gutman bodies which are small targetoid concentrically layered basophilic inclusions. Histiocytes of Rosai Dorfman have eosinophilic cytoplasm and are positive for S100 by immunohistochemistry. Erdheim Chester disease is an extremely rare neoplastic process that could be diagnosed using immunohistochemistry to detect mutant BRAF V600E.",
+      "references": [
+        {
+          "text": "Cureus. 2021 Oct; 13(10): e19133.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Correct: B\n\nHistology: The lesion shows a relatively well circumscribed mass composed of a mixed inflammatory infiltrate with sheets of foamy histiocytes.\n\nDiscussion: Xanthogranulomatous pyelonephritis is a variant of chronic pyelonephritis in the setting of chronic obstruction due to renal calculi, which may lead to massive unilateral destruction of the kidney with the presence of granulomatous tissue that contains lipid-filled macrophages. Clinically, the patients can present with back pain, fever, or incidentally found in imaging studies performed for another reason. Image studies reveal an infiltrative mass that is suspicious for carcinoma. Three forms of this condition have been described: diffuse, segmental, and focal. The diffuse type is the most common one, and there are three stages associated with it. The first one is the nephric stage, which is confined to the renal parenchyma; stage II, or the perinephric stage, involves the perirenal space and Gerota's fascia; and stage III, or the paranephric stages, refers to the involvement of the pararenal area and retroperitoneal structures. The differential diagnosis include other histiocytic disorders such as Rosai Dorfman disease, Erdheim Chester disease and malakoplakia. Malakoplakia has similar histologic features but it is characterized by the presence of Michaelis Gutman bodies which are small targetoid concentrically layered basophilic inclusions. Histiocytes of Rosai Dorfman have eosinophilic cytoplasm and are positive for S100 by immunohistochemistry. Erdheim Chester disease is an extremely rare neoplastic process that could be diagnosed using immunohistochemistry to detect mutant BRAF V600E.\n\nReferences:\n\n1. Cureus. 2021 Oct; 13(10): e19133.",
+      "feedback_html": "Correct: B<p></p>\n<p>Histology: The lesion shows a relatively well circumscribed mass composed of a mixed inflammatory infiltrate with sheets of foamy histiocytes. </p>\n<p>Discussion: Xanthogranulomatous pyelonephritis is a variant of chronic pyelonephritis in the setting of chronic obstruction due to renal calculi, which may lead to massive unilateral destruction of the kidney with the presence of granulomatous tissue that contains lipid-filled macrophages. Clinically, the patients can present with back pain, fever, or incidentally found in imaging studies performed for another reason. Image studies reveal an infiltrative mass that is suspicious for carcinoma. Three forms of this condition have been described: diffuse, segmental, and focal. The diffuse type is the most common one, and there are three stages associated with it. The first one is the nephric stage, which is confined to the renal parenchyma; stage II, or the perinephric stage, involves the perirenal space and Gerota's fascia; and stage III, or the paranephric stages, refers to the involvement of the pararenal area and retroperitoneal structures. The differential diagnosis include other histiocytic disorders such as Rosai Dorfman disease,  Erdheim Chester disease and malakoplakia.  Malakoplakia has similar histologic features but it is characterized by the presence of Michaelis Gutman bodies which are small targetoid concentrically layered basophilic inclusions. Histiocytes of Rosai Dorfman have eosinophilic cytoplasm and are positive for S100 by immunohistochemistry. Erdheim Chester disease is an extremely rare neoplastic process that could be diagnosed using immunohistochemistry to detect mutant BRAF V600E.   </p>\n<p>References:<br>\n1. \tCureus. 2021 Oct; 13(10): e19133.\n</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:21:23.177Z",
+      "extractor_version": "1.0.0"
+    }
+  ]
+}
