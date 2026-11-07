@@ -81,7 +81,7 @@ author_profile: false
 }
 </style>
 
-<div class="pathunknowns" data-pathunknowns-build="2026-11-07.ihc200">
+<div class="pathunknowns" data-pathunknowns-build="2026-11-07.lazy1">
   <div class="pu-intro">
     <p>
       Pathology unknowns drawn from the Johns Hopkins Surgical Pathology Unknown Conference. The current archive includes 200 cases.
@@ -171,6 +171,12 @@ author_profile: false
   var orderedStains = {};
   var stainSuggesterOn = false;
   var pendingAnswer = "";
+  var caseIndex = [];
+  var caseChunks = [];
+  var stainChunks = [];
+  var loadedCaseChunks = {};
+  var loadedStainChunks = {};
+  var currentIndexEntry = null;
 
   function byId(id) {
     return document.getElementById(id);
@@ -342,11 +348,112 @@ author_profile: false
     }
   }
 
+  function indexEntryAt(i) {
+    return caseIndex[i] || null;
+  }
+
+  function loadCaseChunk(chunkIndex) {
+    if (loadedCaseChunks[chunkIndex]) {
+      return Promise.resolve(loadedCaseChunks[chunkIndex]);
+    }
+    var url = caseChunks[chunkIndex];
+    if (!url) return Promise.reject(new Error("Missing case chunk " + chunkIndex));
+
+    return fetch(url + "?v=20261107-lazy1", {cache:"no-store"})
+      .then(function (response) {
+        if (!response.ok) throw new Error("Could not load " + url + " (" + response.status + ")");
+        return response.json();
+      })
+      .then(function (payload) {
+        loadedCaseChunks[chunkIndex] = payload.cases || [];
+        return loadedCaseChunks[chunkIndex];
+      });
+  }
+
+  function loadStainChunk(chunkIndex) {
+    if (loadedStainChunks[chunkIndex]) {
+      return Promise.resolve(loadedStainChunks[chunkIndex]);
+    }
+    var url = stainChunks[chunkIndex];
+    if (!url) return Promise.resolve({});
+
+    return fetch(url + "?v=20261107-lazy1", {cache:"no-store"})
+      .then(function (response) {
+        if (!response.ok) throw new Error("Could not load " + url + " (" + response.status + ")");
+        return response.json();
+      })
+      .then(function (payload) {
+        loadedStainChunks[chunkIndex] = payload.cases || {};
+        return loadedStainChunks[chunkIndex];
+      });
+  }
+
+  function mergeStains(caseData, stainMap) {
+    var catalogEntry = stainMap && stainMap[caseData.id];
+    if (!catalogEntry) return caseData;
+
+    var combined = [];
+    var seen = {};
+
+    function add(items) {
+      (items || []).forEach(function (stain) {
+        var key = normalizeStain(stain.name);
+        if (!key || seen[key]) return;
+        seen[key] = true;
+        combined.push(stain);
+      });
+    }
+
+    add(caseData.stains);
+    add(catalogEntry.stains);
+    caseData.stains = combined;
+    caseData.stain_status = combined.length ? "available" : "unavailable";
+    return caseData;
+  }
+
+  function loadCaseByGlobalIndex(globalIndex, scrollToTop) {
+    var entry = indexEntryAt(globalIndex);
+    if (!entry) return Promise.reject(new Error("Unknown case index " + globalIndex));
+
+    current = globalIndex;
+    currentIndexEntry = entry;
+    byId("puLoading").textContent = "Loading case…";
+
+    return loadCaseChunk(entry.chunk).then(function (chunkCases) {
+      var caseData = chunkCases[entry.position];
+      if (!caseData) throw new Error("Case not found in chunk: " + entry.id);
+
+      cases[current] = caseData;
+      byId("puLoading").style.display = "none";
+      byId("puApp").style.display = "block";
+      render();
+
+      // Stains should never block the case from appearing.
+      loadStainChunk(entry.chunk).then(function (stainMap) {
+        mergeStains(caseData, stainMap);
+        if (current === globalIndex) renderStainControls();
+      }).catch(function () {
+        if (current === globalIndex) {
+          byId("puStainAvailability").textContent = "Stain data could not be loaded for this case.";
+        }
+      });
+
+      if (scrollToTop) {
+        var target = document.querySelector(".pathunknowns");
+        if (target) target.scrollIntoView({behavior:"smooth", block:"start"});
+      }
+      return caseData;
+    });
+  }
+
   function renderDiagnosisPool() {
-    var pool = Array.from(new Set([].concat.apply([], cases.map(function (c) {
-      return c.choices || [];
-    }))));
-    pool.sort(function (a, b) { return a.localeCompare(b); });
+    var pool = [];
+    Object.keys(loadedCaseChunks).forEach(function (key) {
+      (loadedCaseChunks[key] || []).forEach(function (c) {
+        (c.choices || []).forEach(function (choice) { pool.push(choice); });
+      });
+    });
+    pool = Array.from(new Set(pool)).sort(function (a, b) { return a.localeCompare(b); });
     byId("puDiagnosisList").innerHTML = pool.map(function (d) {
       return '<option value="' + escapeHtml(d) + '"></option>';
     }).join("");
@@ -379,7 +486,7 @@ author_profile: false
     byId("puResult").innerHTML = "";
 
     byId("puPrevBtn").disabled = current === 0;
-    byId("puNextBtn").disabled = current === cases.length - 1;
+    byId("puNextBtn").disabled = current === caseIndex.length - 1;
 
     renderCaseNav();
 
@@ -484,24 +591,18 @@ author_profile: false
   }
 
   function buildCaseList() {
-    byId("puCaseJump").innerHTML = cases.map(function (c, i) {
+    byId("puCaseJump").innerHTML = caseIndex.map(function (c, i) {
       return '<option value="' + i + '">' + escapeHtml(c.title) + '</option>';
     }).join("");
 
     byId("puCaseJump").addEventListener("change", function () {
-      current = Number(this.value);
-      render();
-      var target = document.querySelector(".pathunknowns");
-      if (target) target.scrollIntoView({behavior:"smooth", block:"start"});
+      loadCaseByGlobalIndex(Number(this.value), true).catch(showLoadError);
     });
 
     byId("puCaseList").addEventListener("click", function (e) {
       var button = e.target.closest("button[data-i]");
       if (!button) return;
-      current = Number(button.dataset.i);
-      render();
-      var target = document.querySelector(".pathunknowns");
-      if (target) target.scrollIntoView({behavior:"smooth", block:"start"});
+      loadCaseByGlobalIndex(Number(button.dataset.i), true).catch(showLoadError);
     });
   }
 
@@ -509,37 +610,35 @@ author_profile: false
     byId("puCaseJump").value = String(current);
 
     var start = Math.max(0, current - 4);
-    var end = Math.min(cases.length, start + 9);
+    var end = Math.min(caseIndex.length, start + 9);
     start = Math.max(0, end - 9);
 
-    byId("puCaseList").innerHTML = cases.slice(start, end).map(function (c, offset) {
+    byId("puCaseList").innerHTML = caseIndex.slice(start, end).map(function (c, offset) {
       var i = start + offset;
       return '<button data-i="' + i + '" class="' + (i === current ? 'active' : '') + '">' +
         escapeHtml(c.title.replace("Week ", "W")) + '</button>';
     }).join("");
   }
 
+  function showLoadError(err) {
+    byId("puLoading").style.display = "block";
+    byId("puLoading").textContent = "PathUnknowns could not load: " + err.message;
+  }
+
   byId("puPrevBtn").onclick = function () {
-    if (current > 0) {
-      current--;
-      render();
-    }
+    if (current > 0) loadCaseByGlobalIndex(current - 1, true).catch(showLoadError);
   };
 
   byId("puNextBtn").onclick = function () {
-    if (current < cases.length - 1) {
-      current++;
-      render();
-    }
+    if (current < caseIndex.length - 1) loadCaseByGlobalIndex(current + 1, true).catch(showLoadError);
   };
 
   byId("puRandomBtn").onclick = function () {
     var next = current;
-    while (next === current && cases.length > 1) {
-      next = Math.floor(Math.random() * cases.length);
+    while (next === current && caseIndex.length > 1) {
+      next = Math.floor(Math.random() * caseIndex.length);
     }
-    current = next;
-    render();
+    loadCaseByGlobalIndex(next, true).catch(showLoadError);
   };
 
   byId("puStainSuggestToggle").addEventListener("change", function () {
@@ -565,78 +664,27 @@ author_profile: false
     }
   });
 
-  fetch("/assets/pathunknowns/cases.json?v=20261107-ihc200", {cache:"no-store"})
+  fetch("/assets/pathunknowns/cases.json?v=20261107-lazy1", {cache:"no-store"})
     .then(function (response) {
-      if (!response.ok) throw new Error("Could not load case manifest (" + response.status + ")");
+      if (!response.ok) throw new Error("Could not load case index (" + response.status + ")");
       return response.json();
     })
-    .then(function (payload) {
-      if (Array.isArray(payload.cases)) return payload.cases;
-      if (!Array.isArray(payload.chunks) || !payload.chunks.length) {
-        throw new Error("Case manifest contains no chunks.");
-      }
-      return Promise.all(payload.chunks.map(function (url) {
-        var separator = url.indexOf("?") >= 0 ? "&" : "?";
-        return fetch(url + separator + "v=20261107-ihc200", {cache:"no-store"})
-          .then(function (response) {
-            if (!response.ok) throw new Error("Could not load " + url + " (" + response.status + ")");
-            return response.json();
-          })
-          .then(function (chunk) { return chunk.cases || []; });
-      })).then(function (parts) {
-        return [].concat.apply([], parts);
-      });
-    })
-    .then(function (loadedCases) {
-      return fetch("/assets/pathunknowns/stains.json?v=20261107-ihc200", {cache:"no-store"})
-        .then(function (response) {
-          if (!response.ok) throw new Error("Could not load stain catalog (" + response.status + ")");
-          return response.json();
-        })
-        .then(function (stainCatalog) {
-          var catalogCases = stainCatalog.cases || {};
-          return (loadedCases || []).map(function (caseData) {
-            var catalogEntry = catalogCases[caseData.id];
-            var combined = [];
-            var seen = {};
+    .then(function (manifest) {
+      caseIndex = manifest.index || [];
+      caseChunks = manifest.chunks || [];
+      stainChunks = manifest.stain_chunks || [];
+      cases = new Array(caseIndex.length);
 
-            function addStains(items) {
-              (items || []).forEach(function (stain) {
-                var key = normalizeStain(stain.name);
-                if (!key || seen[key]) return;
-                seen[key] = true;
-                combined.push(stain);
-              });
-            }
+      if (!caseIndex.length) throw new Error("Case index is empty.");
 
-            // Preserve any specifically curated stains already stored with the case,
-            // then add catalog stains that are not duplicates.
-            addStains(caseData.stains);
-            if (catalogEntry) addStains(catalogEntry.stains);
-
-            caseData.stains = combined;
-            caseData.stain_status = combined.length ? "available" : "unavailable";
-            return caseData;
-          });
-        });
-    })
-    .then(function (loadedCases) {
-      cases = loadedCases || [];
-      if (!cases.length) throw new Error("No cases found in case data.");
-
-      renderDiagnosisPool();
       buildCaseList();
 
       var hash = window.location.hash.slice(1);
-      var idx = cases.findIndex(function (c) { return c.id === hash; });
-      if (idx >= 0) current = idx;
+      var idx = caseIndex.findIndex(function (entry) { return entry.id === hash; });
+      if (idx < 0) idx = 0;
 
-      byId("puLoading").style.display = "none";
-      byId("puApp").style.display = "block";
-      render();
+      return loadCaseByGlobalIndex(idx, false);
     })
-    .catch(function (err) {
-      byId("puLoading").textContent = "PathUnknowns could not load: " + err.message;
-    });
+    .catch(showLoadError);
 })();
 </script>
