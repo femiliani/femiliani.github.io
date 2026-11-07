@@ -1,0 +1,537 @@
+{
+  "case_start": 31,
+  "case_end": 40,
+  "case_count": 10,
+  "cases": [
+    {
+      "id": "w809c3",
+      "url": "https://sp.pathology.jhu.edu/week-809-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 809: Case 3",
+      "case_label": "Week 809: Case 3",
+      "attribution": "Presented by John Gross, MD, and prepared by Samuel Law, MD.",
+      "vignette": "This is a 59-year-old male with a 22 cm right-sided retroperitoneal mass. Select the correct diagnosis.",
+      "question_text": "Presented by John Gross, MD, and prepared by Samuel Law, MD.\nThis is a 59-year-old male with a 22 cm right-sided retroperitoneal mass.\nSelect the correct diagnosis.",
+      "source_answer": "Inflammatory subtype of well-differentiated liposarcoma",
+      "correct_answer": "Inflammatory subtype of well-differentiated liposarcoma",
+      "canonical_answer": "Inflammatory subtype of well-differentiated liposarcoma",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "Fibromatosis",
+        "Leiomyosarcoma",
+        "Sclerosing subtype of well-differentiated liposarcoma",
+        "Inflammatory subtype of well-differentiated liposarcoma"
+      ],
+      "choices": [
+        "Fibromatosis",
+        "Leiomyosarcoma",
+        "Sclerosing subtype of well-differentiated liposarcoma",
+        "Inflammatory subtype of well-differentiated liposarcoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/gross-inflam-lipo-full-view.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/gross-inflam-lipo-4x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/gross-inflam-lipo-2x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/gross-inflam-lipo-20x.png"
+      ],
+      "histology": "Histologic sections are composed of a dense, sheet-like collagenous stroma embedded with cells containing hyperchromatic, atypical nuclei. A low power impression also reveals the presence of multiple lymphocytic aggregates along with a scant lymphoid infiltrate percolating through the dense collagenous stroma. Despite the bland appearance, the presence of lymphoid aggregates, large size (>20 cm), collagenous stroma, and retroperitoneal location are suggestive of inflammatory liposarcoma.\n\nOf the three subtypes of well-differentiated liposarcoma (WDLS): lipoma-like, sclerosing, and inflammatory, inflammatory liposarcoma is the rarest subtype.\n\nThe lipoma-like subtype is the most common and predominantly composed of mature-appearing fat with scattered atypical, hyperchromatic cells of varying proportion. The sclerosing subtype is the second-most common form, commonly arising in the retroperitoneum and pelvis, and is predominantly composed of fibrous stroma with scattered bizarre hyperchromatic stromal cells, and multivacuolated lipoblasts. The fibrous component may encompass the majority of the lesion and may be difficult to distinguish from other non-lipogenic tumors. Inflammatory liposarcoma almost always arises in the retroperitoneum and is composed of lymphoid aggregates of varying proportions scattered in thick fibrocollagenous stroma with atypical, hyperchromatic cells that may also obscure adipocytes just like the sclerosing variant of WDLS. Clues to the diagnosis include the presence of lymphoid aggregates and a percolating lymphocytic infiltrate.\n\nFibromatosis, especially desmoid fibromatosis (DF), may occur in the intra-abdominal cavity and be confused with the inflammatory and sclerosing variants of liposarcoma. Clues to the diagnosis are the long, sweeping, and sometimes paucicellular fascicles of monomorphic fibroblasts with flattened, pencil-thin nuclei in DF, and absence of scattered atypical hyperchromatic cells. Lymphoid aggregates would be rare. Nuclear beta-catenin expression would be typical of DF.\n\nLeiomyosarcoma would be characterized by having sweeping fascicles of neoplastic cells demonstrating smooth muscle differentiation with marked nuclear atypia, increased mitotic activity, and necrosis; myxoid areas and hyalinized stroma may be seen. The features seen in the current case are too bland, and the lymphoid aggregates would be atypical for, a high-grade lesion like leiomyosarcoma. Of note, there is a subtype known as inflammatory leiomyosarcoma that may share similar lymphoid aggregates with inflammatory liposarcoma. The presence of xanthomatous cells, fascicular pattern, and immunopositivity for SMA, desmin, and caldesmon may be useful for ruling in inflammatory leiomyosarcoma.",
+      "discussion": "",
+      "references": [
+        {
+          "text": "Fritchie KJ, Crago AM, van de Rijn M. Desmoid Fibromatosis. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 93-95.",
+          "url": null
+        },
+        {
+          "text": "Fletcher CDM, Mertens F. Inflammatory Leiomyosarcoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 193-194.",
+          "url": null
+        },
+        {
+          "text": "Dry SM, Frohling S. Leiomyosarcoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 195-197.",
+          "url": null
+        },
+        {
+          "text": "Sbaraglia M, Del Tos AP, Pedeutour F. Atypical lipomatous tumour/Well-differentiated liposarcoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 36-38.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Correct answer: Inflammatory subtype of liposarcoma (inflammatory liposarcoma)\n\nHistology:\n\nHistologic sections are composed of a dense, sheet-like collagenous stroma embedded with cells containing hyperchromatic, atypical nuclei. A low power impression also reveals the presence of multiple lymphocytic aggregates along with a scant lymphoid infiltrate percolating through the dense collagenous stroma. Despite the bland appearance, the presence of lymphoid aggregates, large size (>20 cm), collagenous stroma, and retroperitoneal location are suggestive of inflammatory liposarcoma.\n\nOf the three subtypes of well-differentiated liposarcoma (WDLS): lipoma-like, sclerosing, and inflammatory, inflammatory liposarcoma is the rarest subtype.\n\nThe lipoma-like subtype is the most common and predominantly composed of mature-appearing fat with scattered atypical, hyperchromatic cells of varying proportion. The sclerosing subtype is the second-most common form, commonly arising in the retroperitoneum and pelvis, and is predominantly composed of fibrous stroma with scattered bizarre hyperchromatic stromal cells, and multivacuolated lipoblasts. The fibrous component may encompass the majority of the lesion and may be difficult to distinguish from other non-lipogenic tumors. Inflammatory liposarcoma almost always arises in the retroperitoneum and is composed of lymphoid aggregates of varying proportions scattered in thick fibrocollagenous stroma with atypical, hyperchromatic cells that may also obscure adipocytes just like the sclerosing variant of WDLS. Clues to the diagnosis include the presence of lymphoid aggregates and a percolating lymphocytic infiltrate.\n\nFibromatosis, especially desmoid fibromatosis (DF), may occur in the intra-abdominal cavity and be confused with the inflammatory and sclerosing variants of liposarcoma. Clues to the diagnosis are the long, sweeping, and sometimes paucicellular fascicles of monomorphic fibroblasts with flattened, pencil-thin nuclei in DF, and absence of scattered atypical hyperchromatic cells. Lymphoid aggregates would be rare. Nuclear beta-catenin expression would be typical of DF.\n\nLeiomyosarcoma would be characterized by having sweeping fascicles of neoplastic cells demonstrating smooth muscle differentiation with marked nuclear atypia, increased mitotic activity, and necrosis; myxoid areas and hyalinized stroma may be seen. The features seen in the current case are too bland, and the lymphoid aggregates would be atypical for, a high-grade lesion like leiomyosarcoma. Of note, there is a subtype known as inflammatory leiomyosarcoma that may share similar lymphoid aggregates with inflammatory liposarcoma. The presence of xanthomatous cells, fascicular pattern, and immunopositivity for SMA, desmin, and caldesmon may be useful for ruling in inflammatory leiomyosarcoma.\n\nReferences:\n\nFritchie KJ, Crago AM, van de Rijn M. Desmoid Fibromatosis. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 93-95.\n\nFletcher CDM, Mertens F. Inflammatory Leiomyosarcoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 193-194.\n\nDry SM, Frohling S. Leiomyosarcoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 195-197.\n\nSbaraglia M, Del Tos AP, Pedeutour F. Atypical lipomatous tumour/Well-differentiated liposarcoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 36-38.",
+      "feedback_html": "Correct answer: Inflammatory subtype of liposarcoma (inflammatory liposarcoma)<p></p>\n<p>Histology:</p>\n<p>Histologic sections are composed of a dense, sheet-like collagenous stroma embedded with cells containing hyperchromatic, atypical nuclei. A low power impression also reveals the presence of multiple lymphocytic aggregates along with a scant lymphoid infiltrate percolating through the dense collagenous stroma. Despite the bland appearance, the presence of lymphoid aggregates, large size (&gt;20 cm), collagenous stroma, and retroperitoneal location are suggestive of inflammatory liposarcoma.</p>\n<p>Of the three subtypes of well-differentiated liposarcoma (WDLS): lipoma-like, sclerosing, and inflammatory, inflammatory liposarcoma is the rarest subtype.</p>\n<p>The lipoma-like subtype is the most common and predominantly composed of mature-appearing fat with scattered atypical, hyperchromatic cells of varying proportion. The sclerosing subtype is the second-most common form, commonly arising in the retroperitoneum and pelvis, and is predominantly composed of fibrous stroma with scattered bizarre hyperchromatic stromal cells, and multivacuolated lipoblasts. The fibrous component may encompass the majority of the lesion and may be difficult to distinguish from other non-lipogenic tumors. Inflammatory liposarcoma almost always arises in the retroperitoneum and is composed of lymphoid aggregates of varying proportions scattered in thick fibrocollagenous stroma with atypical, hyperchromatic cells that may also obscure adipocytes just like the sclerosing variant of WDLS. Clues to the diagnosis include the presence of lymphoid aggregates and a percolating lymphocytic infiltrate.</p>\n<p>Fibromatosis, especially desmoid fibromatosis (DF), may occur in the intra-abdominal cavity and be confused with the inflammatory and sclerosing variants of liposarcoma. Clues to the diagnosis are the long, sweeping, and sometimes paucicellular fascicles of monomorphic fibroblasts with flattened, pencil-thin nuclei in DF, and absence of scattered atypical hyperchromatic cells. Lymphoid aggregates would be rare. Nuclear beta-catenin expression would be typical of DF.</p>\n<p>Leiomyosarcoma would be characterized by having sweeping fascicles of neoplastic cells demonstrating smooth muscle differentiation with marked nuclear atypia, increased mitotic activity, and necrosis; myxoid areas and hyalinized stroma may be seen. &nbsp;The features seen in the current case are too bland, and the lymphoid aggregates would be atypical for, a high-grade lesion like leiomyosarcoma. Of note, there is a subtype known as inflammatory leiomyosarcoma that may share similar lymphoid aggregates with inflammatory liposarcoma. The presence of xanthomatous cells, fascicular pattern, and immunopositivity for SMA, desmin, and caldesmon may be useful for ruling in inflammatory leiomyosarcoma.</p>\n<p>References:</p>\n<p>Fritchie KJ, Crago AM, van de Rijn M. Desmoid Fibromatosis. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5<sup>th</sup>&nbsp;Edition. 2020. Pp. 93-95.</p>\n<p>Fletcher CDM, Mertens F. Inflammatory Leiomyosarcoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5<sup>th</sup>&nbsp;Edition. 2020. Pp. 193-194.</p>\n<p>Dry SM, Frohling S. Leiomyosarcoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5<sup>th</sup>&nbsp;Edition. 2020. Pp. 195-197.</p>\n<p>Sbaraglia M, Del Tos AP, Pedeutour F. Atypical lipomatous tumour/Well-differentiated liposarcoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5<sup>th</sup>&nbsp;Edition. 2020. Pp. 36-38.</p>\n<p>&nbsp;</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T19:51:11.326Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w809c2",
+      "url": "https://sp.pathology.jhu.edu/week-809-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 809: Case 2",
+      "case_label": "Week 809: Case 2",
+      "attribution": "Presented by John Gross, MD, and prepared by Samuel Law, MD.",
+      "vignette": "This is a 19-year-old male with a spine mass. This is the resection from the posterior elements along with preoperative axial spinal computed-tomography radiograph. Select the correct diagnosis.",
+      "question_text": "Presented by John Gross, MD, and prepared by Samuel Law, MD.\nThis is a 19-year-old male with a spine mass. This is the resection from the posterior elements along with preoperative axial spinal computed-tomography radiograph.\nSelect the correct diagnosis.",
+      "source_answer": "Osteoblastoma",
+      "correct_answer": "Osteoblastoma",
+      "canonical_answer": "Osteoblastoma",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "Conventional osteosarcoma",
+        "Osteoid osteoma",
+        "Osteoblastoma",
+        "Myositis ossificans"
+      ],
+      "choices": [
+        "Conventional osteosarcoma",
+        "Osteoid osteoma",
+        "Osteoblastoma",
+        "Myositis ossificans"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/gross-osteoblastoma-rad.jpeg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/gross-osteoblastoma-1x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/gross-osteoblastoma-2x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/gross-osteoblastoma-4x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/gross-osteoblastoma-20x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/gross-osteoblastoma-10x.png"
+      ],
+      "histology": "Axial CT demonstrates a well-circumscribed, well-delineated lytic mass in the left posterior vertebral arch/neural arch with speckled white areas of matrix mineralization. On histologic examination of the lesion elements, interconnected woven bone deposition by osteoblasts are embedded in vascularized fibroblastic stroma. The osteoblasts and associated osteoclasts lack significant atypia. Blood filled clefts reminiscent of aneurysmal bone cyst-like changes. The circumscription, speckled white areas, and location along the spine/posterior elements in an adult are indicative of an osteoblastoma.",
+      "discussion": "Osteoblastoma is a locally aggressive neoplasm with similar histologic features to osteoid osteoma; in contrast to the latter, osteoblastoma has growth potential beyond >2 cm. Classic clinical scenarios may involve bone pain that is not relieved by non-steroidal anti-inflammatory drugs (NSAIDs). The posterior elements, especially the neural arch, are a characteristic location. IN contrast, osteoid osteoma in a radiographic impression predominantly affects the long bones, but the neural arch may rarely be affected; osteoid osteoma rarely exceeds >1 cm in maximal diameter. Osteoid osteoma is also characterized as containing a nidus, visible radiographically and histologically, as an area of pinpoint intensity with increased osteoblasts next to woven bone.\n\nConventional osteosarcoma would present with signs of aggressive behavior on radiographs such as expansile, lytic, and ill-defined borders. Codman’s triangle and sunburst pattern are radiographic examples of malignant periosteal reaction in response to osteosarcoma. Histologically there is neoplastic lace-like osteoid deposition with marked osteoblast atypia, frequent atypical mitoses, and necrosis.\n\nMyositis ossificans, grouped with fibro-osseous pseudotumor of digits, is a neoplastic proliferation of osteoblasts that forms extraosseous bone. A history of antecedent trauma may be present. Radiographically and histologically, lesions often display a “zonation” pattern of ossification and mineralization. This is comprised of a hypercellular center with osteoblasts surrounded by woven bone, and maturation of lamellar bone at the periphery.",
+      "references": [
+        {
+          "text": "Amary F, Bredella MA, Horvai AE, Mahar AM. Osteoblastoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 397-399.",
+          "url": null
+        },
+        {
+          "text": "Amary F, Bredella MA, Horvai AE, Mahar AM. Osteoid Osteoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 394-396.",
+          "url": null
+        },
+        {
+          "text": "Oliveira AM, Rosenberg AE. MYositis ossificans and fibro-osseous pseudotumour of digits. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 53-54.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Correct answer: Osteoblastoma\n\nRadiographic and histologic description:\n\nAxial CT demonstrates a well-circumscribed, well-delineated lytic mass in the left posterior vertebral arch/neural arch with speckled white areas of matrix mineralization. On histologic examination of the lesion elements, interconnected woven bone deposition by osteoblasts are embedded in vascularized fibroblastic stroma. The osteoblasts and associated osteoclasts lack significant atypia. Blood filled clefts reminiscent of aneurysmal bone cyst-like changes. The circumscription, speckled white areas, and location along the spine/posterior elements in an adult are indicative of an osteoblastoma.\n\nDiscussion:\n\nOsteoblastoma is a locally aggressive neoplasm with similar histologic features to osteoid osteoma; in contrast to the latter, osteoblastoma has growth potential beyond >2 cm. Classic clinical scenarios may involve bone pain that is not relieved by non-steroidal anti-inflammatory drugs (NSAIDs). The posterior elements, especially the neural arch, are a characteristic location. IN contrast, osteoid osteoma in a radiographic impression predominantly affects the long bones, but the neural arch may rarely be affected; osteoid osteoma rarely exceeds >1 cm in maximal diameter. Osteoid osteoma is also characterized as containing a nidus, visible radiographically and histologically, as an area of pinpoint intensity with increased osteoblasts next to woven bone.\n\nConventional osteosarcoma would present with signs of aggressive behavior on radiographs such as expansile, lytic, and ill-defined borders. Codman’s triangle and sunburst pattern are radiographic examples of malignant periosteal reaction in response to osteosarcoma. Histologically there is neoplastic lace-like osteoid deposition with marked osteoblast atypia, frequent atypical mitoses, and necrosis.\n\nMyositis ossificans, grouped with fibro-osseous pseudotumor of digits, is a neoplastic proliferation of osteoblasts that forms extraosseous bone. A history of antecedent trauma may be present. Radiographically and histologically, lesions often display a “zonation” pattern of ossification and mineralization. This is comprised of a hypercellular center with osteoblasts surrounded by woven bone, and maturation of lamellar bone at the periphery.\n\nReferences:\n\nAmary F, Bredella MA, Horvai AE, Mahar AM. Osteoblastoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 397-399.\n\nAmary F, Bredella MA, Horvai AE, Mahar AM. Osteoid Osteoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 394-396.\n\nOliveira AM, Rosenberg AE. MYositis ossificans and fibro-osseous pseudotumour of digits. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 53-54.",
+      "feedback_html": "Correct answer: Osteoblastoma<p></p>\n<p>Radiographic and histologic description:</p>\n<p>Axial CT demonstrates a well-circumscribed, well-delineated lytic mass in the left posterior vertebral arch/neural arch with speckled white areas of matrix mineralization. On histologic examination of the lesion elements, interconnected woven bone deposition by osteoblasts are embedded in vascularized fibroblastic stroma. The osteoblasts and associated osteoclasts lack significant atypia. Blood filled clefts reminiscent of aneurysmal bone cyst-like changes. The circumscription, speckled white areas, and location along the spine/posterior elements in an adult are indicative of an osteoblastoma.</p>\n<p>Discussion:</p>\n<p>Osteoblastoma is a locally aggressive neoplasm with similar histologic features to osteoid osteoma; in contrast to the latter, osteoblastoma has growth potential beyond &gt;2 cm. Classic clinical scenarios may involve bone pain that is not relieved by non-steroidal anti-inflammatory drugs (NSAIDs). The posterior elements, especially the neural arch, are a characteristic location. IN contrast, osteoid osteoma in a radiographic impression predominantly affects the long bones, but the neural arch may rarely be affected; osteoid osteoma rarely exceeds &gt;1 cm in maximal diameter. Osteoid osteoma is also characterized as containing a nidus, visible radiographically and histologically, as an area of pinpoint intensity with increased osteoblasts next to woven bone.</p>\n<p>Conventional osteosarcoma would present with signs of aggressive behavior on radiographs such as expansile, lytic, and ill-defined borders. Codman’s triangle and sunburst pattern are radiographic examples of malignant periosteal reaction in response to osteosarcoma. Histologically there is neoplastic lace-like osteoid deposition with marked osteoblast atypia, frequent atypical mitoses, and necrosis.</p>\n<p>Myositis ossificans, grouped with fibro-osseous pseudotumor of digits, is a neoplastic proliferation of osteoblasts that forms extraosseous bone. A history of antecedent trauma may be present. &nbsp;Radiographically and histologically, lesions often display a “zonation” pattern of ossification and mineralization. This is comprised of a hypercellular center with osteoblasts surrounded by woven bone, and maturation of lamellar bone at the periphery.</p>\n<p>References:</p>\n<p>Amary F, Bredella MA, Horvai AE, Mahar AM. Osteoblastoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5<sup>th</sup>&nbsp;Edition. 2020. Pp. 397-399.</p>\n<p>Amary F, Bredella MA, Horvai AE, Mahar AM. Osteoid Osteoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5<sup>th</sup>&nbsp;Edition. 2020. Pp. 394-396.</p>\n<p>Oliveira AM, Rosenberg AE. MYositis ossificans and fibro-osseous pseudotumour of digits. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5<sup>th</sup> Edition. 2020. Pp. 53-54.</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T19:51:21.180Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w809c1",
+      "url": "https://sp.pathology.jhu.edu/week-809-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 809: Case 1",
+      "case_label": "Week 809: Case 1",
+      "attribution": "Presented by John Gross, MD, and prepared by Samuel Law, MD.",
+      "vignette": "This is a 1-year-old male with a chest wall mass. Select the correct diagnosis.",
+      "question_text": "Presented by John Gross, MD, and prepared by Samuel Law, MD.\nThis is a 1-year-old male with a chest wall mass.\nSelect the correct diagnosis.",
+      "source_answer": "Maturing lipoblastoma",
+      "correct_answer": "Maturing lipoblastoma",
+      "canonical_answer": "Maturing lipoblastoma",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "Maturing lipoblastoma",
+        "Lipoma",
+        "Angiolipoma",
+        "Spindle cell lipoma"
+      ],
+      "choices": [
+        "Maturing lipoblastoma",
+        "Lipoma",
+        "Angiolipoma",
+        "Spindle cell lipoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/gross-lipoblastoma-full-view.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/gross-lipoblastoma-2x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/gross-lipoblastoma-10x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/gross-lipoblastoma-40x.png"
+      ],
+      "histology": "Histologic sections are composed of a well-circumscribed, lobulated proliferation of maturing fat separated by fibrous septations. No fibrin thrombi, nor notable spindle cell proliferation with collagen is present. These histologic findings, especially occurring in a 1-year-old at the chest wall, are most consistent with a maturing lipoblastoma.",
+      "discussion": "Lipoblastoma is a benign neoplasm of embryonal white fat, and can be diffuse (also known as lipoblastomatosis). It characteristically demonstrates lobulated architecture with maturing lipoblasts and adipocytes separated by fibrous septae in concert with peripheral myxoid mesenchymal elements. Myxoid areas are not seen here and demonstrate that this fat-containing neoplasm is maturing, hence the designation “maturing lipoblastoma”. It is not uncommon for a lipoblastoma to be biopsied as such and the resection to demonstrate a fibrolipomatous appearance without lipoblasts. Grossly, lipoblastomas commonly present on the trunk or extremities and are typically small but can exceed 10 cm with a soft, lobulated yellow-to-white appearance with myxoid, cystic, or fatty internal nodules. Lipoblastoma is commonly characterized by alterations of the PLAG1 gene on chromosome 8.\n\nLipomas are the main differential consideration and show overlap with the current case; however the age of the patient (infant) with presentation along the trunk is characteristic of a lipoblastoma. An angiolipoma would demonstrate more vascular components, and fibrin thrombi is a desirable histologic feature; both are not seen in this current case. Spindle cell lipoma/pleomorphic lipoma is characterized by fatty differentiation and variable amounts of bland spindle cells with ropy collagen bundles, which are not seen in the current case. Angiolipomas and spindle cell lipomas would be rare in an infant.\n\nBlack JO, Bridge JA, Pedeutour F. Lipoblastoma and lipoblastomatosis. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 20-22.\n\nBillings SD Ud Din N. Spindle cell lipoma and pleomorphic lipoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 29-30.\n\nFritchie KJ, Goldblum JR, Mertens F. Lipoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 13-15.",
+      "references": [],
+      "feedback_text": "Correct answer: Maturing lipoblastoma\n\nHistology:\n\nHistologic sections are composed of a well-circumscribed, lobulated proliferation of maturing fat separated by fibrous septations. No fibrin thrombi, nor notable spindle cell proliferation with collagen is present. These histologic findings, especially occurring in a 1-year-old at the chest wall, are most consistent with a maturing lipoblastoma.\n\nDiscussion:\n\nLipoblastoma is a benign neoplasm of embryonal white fat, and can be diffuse (also known as lipoblastomatosis). It characteristically demonstrates lobulated architecture with maturing lipoblasts and adipocytes separated by fibrous septae in concert with peripheral myxoid mesenchymal elements. Myxoid areas are not seen here and demonstrate that this fat-containing neoplasm is maturing, hence the designation “maturing lipoblastoma”. It is not uncommon for a lipoblastoma to be biopsied as such and the resection to demonstrate a fibrolipomatous appearance without lipoblasts. Grossly, lipoblastomas commonly present on the trunk or extremities and are typically small but can exceed 10 cm with a soft, lobulated yellow-to-white appearance with myxoid, cystic, or fatty internal nodules. Lipoblastoma is commonly characterized by alterations of the PLAG1 gene on chromosome 8.\n\nLipomas are the main differential consideration and show overlap with the current case; however the age of the patient (infant) with presentation along the trunk is characteristic of a lipoblastoma. An angiolipoma would demonstrate more vascular components, and fibrin thrombi is a desirable histologic feature; both are not seen in this current case. Spindle cell lipoma/pleomorphic lipoma is characterized by fatty differentiation and variable amounts of bland spindle cells with ropy collagen bundles, which are not seen in the current case. Angiolipomas and spindle cell lipomas would be rare in an infant.\n\nBlack JO, Bridge JA, Pedeutour F. Lipoblastoma and lipoblastomatosis. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 20-22.\n\nBillings SD Ud Din N. Spindle cell lipoma and pleomorphic lipoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 29-30.\n\nFritchie KJ, Goldblum JR, Mertens F. Lipoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 13-15.",
+      "feedback_html": "Correct answer: Maturing lipoblastoma<p></p>\n<p>Histology:</p>\n<p>Histologic sections are composed of a well-circumscribed, lobulated proliferation of maturing fat separated by fibrous septations. No fibrin thrombi, nor notable spindle cell proliferation with collagen is present. These histologic findings, especially occurring in a 1-year-old at the chest wall, are most consistent with a maturing lipoblastoma.</p>\n<p>Discussion:</p>\n<p>Lipoblastoma is a benign neoplasm of embryonal white fat, and can be diffuse (also known as lipoblastomatosis). It characteristically demonstrates lobulated architecture with maturing lipoblasts and adipocytes separated by fibrous septae in concert with peripheral myxoid mesenchymal elements. Myxoid areas are not seen here and demonstrate that this fat-containing neoplasm is maturing, hence the designation “maturing lipoblastoma”. It is not uncommon for a lipoblastoma to be biopsied as such and the resection to demonstrate a fibrolipomatous appearance without lipoblasts. Grossly, lipoblastomas commonly present on the trunk or extremities and are typically small but can exceed 10 cm with a soft, lobulated yellow-to-white appearance with myxoid, cystic, or fatty internal nodules. Lipoblastoma is commonly characterized by alterations of the PLAG1 gene on chromosome 8.</p>\n<p>Lipomas are the main differential consideration and show overlap with the current case; however the age of the patient (infant) with presentation along the trunk is characteristic of a lipoblastoma. An angiolipoma would demonstrate more vascular components, and fibrin thrombi is a desirable histologic feature; both are not seen in this current case. Spindle cell lipoma/pleomorphic lipoma is characterized by fatty differentiation and variable amounts of bland spindle cells with ropy collagen bundles, which are not seen in the current case. Angiolipomas and spindle cell lipomas would be rare in an infant.</p>\n<p>Black JO, Bridge JA, Pedeutour F. Lipoblastoma and lipoblastomatosis. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5<sup>th</sup>&nbsp;Edition. 2020. Pp. 20-22.</p>\n<p>Billings SD Ud Din N. Spindle cell lipoma and pleomorphic lipoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5<sup>th</sup>&nbsp;Edition. 2020. Pp. 29-30.</p>\n<p>Fritchie KJ, Goldblum JR, Mertens F. Lipoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5<sup>th</sup>&nbsp;Edition. 2020. Pp. 13-15.</p>\n<p>&nbsp;</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T19:51:31.331Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w808c3",
+      "url": "https://sp.pathology.jhu.edu/week-808-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 808: Case 3",
+      "case_label": "Week 808: Case 3",
+      "attribution": "Presented by Deyin Xing, MD, PhD, and prepared by Samuel Law, MD.",
+      "vignette": "This is a 30 year old female with a placental nodule. Select the correct diagnosis.",
+      "question_text": "Presented by Deyin Xing, MD, PhD, and prepared by Samuel Law, MD.\nThis is a 30 year old female with a placental nodule.\nSelect the correct diagnosis.",
+      "source_answer": "Inflammatory myofibroblastic tumor",
+      "correct_answer": "Inflammatory myofibroblastic tumor",
+      "canonical_answer": "Inflammatory myofibroblastic tumor",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "Inflammatory myofibroblastic tumor",
+        "Chorangioma",
+        "Leiomyoma",
+        "Low-grade endometrial stromal sarcoma"
+      ],
+      "choices": [
+        "Inflammatory myofibroblastic tumor",
+        "Chorangioma",
+        "Leiomyoma",
+        "Low-grade endometrial stromal sarcoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/xing-IMT-1x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/xing-IMT-2x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/xing-IMT-10x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/xing-IMT-20x.png"
+      ],
+      "histology": "Sections show proliferation of alternating hypocellular and hypercellular myofibroblastic cells with red blood cell extravasation, a mixed inflammatory infiltrate, and a myxoid background. There is prominent arcuating vasculature and vacuolated spindle cells with uniform chromatin and with areas exhibiting a myxoid appearance and architecture. Immunohistochemical stains performed demonstrate the following: ALK = negative, FISH analysis (fluorescent in situ hybridization) indicates no detectable rearrangement involving the ALK gene region. Despite lack of ALK gene rearrangement, the morphology is in keeping with an inflammatory myofibroblastic tumor. Since this tumor can locally recur or be locally destructive, close clinical follow-up is recommended.\n\nThe differential diagnosis includes chorangioma, leiomyoma, low-grade endometrial stromal sarcoma, and other sarcomas with metastatic involvement of the placenta. In fact, involvement of the placenta by sarcoma has only rarely been reported.",
+      "discussion": "",
+      "references": [
+        {
+          "text": "Banet N, Ning Y, Montgomery EA. Inflammatory Myofibroblastic Tumor of the Placenta: A Report of a Novel Lesion in 2 Patients. Int J Gynecol Pathol. 2015 Sep;34(5):419-23.",
+          "url": null
+        },
+        {
+          "text": "Makhdoum S, Nardi V, Devereaux KA, Kunder CA, Nielsen GP, Oliva E, Young RH, Roberts DJ. Inflammatory myofibroblastic tumors associated with the placenta: a series of 9 cases. Hum Pathol. 2020 Dec;106:62-73.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Correct answer: Inflammatory myofibroblastic tumor\n\nHistology:\n\nSections show proliferation of alternating hypocellular and hypercellular myofibroblastic cells with red blood cell extravasation, a mixed inflammatory infiltrate, and a myxoid background. There is prominent arcuating vasculature and vacuolated spindle cells with uniform chromatin and with areas exhibiting a myxoid appearance and architecture. Immunohistochemical stains performed demonstrate the following: ALK = negative, FISH analysis (fluorescent in situ hybridization) indicates no detectable rearrangement involving the ALK gene region. Despite lack of ALK gene rearrangement, the morphology is in keeping with an inflammatory myofibroblastic tumor. Since this tumor can locally recur or be locally destructive, close clinical follow-up is recommended.\n\nThe differential diagnosis includes chorangioma, leiomyoma, low-grade endometrial stromal sarcoma, and other sarcomas with metastatic involvement of the placenta. In fact, involvement of the placenta by sarcoma has only rarely been reported.\n\nReferences:\n\nBanet N, Ning Y, Montgomery EA. Inflammatory Myofibroblastic Tumor of the Placenta: A Report of a Novel Lesion in 2 Patients. Int J Gynecol Pathol. 2015 Sep;34(5):419-23.\n\nMakhdoum S, Nardi V, Devereaux KA, Kunder CA, Nielsen GP, Oliva E, Young RH, Roberts DJ. Inflammatory myofibroblastic tumors associated with the placenta: a series of 9 cases. Hum Pathol. 2020 Dec;106:62-73.",
+      "feedback_html": "Correct answer: Inflammatory myofibroblastic tumor<p></p>\n<p>Histology:</p>\n<p>Sections show proliferation of alternating hypocellular and hypercellular myofibroblastic cells with red blood cell extravasation, a mixed inflammatory infiltrate, and a myxoid background. There is prominent arcuating vasculature and vacuolated spindle cells with uniform chromatin and with areas exhibiting a myxoid appearance and architecture. Immunohistochemical stains performed demonstrate the following: ALK = negative, FISH analysis (fluorescent in situ hybridization) indicates no detectable rearrangement involving the ALK gene region.&nbsp; Despite lack of ALK gene rearrangement, the morphology is in keeping with an inflammatory myofibroblastic tumor. Since this tumor can locally recur or be locally destructive, close clinical follow-up is recommended.</p>\n<p>The differential diagnosis includes chorangioma, leiomyoma, low-grade endometrial stromal sarcoma, and other sarcomas with metastatic involvement of the placenta. In fact,&nbsp; involvement of the placenta by sarcoma has only rarely been reported.</p>\n<p>References:</p>\n<ol>\n<li>Banet N, Ning Y, Montgomery EA. Inflammatory Myofibroblastic Tumor of the Placenta: A Report of a Novel Lesion in 2 Patients. Int J Gynecol Pathol. 2015 Sep;34(5):419-23.</li>\n<li>Makhdoum S, Nardi V, Devereaux KA, Kunder CA, Nielsen GP, Oliva E, Young RH, Roberts DJ. Inflammatory myofibroblastic tumors associated with the placenta: a series of 9 cases. Hum Pathol. 2020 Dec;106:62-73.</li>\n</ol>\n<p>&nbsp;</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T19:51:40.739Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w808c2",
+      "url": "https://sp.pathology.jhu.edu/week-808-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 808: Case 2",
+      "case_label": "Week 808: Case 2",
+      "attribution": "Presented by Deyin Xing, MD, PhD, and prepared by Samuel Law, MD.",
+      "vignette": "This is a 30 year old female with a left ovarian mass and sigmoid colon serosa with metastases. Select the correct diagnosis.",
+      "question_text": "Presented by Deyin Xing, MD, PhD, and prepared by Samuel Law, MD.\nThis is a 30 year old female with a left ovarian mass and sigmoid colon serosa with metastases.\nSelect the correct diagnosis.",
+      "source_answer": "Endometrioid carcinoma with yolk sac tumor differentiation",
+      "correct_answer": "Endometrioid carcinoma with yolk sac tumor differentiation",
+      "canonical_answer": "Endometrioid carcinoma with yolk sac tumor differentiation",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "Colonic adenocarcinoma",
+        "Clear cell carcinoma",
+        "Embryonal carcinoma",
+        "Endometrioid carcinoma with yolk sac tumor differentiation"
+      ],
+      "choices": [
+        "Colonic adenocarcinoma",
+        "Clear cell carcinoma",
+        "Embryonal carcinoma",
+        "Endometrioid carcinoma with yolk sac tumor differentiation"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/xing-8.10-case-2-image-1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/xing-8.10-case-2-image-2.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/xing-8.10-case-2-image-3.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/xing-8.10-case-2-image-4.png"
+      ],
+      "histology": "and differential diagnosis discussion:\n\nSections show an ovarian well-differentiated endometrioid adenocarcinoma with extensive squamous differentiation (not shown) with adjacent high-grade component. This high-grade component exhibited reticular pattern in which a labyrinth of channels lined by primitive cells focally expand to form microcysts lined by clear or flattened, atypical epithelial cells. Focal differentiation into somatic endodermal gland-like structures are seen. The epithelial cells exhibit subnuclear and apical vacuoles resembling early secretory endometrium. Hyaline globules are conspicuous both within cells and in the stroma.\n\nImmunohistochemically, this high-grade component shows: Pax8: negative; Sall4: positive (diffuse); AFP: positive; Glypican 3: positive; HNF-1b: focally positive; Napsin A: negative; ER: negative. The morphology and immunoprofile support a yolk sac tumor. Since this tumor is adjacent to an endometrioid tumor, this phenomenon either represents a collision event (somatic tumor/endometrioid carcinoma and germ cell tumor) or a somatic tumor (endometrioid carcinoma) with yolk sac tumor differentiation. We favor the latter.\n\nFor the yolk sac tumor, the main differential diagnoses include clear cell carcinoma, high-grade endometrioid carcinoma or serous carcinoma. The morphology and immunoprofile facilitate a definitive diagnosis.",
+      "discussion": "",
+      "references": [
+        {
+          "text": "Fadare O, Shaker N, Alghamdi A, Ganesan R, Hanley KZ, Hoang LN, Hecht JL, Ip PP, Shaker N, Roma AA, Parkash V, Abubakr H. Endometrial tumors with yolk sac tumor-like morphologic patterns or immunophenotypes: an expanded appraisal. Mod Pathol. 2019 Dec;32(12):1847-1860.",
+          "url": null
+        },
+        {
+          "text": "Acosta AM, Sholl LM, Cin PD, Howitt BE, Otis CN, Nucci MR. Malignant tumours of the uterus and ovaries with Mullerian and germ cell or trophoblastic components have a somatic origin and are characterised by genomic instability. 2020 Nov;77(5):788-797.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Correct answer: Endometrioid carcinoma with yolk sac tumor differentiation\n\nHistology and differential diagnosis discussion:\n\nSections show an ovarian well-differentiated endometrioid adenocarcinoma with extensive squamous differentiation (not shown) with adjacent high-grade component. This high-grade component exhibited reticular pattern in which a labyrinth of channels lined by primitive cells focally expand to form microcysts lined by clear or flattened, atypical epithelial cells. Focal differentiation into somatic endodermal gland-like structures are seen. The epithelial cells exhibit subnuclear and apical vacuoles resembling early secretory endometrium. Hyaline globules are conspicuous both within cells and in the stroma.\n\nImmunohistochemically, this high-grade component shows: Pax8: negative; Sall4: positive (diffuse); AFP: positive; Glypican 3: positive; HNF-1b: focally positive; Napsin A: negative; ER: negative. The morphology and immunoprofile support a yolk sac tumor. Since this tumor is adjacent to an endometrioid tumor, this phenomenon either represents a collision event (somatic tumor/endometrioid carcinoma and germ cell tumor) or a somatic tumor (endometrioid carcinoma) with yolk sac tumor differentiation. We favor the latter.\n\nFor the yolk sac tumor, the main differential diagnoses include clear cell carcinoma, high-grade endometrioid carcinoma or serous carcinoma. The morphology and immunoprofile facilitate a definitive diagnosis.\n\nReferences:\n\nFadare O, Shaker N, Alghamdi A, Ganesan R, Hanley KZ, Hoang LN, Hecht JL, Ip PP, Shaker N, Roma AA, Parkash V, Abubakr H. Endometrial tumors with yolk sac tumor-like morphologic patterns or immunophenotypes: an expanded appraisal. Mod Pathol. 2019 Dec;32(12):1847-1860.\n\nAcosta AM, Sholl LM, Cin PD, Howitt BE, Otis CN, Nucci MR. Malignant tumours of the uterus and ovaries with Mullerian and germ cell or trophoblastic components have a somatic origin and are characterised by genomic instability. 2020 Nov;77(5):788-797.",
+      "feedback_html": "Correct answer: Endometrioid carcinoma with yolk sac tumor differentiation<p></p>\n<p>Histology and differential diagnosis discussion:</p>\n<p>Sections show an ovarian well-differentiated endometrioid adenocarcinoma with extensive squamous differentiation (not shown) with adjacent high-grade component. This high-grade component exhibited reticular pattern in which a labyrinth of channels lined by primitive cells focally expand to form microcysts lined by clear or flattened, atypical epithelial cells. Focal differentiation into somatic endodermal gland-like structures are seen. The epithelial cells exhibit subnuclear and apical vacuoles resembling early secretory endometrium. Hyaline globules are conspicuous both within cells and in the stroma.</p>\n<p>Immunohistochemically, this high-grade component shows: Pax8: negative; Sall4: positive (diffuse); AFP: positive; Glypican 3: positive; HNF-1b: focally positive; Napsin A: negative; ER: negative. The morphology and immunoprofile support a yolk sac tumor. Since this tumor is adjacent to an endometrioid tumor, this phenomenon either represents a collision event (somatic tumor/endometrioid carcinoma and germ cell tumor) or a somatic tumor (endometrioid carcinoma) with yolk sac tumor differentiation. We favor the latter.</p>\n<p>For the yolk sac tumor, the main differential diagnoses include clear cell carcinoma, high-grade endometrioid carcinoma or serous carcinoma. The morphology and immunoprofile facilitate a definitive diagnosis.</p>\n<p>References:</p>\n<ol>\n<li>Fadare O, Shaker N, Alghamdi A, Ganesan R, Hanley KZ, Hoang LN, Hecht JL, Ip PP, Shaker N, Roma AA, Parkash V, Abubakr H. Endometrial tumors with yolk sac tumor-like morphologic patterns or immunophenotypes: an expanded appraisal. Mod Pathol. 2019 Dec;32(12):1847-1860.</li>\n<li>Acosta AM, Sholl LM, Cin PD, Howitt BE, Otis CN, Nucci MR. Malignant tumours of the uterus and ovaries with Mullerian and germ cell or trophoblastic components have a somatic origin and are characterised by genomic instability. 2020 Nov;77(5):788-797.</li>\n</ol>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T19:51:50.130Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w808c1",
+      "url": "https://sp.pathology.jhu.edu/week-808-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 808: Case 1",
+      "case_label": "Week 808: Case 1",
+      "attribution": "Presented by Deyin Xing, MD, PhD, and prepared by Samuel Law, MD.",
+      "vignette": "This is a 60 year old female with a uterine mass and a lung lesion with similar morphology. Select the correct diagnosis.",
+      "question_text": "Presented by Deyin Xing, MD, PhD, and prepared by Samuel Law, MD.\nThis is a 60 year old female with a uterine mass and a lung lesion with similar morphology.\nSelect the correct diagnosis.",
+      "source_answer": "Mesonephric-like adenocarcinoma",
+      "correct_answer": "Mesonephric-like adenocarcinoma",
+      "canonical_answer": "Mesonephric-like adenocarcinoma",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "Endometrioid adenocarcinoma",
+        "Mesonephric-like adenocarcinoma",
+        "Serous carcinoma of endometrium",
+        "Clear cell adenocarcinoma"
+      ],
+      "choices": [
+        "Endometrioid adenocarcinoma",
+        "Mesonephric-like adenocarcinoma",
+        "Serous carcinoma of endometrium",
+        "Clear cell adenocarcinoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/xing-mesonephric-CA-1x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/xing-mesonephric-CA-4x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/xing-mesonephric-CA-10x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/xing-mesonephric-CA-20x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/xing-mesonephric-20-2-.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/xing-mesonephric-20-1-.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/xing-mesonephric-20-3.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/xing-mesonephric-20-4.jpg",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/xing-mesonephric-40x.jpg"
+      ],
+      "histology": "Microscopic examination revealed a carcinoma with not only a predominant tubular architecture but also a variety of growth patterns, including focal solid growth with solid appearance, trabecular, glandular/pseudoendometrioid morphology. The tubules and glands were lined by nonstratified cuboidal and columnar cells with uniformly moderate cytologic atypia, variable eosinophilic to clear cytoplasm, and crowded nuclei with vesicular chromatin. Luminal eosinophilic material/secretion was present in some tubules. Immunohistochemical stains reveal: MLH1, MSH6, MSH2, PMS2, and intact expression of all 4 genes. ER/PR are negative. P53 displays normal/wild-type expression, p16 displays patchy expression. WT1 is negative, and PAX8 is positive. A TTF-1 is patchy positive and a GATA3 is focal and weakly positive.\n\nDifferential diagnosis discussion:\n\nThe differential diagnosis includes: endometrioid adenocarcinoma, mesonephric-like adenocarcinoma, serous carcinoma of endometrium, and clear-cell adenocarcinoma. PAX8 positivity, at its base, shows gynecologic origin. Wild-type p53 excludes serous carcinoma of endometrium. A negative ER/PR may make endometrioid adenocarcinoma less likely. The morphology of this tumor does not fit the morphology of clear cell adenocarcinoma, which commonly cytoplasmic clearing and hobnailing. A TTF-1 patchy positivity and a focal weak GATA3 positivity may facilitate the diagnosis of mesonephric-like adenocarcinoma. Some cases show luminal CD10 staining pattern. Unlike mesonephric carcinoma in the cervix originating from the mesonephric remnant, mesonephric-like carcinoma is thought be Mullerian origin.",
+      "discussion": "The differential diagnosis includes: endometrioid adenocarcinoma, mesonephric-like adenocarcinoma, serous carcinoma of endometrium, and clear-cell adenocarcinoma. PAX8 positivity, at its base, shows gynecologic origin. Wild-type p53 excludes serous carcinoma of endometrium. A negative ER/PR may make endometrioid adenocarcinoma less likely. The morphology of this tumor does not fit the morphology of clear cell adenocarcinoma, which commonly cytoplasmic clearing and hobnailing. A TTF-1 patchy positivity and a focal weak GATA3 positivity may facilitate the diagnosis of mesonephric-like adenocarcinoma. Some cases show luminal CD10 staining pattern. Unlike mesonephric carcinoma in the cervix originating from the mesonephric remnant, mesonephric-like carcinoma is thought be Mullerian origin.",
+      "references": [
+        {
+          "text": "McFarland M, Quick CM, McCluggage WG. Hormone receptor-negative, thyroid transcription factor 1-positive uterine and ovarian adenocarcinomas: report of a series of mesonephric-like adenocarcinomas. Histopathology. 2016;68:1013–1020.",
+          "url": null
+        },
+        {
+          "text": "Na K, Kim HS. Clinicopathologic and molecular characteristics of mesonephric adenocarcinoma arising from the uterine body. Am J Surg Pathol. 2019;43:12–25.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Correct diagnosis: Mesonephric-like adenocarcinoma\n\nHistology:\n\nMicroscopic examination revealed a carcinoma with not only a predominant tubular architecture but also a variety of growth patterns, including focal solid growth with solid appearance, trabecular, glandular/pseudoendometrioid morphology. The tubules and glands were lined by nonstratified cuboidal and columnar cells with uniformly moderate cytologic atypia, variable eosinophilic to clear cytoplasm, and crowded nuclei with vesicular chromatin. Luminal eosinophilic material/secretion was present in some tubules. Immunohistochemical stains reveal: MLH1, MSH6, MSH2, PMS2, and intact expression of all 4 genes. ER/PR are negative. P53 displays normal/wild-type expression, p16 displays patchy expression. WT1 is negative, and PAX8 is positive. A TTF-1 is patchy positive and a GATA3 is focal and weakly positive.\n\nDifferential diagnosis discussion:\n\nThe differential diagnosis includes: endometrioid adenocarcinoma, mesonephric-like adenocarcinoma, serous carcinoma of endometrium, and clear-cell adenocarcinoma. PAX8 positivity, at its base, shows gynecologic origin. Wild-type p53 excludes serous carcinoma of endometrium. A negative ER/PR may make endometrioid adenocarcinoma less likely. The morphology of this tumor does not fit the morphology of clear cell adenocarcinoma, which commonly cytoplasmic clearing and hobnailing. A TTF-1 patchy positivity and a focal weak GATA3 positivity may facilitate the diagnosis of mesonephric-like adenocarcinoma. Some cases show luminal CD10 staining pattern. Unlike mesonephric carcinoma in the cervix originating from the mesonephric remnant, mesonephric-like carcinoma is thought be Mullerian origin.\n\nReferences:\n\n1. McFarland M, Quick CM, McCluggage WG. Hormone receptor-negative, thyroid transcription factor 1-positive uterine and ovarian adenocarcinomas: report of a series of mesonephric-like adenocarcinomas. Histopathology. 2016;68:1013–1020.\n\n2. Na K, Kim HS. Clinicopathologic and molecular characteristics of mesonephric adenocarcinoma arising from the uterine body. Am J Surg Pathol. 2019;43:12–25.",
+      "feedback_html": "Correct diagnosis: Mesonephric-like adenocarcinoma<p></p>\n<p>Histology:</p>\n<p>Microscopic examination revealed a carcinoma with not only a predominant tubular architecture but also a variety of growth patterns, including focal solid growth with solid appearance, trabecular, glandular/pseudoendometrioid morphology. The tubules and glands were lined by nonstratified cuboidal and columnar cells with uniformly moderate cytologic atypia, variable eosinophilic to clear cytoplasm, and crowded nuclei with vesicular chromatin. Luminal eosinophilic material/secretion was present in some tubules. Immunohistochemical stains reveal: MLH1, MSH6, MSH2, PMS2, and intact expression of all 4 genes. ER/PR are negative. P53 displays normal/wild-type expression, p16 displays patchy expression. WT1 is negative, and PAX8 is positive. A TTF-1 is patchy positive and a GATA3 is focal and weakly positive.</p>\n<p>Differential diagnosis discussion:</p>\n<p>The differential diagnosis includes: endometrioid adenocarcinoma, mesonephric-like adenocarcinoma, serous carcinoma of endometrium, and clear-cell adenocarcinoma. PAX8 positivity, at its base, shows gynecologic origin. Wild-type p53 excludes serous carcinoma of endometrium. A negative ER/PR may make endometrioid adenocarcinoma less likely. The morphology of this tumor does not fit the morphology of clear cell adenocarcinoma, which commonly cytoplasmic clearing and hobnailing. A TTF-1 patchy positivity and a focal weak GATA3 positivity may facilitate the diagnosis of mesonephric-like adenocarcinoma. Some cases show luminal CD10 staining pattern. Unlike mesonephric carcinoma in the cervix originating from the mesonephric remnant, mesonephric-like carcinoma is thought be Mullerian origin.</p>\n<p>References:</p>\n<p>1. McFarland M, Quick CM, McCluggage WG. Hormone receptor-negative, thyroid transcription factor 1-positive uterine and ovarian adenocarcinomas: report of a series of mesonephric-like adenocarcinomas. Histopathology. 2016;68:1013–1020.<br>\n2. Na K, Kim HS. Clinicopathologic and molecular characteristics of mesonephric adenocarcinoma arising from the uterine body. Am J Surg Pathol. 2019;43:12–25.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T19:51:59.682Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w807c3",
+      "url": "https://sp.pathology.jhu.edu/week-807-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 807: Case 3",
+      "case_label": "Week 807: Case 3",
+      "attribution": "Presented by John Gross, MD, and prepared by Samuel Law, MD.",
+      "vignette": "This is a 46-year-old female with a 22 cm intra-abdominal tumor. Select the correct diagnosis.",
+      "question_text": "Presented by John Gross, MD, and prepared by Samuel Law, MD.\nThis is a 46-year-old female with a 22 cm intra-abdominal tumor.\nSelect the correct diagnosis.",
+      "source_answer": "EWSR1-NFATC2 fusion sarcoma",
+      "correct_answer": "EWSR1-NFATC2 fusion sarcoma",
+      "canonical_answer": "EWSR1-NFATC2 fusion sarcoma",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "Ewing sarcoma",
+        "BCOR-rearranged sarcoma",
+        "EWSR1-NFATC2 fusion sarcoma",
+        "CIC-rearranged sarcoma",
+        "Desmoplastic small round cell tumor"
+      ],
+      "choices": [
+        "Ewing sarcoma",
+        "BCOR-rearranged sarcoma",
+        "EWSR1-NFATC2 fusion sarcoma",
+        "CIC-rearranged sarcoma",
+        "Desmoplastic small round cell tumor"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/Gross-Ewsr1-nfatc2-1x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/Gross-Ewsr1-nfatc2-2x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/Gross-Ewsr1-nfatc2-10x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/Gross-Ewsr1-nfatc2-20x.png"
+      ],
+      "histology": "Histologic sections are composed of a hypercellular, vaguely multinodular and well-circumscribed neoplasm mainly composed of small round blue cells. In certain areas these small round cells appear to be embedded in a myxohyaline to fibrohyaline matrix. These features are compatible with the diagnosis of EWSR1-NFATC2 fusion sarcoma. An EWSR1-NFATC2 fusion was detected in this tumor, confirming the diagnosis.",
+      "discussion": "Ewing sarcoma is characterized by a gene fusion involving one member of the FET family of genes (usually EWSR1) and a member of the ETS family (classically, FLI1 although fusions with ERG may occur). There exists a broad category of round cell sarcomas with EWSR1 or FUS fusions that involve partners unrelated to the ETS gene family (ETS = “E26-transformation-specific” or “Erythroblast transformation specific” transcription factor). Hence, these round cell sarcomas usually involve EWSR1 or FUS that are fused with other gene partners.\n\nSome examples may include EWSR1-NFATC2, EWSR1-PATZ1, and others. In our correct diagnosis, EWSR1-NFATC2, it commonly manifests as a painful, locally destructive bone lesion and on histology erodes and percolates through bone trabeculae. It may also, in our case, rarely present intraabdominally. The spindled to rounded tumor cells embedded in myxohyaline stroma is highly characteristic. Of note, EWSR1-PATZ1 fusion sarcoma is characterized by hypercellular proliferations of small to medium-sized tumor cells with fine granular chromatin and little myxohyaline stroma.\n\nDistinguishing between Ewing sarcoma and a round cell sarcoma with other ETS fusions may be difficult; however, Ewing sarcoma classically contains a vaguely lobular pattern with small round cells and cleared-out cytoplasm, secondary to glycogen deposits. Ewing sarcoma may also demonstrate neuroectodermal differentiation in the form of pseudorosettes. CD99 staining is highly sensitive, and NKX2.2 staining is highly specific, for Ewing sarcoma.\n\nCIC-rearranged sarcoma is a high-grade sarcoma involving a fusion between CIC and, most often, DUX4. These most commonly occur in the deep soft tissues and are histologically characterized by primitive round cells with mild nuclear pleomorphism arranged in a lobulated configuration separated by fibrous stroma. Focal areas may contain more hypercellular areas arranged in a storiform configuration. Consistent staining for WT1 and diffuse nuclear staining for ETV4 is essential. CD99 staining may be variable.\n\nDesmoplastic small round cell tumor (DSRCT) is characterized as a neoplasm of uncertain differentiation, and can be identified by infiltrative nests of small, round, monomorphic cells embedded in fibroblastic/myofibroblastic, desmoplastic stroma. It is noted to have a EWSR1-WT1 gene fusion in classic cases, and most commonly presents in the abdominal cavity. Interestingly, the serosal lining of body cavities, which commonly give rise to DSRCT, has high transient fetal expression of WT1, which may explain why a fusion sarcoma between WT1 and a gene partner may occur in the abdomen.\n\nLastly, BCOR-rearranged sarcomas are a group of primitive round cell sarcomas that demonstrate BCOR alterations, either with BCOR-related gene fusions (BCOR-CCNB3), or internal tandem duplications of BCOR. They are characterized histologically by solid sheets of monomorphic round cells, scant cytoplasm, and thin fibrous septae. Strong staining for BCOR or molecular confirmation of a BCOR genetic abnormality is essential for confirming the diagnosis.",
+      "references": [
+        {
+          "text": "De Alava E, Lessnick SL, Stamenkovic I. Ewing Sarcoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 323-329",
+          "url": null
+        },
+        {
+          "text": "Le Loarer F, Szuhai K, Tirode F. Round cell sarcoma with EWSR1-non-ETS fusions. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 326-329.",
+          "url": null
+        },
+        {
+          "text": "Antonescu CR, Puls F, Tirode F. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 326-329.",
+          "url": null
+        },
+        {
+          "text": "Antonescu CR, Yoshida A. CIC-rearranged sarcoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 330-332.",
+          "url": null
+        },
+        {
+          "text": "Agaram NP, Antonescu CR, Ladanyi M. Desmoplastic small round cell tumour. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 306-308.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Correct answer: EWSR1-NFATC2 fusion sarcoma\n\nHistology:\n\nHistologic sections are composed of a hypercellular, vaguely multinodular and well-circumscribed neoplasm mainly composed of small round blue cells. In certain areas these small round cells appear to be embedded in a myxohyaline to fibrohyaline matrix. These features are compatible with the diagnosis of EWSR1-NFATC2 fusion sarcoma. An EWSR1-NFATC2 fusion was detected in this tumor, confirming the diagnosis.\n\nDiscussion:\n\nEwing sarcoma is characterized by a gene fusion involving one member of the FET family of genes (usually EWSR1) and a member of the ETS family (classically, FLI1 although fusions with ERG may occur). There exists a broad category of round cell sarcomas with EWSR1 or FUS fusions that involve partners unrelated to the ETS gene family (ETS = “E26-transformation-specific” or “Erythroblast transformation specific” transcription factor). Hence, these round cell sarcomas usually involve EWSR1 or FUS that are fused with other gene partners.\n\nSome examples may include EWSR1-NFATC2, EWSR1-PATZ1, and others. In our correct diagnosis, EWSR1-NFATC2, it commonly manifests as a painful, locally destructive bone lesion and on histology erodes and percolates through bone trabeculae. It may also, in our case, rarely present intraabdominally. The spindled to rounded tumor cells embedded in myxohyaline stroma is highly characteristic. Of note, EWSR1-PATZ1 fusion sarcoma is characterized by hypercellular proliferations of small to medium-sized tumor cells with fine granular chromatin and little myxohyaline stroma.\n\nDistinguishing between Ewing sarcoma and a round cell sarcoma with other ETS fusions may be difficult; however, Ewing sarcoma classically contains a vaguely lobular pattern with small round cells and cleared-out cytoplasm, secondary to glycogen deposits. Ewing sarcoma may also demonstrate neuroectodermal differentiation in the form of pseudorosettes. CD99 staining is highly sensitive, and NKX2.2 staining is highly specific, for Ewing sarcoma.\n\nCIC-rearranged sarcoma is a high-grade sarcoma involving a fusion between CIC and, most often, DUX4. These most commonly occur in the deep soft tissues and are histologically characterized by primitive round cells with mild nuclear pleomorphism arranged in a lobulated configuration separated by fibrous stroma. Focal areas may contain more hypercellular areas arranged in a storiform configuration. Consistent staining for WT1 and diffuse nuclear staining for ETV4 is essential. CD99 staining may be variable.\n\nDesmoplastic small round cell tumor (DSRCT) is characterized as a neoplasm of uncertain differentiation, and can be identified by infiltrative nests of small, round, monomorphic cells embedded in fibroblastic/myofibroblastic, desmoplastic stroma. It is noted to have a EWSR1-WT1 gene fusion in classic cases, and most commonly presents in the abdominal cavity. Interestingly, the serosal lining of body cavities, which commonly give rise to DSRCT, has high transient fetal expression of WT1, which may explain why a fusion sarcoma between WT1 and a gene partner may occur in the abdomen.\n\nLastly, BCOR-rearranged sarcomas are a group of primitive round cell sarcomas that demonstrate BCOR alterations, either with BCOR-related gene fusions (BCOR-CCNB3), or internal tandem duplications of BCOR. They are characterized histologically by solid sheets of monomorphic round cells, scant cytoplasm, and thin fibrous septae. Strong staining for BCOR or molecular confirmation of a BCOR genetic abnormality is essential for confirming the diagnosis.\n\nReferences:\n\nDe Alava E, Lessnick SL, Stamenkovic I. Ewing Sarcoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 323-329\n\nLe Loarer F, Szuhai K, Tirode F. Round cell sarcoma with EWSR1-non-ETS fusions. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 326-329.\n\nAntonescu CR, Puls F, Tirode F. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 326-329.\n\nAntonescu CR, Yoshida A. CIC-rearranged sarcoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 330-332.\n\nAgaram NP, Antonescu CR, Ladanyi M. Desmoplastic small round cell tumour. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 306-308.",
+      "feedback_html": "Correct answer: EWSR1-NFATC2 fusion sarcoma<p></p>\n<p>Histology:</p>\n<p>Histologic sections are composed of a hypercellular, vaguely multinodular and well-circumscribed neoplasm mainly composed of small round blue cells. In certain areas these small round cells appear to be embedded in a myxohyaline to fibrohyaline matrix. These features are compatible with the diagnosis of EWSR1-NFATC2 fusion sarcoma. An EWSR1-NFATC2 fusion was detected in this tumor, confirming the diagnosis.</p>\n<p>Discussion:</p>\n<p>Ewing sarcoma is characterized by a gene fusion involving one member of the FET family of genes (usually EWSR1) and a member of the ETS family (classically, FLI1 although fusions with ERG may occur). There exists a broad category of round cell sarcomas with EWSR1 or FUS fusions that involve partners unrelated to the ETS gene family (ETS = “E26-transformation-specific” or “Erythroblast transformation specific” transcription factor). Hence, these round cell sarcomas usually involve EWSR1 or FUS that are fused with other gene partners.</p>\n<p>Some examples may include EWSR1-NFATC2, EWSR1-PATZ1, and others. In our correct diagnosis, EWSR1-NFATC2, it commonly manifests as a painful, locally destructive bone lesion and on histology erodes and percolates through bone trabeculae. It may also, in our case, rarely present intraabdominally. The spindled to rounded tumor cells embedded in myxohyaline stroma is highly characteristic. Of note, EWSR1-PATZ1 fusion sarcoma is characterized by hypercellular proliferations of small to medium-sized tumor cells with fine granular chromatin and little myxohyaline stroma.</p>\n<p>Distinguishing between Ewing sarcoma and a round cell sarcoma with other ETS fusions may be difficult; however, Ewing sarcoma classically contains a vaguely lobular pattern with small round cells and cleared-out cytoplasm, secondary to glycogen deposits. Ewing sarcoma may also demonstrate neuroectodermal differentiation in the form of pseudorosettes. CD99 staining is highly sensitive, and NKX2.2 staining is highly specific, for Ewing sarcoma.</p>\n<p>CIC-rearranged sarcoma is a high-grade sarcoma involving a fusion between CIC and, most often, DUX4. These most commonly occur in the deep soft tissues and are histologically characterized by primitive round cells with mild nuclear pleomorphism arranged in a lobulated configuration separated by fibrous stroma. Focal areas may contain more hypercellular areas arranged in a storiform configuration. Consistent staining for WT1 and diffuse nuclear staining for ETV4 is essential. CD99 staining may be variable.</p>\n<p>Desmoplastic small round cell tumor (DSRCT) is characterized as a neoplasm of uncertain differentiation, and can be identified by infiltrative nests of small, round, monomorphic cells embedded in fibroblastic/myofibroblastic, desmoplastic stroma. It is noted to have a EWSR1-WT1 gene fusion in classic cases, and most commonly presents in the abdominal cavity. Interestingly, the serosal lining of body cavities, which commonly give rise to DSRCT, has high transient fetal expression of WT1, which may explain why a fusion sarcoma between WT1 and a gene partner may occur in the abdomen.</p>\n<p>Lastly, BCOR-rearranged sarcomas are a group of primitive round cell sarcomas that demonstrate BCOR alterations, either with BCOR-related gene fusions (BCOR-CCNB3), or internal tandem duplications of BCOR. They are characterized histologically by solid sheets of monomorphic round cells, scant cytoplasm, and thin fibrous septae. Strong staining for BCOR or molecular confirmation of a BCOR genetic abnormality is essential for confirming the diagnosis.</p>\n<p>References:</p>\n<p>De Alava E, Lessnick SL, Stamenkovic I. Ewing Sarcoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5<sup>th</sup> Edition. 2020. Pp. 323-329</p>\n<p>Le Loarer F, Szuhai K, Tirode F. Round cell sarcoma with EWSR1-non-ETS fusions. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5<sup>th</sup> Edition. 2020. Pp. 326-329.</p>\n<p>Antonescu CR, Puls F, Tirode F. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5<sup>th</sup> Edition. 2020. Pp. 326-329.</p>\n<p>Antonescu CR, Yoshida A. CIC-rearranged sarcoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5<sup>th</sup> Edition. 2020. Pp. 330-332.</p>\n<p>Agaram NP, Antonescu CR, Ladanyi M. Desmoplastic small round cell tumour. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5<sup>th</sup> Edition. 2020. Pp. 306-308.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T19:52:10.641Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w807c2",
+      "url": "https://sp.pathology.jhu.edu/week-807-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 807: Case 2",
+      "case_label": "Week 807: Case 2",
+      "attribution": "Presented by John Gross, MD, and prepared by Samuel Law, MD.",
+      "vignette": "This is a 15-year-old male with a 4.6 cm right knee mass. Select the correct diagnosis.",
+      "question_text": "Presented by John Gross, MD, and prepared by Samuel Law, MD.\nThis is a 15-year-old male with a 4.6 cm right knee mass.\nSelect the correct diagnosis.",
+      "source_answer": "Tenosynovial giant cell tumor, localized type",
+      "correct_answer": "Tenosynovial giant cell tumor, localized type",
+      "canonical_answer": "Tenosynovial giant cell tumor, localized type",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "Deep fibrous histiocytoma",
+        "Giant cell tumor of soft tissue",
+        "Tenosynovial giant cell tumor, localized type",
+        "Osteoclastoma (giant cell tumor of bone)"
+      ],
+      "choices": [
+        "Deep fibrous histiocytoma",
+        "Giant cell tumor of soft tissue",
+        "Tenosynovial giant cell tumor, localized type",
+        "Osteoclastoma (giant cell tumor of bone)"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/Gross-TGCT-2x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/Gross-TGCT-4x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/Gross-TGCT-20x.png"
+      ],
+      "histology": "Histologic sections are composed of a well-circumscribed hypercellular mass with aggregates of giant cells visible at low power. On medium power these multinucleated giant cells, as well as a population of mononuclear cells and hemosiderin deposition are present. This lesion presented as a mass near the synovium of the patient’s knee. These three histologic features, combined with location along the knee’s synovium, are indicative of tenosynovial giant cell tumor, localized type.",
+      "discussion": "Tenosynovial giant cell tumor (TGCT), also known as \"giant cell tumor of tendon sheath\", is an entity comprising localized and diffuse type. The diffuse type was formerly known as “pigmented villonodular synovitis”. The localized type is characterized by a well-circumscribed composition of multinucleated giant cells, mononuclear cells, and areas of hemosiderin deposition. These mononuclear cells in localized type have been further characterized as small histiocyte-like cells and larger epithelioid cells.\n\nThe diffuse-type is infiltrative and grows in expansile sheets, with multinucleated giant cells being less common than in localized-type. Cleft-like, pseudosynovial or pseudoalveolar spaces lined with red blood cells are prevalent in the diffuse-type.\n\nMalignant forms of TGCT may contain sheets of mononuclear cells and exhibit increased mitotic activity with atypical mitoses and enlarged, pleomorphic nuclei.\n\nGiant cell tumor of soft tissue (GCT-ST) shares overlapping morphologic features with TGCT; however, GCT-ST also contains richly vascularized stroma with prevalent mitotic activity, metaplastic woven bone deposition, and aneurysmal bone-cyst like changes. Giant cell tumor of bone is a separate entity from GCT-ST and characteristically arises in the epiphysis of skeletally mature patients (this 15-year-old, barring metabolic bone abnormalities, is not expected to be skeletally mature). Deep fibrous histiocytoma, like TGCT, is well-circumscribed but would not be expected to contain multinucleated giant cells; rather, deep fibrous histiocytoma harbors a storiform, hypercellular architecture with hemangiopericytoma-like pattern.",
+      "references": [
+        {
+          "text": "De Saint Aubain Somerhausen N, van de Rijn M. Tenosynovial Giant Cell Tumour. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 133-136.",
+          "url": null
+        },
+        {
+          "text": "Jo VY. Deep Fibrous Histiocytoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 137-138.",
+          "url": null
+        },
+        {
+          "text": "Oliveira AM, Lee JC. Giant Cell Tumour of Soft Tissue. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 141-142.",
+          "url": null
+        },
+        {
+          "text": "Flanagan AM, Larousserie F, O’Donnell PG, Yoshida A. Giant Cell Tumour of Bone. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 440-446.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Histology:\n\nHistologic sections are composed of a well-circumscribed hypercellular mass with aggregates of giant cells visible at low power. On medium power these multinucleated giant cells, as well as a population of mononuclear cells and hemosiderin deposition are present. This lesion presented as a mass near the synovium of the patient’s knee. These three histologic features, combined with location along the knee’s synovium, are indicative of tenosynovial giant cell tumor, localized type.\n\nDiscussion:\n\nTenosynovial giant cell tumor (TGCT), also known as \"giant cell tumor of tendon sheath\", is an entity comprising localized and diffuse type. The diffuse type was formerly known as “pigmented villonodular synovitis”. The localized type is characterized by a well-circumscribed composition of multinucleated giant cells, mononuclear cells, and areas of hemosiderin deposition. These mononuclear cells in localized type have been further characterized as small histiocyte-like cells and larger epithelioid cells.\n\nThe diffuse-type is infiltrative and grows in expansile sheets, with multinucleated giant cells being less common than in localized-type. Cleft-like, pseudosynovial or pseudoalveolar spaces lined with red blood cells are prevalent in the diffuse-type.\n\nMalignant forms of TGCT may contain sheets of mononuclear cells and exhibit increased mitotic activity with atypical mitoses and enlarged, pleomorphic nuclei.\n\nGiant cell tumor of soft tissue (GCT-ST) shares overlapping morphologic features with TGCT; however, GCT-ST also contains richly vascularized stroma with prevalent mitotic activity, metaplastic woven bone deposition, and aneurysmal bone-cyst like changes. Giant cell tumor of bone is a separate entity from GCT-ST and characteristically arises in the epiphysis of skeletally mature patients (this 15-year-old, barring metabolic bone abnormalities, is not expected to be skeletally mature). Deep fibrous histiocytoma, like TGCT, is well-circumscribed but would not be expected to contain multinucleated giant cells; rather, deep fibrous histiocytoma harbors a storiform, hypercellular architecture with hemangiopericytoma-like pattern.\n\nReferences:\n\nDe Saint Aubain Somerhausen N, van de Rijn M. Tenosynovial Giant Cell Tumour. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 133-136.\n\nJo VY. Deep Fibrous Histiocytoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 137-138.\n\nOliveira AM, Lee JC. Giant Cell Tumour of Soft Tissue. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 141-142.\n\nFlanagan AM, Larousserie F, O’Donnell PG, Yoshida A. Giant Cell Tumour of Bone. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 440-446.",
+      "feedback_html": "Histology:<p></p>\n<p>Histologic sections are composed of a well-circumscribed hypercellular mass with aggregates of giant cells visible at low power. On medium power these multinucleated giant cells, as well as a population of mononuclear cells and hemosiderin deposition are present. This lesion presented as a mass near the synovium of the patient’s knee. These three histologic features, combined with location along the knee’s synovium, are indicative of tenosynovial giant cell tumor, localized type.</p>\n<p>Discussion:</p>\n<p>Tenosynovial giant cell tumor (TGCT), also known as \"giant cell tumor of tendon sheath\", is an entity comprising localized and diffuse type. The diffuse type was formerly known as “pigmented villonodular synovitis”. The localized type is characterized by a well-circumscribed composition of multinucleated giant cells, mononuclear cells, and areas of hemosiderin deposition. These mononuclear cells in localized type have been further characterized as small histiocyte-like cells and larger epithelioid cells.</p>\n<p>The diffuse-type is infiltrative and grows in expansile sheets, with multinucleated giant cells being less common than in localized-type. Cleft-like, pseudosynovial or pseudoalveolar spaces lined with red blood cells are prevalent in the diffuse-type.</p>\n<p>Malignant forms of TGCT may contain sheets of mononuclear cells and exhibit increased mitotic activity with atypical mitoses and enlarged, pleomorphic nuclei.</p>\n<p>Giant cell tumor of soft tissue (GCT-ST) shares overlapping morphologic features with TGCT; however, GCT-ST also contains richly vascularized stroma with prevalent mitotic activity, metaplastic woven bone deposition, and aneurysmal bone-cyst like changes. Giant cell tumor of bone is a separate entity from GCT-ST and characteristically arises in the epiphysis of skeletally mature patients (this 15-year-old, barring metabolic bone abnormalities, is not expected to be skeletally mature). &nbsp;Deep fibrous histiocytoma, like TGCT, is well-circumscribed but would not be expected to contain multinucleated giant cells; rather, deep fibrous histiocytoma harbors a storiform, hypercellular architecture with hemangiopericytoma-like pattern.</p>\n<p>References:</p>\n<p>De Saint Aubain Somerhausen N, van de Rijn M. Tenosynovial Giant Cell Tumour. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5<sup>th</sup> Edition. 2020. Pp. 133-136.</p>\n<p>Jo VY. Deep Fibrous Histiocytoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5<sup>th</sup> Edition. 2020. Pp. 137-138.</p>\n<p>Oliveira AM, Lee JC. Giant Cell Tumour of Soft Tissue. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5<sup>th</sup> Edition. 2020. Pp. 141-142.</p>\n<p>Flanagan AM, Larousserie F, O’Donnell PG, Yoshida A. Giant Cell Tumour of Bone. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5<sup>th</sup> Edition. 2020. Pp. 440-446.</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T19:52:20.065Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w807c1",
+      "url": "https://sp.pathology.jhu.edu/week-807-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 807: Case 1",
+      "case_label": "Week 807: Case 1",
+      "attribution": "Presented by John Gross, MD, and prepared by Samuel Law, MD.",
+      "vignette": "This is a 48-year-old male with a 6.5 cm right thigh soft tissue mass. Select the correct diagnosis.",
+      "question_text": "Presented by John Gross, MD, and prepared by Samuel Law, MD.\nThis is a 48-year-old male with a 6.5 cm right thigh soft tissue mass.\nSelect the correct diagnosis.",
+      "source_answer": "Sclerosing epithelioid fibrosarcoma",
+      "correct_answer": "Sclerosing epithelioid fibrosarcoma",
+      "canonical_answer": "Sclerosing epithelioid fibrosarcoma",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "Low-grade fibromyxoid sarcoma",
+        "Sclerosing epithelioid fibrosarcoma",
+        "Myxofibrosarcoma",
+        "Inflammatory myofibroblastic tumor"
+      ],
+      "choices": [
+        "Low-grade fibromyxoid sarcoma",
+        "Sclerosing epithelioid fibrosarcoma",
+        "Myxofibrosarcoma",
+        "Inflammatory myofibroblastic tumor"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/Gross-SEF-1x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/Gross-SEF-4x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/Gross-SEF-10x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/Gross-SEF-20x.png"
+      ],
+      "histology": "Histologic sections are comprised of a multinodular, infiltrative, fibroblastic, eosinophilic cellular proliferation at low power. On medium power, linear cords of epithelioid cells with pale cytoplasm and round nuclei are abutted by hyalinized, sclerotic bands of wispy collagen. This histologic pattern is indicative of the diagnosis of sclerosing epithelioid fibrosarcoma.",
+      "discussion": "Sclerosing epithelioid fibrosarcoma (SEF) is a rare, superficial malignant fibroblastic neoplasm characterized by cords of epithelioid cells with pale cytoplasm and round nuclei. SEF shares overlapping genetic profiles with low-grade fibromyxoid sarcoma (LGFS), and in the same tumor SEF may merge into areas of LGFMS that contain alternating zones and nodules of hyper- and hypocellularity with faint myxoid stroma. In some cases, diagnosis may be difficult if the sclerotic stroma is absent, but recognizing a population of monotonous cells with MUC4 overexpression, present in 80-90% of SEF cases, may be useful. SEF may also express EMA and SMA. In the differential with infiltrative carcinoma, keratins may help as they are negative in SEF.\n\nMyxofibrosarcoma is an infiltrative and locally aggressive neoplasm that is characterized by myxoid stroma and incomplete fibrous septae on low power with pleomorphic nuclei. In the high-grade form stark hypercellularity and frank nuclear atypia may be present. Some of the highest grade areas may have a propensity to transition into undifferentiated pleomorphic sarcoma-like (UPS-like) areas.\n\nInflammatory myofibroblastic tumor (IMT), in the classic form, is comprised of an aggregation of spindled myofibroblasts with myxoid stroma set against an inflammatory background with little, if any, sclerosis. More hypercellular forms demonstrate fascicular proliferations with admixed inflammatory cells. The hypocellular fibrous pattern of IMT is characterized by hyalinized collagenous stroma with scant spindled cells and associated lymphoplasmacytic inflammation. Although anaplastic lymphoma kinase-gene (ALK) has been characteristically associated with IMT, it has been shown that ~50% of IMT may be ALK-negative; highly sensitive ALK antibody clones may improve detection.",
+      "references": [
+        {
+          "text": "Doyle LA, Mertens F. Sclerosing Epithelioid Fibrosarcoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 130-132.",
+          "url": null
+        },
+        {
+          "text": "Doyle LA, Mertens F. Low-grade Fibromyxoid Sarcoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 127-129",
+          "url": null
+        },
+        {
+          "text": "Huang HY, Mentzel TDW, Shibata T. Myxofibrosarcoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 124-126",
+          "url": null
+        },
+        {
+          "text": "Yamamoto H. Inflammatory Myofibroblastic Tumour. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 109-111",
+          "url": null
+        }
+      ],
+      "feedback_text": "Correct answer: Sclerosing epithelioid fibrosarcoma\n\nHistology:\n\nHistologic sections are comprised of a multinodular, infiltrative, fibroblastic, eosinophilic cellular proliferation at low power. On medium power, linear cords of epithelioid cells with pale cytoplasm and round nuclei are abutted by hyalinized, sclerotic bands of wispy collagen. This histologic pattern is indicative of the diagnosis of sclerosing epithelioid fibrosarcoma.\n\nDiscussion:\n\nSclerosing epithelioid fibrosarcoma (SEF) is a rare, superficial malignant fibroblastic neoplasm characterized by cords of epithelioid cells with pale cytoplasm and round nuclei. SEF shares overlapping genetic profiles with low-grade fibromyxoid sarcoma (LGFS), and in the same tumor SEF may merge into areas of LGFMS that contain alternating zones and nodules of hyper- and hypocellularity with faint myxoid stroma. In some cases, diagnosis may be difficult if the sclerotic stroma is absent, but recognizing a population of monotonous cells with MUC4 overexpression, present in 80-90% of SEF cases, may be useful. SEF may also express EMA and SMA. In the differential with infiltrative carcinoma, keratins may help as they are negative in SEF.\n\nMyxofibrosarcoma is an infiltrative and locally aggressive neoplasm that is characterized by myxoid stroma and incomplete fibrous septae on low power with pleomorphic nuclei. In the high-grade form stark hypercellularity and frank nuclear atypia may be present. Some of the highest grade areas may have a propensity to transition into undifferentiated pleomorphic sarcoma-like (UPS-like) areas.\n\nInflammatory myofibroblastic tumor (IMT), in the classic form, is comprised of an aggregation of spindled myofibroblasts with myxoid stroma set against an inflammatory background with little, if any, sclerosis. More hypercellular forms demonstrate fascicular proliferations with admixed inflammatory cells. The hypocellular fibrous pattern of IMT is characterized by hyalinized collagenous stroma with scant spindled cells and associated lymphoplasmacytic inflammation. Although anaplastic lymphoma kinase-gene (ALK) has been characteristically associated with IMT, it has been shown that ~50% of IMT may be ALK-negative; highly sensitive ALK antibody clones may improve detection.\n\nReferences:\n\nDoyle LA, Mertens F. Sclerosing Epithelioid Fibrosarcoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 130-132.\n\nDoyle LA, Mertens F. Low-grade Fibromyxoid Sarcoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 127-129\n\nHuang HY, Mentzel TDW, Shibata T. Myxofibrosarcoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 124-126\n\nYamamoto H. Inflammatory Myofibroblastic Tumour. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 109-111",
+      "feedback_html": "Correct answer: Sclerosing epithelioid fibrosarcoma<p></p>\n<p>Histology:</p>\n<p>Histologic sections are comprised of a multinodular, infiltrative, fibroblastic, eosinophilic cellular proliferation at low power. On medium power, linear cords of epithelioid cells with pale cytoplasm and round nuclei are abutted by hyalinized, sclerotic bands of wispy collagen. This histologic pattern is indicative of the diagnosis of sclerosing epithelioid fibrosarcoma.</p>\n<p>Discussion:</p>\n<p>Sclerosing epithelioid fibrosarcoma (SEF) is a rare, superficial malignant fibroblastic neoplasm characterized by cords of epithelioid cells with pale cytoplasm and round nuclei. SEF shares overlapping genetic profiles with low-grade fibromyxoid sarcoma (LGFS), and in the same tumor SEF may merge into areas of LGFMS that contain alternating zones and nodules of hyper- and hypocellularity with faint myxoid stroma. In some cases, diagnosis may be difficult if the sclerotic stroma is absent, but recognizing a population of monotonous cells with MUC4 overexpression, present in 80-90% of SEF cases, may be useful. SEF may also express EMA and SMA. In the differential with infiltrative carcinoma, keratins may help as they are negative in SEF.</p>\n<p>Myxofibrosarcoma is an infiltrative and locally aggressive neoplasm that is characterized by myxoid stroma and incomplete fibrous septae on low power with pleomorphic nuclei. In the high-grade form stark hypercellularity and frank nuclear atypia may be present. Some of the highest grade areas may have a propensity to transition into undifferentiated pleomorphic sarcoma-like (UPS-like) areas.</p>\n<p>Inflammatory myofibroblastic tumor (IMT), in the classic form, is comprised of an aggregation of spindled myofibroblasts with myxoid stroma set against an inflammatory background with little, if any, sclerosis. More hypercellular forms demonstrate fascicular proliferations with admixed inflammatory cells. The hypocellular fibrous pattern of IMT is characterized by hyalinized collagenous stroma with scant spindled cells and associated lymphoplasmacytic inflammation. Although anaplastic lymphoma kinase-gene (ALK) has been characteristically associated with IMT, it has been shown that ~50% of IMT may be ALK-negative; highly sensitive ALK antibody clones may improve detection.</p>\n<p>References:</p>\n<p>Doyle LA, Mertens F. Sclerosing Epithelioid Fibrosarcoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5<sup>th</sup> Edition. 2020. Pp. 130-132.</p>\n<p>Doyle LA, Mertens F. Low-grade Fibromyxoid Sarcoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5<sup>th</sup> Edition. 2020. Pp. 127-129</p>\n<p>Huang HY, Mentzel TDW, Shibata T. Myxofibrosarcoma. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5<sup>th</sup> Edition. 2020. Pp. 124-126</p>\n<p>Yamamoto H. Inflammatory Myofibroblastic Tumour. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5<sup>th</sup> Edition. 2020. Pp. 109-111</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T19:52:29.570Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w806c3",
+      "url": "https://sp.pathology.jhu.edu/week-806-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 806: Case 3",
+      "case_label": "Week 806: Case 3",
+      "attribution": "Presented by John Gross, MD, and prepared by Samuel Law, MD.",
+      "vignette": "This is an 89-year-old female with a right groin mass. Select the correct diagnosis.",
+      "question_text": "Presented by John Gross, MD, and prepared by Samuel Law, MD.\nThis is an 89-year-old female with a right groin mass.\nSelect the correct diagnosis.",
+      "source_answer": "Pleomorphic liposarcoma",
+      "correct_answer": "Pleomorphic liposarcoma",
+      "canonical_answer": "Pleomorphic liposarcoma",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "Pleomorphic liposarcoma",
+        "Pleomorphic rhabdomyosarcoma",
+        "Malignant peripheral nerve sheath tumor.",
+        "Dedifferentiated liposarcoma"
+      ],
+      "choices": [
+        "Pleomorphic liposarcoma",
+        "Pleomorphic rhabdomyosarcoma",
+        "Malignant peripheral nerve sheath tumor",
+        "Dedifferentiated liposarcoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/Gross-PL-full-view.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/Gross-PL-2x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/Gross-PL-20x-.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2024/07/Gross-PL-10x.png"
+      ],
+      "histology": "Histologic sections are composed of a pleomorphic and anaplastic population of large epithelioid cells, with prominent nucleoli and clumped chromatin, admixed with plump spindled cells and frequent atypical mitoses. An area of lipoblasts, with the lipid vacuoles indenting and scalloping the nucleus, is identified. The identification of lipoblasts, in combination with an undifferentiated pleomorphic sarcoma-like pattern (UPS-like), is indicative of pleomorphic liposarcoma.\n\nPleomorphic liposarcoma, in essence, comprises the morphology of an undifferentiated pleomorphic sarcoma but with lipoblasts, confirming an attempt by the tumor to differentiate into fat. It contains a complex karyotype and does not harbor MDM2 amplification unlike well-differentiated liposarcoma and dedifferentiated liposarcoma. Unlike this case, dedifferentiated liposarcoma would contain a well-differentiated component with an abrupt transition to a high-grade component with marked pleomorphism. Pleomorphic rhabdomyosarcoma would likewise contain a UPS-like pattern yet harbors areas of skeletal muscle differentiation, including rhabdoid cells. It would be immunoreactive for MyoD1 and myogenin. Lastly, malignant peripheral nerve sheath tumor would be associated with a nerve and exhibit markers of neural crest differentiation and not fatty differentiation.\n\nPedeutour F, Montgomery EA. “Pleomorphic Liposarcoma”. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 45-46.",
+      "discussion": "",
+      "references": [],
+      "feedback_text": "Correct diagnosis: D. Pleomorphic liposarcoma.\n\nHistologic description:\n\nHistologic sections are composed of a pleomorphic and anaplastic population of large epithelioid cells, with prominent nucleoli and clumped chromatin, admixed with plump spindled cells and frequent atypical mitoses. An area of lipoblasts, with the lipid vacuoles indenting and scalloping the nucleus, is identified. The identification of lipoblasts, in combination with an undifferentiated pleomorphic sarcoma-like pattern (UPS-like), is indicative of pleomorphic liposarcoma.\n\nPleomorphic liposarcoma, in essence, comprises the morphology of an undifferentiated pleomorphic sarcoma but with lipoblasts, confirming an attempt by the tumor to differentiate into fat. It contains a complex karyotype and does not harbor MDM2 amplification unlike well-differentiated liposarcoma and dedifferentiated liposarcoma. Unlike this case, dedifferentiated liposarcoma would contain a well-differentiated component with an abrupt transition to a high-grade component with marked pleomorphism. Pleomorphic rhabdomyosarcoma would likewise contain a UPS-like pattern yet harbors areas of skeletal muscle differentiation, including rhabdoid cells. It would be immunoreactive for MyoD1 and myogenin. Lastly, malignant peripheral nerve sheath tumor would be associated with a nerve and exhibit markers of neural crest differentiation and not fatty differentiation.\n\nPedeutour F, Montgomery EA. “Pleomorphic Liposarcoma”. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5th Edition. 2020. Pp. 45-46.",
+      "feedback_html": "Correct diagnosis: D.&nbsp; Pleomorphic liposarcoma.<p></p>\n<p>Histologic description:</p>\n<p>Histologic sections are composed of a pleomorphic and anaplastic population of large epithelioid cells, with prominent nucleoli and clumped chromatin, admixed with plump spindled cells and frequent atypical mitoses.&nbsp; An area of lipoblasts, with the lipid vacuoles indenting and scalloping the nucleus, is identified.&nbsp; The identification of lipoblasts, in combination with an undifferentiated pleomorphic sarcoma-like pattern (UPS-like), is indicative of pleomorphic liposarcoma.</p>\n<p>Pleomorphic liposarcoma, in essence, comprises the morphology of an undifferentiated pleomorphic sarcoma but with lipoblasts, confirming an attempt by the tumor to differentiate into fat.&nbsp; It contains a complex karyotype and does not harbor MDM2 amplification unlike well-differentiated liposarcoma and dedifferentiated liposarcoma. Unlike this case, dedifferentiated liposarcoma would contain a well-differentiated component with an abrupt transition to a high-grade component with marked pleomorphism.&nbsp; Pleomorphic rhabdomyosarcoma would likewise contain a UPS-like pattern yet harbors areas of skeletal muscle differentiation, including rhabdoid cells. It would be immunoreactive for MyoD1 and myogenin.&nbsp; Lastly, malignant peripheral nerve sheath tumor would be associated with a nerve and exhibit markers of neural crest differentiation and not fatty differentiation.</p>\n<p>Pedeutour F, Montgomery EA. “Pleomorphic Liposarcoma”. Soft Tissue and Bone Tumours. WHO Classification of Tumours, 5<sup>th</sup> Edition. 2020. Pp. 45-46.</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T19:52:39.413Z",
+      "extractor_version": "1.0.0"
+    }
+  ]
+}
