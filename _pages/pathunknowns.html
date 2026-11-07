@@ -81,7 +81,7 @@ author_profile: false
 }
 </style>
 
-<div class="pathunknowns" data-pathunknowns-build="2026-11-07.200">
+<div class="pathunknowns" data-pathunknowns-build="2026-11-07.ihc200">
   <div class="pu-intro">
     <p>
       Pathology unknowns drawn from the Johns Hopkins Surgical Pathology Unknown Conference. The current archive includes 200 cases.
@@ -268,7 +268,7 @@ author_profile: false
     byId("puStainSelect").style.display = stainSuggesterOn ? "" : "none";
 
     byId("puStainAvailability").textContent = stains.length
-      ? stains.length + " stain" + (stains.length === 1 ? "" : "s") + " available for this case"
+      ? stains.length + " stain" + (stains.length === 1 ? "" : "s") + " available to order for this case"
       : "No stain data loaded for this case.";
 
     byId("puStainSelect").innerHTML =
@@ -565,7 +565,7 @@ author_profile: false
     }
   });
 
-  fetch("/assets/pathunknowns/cases.json?v=20261107-200", {cache:"no-store"})
+  fetch("/assets/pathunknowns/cases.json?v=20261107-ihc200", {cache:"no-store"})
     .then(function (response) {
       if (!response.ok) throw new Error("Could not load case manifest (" + response.status + ")");
       return response.json();
@@ -577,7 +577,7 @@ author_profile: false
       }
       return Promise.all(payload.chunks.map(function (url) {
         var separator = url.indexOf("?") >= 0 ? "&" : "?";
-        return fetch(url + separator + "v=20261107-200", {cache:"no-store"})
+        return fetch(url + separator + "v=20261107-ihc200", {cache:"no-store"})
           .then(function (response) {
             if (!response.ok) throw new Error("Could not load " + url + " (" + response.status + ")");
             return response.json();
@@ -586,6 +586,39 @@ author_profile: false
       })).then(function (parts) {
         return [].concat.apply([], parts);
       });
+    })
+    .then(function (loadedCases) {
+      return fetch("/assets/pathunknowns/stains.json?v=20261107-ihc200", {cache:"no-store"})
+        .then(function (response) {
+          if (!response.ok) throw new Error("Could not load stain catalog (" + response.status + ")");
+          return response.json();
+        })
+        .then(function (stainCatalog) {
+          var catalogCases = stainCatalog.cases || {};
+          return (loadedCases || []).map(function (caseData) {
+            var catalogEntry = catalogCases[caseData.id];
+            var combined = [];
+            var seen = {};
+
+            function addStains(items) {
+              (items || []).forEach(function (stain) {
+                var key = normalizeStain(stain.name);
+                if (!key || seen[key]) return;
+                seen[key] = true;
+                combined.push(stain);
+              });
+            }
+
+            // Preserve any specifically curated stains already stored with the case,
+            // then add catalog stains that are not duplicates.
+            addStains(caseData.stains);
+            if (catalogEntry) addStains(catalogEntry.stains);
+
+            caseData.stains = combined;
+            caseData.stain_status = combined.length ? "available" : "unavailable";
+            return caseData;
+          });
+        });
     })
     .then(function (loadedCases) {
       cases = loadedCases || [];
