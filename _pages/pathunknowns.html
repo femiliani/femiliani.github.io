@@ -24,7 +24,8 @@ author_profile: false
 .pathunknowns .pu-gallery a { display:block; border:1px solid var(--pu-line); border-radius:10px; overflow:hidden; background:#fafafa; }
 .pathunknowns .pu-gallery img { display:block; width:100%; aspect-ratio:4/3; object-fit:cover; transition:transform .18s ease; }
 .pathunknowns .pu-gallery a:hover img { transform:scale(1.015); }
-.pathunknowns .pu-stains { border-top:1px solid var(--pu-line); padding-top:1.1rem; margin-top:.2rem; }
+.pathunknowns .pu-stains { border:1px solid var(--pu-line); padding:1rem; margin:0 0 1.2rem; border-radius:12px; background:#fafbfc; }
+.pathunknowns .pu-stain-availability { color:var(--pu-muted); font-size:.82rem; margin:-.25rem 0 .65rem; }
 .pathunknowns .pu-stain-head { display:flex; justify-content:space-between; gap:1rem; align-items:center; flex-wrap:wrap; margin-bottom:.7rem; }
 .pathunknowns .pu-stain-head strong { font-size:1rem; }
 .pathunknowns .pu-toggle { display:flex; align-items:center; gap:.45rem; color:var(--pu-muted); font-size:.88rem; }
@@ -44,6 +45,15 @@ author_profile: false
 .pathunknowns .pu-answer-row { display:flex; gap:.6rem; }
 .pathunknowns input { flex:1; min-width:0; padding:.72rem .8rem; border:1px solid #cdd3da; border-radius:9px; font:inherit; }
 .pathunknowns .pu-hint { color:var(--pu-muted); font-size:.86rem; margin-top:.55rem; line-height:1.45; }
+.pathunknowns .pu-choice-panel { display:none; margin-top:1rem; padding:1rem; border:1px solid var(--pu-line); border-radius:10px; background:#fafbfc; }
+.pathunknowns .pu-choice-panel.show { display:block; }
+.pathunknowns .pu-choice-panel h4 { margin:.1rem 0 .35rem; }
+.pathunknowns .pu-initial-answer { color:var(--pu-muted); margin-bottom:.8rem; }
+.pathunknowns .pu-choice-list { display:grid; gap:.5rem; margin:.75rem 0 1rem; }
+.pathunknowns .pu-choice-option { display:flex; gap:.65rem; align-items:flex-start; padding:.65rem .7rem; border:1px solid var(--pu-line); border-radius:9px; background:#fff; cursor:pointer; font-weight:400; }
+.pathunknowns .pu-choice-option input { flex:none; width:auto; min-width:0; margin-top:.2rem; }
+.pathunknowns .pu-choice-actions { display:flex; gap:.6rem; flex-wrap:wrap; }
+.pathunknowns .pu-choice-status { color:var(--pu-muted); font-size:.86rem; min-height:1.25rem; margin-top:.5rem; }
 .pathunknowns .pu-result { margin-top:1rem; padding:1rem; border:1px solid var(--pu-line); border-radius:10px; background:#fafbfc; display:none; line-height:1.55; }
 .pathunknowns .pu-result.show { display:block; }
 .pathunknowns .pu-result.correct { border-left:5px solid var(--pu-good); }
@@ -66,7 +76,7 @@ author_profile: false
 }
 </style>
 
-<div class="pathunknowns">
+<div class="pathunknowns" data-pathunknowns-build="2026-11-07.3">
   <div class="pu-intro">
     <p>
       Pathology unknowns drawn from the Johns Hopkins Surgical Pathology Unknown Conference.
@@ -104,6 +114,7 @@ author_profile: false
               IHC/stain suggester
             </label>
           </div>
+          <div class="pu-stain-availability" id="puStainAvailability">Loading stain data…</div>
           <div class="pu-stain-row">
             <input id="puStainInput" autocomplete="off" placeholder="Order a stain (e.g., TFE3)" />
             <select id="puStainSelect" style="display:none" aria-label="Select a stain"></select>
@@ -118,12 +129,13 @@ author_profile: false
           <div class="pu-answer-row">
             <input id="puDiagnosisInput" list="puDiagnosisList" autocomplete="off" placeholder="Start typing a diagnosis..." />
             <datalist id="puDiagnosisList"></datalist>
-            <button class="pu-primary" id="puSubmitBtn">Submit</button>
+            <button class="pu-primary" id="puSubmitBtn">Continue</button>
           </div>
           <div class="pu-hint">
             Free-text answers are normalized for capitalization, punctuation, and hyphenation.
             Standard acronyms in parentheses in the official diagnosis are also accepted.
           </div>
+          <div class="pu-choice-panel" id="puChoicePanel"></div>
           <div class="pu-result" id="puResult"></div>
         </div>
 
@@ -147,6 +159,7 @@ author_profile: false
   var current = 0;
   var orderedStains = {};
   var stainSuggesterOn = false;
+  var pendingAnswer = "";
 
   function byId(id) {
     return document.getElementById(id);
@@ -242,6 +255,10 @@ author_profile: false
     byId("puStainSuggestToggle").checked = stainSuggesterOn;
     byId("puStainInput").style.display = stainSuggesterOn ? "none" : "";
     byId("puStainSelect").style.display = stainSuggesterOn ? "" : "none";
+
+    byId("puStainAvailability").textContent = stains.length
+      ? stains.length + " stain" + (stains.length === 1 ? "" : "s") + " available for this case"
+      : "No stain data loaded for this case.";
 
     byId("puStainSelect").innerHTML =
       '<option value="">Select a stain…</option>' +
@@ -340,7 +357,13 @@ author_profile: false
 
     renderStainControls();
 
+    pendingAnswer = "";
+    byId("puDiagnosisInput").disabled = false;
     byId("puDiagnosisInput").value = "";
+    byId("puSubmitBtn").disabled = false;
+    byId("puSubmitBtn").textContent = "Continue";
+    byId("puChoicePanel").className = "pu-choice-panel";
+    byId("puChoicePanel").innerHTML = "";
     byId("puResult").className = "pu-result";
     byId("puResult").innerHTML = "";
 
@@ -356,25 +379,99 @@ author_profile: false
     }
   }
 
-  function submit() {
+  function choiceLetter(index) {
+    return String.fromCharCode(65 + index);
+  }
+
+  function showOriginalChoices() {
     var c = cases[current];
     var answer = byId("puDiagnosisInput").value.trim();
-    var correct = isCorrectAnswer(answer, c.correct_answer);
+    var panel = byId("puChoicePanel");
+
+    if (!answer) {
+      byId("puResult").className = "pu-result show incorrect";
+      byId("puResult").innerHTML = "<strong>Enter a diagnosis before continuing.</strong>";
+      return;
+    }
+
+    pendingAnswer = answer;
+    byId("puDiagnosisInput").disabled = true;
+    byId("puSubmitBtn").disabled = true;
+
+    var normalizedInitial = normalizeDiagnosis(answer);
+    var matchingIndex = (c.choices || []).findIndex(function (choice) {
+      return normalizeDiagnosis(choice) === normalizedInitial;
+    });
+
+    panel.className = "pu-choice-panel show";
+    panel.innerHTML =
+      '<h4>Before you lock it in…</h4>' +
+      '<div class="pu-initial-answer">Your first impression: <strong>' + escapeHtml(answer) + '</strong></div>' +
+      '<div>These were the original answer choices. You can double down on your free-text answer or switch to one of them.</div>' +
+      '<div class="pu-choice-list">' +
+      (c.choices || []).map(function (choice, i) {
+        var checked = i === matchingIndex ? " checked" : "";
+        return '<label class="pu-choice-option">' +
+          '<input type="radio" name="puFinalChoice" value="' + escapeHtml(choice) + '"' + checked + '>' +
+          '<span><strong>' + choiceLetter(i) + '.</strong> ' + escapeHtml(choice) + '</span>' +
+          '</label>';
+      }).join("") +
+      '</div>' +
+      '<div class="pu-choice-actions">' +
+        '<button class="pu-primary" id="puDoubleDownBtn">Double down on my answer</button>' +
+        '<button id="puLockChoiceBtn">Submit selected option</button>' +
+        '<button id="puEditAnswerBtn">Edit first impression</button>' +
+      '</div>' +
+      '<div class="pu-choice-status" id="puChoiceStatus"></div>';
+
+    byId("puResult").className = "pu-result";
+    byId("puResult").innerHTML = "";
+
+    byId("puDoubleDownBtn").onclick = function () {
+      finalizeAnswer(pendingAnswer, "double-down");
+    };
+
+    byId("puLockChoiceBtn").onclick = function () {
+      var selected = document.querySelector('input[name="puFinalChoice"]:checked');
+      if (!selected) {
+        byId("puChoiceStatus").textContent = "Select one of the original options first.";
+        return;
+      }
+      finalizeAnswer(selected.value, "multiple-choice");
+    };
+
+    byId("puEditAnswerBtn").onclick = function () {
+      panel.className = "pu-choice-panel";
+      panel.innerHTML = "";
+      byId("puDiagnosisInput").disabled = false;
+      byId("puSubmitBtn").disabled = false;
+      byId("puDiagnosisInput").focus();
+    };
+  }
+
+  function finalizeAnswer(finalAnswer, mode) {
+    var c = cases[current];
+    var correct = isCorrectAnswer(finalAnswer, c.correct_answer);
     var result = byId("puResult");
+    var changed = normalizeDiagnosis(finalAnswer) !== normalizeDiagnosis(pendingAnswer);
 
     result.className = "pu-result show " + (correct ? "correct" : "incorrect");
 
     var heading = correct ? "Correct." : "Not quite.";
-    var responseLine = answer
-      ? 'Your answer: <em>' + escapeHtml(answer) + '</em>.'
-      : "No diagnosis was entered.";
+    var answerSummary =
+      'Final answer: <strong>' + escapeHtml(finalAnswer) + '</strong>.' +
+      (changed ? '<br>First impression: <em>' + escapeHtml(pendingAnswer) + '</em>.' : '');
 
     result.innerHTML =
-      '<div class="pu-result-head"><strong>' + heading + '</strong> ' + responseLine +
+      '<div class="pu-result-head"><strong>' + heading + '</strong><br>' + answerSummary +
       '<br>Official diagnosis: <strong>' + escapeHtml(c.correct_answer) + '</strong></div>' +
       '<div class="pu-feedback">' + sanitizeFeedback(c.feedback_html || "") + '</div>' +
       '<div class="pu-source-row">' + escapeHtml(c.attribution || "") + '<br>' +
       '<a href="' + escapeHtml(c.url) + '" target="_blank" rel="noopener">Open the original JHU case</a></div>';
+
+    byId("puChoicePanel").className = "pu-choice-panel";
+    byId("puChoicePanel").innerHTML = "";
+    byId("puSubmitBtn").textContent = mode === "double-down" ? "Doubled down" : "Answer locked";
   }
 
   function buildCaseList() {
@@ -434,15 +531,15 @@ author_profile: false
     byId("puStainStatus").textContent = "";
   });
 
-  byId("puSubmitBtn").onclick = submit;
+  byId("puSubmitBtn").onclick = showOriginalChoices;
 
   byId("puDiagnosisInput").addEventListener("keydown", function (e) {
     if (e.key === "Enter") {
-      submit();
+      showOriginalChoices();
     }
   });
 
-  fetch("/assets/pathunknowns/cases.json", {cache:"no-store"})
+  fetch("/assets/pathunknowns/cases.json?v=20261107-3", {cache:"no-store"})
     .then(function (response) {
       if (!response.ok) {
         throw new Error("Could not load case data (" + response.status + ")");
