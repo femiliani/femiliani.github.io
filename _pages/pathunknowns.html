@@ -65,7 +65,11 @@ author_profile: false
 .pathunknowns .pu-feedback li { margin:.45rem 0; }
 .pathunknowns .pu-feedback a { overflow-wrap:anywhere; }
 .pathunknowns .pu-source-row { margin-top:1rem; padding-top:.8rem; border-top:1px dashed var(--pu-line); color:var(--pu-muted); font-size:.9rem; }
-.pathunknowns .pu-case-list { margin-top:1rem; display:grid; grid-template-columns:repeat(5,1fr); gap:.45rem; }
+.pathunknowns .pu-case-nav { margin-top:1rem; padding-top:1rem; border-top:1px solid var(--pu-line); }
+.pathunknowns .pu-case-jump-row { display:flex; gap:.6rem; align-items:center; margin-bottom:.7rem; }
+.pathunknowns .pu-case-jump-row label { margin:0; white-space:nowrap; }
+.pathunknowns .pu-case-jump-row select { flex:1; min-width:0; padding:.62rem .75rem; border:1px solid #cdd3da; border-radius:9px; background:#fff; font:inherit; }
+.pathunknowns .pu-case-list { display:grid; grid-template-columns:repeat(5,1fr); gap:.45rem; }
 .pathunknowns .pu-case-list button.active { background:var(--pu-accent); color:#fff; border-color:var(--pu-accent); }
 .pathunknowns .pu-footer { margin-top:1rem; color:var(--pu-muted); font-size:.84rem; line-height:1.5; }
 .pathunknowns .pu-loading { padding:2rem; color:var(--pu-muted); }
@@ -73,13 +77,14 @@ author_profile: false
   .pathunknowns .pu-gallery { grid-template-columns:1fr; }
   .pathunknowns .pu-answer-row, .pathunknowns .pu-stain-row { flex-direction:column; align-items:stretch; }
   .pathunknowns .pu-case-list { grid-template-columns:repeat(2,1fr); }
+  .pathunknowns .pu-case-jump-row { flex-direction:column; align-items:stretch; }
 }
 </style>
 
-<div class="pathunknowns" data-pathunknowns-build="2026-11-07.3">
+<div class="pathunknowns" data-pathunknowns-build="2026-11-07.200">
   <div class="pu-intro">
     <p>
-      Pathology unknowns drawn from the Johns Hopkins Surgical Pathology Unknown Conference.
+      Pathology unknowns drawn from the Johns Hopkins Surgical Pathology Unknown Conference. The current archive includes 200 cases.
       Images are displayed from their original JHU media URLs rather than copied into this repository.
       Submit a diagnosis to reveal the official JHU answer and explanatory feedback.
     </p>
@@ -139,7 +144,13 @@ author_profile: false
           <div class="pu-result" id="puResult"></div>
         </div>
 
-        <div class="pu-case-list" id="puCaseList"></div>
+        <div class="pu-case-nav">
+          <div class="pu-case-jump-row">
+            <label for="puCaseJump">Jump to case</label>
+            <select id="puCaseJump" aria-label="Jump to a PathUnknowns case"></select>
+          </div>
+          <div class="pu-case-list" id="puCaseList"></div>
+        </div>
       </div>
     </div>
   </section>
@@ -370,9 +381,7 @@ author_profile: false
     byId("puPrevBtn").disabled = current === 0;
     byId("puNextBtn").disabled = current === cases.length - 1;
 
-    Array.prototype.forEach.call(byId("puCaseList").children, function (button, i) {
-      button.classList.toggle("active", i === current);
-    });
+    renderCaseNav();
 
     if (window.history && window.history.replaceState) {
       window.history.replaceState(null, "", "#" + c.id);
@@ -475,22 +484,39 @@ author_profile: false
   }
 
   function buildCaseList() {
-    byId("puCaseList").innerHTML = cases.map(function (c, i) {
-      return '<button data-i="' + i + '">' + escapeHtml(c.title.replace("Week ", "W")) + '</button>';
+    byId("puCaseJump").innerHTML = cases.map(function (c, i) {
+      return '<option value="' + i + '">' + escapeHtml(c.title) + '</option>';
     }).join("");
+
+    byId("puCaseJump").addEventListener("change", function () {
+      current = Number(this.value);
+      render();
+      var target = document.querySelector(".pathunknowns");
+      if (target) target.scrollIntoView({behavior:"smooth", block:"start"});
+    });
 
     byId("puCaseList").addEventListener("click", function (e) {
       var button = e.target.closest("button[data-i]");
       if (!button) return;
-
       current = Number(button.dataset.i);
       render();
-
       var target = document.querySelector(".pathunknowns");
-      if (target) {
-        target.scrollIntoView({behavior:"smooth", block:"start"});
-      }
+      if (target) target.scrollIntoView({behavior:"smooth", block:"start"});
     });
+  }
+
+  function renderCaseNav() {
+    byId("puCaseJump").value = String(current);
+
+    var start = Math.max(0, current - 4);
+    var end = Math.min(cases.length, start + 9);
+    start = Math.max(0, end - 9);
+
+    byId("puCaseList").innerHTML = cases.slice(start, end).map(function (c, offset) {
+      var i = start + offset;
+      return '<button data-i="' + i + '" class="' + (i === current ? 'active' : '') + '">' +
+        escapeHtml(c.title.replace("Week ", "W")) + '</button>';
+    }).join("");
   }
 
   byId("puPrevBtn").onclick = function () {
@@ -539,29 +565,38 @@ author_profile: false
     }
   });
 
-  fetch("/assets/pathunknowns/cases.json?v=20261107-3", {cache:"no-store"})
+  fetch("/assets/pathunknowns/cases.json?v=20261107-200", {cache:"no-store"})
     .then(function (response) {
-      if (!response.ok) {
-        throw new Error("Could not load case data (" + response.status + ")");
-      }
+      if (!response.ok) throw new Error("Could not load case manifest (" + response.status + ")");
       return response.json();
     })
     .then(function (payload) {
-      cases = payload.cases || [];
-      if (!cases.length) {
-        throw new Error("No cases found in case data.");
+      if (Array.isArray(payload.cases)) return payload.cases;
+      if (!Array.isArray(payload.chunks) || !payload.chunks.length) {
+        throw new Error("Case manifest contains no chunks.");
       }
+      return Promise.all(payload.chunks.map(function (url) {
+        var separator = url.indexOf("?") >= 0 ? "&" : "?";
+        return fetch(url + separator + "v=20261107-200", {cache:"no-store"})
+          .then(function (response) {
+            if (!response.ok) throw new Error("Could not load " + url + " (" + response.status + ")");
+            return response.json();
+          })
+          .then(function (chunk) { return chunk.cases || []; });
+      })).then(function (parts) {
+        return [].concat.apply([], parts);
+      });
+    })
+    .then(function (loadedCases) {
+      cases = loadedCases || [];
+      if (!cases.length) throw new Error("No cases found in case data.");
 
       renderDiagnosisPool();
       buildCaseList();
 
       var hash = window.location.hash.slice(1);
-      var idx = cases.findIndex(function (c) {
-        return c.id === hash;
-      });
-      if (idx >= 0) {
-        current = idx;
-      }
+      var idx = cases.findIndex(function (c) { return c.id === hash; });
+      if (idx >= 0) current = idx;
 
       byId("puLoading").style.display = "none";
       byId("puApp").style.display = "block";
