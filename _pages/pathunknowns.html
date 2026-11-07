@@ -424,6 +424,7 @@ author_profile: false
       if (!caseData) throw new Error("Case not found in chunk: " + entry.id);
 
       cases[current] = caseData;
+      renderDiagnosisPool();
       byId("puLoading").style.display = "none";
       byId("puApp").style.display = "block";
       render();
