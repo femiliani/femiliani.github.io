@@ -24,6 +24,9 @@ author_profile: false
 .pathunknowns .pu-gallery a { display:block; border:1px solid var(--pu-line); border-radius:10px; overflow:hidden; background:#fafafa; }
 .pathunknowns .pu-gallery img { display:block; width:100%; aspect-ratio:4/3; object-fit:cover; transition:transform .18s ease; }
 .pathunknowns .pu-gallery a:hover img { transform:scale(1.015); }
+.pathunknowns .pu-gallery a.pu-image-failed { min-height:220px; display:flex; align-items:center; justify-content:center; padding:1rem; text-align:center; }
+.pathunknowns .pu-gallery a.pu-image-failed::after { content:"Image could not be embedded. Open at JHU"; font-size:.9rem; color:var(--pu-muted); }
+.pathunknowns .pu-gallery a.pu-image-failed img { display:none; }
 .pathunknowns .pu-stains { border:1px solid var(--pu-line); padding:1rem; margin:0 0 1.2rem; border-radius:12px; background:#fafbfc; }
 .pathunknowns .pu-stain-availability { color:var(--pu-muted); font-size:.82rem; margin:-.25rem 0 .65rem; }
 .pathunknowns .pu-stain-head { display:flex; justify-content:space-between; gap:1rem; align-items:center; flex-wrap:wrap; margin-bottom:.7rem; }
@@ -81,7 +84,7 @@ author_profile: false
 }
 </style>
 
-<div class="pathunknowns" data-pathunknowns-build="2026-11-07.external1">
+<div class="pathunknowns" data-pathunknowns-build="2026-11-07.imagefix1">
   <div class="pu-intro">
     <p>
       Pathology unknowns drawn from the Johns Hopkins Surgical Pathology Unknown Conference. The current archive includes 200 cases.
@@ -162,7 +165,7 @@ author_profile: false
   </div>
 </div>
 
-<script src="/assets/js/pathunknowns.js?v=20261107-external1"></script>
+<script src="/assets/js/pathunknowns.js?v=20261107-imagefix1"></script>
 <noscript>
   <div style="margin-top:1rem;padding:1rem;border:1px solid #cf222e;border-radius:10px;">
     PathUnknowns requires JavaScript to run.

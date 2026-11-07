@@ -308,6 +308,14 @@
     }).join("");
   }
 
+  function normalizeImageUrl(src) {
+    src = String(src || "");
+    if (/^http:\/\/sp\.pathology\.jhu\.edu\//i.test(src)) {
+      return src.replace(/^http:\/\//i, "https://");
+    }
+    return src;
+  }
+
   function render() {
     var c = cases[current];
 
@@ -317,8 +325,10 @@
     byId("puVignette").textContent = c.vignette || "";
 
     byId("puGallery").innerHTML = (c.images || []).map(function (src, i) {
-      return '<a href="' + escapeHtml(src) + '" target="_blank" rel="noopener" title="Open source image">' +
-        '<img loading="lazy" src="' + escapeHtml(src) + '" alt="' + escapeHtml(c.title) + ' pathology image ' + (i + 1) + '">' +
+      var imageUrl = normalizeImageUrl(src);
+      return '<a href="' + escapeHtml(imageUrl) + '" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer" title="Open source image">' +
+        '<img loading="lazy" referrerpolicy="no-referrer" src="' + escapeHtml(imageUrl) + '" alt="' + escapeHtml(c.title) + ' pathology image ' + (i + 1) + '" ' +
+        'onerror="this.onerror=null;this.closest(\'a\').classList.add(\'pu-image-failed\');">' +
         '</a>';
     }).join("");
 
