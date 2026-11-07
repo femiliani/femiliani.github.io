@@ -3,14 +3,1422 @@
   "normalized_at": "2026-11-07T20:50:01.622Z",
   "extractor_version": "1.0.0",
   "normalization_version": "1.0.0",
+  "loader_version": "2.0.0",
   "source": "Johns Hopkins Surgical Pathology Unknown Conference",
   "case_count": 200,
   "failure_count": 0,
-  "normalization_note": "Answers and choices are cleaned for grading while source fields are preserved. Structured explanation/reference fields are repaired where possible from preserved JHU feedback. Existing curated stain annotations are carried forward for the first 10 cases; other cases remain explicitly not-curated.",
   "chunks": [
     "/assets/pathunknowns/cases/cases-001-050.json",
     "/assets/pathunknowns/cases/cases-051-100.json",
     "/assets/pathunknowns/cases/cases-101-150.json",
     "/assets/pathunknowns/cases/cases-151-200.json"
+  ],
+  "stain_chunks": [
+    "/assets/pathunknowns/stains/stains-001-050.json",
+    "/assets/pathunknowns/stains/stains-051-100.json",
+    "/assets/pathunknowns/stains/stains-101-150.json",
+    "/assets/pathunknowns/stains/stains-151-200.json"
+  ],
+  "index": [
+    {
+      "id": "w819c3",
+      "title": "Week 819: Case 3",
+      "case_label": "Week 819: Case 3",
+      "chunk": 0,
+      "position": 0
+    },
+    {
+      "id": "w819c2",
+      "title": "Week 819: Case 2",
+      "case_label": "Week 819: Case 2",
+      "chunk": 0,
+      "position": 1
+    },
+    {
+      "id": "w819c1",
+      "title": "Week 819: Case 1",
+      "case_label": "Week 819: Case 1",
+      "chunk": 0,
+      "position": 2
+    },
+    {
+      "id": "w818c3",
+      "title": "Week 818: Case 3",
+      "case_label": "Week 818: Case 3",
+      "chunk": 0,
+      "position": 3
+    },
+    {
+      "id": "w818c2",
+      "title": "Week 818: Case 2",
+      "case_label": "Week 818: Case 2",
+      "chunk": 0,
+      "position": 4
+    },
+    {
+      "id": "w818c1",
+      "title": "Week 818: Case 1",
+      "case_label": "Week 818: Case 1",
+      "chunk": 0,
+      "position": 5
+    },
+    {
+      "id": "w817c3",
+      "title": "Week 817: Case 3",
+      "case_label": "Week 817: Case 3",
+      "chunk": 0,
+      "position": 6
+    },
+    {
+      "id": "w817c2",
+      "title": "Week 817: Case 2",
+      "case_label": "Week 817: Case 2",
+      "chunk": 0,
+      "position": 7
+    },
+    {
+      "id": "w817c1",
+      "title": "Week 817: Case 1",
+      "case_label": "Week 817: Case 1",
+      "chunk": 0,
+      "position": 8
+    },
+    {
+      "id": "w816c3",
+      "title": "Week 816: Case 3",
+      "case_label": "Week 816: Case 3",
+      "chunk": 0,
+      "position": 9
+    },
+    {
+      "id": "w816c2",
+      "title": "Week 816: Case 2",
+      "case_label": "Week 816: Case 2",
+      "chunk": 0,
+      "position": 10
+    },
+    {
+      "id": "w816c1",
+      "title": "Week 816: Case 1",
+      "case_label": "Week 816: Case 1",
+      "chunk": 0,
+      "position": 11
+    },
+    {
+      "id": "w815c3",
+      "title": "Week 815: Case 3",
+      "case_label": "Week 815: Case 3",
+      "chunk": 0,
+      "position": 12
+    },
+    {
+      "id": "w815c2",
+      "title": "Week 815: Case 2",
+      "case_label": "Week 815: Case 2",
+      "chunk": 0,
+      "position": 13
+    },
+    {
+      "id": "w815c1",
+      "title": "Week 815: Case 1",
+      "case_label": "Week 815: Case 1",
+      "chunk": 0,
+      "position": 14
+    },
+    {
+      "id": "w814c3",
+      "title": "Week 814: Case 3",
+      "case_label": "Week 814: Case 3",
+      "chunk": 0,
+      "position": 15
+    },
+    {
+      "id": "w814c2",
+      "title": "Week 814: Case 2",
+      "case_label": "Week 814: Case 2",
+      "chunk": 0,
+      "position": 16
+    },
+    {
+      "id": "w814c1",
+      "title": "Week 814: Case 1",
+      "case_label": "Week 814: Case 1",
+      "chunk": 0,
+      "position": 17
+    },
+    {
+      "id": "w813c3",
+      "title": "Week 813: Case 3",
+      "case_label": "Week 813: Case 3",
+      "chunk": 0,
+      "position": 18
+    },
+    {
+      "id": "w813c2",
+      "title": "Week 813: Case 2",
+      "case_label": "Week 813: Case 2",
+      "chunk": 0,
+      "position": 19
+    },
+    {
+      "id": "w813c1",
+      "title": "Week 813: Case 1",
+      "case_label": "Week 813: Case 1",
+      "chunk": 0,
+      "position": 20
+    },
+    {
+      "id": "w812c3",
+      "title": "Week 812: Case 3",
+      "case_label": "Week 812: Case 3",
+      "chunk": 0,
+      "position": 21
+    },
+    {
+      "id": "w812c2",
+      "title": "Week 812: Case 2",
+      "case_label": "Week 812: Case 2",
+      "chunk": 0,
+      "position": 22
+    },
+    {
+      "id": "w812c1",
+      "title": "Week 812: Case 1",
+      "case_label": "Week 812: Case 1",
+      "chunk": 0,
+      "position": 23
+    },
+    {
+      "id": "w811c3",
+      "title": "Week 811: Case 3",
+      "case_label": "Week 811: Case 3",
+      "chunk": 0,
+      "position": 24
+    },
+    {
+      "id": "w811c2",
+      "title": "Week 811: Case 2",
+      "case_label": "Week 811: Case 2",
+      "chunk": 0,
+      "position": 25
+    },
+    {
+      "id": "w811c1",
+      "title": "Week 811: Case 1",
+      "case_label": "Week 811: Case 1",
+      "chunk": 0,
+      "position": 26
+    },
+    {
+      "id": "w810c3",
+      "title": "Week 810: Case 3",
+      "case_label": "Week 810: Case 3",
+      "chunk": 0,
+      "position": 27
+    },
+    {
+      "id": "w810c2",
+      "title": "Week 810: Case 2",
+      "case_label": "Week 810: Case 2",
+      "chunk": 0,
+      "position": 28
+    },
+    {
+      "id": "w810c1",
+      "title": "Week 810: Case 1",
+      "case_label": "Week 810: Case 1",
+      "chunk": 0,
+      "position": 29
+    },
+    {
+      "id": "w809c3",
+      "title": "Week 809: Case 3",
+      "case_label": "Week 809: Case 3",
+      "chunk": 0,
+      "position": 30
+    },
+    {
+      "id": "w809c2",
+      "title": "Week 809: Case 2",
+      "case_label": "Week 809: Case 2",
+      "chunk": 0,
+      "position": 31
+    },
+    {
+      "id": "w809c1",
+      "title": "Week 809: Case 1",
+      "case_label": "Week 809: Case 1",
+      "chunk": 0,
+      "position": 32
+    },
+    {
+      "id": "w808c3",
+      "title": "Week 808: Case 3",
+      "case_label": "Week 808: Case 3",
+      "chunk": 0,
+      "position": 33
+    },
+    {
+      "id": "w808c2",
+      "title": "Week 808: Case 2",
+      "case_label": "Week 808: Case 2",
+      "chunk": 0,
+      "position": 34
+    },
+    {
+      "id": "w808c1",
+      "title": "Week 808: Case 1",
+      "case_label": "Week 808: Case 1",
+      "chunk": 0,
+      "position": 35
+    },
+    {
+      "id": "w807c3",
+      "title": "Week 807: Case 3",
+      "case_label": "Week 807: Case 3",
+      "chunk": 0,
+      "position": 36
+    },
+    {
+      "id": "w807c2",
+      "title": "Week 807: Case 2",
+      "case_label": "Week 807: Case 2",
+      "chunk": 0,
+      "position": 37
+    },
+    {
+      "id": "w807c1",
+      "title": "Week 807: Case 1",
+      "case_label": "Week 807: Case 1",
+      "chunk": 0,
+      "position": 38
+    },
+    {
+      "id": "w806c3",
+      "title": "Week 806: Case 3",
+      "case_label": "Week 806: Case 3",
+      "chunk": 0,
+      "position": 39
+    },
+    {
+      "id": "w806c2",
+      "title": "Week 806: Case 2",
+      "case_label": "Week 806: Case 2",
+      "chunk": 0,
+      "position": 40
+    },
+    {
+      "id": "w806c1",
+      "title": "Week 806: Case 1",
+      "case_label": "Week 806: Case 1",
+      "chunk": 0,
+      "position": 41
+    },
+    {
+      "id": "w805c3",
+      "title": "Week 805: Case 3",
+      "case_label": "Week 805: Case 3",
+      "chunk": 0,
+      "position": 42
+    },
+    {
+      "id": "w805c2",
+      "title": "Week 805: Case 2",
+      "case_label": "Week 805: Case 2",
+      "chunk": 0,
+      "position": 43
+    },
+    {
+      "id": "w805c1",
+      "title": "Week 805: Case 1",
+      "case_label": "Week 805: Case 1",
+      "chunk": 0,
+      "position": 44
+    },
+    {
+      "id": "w804c3",
+      "title": "Week 804: Case 3",
+      "case_label": "Week 804: Case 3",
+      "chunk": 0,
+      "position": 45
+    },
+    {
+      "id": "w804c2",
+      "title": "Week 804: Case 2",
+      "case_label": "Week 804: Case 2",
+      "chunk": 0,
+      "position": 46
+    },
+    {
+      "id": "w804c1",
+      "title": "Week 804: Case 1",
+      "case_label": "Week 804: Case 1",
+      "chunk": 0,
+      "position": 47
+    },
+    {
+      "id": "w803c3",
+      "title": "Week 803: Case 3",
+      "case_label": "Week 803: Case 3",
+      "chunk": 0,
+      "position": 48
+    },
+    {
+      "id": "w803c2",
+      "title": "Week 803: Case 2",
+      "case_label": "Week 803: Case 2",
+      "chunk": 0,
+      "position": 49
+    },
+    {
+      "id": "w803c1",
+      "title": "Week 803: Case 1",
+      "case_label": "Week 803: Case 1",
+      "chunk": 1,
+      "position": 0
+    },
+    {
+      "id": "w802c3",
+      "title": "Week 802: Case 3",
+      "case_label": "Week 802: Case 3",
+      "chunk": 1,
+      "position": 1
+    },
+    {
+      "id": "w802c2",
+      "title": "Week 802: Case 2",
+      "case_label": "Week 802: Case 2",
+      "chunk": 1,
+      "position": 2
+    },
+    {
+      "id": "w802c1",
+      "title": "Week 802: Case 1",
+      "case_label": "Week 802: Case 1",
+      "chunk": 1,
+      "position": 3
+    },
+    {
+      "id": "w801c3",
+      "title": "Week 801: Case 3",
+      "case_label": "Week 801: Case 3",
+      "chunk": 1,
+      "position": 4
+    },
+    {
+      "id": "w801c2",
+      "title": "Week 801: Case 2",
+      "case_label": "Week 801: Case 2",
+      "chunk": 1,
+      "position": 5
+    },
+    {
+      "id": "w801c1",
+      "title": "Week 801: Case 1",
+      "case_label": "Week 801: Case 1",
+      "chunk": 1,
+      "position": 6
+    },
+    {
+      "id": "w800c3",
+      "title": "Week 800: Case 3",
+      "case_label": "Week 800: Case 3",
+      "chunk": 1,
+      "position": 7
+    },
+    {
+      "id": "w800c2",
+      "title": "Week 800: Case 2",
+      "case_label": "Week 800: Case 2",
+      "chunk": 1,
+      "position": 8
+    },
+    {
+      "id": "w800c1",
+      "title": "Week 800: Case 1",
+      "case_label": "Week 800: Case 1",
+      "chunk": 1,
+      "position": 9
+    },
+    {
+      "id": "w799c3",
+      "title": "Week 799: Case 3",
+      "case_label": "Week 799: Case 3",
+      "chunk": 1,
+      "position": 10
+    },
+    {
+      "id": "w799c2",
+      "title": "Week 799: Case 2",
+      "case_label": "Week 799: Case 2",
+      "chunk": 1,
+      "position": 11
+    },
+    {
+      "id": "w799c1",
+      "title": "Week 799: Case 1",
+      "case_label": "Week 799: Case 1",
+      "chunk": 1,
+      "position": 12
+    },
+    {
+      "id": "w798c3",
+      "title": "Week 798: Case 3",
+      "case_label": "Week 798: Case 3",
+      "chunk": 1,
+      "position": 13
+    },
+    {
+      "id": "w798c2",
+      "title": "Week 798: Case 2",
+      "case_label": "Week 798: Case 2",
+      "chunk": 1,
+      "position": 14
+    },
+    {
+      "id": "w798c1",
+      "title": "Week 798: Case 1",
+      "case_label": "Week 798: Case 1",
+      "chunk": 1,
+      "position": 15
+    },
+    {
+      "id": "w797c3",
+      "title": "Week 797: Case 3",
+      "case_label": "Week 797: Case 3",
+      "chunk": 1,
+      "position": 16
+    },
+    {
+      "id": "w797c2",
+      "title": "Week 797: Case 2",
+      "case_label": "Week 797: Case 2",
+      "chunk": 1,
+      "position": 17
+    },
+    {
+      "id": "w797c1",
+      "title": "Week 797: Case 1",
+      "case_label": "Week 797: Case 1",
+      "chunk": 1,
+      "position": 18
+    },
+    {
+      "id": "w796c3",
+      "title": "Week 796: Case 3",
+      "case_label": "Week 796: Case 3",
+      "chunk": 1,
+      "position": 19
+    },
+    {
+      "id": "w796c2",
+      "title": "Week 796: Case 2",
+      "case_label": "Week 796: Case 2",
+      "chunk": 1,
+      "position": 20
+    },
+    {
+      "id": "w796c1",
+      "title": "Week 796: Case 1",
+      "case_label": "Week 796: Case 1",
+      "chunk": 1,
+      "position": 21
+    },
+    {
+      "id": "w795c3",
+      "title": "Week 795: Case 3",
+      "case_label": "Week 795: Case 3",
+      "chunk": 1,
+      "position": 22
+    },
+    {
+      "id": "w795c2",
+      "title": "Week 795: Case 2",
+      "case_label": "Week 795: Case 2",
+      "chunk": 1,
+      "position": 23
+    },
+    {
+      "id": "w795c1",
+      "title": "Week 795: Case 1",
+      "case_label": "Week 795: Case 1",
+      "chunk": 1,
+      "position": 24
+    },
+    {
+      "id": "w794c3",
+      "title": "Week 794: Case 3",
+      "case_label": "Week 794: Case 3",
+      "chunk": 1,
+      "position": 25
+    },
+    {
+      "id": "w794c2",
+      "title": "Week 794: Case 2",
+      "case_label": "Week 794: Case 2",
+      "chunk": 1,
+      "position": 26
+    },
+    {
+      "id": "w794c1",
+      "title": "Week 794: Case 1",
+      "case_label": "Week 794: Case 1",
+      "chunk": 1,
+      "position": 27
+    },
+    {
+      "id": "w793c3",
+      "title": "Week 793: Case 3",
+      "case_label": "Week 793: Case 3",
+      "chunk": 1,
+      "position": 28
+    },
+    {
+      "id": "w793c2",
+      "title": "Week 793: Case 2",
+      "case_label": "Week 793: Case 2",
+      "chunk": 1,
+      "position": 29
+    },
+    {
+      "id": "w793c1",
+      "title": "Week 793: Case 1",
+      "case_label": "Week 793: Case 1",
+      "chunk": 1,
+      "position": 30
+    },
+    {
+      "id": "w792c3",
+      "title": "Week 792: Case 3",
+      "case_label": "Week 792: Case 3",
+      "chunk": 1,
+      "position": 31
+    },
+    {
+      "id": "w792c2",
+      "title": "Week 792: Case 2",
+      "case_label": "Week 792: Case 2",
+      "chunk": 1,
+      "position": 32
+    },
+    {
+      "id": "w792c1",
+      "title": "Week 792: Case 1",
+      "case_label": "Week 792: Case 1",
+      "chunk": 1,
+      "position": 33
+    },
+    {
+      "id": "w791c3",
+      "title": "Week 791: Case 3",
+      "case_label": "Week 791: Case 3",
+      "chunk": 1,
+      "position": 34
+    },
+    {
+      "id": "w791c2",
+      "title": "Week 791: Case 2",
+      "case_label": "Week 791: Case 2",
+      "chunk": 1,
+      "position": 35
+    },
+    {
+      "id": "w791c1",
+      "title": "Week 791: Case 1",
+      "case_label": "Week 791: Case 1",
+      "chunk": 1,
+      "position": 36
+    },
+    {
+      "id": "w790c3",
+      "title": "Week 790: Case 3",
+      "case_label": "Week 790: Case 3",
+      "chunk": 1,
+      "position": 37
+    },
+    {
+      "id": "w790c2",
+      "title": "Week 790: Case 2",
+      "case_label": "Week 790: Case 2",
+      "chunk": 1,
+      "position": 38
+    },
+    {
+      "id": "w790c1",
+      "title": "Week 790: Case 1",
+      "case_label": "Week 790: Case 1",
+      "chunk": 1,
+      "position": 39
+    },
+    {
+      "id": "w789c3",
+      "title": "Week 789: Case 3",
+      "case_label": "Week 789: Case 3",
+      "chunk": 1,
+      "position": 40
+    },
+    {
+      "id": "w789c2",
+      "title": "Week 789: Case 2",
+      "case_label": "Week 789: Case 2",
+      "chunk": 1,
+      "position": 41
+    },
+    {
+      "id": "w789c1",
+      "title": "Week 789: Case 1",
+      "case_label": "Week 789: Case 1",
+      "chunk": 1,
+      "position": 42
+    },
+    {
+      "id": "w788c3",
+      "title": "Week 788: Case 3",
+      "case_label": "Week 788: Case 3",
+      "chunk": 1,
+      "position": 43
+    },
+    {
+      "id": "w788c2",
+      "title": "Week 788: Case 2",
+      "case_label": "Week 788: Case 2",
+      "chunk": 1,
+      "position": 44
+    },
+    {
+      "id": "w788c1",
+      "title": "Week 788: Case 1",
+      "case_label": "Week 788: Case 1",
+      "chunk": 1,
+      "position": 45
+    },
+    {
+      "id": "w787c3",
+      "title": "Week 787: Case 3",
+      "case_label": "Week 787: Case 3",
+      "chunk": 1,
+      "position": 46
+    },
+    {
+      "id": "w787c2",
+      "title": "Week 787: Case 2",
+      "case_label": "Week 787: Case 2",
+      "chunk": 1,
+      "position": 47
+    },
+    {
+      "id": "w787c1",
+      "title": "Week 787: Case 1",
+      "case_label": "Week 787: Case 1",
+      "chunk": 1,
+      "position": 48
+    },
+    {
+      "id": "w786c3",
+      "title": "Week 786: Case 3",
+      "case_label": "Week 786: Case 3",
+      "chunk": 1,
+      "position": 49
+    },
+    {
+      "id": "w786c2",
+      "title": "Week 786: Case 2",
+      "case_label": "Week 786: Case 2",
+      "chunk": 2,
+      "position": 0
+    },
+    {
+      "id": "w786c1",
+      "title": "Week 786: Case 1",
+      "case_label": "Week 786: Case 1",
+      "chunk": 2,
+      "position": 1
+    },
+    {
+      "id": "w785c3",
+      "title": "Week 785: Case 3",
+      "case_label": "Week 785: Case 3",
+      "chunk": 2,
+      "position": 2
+    },
+    {
+      "id": "w785c2",
+      "title": "Week 785: Case 2",
+      "case_label": "Week 785: Case 2",
+      "chunk": 2,
+      "position": 3
+    },
+    {
+      "id": "w785c1",
+      "title": "Week 785: Case 1",
+      "case_label": "Week 785: Case 1",
+      "chunk": 2,
+      "position": 4
+    },
+    {
+      "id": "w784c3",
+      "title": "Week 784: Case 3",
+      "case_label": "Week 784: Case 3",
+      "chunk": 2,
+      "position": 5
+    },
+    {
+      "id": "w784c2",
+      "title": "Week 784: Case 2",
+      "case_label": "Week 784: Case 2",
+      "chunk": 2,
+      "position": 6
+    },
+    {
+      "id": "w784c1",
+      "title": "Week 784: Case 1",
+      "case_label": "Week 784: Case 1",
+      "chunk": 2,
+      "position": 7
+    },
+    {
+      "id": "w783c3",
+      "title": "Week 783: Case 3",
+      "case_label": "Week 783: Case 3",
+      "chunk": 2,
+      "position": 8
+    },
+    {
+      "id": "w783c2",
+      "title": "Week 783: Case 2",
+      "case_label": "Week 783: Case 2",
+      "chunk": 2,
+      "position": 9
+    },
+    {
+      "id": "w783c1",
+      "title": "Week 783: Case 1",
+      "case_label": "Week 783: Case 1",
+      "chunk": 2,
+      "position": 10
+    },
+    {
+      "id": "w782c3",
+      "title": "Week 782: Case 3",
+      "case_label": "Week 782: Case 3",
+      "chunk": 2,
+      "position": 11
+    },
+    {
+      "id": "w782c2",
+      "title": "Week 782: Case 2",
+      "case_label": "Week 782: Case 2",
+      "chunk": 2,
+      "position": 12
+    },
+    {
+      "id": "w782c1",
+      "title": "Week 782: Case 1",
+      "case_label": "Week 782: Case 1",
+      "chunk": 2,
+      "position": 13
+    },
+    {
+      "id": "w781c3",
+      "title": "Week 781: Case 3",
+      "case_label": "Week 781: Case 3",
+      "chunk": 2,
+      "position": 14
+    },
+    {
+      "id": "w781c2",
+      "title": "Week 781: Case 2",
+      "case_label": "Week 781: Case 2",
+      "chunk": 2,
+      "position": 15
+    },
+    {
+      "id": "w781c1",
+      "title": "Week 781: Case 1",
+      "case_label": "Week 781: Case 1",
+      "chunk": 2,
+      "position": 16
+    },
+    {
+      "id": "w780c3",
+      "title": "Week 780: Case 3",
+      "case_label": "Week 780: Case 3",
+      "chunk": 2,
+      "position": 17
+    },
+    {
+      "id": "w780c2",
+      "title": "Week 780: Case 2",
+      "case_label": "Week 780: Case 2",
+      "chunk": 2,
+      "position": 18
+    },
+    {
+      "id": "w780c1",
+      "title": "Week 780: Case 1",
+      "case_label": "Week 780: Case 1",
+      "chunk": 2,
+      "position": 19
+    },
+    {
+      "id": "w779c3",
+      "title": "Week 779: Case 3",
+      "case_label": "Week 779: Case 3",
+      "chunk": 2,
+      "position": 20
+    },
+    {
+      "id": "w779c2",
+      "title": "Week 779: Case 2",
+      "case_label": "Week 779: Case 2",
+      "chunk": 2,
+      "position": 21
+    },
+    {
+      "id": "w779c1",
+      "title": "Week 779: Case 1",
+      "case_label": "Week 779: Case 1",
+      "chunk": 2,
+      "position": 22
+    },
+    {
+      "id": "w778c3",
+      "title": "Week 778: Case 3",
+      "case_label": "Week 778: Case 3",
+      "chunk": 2,
+      "position": 23
+    },
+    {
+      "id": "w778c2",
+      "title": "Week 778: Case 2",
+      "case_label": "Week 778: Case 2",
+      "chunk": 2,
+      "position": 24
+    },
+    {
+      "id": "w778c1",
+      "title": "Week 778: Case 1",
+      "case_label": "Week 778: Case 1",
+      "chunk": 2,
+      "position": 25
+    },
+    {
+      "id": "w777c3",
+      "title": "Week 777: Case 3",
+      "case_label": "Week 777: Case 3",
+      "chunk": 2,
+      "position": 26
+    },
+    {
+      "id": "w777c2",
+      "title": "Week 777: Case 2",
+      "case_label": "Week 777: Case 2",
+      "chunk": 2,
+      "position": 27
+    },
+    {
+      "id": "w777c1",
+      "title": "Week 777: Case 1",
+      "case_label": "Week 777: Case 1",
+      "chunk": 2,
+      "position": 28
+    },
+    {
+      "id": "w776c3",
+      "title": "Week 776: Case 3",
+      "case_label": "Week 776: Case 3",
+      "chunk": 2,
+      "position": 29
+    },
+    {
+      "id": "w776c2",
+      "title": "Week 776: Case 2",
+      "case_label": "Week 776: Case 2",
+      "chunk": 2,
+      "position": 30
+    },
+    {
+      "id": "w776c1",
+      "title": "Week 776: Case 1",
+      "case_label": "Week 776: Case 1",
+      "chunk": 2,
+      "position": 31
+    },
+    {
+      "id": "w775c3",
+      "title": "Week 775: Case 3",
+      "case_label": "Week 775: Case 3",
+      "chunk": 2,
+      "position": 32
+    },
+    {
+      "id": "w775c2",
+      "title": "Week 775: Case 2",
+      "case_label": "Week 775: Case 2",
+      "chunk": 2,
+      "position": 33
+    },
+    {
+      "id": "w775c1",
+      "title": "Week 775: Case 1",
+      "case_label": "Week 775: Case 1",
+      "chunk": 2,
+      "position": 34
+    },
+    {
+      "id": "w774c3",
+      "title": "Week 774: Case 3",
+      "case_label": "Week 774: Case 3",
+      "chunk": 2,
+      "position": 35
+    },
+    {
+      "id": "w774c2",
+      "title": "Week 774: Case 2",
+      "case_label": "Week 774: Case 2",
+      "chunk": 2,
+      "position": 36
+    },
+    {
+      "id": "w774c1",
+      "title": "Week 774: Case 1",
+      "case_label": "Week 774: Case 1",
+      "chunk": 2,
+      "position": 37
+    },
+    {
+      "id": "w773c3",
+      "title": "Week 773: Case 3",
+      "case_label": "Week 773: Case 3",
+      "chunk": 2,
+      "position": 38
+    },
+    {
+      "id": "w773c2",
+      "title": "Week 773: Case 2",
+      "case_label": "Week 773: Case 2",
+      "chunk": 2,
+      "position": 39
+    },
+    {
+      "id": "w773c1",
+      "title": "Week 773: Case 1",
+      "case_label": "Week 773: Case 1",
+      "chunk": 2,
+      "position": 40
+    },
+    {
+      "id": "w772c3",
+      "title": "Week 772: Case 3",
+      "case_label": "Week 772: Case 3",
+      "chunk": 2,
+      "position": 41
+    },
+    {
+      "id": "w772c2",
+      "title": "Week 772: Case 2",
+      "case_label": "Week 772: Case 2",
+      "chunk": 2,
+      "position": 42
+    },
+    {
+      "id": "w772c1",
+      "title": "Week 772: Case 1",
+      "case_label": "Week 772: Case 1",
+      "chunk": 2,
+      "position": 43
+    },
+    {
+      "id": "w771c3",
+      "title": "Week 771: Case 3",
+      "case_label": "Week 771: Case 3",
+      "chunk": 2,
+      "position": 44
+    },
+    {
+      "id": "w771c2",
+      "title": "Week 771: Case 2",
+      "case_label": "Week 771: Case 2",
+      "chunk": 2,
+      "position": 45
+    },
+    {
+      "id": "w771c1",
+      "title": "Week 771: Case 1",
+      "case_label": "Week 771: Case 1",
+      "chunk": 2,
+      "position": 46
+    },
+    {
+      "id": "w770c3",
+      "title": "Week 770: Case 3",
+      "case_label": "Week 770: Case 3",
+      "chunk": 2,
+      "position": 47
+    },
+    {
+      "id": "w770c2",
+      "title": "Week 770: Case 2",
+      "case_label": "Week 770: Case 2",
+      "chunk": 2,
+      "position": 48
+    },
+    {
+      "id": "w770c1",
+      "title": "Week 770: Case 1",
+      "case_label": "Week 770: Case 1",
+      "chunk": 2,
+      "position": 49
+    },
+    {
+      "id": "w769c3",
+      "title": "Week 769: Case 3",
+      "case_label": "Week 769: Case 3",
+      "chunk": 3,
+      "position": 0
+    },
+    {
+      "id": "w769c2",
+      "title": "Week 769: Case 2",
+      "case_label": "Week 769: Case 2",
+      "chunk": 3,
+      "position": 1
+    },
+    {
+      "id": "w769c1",
+      "title": "Week 769: Case 1",
+      "case_label": "Week 769: Case 1",
+      "chunk": 3,
+      "position": 2
+    },
+    {
+      "id": "week769bonuscase3",
+      "title": "Week 769: Bonus Case 3",
+      "case_label": "Week 769: Bonus Case 3",
+      "chunk": 3,
+      "position": 3
+    },
+    {
+      "id": "week769bonuscase2",
+      "title": "Week 769: Bonus Case 2",
+      "case_label": "Week 769: Bonus Case 2",
+      "chunk": 3,
+      "position": 4
+    },
+    {
+      "id": "week769bonuscase1",
+      "title": "Week 769: Bonus Case 1",
+      "case_label": "Week 769: Bonus Case 1",
+      "chunk": 3,
+      "position": 5
+    },
+    {
+      "id": "w768c3",
+      "title": "Week 768: Case 3",
+      "case_label": "Week 768: Case 3",
+      "chunk": 3,
+      "position": 6
+    },
+    {
+      "id": "w768c2",
+      "title": "Week 768: Case 2",
+      "case_label": "Week 768: Case 2",
+      "chunk": 3,
+      "position": 7
+    },
+    {
+      "id": "w768c1",
+      "title": "Week 768: Case 1",
+      "case_label": "Week 768: Case 1",
+      "chunk": 3,
+      "position": 8
+    },
+    {
+      "id": "w767c3",
+      "title": "Week 767: Case 3",
+      "case_label": "Week 767: Case 3",
+      "chunk": 3,
+      "position": 9
+    },
+    {
+      "id": "w767c2",
+      "title": "Week 767: Case 2",
+      "case_label": "Week 767: Case 2",
+      "chunk": 3,
+      "position": 10
+    },
+    {
+      "id": "w767c1",
+      "title": "Week 767: Case 1",
+      "case_label": "Week 767: Case 1",
+      "chunk": 3,
+      "position": 11
+    },
+    {
+      "id": "w766c3",
+      "title": "Week 766: Case 3",
+      "case_label": "Week 766: Case 3",
+      "chunk": 3,
+      "position": 12
+    },
+    {
+      "id": "w766c2",
+      "title": "Week 766: Case 2",
+      "case_label": "Week 766: Case 2",
+      "chunk": 3,
+      "position": 13
+    },
+    {
+      "id": "w766c1",
+      "title": "Week 766: Case 1",
+      "case_label": "Week 766: Case 1",
+      "chunk": 3,
+      "position": 14
+    },
+    {
+      "id": "w765c3",
+      "title": "Week 765: Case 3",
+      "case_label": "Week 765: Case 3",
+      "chunk": 3,
+      "position": 15
+    },
+    {
+      "id": "w765c2",
+      "title": "Week 765: Case 2",
+      "case_label": "Week 765: Case 2",
+      "chunk": 3,
+      "position": 16
+    },
+    {
+      "id": "w765c1",
+      "title": "Week 765: Case 1",
+      "case_label": "Week 765: Case 1",
+      "chunk": 3,
+      "position": 17
+    },
+    {
+      "id": "w764c3",
+      "title": "Week 764: Case 3",
+      "case_label": "Week 764: Case 3",
+      "chunk": 3,
+      "position": 18
+    },
+    {
+      "id": "w764c2",
+      "title": "Week 764: Case 2",
+      "case_label": "Week 764: Case 2",
+      "chunk": 3,
+      "position": 19
+    },
+    {
+      "id": "w764c1",
+      "title": "Week 764: case 1",
+      "case_label": "Week 764: case 1",
+      "chunk": 3,
+      "position": 20
+    },
+    {
+      "id": "w763c3",
+      "title": "Week 763: Case 3",
+      "case_label": "Week 763: Case 3",
+      "chunk": 3,
+      "position": 21
+    },
+    {
+      "id": "w763c2",
+      "title": "Week 763: Case 2",
+      "case_label": "Week 763: Case 2",
+      "chunk": 3,
+      "position": 22
+    },
+    {
+      "id": "w763c1",
+      "title": "Week 763: Case 1",
+      "case_label": "Week 763: Case 1",
+      "chunk": 3,
+      "position": 23
+    },
+    {
+      "id": "w762c3",
+      "title": "Week 762: Case 3",
+      "case_label": "Week 762: Case 3",
+      "chunk": 3,
+      "position": 24
+    },
+    {
+      "id": "w762c2",
+      "title": "Week 762: Case 2",
+      "case_label": "Week 762: Case 2",
+      "chunk": 3,
+      "position": 25
+    },
+    {
+      "id": "w762c1",
+      "title": "Week 762: Case 1",
+      "case_label": "Week 762: Case 1",
+      "chunk": 3,
+      "position": 26
+    },
+    {
+      "id": "w761c3",
+      "title": "Week 761: Case3",
+      "case_label": "Week 761: Case3",
+      "chunk": 3,
+      "position": 27
+    },
+    {
+      "id": "w761c2",
+      "title": "Week 761: Case 2",
+      "case_label": "Week 761: Case 2",
+      "chunk": 3,
+      "position": 28
+    },
+    {
+      "id": "w761c1",
+      "title": "Week 761: Case 1",
+      "case_label": "Week 761: Case 1",
+      "chunk": 3,
+      "position": 29
+    },
+    {
+      "id": "w760c3",
+      "title": "Week 760: Case 3",
+      "case_label": "Week 760: Case 3",
+      "chunk": 3,
+      "position": 30
+    },
+    {
+      "id": "w760c2",
+      "title": "Week 760: Case 2",
+      "case_label": "Week 760: Case 2",
+      "chunk": 3,
+      "position": 31
+    },
+    {
+      "id": "w760c1",
+      "title": "Week 760: Case 1",
+      "case_label": "Week 760: Case 1",
+      "chunk": 3,
+      "position": 32
+    },
+    {
+      "id": "w759c3",
+      "title": "Week 759: Case 3",
+      "case_label": "Week 759: Case 3",
+      "chunk": 3,
+      "position": 33
+    },
+    {
+      "id": "w759c2",
+      "title": "Week 759: Case 2",
+      "case_label": "Week 759: Case 2",
+      "chunk": 3,
+      "position": 34
+    },
+    {
+      "id": "w759c1",
+      "title": "Week 759: Case 1",
+      "case_label": "Week 759: Case 1",
+      "chunk": 3,
+      "position": 35
+    },
+    {
+      "id": "w758c3",
+      "title": "Week 758: Case 3",
+      "case_label": "Week 758: Case 3",
+      "chunk": 3,
+      "position": 36
+    },
+    {
+      "id": "w758c2",
+      "title": "Week 758: Case 2",
+      "case_label": "Week 758: Case 2",
+      "chunk": 3,
+      "position": 37
+    },
+    {
+      "id": "w758c1",
+      "title": "Week 758: Case 1",
+      "case_label": "Week 758: Case 1",
+      "chunk": 3,
+      "position": 38
+    },
+    {
+      "id": "w757c3",
+      "title": "Week 757: Case 3",
+      "case_label": "Week 757: Case 3",
+      "chunk": 3,
+      "position": 39
+    },
+    {
+      "id": "w757c2",
+      "title": "Week 757: Case 2",
+      "case_label": "Week 757: Case 2",
+      "chunk": 3,
+      "position": 40
+    },
+    {
+      "id": "w757c1",
+      "title": "Week 757: Case 1",
+      "case_label": "Week 757: Case 1",
+      "chunk": 3,
+      "position": 41
+    },
+    {
+      "id": "w756c3",
+      "title": "Week 756: Case 3",
+      "case_label": "Week 756: Case 3",
+      "chunk": 3,
+      "position": 42
+    },
+    {
+      "id": "w756c2",
+      "title": "Week 756: Case 2",
+      "case_label": "Week 756: Case 2",
+      "chunk": 3,
+      "position": 43
+    },
+    {
+      "id": "w756c1",
+      "title": "Week 756: Case 1",
+      "case_label": "Week 756: Case 1",
+      "chunk": 3,
+      "position": 44
+    },
+    {
+      "id": "w755c3",
+      "title": "Week 755: Case 3",
+      "case_label": "Week 755: Case 3",
+      "chunk": 3,
+      "position": 45
+    },
+    {
+      "id": "w755c2",
+      "title": "Week 755: Case 2",
+      "case_label": "Week 755: Case 2",
+      "chunk": 3,
+      "position": 46
+    },
+    {
+      "id": "w755c1",
+      "title": "Week 755: Case 1",
+      "case_label": "Week 755: Case 1",
+      "chunk": 3,
+      "position": 47
+    },
+    {
+      "id": "w754c3",
+      "title": "Week 754: Case 3",
+      "case_label": "Week 754: Case 3",
+      "chunk": 3,
+      "position": 48
+    },
+    {
+      "id": "w754c2",
+      "title": "Week 754: Case 2",
+      "case_label": "Week 754: Case 2",
+      "chunk": 3,
+      "position": 49
+    }
   ]
 }
