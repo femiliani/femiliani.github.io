@@ -1,0 +1,446 @@
+{
+  "case_start": 151,
+  "case_end": 160,
+  "case_count": 10,
+  "cases": [
+    {
+      "id": "w769c3",
+      "url": "https://sp.pathology.jhu.edu/week-769-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 769: Case 3",
+      "case_label": "Week 769: Case 3",
+      "attribution": "Presented by Dr. Jonathan Epstein and prepared by Dr. Katherine Fomchenko",
+      "vignette": "An adult female underwent a resection of a bladder mass.",
+      "question_text": "Presented by Dr. Jonathan Epstein and prepared by Dr. Katherine Fomchenko\nAn adult female underwent a resection of a bladder mass.",
+      "source_answer": "A. Intestinal metaplasia with high grade dysplasia",
+      "correct_answer": "Intestinal metaplasia with high grade dysplasia",
+      "canonical_answer": "Intestinal metaplasia with high grade dysplasia",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "A. Intestinal metaplasia with high grade dysplasia",
+        "B. Colonic adenocarcinoma invading bladder",
+        "C. Villous adenoma of the bladder"
+      ],
+      "choices": [
+        "Intestinal metaplasia with high grade dysplasia",
+        "Colonic adenocarcinoma invading bladder",
+        "Villous adenoma of the bladder"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8348.-Lesion.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8348-Goblet-Cell.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8348-Lesion-Edge.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8348-1x.png"
+      ],
+      "histology": "The case consists of polypoid fragments composed of numerous glands with cytological atypia with enlarged, hyperchromatic nuclei, prominent nucleoli, increased mitoses and loss of polarity. Focally, some of the glands have residual goblet cells. The glands are relatively evenly distributed without individual infiltrating cells and without an associated desmoplastic stromal reaction.",
+      "discussion": "Assessment of glandular lesions of the bladder is entirely analogous to how one would assess a gastrointestinal (GI) glandular lesion. Intestinal metaplasia of the bladder is a benign glandular proliferation where the urothelial mucosa and proliferating glands of cystitis cystica/cystitis glandularis becomes lined by intestinal-type epithelium. This epithelium resembles normal colon crypts with cytologically bland, basally situated, small round nuclei, and diffuse goblet cells. The presence of focal residual goblet cells in this case is evidence that this lesion is primary in the bladder and arising from intestinal metaplasia, as opposed to from a villous adenoma or from another site. The current lesion also lacks a surface villiform architecture. Intestinal metaplasia may have abundant acellular extracellular mucin, and occasionally can involve the muscularis propria. Uncommonly, intestinal metaplasia may have dysplasia, and has the same morphology as adenomas in the GI tract. If the cytology is that of a tubular adenoma of the GI tract, it is considered moderate dysplasia in intestinal metaplasia. If glands show loss of polarity and greater cytological atypia, as seen in the current case, then it is considered intestinal metaplasia with high grade dysplasia, again analogous to diagnosing high grade dysplasia in an adenomatous polyp in the GI tract. Intestinal metaplasia without dysplasia has no increased risk of adenocarcinoma in the bladder, except for increased risk of adenocarcinoma in exstrophy patients. Although there are only limited studies, intestinal metaplasia with dysplasia is associated with concurrent adenocarcinoma of the bladder. If incompletely excised, patients who are diagnosed with glandular dysplasia require a repeat biopsy to completely remove the lesion and clinical follow-up.",
+      "references": [],
+      "feedback_text": "Correct Answer: A. Intestinal metaplasia with high grade dysplasia\n\nHistological Description: The case consists of polypoid fragments composed of numerous glands with cytological atypia with enlarged, hyperchromatic nuclei, prominent nucleoli, increased mitoses and loss of polarity. Focally, some of the glands have residual goblet cells. The glands are relatively evenly distributed without individual infiltrating cells and without an associated desmoplastic stromal reaction.\n\nDiscussion: Assessment of glandular lesions of the bladder is entirely analogous to how one would assess a gastrointestinal (GI) glandular lesion. Intestinal metaplasia of the bladder is a benign glandular proliferation where the urothelial mucosa and proliferating glands of cystitis cystica/cystitis glandularis becomes lined by intestinal-type epithelium. This epithelium resembles normal colon crypts with cytologically bland, basally situated, small round nuclei, and diffuse goblet cells. The presence of focal residual goblet cells in this case is evidence that this lesion is primary in the bladder and arising from intestinal metaplasia, as opposed to from a villous adenoma or from another site. The current lesion also lacks a surface villiform architecture. Intestinal metaplasia may have abundant acellular extracellular mucin, and occasionally can involve the muscularis propria. Uncommonly, intestinal metaplasia may have dysplasia, and has the same morphology as adenomas in the GI tract. If the cytology is that of a tubular adenoma of the GI tract, it is considered moderate dysplasia in intestinal metaplasia. If glands show loss of polarity and greater cytological atypia, as seen in the current case, then it is considered intestinal metaplasia with high grade dysplasia, again analogous to diagnosing high grade dysplasia in an adenomatous polyp in the GI tract. Intestinal metaplasia without dysplasia has no increased risk of adenocarcinoma in the bladder, except for increased risk of adenocarcinoma in exstrophy patients. Although there are only limited studies, intestinal metaplasia with dysplasia is associated with concurrent adenocarcinoma of the bladder. If incompletely excised, patients who are diagnosed with glandular dysplasia require a repeat biopsy to completely remove the lesion and clinical follow-up.",
+      "feedback_html": "Correct Answer: A. Intestinal metaplasia with high grade dysplasia <p></p>\n<p>Histological Description: The case consists of polypoid fragments composed of numerous glands with cytological atypia with enlarged, hyperchromatic nuclei, prominent nucleoli, increased mitoses and loss of polarity. Focally, some of the glands have residual goblet cells. The glands are relatively evenly distributed without individual infiltrating cells and without an associated desmoplastic stromal reaction.   </p>\n<p>Discussion: Assessment of glandular lesions of the bladder is entirely analogous to how one would assess a gastrointestinal (GI) glandular lesion. Intestinal metaplasia of the bladder is a benign glandular proliferation where the urothelial mucosa and proliferating glands of cystitis cystica/cystitis glandularis becomes lined by intestinal-type epithelium. This epithelium resembles normal colon crypts with cytologically bland, basally situated, small round nuclei, and diffuse goblet cells. The presence of focal residual goblet cells in this case is evidence that this lesion is primary in the bladder and arising from intestinal metaplasia, as opposed to from a villous adenoma or from another site. The current lesion also lacks a surface villiform architecture. Intestinal metaplasia may have abundant acellular extracellular mucin, and occasionally can involve the muscularis propria. Uncommonly, intestinal metaplasia may have dysplasia, and has the same morphology as adenomas in the GI tract. If the cytology is that of a tubular adenoma of the GI tract, it is considered moderate dysplasia in intestinal metaplasia. If glands show loss of polarity and greater cytological atypia, as seen in the current case, then it is considered intestinal metaplasia with high grade dysplasia, again analogous to diagnosing high grade dysplasia in an adenomatous polyp in the GI tract.  Intestinal metaplasia without dysplasia has no increased risk of adenocarcinoma in the bladder, except for increased risk of adenocarcinoma in exstrophy patients. Although there are only limited studies, intestinal metaplasia with dysplasia is associated with concurrent adenocarcinoma of the bladder. If incompletely excised, patients who are diagnosed with glandular dysplasia require a repeat biopsy to completely remove the lesion and clinical follow-up. </p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:18:24.721Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w769c2",
+      "url": "https://sp.pathology.jhu.edu/week-769-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 769: Case 2",
+      "case_label": "Week 769: Case 2",
+      "attribution": "Presented by Dr. Jonathan Epstein and prepared by Dr. Katherine Fomchenko",
+      "vignette": "A middle-aged male underwent an orchiectomy for a testis mass. mass.",
+      "question_text": "Presented by Dr. Jonathan Epstein and prepared by Dr. Katherine Fomchenko\nA middle-aged male underwent an orchiectomy for a testis mass.\nmass.",
+      "source_answer": "D. Infarct with necrotizing granulomatous vasculitis",
+      "correct_answer": "Infarct with necrotizing granulomatous vasculitis",
+      "canonical_answer": "Infarct with necrotizing granulomatous vasculitis",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "A. Necrotic/regressed testis tumor",
+        "B. Torsion",
+        "C. Necrotizing infectious granulomas",
+        "D. Infarct with necrotizing granulomatous vasculitis"
+      ],
+      "choices": [
+        "Necrotic/regressed testis tumor",
+        "Torsion",
+        "Necrotizing infectious granulomas",
+        "Infarct with necrotizing granulomatous vasculitis"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8346-1x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8346-lesion-to-uninvolved.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8346-blood-vessel.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8346-Lesion.png"
+      ],
+      "histology": "There is a well-demarcated area of testicular parenchymal infarct with residual outlines of necrotic seminiferous tubules. There is an associated polyarteritis nodosa-like (PAN-like) vasculitis with transmural necrotizing inflammation of small to medium-sized arteries. The affected vessels show either focal or circumferential involvement. The inflammatory component within the vasculitis is granulomatous.",
+      "discussion": "When presented with a case with necrosis in the testis, it is critical to assess the nature of the necrosis. Caseous necrosis consists of necrotic debris without visible structures native to the testis. In this setting, it is most likely infectious in origin, and the epididymis should also be affected, as that is the site of origin of the testicular infection. Cellular necrosis consists of ghosts of individual cells, where there is no suggestion of pre-existing seminiferous tubules. Often with necrotic seminoma, one can still see adequate cytology to make a definitive diagnosis. In these cases, sometimes OCT3/4 and CD117 may still label the tumor. The presence of germ cell neoplasia in-situ in the surrounding testis may also be helpful in establishing the diagnosis of necrotic germ cell tumor. Torsion is seen either in neonates or in teens/young adults and results in hemorrhagic necrosis of the entire testis. Localized infarcts of the testis taken out from presumed tumor are in the vast majority of times associated with vasculitis. At low power, the brightly eosinophilic fibrinoid necrosis in the vessel walls stand out. The vessels are medium-sized and often at the periphery of the testicle. Non-granulomatous vasculitis, seen in the vast majority of times, represent vasculitis isolated to the testis, although the patient should still be evaluated for systemic disease. Granulomatous vasculitis is much less common and has a higher likelihood of being associated with systemic vasculitis, such as Granulomatosis with Polyangiitis (GPA) or Churg Strauss syndrome.",
+      "references": [],
+      "feedback_text": "Correct Answer: D. Infarct with necrotizing granulomatous vasculitis\n\nHistological Description: There is a well-demarcated area of testicular parenchymal infarct with residual outlines of necrotic seminiferous tubules. There is an associated polyarteritis nodosa-like (PAN-like) vasculitis with transmural necrotizing inflammation of small to medium-sized arteries. The affected vessels show either focal or circumferential involvement. The inflammatory component within the vasculitis is granulomatous.\n\nDiscussion: When presented with a case with necrosis in the testis, it is critical to assess the nature of the necrosis. Caseous necrosis consists of necrotic debris without visible structures native to the testis. In this setting, it is most likely infectious in origin, and the epididymis should also be affected, as that is the site of origin of the testicular infection. Cellular necrosis consists of ghosts of individual cells, where there is no suggestion of pre-existing seminiferous tubules. Often with necrotic seminoma, one can still see adequate cytology to make a definitive diagnosis. In these cases, sometimes OCT3/4 and CD117 may still label the tumor. The presence of germ cell neoplasia in-situ in the surrounding testis may also be helpful in establishing the diagnosis of necrotic germ cell tumor. Torsion is seen either in neonates or in teens/young adults and results in hemorrhagic necrosis of the entire testis. Localized infarcts of the testis taken out from presumed tumor are in the vast majority of times associated with vasculitis. At low power, the brightly eosinophilic fibrinoid necrosis in the vessel walls stand out. The vessels are medium-sized and often at the periphery of the testicle. Non-granulomatous vasculitis, seen in the vast majority of times, represent vasculitis isolated to the testis, although the patient should still be evaluated for systemic disease. Granulomatous vasculitis is much less common and has a higher likelihood of being associated with systemic vasculitis, such as Granulomatosis with Polyangiitis (GPA) or Churg Strauss syndrome.",
+      "feedback_html": "Correct Answer: D. Infarct with necrotizing granulomatous vasculitis <p></p>\n<p>Histological Description: There is a well-demarcated area of testicular parenchymal infarct with residual outlines of necrotic seminiferous tubules. There is an associated polyarteritis nodosa-like (PAN-like) vasculitis with transmural necrotizing inflammation of small to medium-sized arteries. The affected vessels show either focal or circumferential involvement. The inflammatory component within the vasculitis is granulomatous.  </p>\n<p>Discussion:  When presented with a case with necrosis in the testis, it is critical to assess the nature of the necrosis. Caseous necrosis consists of necrotic debris without visible structures native to the testis. In this setting, it is most likely infectious in origin, and the epididymis should also be affected, as that is the site of origin of the testicular infection. Cellular necrosis consists of ghosts of individual cells, where there is no suggestion of pre-existing seminiferous tubules. Often with necrotic seminoma, one can still see adequate cytology to make a definitive diagnosis.  In these cases, sometimes OCT3/4 and CD117 may still label the tumor. The presence of germ cell neoplasia in-situ in the surrounding testis may also be helpful in establishing the diagnosis of necrotic germ cell tumor. Torsion is seen either in neonates or in teens/young adults and results in hemorrhagic necrosis of the entire testis. Localized infarcts of the testis taken out from presumed tumor are in the vast majority of times associated with vasculitis. At low power, the brightly eosinophilic fibrinoid necrosis in the vessel walls stand out. The vessels are medium-sized and often at the periphery of the testicle. Non-granulomatous vasculitis, seen in the vast majority of times, represent vasculitis isolated to the testis, although the patient should still be evaluated for systemic disease. Granulomatous vasculitis is much less common and has a higher likelihood of being associated with systemic vasculitis, such as Granulomatosis with Polyangiitis (GPA) or Churg Strauss syndrome.  </p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:18:45.372Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w769c1",
+      "url": "https://sp.pathology.jhu.edu/week-769-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 769: Case 1",
+      "case_label": "Week 769: Case 1",
+      "attribution": "Presented by Dr. Jonathan Epstein and prepared by Dr. Katherine Fomchenko",
+      "vignette": "An elderly male underwent a radical nephrectomy for a renal mass.",
+      "question_text": "Presented by Dr. Jonathan Epstein and prepared by Dr. Katherine Fomchenko\nAn elderly male underwent a radical nephrectomy for a renal mass.",
+      "source_answer": "C. Mucinous tubular spindle cell carcinoma",
+      "correct_answer": "Mucinous tubular spindle cell carcinoma",
+      "canonical_answer": "Mucinous tubular spindle cell carcinoma",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "A. Medullary renal cell carcinoma",
+        "B. Tubulocystic carcinoma",
+        "C. Mucinous tubular spindle cell carcinoma",
+        "D. Collecting duct carcinoma"
+      ],
+      "choices": [
+        "Medullary renal cell carcinoma",
+        "Tubulocystic carcinoma",
+        "Mucinous tubular spindle cell carcinoma",
+        "Collecting duct carcinoma"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8345.svs-7608698585324798681x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8345.svs-71242493830361400322x-1024x665.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8345.svs-4288451507458705344610x-1024x665.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8345.svs-3152259973353946191310x-1024x513.png"
+      ],
+      "histology": "The lesion is fairly well-circumscribed. There is predominantly an admixture of compressed elongated tubules and cords of cells in either a myxoid or a scant collagenous stroma. The cells have light eosinophilic cytoplasm. Cytologically, the epithelial cells are bland with small ovoid-round nuclei and inconspicuous nucleoli. Mitotic activity is low. There is a variable amount of stromal and intratubular mucin present.",
+      "discussion": "Mucinous tubular spindle cell carcinoma (MTSC) is a well-established relatively newer described renal cell carcinoma variant. It predominantly occurs in females and has an excellent prognosis with only rare cases having metastases. Cases of MTSC can uncommonly be high grade with either nucleolar grade 3 morphology or with extensive necrosis, where the risk of metastatic behavior is increased. Although the classic case of MTSC, has all three components (mucinous, tubular, spindled), the presence of the elements may vary from case to case, and in some cases only two of the three features are present. In this case, the key to the correct diagnosis is recognizing the lightly eosinophilic secretions that are either between or in the tubules, as this is not seen in other renal cell carcinomas. The spindle cell component in this case is not well-developed. In cases with a more prominent spindle cell component, it is important not to misdiagnose MTSC as sarcomatoid renal cell carcinoma. The low grade cytology and other features of MTSC are key in this regard. Immunohistochemical stains are not helpful in establishing the diagnosis. Tubulocystic carcinoma contains much more dilated cysts with a \"Swiss cheese\" appearance at low power and have grade 3 nucleoli. Medullary renal cell carcinoma and collecting duct carcinoma share with MTSC the presence of tubules, but have more cytological atypia, a prominent desmoplastic reaction, and a very infiltrative interface with the normal kidney.",
+      "references": [],
+      "feedback_text": "Answer: C\n\nHistological Description: The lesion is fairly well-circumscribed. There is predominantly an admixture of compressed elongated tubules and cords of cells in either a myxoid or a scant collagenous stroma. The cells have light eosinophilic cytoplasm. Cytologically, the epithelial cells are bland with small ovoid-round nuclei and inconspicuous nucleoli. Mitotic activity is low. There is a variable amount of stromal and intratubular mucin present.\n\nDiscussion: Mucinous tubular spindle cell carcinoma (MTSC) is a well-established relatively newer described renal cell carcinoma variant. It predominantly occurs in females and has an excellent prognosis with only rare cases having metastases. Cases of MTSC can uncommonly be high grade with either nucleolar grade 3 morphology or with extensive necrosis, where the risk of metastatic behavior is increased. Although the classic case of MTSC, has all three components (mucinous, tubular, spindled), the presence of the elements may vary from case to case, and in some cases only two of the three features are present. In this case, the key to the correct diagnosis is recognizing the lightly eosinophilic secretions that are either between or in the tubules, as this is not seen in other renal cell carcinomas. The spindle cell component in this case is not well-developed. In cases with a more prominent spindle cell component, it is important not to misdiagnose MTSC as sarcomatoid renal cell carcinoma. The low grade cytology and other features of MTSC are key in this regard. Immunohistochemical stains are not helpful in establishing the diagnosis. Tubulocystic carcinoma contains much more dilated cysts with a \"Swiss cheese\" appearance at low power and have grade 3 nucleoli. Medullary renal cell carcinoma and collecting duct carcinoma share with MTSC the presence of tubules, but have more cytological atypia, a prominent desmoplastic reaction, and a very infiltrative interface with the normal kidney.",
+      "feedback_html": "Answer: C<p></p>\n<p>Histological Description: The lesion is fairly well-circumscribed. There is predominantly an admixture of compressed elongated tubules and cords of cells in either a myxoid or a scant collagenous stroma. The cells have light eosinophilic cytoplasm.  Cytologically, the epithelial cells are bland with small ovoid-round nuclei and inconspicuous nucleoli. Mitotic activity is low. There is a variable amount of stromal and intratubular mucin present. </p>\n<p>Discussion: Mucinous tubular spindle cell carcinoma (MTSC) is a well-established relatively newer described renal cell carcinoma variant. It predominantly occurs in females and has an excellent prognosis with only rare cases having metastases. Cases of MTSC can uncommonly be high grade with either nucleolar grade 3 morphology or with extensive necrosis, where the risk of metastatic behavior is increased. Although the classic case of MTSC, has all three components (mucinous, tubular, spindled), the presence of the elements may vary from case to case, and in some cases only two of the three features are present. In this case, the key to the correct diagnosis is recognizing the lightly eosinophilic secretions that are either between or in the tubules, as this is not seen in other renal cell carcinomas. The spindle cell component in this case is not well-developed. In cases with a more prominent spindle cell component, it is important not to misdiagnose MTSC as sarcomatoid renal cell carcinoma. The low grade cytology and other features of MTSC are key in this regard. Immunohistochemical stains are not helpful in establishing the diagnosis. Tubulocystic carcinoma contains much more dilated cysts with a \"Swiss cheese\" appearance at low power and have grade 3 nucleoli. Medullary renal cell carcinoma and collecting duct carcinoma share with MTSC the presence of tubules, but have more cytological atypia, a prominent desmoplastic reaction, and a very infiltrative interface with the normal kidney.\n</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:19:03.704Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "week769bonuscase3",
+      "url": "https://sp.pathology.jhu.edu/week-769-bonus-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 769: Bonus Case 3",
+      "case_label": "Week 769: Bonus Case 3",
+      "attribution": "Presented by Dr. Pedram Argani and prepared by Dr. Katherine Fomchenko",
+      "vignette": "This is a middle-aged female with a renal mass. WT1 and ALK immunostains are included. WT1: ALK:",
+      "question_text": "Presented by Dr. Pedram Argani and prepared by Dr. Katherine Fomchenko\nThis is a middle-aged female with a renal mass. WT1 and ALK immunostains are included.\nWT1:\nALK:",
+      "source_answer": "C. ALK rearranged renal cell carcinoma",
+      "correct_answer": "ALK rearranged renal cell carcinoma",
+      "canonical_answer": "ALK rearranged renal cell carcinoma",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "A. Metanephric adenoma",
+        "B. Metanephric adenoma-Wilms tumor composite neoplasm",
+        "C. ALK rearranged renal cell carcinoma",
+        "D. Metanephric adenoma-papillary renal cell carcinoma composite tumor"
+      ],
+      "choices": [
+        "Metanephric adenoma",
+        "Metanephric adenoma-Wilms tumor composite neoplasm",
+        "ALK rearranged renal cell carcinoma",
+        "Metanephric adenoma-papillary renal cell carcinoma composite tumor"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/Bonus-PA-Case-3-1x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/Bonus-PA-Case-3-Tubules.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/Bonus-PA-Case-3-border-of-2-types-of-lesional-area.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/Bonus-PA-Case-3-Lesion-to-uninvolved.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/Bonus-PA-Case-3-WT1.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/Bonus-PA-Case-3-WT1-high-power.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/Bonus-PA-Case-3-ALK.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/Bonus-PA-Case-3-ALK-high-power.png"
+      ],
+      "histology": "This is an extremely unusual and illustrative case. Morphologically, most of the lesion looks like metanephric adenoma in that it is composed of small tubules formed by blue cells with minimal cytoplasm arranged in a hyalinized stroma, given a \"fingerprint\" like appearance. This morphology merges with areas with more overt papillary architecture, more open chromatin, and large areas of necrosis with neutrophilic infiltrate, some of which could be due to a prior biopsy. By immunohistochemistry, the lesion demonstrates patchy nuclear labeling for WT1, but also demonstrates patchy immunoreactivity for ALK protein. The neoplasm demonstrates an ALK gene rearrangement.",
+      "discussion": "Metanephric adenoma fits the morphology of much of this case, though the more open chromatin in the slightly more papillary areas would be unusual. Metanephric adenoma-Wilms tumor composite is a consideration given the necrosis; however, there are no areas that diagnostic of epithelial Wilms tumor such as areas of tubule formation with columnar nuclei with mitotic activity. Metanephric adenomas do not typically form composite tumors with papillary renal cell carcinomas since they arise by different genetic pathways (BRAF mutation in metanephric adenoma, trisomy chromosome 7/17 in low grade papillary carcinoma) unless they are both associated with metanephric stromal tumor. There is no evidence of metanephric stromal tumor in this case. This case demonstrates the wide spectrum which may be seen in renal cell carcinoma associated with ALK rearrangement. Cases similar to this with rearrangement of ALK have been reported recently.",
+      "references": [
+        {
+          "text": "International Journal of Surgical Pathology 2021; 29:808-814 (PMID: 33729862)",
+          "url": null
+        },
+        {
+          "text": "Modern Pathology 2020; 33:2563-2579 (PMID: 32467651).",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: C. ALK rearranged renal cell carcinoma\n\nHistologic Description: This is an extremely unusual and illustrative case. Morphologically, most of the lesion looks like metanephric adenoma in that it is composed of small tubules formed by blue cells with minimal cytoplasm arranged in a hyalinized stroma, given a \"fingerprint\" like appearance. This morphology merges with areas with more overt papillary architecture, more open chromatin, and large areas of necrosis with neutrophilic infiltrate, some of which could be due to a prior biopsy. By immunohistochemistry, the lesion demonstrates patchy nuclear labeling for WT1, but also demonstrates patchy immunoreactivity for ALK protein. The neoplasm demonstrates an ALK gene rearrangement.\n\nDifferential Diagnosis: Metanephric adenoma fits the morphology of much of this case, though the more open chromatin in the slightly more papillary areas would be unusual. Metanephric adenoma-Wilms tumor composite is a consideration given the necrosis; however, there are no areas that diagnostic of epithelial Wilms tumor such as areas of tubule formation with columnar nuclei with mitotic activity. Metanephric adenomas do not typically form composite tumors with papillary renal cell carcinomas since they arise by different genetic pathways (BRAF mutation in metanephric adenoma, trisomy chromosome 7/17 in low grade papillary carcinoma) unless they are both associated with metanephric stromal tumor. There is no evidence of metanephric stromal tumor in this case. This case demonstrates the wide spectrum which may be seen in renal cell carcinoma associated with ALK rearrangement. Cases similar to this with rearrangement of ALK have been reported recently.\n\nReference:\n\nInternational Journal of Surgical Pathology 2021; 29:808-814 (PMID: 33729862)\n\nModern Pathology 2020; 33:2563-2579 (PMID: 32467651).",
+      "feedback_html": "Answer: C. ALK rearranged renal cell carcinoma <p></p>\n<p>Histologic Description:  This is an extremely unusual and illustrative case.  Morphologically, most of the lesion looks like metanephric adenoma in that it is composed of small tubules formed by blue cells with minimal cytoplasm arranged in a hyalinized stroma, given a \"fingerprint\" like appearance.  This morphology merges with areas with more overt papillary architecture, more open chromatin, and large areas of necrosis with neutrophilic infiltrate, some of which could be due to a prior biopsy.  By immunohistochemistry, the lesion demonstrates patchy nuclear labeling for WT1, but also demonstrates patchy immunoreactivity for ALK protein.  The neoplasm demonstrates an ALK gene rearrangement.   </p>\n<p>Differential Diagnosis:  Metanephric adenoma fits the morphology of much of this case, though the more open chromatin in the slightly more papillary areas would be unusual.  Metanephric adenoma-Wilms tumor composite is a consideration given the necrosis; however, there are no areas that diagnostic of epithelial Wilms tumor such as areas of tubule formation with columnar nuclei with mitotic activity.  Metanephric adenomas do not typically form composite tumors with papillary renal cell carcinomas since they arise by different genetic pathways (BRAF mutation in metanephric adenoma, trisomy chromosome 7/17 in low grade papillary carcinoma) unless they are both associated with metanephric stromal tumor.  There is no evidence of metanephric stromal tumor in this case.  This case demonstrates the wide spectrum which may be seen in renal cell carcinoma associated with ALK rearrangement.  Cases similar to this with rearrangement of ALK have been reported recently. </p>\n<p> Reference: </p>\n<p> International Journal of Surgical Pathology 2021; 29:808-814 (PMID: 33729862) </p>\n<p> Modern Pathology 2020; 33:2563-2579 (PMID: 32467651).   </p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:18:14.481Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "week769bonuscase2",
+      "url": "https://sp.pathology.jhu.edu/week-769-bonus-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 769: Bonus Case 2",
+      "case_label": "Week 769: Bonus Case 2",
+      "attribution": "Presented by Dr. Pedram Argani and prepared by Dr. Katherine Fomchenko",
+      "vignette": "This is a 50 year old female with a history of breast cancer and a 2 cm renal mass which was focally positive for actin and negative for estrogen receptor (ER), S100 and cytokeratin.",
+      "question_text": "Presented by Dr. Pedram Argani and prepared by Dr. Katherine Fomchenko\nThis is a 50 year old female with a history of breast cancer and a 2 cm renal mass which was focally positive for actin and negative for estrogen receptor (ER), S100 and cytokeratin.",
+      "source_answer": "C. GLI1 rearranged neoplasm",
+      "correct_answer": "GLI1 rearranged neoplasm",
+      "canonical_answer": "GLI1 rearranged neoplasm",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "A. Metastatic breast carcinoma",
+        "B. Myoepithelioma",
+        "C. GLI1 rearranged neoplasm",
+        "D. Schwannoma"
+      ],
+      "choices": [
+        "Metastatic breast carcinoma",
+        "Myoepithelioma",
+        "GLI1 rearranged neoplasm",
+        "Schwannoma"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/Bonus-PA-Case-2-1x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/Bonus-PA-Case-2-necrosis.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/Bonus-PA-Case-2-Lesion-1.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/Bonus-PA-Case-2-Lesion-to-fibrous-stroma.png"
+      ],
+      "histology": "This is an unusual spindle cell lesion with a prominent myxoid stroma. The neoplastic cells are bland, and are separated from prominent vessels within the lesion by myxoid and variably hyalinized/fibrinous stroma. There are also large areas of hyalinization and calcification within the lesion which are paucicellular.",
+      "discussion": "Metastatic breast carcinoma was a strong consideration given the history and the focal immunoreactivity for ER. However, this patient\"s breast cancer was morphologically distinct from the current case, and was not spindled. Myoepithelioma was a significant consideration given the morphology and focal immunoreactivity for actin. However, the absence of cytokeratin immunoreactivity and absence of S100 protein labeling argue against that possibility. The morphology certainly raises the possibility of a schwannoma given the degenerative changes and spindle cell morphology. However, the absence of immunoreactivity for S100 excludes that possibility.\n\nGLI1 rearranged neoplasms are particularly challenging diagnostically, in that they overlap significantly with lesions such as myoepithelioma, myoepithelial carcinoma, and ossifying fibromyxoid tumor. These neoplasms should be kept in mind when a tumor with this morphology does not fit entities such as myoepithelial neoplasm or ossifying fibromyxoid tumor by immunohistochemistry, and in such cases molecular studies are appropriate to establish a definitive diagnosis. This case demonstrated a GLI1-FOXO4 gene fusion by RNA-sequencing, and fits the spectrum of GLI1 rearranged neoplasms. Of note, GLI1 amplified neoplasms tend to have a more varied morphologic spectrum, perhaps due to amplification genes adjacent to GLI1.\n\nReference Am J Surg Pathol 2022; 46:667-687 (PMID: 34907995)",
+      "references": [],
+      "feedback_text": "Answer: C. GLI1 rearranged neoplasm\n\nHistologic Description: This is an unusual spindle cell lesion with a prominent myxoid stroma. The neoplastic cells are bland, and are separated from prominent vessels within the lesion by myxoid and variably hyalinized/fibrinous stroma. There are also large areas of hyalinization and calcification within the lesion which are paucicellular.\n\nDifferential Diagnosis: Metastatic breast carcinoma was a strong consideration given the history and the focal immunoreactivity for ER. However, this patient\"s breast cancer was morphologically distinct from the current case, and was not spindled. Myoepithelioma was a significant consideration given the morphology and focal immunoreactivity for actin. However, the absence of cytokeratin immunoreactivity and absence of S100 protein labeling argue against that possibility. The morphology certainly raises the possibility of a schwannoma given the degenerative changes and spindle cell morphology. However, the absence of immunoreactivity for S100 excludes that possibility.\n\nGLI1 rearranged neoplasms are particularly challenging diagnostically, in that they overlap significantly with lesions such as myoepithelioma, myoepithelial carcinoma, and ossifying fibromyxoid tumor. These neoplasms should be kept in mind when a tumor with this morphology does not fit entities such as myoepithelial neoplasm or ossifying fibromyxoid tumor by immunohistochemistry, and in such cases molecular studies are appropriate to establish a definitive diagnosis. This case demonstrated a GLI1-FOXO4 gene fusion by RNA-sequencing, and fits the spectrum of GLI1 rearranged neoplasms. Of note, GLI1 amplified neoplasms tend to have a more varied morphologic spectrum, perhaps due to amplification genes adjacent to GLI1.\n\nReference Am J Surg Pathol 2022; 46:667-687 (PMID: 34907995)",
+      "feedback_html": "Answer: C. GLI1 rearranged neoplasm <p></p>\n<p>Histologic Description: This is an unusual spindle cell lesion with a prominent myxoid stroma.  The neoplastic cells are bland, and are separated from prominent vessels within the lesion by myxoid and variably hyalinized/fibrinous stroma.  There are also large areas of hyalinization and calcification within the lesion which are paucicellular.   </p>\n<p>Differential Diagnosis:  Metastatic breast carcinoma was a strong consideration given the history and the focal immunoreactivity for ER.  However, this patient\"s breast cancer was morphologically distinct from the current case, and was not spindled.  Myoepithelioma was a significant consideration given the morphology and focal immunoreactivity for actin.  However, the absence of cytokeratin immunoreactivity and absence of  S100 protein labeling argue against that possibility.  The morphology certainly raises the possibility of a schwannoma given the degenerative changes and spindle cell morphology.  However, the absence of immunoreactivity for S100 excludes that possibility.   </p>\n<p>GLI1 rearranged neoplasms are particularly challenging diagnostically, in that they overlap significantly with lesions such as myoepithelioma, myoepithelial carcinoma, and ossifying fibromyxoid tumor.  These neoplasms should be kept in mind when a tumor with this morphology does not fit entities such as myoepithelial neoplasm or ossifying fibromyxoid tumor by immunohistochemistry, and in such cases molecular studies are appropriate to establish a definitive diagnosis.  This case demonstrated a GLI1-FOXO4 gene fusion by RNA-sequencing, and fits the spectrum of GLI1 rearranged neoplasms.  Of note, GLI1 amplified neoplasms tend to have a more varied morphologic spectrum, perhaps due to amplification genes adjacent to GLI1.   </p>\n<p>Reference Am J Surg Pathol 2022; 46:667-687 (PMID: 34907995)</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:18:35.997Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "week769bonuscase1",
+      "url": "https://sp.pathology.jhu.edu/week-769-bonus-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 769: Bonus Case 1",
+      "case_label": "Week 769: Bonus Case 1",
+      "attribution": "Presented by Dr. Pedram Argani and prepared by Dr. Katherine Fomchenko",
+      "vignette": "This is an elderly female with a 4 cm renal mass.",
+      "question_text": "Presented by Dr. Pedram Argani and prepared by Dr. Katherine Fomchenko\nThis is an elderly female with a 4 cm renal mass.",
+      "source_answer": "C. Biphasic hyalinizing psammomatous renal cell carcinoma",
+      "correct_answer": "Biphasic hyalinizing psammomatous renal cell carcinoma",
+      "canonical_answer": "Biphasic hyalinizing psammomatous renal cell carcinoma",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "A. Mucinous tubular and spindle cell carcinoma",
+        "B. TFEB rearranged renal cell carcinoma",
+        "C. Biphasic hyalinizing psammomatous renal cell carcinoma",
+        "D. Wilms tumor"
+      ],
+      "choices": [
+        "Mucinous tubular and spindle cell carcinoma",
+        "TFEB rearranged renal cell carcinoma",
+        "Biphasic hyalinizing psammomatous renal cell carcinoma",
+        "Wilms tumor"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/Bonus-PA-Case-1-1x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/Bonus-PA-Case-1-glomeruloid.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/Bonus-PA-Case-1-Psamomma.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/Bonus-PA-Case-1-Spindle-and-Epithelial.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/Bonus-PA-Case-1-tumor-to-uninvolved.png"
+      ],
+      "histology": "This is a lesion with a variety of unusual morphologic patterns. The lesion is both solid and papillary, and the papillae often have a branching \"glomeruloid\" pattern. The cytology is biphasic, with smaller epithelioid cells clustered around nodules of basement membrane material with larger epithelioid cells with more columnar shape at the edge. The stroma is generally fibrotic, and there are scattered psammoma bodies in the lesion. There is additionally a population of smaller primitive appearing spindled cells. These are the typical features of biphasic hyalinizing psammomatous renal cell carcinoma (BHP RCC), a recently described entity associated with mutations in the neurofibromatosis type 2 (NF2) gene.",
+      "discussion": "Mucinous tubular spindle cell carcinoma (MTSC) may also be associated with NF2 mutations, may have non-mucinous areas with papillary growth, and is associated with spindling as in seen in the current case. However, MTSC does not have the biphasic morphology of the current lesion, lacks the distinctive glomeruloid architecture seen herein, and typically demonstrates fascicles of eosinophilic spindle cells which can mimic a smooth muscle tumor. TFEB rearranged renal cell carcinoma is suggested by the biphasic appearance and hyaline nodules, which are hallmark features of these tumors. However, BHP RCC does not demonstrate TFEB rearrangements, and does not label for melanocytic markers like Melan A and HMB45 as is characteristic of the TFEB rearranged renal cell carcinoma. Wilms tumor is a consideration given the primitive appearance of the smaller epithelioid cells and the spindled cells within the lesion. However, the more open chromatin of the larger cells in the lesion is not typical of Wilms, nor are the hyalinized nodules, fibrotic stroma, or advanced patient age.\n\nReference Am J Surg Pathol 2020; 44:901-916 (PMID: 32217839).",
+      "references": [],
+      "feedback_text": "Answer: C. Biphasic hyalinizing psammomatous renal cell carcinoma\n\nHistologic Description: This is a lesion with a variety of unusual morphologic patterns. The lesion is both solid and papillary, and the papillae often have a branching \"glomeruloid\" pattern. The cytology is biphasic, with smaller epithelioid cells clustered around nodules of basement membrane material with larger epithelioid cells with more columnar shape at the edge. The stroma is generally fibrotic, and there are scattered psammoma bodies in the lesion. There is additionally a population of smaller primitive appearing spindled cells. These are the typical features of biphasic hyalinizing psammomatous renal cell carcinoma (BHP RCC), a recently described entity associated with mutations in the neurofibromatosis type 2 (NF2) gene.\n\nDifferential Diagnosis: Mucinous tubular spindle cell carcinoma (MTSC) may also be associated with NF2 mutations, may have non-mucinous areas with papillary growth, and is associated with spindling as in seen in the current case. However, MTSC does not have the biphasic morphology of the current lesion, lacks the distinctive glomeruloid architecture seen herein, and typically demonstrates fascicles of eosinophilic spindle cells which can mimic a smooth muscle tumor. TFEB rearranged renal cell carcinoma is suggested by the biphasic appearance and hyaline nodules, which are hallmark features of these tumors. However, BHP RCC does not demonstrate TFEB rearrangements, and does not label for melanocytic markers like Melan A and HMB45 as is characteristic of the TFEB rearranged renal cell carcinoma. Wilms tumor is a consideration given the primitive appearance of the smaller epithelioid cells and the spindled cells within the lesion. However, the more open chromatin of the larger cells in the lesion is not typical of Wilms, nor are the hyalinized nodules, fibrotic stroma, or advanced patient age.\n\nReference Am J Surg Pathol 2020; 44:901-916 (PMID: 32217839).",
+      "feedback_html": "Answer: C. Biphasic hyalinizing psammomatous renal cell carcinoma   <p></p>\n<p>Histologic Description:  This is a lesion with a variety of unusual morphologic patterns.  The lesion is both solid and papillary, and the papillae often have a branching \"glomeruloid\" pattern. The cytology is biphasic, with smaller epithelioid cells clustered around nodules of basement membrane material with larger epithelioid cells with more columnar shape at the edge.  The stroma is generally fibrotic, and there are scattered psammoma bodies in the lesion.  There is additionally a population of smaller primitive appearing spindled cells.  These are the typical features of biphasic hyalinizing psammomatous renal cell carcinoma (BHP RCC), a recently described entity associated with mutations in the neurofibromatosis type 2 (NF2) gene. </p>\n<p>Differential Diagnosis:  Mucinous tubular spindle cell carcinoma (MTSC) may also be associated with NF2 mutations, may have non-mucinous areas with papillary growth, and is associated with spindling as in seen in the current case.  However,  MTSC does not have the biphasic morphology of the current lesion, lacks the distinctive glomeruloid architecture seen herein, and typically demonstrates fascicles of eosinophilic spindle cells which can mimic a smooth muscle tumor. TFEB rearranged renal cell carcinoma is suggested by the biphasic appearance and hyaline nodules, which are hallmark features of these tumors.  However, BHP RCC does not demonstrate TFEB rearrangements, and does not label for melanocytic markers like Melan A and HMB45 as is characteristic of the TFEB rearranged renal cell carcinoma.  Wilms tumor is a consideration given the primitive appearance of the smaller epithelioid cells and the spindled cells within the lesion.  However, the more open chromatin of the larger cells in the lesion is not typical of Wilms, nor are the hyalinized nodules, fibrotic stroma, or advanced patient age. </p>\n<p> Reference Am J Surg Pathol 2020; 44:901-916 (PMID: 32217839). </p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:18:54.495Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w768c3",
+      "url": "https://sp.pathology.jhu.edu/week-768-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 768: Case 3",
+      "case_label": "Week 768: Case 3",
+      "attribution": "Presented by Dr. Andres Matoso and prepared by Dr. Harsimar Kaur",
+      "vignette": "Adult male with inguinal lymphadenopathy.",
+      "question_text": "Presented by Dr. Andres Matoso and prepared by Dr. Harsimar Kaur\nAdult male with inguinal lymphadenopathy.",
+      "source_answer": "B. Metastatic carcinoma with apocrine features",
+      "correct_answer": "Metastatic carcinoma with apocrine features",
+      "canonical_answer": "Metastatic carcinoma with apocrine features",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Metastatic prostate cancer",
+        "B. Metastatic carcinoma with apocrine features",
+        "C. Metastatic squamous cell carcinoma",
+        "D. Melanoma"
+      ],
+      "choices": [
+        "Metastatic prostate cancer",
+        "Metastatic carcinoma with apocrine features",
+        "Metastatic squamous cell carcinoma",
+        "Melanoma"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8326.svs-12731853373775603881x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8326.svs-304051406271429396861x-1024x640.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8326.svs-2061244898227834625414x-1024x640.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8326.svs-2079944964221124578323x-1024x640.png"
+      ],
+      "histology": "This lymph node is almost entirely replaced by a tumor composed of nests and sheets of cells with eosinophilic cytoplasm and large nuclei with prominent nucleoli. There are occasional glandular lumina and intracytoplasmic mucin vacuoles.",
+      "discussion": "The skin adnexal structures have a similar histogenesis to mammary glands. Accordingly, neoplasms arising from adnexal sweat glands and mammary glands look very similar histologically, as well as immunophenotypically. Apocrine sweat glands are concentrated in areas such as the axilla, eyelid, anogenital regions, and ear canal. Apocrine carcinoma is a rare form of malignancy that originates in sweat apocrine glands and, therefore, it is more common in regions with high density of such glands including the axilla and anogenital area. The definition of apocrine carcinoma varies in the literature. Some experts would require morphologic evidence of apocrine differentiation including tumor cells with granular eosinophilic cytoplasm and evidence of decapitation, while others would accept tumors with a wider range of morphologic features but with expression of GCDFP15 and occurring in the axillary or anogenital regions that are known to harbor apocrine glands. A lesion that is more common in men and shows the same immunophenotype is extramammary Paget disease (EMPD). Histologically, extramammary Paget disease is predominantly an intraepithelial (in-situ) lesion with superficial invasion in a minority of the cases. Clinically, patients with EMPD present with an insidious rash or erythema that is suspected to be a fungal infection or a dermatitis. In contrast, patients with apocrine carcinoma present with a nodule or mass. Lymph node metastases is rare in EMPD, and most patients have a favorable prognosis, with the main clinical challenge being to obtain negative margins to avoid local recurrence. Most patients with apocrine carcinoma of the scrotum present with metastatic disease. Similar to EMPD and breast carcinomas, apocrine carcinomas are positive for GATA3, GCDFP15, CK7 and mammaglobin. AR could also be positive, and tumors can occasionally show positive staining for NKX3.1 and PSA, as also seen in EMPD.",
+      "references": [
+        {
+          "text": "Shabihkhani M et al. Appl Immunohistochem Mol Morphol. 2020 Aug;28(7):524-531.",
+          "url": null
+        },
+        {
+          "text": "Kamanda S et al. Am J Dermatopathol. 2022 Apr 1;44(4):260-266.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Correct: B.\n\nHistology: This lymph node is almost entirely replaced by a tumor composed of nests and sheets of cells with eosinophilic cytoplasm and large nuclei with prominent nucleoli. There are occasional glandular lumina and intracytoplasmic mucin vacuoles.\n\nDiscussion: The skin adnexal structures have a similar histogenesis to mammary glands. Accordingly, neoplasms arising from adnexal sweat glands and mammary glands look very similar histologically, as well as immunophenotypically. Apocrine sweat glands are concentrated in areas such as the axilla, eyelid, anogenital regions, and ear canal. Apocrine carcinoma is a rare form of malignancy that originates in sweat apocrine glands and, therefore, it is more common in regions with high density of such glands including the axilla and anogenital area. The definition of apocrine carcinoma varies in the literature. Some experts would require morphologic evidence of apocrine differentiation including tumor cells with granular eosinophilic cytoplasm and evidence of decapitation, while others would accept tumors with a wider range of morphologic features but with expression of GCDFP15 and occurring in the axillary or anogenital regions that are known to harbor apocrine glands. A lesion that is more common in men and shows the same immunophenotype is extramammary Paget disease (EMPD). Histologically, extramammary Paget disease is predominantly an intraepithelial (in-situ) lesion with superficial invasion in a minority of the cases. Clinically, patients with EMPD present with an insidious rash or erythema that is suspected to be a fungal infection or a dermatitis. In contrast, patients with apocrine carcinoma present with a nodule or mass. Lymph node metastases is rare in EMPD, and most patients have a favorable prognosis, with the main clinical challenge being to obtain negative margins to avoid local recurrence. Most patients with apocrine carcinoma of the scrotum present with metastatic disease. Similar to EMPD and breast carcinomas, apocrine carcinomas are positive for GATA3, GCDFP15, CK7 and mammaglobin. AR could also be positive, and tumors can occasionally show positive staining for NKX3.1 and PSA, as also seen in EMPD.\n\nReferences:\n\nShabihkhani M et al. Appl Immunohistochem Mol Morphol. 2020 Aug;28(7):524-531.\n\nKamanda S et al. Am J Dermatopathol. 2022 Apr 1;44(4):260-266.",
+      "feedback_html": "Correct: B.<p></p>\n<p>Histology: This lymph node is almost entirely replaced by a tumor composed of nests and sheets of cells with eosinophilic cytoplasm and large nuclei with prominent nucleoli. There are occasional glandular lumina and intracytoplasmic mucin vacuoles.  </p>\n<p>Discussion: The skin adnexal structures have a similar histogenesis to mammary glands. Accordingly, neoplasms arising from adnexal sweat glands and mammary glands look very similar histologically, as well as immunophenotypically. Apocrine sweat glands are concentrated in areas such as the axilla, eyelid, anogenital regions, and ear canal. Apocrine carcinoma is a rare form of malignancy that originates in sweat apocrine glands and, therefore, it is more common in regions with high density of such glands including the axilla and anogenital area. The definition of apocrine carcinoma varies in the literature. Some experts would require morphologic evidence of apocrine differentiation including tumor cells with granular eosinophilic cytoplasm and evidence of decapitation, while others would accept tumors with a wider range of morphologic features but with expression of GCDFP15 and occurring in the axillary or anogenital regions that are known to harbor apocrine glands. A lesion that is more common in men and shows the same immunophenotype is extramammary Paget disease (EMPD). Histologically, extramammary Paget disease is predominantly an intraepithelial (in-situ) lesion with superficial invasion in a minority of the cases. Clinically, patients with EMPD present with an insidious rash or erythema that is suspected to be a fungal infection or a dermatitis. In contrast, patients with apocrine carcinoma present with a nodule or mass. Lymph node metastases is rare in EMPD, and most patients have a favorable prognosis, with the main clinical challenge being to obtain negative margins to avoid local recurrence. Most patients with apocrine carcinoma of the scrotum present with metastatic disease. Similar to EMPD and breast carcinomas, apocrine carcinomas are positive for GATA3, GCDFP15, CK7 and mammaglobin. AR could also be positive, and tumors can occasionally show positive staining for NKX3.1 and PSA, as also seen in EMPD. </p>\n<p>References:<br>\nShabihkhani M et al. Appl Immunohistochem Mol Morphol. 2020 Aug;28(7):524-531.<br>\nKamanda S et al. Am J Dermatopathol. 2022 Apr 1;44(4):260-266.\n</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:19:14.052Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w768c2",
+      "url": "https://sp.pathology.jhu.edu/week-768-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 768: Case 2",
+      "case_label": "Week 768: Case 2",
+      "attribution": "Presented by Dr. Andres Matoso and prepared by Dr. Harsimar Kaur",
+      "vignette": "Adult male with kidney mass.",
+      "question_text": "Presented by Dr. Andres Matoso and prepared by Dr. Harsimar Kaur\nAdult male with kidney mass.",
+      "source_answer": "B. Squamous cell carcinoma, renal pelvis primary",
+      "correct_answer": "Squamous cell carcinoma, renal pelvis primary",
+      "canonical_answer": "Squamous cell carcinoma, renal pelvis primary",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Invasive urothelial carcinoma with squamous differentiation",
+        "B. Squamous cell carcinoma, renal pelvis primary",
+        "C. Metastatic squamous cell carcinoma",
+        "D. Squamous metaplasia spreading into kidney ducts"
+      ],
+      "choices": [
+        "Invasive urothelial carcinoma with squamous differentiation",
+        "Squamous cell carcinoma, renal pelvis primary",
+        "Metastatic squamous cell carcinoma",
+        "Squamous metaplasia spreading into kidney ducts"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8325.svs-6009535192035746161x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8325.svs-17225530090934535311x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8325.svs-149155051955864746281x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8325.svs-538465039857747530268x.png"
+      ],
+      "histology": "The tumor is composed of irregular nests of tumor cells with keratinization, with invasion of the kidney parenchyma, and surrounded by marked stromal desmoplasia.",
+      "discussion": "Primary squamous cell carcinoma of the renal pelvis is extremely rare. Risk factors are chronic inflammation of the renal pelvis, most commonly secondary to stones and chronic urinary infection. For the tumor to be designated as squamous cell carcinoma, it must show squamous differentiation in 100% of the tumor. Most patients present in advanced stage (pT3 or higher) but the prognosis is similar to urothelial carcinoma when compared stage by stage. Prognostic factors include vascular invasion, poorly differentiated histology and size of the tumor.\n\nReference:\nHolm\"ng S, et al. J Urol. 2007. PMID: 17574059",
+      "references": [
+        {
+          "text": "Holm\"ng S, et al. J Urol. 2007. PMID: 17574059",
+          "url": null
+        }
+      ],
+      "feedback_text": "Correct: B\n\nHistology: The tumor is composed of irregular nests of tumor cells with keratinization, with invasion of the kidney parenchyma, and surrounded by marked stromal desmoplasia.\n\nDiscussion: Primary squamous cell carcinoma of the renal pelvis is extremely rare. Risk factors are chronic inflammation of the renal pelvis, most commonly secondary to stones and chronic urinary infection. For the tumor to be designated as squamous cell carcinoma, it must show squamous differentiation in 100% of the tumor. Most patients present in advanced stage (pT3 or higher) but the prognosis is similar to urothelial carcinoma when compared stage by stage. Prognostic factors include vascular invasion, poorly differentiated histology and size of the tumor.\n\nReference:\n\nHolm\"ng S, et al. J Urol. 2007. PMID: 17574059",
+      "feedback_html": "Correct: B<p></p>\n<p>Histology: The tumor is composed of irregular nests of tumor cells with keratinization, with invasion of the kidney parenchyma, and surrounded by marked stromal desmoplasia. </p>\n<p>Discussion: Primary squamous cell carcinoma of the renal pelvis is extremely rare. Risk factors are chronic inflammation of the renal pelvis, most commonly secondary to stones and chronic urinary infection. For the tumor to be designated as squamous cell carcinoma, it must show squamous differentiation in 100% of the tumor. Most patients present in advanced stage (pT3 or higher) but the prognosis is similar to urothelial carcinoma when compared stage by stage. Prognostic factors include vascular invasion, poorly differentiated histology and size of the tumor. </p>\n<p>Reference:<br>\nHolm\"ng S, et al. J Urol. 2007. PMID: 17574059\n</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:19:23.464Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w768c1",
+      "url": "https://sp.pathology.jhu.edu/week-768-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 768: Case 1",
+      "case_label": "Week 768: Case 1",
+      "attribution": "Presented by Dr. Andres Matoso and prepared by Dr. Harsimar Kaur",
+      "vignette": "Adult male with bladder tumor.",
+      "question_text": "Presented by Dr. Andres Matoso and prepared by Dr. Harsimar Kaur\nAdult male with bladder tumor.",
+      "source_answer": "C. Plasmacytoid variant of urothelial carcinoma",
+      "correct_answer": "Plasmacytoid variant of urothelial carcinoma",
+      "canonical_answer": "Plasmacytoid variant of urothelial carcinoma",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "A. Metastatic carcinoma",
+        "B. Malignant mesothelioma",
+        "C. Plasmacytoid variant of urothelial carcinoma",
+        "D. Squamous cell carcinoma"
+      ],
+      "choices": [
+        "Metastatic carcinoma",
+        "Malignant mesothelioma",
+        "Plasmacytoid variant of urothelial carcinoma",
+        "Squamous cell carcinoma"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8324.svs-53756035107519857121x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8324.svs-7299764026106302852091x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8324.svs-9515070690974187197913x-1024x582.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8324.svs-824102048187426231378x-1024x542.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/07/8324.svs-411203929646753419518x-1024x483.png"
+      ],
+      "histology": "Highly atypical tumor cells invading in single cells through the muscularis propria or detrusor muscle.",
+      "discussion": "Plasmacytoid urothelial carcinoma is considered an aggressive variant of urothelial carcinoma that includes signet ring cell carcinoma and carcinomas with poorly cohesive cells that invade similarly to lobular carcinoma of the breast. When tumor cells closely resemble plasma cells, immunostaining for CD138 could be a diagnostic pitfall as both, plasmacytoid variant of urothelial carcinoma and plasma cell neoplasia, are both positive. In the absence of a surface papillary component, the main differential diagnosis is with breast lobular carcinoma in a female and gastrointestinal signet ring cell carcinoma in both males and females. Both plasmacytoid urothelial carcinoma and lobular breast carcinomas are positive for GATA3 and negative for e-cadherin; but in contrast to breast carcinomas, urothelial carcinoma is commonly negative for ER. When the main differential diagnosis is with gastrointestinal signet ring cell carcinoma, it is important to remember that plasmacytoid urothelial carcinoma can be positive for CDX2 in approximately 15% of the cases and that CDX2 does not necessarily exclude a gastrointestinal origin, for which clinical/radiologic correlation is essential.",
+      "references": [],
+      "feedback_text": "Correct: C\n\nHistology: Highly atypical tumor cells invading in single cells through the muscularis propria or detrusor muscle.\n\nDiscussion: Plasmacytoid urothelial carcinoma is considered an aggressive variant of urothelial carcinoma that includes signet ring cell carcinoma and carcinomas with poorly cohesive cells that invade similarly to lobular carcinoma of the breast. When tumor cells closely resemble plasma cells, immunostaining for CD138 could be a diagnostic pitfall as both, plasmacytoid variant of urothelial carcinoma and plasma cell neoplasia, are both positive. In the absence of a surface papillary component, the main differential diagnosis is with breast lobular carcinoma in a female and gastrointestinal signet ring cell carcinoma in both males and females. Both plasmacytoid urothelial carcinoma and lobular breast carcinomas are positive for GATA3 and negative for e-cadherin; but in contrast to breast carcinomas, urothelial carcinoma is commonly negative for ER. When the main differential diagnosis is with gastrointestinal signet ring cell carcinoma, it is important to remember that plasmacytoid urothelial carcinoma can be positive for CDX2 in approximately 15% of the cases and that CDX2 does not necessarily exclude a gastrointestinal origin, for which clinical/radiologic correlation is essential.\n\nReferences\n\nPerrino CM et al. Hum Pathol. 2019 Aug;90:27-36.",
+      "feedback_html": "Correct: C<p></p>\n<p>Histology: Highly atypical tumor cells invading in single cells through the muscularis propria or detrusor muscle. </p>\n<p>Discussion: Plasmacytoid urothelial carcinoma is considered an aggressive variant of urothelial carcinoma that includes signet ring cell carcinoma and carcinomas with poorly cohesive cells that invade similarly to lobular carcinoma of the breast. When tumor cells closely resemble plasma cells, immunostaining for CD138 could be a diagnostic pitfall as both, plasmacytoid variant of urothelial carcinoma and plasma cell neoplasia, are both positive. In the absence of a surface papillary component, the main differential diagnosis is with breast lobular carcinoma in a female and gastrointestinal signet ring cell carcinoma in both males and females. Both plasmacytoid urothelial carcinoma and lobular breast carcinomas are positive for GATA3 and negative for e-cadherin; but in contrast to breast carcinomas, urothelial carcinoma is commonly negative for ER. When the main differential diagnosis is with gastrointestinal signet ring cell carcinoma, it is important to remember that plasmacytoid urothelial carcinoma can be positive for CDX2 in approximately 15% of the cases and that CDX2 does not necessarily exclude a gastrointestinal origin, for which clinical/radiologic correlation is essential.  </p>\n<p>References<br>\nPerrino CM et al. Hum Pathol. 2019 Aug;90:27-36.\n</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:19:32.908Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w767c3",
+      "url": "https://sp.pathology.jhu.edu/week-767-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 767: Case 3",
+      "case_label": "Week 767: Case 3",
+      "attribution": "Presented by Dr. Pedram Argani and prepared by Dr. Harsimar Kaur",
+      "vignette": "This is a 60 year old male with retroperitoneal mass.",
+      "question_text": "Presented by Dr. Pedram Argani and prepared by Dr. Harsimar Kaur\nThis is a 60 year old male with retroperitoneal mass.",
+      "source_answer": "B. Inflammatory well-differentiated liposarcoma",
+      "correct_answer": "Inflammatory well-differentiated liposarcoma",
+      "canonical_answer": "Inflammatory well-differentiated liposarcoma",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Rosai Dorfman disease",
+        "B. Inflammatory well-differentiated liposarcoma",
+        "C. Hodgkin\"s disease",
+        "D. Lymphoma"
+      ],
+      "choices": [
+        "Rosai Dorfman disease",
+        "Inflammatory well-differentiated liposarcoma",
+        "Hodgkin\"s disease",
+        "Lymphoma"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/06/8313.svs-5837524388548666421x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/06/8313.svs-407174330057684548432x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/06/8313.svs-3844246811398914763123x-1024x579.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/06/8313.svs-6057918403627051987913x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/06/8313.svs-4993956621520655791013x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/06/8313.svs-6558930629667883144923x.png"
+      ],
+      "histology": "The lesion is dominated by a prominent nodular lymphoid infiltrate, within are occasional atypical cells. In the fat surrounding the lesion, one can appreciate hyperchromatic nuclei that tend to be centered on fibrous septa. The lesion demonstrates MDM2 amplification by FISH.",
+      "discussion": "This lesion resembles Rosai Dorfman disease in that emperipolesis may be seen. However, Rosai Dorfman disease would not be characterized by the atypical enlarged nuclei in the fibrous stroma of the lesion. The presence of single atypical cells in the background of lymphoid tissue raise the possibility of Hodgkin\"s disease; however, the lesional cells label for MDM2 but not for CD30 or CD15. The density of infiltrate suggests lymphoma; however, the lesion contains a mixture of B cells and T cells (the latter predominating).",
+      "references": [],
+      "feedback_text": "Answer: B\n\nHistologic Description: The lesion is dominated by a prominent nodular lymphoid infiltrate, within are occasional atypical cells. In the fat surrounding the lesion, one can appreciate hyperchromatic nuclei that tend to be centered on fibrous septa. The lesion demonstrates MDM2 amplification by FISH.\n\nDifferential Diagnosis: This lesion resembles Rosai Dorfman disease in that emperipolesis may be seen. However, Rosai Dorfman disease would not be characterized by the atypical enlarged nuclei in the fibrous stroma of the lesion. The presence of single atypical cells in the background of lymphoid tissue raise the possibility of Hodgkin\"s disease; however, the lesional cells label for MDM2 but not for CD30 or CD15. The density of infiltrate suggests lymphoma; however, the lesion contains a mixture of B cells and T cells (the latter predominating).",
+      "feedback_html": "Answer: B<br>\nHistologic Description:  The lesion is dominated by a prominent nodular lymphoid infiltrate, within are occasional atypical cells.  In the fat surrounding the lesion, one can appreciate hyperchromatic nuclei that tend to be centered on fibrous septa.  The lesion demonstrates MDM2 amplification by FISH.  <p></p>\n<p>Differential Diagnosis:  This lesion resembles Rosai Dorfman disease in that emperipolesis may be seen.  However, Rosai Dorfman disease would not be characterized by the atypical enlarged nuclei in the fibrous stroma of the lesion.  The presence of single atypical cells in the background of lymphoid tissue raise the possibility of Hodgkin\"s disease; however, the lesional cells label for MDM2 but not for CD30 or CD15.  The density of infiltrate suggests lymphoma; however, the lesion contains a mixture of B cells and T cells (the latter predominating).\n</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:19:43.744Z",
+      "extractor_version": "1.0.0"
+    }
+  ]
+}
