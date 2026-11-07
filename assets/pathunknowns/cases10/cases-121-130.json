@@ -1,0 +1,484 @@
+{
+  "case_start": 121,
+  "case_end": 130,
+  "case_count": 10,
+  "cases": [
+    {
+      "id": "w779c3",
+      "url": "https://sp.pathology.jhu.edu/week-779-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 779: Case 3",
+      "case_label": "Week 779: Case 3",
+      "attribution": "Cases presented by Dr. Andres Matoso and prepared by Dr. Katherine Fomchenko.",
+      "vignette": "This case is a testicular mass arising in an adult male.",
+      "question_text": "Cases presented by Dr. Andres Matoso and prepared by Dr. Katherine Fomchenko.\nThis case is a testicular mass arising in an adult male.",
+      "source_answer": "C. Teratoma with somatic-type malignancy",
+      "correct_answer": "Teratoma with somatic-type malignancy",
+      "canonical_answer": "Teratoma with somatic-type malignancy",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "A. Teratoma with embryonal carcinoma",
+        "B. Teratoma with lymphoma",
+        "C. Teratoma with somatic-type malignancy",
+        "D. Mixed germ cell tumor",
+        "E. Teratoma"
+      ],
+      "choices": [
+        "Teratoma with embryonal carcinoma",
+        "Teratoma with lymphoma",
+        "Teratoma with somatic-type malignancy",
+        "Mixed germ cell tumor",
+        "Teratoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8413.svs-6092479592530706651x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8413.svs-717442533080567318697x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8413.svs-249864137833809479177x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8413.svs-5920511045641071467812x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8413.svs-315771383640400203767x-1.png"
+      ],
+      "histology": "This lesion is a teratoma consisting of a heterogenous solid and cystic mass with neural, epithelial, muscular, and connective tissue elements. Rhabdomyoblasts with eosinophilic cytoplasm are infiltrating throughout the tissue with large, poorly defined nodular areas containing rhabdomyoblasts with atypical morphology and areas of small round blue cells consisting of a primitive component.",
+      "discussion": "This lesion is a rhabdomyosarcoma arising from a testicular teratoma. Multiple types of malignant transformation are possible within a teratoma, with the most common being sarcomas, primitive neuroectodermal tumors, and carcinomas. The prognosis of a somatic malignancy within a teratoma is dependent on the stage of the lesion at diagnosis, with complete surgical excision recommended if possible. In general, somatic malignancies arising within a teratoma are less responsive to systemic therapy. There is not a generalizable prognostic implication for the subtype of somatic malignancies. The diagnostic criterion for a secondary malignancy within a teratoma is defined in the WHO as an area measuring 5mm in diameter in which only one element is exclusively found. Cytologic atypia cannot be the lone determinant of malignancy.",
+      "references": [
+        {
+          "text": "Williamson SR, Delahunt B, Magi-Galluzzi C, Algaba F, Egevad L, Ulbright TM, Tickoo SK, Srigley JR, Epstein JI, Berney DM; Members of the ISUP Testicular Tumour Panel. The World Health Organization 2016 classification of testicular germ cell tumours: a review and update from the International Society of Urological Pathology Testis Consultation Panel. Histopathology. 2017 Feb;70(3):335-346. doi: 10.1111/his.13102. Epub 2016 Dec 14. PMID: 27747907.",
+          "url": null
+        },
+        {
+          "text": "Omezzine N, Khouatra C, Larivé S, Freyer G, Isaac-Pinet S, Gérinière L, Droz JP, Souquet PJ. Rhabdomyosarcoma arising in mediastinal teratoma in an adult man: a case report. Ann Oncol. 2002 Feb;13(2):323-6. doi: 10.1093/annonc/mdf022. PMID: 11886012.",
+          "url": null
+        },
+        {
+          "text": "Colecchia M, Necchi A, Paolini B, Nicolai N, Salvioni R. Teratoma with somatic-type malignant components in germ cell tumors of the testis: a clinicopathologic analysis of 40 cases with outcome correlation. Int J Surg Pathol. 2011 Jun;19(3):321-7. doi: 10.1177/1066896910390680. Epub 2010 Dec 6. PMID: 21134986.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: C. Teratoma with somatic-type malignancy\n\nHistology: This lesion is a teratoma consisting of a heterogenous solid and cystic mass with neural, epithelial, muscular, and connective tissue elements. Rhabdomyoblasts with eosinophilic cytoplasm are infiltrating throughout the tissue with large, poorly defined nodular areas containing rhabdomyoblasts with atypical morphology and areas of small round blue cells consisting of a primitive component.\n\nDiscussion: This lesion is a rhabdomyosarcoma arising from a testicular teratoma. Multiple types of malignant transformation are possible within a teratoma, with the most common being sarcomas, primitive neuroectodermal tumors, and carcinomas. The prognosis of a somatic malignancy within a teratoma is dependent on the stage of the lesion at diagnosis, with complete surgical excision recommended if possible. In general, somatic malignancies arising within a teratoma are less responsive to systemic therapy. There is not a generalizable prognostic implication for the subtype of somatic malignancies. The diagnostic criterion for a secondary malignancy within a teratoma is defined in the WHO as an area measuring 5mm in diameter in which only one element is exclusively found. Cytologic atypia cannot be the lone determinant of malignancy.\n\nReferences:\n\nWilliamson SR, Delahunt B, Magi-Galluzzi C, Algaba F, Egevad L, Ulbright TM, Tickoo SK, Srigley JR, Epstein JI, Berney DM; Members of the ISUP Testicular Tumour Panel. The World Health Organization 2016 classification of testicular germ cell tumours: a review and update from the International Society of Urological Pathology Testis Consultation Panel. Histopathology. 2017 Feb;70(3):335-346. doi: 10.1111/his.13102. Epub 2016 Dec 14. PMID: 27747907.\n\nOmezzine N, Khouatra C, Larivé S, Freyer G, Isaac-Pinet S, Gérinière L, Droz JP, Souquet PJ. Rhabdomyosarcoma arising in mediastinal teratoma in an adult man: a case report. Ann Oncol. 2002 Feb;13(2):323-6. doi: 10.1093/annonc/mdf022. PMID: 11886012.\n\nColecchia M, Necchi A, Paolini B, Nicolai N, Salvioni R. Teratoma with somatic-type malignant components in germ cell tumors of the testis: a clinicopathologic analysis of 40 cases with outcome correlation. Int J Surg Pathol. 2011 Jun;19(3):321-7. doi: 10.1177/1066896910390680. Epub 2010 Dec 6. PMID: 21134986.",
+      "feedback_html": "Answer: C. Teratoma with somatic-type malignancy<p></p>\n<p>Histology: This lesion is a teratoma consisting of a heterogenous solid and cystic mass with neural, epithelial, muscular, and connective tissue elements. Rhabdomyoblasts with eosinophilic cytoplasm are infiltrating throughout the tissue with large, poorly defined nodular areas containing rhabdomyoblasts with atypical morphology and areas of small round blue cells consisting of a primitive component. </p>\n<p>Discussion: This lesion is a rhabdomyosarcoma arising from a testicular teratoma. Multiple types of malignant transformation are possible within a teratoma, with the most common being sarcomas, primitive neuroectodermal tumors, and carcinomas. The prognosis of a somatic malignancy within a teratoma is dependent on the stage of the lesion at diagnosis, with complete surgical excision recommended if possible. In general, somatic malignancies arising within a teratoma are less responsive to systemic therapy. There is not a generalizable prognostic implication for the subtype of somatic malignancies. The diagnostic criterion for a secondary malignancy within a teratoma is defined in the WHO as an area measuring 5mm in diameter in which only one element is exclusively found. Cytologic atypia cannot be the lone determinant of malignancy.</p>\n<p>References:<br>\nWilliamson SR, Delahunt B, Magi-Galluzzi C, Algaba F, Egevad L, Ulbright TM, Tickoo SK, Srigley JR, Epstein JI, Berney DM; Members of the ISUP Testicular Tumour Panel. The World Health Organization 2016 classification of testicular germ cell tumours: a review and update from the International Society of Urological Pathology Testis Consultation Panel. Histopathology. 2017 Feb;70(3):335-346. doi: 10.1111/his.13102. Epub 2016 Dec 14. PMID: 27747907.</p>\n<p>Omezzine N, Khouatra C, Larivé S, Freyer G, Isaac-Pinet S, Gérinière L, Droz JP, Souquet PJ. Rhabdomyosarcoma arising in mediastinal teratoma in an adult man: a case report. Ann Oncol. 2002 Feb;13(2):323-6. doi: 10.1093/annonc/mdf022. PMID: 11886012.</p>\n<p>Colecchia M, Necchi A, Paolini B, Nicolai N, Salvioni R. Teratoma with somatic-type malignant components in germ cell tumors of the testis: a clinicopathologic analysis of 40 cases with outcome correlation. Int J Surg Pathol. 2011 Jun;19(3):321-7. doi: 10.1177/1066896910390680. Epub 2010 Dec 6. PMID: 21134986.\n</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:10:59.865Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w779c2",
+      "url": "https://sp.pathology.jhu.edu/week-779-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 779: Case 2",
+      "case_label": "Week 779: Case 2",
+      "attribution": "Cases presented by Dr. Andres Matoso and prepared by Dr. Katherine Fomchenko.",
+      "vignette": "This case is a renal mass arising in an adult female.",
+      "question_text": "Cases presented by Dr. Andres Matoso and prepared by Dr. Katherine Fomchenko.\nThis case is a renal mass arising in an adult female.",
+      "source_answer": "D. Metanephric adenoma",
+      "correct_answer": "Metanephric adenoma",
+      "canonical_answer": "Metanephric adenoma",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "A. Lymphoma",
+        "B. Nephroblastoma (Wilms Tumor)",
+        "C. Papillary renal cell carcinoma",
+        "D. Metanephric adenoma",
+        "E. Upper urinary tract urothelial cell carcinoma"
+      ],
+      "choices": [
+        "Lymphoma",
+        "Nephroblastoma (Wilms Tumor)",
+        "Papillary renal cell carcinoma",
+        "Metanephric adenoma",
+        "Upper urinary tract urothelial cell carcinoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8411.svs-14214612360158438572x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8411.svs-2364822371299952647712x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8411.svs-3446433132408103723812x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8411.svs-3574511988420921609412x.png"
+      ],
+      "histology": "This lesion is a well circumscribed, non-encapsulated mass consisting of bland epithelioid cells with scant cytoplasm forming small tubules and trabecular-shaped structures. The cells are relatively uniform appearing with a very low mitotic activity and no invasion into surrounding structures.",
+      "discussion": "Metanephric adenoma is a rare, benign neoplastic renal lesion typically presenting as a well circumscribed mass in older adults. The tumor is cellular and can have psammoma bodies as well as scant areas of scarred stroma. A large majority of these tumors are reported to have a BRAF mutation, specifically a V600E mutation. Immunostains will typically be positive for PAX-8, WT-1, and CD57. The tumor can have patchy to negative CK7, unlike papillary renal cell carcinoma which is CK7 positive and WT-1 negative, and will stain negative for CD56, unlike a nephroblastoma which is CD56 positive and CD57 negative.",
+      "references": [
+        {
+          "text": "Udager AM, Pan J, Magers MJ, Palapattu GS, Morgan TM, Montgomery JS, Weizer AZ, Hafez KS, Miller DC, Wolf JS Jr, McHugh JB, Chinnaiyan AM, Dhanasekaran SM, Mehra R. Molecular and immunohistochemical characterization reveals novel BRAF mutations in metanephric adenoma. Am J Surg Pathol. 2015 Apr;39(4):549-57. doi: 10.1097/PAS.0000000000000377. PMID: 25602792; PMCID: PMC4359621.",
+          "url": null
+        },
+        {
+          "text": "Rodríguez-Zarco E, Machuca-Aguado J, Macías-García L, Vallejo-Benítez A, Ríos-Martín JJ. Metanephric adenoma: molecular study and review of the literature. Oncotarget. 2022 Feb 17;13:387-392. doi: 10.18632/oncotarget.28192. PMID: 35198098; PMCID: PMC8852360.",
+          "url": null
+        },
+        {
+          "text": "Kinney SN, Eble JN, Hes O, Williamson SR, Grignon DJ, Wang M, Zhang S, Baldrige LA, Martignoni G, Brunelli M, Wang L, Comperat E, Fan R, Montironi R, MacLennan GT, Cheng L. Metanephric adenoma: the utility of immunohistochemical and cytogenetic analyses in differential diagnosis, including solid variant papillary renal cell carcinoma and epithelial-predominant nephroblastoma. Mod Pathol. 2015 Sep;28(9):1236-48. doi: 10.1038/modpathol.2015.81. Epub 2015 Aug 7. PMID: 26248896.",
+          "url": null
+        },
+        {
+          "text": "Antic T. Metanephric adenoma. PathologyOutlines.com website. https://www.pathologyoutlines.com/topic/kidneytumormetanephric.html. Accessed November 14th, 2022.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: D. Metanephric adenoma\n\nHistology: This lesion is a well circumscribed, non-encapsulated mass consisting of bland epithelioid cells with scant cytoplasm forming small tubules and trabecular-shaped structures. The cells are relatively uniform appearing with a very low mitotic activity and no invasion into surrounding structures.\n\nDiscussion: Metanephric adenoma is a rare, benign neoplastic renal lesion typically presenting as a well circumscribed mass in older adults. The tumor is cellular and can have psammoma bodies as well as scant areas of scarred stroma. A large majority of these tumors are reported to have a BRAF mutation, specifically a V600E mutation. Immunostains will typically be positive for PAX-8, WT-1, and CD57. The tumor can have patchy to negative CK7, unlike papillary renal cell carcinoma which is CK7 positive and WT-1 negative, and will stain negative for CD56, unlike a nephroblastoma which is CD56 positive and CD57 negative.\n\nReferences:\n\nUdager AM, Pan J, Magers MJ, Palapattu GS, Morgan TM, Montgomery JS, Weizer AZ, Hafez KS, Miller DC, Wolf JS Jr, McHugh JB, Chinnaiyan AM, Dhanasekaran SM, Mehra R. Molecular and immunohistochemical characterization reveals novel BRAF mutations in metanephric adenoma. Am J Surg Pathol. 2015 Apr;39(4):549-57. doi: 10.1097/PAS.0000000000000377. PMID: 25602792; PMCID: PMC4359621.\n\nRodríguez-Zarco E, Machuca-Aguado J, Macías-García L, Vallejo-Benítez A, Ríos-Martín JJ. Metanephric adenoma: molecular study and review of the literature. Oncotarget. 2022 Feb 17;13:387-392. doi: 10.18632/oncotarget.28192. PMID: 35198098; PMCID: PMC8852360.\n\nKinney SN, Eble JN, Hes O, Williamson SR, Grignon DJ, Wang M, Zhang S, Baldrige LA, Martignoni G, Brunelli M, Wang L, Comperat E, Fan R, Montironi R, MacLennan GT, Cheng L. Metanephric adenoma: the utility of immunohistochemical and cytogenetic analyses in differential diagnosis, including solid variant papillary renal cell carcinoma and epithelial-predominant nephroblastoma. Mod Pathol. 2015 Sep;28(9):1236-48. doi: 10.1038/modpathol.2015.81. Epub 2015 Aug 7. PMID: 26248896.\n\nAntic T. Metanephric adenoma. PathologyOutlines.com website. https://www.pathologyoutlines.com/topic/kidneytumormetanephric.html. Accessed November 14th, 2022.",
+      "feedback_html": "Answer: D. Metanephric adenoma<p></p>\n<p>Histology: This lesion is a well circumscribed, non-encapsulated mass consisting of bland epithelioid cells with scant cytoplasm forming small tubules and trabecular-shaped structures. The cells are relatively uniform appearing with a very low mitotic activity and no invasion into surrounding structures.</p>\n<p>Discussion: Metanephric adenoma is a rare, benign neoplastic renal lesion typically presenting as a well circumscribed mass in older adults. The tumor is cellular and can have psammoma bodies as well as scant areas of scarred stroma. A large majority of these tumors are reported to have a BRAF mutation, specifically a V600E mutation. Immunostains will typically be positive for PAX-8, WT-1, and CD57. The tumor can have patchy to negative CK7, unlike papillary renal cell carcinoma which is CK7 positive and WT-1 negative, and will stain negative for CD56, unlike a nephroblastoma which is CD56 positive and CD57 negative.</p>\n<p>References:<br>\nUdager AM, Pan J, Magers MJ, Palapattu GS, Morgan TM, Montgomery JS, Weizer AZ, Hafez KS, Miller DC, Wolf JS Jr, McHugh JB, Chinnaiyan AM, Dhanasekaran SM, Mehra R. Molecular and immunohistochemical characterization reveals novel BRAF mutations in metanephric adenoma. Am J Surg Pathol. 2015 Apr;39(4):549-57. doi: 10.1097/PAS.0000000000000377. PMID: 25602792; PMCID: PMC4359621.</p>\n<p>Rodríguez-Zarco E, Machuca-Aguado J, Macías-García L, Vallejo-Benítez A, Ríos-Martín JJ. Metanephric adenoma: molecular study and review of the literature. Oncotarget. 2022 Feb 17;13:387-392. doi: 10.18632/oncotarget.28192. PMID: 35198098; PMCID: PMC8852360.</p>\n<p>Kinney SN, Eble JN, Hes O, Williamson SR, Grignon DJ, Wang M, Zhang S, Baldrige LA, Martignoni G, Brunelli M, Wang L, Comperat E, Fan R, Montironi R, MacLennan GT, Cheng L. Metanephric adenoma: the utility of immunohistochemical and cytogenetic analyses in differential diagnosis, including solid variant papillary renal cell carcinoma and epithelial-predominant nephroblastoma. Mod Pathol. 2015 Sep;28(9):1236-48. doi: 10.1038/modpathol.2015.81. Epub 2015 Aug 7. PMID: 26248896.</p>\n<p>Antic T. Metanephric adenoma. PathologyOutlines.com website. https://www.pathologyoutlines.com/topic/kidneytumormetanephric.html. Accessed November 14th, 2022.\n</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:11:09.184Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w779c1",
+      "url": "https://sp.pathology.jhu.edu/week-779-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 779: Case 1",
+      "case_label": "Week 779: Case 1",
+      "attribution": "Cases presented by Dr. Andres Matoso and prepared by Dr. Katherine Fomchenko.",
+      "vignette": "This case is a testicular mass arising in an adult male.",
+      "question_text": "Cases presented by Dr. Andres Matoso and prepared by Dr. Katherine Fomchenko.\nThis case is a testicular mass arising in an adult male.",
+      "source_answer": "B. Fibrothecoma",
+      "correct_answer": "Fibrothecoma",
+      "canonical_answer": "Fibrothecoma",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Solitary fibrous tumor",
+        "B. Fibrothecoma",
+        "C. Mixed germ cell tumor",
+        "D. Leiomyoma",
+        "E. Metastatic sarcoma"
+      ],
+      "choices": [
+        "Solitary fibrous tumor",
+        "Fibrothecoma",
+        "Mixed germ cell tumor",
+        "Leiomyoma",
+        "Metastatic sarcoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8410.svs-5777519482286745781x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8410.svs-492441568661489233447x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8410.svs-2589620719321502463113x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8410.svs-449223113957166387977x.png"
+      ],
+      "histology": "This lesion is a well circumscribed mass consisting of bland appearing spindled to epithelioid cells with scattered large calcifications. The lesion displays areas of alternating hyper- and hypocellularity heterogeneously distributed across the mass, with areas of higher cellularity having a collagenous stroma. This tumor has low mitotic activity and does not invade adjacent seminiferous tubules.",
+      "discussion": "Fibrothecomas are a rare subset of sex cord stromal tumors occurring in the testis with the histologic features described above. These tumors usually arise in connection to the tunica albuginea and grow inwards into the testicular parenchyma, outwards into the tunica vaginalis or both. The most common clinical presentation is as a painless testicular mass. The treatment is complete excision, most commonly as an orchiectomy, and have a benign clinical course. Immunostains for inhibin, SF1, calretinin, ER/PR are positive, while HMB-45 and CD34 are negative.",
+      "references": [
+        {
+          "text": "Alkhamees MA, Abumelha SM, Mansi T, Al Oudah N. Testicular fibrothecoma: A case report and literature review. Urol Case Rep. 2020 Jul 30;33:101368. doi: 10.1016/j.eucr.2020.101368. PMID: 33102067; PMCID: PMC7573948.",
+          "url": null
+        },
+        {
+          "text": "Jones MA, Young RH, Scully RE. Benign fibromatous tumors of the testis and paratesticular region: a report of 9 cases with a proposed classification of fibromatous tumors and tumor-like lesions. Am J Surg Pathol. 1997 Mar;21(3):296-305. doi: 10.1097/00000478-199703000-00005. PMID: 9060599.",
+          "url": null
+        },
+        {
+          "text": "Rane S. Fibroma thecoma family. PathologyOutlines.com website. https://www.pathologyoutlines.com/topic/testisfibroma.html. Accessed November 7th, 2022.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: B. Fibrothecoma\n\nHistology: This lesion is a well circumscribed mass consisting of bland appearing spindled to epithelioid cells with scattered large calcifications. The lesion displays areas of alternating hyper- and hypocellularity heterogeneously distributed across the mass, with areas of higher cellularity having a collagenous stroma. This tumor has low mitotic activity and does not invade adjacent seminiferous tubules.\n\nDiscussion: Fibrothecomas are a rare subset of sex cord stromal tumors occurring in the testis with the histologic features described above. These tumors usually arise in connection to the tunica albuginea and grow inwards into the testicular parenchyma, outwards into the tunica vaginalis or both. The most common clinical presentation is as a painless testicular mass. The treatment is complete excision, most commonly as an orchiectomy, and have a benign clinical course. Immunostains for inhibin, SF1, calretinin, ER/PR are positive, while HMB-45 and CD34 are negative.\n\nReferences:\n\nAlkhamees MA, Abumelha SM, Mansi T, Al Oudah N. Testicular fibrothecoma: A case report and literature review. Urol Case Rep. 2020 Jul 30;33:101368. doi: 10.1016/j.eucr.2020.101368. PMID: 33102067; PMCID: PMC7573948.\n\nJones MA, Young RH, Scully RE. Benign fibromatous tumors of the testis and paratesticular region: a report of 9 cases with a proposed classification of fibromatous tumors and tumor-like lesions. Am J Surg Pathol. 1997 Mar;21(3):296-305. doi: 10.1097/00000478-199703000-00005. PMID: 9060599.\n\nRane S. Fibroma thecoma family. PathologyOutlines.com website. https://www.pathologyoutlines.com/topic/testisfibroma.html. Accessed November 7th, 2022.",
+      "feedback_html": "Answer: B. Fibrothecoma<p></p>\n<p>Histology: This lesion is a well circumscribed mass consisting of bland appearing spindled to epithelioid cells with scattered large calcifications. The lesion displays areas of alternating hyper- and hypocellularity heterogeneously distributed across the mass, with areas of higher cellularity having a collagenous stroma. This tumor has low mitotic activity and does not invade adjacent seminiferous tubules.</p>\n<p>Discussion: Fibrothecomas are a rare subset of sex cord stromal tumors occurring in the testis with the histologic features described above. These tumors usually arise in connection to the tunica albuginea and grow inwards into the testicular parenchyma, outwards into the tunica vaginalis or both. The most common clinical presentation is as a painless testicular mass. The treatment is complete excision, most commonly as an orchiectomy, and have a benign clinical course. Immunostains for inhibin, SF1, calretinin, ER/PR are positive, while HMB-45 and CD34 are negative. </p>\n<p>References:<br>\nAlkhamees MA, Abumelha SM, Mansi T, Al Oudah N. Testicular fibrothecoma: A case report and literature review. Urol Case Rep. 2020 Jul 30;33:101368. doi: 10.1016/j.eucr.2020.101368. PMID: 33102067; PMCID: PMC7573948.</p>\n<p>Jones MA, Young RH, Scully RE. Benign fibromatous tumors of the testis and paratesticular region: a report of 9 cases with a proposed classification of fibromatous tumors and tumor-like lesions. Am J Surg Pathol. 1997 Mar;21(3):296-305. doi: 10.1097/00000478-199703000-00005. PMID: 9060599.</p>\n<p>Rane S. Fibroma thecoma family. PathologyOutlines.com website. https://www.pathologyoutlines.com/topic/testisfibroma.html. Accessed November 7th, 2022.\n</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:11:18.634Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w778c3",
+      "url": "https://sp.pathology.jhu.edu/week-778-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 778: Case 3",
+      "case_label": "Week 778: Case 3",
+      "attribution": "Cases presented by Dr. Jonathan Epstein and prepared by Dr. Katherine Fomchenko.",
+      "vignette": "A 35 year-old man underwent an orchiectomy for a 1.5 cm. testicular mass.",
+      "question_text": "Cases presented by Dr. Jonathan Epstein and prepared by Dr. Katherine Fomchenko.\nA 35 year-old man underwent an orchiectomy for a 1.5 cm. testicular mass.",
+      "source_answer": "D. Fibrothecoma",
+      "correct_answer": "Fibrothecoma",
+      "canonical_answer": "Fibrothecoma",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "A. Monophasic synovial sarcoma",
+        "B. Solitary fibrous tumor",
+        "C. Granulosa cell tumor",
+        "D. Fibrothecoma"
+      ],
+      "choices": [
+        "Monophasic synovial sarcoma",
+        "Solitary fibrous tumor",
+        "Granulosa cell tumor",
+        "Fibrothecoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8393.svs-1932510470978837731x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8393.svs-2975455143372025980111x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8393.svs-3101038034384594269311x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8393.svs-3649224905439402956311x.png"
+      ],
+      "histology": "The tumor is relatively well-circumscribed, although not encapsulated, and abuts the tunica albuginea. Focal extension into the surrounding testis is noted with entrapment of seminiferous tubules. The tumor is composed of cellular short fascicles and a storiform pattern. Cells range from having plumper ovoid as opposed to spindled pointed nuclei, lacking prominent nucleoli. Collagen deposition is scant. Mitotic figures are present, but not frequent.",
+      "discussion": "Fibrothecoma a sex cord stromal tumor of the testis that is analogous to those more commonly seen in the ovary. The mean age at diagnosis is 44 years (16 to 69 y). The median size is 2 cm, yet can range up to 7.6 cm. Cases are always intratesticular, with most abutting the tunica albuginea as in the current case. Other are centered on the rete testis. Although most cases have had 0 to 2 mitoses per 10 HPF, they may have up to 9 to 10 mitoses per 10 HPF. Collagen deposition either in bands or investing single cells can range from none to extensive, with most having at least a moderate amount. Immunohistochemically, the most sensitive and specific stain is Steroid Factor 1 (SF-1). Other positivity that is not as specific or sensitive is with inhibin, calretinin, Melan-A, pan keratin, CD34, S100 protein, muscle-specific actin, and desmin. Amongst the lesions listed in the differential diagnosis, monophasic synovial sarcoma is the closest mimicker of fibrothecoma. Synovial sarcomas do not occur in the testis and would be negative for SF-1. It is important to recognize testicular fibrothecomas, as despite in some cases hypercellularity, larger size, and frequent mitotic figures, they are totally benign.",
+      "references": [],
+      "feedback_text": "Answer: D\n\nHistologic description: The tumor is relatively well-circumscribed, although not encapsulated, and abuts the tunica albuginea. Focal extension into the surrounding testis is noted with entrapment of seminiferous tubules. The tumor is composed of cellular short fascicles and a storiform pattern. Cells range from having plumper ovoid as opposed to spindled pointed nuclei, lacking prominent nucleoli. Collagen deposition is scant. Mitotic figures are present, but not frequent.\n\nDiscussion: Fibrothecoma a sex cord stromal tumor of the testis that is analogous to those more commonly seen in the ovary. The mean age at diagnosis is 44 years (16 to 69 y). The median size is 2 cm, yet can range up to 7.6 cm. Cases are always intratesticular, with most abutting the tunica albuginea as in the current case. Other are centered on the rete testis. Although most cases have had 0 to 2 mitoses per 10 HPF, they may have up to 9 to 10 mitoses per 10 HPF. Collagen deposition either in bands or investing single cells can range from none to extensive, with most having at least a moderate amount. Immunohistochemically, the most sensitive and specific stain is Steroid Factor 1 (SF-1). Other positivity that is not as specific or sensitive is with inhibin, calretinin, Melan-A, pan keratin, CD34, S100 protein, muscle-specific actin, and desmin. Amongst the lesions listed in the differential diagnosis, monophasic synovial sarcoma is the closest mimicker of fibrothecoma. Synovial sarcomas do not occur in the testis and would be negative for SF-1. It is important to recognize testicular fibrothecomas, as despite in some cases hypercellularity, larger size, and frequent mitotic figures, they are totally benign.",
+      "feedback_html": "Answer: D<p></p>\n<p>Histologic description:  The tumor is relatively well-circumscribed, although not encapsulated, and abuts the tunica albuginea. Focal extension into the surrounding testis is noted with entrapment of seminiferous tubules. The tumor is composed of cellular short fascicles and a storiform pattern. Cells range from having plumper ovoid as opposed to spindled pointed nuclei, lacking prominent nucleoli. Collagen deposition is scant. Mitotic figures are present, but not frequent. </p>\n<p>Discussion: Fibrothecoma a sex cord stromal tumor of the testis that is analogous to those more commonly seen in the ovary. The mean age at diagnosis is 44 years (16 to 69 y). The median size is 2 cm, yet can range up to 7.6 cm. Cases are always intratesticular, with most abutting the tunica albuginea as in the current case. Other are centered on the rete testis. Although most cases have had 0 to 2 mitoses per 10 HPF, they may have up to 9 to 10 mitoses per 10 HPF. Collagen deposition either in bands or investing single cells can range from none to extensive, with most having at least a moderate amount. Immunohistochemically, the most sensitive and specific stain is Steroid Factor 1 (SF-1). Other positivity that is not as specific or sensitive is with inhibin, calretinin, Melan-A, pan keratin, CD34, S100 protein, muscle-specific actin, and desmin. Amongst the lesions listed in the differential diagnosis, monophasic synovial sarcoma is the closest mimicker of fibrothecoma. Synovial sarcomas do not occur in the testis and would be negative for SF-1. It is important to recognize testicular fibrothecomas, as despite in some cases hypercellularity, larger size, and frequent mitotic figures, they are totally benign.\n</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:11:29.872Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w778c2",
+      "url": "https://sp.pathology.jhu.edu/week-778-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 778: Case 2",
+      "case_label": "Week 778: Case 2",
+      "attribution": "Cases presented by Dr. Jonathan Epstein and prepared by Dr. Katherine Fomchenko.",
+      "vignette": "A 48 year-old man underwent a transurethral resection of a bladder mass.",
+      "question_text": "Cases presented by Dr. Jonathan Epstein and prepared by Dr. Katherine Fomchenko.\nA 48 year-old man underwent a transurethral resection of a bladder mass.",
+      "source_answer": "C. Inverted papilloma",
+      "correct_answer": "Inverted papilloma",
+      "canonical_answer": "Inverted papilloma",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "A. Non-invasive low grade papillary urothelial carcinoma with inverted pattern",
+        "B. Papillary urothelial neoplasm of low malignant potential (PUNLMP) with inverted pattern",
+        "C. Inverted papilloma",
+        "D. Florid proliferation of von Brunn nests"
+      ],
+      "choices": [
+        "Non-invasive low grade papillary urothelial carcinoma with inverted pattern",
+        "Papillary urothelial neoplasm of low malignant potential (PUNLMP) with inverted pattern",
+        "Inverted papilloma",
+        "Florid proliferation of von Brunn nests"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8395.svs-57701385132123853041x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8395.svs-208541669242520310824x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8395.svs-438053691154553437357x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8395.svs-7660151188797205326022x.png"
+      ],
+      "histology": "At low magnification, the surface is smooth with only rare exophytic papillary fronds. In some areas, there is continuity of the lesion with the surface but in most area this feature is lacking. The lamina propria is filled with anastomosing thin columns of urothelium. In areas the periphery of columns are lined by cells with a palisading appearance, where cells stream parallel to the basement membrane in the center of nests. Focal small cysts with colloid material is identified. There is no cytological atypia with some cells with nuclear grooves. Mitotic figures are rare and when present only at the periphery of columns. There are small cyst formations filled with eosinophilic secretions. The intervening stroma is delicate with lack of inflammation.",
+      "discussion": "Inverted papillomas occurs any location in the urothelial tract, yet most common in the trigone or bladder neck. At cystoscopy, the lesion appears polypoid with a smooth surface. Tumors are almost always unifocal. They are usually < 3 cm., but have a wide range in size. It is rare for PUNLMPs or non-invasive low grade papillary urothelial carcinoma to have a purely or almost purely inverted growth pattern without a more prominent exophytic papillary frond component. In the setting of an almost exclusively inverted tumor, one should always consider inverted papilloma. Inverted papillomas also lack any cytological atypia in contrast to low grade papillary urothelial carcinoma. In addition, inverted papillomas are composed of anastomosing columns as opposed to large rounded nests when there is inverted growth in PUNLMP or low grade papillary urothelial carcinoma. In contrast to urothelial carcinoma, inverted papillomas have no risk of recurrence or progression to urothelial carcinoma.",
+      "references": [],
+      "feedback_text": "Answer: C\n\nHistologic description: At low magnification, the surface is smooth with only rare exophytic papillary fronds. In some areas, there is continuity of the lesion with the surface but in most area this feature is lacking. The lamina propria is filled with anastomosing thin columns of urothelium. In areas the periphery of columns are lined by cells with a palisading appearance, where cells stream parallel to the basement membrane in the center of nests. Focal small cysts with colloid material is identified. There is no cytological atypia with some cells with nuclear grooves. Mitotic figures are rare and when present only at the periphery of columns. There are small cyst formations filled with eosinophilic secretions. The intervening stroma is delicate with lack of inflammation.\n\nDiscussion: Inverted papillomas occurs any location in the urothelial tract, yet most common in the trigone or bladder neck. At cystoscopy, the lesion appears polypoid with a smooth surface. Tumors are almost always unifocal. They are usually < 3 cm., but have a wide range in size. It is rare for PUNLMPs or non-invasive low grade papillary urothelial carcinoma to have a purely or almost purely inverted growth pattern without a more prominent exophytic papillary frond component. In the setting of an almost exclusively inverted tumor, one should always consider inverted papilloma. Inverted papillomas also lack any cytological atypia in contrast to low grade papillary urothelial carcinoma. In addition, inverted papillomas are composed of anastomosing columns as opposed to large rounded nests when there is inverted growth in PUNLMP or low grade papillary urothelial carcinoma. In contrast to urothelial carcinoma, inverted papillomas have no risk of recurrence or progression to urothelial carcinoma.",
+      "feedback_html": "Answer: C<p></p>\n<p>Histologic description:  At low magnification, the surface is smooth with only rare exophytic papillary fronds.  In some areas, there is continuity of the lesion with the surface but in most area this feature is lacking. The lamina propria is filled with anastomosing thin columns of urothelium. In areas the periphery of columns are lined by cells with a palisading appearance, where cells stream parallel to the basement membrane in the center of nests. Focal small cysts with colloid material is identified. There is no cytological atypia with some cells with nuclear grooves.  Mitotic figures are rare and when present only at the periphery of columns. There are small cyst formations filled with eosinophilic secretions. The intervening stroma is delicate with lack of inflammation. </p>\n<p>Discussion: Inverted papillomas occurs any location in the urothelial tract, yet most common in the trigone or bladder neck.  At cystoscopy, the lesion appears polypoid with a smooth surface.  Tumors are almost always unifocal.  They are usually &lt; 3 cm., but have a wide range in size. It is rare for PUNLMPs or non-invasive low grade papillary urothelial carcinoma to have a purely or almost purely inverted growth pattern without a more prominent exophytic papillary frond component. In the setting of an almost exclusively inverted tumor, one should always consider inverted papilloma. Inverted papillomas also lack any cytological atypia in contrast to low grade papillary urothelial carcinoma. In addition, inverted papillomas are composed of anastomosing columns as opposed to large rounded nests when there is inverted growth in PUNLMP or low grade papillary urothelial carcinoma. In contrast to urothelial carcinoma, inverted papillomas have no risk of recurrence or progression to urothelial carcinoma.\n</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:11:40.819Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w778c1",
+      "url": "https://sp.pathology.jhu.edu/week-778-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 778: Case 1",
+      "case_label": "Week 778: Case 1",
+      "attribution": "Cases presented by Dr. Jonathan Epstein and prepared by Dr. Katherine Fomchenko.",
+      "vignette": "A 55 year-old woman underwent a resection of a 3.0 cm. renal mass.",
+      "question_text": "Cases presented by Dr. Jonathan Epstein and prepared by Dr. Katherine Fomchenko.\nA 55 year-old woman underwent a resection of a 3.0 cm. renal mass.",
+      "source_answer": "A. Eosinophilic and vacuolated tumor (EVT)",
+      "correct_answer": "Eosinophilic and vacuolated tumor (EVT)",
+      "canonical_answer": "Eosinophilic and vacuolated tumor (EVT)",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "A. Eosinophilic and vacuolated tumor (EVT)",
+        "B. Eosinophilic solid and cystic renal cell carcinoma (ESC RCC)",
+        "C. SDHB deficient renal cell carcinoma",
+        "D. Low grade oncocytic tumor (LOT)"
+      ],
+      "choices": [
+        "Eosinophilic and vacuolated tumor (EVT)",
+        "Eosinophilic solid and cystic renal cell carcinoma (ESC RCC)",
+        "SDHB deficient renal cell carcinoma",
+        "Low grade oncocytic tumor (LOT)"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8391.svs-646605494583792541x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8391.svs-2319832552269533497420x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8391.svs-4622750472516225451911x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8391.svs-539985036266163582106x-2.png"
+      ],
+      "histology": "The tumor is circumscribed but unencapsulated. The lesion is composed of nests with focal tubular architecture. Cytologically, there are uniform cells with voluminous oncocytic cytoplasm and frequent prominent clear intracytoplasmic vacuoles. Nuclei are round to oval, often irregular with prominent nucleoli.",
+      "discussion": "Eosinophilic and vacuolated tumor (EVT) is a newly recognized renal tumor. It has also been reported as “high-grade oncocytic tumor (HOT)” or “sporadic RCC with eosinophilic and vacuolated cytoplasm”. It is seen a unifocal tumor, mostly in females with a broad age range. The great majority of the tumors are sporadic, but rare tumors with identical morphology have been reported in patients with tuberous sclerosis complex (TSC). Somatic and bi-allelic mutations in the TSC genes, TSC1 and TSC2 are present in these tumors. The presence of prominent vacuoles is virtually pathognomonic of this entity. In contrast, eosinophilic solid and cystic renal cell carcinoma (ESC RCC) lacks vacuoles, is often more cystic with hobnail cells, has clumped amphophilic cytoplasmic inclusions, and typically expresses CK20. HOT lacks CK20, CK7, and is positive for CD117. SDHB deficient RCC can have a similar architectural pattern and vacuoles. However, most SDHB deficient RCCs lack prominent nucleoli and the vacuoles are much smaller with pale eosinophilic or bubbly appearance and would show loss of SDHB immunohistochemically. To date, there have been no reports of metastases with EVTs, leading them to be designated as “tumors” as opposed to “carcinomas”.",
+      "references": [],
+      "feedback_text": "Answer: A\n\nHistologic description: The tumor is circumscribed but unencapsulated. The lesion is composed of nests with focal tubular architecture. Cytologically, there are uniform cells with voluminous oncocytic cytoplasm and frequent prominent clear intracytoplasmic vacuoles. Nuclei are round to oval, often irregular with prominent nucleoli.\n\nDiscussion: Eosinophilic and vacuolated tumor (EVT) is a newly recognized renal tumor. It has also been reported as “high-grade oncocytic tumor (HOT)” or “sporadic RCC with eosinophilic and vacuolated cytoplasm”. It is seen a unifocal tumor, mostly in females with a broad age range. The great majority of the tumors are sporadic, but rare tumors with identical morphology have been reported in patients with tuberous sclerosis complex (TSC). Somatic and bi-allelic mutations in the TSC genes, TSC1 and TSC2 are present in these tumors. The presence of prominent vacuoles is virtually pathognomonic of this entity. In contrast, eosinophilic solid and cystic renal cell carcinoma (ESC RCC) lacks vacuoles, is often more cystic with hobnail cells, has clumped amphophilic cytoplasmic inclusions, and typically expresses CK20. HOT lacks CK20, CK7, and is positive for CD117. SDHB deficient RCC can have a similar architectural pattern and vacuoles. However, most SDHB deficient RCCs lack prominent nucleoli and the vacuoles are much smaller with pale eosinophilic or bubbly appearance and would show loss of SDHB immunohistochemically. To date, there have been no reports of metastases with EVTs, leading them to be designated as “tumors” as opposed to “carcinomas”.",
+      "feedback_html": "Answer: A<p></p>\n<p>Histologic description: The tumor is circumscribed but unencapsulated. The lesion is composed of nests with focal tubular architecture. Cytologically, there are uniform cells with voluminous oncocytic cytoplasm and frequent prominent clear intracytoplasmic vacuoles. Nuclei are round to oval, often irregular with prominent nucleoli.</p>\n<p>Discussion: Eosinophilic and vacuolated tumor (EVT) is a newly recognized renal tumor. It has also been reported as “high-grade oncocytic tumor (HOT)” or “sporadic RCC with eosinophilic and vacuolated cytoplasm”. It is seen a unifocal tumor, mostly in females with a broad age range.  The great majority of the tumors are sporadic, but rare tumors with identical morphology have been reported in patients with tuberous sclerosis complex (TSC). Somatic and bi-allelic mutations in the TSC genes, TSC1 and TSC2 are present in these tumors. The presence of prominent vacuoles is virtually pathognomonic of this entity.   In contrast, eosinophilic solid and cystic renal cell carcinoma (ESC RCC) lacks vacuoles, is often more cystic with hobnail cells, has clumped amphophilic cytoplasmic inclusions, and typically expresses CK20. HOT lacks CK20, CK7, and is positive for CD117. SDHB deficient RCC can have a similar architectural pattern and vacuoles. However, most SDHB deficient RCCs lack prominent nucleoli and the vacuoles are much smaller with pale eosinophilic or bubbly appearance and would show loss of SDHB immunohistochemically. To date, there have been no reports of metastases with EVTs, leading them to be designated as “tumors” as opposed to “carcinomas”.\n</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:11:50.954Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w777c3",
+      "url": "https://sp.pathology.jhu.edu/week-777-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 777: Case 3",
+      "case_label": "Week 777: Case 3",
+      "attribution": "Cases presented by Dr. Pedram Argani and prepared by Dr. Katherine Fomchenko.",
+      "vignette": "This is an 80 year old female with multiple polyps in the fundus of her stomach.",
+      "question_text": "Cases presented by Dr. Pedram Argani and prepared by Dr. Katherine Fomchenko.\nThis is an 80 year old female with multiple polyps in the fundus of her stomach.",
+      "source_answer": "C. Carcinoid tumor",
+      "correct_answer": "Carcinoid tumor",
+      "canonical_answer": "Carcinoid tumor",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "A. Poorly differentiated carcinoma",
+        "B. Small cell carcinoma",
+        "C. Carcinoid tumor",
+        "D. MALT lymphoma"
+      ],
+      "choices": [
+        "Poorly differentiated carcinoma",
+        "Small cell carcinoma",
+        "Carcinoid tumor",
+        "MALT lymphoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8407.svs-838089078742821x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8407.svs-130155876124472664745x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8407.svs-3804110884571660287x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8407.svs-4312114062444371490940x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8407.svs-4526610655465821150240x.png"
+      ],
+      "histology": "The polypoid lesions have features of gastric hyperplastic polyp. Within the polyps are areas of small blue cells which have solid and trabecular architecture, do not demonstrate areas of glandular architecture, and demonstrate fine dispersed chromatin. While there is minimal cytoplasm, the mitotic rate is low. The neoplastic cells label for chromogranin and synaptophysin, and the Ki67 is less than 2%. Further history reveals that this patient has a history of pernicious anemia. Areas of fundus (defined by absence of gastrin positive cells) demonstrate loss of parietal and chief cells, supporting the diagnosis of autoimmune metaplastic gastritis.",
+      "discussion": "The findings are consistent with type I gastric carcinoids arising in a background of autoimmune metaplastic atrophic gastritis. Differential Diagnosis: Poorly differentiated carcinoma would be a concern given the blue cell appearance of the lesion; however, the minimal mitotic activity argues against this possibility. The same argument can be made against small cell carcinoma in this case despite the immunoreactivity for neuroendocrine markers. Lymphoma is a concern given the high nucleus/cytoplasm ratio of the cells; however, the immunoreactivity for cytokeratin and neuroendocrine markers argues against this possibility.\nThe current tumors are examples of type I gastric carcinoids, which typically arise in autoimmune metaplastic atrophic gastritis, and are gastrin dependent lesions of the body and fundus associated with ECL cell hyperplasia. Type II gastric carcinoids are associated with Zollinger-Ellison syndrome and are similarly located in the body and fundus. They are also associated with high gastrin levels from a neuroendocrine tumor elsewhere and ECL cell hyperplasia. Type III gastric carcinoids are sporadic, occur anywhere throughout the stomach, are solitary, and typically more aggressive.",
+      "references": [],
+      "feedback_text": "Answer: C\n\nHistologic Description: The polypoid lesions have features of gastric hyperplastic polyp. Within the polyps are areas of small blue cells which have solid and trabecular architecture, do not demonstrate areas of glandular architecture, and demonstrate fine dispersed chromatin. While there is minimal cytoplasm, the mitotic rate is low. The neoplastic cells label for chromogranin and synaptophysin, and the Ki67 is less than 2%. Further history reveals that this patient has a history of pernicious anemia. Areas of fundus (defined by absence of gastrin positive cells) demonstrate loss of parietal and chief cells, supporting the diagnosis of autoimmune metaplastic gastritis.\n\nDiscussion: The findings are consistent with type I gastric carcinoids arising in a background of autoimmune metaplastic atrophic gastritis. Differential Diagnosis: Poorly differentiated carcinoma would be a concern given the blue cell appearance of the lesion; however, the minimal mitotic activity argues against this possibility. The same argument can be made against small cell carcinoma in this case despite the immunoreactivity for neuroendocrine markers. Lymphoma is a concern given the high nucleus/cytoplasm ratio of the cells; however, the immunoreactivity for cytokeratin and neuroendocrine markers argues against this possibility.\n\nThe current tumors are examples of type I gastric carcinoids, which typically arise in autoimmune metaplastic atrophic gastritis, and are gastrin dependent lesions of the body and fundus associated with ECL cell hyperplasia. Type II gastric carcinoids are associated with Zollinger-Ellison syndrome and are similarly located in the body and fundus. They are also associated with high gastrin levels from a neuroendocrine tumor elsewhere and ECL cell hyperplasia. Type III gastric carcinoids are sporadic, occur anywhere throughout the stomach, are solitary, and typically more aggressive.",
+      "feedback_html": "Answer: C<p></p>\n<p>Histologic Description:  The polypoid lesions have features of gastric hyperplastic polyp.  Within the polyps are areas of small blue cells which have solid and trabecular architecture, do not demonstrate areas of glandular architecture, and demonstrate fine dispersed chromatin.  While there is minimal cytoplasm, the mitotic rate is low.  The neoplastic cells label for chromogranin and synaptophysin, and the Ki67 is less than 2%.  Further history reveals that this patient has a history of pernicious anemia. Areas of fundus (defined by absence of gastrin positive cells) demonstrate loss of parietal and chief cells, supporting the diagnosis of autoimmune metaplastic gastritis. </p>\n<p>Discussion: The findings are consistent with type I gastric carcinoids arising in a background of autoimmune metaplastic atrophic gastritis.  Differential Diagnosis:  Poorly differentiated carcinoma would be a concern given the blue cell appearance of the lesion; however, the minimal mitotic activity argues against this possibility.  The same argument can be made against small cell carcinoma in this case despite the immunoreactivity for neuroendocrine markers.  Lymphoma is a concern given the high nucleus/cytoplasm ratio of the cells; however, the immunoreactivity for cytokeratin and neuroendocrine markers argues against this possibility.<br>\nThe current tumors are examples of type I gastric carcinoids, which typically arise in autoimmune metaplastic atrophic gastritis, and are gastrin dependent lesions of the body and fundus associated with ECL cell hyperplasia.  Type II gastric carcinoids are associated with Zollinger-Ellison syndrome and are similarly located in the body and fundus. They are also associated with high gastrin levels from a neuroendocrine tumor elsewhere and ECL cell hyperplasia.  Type III gastric carcinoids are sporadic, occur anywhere throughout the stomach, are solitary, and typically more aggressive.\n</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:12:00.080Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w777c2",
+      "url": "https://sp.pathology.jhu.edu/week-777-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 777: Case 2",
+      "case_label": "Week 777: Case 2",
+      "attribution": "Cases presented by Dr. Pedram Argani and prepared by Dr. Katherine Fomchenko.",
+      "vignette": "This is a 55 year old male with a renal mass.",
+      "question_text": "Cases presented by Dr. Pedram Argani and prepared by Dr. Katherine Fomchenko.\nThis is a 55 year old male with a renal mass.",
+      "source_answer": "A. Clear cell carcinoma",
+      "correct_answer": "Clear cell carcinoma",
+      "canonical_answer": "Clear cell carcinoma",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "A. Clear cell carcinoma",
+        "B. Xp11 translocation renal cell carcinoma",
+        "C. Clear cell papillary renal cell carcinoma",
+        "D. Papillary renal cell carcinoma"
+      ],
+      "choices": [
+        "Clear cell carcinoma",
+        "Xp11 translocation renal cell carcinoma",
+        "Clear cell papillary renal cell carcinoma",
+        "Papillary renal cell carcinoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8406.svs-41-0111004850931x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8406.svs-8704548379912275111113x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8406.svs-37119809451317171014x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8406.svs-5302831727543193257040x.png"
+      ],
+      "histology": "The lesion has clear to eosinophilic cells, and both nested and papillary/pseudopapillary architectures. The vasculature of the lesion is prominent, with abundant proliferating endothelial cells. The areas of pseudopapillary growth are associated with higher nucleolar grade and eosinophilic cytoplasm. The lesional cells demonstrate diffuse membranous labeling for carbonic anhydrase 9 (CA-IX), and are negative for cytokeratin 7 and cathepsin K. They also demonstrate loss of BAP1, which correlates with high grade in clear cell RCC.",
+      "discussion": "Xp11 translocation RCC does not demonstrate diffuse labeling for carbonic anhydrase 9; instead, the labeling is typically patchy if at all, and occurs in areas of necrosis. Papillary renal cell carcinoma also should not label diffusely for carbonic anhydrase 9, and typically labels diffusely for cytokeratin 7. Clear cell papillary renal cell carcinoma would demonstrate lower nuclear grade and features subnuclear vacuoles.\n\nClear cell RCC with a pseudopapillary growth pattern is a common mimic of Xp11 translocation renal cell carcinoma.",
+      "references": [],
+      "feedback_text": "Answer: A\n\nHistologic Description: The lesion has clear to eosinophilic cells, and both nested and papillary/pseudopapillary architectures. The vasculature of the lesion is prominent, with abundant proliferating endothelial cells. The areas of pseudopapillary growth are associated with higher nucleolar grade and eosinophilic cytoplasm. The lesional cells demonstrate diffuse membranous labeling for carbonic anhydrase 9 (CA-IX), and are negative for cytokeratin 7 and cathepsin K. They also demonstrate loss of BAP1, which correlates with high grade in clear cell RCC.\n\nDifferential Diagnosis: Xp11 translocation RCC does not demonstrate diffuse labeling for carbonic anhydrase 9; instead, the labeling is typically patchy if at all, and occurs in areas of necrosis. Papillary renal cell carcinoma also should not label diffusely for carbonic anhydrase 9, and typically labels diffusely for cytokeratin 7. Clear cell papillary renal cell carcinoma would demonstrate lower nuclear grade and features subnuclear vacuoles.\n\nClear cell RCC with a pseudopapillary growth pattern is a common mimic of Xp11 translocation renal cell carcinoma.",
+      "feedback_html": "Answer:  A<p></p>\n<p>Histologic Description:  The lesion has clear to eosinophilic cells, and both nested and papillary/pseudopapillary architectures.  The vasculature of the lesion is prominent, with abundant proliferating endothelial cells.  The areas of pseudopapillary growth are associated with higher nucleolar grade and eosinophilic cytoplasm.  The lesional cells demonstrate diffuse membranous labeling for carbonic anhydrase 9 (CA-IX), and are negative for cytokeratin 7 and cathepsin K.  They also demonstrate loss of BAP1, which correlates with high grade in clear cell RCC.  </p>\n<p>Differential Diagnosis:  Xp11 translocation RCC does not demonstrate diffuse labeling for carbonic anhydrase 9; instead, the labeling is typically patchy if at all, and occurs in areas of necrosis.  Papillary renal cell carcinoma also should not label diffusely for carbonic anhydrase 9, and typically labels diffusely for cytokeratin 7.  Clear cell papillary renal cell carcinoma would demonstrate lower nuclear grade and features subnuclear vacuoles.  </p>\n<p>Clear cell RCC with a pseudopapillary growth pattern is a common mimic of Xp11 translocation renal cell carcinoma.\n</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:12:09.592Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w777c1",
+      "url": "https://sp.pathology.jhu.edu/week-777-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 777: Case 1",
+      "case_label": "Week 777: Case 1",
+      "attribution": "Cases presented by Dr. Pedram Argani and prepared by Dr. Katherine Fomchenko.",
+      "vignette": "This is a 30 year old female with an enlarged axillary lymph node.",
+      "question_text": "Cases presented by Dr. Pedram Argani and prepared by Dr. Katherine Fomchenko.\nThis is a 30 year old female with an enlarged axillary lymph node.",
+      "source_answer": "D. Anaplastic large cell lymphoma",
+      "correct_answer": "Anaplastic large cell lymphoma",
+      "canonical_answer": "Anaplastic large cell lymphoma",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "A. Sinus histiocytosis",
+        "B. Metastatic carcinoma",
+        "C. Metastatic melanoma",
+        "D. Anaplastic large cell lymphoma"
+      ],
+      "choices": [
+        "Sinus histiocytosis",
+        "Metastatic carcinoma",
+        "Metastatic melanoma",
+        "Anaplastic large cell lymphoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8403.svs-1666068918780121x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8403.svs-1518127400165102824740x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8403.svs-1984416605211731745240x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8403.svs-229702143330478262188x.png"
+      ],
+      "histology": "The lesional cells in this case have a sinusoidal distribution which is more typical of carcinoma or melanoma but is also characteristic of anaplastic large cell lymphoma. The lesional cells have multilobated, irregularly shaped, convoluted nuclei with thick nuclear membranes and well-developed cytoplasm. The cells are discohesive and are distinct from the bland histiocytes in the sinus. The lesional cells label for EMA, which can cause confusion with metastatic carcinoma. However, the lesional cells label for CD30 and ALK, supporting the diagnosis of anaplastic large cell lymphoma with a sinusoidal pattern.",
+      "discussion": "Metastatic carcinoma should label for cytokeratin in addition to EMA. Melanoma should label for HMB45. Both of these should generally be more cohesive than the current lesion. Sinus histiocytosis would feature a proliferation of bland cells with hypochromatic nuclei bounded by thin nuclear membranes.",
+      "references": [],
+      "feedback_text": "Answer: D\n\nHistologic Description: The lesional cells in this case have a sinusoidal distribution which is more typical of carcinoma or melanoma but is also characteristic of anaplastic large cell lymphoma. The lesional cells have multilobated, irregularly shaped, convoluted nuclei with thick nuclear membranes and well-developed cytoplasm. The cells are discohesive and are distinct from the bland histiocytes in the sinus. The lesional cells label for EMA, which can cause confusion with metastatic carcinoma. However, the lesional cells label for CD30 and ALK, supporting the diagnosis of anaplastic large cell lymphoma with a sinusoidal pattern.\n\nDifferential Diagnosis: Metastatic carcinoma should label for cytokeratin in addition to EMA. Melanoma should label for HMB45. Both of these should generally be more cohesive than the current lesion. Sinus histiocytosis would feature a proliferation of bland cells with hypochromatic nuclei bounded by thin nuclear membranes.",
+      "feedback_html": "Answer: D<p></p>\n<p>Histologic Description:  The lesional cells in this case have a sinusoidal distribution which is more typical of carcinoma or melanoma but is also characteristic of anaplastic large cell lymphoma.  The lesional cells have multilobated, irregularly shaped, convoluted nuclei with thick nuclear membranes and well-developed cytoplasm.  The cells are discohesive and are distinct from the bland histiocytes in the sinus.  The lesional cells label for EMA, which can cause confusion with metastatic carcinoma.  However, the lesional cells label for CD30 and ALK, supporting the diagnosis of anaplastic large cell lymphoma with a sinusoidal pattern.  </p>\n<p>Differential Diagnosis:  Metastatic carcinoma should label for cytokeratin in addition to EMA.  Melanoma should label for HMB45.  Both of these should generally be more cohesive than the current lesion.  Sinus histiocytosis would feature a proliferation of bland cells with hypochromatic nuclei bounded by thin nuclear membranes.\n</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:12:18.848Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w776c3",
+      "url": "https://sp.pathology.jhu.edu/week-776-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 776: Case 3",
+      "case_label": "Week 776: Case 3",
+      "attribution": "Cases presented by Dr. Ashley Cimino-Mathews and prepared by Dr. Katherine Fomchenko.",
+      "vignette": "This case is a middle-aged female with a breast mass.",
+      "question_text": "Cases presented by Dr. Ashley Cimino-Mathews and prepared by Dr. Katherine Fomchenko.\nThis case is a middle-aged female with a breast mass.",
+      "source_answer": "D. Malignant phyllodes tumor",
+      "correct_answer": "Malignant phyllodes tumor",
+      "canonical_answer": "Malignant phyllodes tumor",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "A. Breast sarcoma",
+        "B. Pseudoangiomatous stromal hyperplasia",
+        "C. Metastatic carcinoma",
+        "D. Malignant phyllodes tumor",
+        "E. Cellular fibroadenoma"
+      ],
+      "choices": [
+        "Breast sarcoma",
+        "Pseudoangiomatous stromal hyperplasia",
+        "Metastatic carcinoma",
+        "Malignant phyllodes tumor",
+        "Cellular fibroadenoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8402.svs-5202587292231712831x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8402.svs-3787927285450723174011x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8402.svs-4672559930489456130635x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8402.svs-7296549473751855084835x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8402.svs-7876750475827635295020x.png"
+      ],
+      "histology": "This case depicts a fibroepithelial lesion that displays focal leaf-like architecture, marked stromal cellularity with moderate cytologic atypia, and a brisk mitotic rate (32 mitoses per 10 high power fields) including scattered atypical mitotic figures. The tumor displays an intracanalicular growth pattern, compressing the epithelium of the ducts it surrounds. Stromal overgrowth is present. These features are suggestive of a malignant phyllodes tumor.",
+      "discussion": "Fibroepithelial lesions of the breast consist of fibroadenomas and phyllodes tumors. Fibroadenomas are more common (>95% of fibroepithelial lesions) and are entirely benign. Phyllodes tumors are fibroepithelial lesions of the breast that display stromal hypercellularity and a prominent leaf-like architecture, often with cystic areas. In fact, their original name was “cystosarcoma phyllodes,” referring to the gross appearance: cystic (“cysto-“) and fleshy (“-sarcoma”), with projections resembling leaf fronds. The term “phyllodes” comes from the Greek “phyllon”, or leaf. Phyllodes tumors are subclassified into benign, borderline, and malignant based on their histologic features. When evaluating a fibroepithelial lesion, it’s helpful to first scan all slides of the lesions at low power to get an overall sense of the lesion, and then to evaluate these histologic features from low power to high power. In general, the severity of the atypia increases across the diagnostic categories of benign, borderline and malignant. The histologic features influencing classification include the degree of circumscription and infiltrative growth, stromal cellularity, stromal overgrowth (one 4x low power field entirely composed of stroma), stromal atypia, the mitotic rate, and the presence of malignant heterologous elements. The latter feature is present only in malignant phyllodes tumors. The histologic features in this case support classification as a malignant phyllodes tumor.",
+      "references": [
+        {
+          "text": "Tan BY, Acs G, Apple SK, et al. Phyllodes tumours of the breast: a consensus review. Histopathology. 2016 Jan;68(1):5-21.",
+          "url": null
+        },
+        {
+          "text": "Seow DYB, Tay TKY, Tan PH. Fibroepithelial lesions of the breast: A review of recurring diagnostic issues. Semin Diagn Pathol. 2022 Apr 19:S0740-2570(22)00029-6.",
+          "url": null
+        },
+        {
+          "text": "Slodkowska E, Nofech-Mozes S, Xu B, et al. Fibroepithelial lesions of the breast: a comprehensive morphological and outcome analysis of a large series. Mod Pathol. 2018 Jul;31(7):1073-1084.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: D. Malignant phyllodes tumor\n\nHistology: This case depicts a fibroepithelial lesion that displays focal leaf-like architecture, marked stromal cellularity with moderate cytologic atypia, and a brisk mitotic rate (32 mitoses per 10 high power fields) including scattered atypical mitotic figures. The tumor displays an intracanalicular growth pattern, compressing the epithelium of the ducts it surrounds. Stromal overgrowth is present. These features are suggestive of a malignant phyllodes tumor.\n\nDiscussion: Fibroepithelial lesions of the breast consist of fibroadenomas and phyllodes tumors. Fibroadenomas are more common (>95% of fibroepithelial lesions) and are entirely benign. Phyllodes tumors are fibroepithelial lesions of the breast that display stromal hypercellularity and a prominent leaf-like architecture, often with cystic areas. In fact, their original name was “cystosarcoma phyllodes,” referring to the gross appearance: cystic (“cysto-“) and fleshy (“-sarcoma”), with projections resembling leaf fronds. The term “phyllodes” comes from the Greek “phyllon”, or leaf. Phyllodes tumors are subclassified into benign, borderline, and malignant based on their histologic features. When evaluating a fibroepithelial lesion, it’s helpful to first scan all slides of the lesions at low power to get an overall sense of the lesion, and then to evaluate these histologic features from low power to high power. In general, the severity of the atypia increases across the diagnostic categories of benign, borderline and malignant. The histologic features influencing classification include the degree of circumscription and infiltrative growth, stromal cellularity, stromal overgrowth (one 4x low power field entirely composed of stroma), stromal atypia, the mitotic rate, and the presence of malignant heterologous elements. The latter feature is present only in malignant phyllodes tumors. The histologic features in this case support classification as a malignant phyllodes tumor.\n\nReferences:\n\nTan BY, Acs G, Apple SK, et al. Phyllodes tumours of the breast: a consensus review. Histopathology. 2016 Jan;68(1):5-21.\n\nSeow DYB, Tay TKY, Tan PH. Fibroepithelial lesions of the breast: A review of recurring diagnostic issues. Semin Diagn Pathol. 2022 Apr 19:S0740-2570(22)00029-6.\n\nSlodkowska E, Nofech-Mozes S, Xu B, et al. Fibroepithelial lesions of the breast: a comprehensive morphological and outcome analysis of a large series. Mod Pathol. 2018 Jul;31(7):1073-1084.",
+      "feedback_html": "Answer: D. Malignant phyllodes tumor<p></p>\n<p>Histology: This case depicts a fibroepithelial lesion that displays focal leaf-like architecture, marked stromal cellularity with moderate cytologic atypia, and a brisk mitotic rate (32 mitoses per 10 high power fields) including scattered atypical mitotic figures. The tumor displays an intracanalicular growth pattern, compressing the epithelium of the ducts it surrounds. Stromal overgrowth is present. These features are suggestive of a malignant phyllodes tumor.</p>\n<p>Discussion: Fibroepithelial lesions of the breast consist of fibroadenomas and phyllodes tumors. Fibroadenomas are more common (&gt;95% of fibroepithelial lesions) and are entirely benign. Phyllodes tumors are fibroepithelial lesions of the breast that display stromal hypercellularity and a prominent leaf-like architecture, often with cystic areas. In fact, their original name was “cystosarcoma phyllodes,” referring to the gross appearance: cystic (“cysto-“) and fleshy (“-sarcoma”), with projections resembling leaf fronds. The term “phyllodes” comes from the Greek “phyllon”, or leaf. Phyllodes tumors are subclassified into benign, borderline, and malignant based on their histologic features. When evaluating a fibroepithelial lesion, it’s helpful to first scan all slides of the lesions at low power to get an overall sense of the lesion, and then to evaluate these histologic features from low power to high power. In general, the severity of the atypia increases across the diagnostic categories of benign, borderline and malignant. The histologic features influencing classification include the degree of circumscription and infiltrative growth, stromal cellularity, stromal overgrowth (one 4x low power field entirely composed of stroma), stromal atypia, the mitotic rate, and the presence of malignant heterologous elements. The latter feature is present only in malignant phyllodes tumors. The histologic features in this case support classification as a malignant phyllodes tumor. </p>\n<p>References:<br>\nTan BY, Acs G, Apple SK, et al. Phyllodes tumours of the breast: a consensus review. Histopathology. 2016 Jan;68(1):5-21.</p>\n<p>Seow DYB, Tay TKY, Tan PH. Fibroepithelial lesions of the breast: A review of recurring diagnostic issues. Semin Diagn Pathol. 2022 Apr 19:S0740-2570(22)00029-6. </p>\n<p>Slodkowska E, Nofech-Mozes S, Xu B, et al. Fibroepithelial lesions of the breast: a comprehensive morphological and outcome analysis of a large series. Mod Pathol. 2018 Jul;31(7):1073-1084.\n</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:12:29.976Z",
+      "extractor_version": "1.0.0"
+    }
+  ]
+}
