@@ -1,0 +1,21 @@
+{
+  "normalization_version": "1.0.0",
+  "source_case_count": 200,
+  "source_failure_count": 0,
+  "output_case_count": 200,
+  "correct_choice_mismatches": 0,
+  "letter_prefixed_answers_cleaned": 104,
+  "contaminated_answers_cleaned": 2,
+  "contaminated_choices_cleaned": 4,
+  "histology_fields_repaired": 87,
+  "discussion_fields_repaired": 57,
+  "reference_lists_repaired": 82,
+  "curated_stain_cases": 10,
+  "notes": [
+    "Raw JHU source answers are preserved in source_answer while correct_answer/canonical_answer are cleaned for grading.",
+    "Legacy A./B./C./D. prefixes are removed from canonical answers and cleaned choices but retained in choices_raw/source_answer.",
+    "WatuPRO correct/wrong UI residue is removed from grading fields.",
+    "Older heading variants are repaired from preserved feedback_text when possible.",
+    "Only the previously curated first 10 cases carry stain profiles in this release; other cases are marked not-curated rather than inferred."
+  ]
+}
