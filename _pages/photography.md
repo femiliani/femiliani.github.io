@@ -1,7 +1,11 @@
 ---
-title: "Drone photography of the Upper Valley"
-excerpt: "Some shots I've taken in New Hampshire <br><img src='/images/photography/201011_ledyard_1.jpg' style='width: 600px;'>"
-collection: portfolio
+layout: single
+title: "Photography"
+excerpt: "Drone photography of the Upper Valley"
+permalink: /photography/
+author_profile: true
+redirect_from:
+  - /portfolio/Drone_photography/
 ---
 
 The Upper Valley is a beautiful place, and sometimes you have to take a step back (or many steps back and up) to truly appreciate it. Here are some of my favorite shots:
@@ -56,3 +60,4 @@ The Upper Valley is a beautiful place, and sometimes you have to take a step bac
 <p float="left">
   <img src="/images/photography/200816_Vermont.JPG" width="800" />
 </p>
+

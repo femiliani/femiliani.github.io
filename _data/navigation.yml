@@ -1,13 +1,17 @@
-# main links links
+# Main navigation
 main:
-  #- title: "Publications"
-  #  url: /publications/  
+  - title: "Publications"
+    url: /publications/
  
   #- title: "CV"
   #  url: /cv/  
 
   - title: "Lessons in MolBio"
     url: /year-archive/   
+
+  - title: "Photography"
+    url: /photography/
   
   - title: "Hobbies"
     url: /portfolio/
+

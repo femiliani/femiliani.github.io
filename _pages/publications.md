@@ -5,12 +5,23 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+{% if site.author.googlescholar %}
+You can find my articles on [Google Scholar]({{ site.author.googlescholar }}).
 {% endif %}
 
-{% include base_path %}
+{% if site.author.pubmed %}
+See also my [publications indexed in PubMed]({{ site.author.pubmed }}).
+{% endif %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+## Publications
+
+<!-- Populate from the supplied CV; verify and include a https://doi.org/ link for each publication with an assigned DOI. -->
+
+## Presentations
+
+<!-- Populate presentation citations from the supplied CV. -->
+
+## Posters
+
+<!-- Populate poster citations from the supplied CV. -->
+
