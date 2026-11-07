@@ -1,0 +1,468 @@
+{
+  "case_start": 111,
+  "case_end": 120,
+  "case_count": 10,
+  "cases": [
+    {
+      "id": "w783c1",
+      "url": "https://sp.pathology.jhu.edu/week-783-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 783: Case 1",
+      "case_label": "Week 783: Case 1",
+      "attribution": "Case presented by Dr. Jonathan Epstein and prepared by Dr. Eric Young.",
+      "vignette": "Clinical History: A 45 year-old woman underwent a TURB of a bladder mass surrounding a calculus. Choose the correct diagnosis:",
+      "question_text": "Case presented by Dr. Jonathan Epstein and prepared by Dr. Eric Young.\nClinical History: A 45 year-old woman underwent a TURB of a bladder mass surrounding a calculus.\nChoose the correct diagnosis:",
+      "source_answer": "Polypoid cystitis",
+      "correct_answer": "Polypoid cystitis",
+      "canonical_answer": "Polypoid cystitis",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "Polypoid cystitis",
+        "Papilloma",
+        "PUNLMP"
+      ],
+      "choices": [
+        "Polypoid cystitis",
+        "Papilloma",
+        "PUNLMP"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/783_1.1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/783_1.2-1.png"
+      ],
+      "histology": "The lesion consists of several simple folds of normal thickness urothelium with some that appear as detached papillary fronds and others that are edemetous. Within the urothelium are scattered neutrophils. The lamina propria is fibrotic with chronic inflammation.",
+      "discussion": "The clinicopathological findings in this case is classic for polypoid cystitis. The key to not misdiagnosis polypoid cystitis as a papillary urothelial neoplasm is to look at the overall low power histological appearance, as opposed to focusing on the few papillary fronds that out of context could be mistaken for a papilloma or PUNLMP. Overall the presence of predominantly simple folds lined by normal thickness and cytology inflamed urothelium is classic for polypoid cystitis. This case has less edema in the lamina propria and more fibrosis, indicative of a more chronic phase of polypoid cystitis. Some cases of polypoid cystitis can have numerous mitotic figures in the urothelium and have reactive urothelial changes with prominent nucleoli and enlarge nuclei, but lacking hyperchromasia. In cases where the diagnosis is not straightforward histologically, it is helpful to review the cystoscopic findings as they are typically that of an inflammatory process, such as a reaction to a calculus, colo-vesicle fistula, catheter, or even long-standing urinary obstruction. The urologist can often more readily appreciate the inflammatory nature of the process better than the pathologist.",
+      "references": [],
+      "feedback_text": "Histologic description:\n\nThe lesion consists of several simple folds of normal thickness urothelium with some that appear as detached papillary fronds and others that are edemetous. Within the urothelium are scattered neutrophils. The lamina propria is fibrotic with chronic inflammation.\n\nDiscussion:\n\nThe clinicopathological findings in this case is classic for polypoid cystitis. The key to not misdiagnosis polypoid cystitis as a papillary urothelial neoplasm is to look at the overall low power histological appearance, as opposed to focusing on the few papillary fronds that out of context could be mistaken for a papilloma or PUNLMP. Overall the presence of predominantly simple folds lined by normal thickness and cytology inflamed urothelium is classic for polypoid cystitis. This case has less edema in the lamina propria and more fibrosis, indicative of a more chronic phase of polypoid cystitis. Some cases of polypoid cystitis can have numerous mitotic figures in the urothelium and have reactive urothelial changes with prominent nucleoli and enlarge nuclei, but lacking hyperchromasia. In cases where the diagnosis is not straightforward histologically, it is helpful to review the cystoscopic findings as they are typically that of an inflammatory process, such as a reaction to a calculus, colo-vesicle fistula, catheter, or even long-standing urinary obstruction. The urologist can often more readily appreciate the inflammatory nature of the process better than the pathologist.",
+      "feedback_html": "Histologic description:<p></p>\n<p>The lesion consists of several simple folds of normal thickness urothelium with some that appear as detached papillary fronds and others that are edemetous. Within the urothelium are scattered neutrophils. The lamina propria is fibrotic with chronic inflammation.</p>\n<p>Discussion:</p>\n<p>The clinicopathological findings in this case is classic for polypoid cystitis. The key to not misdiagnosis polypoid cystitis as a papillary urothelial neoplasm is to look at the overall low power histological appearance, as opposed to focusing on the few papillary fronds that out of context could be mistaken for a papilloma or PUNLMP. Overall the presence of predominantly simple folds lined by normal thickness and cytology inflamed urothelium is classic for polypoid cystitis. This case has less edema in the lamina propria and more fibrosis, indicative of a more chronic phase of polypoid cystitis. Some cases of polypoid cystitis can have numerous mitotic figures in the urothelium and have reactive urothelial changes with prominent nucleoli and enlarge nuclei, but lacking hyperchromasia. In cases where the diagnosis is not straightforward histologically, it is helpful to review the cystoscopic findings as they are typically that of an inflammatory process, such as a reaction to a calculus, colo-vesicle fistula, catheter, or even long-standing urinary obstruction. The urologist can often more readily appreciate the inflammatory nature of the process better than the pathologist.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:09:22.968Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w782c3",
+      "url": "https://sp.pathology.jhu.edu/week-782-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 782: Case 3",
+      "case_label": "Week 782: Case 3",
+      "attribution": "Case presented by Dr. Ezra Baraban and prepared by Dr. Eric Young.",
+      "vignette": "This is an orchiectomy specimen from a 51-year-old man. Diagnosis?",
+      "question_text": "Case presented by Dr. Ezra Baraban and prepared by Dr. Eric Young.\nThis is an orchiectomy specimen from a 51-year-old man.\nDiagnosis?",
+      "source_answer": "Teratoma, post-pubertal type",
+      "correct_answer": "Teratoma, post-pubertal type",
+      "canonical_answer": "Teratoma, post-pubertal type",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "Metastatic colonic adenocarcinoma",
+        "Epidermoid Cyst",
+        "Teratoma, pre-pubertal type",
+        "Teratoma, post-pubertal type"
+      ],
+      "choices": [
+        "Metastatic colonic adenocarcinoma",
+        "Epidermoid Cyst",
+        "Teratoma, pre-pubertal type",
+        "Teratoma, post-pubertal type"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/783_3.1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/783_3.2.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/783_3.3.png"
+      ],
+      "histology": "",
+      "discussion": "",
+      "references": [
+        {
+          "text": "Iczkowski KA. Germ cell neoplasms of the testis: Update for 2022. Semin Diagn Pathol. 2023 Jan;40(1):2-21. doi: 10.1053/j.semdp.2022.07.001. Epub 2022 Jul 7. PMID: 35840444.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Sections show a bland cystic lesion lined by low grade intestinal type epithelium. The patient’s age as well as the calcifications, scar, and Sertoli-only seen in the background testis strongly argue against a pre-pubertal type teratoma, as the vast majority of testicular teratomas in adults are malignant. As epidermoid cyst is essentially a monodermal benign teratoma composed of a unilocular cyst lined by bland squamous epithelium, that diagnosis may also be excluded based on the cyst lining and abnormal background testis. The patient clinically presented with distant metastasis, also excluding a benign teratoma. The lack of a colonic primary excludes metastasis to the testis. The combined findings are diagnostic of a malignant, post-pubertal teratoma and the adjacent scarring is indicative of regression, likely explaining why the patient presented with metastatic disease rather than a testicular mass.\n\nReference:\n\nIczkowski KA. Germ cell neoplasms of the testis: Update for 2022. Semin Diagn Pathol. 2023 Jan;40(1):2-21. doi: 10.1053/j.semdp.2022.07.001. Epub 2022 Jul 7. PMID: 35840444.",
+      "feedback_html": "Sections show a bland cystic lesion lined by low grade intestinal type epithelium.&nbsp; The patient’s age as well as the calcifications, scar, and Sertoli-only seen in the background testis strongly argue against a pre-pubertal type teratoma, as the vast majority of testicular teratomas in adults are malignant.&nbsp; As epidermoid cyst is essentially a monodermal benign teratoma composed of a unilocular cyst lined by bland squamous epithelium, that diagnosis may also be excluded based on the cyst lining and abnormal background testis.&nbsp; The patient clinically presented with distant metastasis, also excluding a benign teratoma.&nbsp; The lack of a colonic primary excludes metastasis to the testis.&nbsp; The combined findings are diagnostic of a malignant, post-pubertal teratoma and the adjacent scarring is indicative of regression, likely explaining why the patient presented with metastatic disease rather than a testicular mass.<p></p>\n<p>Reference:</p>\n<p>Iczkowski KA. Germ cell neoplasms of the testis: Update for 2022. Semin Diagn Pathol. 2023 Jan;40(1):2-21. doi: 10.1053/j.semdp.2022.07.001. Epub 2022 Jul 7. PMID: 35840444.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:09:33.022Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w782c2",
+      "url": "https://sp.pathology.jhu.edu/week-782-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 782: Case 2",
+      "case_label": "Week 782: Case 2",
+      "attribution": "Case presented by Dr. Ezra Baraban and prepared by Dr. Eric Young.",
+      "vignette": "This specimen is from the bladder of a 56-year-old man. Diagnosis?",
+      "question_text": "Case presented by Dr. Ezra Baraban and prepared by Dr. Eric Young.\nThis specimen is from the bladder of a 56-year-old man.\nDiagnosis?",
+      "source_answer": "Small cell carcinoma",
+      "correct_answer": "Small cell carcinoma",
+      "canonical_answer": "Small cell carcinoma",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "Alveolar rhabdomyosarcoma",
+        "Prostatic adenocarcinoma, Grade Group 5",
+        "Diffuse large B cell lymphoma",
+        "Small cell carcinoma"
+      ],
+      "choices": [
+        "Alveolar rhabdomyosarcoma",
+        "Prostatic adenocarcinoma, Grade Group 5",
+        "Diffuse large B cell lymphoma",
+        "Small cell carcinoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/783_2.1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/783_2.2.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/783_2.3.png"
+      ],
+      "histology": "",
+      "discussion": "",
+      "references": [
+        {
+          "text": "Teo MY, Guercio BJ, Arora A, et al. Long-term Outcomes of Local and Metastatic Small Cell Carcinoma of the Urinary Bladder and Genomic Analysis of Patients Treated With Neoadjuvant Chemotherapy. Clin Genitourin Cancer. 2022;20(5):431-441. doi:10.1016/j.clgc.2022.05.005",
+          "url": null
+        }
+      ],
+      "feedback_text": "Sections show a high-grade malignant tumor composed of small round blue cells. Immunohistochemistry will be required to determine the lineage. Lack of desmin or myogenin labeling excludes rhabdomyosarcoma, which may label with keratin and or neuroendocrine markers, so warrants exclusion before diagnosing neuroendocrine carcinoma. Diffuse large B cell lymphoma would lack keratin expression and will label with CD20 and other B-cell markers. Prostatic adenocarcinoma would label with NKX3.1. This tumor labeled with cytokeratin, synaptophysin and TTF1, indicative of small cell carcinoma. The lack of concurrent or previous prostatic adenocarcinoma were most in keeping with a bladder primary, although based on morphology alone it is difficult to exclude a prostatic primary.\n\nReference:\n\nTeo MY, Guercio BJ, Arora A, et al. Long-term Outcomes of Local and Metastatic Small Cell Carcinoma of the Urinary Bladder and Genomic Analysis of Patients Treated With Neoadjuvant Chemotherapy. Clin Genitourin Cancer. 2022;20(5):431-441. doi:10.1016/j.clgc.2022.05.005",
+      "feedback_html": "Sections show a high-grade malignant tumor composed of small round blue cells.&nbsp; Immunohistochemistry will be required to determine the lineage.&nbsp; Lack of desmin or myogenin labeling excludes rhabdomyosarcoma, which may label with keratin and or neuroendocrine markers, so warrants exclusion before diagnosing neuroendocrine carcinoma.&nbsp; Diffuse large B cell lymphoma would lack keratin expression and will label with CD20 and other B-cell markers.&nbsp; Prostatic adenocarcinoma would label with NKX3.1.&nbsp; This tumor labeled with cytokeratin, synaptophysin and TTF1, indicative of small cell carcinoma.&nbsp; The lack of concurrent or previous prostatic adenocarcinoma were most in keeping with a bladder primary, although based on morphology alone it is difficult to exclude a prostatic primary.<p></p>\n<p>Reference:</p>\n<p>Teo MY, Guercio BJ, Arora A, et al. Long-term Outcomes of Local and Metastatic Small Cell Carcinoma of the Urinary Bladder and Genomic Analysis of Patients Treated With Neoadjuvant Chemotherapy.&nbsp;<em>Clin Genitourin Cancer</em>. 2022;20(5):431-441. doi:10.1016/j.clgc.2022.05.005</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:09:42.251Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w782c1",
+      "url": "https://sp.pathology.jhu.edu/week-782-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 782: Case 1",
+      "case_label": "Week 782: Case 1",
+      "attribution": "Case presented by Dr. Ezra Baraban and prepared by Dr. Eric Young.",
+      "vignette": "This specimen is from an 88-year-old male with a skin lesion. Diagnosis?",
+      "question_text": "Case presented by Dr. Ezra Baraban and prepared by Dr. Eric Young.\nThis specimen is from an 88-year-old male with a skin lesion.\nDiagnosis?",
+      "source_answer": "Atypical Fibroxanthoma",
+      "correct_answer": "Atypical Fibroxanthoma",
+      "canonical_answer": "Atypical Fibroxanthoma",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "Malignant melanoma",
+        "Atypical Fibroxanthoma",
+        "Undifferentiated pleomorphic sarcoma",
+        "Superficial CD34+ fibroblastic tumor",
+        "Sarcomatoid squamous cell carcinoma"
+      ],
+      "choices": [
+        "Malignant melanoma",
+        "Atypical Fibroxanthoma",
+        "Undifferentiated pleomorphic sarcoma",
+        "Superficial CD34+ fibroblastic tumor",
+        "Sarcomatoid squamous cell carcinoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/782_1.1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/783_1.2.png"
+      ],
+      "histology": "",
+      "discussion": "",
+      "references": [
+        {
+          "text": "Polcz MM, Sebaratnam DF, Fernández-Peñas P. Atypical fibroxanthoma management: Recurrence, metastasis and disease-specific death. Australas J Dermatol. 2018 Feb;59(1):10-25. doi: 10.1111/ajd.12646. Epub 2017 Aug 17. PMID: 28815551.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Sections show a malignant-appearing pleomorphic tumor involving dermis. An associated epithelial component or convincing keratin or P40 expression would be diagnostic of sarcomatoid squamous carcinoma. Expression of melanocytic markers would support melanoma. The presence of numerous mitotic figures, including atypical forms and the lack of CD34 expression exclude superficial CD34+ fibroblastic tumor, although this lesion also may be at risk for overdiagnosis as pleomorphic sarcoma. The morphologically malignant undifferentiated appearance, null immunophenotype, lack of perineural or lymphatic invasion and lack of subcutis involvement are the diagnostic features of atypical fibroxanthoma, which despite an overtly malignant morphology, has a benign clinical course. If perineural or lymphatic invasion or subcutis involvement were present, then a diagnosis of pleomorphic dermal sarcoma, which has a risk of recurrence and/or metastasis, would be warranted.\n\nReference:\n\nPolcz MM, Sebaratnam DF, Fernández-Peñas P. Atypical fibroxanthoma management: Recurrence, metastasis and disease-specific death. Australas J Dermatol. 2018 Feb;59(1):10-25. doi: 10.1111/ajd.12646. Epub 2017 Aug 17. PMID: 28815551.",
+      "feedback_html": "Sections show a malignant-appearing pleomorphic tumor involving dermis.&nbsp; An associated epithelial component or convincing keratin or P40 expression would be diagnostic of sarcomatoid squamous carcinoma.&nbsp; Expression of melanocytic markers would support melanoma.&nbsp; The presence of numerous mitotic figures, including atypical forms and the lack of CD34 expression exclude superficial CD34+ fibroblastic tumor, although this lesion also may be at risk for overdiagnosis as pleomorphic sarcoma.&nbsp;&nbsp; The morphologically malignant undifferentiated appearance, null immunophenotype, lack of perineural or lymphatic invasion and lack of subcutis involvement are the diagnostic features of atypical fibroxanthoma, which despite an overtly malignant morphology, has a benign clinical course.&nbsp; If perineural or lymphatic invasion or subcutis involvement were present, then a diagnosis of pleomorphic dermal sarcoma, which has a risk of recurrence and/or metastasis, would be warranted.<p></p>\n<p>Reference:</p>\n<p>Polcz MM, Sebaratnam DF, Fernández-Peñas P. Atypical fibroxanthoma management: Recurrence, metastasis and disease-specific death. Australas J Dermatol. 2018 Feb;59(1):10-25. doi: 10.1111/ajd.12646. Epub 2017 Aug 17. PMID: 28815551.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:09:51.748Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w781c3",
+      "url": "https://sp.pathology.jhu.edu/week-781-case-3-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 781: Case 3",
+      "case_label": "Week 781: Case 3",
+      "attribution": "Case presented by Dr. Lisa Rooper and prepared by Dr. Eric Young.",
+      "vignette": "This specimen is from a 50-year-old male with thyroid nodules. Diagnosis?",
+      "question_text": "Case presented by Dr. Lisa Rooper and prepared by Dr. Eric Young.\nThis specimen is from a 50-year-old male with thyroid nodules.\nDiagnosis?",
+      "source_answer": "Medullary thyroid carcinoma",
+      "correct_answer": "Medullary thyroid carcinoma",
+      "canonical_answer": "Medullary thyroid carcinoma",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "Parathyroid adenoma",
+        "Paraganglioma",
+        "Medullary thyroid carcinoma",
+        "Nodular c-cell hyperplasia"
+      ],
+      "choices": [
+        "Parathyroid adenoma",
+        "Paraganglioma",
+        "Medullary thyroid carcinoma",
+        "Nodular c-cell hyperplasia"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/3.1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/3.2.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/3.3.png"
+      ],
+      "histology": "",
+      "discussion": "",
+      "references": [
+        {
+          "text": "Xu B, Fuchs TL, Ahmadi S, et al. International Medullary Thyroid Carcinoma Grading System: A Validated Grading System for Medullary Thyroid Carcinoma. J Clin Oncol. 2022;40(1):96-104. doi:10.1200/JCO.21.01329",
+          "url": null
+        },
+        {
+          "text": "Febrero B, Rodríguez JM, Ríos A, et al. Prophylactic thyroidectomy in multiple endocrine neoplasia 2 (MEN2) patients with the C634Y mutation: A long-term follow-up in a large single-center cohort. Eur J Surg Oncol. 2019;45(4):625-630. doi:10.1016/j.ejso.2018.09.002",
+          "url": null
+        },
+        {
+          "text": "Lodish MB, Stratakis CA. RET oncogene in MEN2, MEN2B, MTC and other forms of thyroid cancer. Expert Rev Anticancer Ther. 2008;8(4):625-632. doi:10.1586/14737140.8.4.625",
+          "url": null
+        }
+      ],
+      "feedback_text": "Sections show discohesive clear and epithelioid cells arranged in nodules breaking through follicles (distinguishing from C-cell hyperplasia) and surrounding areas with prominent stromal response and amyloid deposition. These cells have “salt and pepper” chromatin. Patients with MEN2a and MEN2b syndromes are at an increased risk for developing these tumors. These tumors often contain activating mutations in the RET tyrosine kinase. Due to the origin of these tumors from the ultimobranchial body during development, these tumors arise in the upper half of the thyroid lobes and do not occur in the isthmus. Immunohistochemistry for neuroendocrine markers (synaptophysin, chromogranin, INSM1) is positive, as well as calcitonin (vs paraganglioma and parathyroid adenoma), TTF-1 and PAX8.\n\nReferences:\n\nXu B, Fuchs TL, Ahmadi S, et al. International Medullary Thyroid Carcinoma Grading System: A Validated Grading System for Medullary Thyroid Carcinoma. J Clin Oncol. 2022;40(1):96-104. doi:10.1200/JCO.21.01329\n\nFebrero B, Rodríguez JM, Ríos A, et al. Prophylactic thyroidectomy in multiple endocrine neoplasia 2 (MEN2) patients with the C634Y mutation: A long-term follow-up in a large single-center cohort. Eur J Surg Oncol. 2019;45(4):625-630. doi:10.1016/j.ejso.2018.09.002\n\nLodish MB, Stratakis CA. RET oncogene in MEN2, MEN2B, MTC and other forms of thyroid cancer. Expert Rev Anticancer Ther. 2008;8(4):625-632. doi:10.1586/14737140.8.4.625",
+      "feedback_html": "Sections show discohesive clear and epithelioid cells arranged in nodules breaking through follicles (distinguishing from C-cell hyperplasia) and surrounding areas with prominent stromal response and amyloid deposition. These cells have “salt and pepper” chromatin. Patients with MEN2a and MEN2b syndromes are at an increased risk for developing these tumors. These tumors often contain activating mutations in the RET tyrosine kinase. &nbsp;Due to the origin of these tumors from the ultimobranchial body during development, these tumors arise in the upper half of the thyroid lobes and do not occur in the isthmus. Immunohistochemistry for neuroendocrine markers (synaptophysin, chromogranin, INSM1) is positive, as well as calcitonin (vs paraganglioma and parathyroid adenoma), TTF-1 and PAX8.<p></p>\n<p>&nbsp;</p>\n<p>References:</p>\n<p>Xu B, Fuchs TL, Ahmadi S, et al. International Medullary Thyroid Carcinoma Grading System: A Validated Grading System for Medullary Thyroid Carcinoma. J Clin Oncol. 2022;40(1):96-104. doi:10.1200/JCO.21.01329</p>\n<p>Febrero B, Rodríguez JM, Ríos A, et al. Prophylactic thyroidectomy in multiple endocrine neoplasia 2 (MEN2) patients with the C634Y mutation: A long-term follow-up in a large single-center cohort. Eur J Surg Oncol. 2019;45(4):625-630. doi:10.1016/j.ejso.2018.09.002</p>\n<p>Lodish MB, Stratakis CA. RET oncogene in MEN2, MEN2B, MTC and other forms of thyroid cancer. Expert Rev Anticancer Ther. 2008;8(4):625-632. doi:10.1586/14737140.8.4.625</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:10:01.526Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w781c2",
+      "url": "https://sp.pathology.jhu.edu/week-781-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 781: Case 2",
+      "case_label": "Week 781: Case 2",
+      "attribution": "Case presented by Dr. Lisa Rooper and prepared by Dr. Eric Young.",
+      "vignette": "This specimen is from a 60-year-old male with a mediastinal mass. Diagnosis?",
+      "question_text": "Case presented by Dr. Lisa Rooper and prepared by Dr. Eric Young.\nThis specimen is from a 60-year-old male with a mediastinal mass.\nDiagnosis?",
+      "source_answer": "Micronodular thymoma with lymphoid stroma",
+      "correct_answer": "Micronodular thymoma with lymphoid stroma",
+      "canonical_answer": "Micronodular thymoma with lymphoid stroma",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "Thymic carcinoma",
+        "Micronodular thymoma with lymphoid stroma",
+        "Micronodular thymic carcinoma",
+        "Myasthenia gravis"
+      ],
+      "choices": [
+        "Thymic carcinoma",
+        "Micronodular thymoma with lymphoid stroma",
+        "Micronodular thymic carcinoma",
+        "Myasthenia gravis"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/2.1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/2.2.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/2.3.png"
+      ],
+      "histology": "",
+      "discussion": "",
+      "references": [
+        {
+          "text": "Kim NR, Lee JI, Ha SY. Micronodular thymoma with lymphoid stroma in a multilocular thymic cyst: a case study. Korean J Pathol. 2013;47(4):392-394. doi:10.4132/KoreanJPathol.2013.47.4.392",
+          "url": null
+        },
+        {
+          "text": "Travis, William D. \"Pathology & genetics tumours of the lung, pleura, thymus and heart.\" World Health Organization classification of tumours (2004).",
+          "url": null
+        }
+      ],
+      "feedback_text": "Sections show a well circumscribed basophilic mass of epithelioid cells and lymphocytes. Higher power reveals thymic epithelium and germinal centers with a whorled appearance and focally compact areas. Immunohistochemistry will be positive for TdT, which distinguishes this uncommon entity from other thymomas. Stains for CD20, CD10 and CD99 will also be positive. While this lesion has been associated with myasthenia gravis, the confluent epithelial nodules with interspersed lymphocytes distinguish it as a neoplastic process. These lesions are typically encapsulated or contain a minimal degree of invasion.\n\nReferences:\n\nKim NR, Lee JI, Ha SY. Micronodular thymoma with lymphoid stroma in a multilocular thymic cyst: a case study. Korean J Pathol. 2013;47(4):392-394. doi:10.4132/KoreanJPathol.2013.47.4.392\n\nTravis, William D. \"Pathology & genetics tumours of the lung, pleura, thymus and heart.\" World Health Organization classification of tumours (2004).",
+      "feedback_html": "Sections show a well circumscribed basophilic mass of epithelioid cells and lymphocytes. Higher power reveals thymic epithelium and germinal centers with a whorled appearance and focally compact areas. Immunohistochemistry will be positive for TdT, which distinguishes this uncommon entity from other thymomas. Stains for CD20, CD10 and CD99 will also be positive. While this lesion has been associated with myasthenia gravis, the confluent epithelial nodules with interspersed lymphocytes distinguish it as a neoplastic process. These lesions are typically encapsulated or contain a minimal degree of invasion.<p></p>\n<p>References:</p>\n<p>Kim NR, Lee JI, Ha SY. Micronodular thymoma with lymphoid stroma in a multilocular thymic cyst: a case study. Korean J Pathol. 2013;47(4):392-394. doi:10.4132/KoreanJPathol.2013.47.4.392</p>\n<p>Travis, William D. \"Pathology &amp; genetics tumours of the lung, pleura, thymus and heart.\" World Health Organization classification of tumours (2004).</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:10:10.805Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w781c1",
+      "url": "https://sp.pathology.jhu.edu/week-781-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 781: Case 1",
+      "case_label": "Week 781: Case 1",
+      "attribution": "Case presented by Dr. Lisa Rooper and prepared by Dr. Eric Young.",
+      "vignette": "This specimen is from a 60 year-old-female with a parotid mass. Diagnosis?",
+      "question_text": "Case presented by Dr. Lisa Rooper and prepared by Dr. Eric Young.\nThis specimen is from a 60 year-old-female with a parotid mass.\nDiagnosis?",
+      "source_answer": "acinic cell carcinoma",
+      "correct_answer": "acinic cell carcinoma",
+      "canonical_answer": "acinic cell carcinoma",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "acinic cell carcinoma",
+        "squamous cell carcinoma",
+        "solid and cystic carcinoma",
+        "sclerosing and cystic carcinoma"
+      ],
+      "choices": [
+        "acinic cell carcinoma",
+        "squamous cell carcinoma",
+        "solid and cystic carcinoma",
+        "sclerosing and cystic carcinoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/1.1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/1.2.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/1.3.png"
+      ],
+      "histology": "",
+      "discussion": "",
+      "references": [
+        {
+          "text": "Owosho A et al: NR4A3 (NOR-1) immunostaining shows better performance than dog1 immunostaining in acinic cell carcinoma of salivary gland: a preliminary study. J Oral Maxillofac Res. 12(1):e4, 2021",
+          "url": null
+        },
+        {
+          "text": "Said-Al-Naief N et al: Combined DOG1 and mammaglobin immunohistochemistry is comparable to ETV6-breakapart analysis for differentiating between papillary cystic variants of acinic cell carcinoma and mammary analogue secretory carcinoma. Int J Surg Pathol. Apr;25(2):127-40, 2017",
+          "url": null
+        },
+        {
+          "text": "Andreasen S et al: The HTN3-MSANTD3 fusion gene defines a subset of acinic cell carcinoma of the salivary gland. Am J Surg Pathol. 43(4):489-96, 2019",
+          "url": null
+        }
+      ],
+      "feedback_text": "Sections show a circumscribed and infiltrating epithelial neoplasm with amphiphilic cytoplasm. There is associated prominent lymphocytic infiltrate with lymphoid proliferation and germinal center formation. High power shows dusty zymogen granules and low-grade appearing nuclei. These granules would be positive for PAS-D, but not mucicarmine. Immunostains for these lesions are positive for DOG1 and NR4A3. Up to 80% of these tumors contain rearrangements t(4;9)(q13;q31) in this nuclear receptor subfamily 4 group A member 3 (NR4A3).\n\nReferences:\n\nOwosho A et al: NR4A3 (NOR-1) immunostaining shows better performance than dog1 immunostaining in acinic cell carcinoma of salivary gland: a preliminary study. J Oral Maxillofac Res. 12(1):e4, 2021\n\nSaid-Al-Naief N et al: Combined DOG1 and mammaglobin immunohistochemistry is comparable to ETV6-breakapart analysis for differentiating between papillary cystic variants of acinic cell carcinoma and mammary analogue secretory carcinoma. Int J Surg Pathol. Apr;25(2):127-40, 2017\n\nAndreasen S et al: The HTN3-MSANTD3 fusion gene defines a subset of acinic cell carcinoma of the salivary gland. Am J Surg Pathol. 43(4):489-96, 2019",
+      "feedback_html": "Sections show a circumscribed and infiltrating epithelial neoplasm with amphiphilic cytoplasm. There is associated prominent lymphocytic infiltrate with lymphoid proliferation and germinal center formation.&nbsp; High power shows dusty zymogen granules and low-grade appearing nuclei. These granules would be positive for PAS-D, but not mucicarmine. Immunostains for these lesions are positive for DOG1 and NR4A3. Up to 80% of these tumors contain rearrangements t(4;9)(q13;q31) in this nuclear receptor subfamily 4 group A member 3 (NR4A3).<p></p>\n<p>References:</p>\n<p>Owosho A et al: NR4A3 (NOR-1) immunostaining shows better performance than dog1 immunostaining in acinic cell carcinoma of salivary gland: a preliminary study. J Oral Maxillofac Res. 12(1):e4, 2021</p>\n<p>Said-Al-Naief N et al: Combined DOG1 and mammaglobin immunohistochemistry is comparable to ETV6-breakapart analysis for differentiating between papillary cystic variants of acinic cell carcinoma and mammary analogue secretory carcinoma. Int J Surg Pathol. Apr;25(2):127-40, 2017</p>\n<p>Andreasen S et al: The HTN3-MSANTD3 fusion gene defines a subset of acinic cell carcinoma of the salivary gland. Am J Surg Pathol. 43(4):489-96, 2019</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:10:21.909Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w780c3",
+      "url": "https://sp.pathology.jhu.edu/23879-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 780: Case 3",
+      "case_label": "Week 780: Case 3",
+      "attribution": "Case presented by Dr. Ezra Baraban and prepared by Dr. Eric Young.",
+      "vignette": "This is a kidney biopsy of a 47-year-old female. Diagnosis?",
+      "question_text": "Case presented by Dr. Ezra Baraban and prepared by Dr. Eric Young.\nThis is a kidney biopsy of a 47-year-old female.\nDiagnosis?",
+      "source_answer": "Angiomyolipoma",
+      "correct_answer": "Angiomyolipoma",
+      "canonical_answer": "Angiomyolipoma",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "Leiomyoma",
+        "Translocation associated renal cell carcinoma",
+        "Sarcomatoid renal cell carcinoma",
+        "Angiomyolipoma"
+      ],
+      "choices": [
+        "Leiomyoma",
+        "Translocation associated renal cell carcinoma",
+        "Sarcomatoid renal cell carcinoma",
+        "Angiomyolipoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8419.svs-339812234337835257512x_3.1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8419.svs-374342258639574244794x_3.2.png"
+      ],
+      "histology": "",
+      "discussion": "",
+      "references": [
+        {
+          "text": "Lane BR, Aydin H, Danforth TL, Zhou M, Remer EM, Novick AC, Campbell SC. Clinical correlates of renal angiomyolipoma subtypes in 209 patients: classic, fat poor, tuberous sclerosis associated and epithelioid. J Urol. 2008 Sep;180(3):836-43. doi: 10.1016/j.juro.2008.05.041. Epub 2008 Jul 16. PMID: 18635231.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Sections show a bland spindle cell neoplasm with keloidal collagen and vaguely nested to fascicular growth. Leiomyoma is vanishingly rare in the kidney and would have more overt fascicular growth with dense eosinophilic cytoplasm, and typically lacks expression of melanocytic markers. Translocation RCC may label with melanocytic markers and/or cathepsin-K but typically expresses PAX8 and/or cytokeratin. Sarcomatoid renal cell carcinoma will be overtly malignant histologically and expression of keratin and/or PAX8 would support the diagnosis. Angiomyolipoma is the most common benign spindle cell neoplasm in the kidney and may lack a fatty component, leading to concern for renal cell carcinoma radiographically. Labeling with cathepsin-K supports the diagnosis, as does the subtly vacuolated pink cytoplasm with intracytoplasmic filaments, a feature that is suggestive of the diagnosis of PEComa at both renal as well as extra-renal sites.\n\nReference:\n\nLane BR, Aydin H, Danforth TL, Zhou M, Remer EM, Novick AC, Campbell SC. Clinical correlates of renal angiomyolipoma subtypes in 209 patients: classic, fat poor, tuberous sclerosis associated and epithelioid. J Urol. 2008 Sep;180(3):836-43. doi: 10.1016/j.juro.2008.05.041. Epub 2008 Jul 16. PMID: 18635231.",
+      "feedback_html": "Sections show a bland spindle cell neoplasm with keloidal collagen and vaguely nested to fascicular growth.&nbsp; Leiomyoma is vanishingly rare in the kidney and would have more overt fascicular growth with dense eosinophilic cytoplasm, and typically lacks expression of melanocytic markers.&nbsp; Translocation RCC may label with melanocytic markers and/or cathepsin-K but typically expresses PAX8 and/or cytokeratin.&nbsp; Sarcomatoid renal cell carcinoma will be overtly malignant histologically and expression of keratin and/or PAX8 would support the diagnosis.&nbsp; Angiomyolipoma is the most common benign spindle cell neoplasm in the kidney and may lack a fatty component, leading to concern for renal cell carcinoma radiographically.&nbsp; Labeling with cathepsin-K supports the diagnosis, as does the subtly vacuolated pink cytoplasm with intracytoplasmic filaments, a feature that is suggestive of the diagnosis of PEComa at both renal as well as extra-renal sites.<p></p>\n<p>Reference:</p>\n<p>Lane BR, Aydin H, Danforth TL, Zhou M, Remer EM, Novick AC, Campbell SC. Clinical correlates of renal angiomyolipoma subtypes in 209 patients: classic, fat poor, tuberous sclerosis associated and epithelioid. J Urol. 2008 Sep;180(3):836-43. doi: 10.1016/j.juro.2008.05.041. Epub 2008 Jul 16. PMID: 18635231.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:10:31.287Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w780c2",
+      "url": "https://sp.pathology.jhu.edu/week-780-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 780: Case 2",
+      "case_label": "Week 780: Case 2",
+      "attribution": "Case presented by Dr. Ezra Baraban and prepared by Dr. Eric Young.",
+      "vignette": "This is a nephrectomy specimen from a 68-year-old male. Diagnosis?",
+      "question_text": "Case presented by Dr. Ezra Baraban and prepared by Dr. Eric Young.\nThis is a nephrectomy specimen from a 68-year-old male.\nDiagnosis?",
+      "source_answer": "Tubulocystic renal cell carcinoma",
+      "correct_answer": "Tubulocystic renal cell carcinoma",
+      "canonical_answer": "Tubulocystic renal cell carcinoma",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "Multilocular cystic renal neoplasm of low malignant potential",
+        "Fumarate hydratase deficient renal cell carcinoma",
+        "Oncocytoma",
+        "Tubulocystic renal cell carcinoma"
+      ],
+      "choices": [
+        "Multilocular cystic renal neoplasm of low malignant potential",
+        "Fumarate hydratase deficient renal cell carcinoma",
+        "Oncocytoma",
+        "Tubulocystic renal cell carcinoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8417.svs-22955985665695501371x_2.1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8417.svs-385102751043074315452x_2.2.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8417.svs-391665073940574519845x_2.3.png"
+      ],
+      "histology": "",
+      "discussion": "",
+      "references": [
+        {
+          "text": "Sarungbam J, Mehra R, Tomlins SA, Smith SC, Jayakumaran G, Al-Ahmadie H, Gopalan A, Sirintrapun SJ, Fine SW, Zhang Y, Amin MB, Reuter VE, Chen YB, Tickoo SK. Tubulocystic renal cell carcinoma: a distinct clinicopathologic entity with a characteristic genomic profile. Mod Pathol. 2019 May;32(5):701-709. doi: 10.1038/s41379-018-0185-5. Epub 2019 Jan 8. PMID: 30622286; PMCID: PMC7549436.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Sections show a high-grade multicystic neoplasm composed entirely of cysts of variable size lined by hobnail epithelium with eosinophilic cytoplasm, prominent nucleoli, and irregular nuclear contours. Fumarate hydratase deficient renal cell carcinoma can have similar cytology and can have multicystic areas but often also displays areas of solid or papillary architecture and infiltrative growth. Retained FH staining and lack of 2SC expression argue against that diagnosis. Oncocytoma can have areas with tubular and/or cystic growth but the nuclei should lack irregularity and at least focally the architecture should consist of rounded nests within edematous/fibromyxoid stroma. Diffuse CK7 expression would exclude oncocytoma. Multilocular cystic renal neoplasm of low malignant potential is exclusively cystic but the lining cells have optically clear cytoplasm and the nests of clear cells should be confined to the septae of the cysts without deforming them with expansile nodules.\n\nReference:\n\nSarungbam J, Mehra R, Tomlins SA, Smith SC, Jayakumaran G, Al-Ahmadie H, Gopalan A, Sirintrapun SJ, Fine SW, Zhang Y, Amin MB, Reuter VE, Chen YB, Tickoo SK. Tubulocystic renal cell carcinoma: a distinct clinicopathologic entity with a characteristic genomic profile. Mod Pathol. 2019 May;32(5):701-709. doi: 10.1038/s41379-018-0185-5. Epub 2019 Jan 8. PMID: 30622286; PMCID: PMC7549436.",
+      "feedback_html": "Sections show a high-grade multicystic neoplasm composed entirely of cysts of variable size lined by hobnail epithelium with eosinophilic cytoplasm, prominent nucleoli, and irregular nuclear contours.&nbsp; Fumarate hydratase deficient renal cell carcinoma can have similar cytology and can have multicystic areas but often also displays areas of solid or papillary architecture and infiltrative growth.&nbsp; Retained FH staining and lack of 2SC expression argue against that diagnosis.&nbsp; Oncocytoma can have areas with tubular and/or cystic growth but the nuclei should lack irregularity and at least focally the architecture should consist of rounded nests within edematous/fibromyxoid stroma.&nbsp; Diffuse CK7 expression would exclude oncocytoma.&nbsp; Multilocular cystic renal neoplasm of low malignant potential is exclusively cystic but the lining cells have optically clear cytoplasm and the nests of clear cells should be confined to the septae of the cysts without deforming them with expansile nodules.<p></p>\n<p>Reference:</p>\n<p>Sarungbam J, Mehra R, Tomlins SA, Smith SC, Jayakumaran G, Al-Ahmadie H, Gopalan A, Sirintrapun SJ, Fine SW, Zhang Y, Amin MB, Reuter VE, Chen YB, Tickoo SK. Tubulocystic renal cell carcinoma: a distinct clinicopathologic entity with a characteristic genomic profile. Mod Pathol. 2019 May;32(5):701-709. doi: 10.1038/s41379-018-0185-5. Epub 2019 Jan 8. PMID: 30622286; PMCID: PMC7549436.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:10:41.229Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w780c1",
+      "url": "https://sp.pathology.jhu.edu/week-780-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 780: Case 1",
+      "case_label": "Week 780: Case 1",
+      "attribution": "Case presented by Dr. Ezra Baraban and prepared by Dr. Eric Young.",
+      "vignette": "This is a nephrectomy specimen from a 66-year-old male.",
+      "question_text": "Case presented by Dr. Ezra Baraban and prepared by Dr. Eric Young.\nThis is a nephrectomy specimen from a 66-year-old male.",
+      "source_answer": "Sarcomatoid urothelial carcinoma",
+      "correct_answer": "Sarcomatoid urothelial carcinoma",
+      "canonical_answer": "Sarcomatoid urothelial carcinoma",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "Sarcomatoid renal cell carcinoma",
+        "Sarcomatoid urothelial carcinoma",
+        "Malignant melanoma",
+        "Sarcomatoid mesothelioma"
+      ],
+      "choices": [
+        "Sarcomatoid renal cell carcinoma",
+        "Sarcomatoid urothelial carcinoma",
+        "Malignant melanoma",
+        "Sarcomatoid mesothelioma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8416.svs-425134653257093536022x_1.1-1-1024x497.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/06/8416.svs-461434634347467474826x_1.2-1.png"
+      ],
+      "histology": "",
+      "discussion": "",
+      "references": [
+        {
+          "text": "Amin MB. Histological variants of urothelial carcinoma: diagnostic, therapeutic and prognostic implications. Mod Pathol. 2009 Jun;22 Suppl 2:S96-S118. doi: 10.1038/modpathol.2009.26. PMID: 19494856.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Sections show a malignant spindle cell tumor with extensive necrosis based in the renal pelvis. An associated epithelial component either invasive or in-situ would be diagnostic of sarcomatoid carcinoma, either renal cell or urothelial. In the absence of an epithelial component, immunohistochemistry to provide evidence of epithelial differentiation and lineage can be helpful. Consideration of non-epithelial spindle cell lesions is also worthwhile. This patient had a history of non-invasive urothelial carcinoma, a clue toward sarcomatoid carcinoma. This tumor also labeled with keratin and GATA3 while negative for PAX8, supporting sarcomatoid urothelial carcinoma. Melanoma would be expected to express SOX10. Although mesothelioma could certainly express cytokeratin and GATA3, the history of urothelial carcinoma, epicenter of the tumor in the renal pelvis and lack of peritoneal disease, and lack of expression of other mesothelial markers exclude that diagnosis.\n\nReference:\n\nAmin MB. Histological variants of urothelial carcinoma: diagnostic, therapeutic and prognostic implications. Mod Pathol. 2009 Jun;22 Suppl 2:S96-S118. doi: 10.1038/modpathol.2009.26. PMID: 19494856.",
+      "feedback_html": "Sections show a malignant spindle cell tumor with extensive necrosis based in the renal pelvis. An associated epithelial component either invasive or in-situ would be diagnostic of sarcomatoid carcinoma, either renal cell or urothelial. In the absence of an epithelial component, immunohistochemistry to provide evidence of epithelial differentiation and lineage can be helpful. Consideration of non-epithelial spindle cell lesions is also worthwhile. This patient had a history of non-invasive urothelial carcinoma, a clue toward sarcomatoid carcinoma. This tumor also labeled with keratin and GATA3 while negative for PAX8, supporting sarcomatoid urothelial carcinoma. Melanoma would be expected to express SOX10. Although mesothelioma could certainly express cytokeratin and GATA3, the history of urothelial carcinoma, epicenter of the tumor in the renal pelvis and lack of peritoneal disease, and lack of expression of other mesothelial markers exclude that diagnosis.<p></p>\n<p>Reference:<br>\nAmin MB. Histological variants of urothelial carcinoma: diagnostic, therapeutic and prognostic implications. Mod Pathol. 2009 Jun;22 Suppl 2:S96-S118. doi: 10.1038/modpathol.2009.26. PMID: 19494856.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:10:50.435Z",
+      "extractor_version": "1.0.0"
+    }
+  ]
+}
