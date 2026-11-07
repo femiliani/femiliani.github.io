@@ -1,0 +1,434 @@
+{
+  "case_start": 191,
+  "case_end": 200,
+  "case_count": 10,
+  "cases": [
+    {
+      "id": "w757c2",
+      "url": "https://sp.pathology.jhu.edu/week-757-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 757: Case 2",
+      "case_label": "Week 757: Case 2",
+      "attribution": "Presented by Dr. Ezra Baraban and prepared by Dr. Sintawat Wangsiricharoen.",
+      "vignette": "A 70-year-old man with a thigh mass. Choose the correct diagnosis:",
+      "question_text": "Presented by Dr. Ezra Baraban and prepared by Dr. Sintawat Wangsiricharoen.\nA 70-year-old man with a thigh mass. Choose the correct diagnosis:",
+      "source_answer": "B. Epithelioid angiosarcoma",
+      "correct_answer": "Epithelioid angiosarcoma",
+      "canonical_answer": "Epithelioid angiosarcoma",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Epithelioid sarcoma",
+        "B. Epithelioid angiosarcoma",
+        "C. Sarcomatoid carcinoma",
+        "D. Melanoma"
+      ],
+      "choices": [
+        "Epithelioid sarcoma",
+        "Epithelioid angiosarcoma",
+        "Sarcomatoid carcinoma",
+        "Melanoma"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8203.ndpi-25298562892418666391x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8203.ndpi-756022705687111375184x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8203.ndpi-717581545378152212657x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8203.ndpi-7206118105760862178710x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8203.ndpi-7300119188749392096120x.png"
+      ],
+      "histology": "",
+      "discussion": "",
+      "references": [],
+      "feedback_text": "Answer: B. Epithelioid angiosarcoma.\n\nSections show a high grade malignant epithelioid neoplasm with focal prominent intercellular hemorrhage. The differential diagnosis is broad, and includes sarcomatoid carcinoma, melanoma, and various sarcomas. Negativity for S100 and SOX10 eliminate melanoma. Lack of primary carcinoma elsewhere and the absence of an epithelial component argue against sarcomatoid carcinoma. Expression of ERG, CD31, and CD34 support epithelioid angiosarcoma. Importantly, epithelioid sarcoma may express multiple endothelial markers, particularly CD34 and ERG. CD31 is typically negative, and importantly, INI1 expression will invariably be absent in epithelioid sarcoma and retained in epithelioid angiosarcoma.",
+      "feedback_html": "Answer: B. Epithelioid angiosarcoma.<p></p>\n<p>Sections show a high grade malignant epithelioid neoplasm with focal prominent intercellular hemorrhage. The differential diagnosis is broad, and includes sarcomatoid carcinoma, melanoma, and various sarcomas. Negativity for S100 and SOX10 eliminate melanoma. Lack of primary carcinoma elsewhere and the absence of an epithelial component argue against sarcomatoid carcinoma. Expression of ERG, CD31, and CD34 support epithelioid angiosarcoma. Importantly, epithelioid sarcoma may express multiple endothelial markers, particularly CD34 and ERG. CD31 is typically negative, and importantly, INI1 expression will invariably be absent in epithelioid sarcoma and retained in epithelioid angiosarcoma.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:24:48.280Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w757c1",
+      "url": "https://sp.pathology.jhu.edu/week-757-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 757: Case 1",
+      "case_label": "Week 757: Case 1",
+      "attribution": "Presented by Dr. Ezra Baraban and prepared by Dr. Sintawat Wangsiricharoen.",
+      "vignette": "A 77-year-old man with peritoneal carcinomatosis. Choose the correct diagnosis:",
+      "question_text": "Presented by Dr. Ezra Baraban and prepared by Dr. Sintawat Wangsiricharoen.\nA 77-year-old man with peritoneal carcinomatosis. Choose the correct diagnosis:",
+      "source_answer": "C. Malignant mesothelioma",
+      "correct_answer": "Malignant mesothelioma",
+      "canonical_answer": "Malignant mesothelioma",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "A. Metastatic adenocarcinoma, likely of upper GI or pancreaticobiliary origin",
+        "B. Reactive mesothelial proliferation",
+        "C. Malignant mesothelioma",
+        "D. Desmoplastic small round cell tumor"
+      ],
+      "choices": [
+        "Metastatic adenocarcinoma, likely of upper GI or pancreaticobiliary origin",
+        "Reactive mesothelial proliferation",
+        "Malignant mesothelioma",
+        "Desmoplastic small round cell tumor"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8201.ndpi-26748696272809503221x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8201.ndpi-29868849450882282772x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8201.ndpi-9023714146111251339292x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8201.ndpi-9734021306106812302224x.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2022/01/8201.ndpi-102960215401069362515410x.png"
+      ],
+      "histology": "",
+      "discussion": "",
+      "references": [],
+      "feedback_text": "Answer: C. Malignant mesothelioma.\n\nSections show an epithelioid neoplasm infiltrating adipose tissue, such that if this lesion were of mesothelial lineage, it would qualify as malignant mesothelioma. The main differential diagnosis is between metastatic adenocarcinoma and mesothelioma. Immunohistochemistry is critical, with positivity for multiple mesothelial markers (CK5/6, WT1, calretinin, and D240) and negativity for multiple carcinoma markers (claudin-4, MOC31, BerEP4) essential to support the mesothelial nature of this proliferation. Importantly, diffuse keratin expression is expected in mesothelial lesions, so cannot distinguish between adenocarcinoma and mesothelioma. If definitive invasion is not present, BAP1 or MTAP loss can support a diagnosis of mesothelioma, but retention of either of these does not exclude it. Desmoplastic small round cell tumor can have immunophenotypic overlap with mesothelioma (keratin, WT1 expression), but should lack calretinin and D240 expression, and would also typically label with desmin, and importantly, has an undifferentiated appearance morphologically, as opposed to the tubular morphology that predominates in this case. Rare mesotheliomas can have EWSR1 fusions, which are the hallmark of desmoplastic small round cell tumor, so the presence of an EWSR1 fusion alone does not distinguish between these two entities either.",
+      "feedback_html": "Answer: C. Malignant mesothelioma.<p></p>\n<p>Sections show an epithelioid neoplasm infiltrating adipose tissue, such that if this lesion were of mesothelial lineage, it would qualify as malignant mesothelioma. The main differential diagnosis is between metastatic adenocarcinoma and mesothelioma. Immunohistochemistry is critical, with positivity for multiple mesothelial markers (CK5/6, WT1, calretinin, and D240) and negativity for multiple carcinoma markers (claudin-4, MOC31, BerEP4) essential to support the mesothelial nature of this proliferation. Importantly, diffuse keratin expression is expected in mesothelial lesions, so cannot distinguish between adenocarcinoma and mesothelioma. If definitive invasion is not present, BAP1 or MTAP loss can support a diagnosis of mesothelioma, but retention of either of these does not exclude it. Desmoplastic small round cell tumor can have immunophenotypic overlap with mesothelioma (keratin, WT1 expression), but should lack calretinin and D240 expression, and would also typically label with desmin, and importantly, has an undifferentiated appearance morphologically, as opposed to the tubular morphology that predominates in this case. Rare mesotheliomas can have EWSR1 fusions, which are the hallmark of desmoplastic small round cell tumor, so the presence of an EWSR1 fusion alone does not distinguish between these two entities either.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:24:58.303Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w756c3",
+      "url": "https://sp.pathology.jhu.edu/week-756-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 756: Case 3",
+      "case_label": "Week 756: Case 3",
+      "attribution": "Presented by Dr. Andres Matoso and prepared by Dr. Monica Butcher",
+      "vignette": "Adult male with lower urinary tract symptoms, TURP Diagnosis:",
+      "question_text": "Presented by Dr. Andres Matoso and prepared by Dr. Monica Butcher\nAdult male with lower urinary tract symptoms, TURP\nDiagnosis:",
+      "source_answer": "B. Sarcomatoid carcinoma",
+      "correct_answer": "Sarcomatoid carcinoma",
+      "canonical_answer": "Sarcomatoid carcinoma",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Solitary fibrous tumor",
+        "B. Sarcomatoid carcinoma",
+        "C. Stromal nodule of benign prostatic hyperplasia",
+        "D. Stromal tumor of uncertain malignant potential"
+      ],
+      "choices": [
+        "Solitary fibrous tumor",
+        "Sarcomatoid carcinoma",
+        "Stromal nodule of benign prostatic hyperplasia",
+        "Stromal tumor of uncertain malignant potential"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-756_Case-3_1.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-756_Case-3_2.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-756_Case-3_3.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-756_Case-3_5.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-756_Case-3_4.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-756_Case-3_6.png"
+      ],
+      "histology": "Prostate tissue with large cribriform glands with central necrosis and a proliferation of spindle cells in myxoid background.",
+      "discussion": "Sarcomatoid carcinoma (\"carcinosarcoma\") of the prostate is a rare type of prostate cancer that demonstrates a combination of malignant epithelial and sarcomatoid components. The epithelial component of these tumors is often a high-grade adenocarcinoma, although squamous and urothelial components have also been reported. The accompanying sarcomatoid component often demonstrates a spindled appearance, although heterologous elements resembling osteosarcoma, rhabdomyosarcoma, chondrosarcoma, and angiosarcoma may be present in a subset of cases. In general, sarcomatoid carcinoma of the prostate has been described as an aggressive neoplasm with an associated poor prognosis. Although the origin of these tumors has been controversial, the epithelial and sarcomatoid components are currently thought to be derived from a single cell of origin, rather than representing a combination of separate epithelial and mesenchymal tumor types colliding in the same organ. Sarcomatoid carcinoma of the prostate is a highly aggressive neoplasm that leads to a poor patient outcome in most, if not all, cases.",
+      "references": [],
+      "feedback_text": "Correct: B\n\nHistology: Prostate tissue with large cribriform glands with central necrosis and a proliferation of spindle cells in myxoid background.\n\nDiscussion: Sarcomatoid carcinoma (\"carcinosarcoma\") of the prostate is a rare type of prostate cancer that demonstrates a combination of malignant epithelial and sarcomatoid components. The epithelial component of these tumors is often a high-grade adenocarcinoma, although squamous and urothelial components have also been reported. The accompanying sarcomatoid component often demonstrates a spindled appearance, although heterologous elements resembling osteosarcoma, rhabdomyosarcoma, chondrosarcoma, and angiosarcoma may be present in a subset of cases. In general, sarcomatoid carcinoma of the prostate has been described as an aggressive neoplasm with an associated poor prognosis. Although the origin of these tumors has been controversial, the epithelial and sarcomatoid components are currently thought to be derived from a single cell of origin, rather than representing a combination of separate epithelial and mesenchymal tumor types colliding in the same organ. Sarcomatoid carcinoma of the prostate is a highly aggressive neoplasm that leads to a poor patient outcome in most, if not all, cases.\n\nReferences\n\n1. Am J Surg Pathol. 2006 Oct; 30(10):1316-21.",
+      "feedback_html": "Correct: B<p></p>\n<p>Histology: Prostate tissue with large cribriform glands with central necrosis and a proliferation of spindle cells in myxoid background.  </p>\n<p>Discussion:  Sarcomatoid carcinoma (\"carcinosarcoma\") of the prostate is a rare type of prostate cancer that demonstrates a combination of malignant epithelial and sarcomatoid components. The epithelial component of these tumors is often a high-grade adenocarcinoma, although squamous and urothelial components have also been reported. The accompanying sarcomatoid component often demonstrates a spindled appearance, although heterologous elements resembling osteosarcoma, rhabdomyosarcoma, chondrosarcoma, and angiosarcoma may be present in a subset of cases. In general, sarcomatoid carcinoma of the prostate has been described as an aggressive neoplasm with an associated poor prognosis. Although the origin of these tumors has been controversial, the epithelial and sarcomatoid components are currently thought to be derived from a single cell of origin, rather than representing a combination of separate epithelial and mesenchymal tumor types colliding in the same organ. Sarcomatoid carcinoma of the prostate is a highly aggressive neoplasm that leads to a poor patient outcome in most, if not all, cases. </p>\n<p>References<br>\n1. \tAm J Surg Pathol. 2006 Oct; 30(10):1316-21.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:25:09.488Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w756c2",
+      "url": "https://sp.pathology.jhu.edu/week-756-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 756: Case 2",
+      "case_label": "Week 756: Case 2",
+      "attribution": "Presented by Dr. Andres Matoso and prepared by Dr. Monica Butcher",
+      "vignette": "Adult female with intra-abdominal mass Diagnosis:",
+      "question_text": "Presented by Dr. Andres Matoso and prepared by Dr. Monica Butcher\nAdult female with intra-abdominal mass\nDiagnosis:",
+      "source_answer": "D. Dysgenetic testis",
+      "correct_answer": "Dysgenetic testis",
+      "canonical_answer": "Dysgenetic testis",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "A. Androgen insensitivity syndrome",
+        "B. Ovotestis syndrome",
+        "C. Cryptorchid testis",
+        "D. Dysgenetic testis"
+      ],
+      "choices": [
+        "Androgen insensitivity syndrome",
+        "Ovotestis syndrome",
+        "Cryptorchid testis",
+        "Dysgenetic testis"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-756_Case-2_1.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-756_Case-2_3.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-756_Case-2_2.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-756_Case-2_4.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-756_Case-2_5.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-756_Case-2_6.png"
+      ],
+      "histology": "Immature testicular tissue with nests of immature seminiferous tubules within rete testis and tunica albuginea. There are scattered germ cells located within seminiferous tubules but there is no active spermatogenesis.",
+      "discussion": "Failure of normal embryonic development in the originally bi-potential gonad may result in a more-or-less aberrant postnatal testis or ovary. The resulting group of conditions, which are characterized by a varying degree of abnormally configured or differentiated gonads, is referred to as gonadal dysgenesis (GD). In complete gonadal dysgenesis (CGD), the ordinary tissue arrangement of the gonad is entirely lost, while it is retained to some extent in partial gonadal dysgenesis (PGD). One of the most characteristic histological findings of dysgenetic testis is that instead of well collagenized tunica albuginea, the dysgenetic testis shows poorly collagenized tunica featuring ovarian like stroma or with entrapped seminiferous tubules. Gonadal dysgenesis may occur unilaterally or bilaterally, when respectively one or both gonads are affected to a greater or lesser extent. In 46,XY CGD, the lack of hormonal function affects the development of internal and external genitalia, resulting in a female phenotype. Individuals with GD have a particular high risk for germ cell malignancy, with reported risks varying between 8 and 54%, making early diagnosis particularly relevant. The use of immunohistochemistry for the detection of germ cells at different stages of development, and in particular germ cell malignancy and its precursor lesions, is common but could lead to interpretation problems in cases of gonadal dysgenesis. One of these germ-cell-specific markers, the transcription factor OCT4, is not restricted to malignant germ cells, as it is an embryonic marker that is expressed during gestation and usually detectable until late-fetal or early postnatal life. Prolonged expression of OCT4 in otherwise normal looking germ cells after the age of 6 months is regularly observed in the context of dysgenetic testis, and should be interpreted as a delay in maturation if a linear arrangement of germ cells with atypia seen in germ cell neoplasia in situ is not present.",
+      "references": [
+        {
+          "text": "Pediatric and Developmental Pathology 18, 259\"278, 2015",
+          "url": null
+        }
+      ],
+      "feedback_text": "Correct: D\n\nHistology: Immature testicular tissue with nests of immature seminiferous tubules within rete testis and tunica albuginea. There are scattered germ cells located within seminiferous tubules but there is no active spermatogenesis.\n\nDiscussion: Failure of normal embryonic development in the originally bi-potential gonad may result in a more-or-less aberrant postnatal testis or ovary. The resulting group of conditions, which are characterized by a varying degree of abnormally configured or differentiated gonads, is referred to as gonadal dysgenesis (GD). In complete gonadal dysgenesis (CGD), the ordinary tissue arrangement of the gonad is entirely lost, while it is retained to some extent in partial gonadal dysgenesis (PGD). One of the most characteristic histological findings of dysgenetic testis is that instead of well collagenized tunica albuginea, the dysgenetic testis shows poorly collagenized tunica featuring ovarian like stroma or with entrapped seminiferous tubules. Gonadal dysgenesis may occur unilaterally or bilaterally, when respectively one or both gonads are affected to a greater or lesser extent. In 46,XY CGD, the lack of hormonal function affects the development of internal and external genitalia, resulting in a female phenotype. Individuals with GD have a particular high risk for germ cell malignancy, with reported risks varying between 8 and 54%, making early diagnosis particularly relevant. The use of immunohistochemistry for the detection of germ cells at different stages of development, and in particular germ cell malignancy and its precursor lesions, is common but could lead to interpretation problems in cases of gonadal dysgenesis. One of these germ-cell-specific markers, the transcription factor OCT4, is not restricted to malignant germ cells, as it is an embryonic marker that is expressed during gestation and usually detectable until late-fetal or early postnatal life. Prolonged expression of OCT4 in otherwise normal looking germ cells after the age of 6 months is regularly observed in the context of dysgenetic testis, and should be interpreted as a delay in maturation if a linear arrangement of germ cells with atypia seen in germ cell neoplasia in situ is not present.\n\nReferences:\n\n1. Pediatric and Developmental Pathology 18, 259\"278, 2015",
+      "feedback_html": "Correct: D<p></p>\n<p>Histology: Immature testicular tissue with nests of immature seminiferous tubules within rete testis and tunica albuginea. There are scattered germ cells located within seminiferous tubules but there is no active spermatogenesis. </p>\n<p>Discussion: Failure of normal embryonic development in the originally bi-potential gonad may result in a more-or-less aberrant postnatal testis or ovary.  The resulting group of conditions, which are characterized by a varying degree of abnormally configured or differentiated gonads, is referred to as gonadal dysgenesis (GD). In complete gonadal dysgenesis (CGD), the ordinary tissue arrangement of the gonad is entirely lost, while it is retained to some extent in partial gonadal dysgenesis (PGD). One of the most characteristic histological findings of dysgenetic testis is that instead of well collagenized tunica albuginea, the dysgenetic testis shows poorly collagenized tunica featuring ovarian like stroma or with entrapped seminiferous tubules.  Gonadal dysgenesis may occur unilaterally or bilaterally, when respectively one or both gonads are affected to a greater or lesser extent. In 46,XY CGD, the lack of hormonal function affects the development of internal and external genitalia, resulting in a female phenotype. Individuals with GD have a particular high risk for germ cell malignancy, with reported risks varying between 8 and 54%, making early diagnosis particularly relevant. The use of immunohistochemistry for the detection of germ cells at different stages of development, and in particular germ cell malignancy and its precursor lesions, is common but could lead to interpretation problems in cases of gonadal dysgenesis. One of these germ-cell-specific markers, the transcription factor OCT4, is not restricted to malignant germ cells, as it is an embryonic marker that is expressed during gestation and usually detectable until late-fetal or early postnatal life. Prolonged expression of OCT4 in otherwise normal looking germ cells after the age of 6 months is regularly observed in the context of dysgenetic testis, and should be interpreted as a delay in maturation if a linear arrangement of germ cells with atypia seen in germ cell neoplasia in situ is not present. </p>\n<p>References:<br>\n1. \tPediatric and Developmental Pathology 18, 259\"278, 2015</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:25:19.842Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w756c1",
+      "url": "https://sp.pathology.jhu.edu/week-756-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 756: Case 1",
+      "case_label": "Week 756: Case 1",
+      "attribution": "Presented by Dr. Andres Matoso and prepared by Dr. Monica Butcher",
+      "vignette": "Adult female with retroperitoneal mass Diagnosis:",
+      "question_text": "Presented by Dr. Andres Matoso and prepared by Dr. Monica Butcher\nAdult female with retroperitoneal mass\nDiagnosis:",
+      "source_answer": "C. Metastatic HPV(+) carcinoma",
+      "correct_answer": "Metastatic HPV(+) carcinoma",
+      "canonical_answer": "Metastatic HPV(+) carcinoma",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "A. Metastatic urothelial carcinoma",
+        "B. Basal cell carcinoma",
+        "C. Metastatic HPV(+) carcinoma",
+        "D. Metastatic melanoma"
+      ],
+      "choices": [
+        "Metastatic urothelial carcinoma",
+        "Basal cell carcinoma",
+        "Metastatic HPV(+) carcinoma",
+        "Metastatic melanoma"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-756_Case-1_1.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-756_Case-1_2.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-756_Case-1_3.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-756_Case-1_5.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-756_Case-1_4.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-756_Case-1_6.png"
+      ],
+      "histology": "Lymph node with a cyst change lined by atypical epithelioid cells and surrounded by nests of atypical epithelioid cells.",
+      "discussion": "The differential diagnosis in this case includes metastatic carcinoma and other non-carcinoma malignancies such as melanoma. Immunohistochemistry for cytokeratins was positive while melanoma markers were negative. Once a metastatic carcinoma diagnosis is established, the next step in the diagnostic workup is to try to determine the site of origin. Additional markers show that tumor cells are also positive for GATA3, which can lead to confusion with urothelial carcinoma. Given the basaloid phenotype of tumor cells and the presence of cystic changes, HPV-related carcinomas should be considered and the addition of p16 immunohistochemistry or in-situ hybridization for HPV. HPV positive carcinoma in the retroperitoneum is usually metastatic from anogenital origin but could also originate from the head and neck area. Urothelial carcinoma is almost invariably negative for HPV. Immunostaining for p16 alone is not helpful in the differential diagnosis of urothelial carcinoma versus HPV-related squamous cell carcinoma because a large proportion of conventional urothelial carcinomas are positive for p16 without being HPV-positive.",
+      "references": [],
+      "feedback_text": "Correct: C\n\nHistology: Lymph node with a cyst change lined by atypical epithelioid cells and surrounded by nests of atypical epithelioid cells.\n\nDiscussion: The differential diagnosis in this case includes metastatic carcinoma and other non-carcinoma malignancies such as melanoma. Immunohistochemistry for cytokeratins was positive while melanoma markers were negative. Once a metastatic carcinoma diagnosis is established, the next step in the diagnostic workup is to try to determine the site of origin. Additional markers show that tumor cells are also positive for GATA3, which can lead to confusion with urothelial carcinoma. Given the basaloid phenotype of tumor cells and the presence of cystic changes, HPV-related carcinomas should be considered and the addition of p16 immunohistochemistry or in-situ hybridization for HPV. HPV positive carcinoma in the retroperitoneum is usually metastatic from anogenital origin but could also originate from the head and neck area. Urothelial carcinoma is almost invariably negative for HPV. Immunostaining for p16 alone is not helpful in the differential diagnosis of urothelial carcinoma versus HPV-related squamous cell carcinoma because a large proportion of conventional urothelial carcinomas are positive for p16 without being HPV-positive.\n\nReferences\n\n1. Arch Pathol Lab Med (2009) 133 (11): 1798\"1803.\n\n2. Cancer Res Treat. 2015 Oct; 47(4): 954\"957.",
+      "feedback_html": "Correct: C<p></p>\n<p>Histology: Lymph node with a cyst change lined by atypical epithelioid cells and surrounded by nests of atypical epithelioid cells. </p>\n<p>Discussion: The differential diagnosis in this case includes metastatic carcinoma and other non-carcinoma malignancies such as melanoma. Immunohistochemistry for cytokeratins was positive while melanoma markers were negative. Once a metastatic carcinoma diagnosis is established, the next step in the diagnostic workup is to try to determine the site of origin. Additional markers show that tumor cells are also positive for GATA3, which can lead to confusion with urothelial carcinoma. Given the basaloid phenotype of tumor cells and the presence of cystic changes, HPV-related carcinomas should be considered and the addition of p16 immunohistochemistry or in-situ hybridization for HPV. HPV positive carcinoma in the retroperitoneum is usually metastatic from anogenital origin but could also originate from the head and neck area. Urothelial carcinoma is almost invariably negative for HPV. Immunostaining for p16 alone is not helpful in the differential diagnosis of urothelial carcinoma versus HPV-related squamous cell carcinoma because a large proportion of conventional urothelial carcinomas are positive for p16 without being HPV-positive. </p>\n<p>References<br>\n1.\tArch Pathol Lab Med (2009) 133 (11): 1798\"1803.<br>\n2.\tCancer Res Treat. 2015 Oct; 47(4): 954\"957.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:25:30.785Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w755c3",
+      "url": "https://sp.pathology.jhu.edu/week-755-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 755: Case 3",
+      "case_label": "Week 755: Case 3",
+      "attribution": "Presented by Dr. Pedram Argani and prepared by Dr. Monica Butcher",
+      "vignette": "This is a 3 year old female with a renal mass. Diagnosis:",
+      "question_text": "Presented by Dr. Pedram Argani and prepared by Dr. Monica Butcher\nThis is a 3 year old female with a renal mass.\nDiagnosis:",
+      "source_answer": "C. Wilms tumor with perilobar nephrogenic rests",
+      "correct_answer": "Wilms tumor with perilobar nephrogenic rests",
+      "canonical_answer": "Wilms tumor with perilobar nephrogenic rests",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "A. Wilms tumor, anaplastic",
+        "B. Clear cell sarcoma of the kidney",
+        "C. Wilms tumor with perilobar nephrogenic rests",
+        "D. Wilms tumor with intralobar nephrogenic rests"
+      ],
+      "choices": [
+        "Wilms tumor, anaplastic",
+        "Clear cell sarcoma of the kidney",
+        "Wilms tumor with perilobar nephrogenic rests",
+        "Wilms tumor with intralobar nephrogenic rests"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-755_Case-3_1.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-755_Case-3_2.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-755_Case-3_3.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-755_Case-3_4.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-755_Case-3_5.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-755_Case-3_6.png"
+      ],
+      "histology": "The main neoplasm is composed of primitive small round blue cells which mold to each other. The nuclei are hyperchromatic, and there is abundant mitotic activity. There is no evidence of atypical mitotic activity or marked nuclear pleomorphism. Adjacent to the tumor are primitive tubules which lack significant mitotic activity. These are distributed at the periphery of the renal lobe, in this case underneath the renal capsule. These are the typical features of perilobar nephrogenic rest in the setting of a blastema rich Wilms tumor.",
+      "discussion": "Anaplastic Wilms tumor would demonstrate pleomorphism and atypical mitotic figures. Clear cell sarcoma of the kidney would demonstrate uniform cells with open or grooved chromatin separated by regular branching fibrovascular septa. The nuclei are typically spaced apart by mucopolysaccharide and do not mold each other. Intralobar nephrogenic rests are stromal rich lesions associated with Wilms tumor. They typical permeate between native nephrons, and are composed of predominantly stroma including fat, unlike the current case which forwards the nests are composed of primitive epithelial cells.\n\nThe identification of nephrogenic rests in a nephrectomy for Wilms tumor changes the follow-up for the patient. Identification of rests in the resected kidney indicates that rests are almost certainly present in the contralateral kidney, so that kidney must be closely followed by more frequent ultrasound examinations to detect Wilms tumors at an early stage. This would allow nephron-preserving approaches to be undertaken to prevent the child from ending up on dialysis.",
+      "references": [],
+      "feedback_text": "Answer: C\n\nHistologic Description: The main neoplasm is composed of primitive small round blue cells which mold to each other. The nuclei are hyperchromatic, and there is abundant mitotic activity. There is no evidence of atypical mitotic activity or marked nuclear pleomorphism. Adjacent to the tumor are primitive tubules which lack significant mitotic activity. These are distributed at the periphery of the renal lobe, in this case underneath the renal capsule. These are the typical features of perilobar nephrogenic rest in the setting of a blastema rich Wilms tumor.\n\nDifferential Diagnosis: Anaplastic Wilms tumor would demonstrate pleomorphism and atypical mitotic figures. Clear cell sarcoma of the kidney would demonstrate uniform cells with open or grooved chromatin separated by regular branching fibrovascular septa. The nuclei are typically spaced apart by mucopolysaccharide and do not mold each other. Intralobar nephrogenic rests are stromal rich lesions associated with Wilms tumor. They typical permeate between native nephrons, and are composed of predominantly stroma including fat, unlike the current case which forwards the nests are composed of primitive epithelial cells.\n\nThe identification of nephrogenic rests in a nephrectomy for Wilms tumor changes the follow-up for the patient. Identification of rests in the resected kidney indicates that rests are almost certainly present in the contralateral kidney, so that kidney must be closely followed by more frequent ultrasound examinations to detect Wilms tumors at an early stage. This would allow nephron-preserving approaches to be undertaken to prevent the child from ending up on dialysis.",
+      "feedback_html": "Answer: C<p></p>\n<p>Histologic Description: The main neoplasm is composed of primitive small round blue cells which mold to each other. The nuclei are hyperchromatic, and there is abundant mitotic activity. There is no evidence of atypical mitotic activity or marked nuclear pleomorphism. Adjacent to the tumor are primitive tubules which lack significant mitotic activity. These are distributed at the periphery of the renal lobe, in this case underneath the renal capsule. These are the typical features of perilobar nephrogenic rest in the setting of a blastema rich Wilms tumor.</p>\n<p>Differential Diagnosis: Anaplastic Wilms tumor would demonstrate pleomorphism and atypical mitotic figures. Clear cell sarcoma of the kidney would demonstrate uniform cells with open or grooved chromatin separated by regular branching fibrovascular septa. The nuclei are typically spaced apart by mucopolysaccharide and do not mold each other. Intralobar nephrogenic rests are stromal rich lesions associated with Wilms tumor. They typical permeate between native nephrons, and are composed of predominantly stroma including fat, unlike the current case which forwards the nests are composed of primitive epithelial cells.</p>\n<p>The identification of nephrogenic rests in a nephrectomy for Wilms tumor changes the follow-up for the patient. Identification of rests in the resected kidney indicates that rests are almost certainly present in the contralateral kidney, so that kidney must be closely followed by more frequent ultrasound examinations to detect Wilms tumors at an early stage. This would allow nephron-preserving approaches to be undertaken to prevent the child from ending up on dialysis.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:25:40.446Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w755c2",
+      "url": "https://sp.pathology.jhu.edu/week-755-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 755: Case 2",
+      "case_label": "Week 755: Case 2",
+      "attribution": "Presented by Dr. Pedram Argani and prepared by Dr. Monica Butcher",
+      "vignette": "This is a 1 year old male with a paraspinal tumor. Diagnosis:",
+      "question_text": "Presented by Dr. Pedram Argani and prepared by Dr. Monica Butcher\nThis is a 1 year old male with a paraspinal tumor.\nDiagnosis:",
+      "source_answer": "B. Rhabdoid tumor",
+      "correct_answer": "Rhabdoid tumor",
+      "canonical_answer": "Rhabdoid tumor",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Neuroblastoma",
+        "B. Rhabdoid tumor",
+        "C. Malignant lymphoma, lymphoblastic type",
+        "D. Alveolar rhabdomyosarcoma"
+      ],
+      "choices": [
+        "Neuroblastoma",
+        "Rhabdoid tumor",
+        "Malignant lymphoma, lymphoblastic type",
+        "Alveolar rhabdomyosarcoma"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-755_Case-2_1.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-755_Case-2_2.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-755_Case-2_3.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-755_Case-2_4.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-755_Case-2_5.png"
+      ],
+      "histology": "This is a sheet like proliferation of undifferentiated neoplastic cells. Where the cells are well preserved, one can see the classic triad of vesicular chromatin, prominent nucleoli, and eccentric hyaline cytoplasm. These are the typical features of rhabdoid tumor. The lesion demonstrates loss of INI1 protein, supporting this diagnosis.",
+      "discussion": "Undifferentiated neuroblastoma (which was the clinical impression in this case) could look very similar to this, with the cells having prominent nucleoli representing incipient ganglion cell differentiation. However, neuroblastoma has intact INI1 protein, and would label for PHOX2B and other neuroendocrine markers like synaptophysin. Malignant lymphoma would demonstrate greater discohesion, typically less cytoplasm, would label for lymphoid markers and have intact INI1. Rhabdomyosarcoma is suggested by the eccentric pink cytoplasm of the cells; however, rhabdomyosarcoma should label for myogenin and desmin and have intact INI1.",
+      "references": [],
+      "feedback_text": "Answer: B\n\nHistologic Description: This is a sheet like proliferation of undifferentiated neoplastic cells. Where the cells are well preserved, one can see the classic triad of vesicular chromatin, prominent nucleoli, and eccentric hyaline cytoplasm. These are the typical features of rhabdoid tumor. The lesion demonstrates loss of INI1 protein, supporting this diagnosis.\n\nDifferential Diagnosis: Undifferentiated neuroblastoma (which was the clinical impression in this case) could look very similar to this, with the cells having prominent nucleoli representing incipient ganglion cell differentiation. However, neuroblastoma has intact INI1 protein, and would label for PHOX2B and other neuroendocrine markers like synaptophysin. Malignant lymphoma would demonstrate greater discohesion, typically less cytoplasm, would label for lymphoid markers and have intact INI1. Rhabdomyosarcoma is suggested by the eccentric pink cytoplasm of the cells; however, rhabdomyosarcoma should label for myogenin and desmin and have intact INI1.",
+      "feedback_html": "Answer: B<p></p>\n<p>Histologic Description:  This is a sheet like proliferation of undifferentiated neoplastic cells.  Where the cells are well preserved, one can see the classic triad of vesicular chromatin, prominent nucleoli, and eccentric hyaline cytoplasm.   These are the typical features of rhabdoid tumor.  The lesion demonstrates loss of INI1 protein, supporting this diagnosis.  </p>\n<p>Differential Diagnosis:  Undifferentiated neuroblastoma (which was the clinical impression in this case) could look very similar to this, with the cells having prominent nucleoli representing incipient ganglion cell differentiation.  However, neuroblastoma has intact INI1 protein, and would label for PHOX2B and other neuroendocrine markers like synaptophysin.  Malignant lymphoma would demonstrate greater discohesion, typically less cytoplasm, would label for lymphoid markers and have intact INI1.  Rhabdomyosarcoma is suggested by the eccentric pink cytoplasm of the cells; however, rhabdomyosarcoma should label for myogenin and desmin and have intact INI1.  </p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:25:49.597Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w755c1",
+      "url": "https://sp.pathology.jhu.edu/week-755-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 755: Case 1",
+      "case_label": "Week 755: Case 1",
+      "attribution": "Presented by Dr. Pedram Argani and prepared by Dr. Monica Butcher",
+      "vignette": "This is a finger nodule on a 45 year old male. Diagnosis:",
+      "question_text": "Presented by Dr. Pedram Argani and prepared by Dr. Monica Butcher\nThis is a finger nodule on a 45 year old male.\nDiagnosis:",
+      "source_answer": "D. Lobular capillary hemangioma",
+      "correct_answer": "Lobular capillary hemangioma",
+      "canonical_answer": "Lobular capillary hemangioma",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "A. Epithelioid angiosarcoma",
+        "B. Epithelioid hemangioendothelioma",
+        "C. Granulation tissue",
+        "D. Lobular capillary hemangioma"
+      ],
+      "choices": [
+        "Epithelioid angiosarcoma",
+        "Epithelioid hemangioendothelioma",
+        "Granulation tissue",
+        "Lobular capillary hemangioma"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-755_Case-1_1.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-755_Case-1_2.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-755_Case-1_3.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/12/Week-755_Case-1_4.png"
+      ],
+      "histology": "The lesion has a rounded or lobular appearance at low power. There is a central larger feeder vessel, associated with clusters or lobules of small capillaries. These are the typical features of pyogenic granuloma/lobular capillary hemangioma.",
+      "discussion": "Angiosarcoma would demonstrate infiltration and greater cytologic atypia. Epithelioid hemangioendothelioma would not contain well-formed vessels, and would feature vacuolated blister cells in a myxochondroid background. Granulation tissue would contain inflamed stroma and capillaries without the lobular pattern and feeder vessels seen in the current lesion.",
+      "references": [],
+      "feedback_text": "Answer: D\n\nHistologic Description: The lesion has a rounded or lobular appearance at low power. There is a central larger feeder vessel, associated with clusters or lobules of small capillaries. These are the typical features of pyogenic granuloma/lobular capillary hemangioma.\n\nDifferential Diagnosis: Angiosarcoma would demonstrate infiltration and greater cytologic atypia. Epithelioid hemangioendothelioma would not contain well-formed vessels, and would feature vacuolated blister cells in a myxochondroid background. Granulation tissue would contain inflamed stroma and capillaries without the lobular pattern and feeder vessels seen in the current lesion.",
+      "feedback_html": "Answer: D<p></p>\n<p>Histologic Description:  The lesion has a rounded or lobular appearance at low power.  There is a central larger feeder vessel, associated with clusters or lobules of small capillaries.  These are the typical features of pyogenic granuloma/lobular capillary hemangioma. </p>\n<p>Differential Diagnosis:  Angiosarcoma would demonstrate infiltration and greater cytologic atypia.  Epithelioid hemangioendothelioma would not contain well-formed vessels, and would feature vacuolated blister cells in a myxochondroid background.  Granulation tissue would contain inflamed stroma and capillaries without the lobular pattern and feeder vessels seen in the current lesion.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:25:59.287Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w754c3",
+      "url": "https://sp.pathology.jhu.edu/week-754-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 754: Case 3",
+      "case_label": "Week 754: Case 3",
+      "attribution": "Presented by Dr. Jonathan Epstein and prepared by Dr. Monica Butcher",
+      "vignette": "A 47 year old woman underwent a partial nephrectomy for a 2.7 cm well circumscribed renal mass. Choose the correct diagnosis:",
+      "question_text": "Presented by Dr. Jonathan Epstein and prepared by Dr. Monica Butcher\nA 47 year old woman underwent a partial nephrectomy for a 2.7 cm well circumscribed renal mass.\nChoose the correct diagnosis:",
+      "source_answer": "B. Oncocytoma",
+      "correct_answer": "Oncocytoma",
+      "canonical_answer": "Oncocytoma",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Chromophobe RCC",
+        "B. Oncocytoma",
+        "C. Eosinophilic vacuolated tumor (EVT)"
+      ],
+      "choices": [
+        "Chromophobe RCC",
+        "Oncocytoma",
+        "Eosinophilic vacuolated tumor (EVT)"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/11/Week-754_Case-3_1.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/11/Week-754_Case-3_2.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/11/Week-754_Case-3_3.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/11/Week-754_Case-3_4.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/11/Week-754_Case-3_5.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/11/Week-754_Case-3_6.png"
+      ],
+      "histology": "The tumor consists of a well circumscribed mass with nests of eosinophilic cells in a fibromyxoid background. In some areas, the nests are more compact but still consist of discrete small nests separated by fine vasculature. The cells have abundant dense eosinophilic cytoplasm without well defined cell borders. The nuclei that are well fixed are round with small nuclei. Other nuclei that are dark and pyknotic have more crenated nuclei.",
+      "discussion": "This is a classic case of renal oncocytoma. In the vast majority of cases where there is the low power appearance of oncocytic nests in a fibromyxoid background, the diagnosis is oncocytoma. One then proceeds to higher magnification to see if the well-preserved nuclei are round, ignoring the crinkly pyknotic less preserved nuclei. Although the current case lacks very prominent nucleoli, one can have very prominent nucleoli in oncocytoma as long as the nuclei are round without elongated shapes or notched nuclei. Within oncocytomas, binucleated cells are typically scarce, mitotic figures are rare, it lacks necrosis, and it lacks papillary formation. The cells lack the vacuoles, irregular nuclei, and solid areas of EVT. In contrast to oncocytoma, chromophobe RCC has crinkly irregular nuclei at least focally, has koilocytosis, plant-like cell membranes, frequent binucleation, and has areas that lack discrete nests. Some features that are allowable in oncocytomas that may be disconcerting are: 1) can extend into perirenal fat; 2) can show markedly atypical nuclei often in clusters that have degenerative atypia with smudged multinucleated cells lacking mitotic activity; 3) can rarely show vascular invasion including within the renal vein. The importance of diagnosing oncocytoma is that it is an entirely benign lesion without capability of metastases.",
+      "references": [],
+      "feedback_text": "Answer: B\n\nHistological description: The tumor consists of a well circumscribed mass with nests of eosinophilic cells in a fibromyxoid background. In some areas, the nests are more compact but still consist of discrete small nests separated by fine vasculature. The cells have abundant dense eosinophilic cytoplasm without well defined cell borders. The nuclei that are well fixed are round with small nuclei. Other nuclei that are dark and pyknotic have more crenated nuclei.\n\nDiscussion: This is a classic case of renal oncocytoma. In the vast majority of cases where there is the low power appearance of oncocytic nests in a fibromyxoid background, the diagnosis is oncocytoma. One then proceeds to higher magnification to see if the well-preserved nuclei are round, ignoring the crinkly pyknotic less preserved nuclei. Although the current case lacks very prominent nucleoli, one can have very prominent nucleoli in oncocytoma as long as the nuclei are round without elongated shapes or notched nuclei. Within oncocytomas, binucleated cells are typically scarce, mitotic figures are rare, it lacks necrosis, and it lacks papillary formation. The cells lack the vacuoles, irregular nuclei, and solid areas of EVT. In contrast to oncocytoma, chromophobe RCC has crinkly irregular nuclei at least focally, has koilocytosis, plant-like cell membranes, frequent binucleation, and has areas that lack discrete nests. Some features that are allowable in oncocytomas that may be disconcerting are: 1) can extend into perirenal fat; 2) can show markedly atypical nuclei often in clusters that have degenerative atypia with smudged multinucleated cells lacking mitotic activity; 3) can rarely show vascular invasion including within the renal vein. The importance of diagnosing oncocytoma is that it is an entirely benign lesion without capability of metastases.",
+      "feedback_html": "Answer: B<p></p>\n<p>Histological description: The tumor consists of a well circumscribed mass with nests of eosinophilic cells in a fibromyxoid background. In some areas, the nests are more compact but still consist of discrete small nests separated by fine vasculature. The cells have abundant dense eosinophilic cytoplasm without well defined cell borders. The nuclei that are well fixed are round with small nuclei. Other nuclei that are dark and pyknotic have more crenated nuclei. </p>\n<p>Discussion: This is a classic case of renal oncocytoma. In the vast majority of cases where there is the low power appearance of oncocytic nests in a fibromyxoid background, the diagnosis is oncocytoma. One then proceeds to higher magnification to see if the well-preserved nuclei are round, ignoring the crinkly pyknotic less preserved nuclei. Although the current case lacks very prominent nucleoli, one can have very prominent nucleoli in oncocytoma as long as the nuclei are round without elongated shapes or notched nuclei. Within oncocytomas, binucleated cells are typically scarce, mitotic figures are rare, it lacks necrosis, and it lacks papillary formation. The cells lack the vacuoles, irregular nuclei, and solid areas of EVT. In contrast to oncocytoma, chromophobe RCC has crinkly irregular nuclei at least focally, has koilocytosis, plant-like cell membranes, frequent binucleation, and has areas that lack discrete nests. Some features that are allowable in oncocytomas that may be disconcerting are: 1) can extend into perirenal fat; 2) can show markedly atypical nuclei often in clusters that have degenerative atypia with smudged multinucleated cells lacking mitotic activity; 3) can rarely show vascular invasion including within the renal vein. The importance of diagnosing oncocytoma is that it is an entirely benign lesion without capability of metastases. </p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:26:10.209Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w754c2",
+      "url": "https://sp.pathology.jhu.edu/week-754-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 754: Case 2",
+      "case_label": "Week 754: Case 2",
+      "attribution": "Presented by Dr. Jonathan Epstein and prepared by Dr. Monica Butcher",
+      "vignette": "A 43 year old woman underwent a resection for a 1.5 cm mass in the kidney. Choose the correct diagnosis:",
+      "question_text": "Presented by Dr. Jonathan Epstein and prepared by Dr. Monica Butcher\nA 43 year old woman underwent a resection for a 1.5 cm mass in the kidney.\nChoose the correct diagnosis:",
+      "source_answer": "C. Eosinophilic vacuolated tumor (EVT)",
+      "correct_answer": "Eosinophilic vacuolated tumor (EVT)",
+      "canonical_answer": "Eosinophilic vacuolated tumor (EVT)",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "A. Low grade Oncocytic tumor (LOT)",
+        "B. Oncocytoma",
+        "C. Eosinophilic vacuolated tumor (EVT)",
+        "D. Eosinophilic solid and cystic tumor (ESC)"
+      ],
+      "choices": [
+        "Low grade Oncocytic tumor (LOT)",
+        "Oncocytoma",
+        "Eosinophilic vacuolated tumor (EVT)",
+        "Eosinophilic solid and cystic tumor (ESC)"
+      ],
+      "images": [
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/11/Week-754_Case-2_1.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/11/Week-754_Case-2_2.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/11/Week-754_Case-2_3.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/11/Week-754_Case-2_4.png",
+        "http://sp.pathology.jhu.edu/wp-content/uploads/2021/11/Week-754_Case-2_5.png"
+      ],
+      "histology": "There is a circumscribed lesion with small solid sheets and nests of cells with granular eosinophilic cells with numerous vacuoles in a myxoid background. Whereas some nuclei are round, others are variably shaped and some have notches with all nuclei having relatively prominent nucleoli.",
+      "discussion": "This entity has also been described as \"high-grade oncocytic tumor (HOT)\", based on the cytology. However since this tumor has an indolent course based on the limited number of cases reported to date, this terminology is misleading and the more descriptive term EVT is preferred. The neoplastic cells are immunoreactive for PAX8, AE1/ AE3, and often for cathepsin K. CK7 is variable, from negative to focally positive. EVT often demonstrates CD117+/CK 20- profile, different from the CD117?/CK20+ profile seen in ESC RCC. The tumor has more irregular nuclei than oncocytoma and also lacks the clumped cytoplasmic granules and frequent cystic features seen in ESC. However, there are some similarities with ESC in that they share losses of TSC2 and TSC1 and activation of the MTOR pathway.",
+      "references": [],
+      "feedback_text": "Answer: C\n\nHistological description: There is a circumscribed lesion with small solid sheets and nests of cells with granular eosinophilic cells with numerous vacuoles in a myxoid background. Whereas some nuclei are round, others are variably shaped and some have notches with all nuclei having relatively prominent nucleoli.\n\nDiscussion: This entity has also been described as \"high-grade oncocytic tumor (HOT)\", based on the cytology. However since this tumor has an indolent course based on the limited number of cases reported to date, this terminology is misleading and the more descriptive term EVT is preferred. The neoplastic cells are immunoreactive for PAX8, AE1/ AE3, and often for cathepsin K. CK7 is variable, from negative to focally positive. EVT often demonstrates CD117+/CK 20- profile, different from the CD117?/CK20+ profile seen in ESC RCC. The tumor has more irregular nuclei than oncocytoma and also lacks the clumped cytoplasmic granules and frequent cystic features seen in ESC. However, there are some similarities with ESC in that they share losses of TSC2 and TSC1 and activation of the MTOR pathway.",
+      "feedback_html": "Answer: C<p></p>\n<p>Histological description: There is a circumscribed lesion with small solid sheets and nests of cells with granular eosinophilic cells with numerous vacuoles in a myxoid background. Whereas some nuclei are round, others are variably shaped and some have notches with all nuclei having relatively prominent nucleoli. </p>\n<p>Discussion: This entity has also been described as \"high-grade oncocytic tumor (HOT)\", based on the cytology. However since this tumor has an indolent course based on the limited number of cases reported to date, this terminology is misleading and the more descriptive term EVT is preferred. The neoplastic cells are immunoreactive for PAX8, AE1/ AE3, and often for cathepsin K. CK7 is variable, from negative to focally positive.  EVT often demonstrates CD117+/CK 20- profile, different from the CD117?/CK20+ profile seen in ESC RCC.  The tumor has more irregular nuclei than oncocytoma and also lacks the clumped cytoplasmic granules and frequent cystic features seen in ESC. However, there are some similarities with ESC in that they share losses of TSC2 and TSC1 and activation of the MTOR pathway. </p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:26:19.937Z",
+      "extractor_version": "1.0.0"
+    }
+  ]
+}
