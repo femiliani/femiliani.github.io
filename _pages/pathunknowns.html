@@ -24,7 +24,22 @@ author_profile: false
 .pathunknowns .pu-gallery a { display:block; border:1px solid var(--pu-line); border-radius:10px; overflow:hidden; background:#fafafa; }
 .pathunknowns .pu-gallery img { display:block; width:100%; aspect-ratio:4/3; object-fit:cover; transition:transform .18s ease; }
 .pathunknowns .pu-gallery a:hover img { transform:scale(1.015); }
-.pathunknowns .pu-answer { border-top:1px solid var(--pu-line); padding-top:1.1rem; }
+.pathunknowns .pu-stains { border-top:1px solid var(--pu-line); padding-top:1.1rem; margin-top:.2rem; }
+.pathunknowns .pu-stain-head { display:flex; justify-content:space-between; gap:1rem; align-items:center; flex-wrap:wrap; margin-bottom:.7rem; }
+.pathunknowns .pu-stain-head strong { font-size:1rem; }
+.pathunknowns .pu-toggle { display:flex; align-items:center; gap:.45rem; color:var(--pu-muted); font-size:.88rem; }
+.pathunknowns .pu-toggle input { flex:none; width:auto; min-width:0; }
+.pathunknowns .pu-stain-row { display:flex; gap:.6rem; align-items:center; }
+.pathunknowns .pu-stain-row input, .pathunknowns .pu-stain-row select { flex:1; min-width:0; padding:.72rem .8rem; border:1px solid #cdd3da; border-radius:9px; font:inherit; background:#fff; }
+.pathunknowns .pu-stain-status { min-height:1.3rem; margin-top:.5rem; color:var(--pu-muted); font-size:.86rem; }
+.pathunknowns .pu-stain-log { margin-top:.85rem; border:1px solid var(--pu-line); border-radius:10px; overflow:hidden; display:none; }
+.pathunknowns .pu-stain-log.show { display:block; }
+.pathunknowns .pu-stain-log table { width:100%; border-collapse:collapse; margin:0; }
+.pathunknowns .pu-stain-log th, .pathunknowns .pu-stain-log td { padding:.65rem .75rem; border-bottom:1px solid var(--pu-line); text-align:left; vertical-align:top; }
+.pathunknowns .pu-stain-log tr:last-child td { border-bottom:0; }
+.pathunknowns .pu-stain-log th { background:var(--pu-soft); font-size:.86rem; }
+.pathunknowns .pu-stain-result { font-weight:650; }
+.pathunknowns .pu-answer { border-top:1px solid var(--pu-line); padding-top:1.1rem; margin-top:1.1rem; }
 .pathunknowns label { display:block; font-weight:650; margin-bottom:.5rem; }
 .pathunknowns .pu-answer-row { display:flex; gap:.6rem; }
 .pathunknowns input { flex:1; min-width:0; padding:.72rem .8rem; border:1px solid #cdd3da; border-radius:9px; font:inherit; }
@@ -46,7 +61,7 @@ author_profile: false
 .pathunknowns .pu-loading { padding:2rem; color:var(--pu-muted); }
 @media (max-width:760px) {
   .pathunknowns .pu-gallery { grid-template-columns:1fr; }
-  .pathunknowns .pu-answer-row { flex-direction:column; }
+  .pathunknowns .pu-answer-row, .pathunknowns .pu-stain-row { flex-direction:column; align-items:stretch; }
   .pathunknowns .pu-case-list { grid-template-columns:repeat(2,1fr); }
 }
 </style>
@@ -81,6 +96,23 @@ author_profile: false
         <p class="pu-vignette" id="puVignette"></p>
         <div class="pu-gallery" id="puGallery"></div>
 
+        <div class="pu-stains">
+          <div class="pu-stain-head">
+            <strong>IHC / special stains</strong>
+            <label class="pu-toggle" for="puStainSuggestToggle">
+              <input id="puStainSuggestToggle" type="checkbox" />
+              IHC/stain suggester
+            </label>
+          </div>
+          <div class="pu-stain-row">
+            <input id="puStainInput" autocomplete="off" placeholder="Order a stain (e.g., TFE3)" />
+            <select id="puStainSelect" style="display:none" aria-label="Select a stain"></select>
+            <button id="puOrderStainBtn">Order stain</button>
+          </div>
+          <div class="pu-stain-status" id="puStainStatus"></div>
+          <div class="pu-stain-log" id="puStainLog"></div>
+        </div>
+
         <div class="pu-answer">
           <label for="puDiagnosisInput">What is the diagnosis?</label>
           <div class="pu-answer-row">
@@ -113,6 +145,8 @@ author_profile: false
 
   var cases = [];
   var current = 0;
+  var orderedStains = {};
+  var stainSuggesterOn = false;
 
   function byId(id) {
     return document.getElementById(id);
@@ -172,6 +206,114 @@ author_profile: false
     return doc.body.firstElementChild ? doc.body.firstElementChild.innerHTML : "";
   }
 
+  function normalizeStain(value) {
+    return String(value || "")
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "");
+  }
+
+  function stainAliases(stain) {
+    return [stain.name].concat(stain.aliases || []);
+  }
+
+  function findStain(caseData, query) {
+    var needle = normalizeStain(query);
+    if (!needle) return null;
+    return (caseData.stains || []).find(function (stain) {
+      return stainAliases(stain).some(function (name) {
+        return normalizeStain(name) === needle;
+      });
+    }) || null;
+  }
+
+  function orderedForCase(caseData) {
+    if (!orderedStains[caseData.id]) orderedStains[caseData.id] = [];
+    return orderedStains[caseData.id];
+  }
+
+  function renderStainControls() {
+    var c = cases[current];
+    var stains = (c.stains || []).slice().sort(function (a, b) {
+      return a.name.localeCompare(b.name);
+    });
+
+    byId("puStainSuggestToggle").checked = stainSuggesterOn;
+    byId("puStainInput").style.display = stainSuggesterOn ? "none" : "";
+    byId("puStainSelect").style.display = stainSuggesterOn ? "" : "none";
+
+    byId("puStainSelect").innerHTML =
+      '<option value="">Select a stain…</option>' +
+      stains.map(function (stain) {
+        return '<option value="' + escapeHtml(stain.name) + '">' + escapeHtml(stain.name) + '</option>';
+      }).join("");
+
+    byId("puStainInput").value = "";
+    byId("puStainSelect").value = "";
+    byId("puStainStatus").textContent = "";
+    renderStainLog();
+  }
+
+  function renderStainLog() {
+    var c = cases[current];
+    var log = orderedForCase(c);
+    var box = byId("puStainLog");
+
+    if (!log.length) {
+      box.className = "pu-stain-log";
+      box.innerHTML = "";
+      return;
+    }
+
+    box.className = "pu-stain-log show";
+    box.innerHTML =
+      '<table><thead><tr><th>Stain</th><th>Result</th></tr></thead><tbody>' +
+      log.map(function (item) {
+        return '<tr><td>' + escapeHtml(item.name) + '</td><td class="pu-stain-result">' +
+          escapeHtml(item.result) + '</td></tr>';
+      }).join("") +
+      '</tbody></table>';
+  }
+
+  function orderStain() {
+    var c = cases[current];
+    var query = stainSuggesterOn ? byId("puStainSelect").value : byId("puStainInput").value;
+    var status = byId("puStainStatus");
+
+    if (!String(query || "").trim()) {
+      status.textContent = "Enter or select a stain first.";
+      return;
+    }
+
+    var stain = findStain(c, query);
+    if (!stain) {
+      status.textContent = "That stain is not available for this case.";
+      return;
+    }
+
+    var log = orderedForCase(c);
+    var already = log.some(function (item) {
+      return normalizeStain(item.name) === normalizeStain(stain.name);
+    });
+
+    if (!already) {
+      log.push({
+        name: stain.name,
+        result: stain.result
+      });
+    }
+
+    status.textContent = stain.name + ": " + stain.result;
+    renderStainLog();
+
+    if (stainSuggesterOn) {
+      byId("puStainSelect").value = "";
+    } else {
+      byId("puStainInput").value = "";
+    }
+  }
+
   function renderDiagnosisPool() {
     var pool = Array.from(new Set([].concat.apply([], cases.map(function (c) {
       return c.choices || [];
@@ -195,6 +337,8 @@ author_profile: false
         '<img loading="lazy" src="' + escapeHtml(src) + '" alt="' + escapeHtml(c.title) + ' pathology image ' + (i + 1) + '">' +
         '</a>';
     }).join("");
+
+    renderStainControls();
 
     byId("puDiagnosisInput").value = "";
     byId("puResult").className = "pu-result";
@@ -274,6 +418,21 @@ author_profile: false
     current = next;
     render();
   };
+
+  byId("puStainSuggestToggle").addEventListener("change", function () {
+    stainSuggesterOn = this.checked;
+    renderStainControls();
+  });
+
+  byId("puOrderStainBtn").onclick = orderStain;
+
+  byId("puStainInput").addEventListener("keydown", function (e) {
+    if (e.key === "Enter") orderStain();
+  });
+
+  byId("puStainSelect").addEventListener("change", function () {
+    byId("puStainStatus").textContent = "";
+  });
 
   byId("puSubmitBtn").onclick = submit;
 
