@@ -1,0 +1,491 @@
+{
+  "case_start": 61,
+  "case_end": 70,
+  "case_count": 10,
+  "cases": [
+    {
+      "id": "w799c3",
+      "url": "https://sp.pathology.jhu.edu/week-799-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 799: Case 3",
+      "case_label": "Week 799: Case 3",
+      "attribution": "Case presented by Dr. Elizabeth Thompson, MD, PhD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This case is a young adult male with a retroperitoneal mass.",
+      "question_text": "Case presented by Dr. Elizabeth Thompson, MD, PhD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis case is a young adult male with a retroperitoneal mass.",
+      "source_answer": "B. Somatic malignancy arising from a mixed germ cell tumor",
+      "correct_answer": "Somatic malignancy arising from a mixed germ cell tumor",
+      "canonical_answer": "Somatic malignancy arising from a mixed germ cell tumor",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Carcinoid tumor",
+        "B. Somatic malignancy arising from a mixed germ cell tumor",
+        "C. Pheochromocytoma",
+        "D. Paraganglioma"
+      ],
+      "choices": [
+        "Carcinoid tumor",
+        "Somatic malignancy arising from a mixed germ cell tumor",
+        "Pheochromocytoma",
+        "Paraganglioma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8569.svs-7469625777380695351x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8569.svs-640643830870249439061x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8569.svs-262123905528865414562x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8569.svs-579225137658740521175x.png"
+      ],
+      "histology": "Within a lymph node, there is a well-circumscribed mass forming sheets and nests of dyscohesive tumor cells separated by fibrous septae. The tumor cells are hyperchromatic and have enlarged pleomorphic nuclei with dispersed chromatin and numerous mitotic figures. There is the suggestion of rosetting.",
+      "discussion": "This is a somatic malignancy arising from a mixed germ cell tumor. The patient had a history of a mixed germ cell tumor. On H&E, no typical germ cell tumor morphology could be appreciated (seminoma, yolk sac tumor, embryonal carcinoma, teratoma). Immunostains could identify different germ cell tumors. First-line germ cell markers would include OCT3/4, CD30, glypican-3, hCG, and cytokeratin. The tumor was negative for all markers tested. The possibility of a somatic malignancy arising from the teratoma component of the known mixed germ cell tumor was then considered. The most common histologies are rhabdomyosarcoma, adenocarcinoma, neuroectodermal type tumors, and other sarcomas, however, IHC was not supportive of any specific histologic type. In this situation, isochrome 12p or overexpression of 12p can support germ cell origin, which was identified in this case.\n\nReference: Lobo J, Costa AL, Vilela-Salgueiro B, Rodrigues Â, Guimarães R, Cantante M, Lopes P, Antunes L, Jerónimo C, Henrique R. Testicular germ cell tumors: revisiting a series in light of the new WHO classification and AJCC staging systems, focusing on challenges for pathologists. Hum Pathol. 2018 Dec;82:113-124.",
+      "references": [
+        {
+          "text": "Lobo J, Costa AL, Vilela-Salgueiro B, Rodrigues Â, Guimarães R, Cantante M, Lopes P, Antunes L, Jerónimo C, Henrique R. Testicular germ cell tumors: revisiting a series in light of the new WHO classification and AJCC staging systems, focusing on challenges for pathologists. Hum Pathol. 2018 Dec;82:113-124.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: B. Somatic malignancy arising from a mixed germ cell tumor\n\nHistology: Within a lymph node, there is a well-circumscribed mass forming sheets and nests of dyscohesive tumor cells separated by fibrous septae. The tumor cells are hyperchromatic and have enlarged pleomorphic nuclei with dispersed chromatin and numerous mitotic figures. There is the suggestion of rosetting.\n\nDiscussion: This is a somatic malignancy arising from a mixed germ cell tumor. The patient had a history of a mixed germ cell tumor. On H&E, no typical germ cell tumor morphology could be appreciated (seminoma, yolk sac tumor, embryonal carcinoma, teratoma). Immunostains could identify different germ cell tumors. First-line germ cell markers would include OCT3/4, CD30, glypican-3, hCG, and cytokeratin. The tumor was negative for all markers tested. The possibility of a somatic malignancy arising from the teratoma component of the known mixed germ cell tumor was then considered. The most common histologies are rhabdomyosarcoma, adenocarcinoma, neuroectodermal type tumors, and other sarcomas, however, IHC was not supportive of any specific histologic type. In this situation, isochrome 12p or overexpression of 12p can support germ cell origin, which was identified in this case.\n\nReference: Lobo J, Costa AL, Vilela-Salgueiro B, Rodrigues Â, Guimarães R, Cantante M, Lopes P, Antunes L, Jerónimo C, Henrique R. Testicular germ cell tumors: revisiting a series in light of the new WHO classification and AJCC staging systems, focusing on challenges for pathologists. Hum Pathol. 2018 Dec;82:113-124.",
+      "feedback_html": "<strong>Answer:</strong> B. Somatic malignancy arising from a mixed germ cell tumor<p></p>\n<p><strong>Histology:</strong> Within a lymph node, there is a well-circumscribed mass forming sheets and nests of dyscohesive tumor cells separated by fibrous septae. The tumor cells are hyperchromatic and have enlarged pleomorphic nuclei with dispersed chromatin and numerous mitotic figures.&nbsp;There is the suggestion of rosetting.</p>\n<p><strong>Discussion:</strong> This is a somatic malignancy arising from a mixed germ cell tumor. The patient had a history of a mixed germ cell tumor. On H&amp;E, no typical germ cell tumor morphology could be appreciated (seminoma, yolk sac tumor, embryonal carcinoma, teratoma). Immunostains could identify different germ cell tumors. First-line germ cell markers would include OCT3/4, CD30, glypican-3, hCG, and cytokeratin. The tumor was negative for all markers tested. The possibility of a somatic malignancy arising from the teratoma component of the known mixed germ cell tumor was then considered. The most common histologies are rhabdomyosarcoma, adenocarcinoma, neuroectodermal type tumors, and other sarcomas, however, IHC was not supportive of any specific histologic type. In this situation, isochrome 12p or overexpression of 12p can support germ cell origin, which was identified in this case.</p>\n<p><strong>Reference: </strong>Lobo J, Costa AL, Vilela-Salgueiro B, Rodrigues Â, Guimarães R, Cantante M, Lopes P, Antunes L, Jerónimo C, Henrique R. Testicular germ cell tumors: revisiting a series in light of the new WHO classification and AJCC staging systems, focusing on challenges for pathologists. Hum Pathol. 2018 Dec;82:113-124.</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:01:15.492Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w799c2",
+      "url": "https://sp.pathology.jhu.edu/week-799-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 799: Case 2",
+      "case_label": "Week 799: Case 2",
+      "attribution": "Case presented by Dr. Elizabeth Thompson, MD, PhD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This case is an elderly male with an atrial mass.",
+      "question_text": "Case presented by Dr. Elizabeth Thompson, MD, PhD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis case is an elderly male with an atrial mass.",
+      "source_answer": "D. Metastatic carcinoma",
+      "correct_answer": "Metastatic carcinoma",
+      "canonical_answer": "Metastatic carcinoma",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "A. Cardiac myxoma",
+        "B. Infectious endocarditis",
+        "C. Pericardial mesothelioma",
+        "D. Metastatic carcinoma"
+      ],
+      "choices": [
+        "Cardiac myxoma",
+        "Infectious endocarditis",
+        "Pericardial mesothelioma",
+        "Metastatic carcinoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8567.svs-15156614265469564551x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8567.svs-158241684118926199432x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8567.svs-135162349015081250553x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8567.svs-21228981921710103028x.png"
+      ],
+      "histology": "Paucicellular tissue with papillary excrescences is lined by atypical epithelioid cells. There are large adjacent areas of necrosis and fibrin.",
+      "discussion": "This is a metastatic carcinoma colonizing the surface of the atrium. Immunohistochemistry was performed and showed that the malignant cells labeled for CK20, claudin4, and CDX2. Mesothelial markers TTF-1 and p40 were negative. The pattern was suggestive of lower GI tract origin.\n\nMetastases are 30x more common than primary neoplasms of the heart. The incidence of metastases to the heart has been increasing in recent years. Reported metastasis to the heart include lung, stomach, ovary, colon, liver or kidney carcinomas. Metastasis to the right side of the heart is more common than to the left side.",
+      "references": [
+        {
+          "text": "Nova-Camacho LM, Gomez-Dorronsoro M, Guarch R, Cordoba A, Cevallos MI, Panizo-Santos A. Cardiac Metastasis From Solid Cancers: A 35-Year Single-Center Autopsy Study. Arch Pathol Lab Med. 2023 Feb 1;147(2):177-184.",
+          "url": null
+        },
+        {
+          "text": "Bussani R, De-Giorgio F, Abbate A, Silvestri F. Cardiac metastases. J Clin Pathol. 2007 Jan;60(1):27-34. doi: 10.1136/jcp.2005.035105. Epub 2006 Nov 10.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: D. Metastatic carcinoma\n\nHistology: Paucicellular tissue with papillary excrescences is lined by atypical epithelioid cells. There are large adjacent areas of necrosis and fibrin.\n\nDiscussion: This is a metastatic carcinoma colonizing the surface of the atrium. Immunohistochemistry was performed and showed that the malignant cells labeled for CK20, claudin4, and CDX2. Mesothelial markers TTF-1 and p40 were negative. The pattern was suggestive of lower GI tract origin.\n\nMetastases are 30x more common than primary neoplasms of the heart. The incidence of metastases to the heart has been increasing in recent years. Reported metastasis to the heart include lung, stomach, ovary, colon, liver or kidney carcinomas. Metastasis to the right side of the heart is more common than to the left side.\n\nReferences: Nova-Camacho LM, Gomez-Dorronsoro M, Guarch R, Cordoba A, Cevallos MI, Panizo-Santos A. Cardiac Metastasis From Solid Cancers: A 35-Year Single-Center Autopsy Study. Arch Pathol Lab Med. 2023 Feb 1;147(2):177-184.\n\nBussani R, De-Giorgio F, Abbate A, Silvestri F. Cardiac metastases. J Clin Pathol. 2007 Jan;60(1):27-34. doi: 10.1136/jcp.2005.035105. Epub 2006 Nov 10.",
+      "feedback_html": "<strong>Answer:</strong> D. Metastatic carcinoma<p></p>\n<p><strong>Histology:</strong> Paucicellular tissue with papillary excrescences is lined by atypical epithelioid cells. There are large adjacent areas of necrosis and fibrin.</p>\n<p><strong>Discussion:</strong> This is a metastatic carcinoma colonizing the surface of the atrium. Immunohistochemistry was performed and showed that the malignant cells labeled for CK20, claudin4, and CDX2. Mesothelial markers TTF-1 and p40 were negative. The pattern was suggestive of lower GI tract origin.</p>\n<p>Metastases are 30x more common than primary neoplasms of the heart. The incidence of metastases to the heart has been increasing in recent years. Reported metastasis to the heart include lung, stomach, ovary, colon, liver or kidney carcinomas. Metastasis to the right side of the heart is more common than to the left side.</p>\n<p><strong>References: </strong>Nova-Camacho LM, Gomez-Dorronsoro M, Guarch R, Cordoba A, Cevallos MI, Panizo-Santos A. Cardiac Metastasis From Solid Cancers: A 35-Year Single-Center Autopsy Study. Arch Pathol Lab Med. 2023 Feb 1;147(2):177-184.</p>\n<p>Bussani R, De-Giorgio F, Abbate A, Silvestri F. Cardiac metastases. J Clin Pathol. 2007 Jan;60(1):27-34. doi: 10.1136/jcp.2005.035105. Epub 2006 Nov 10.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:01:24.860Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w799c1",
+      "url": "https://sp.pathology.jhu.edu/week-799-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 799: Case 1",
+      "case_label": "Week 799: Case 1",
+      "attribution": "Case presented by Dr. Elizabeth Thompson, MD, PhD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This case is a female child with a scalp mass.",
+      "question_text": "Case presented by Dr. Elizabeth Thompson, MD, PhD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis case is a female child with a scalp mass.",
+      "source_answer": "C. Pilomatrixoma",
+      "correct_answer": "Pilomatrixoma",
+      "canonical_answer": "Pilomatrixoma",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "A. Pilar cyst (Trichilemmal type)",
+        "B. Epidermal inclusion cyst",
+        "C. Pilomatrixoma",
+        "D. Basal cell carcinoma"
+      ],
+      "choices": [
+        "Pilar cyst (Trichilemmal type)",
+        "Epidermal inclusion cyst",
+        "Pilomatrixoma",
+        "Basal cell carcinoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8566.svs-511611366073214357131x-4.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8566.svs-561761563760399198602x-2.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8566.svs-216064074322847419834x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8566.svs-355521864436129191905x.png"
+      ],
+      "histology": "There are skin and adnexal structures supporting location is the scalp. The lesion under the skin consists of cystic spaces and nodules with abundant giant cells. There are rims of basaloid cells at the base of nodules blending into eosinophilic “ghost cells”.",
+      "discussion": "This is a pilomatrixoma, which is a benign dermal or subcutaneous tumor that shows differentiation toward hair follicle matrix that is common in children and young adults. The nodule is typically solitary, deep, slow-growing, can be cystic, and localize in the head, neck, and upper extremities. Upon gross examination, they appear to be firm nodules with variegated, chalky, gray-brown or yellow-white color. Microscopically, the lesion contains sheets of basaloid epithelial cells, eosinophilic “ghost cells”, and intervening stroma that contain foreign body giant cells and inflammation. Nodules of calcification and ossification can occur. These tumors are most often sporadic and sporadic pilomatricomas can harbor activating mutations in beta-catenin. Immunohistochemistry is not needed for diagnosis.",
+      "references": [
+        {
+          "text": "Friedrichs J, Fink D, Mauch C, Kindler D, Hartmann W, Schüle R, Buettner R, Friedrichs N. TGF-β1-dependent induction and nuclear translocation of FHL2 promotes keratin expression in pilomatricoma. Virchows Arch. 2015 Feb;466(2):199-208.",
+          "url": null
+        },
+        {
+          "text": "Kranjčec I, Roganović J, Jonjić N. Pilomatrixoma: A Benign Appendageal Tumor not Uncommon in Children. Acta Dermatovenerol Croat. 2015;23(4):308-9.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: C. Pilomatrixoma\n\nHistology: There are skin and adnexal structures supporting location is the scalp. The lesion under the skin consists of cystic spaces and nodules with abundant giant cells. There are rims of basaloid cells at the base of nodules blending into eosinophilic “ghost cells”.\n\nDiscussion: This is a pilomatrixoma, which is a benign dermal or subcutaneous tumor that shows differentiation toward hair follicle matrix that is common in children and young adults. The nodule is typically solitary, deep, slow-growing, can be cystic, and localize in the head, neck, and upper extremities. Upon gross examination, they appear to be firm nodules with variegated, chalky, gray-brown or yellow-white color. Microscopically, the lesion contains sheets of basaloid epithelial cells, eosinophilic “ghost cells”, and intervening stroma that contain foreign body giant cells and inflammation. Nodules of calcification and ossification can occur. These tumors are most often sporadic and sporadic pilomatricomas can harbor activating mutations in beta-catenin. Immunohistochemistry is not needed for diagnosis.\n\nReferences: Friedrichs J, Fink D, Mauch C, Kindler D, Hartmann W, Schüle R, Buettner R, Friedrichs N. TGF-β1-dependent induction and nuclear translocation of FHL2 promotes keratin expression in pilomatricoma. Virchows Arch. 2015 Feb;466(2):199-208.\n\nKranjčec I, Roganović J, Jonjić N. Pilomatrixoma: A Benign Appendageal Tumor not Uncommon in Children. Acta Dermatovenerol Croat. 2015;23(4):308-9.",
+      "feedback_html": "<strong>Answer:</strong> C. Pilomatrixoma<p></p>\n<p><strong>Histology:</strong> There are skin and adnexal structures supporting location is the scalp. The lesion under the skin consists of cystic spaces and nodules with abundant giant cells. There are rims of basaloid cells at the base of nodules blending into eosinophilic “ghost cells”.</p>\n<p><strong>Discussion:</strong> This is a pilomatrixoma, which is a benign dermal or subcutaneous tumor that shows differentiation toward hair follicle matrix that is common in children and young adults. The nodule is typically solitary, deep, slow-growing, can be cystic, and localize in the head, neck, and upper extremities. Upon gross examination, they appear to be firm nodules with variegated, chalky, gray-brown or yellow-white color. Microscopically, the lesion contains sheets of basaloid epithelial cells, eosinophilic “ghost cells”, and intervening stroma that contain foreign body giant cells and inflammation. Nodules of calcification and ossification can occur. These tumors are most often sporadic and sporadic pilomatricomas can harbor activating mutations in beta-catenin. Immunohistochemistry is not needed for diagnosis.</p>\n<p><strong>References: </strong>Friedrichs J, Fink D, Mauch C, Kindler D, Hartmann W, Schüle R, Buettner R, Friedrichs N. TGF-β1-dependent induction and nuclear translocation of FHL2 promotes keratin expression in pilomatricoma. Virchows Arch. 2015 Feb;466(2):199-208.</p>\n<p>Kranjčec I, Roganović J, Jonjić N. Pilomatrixoma: A Benign Appendageal Tumor not Uncommon in Children. Acta Dermatovenerol Croat. 2015;23(4):308-9.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:01:34.187Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w798c3",
+      "url": "https://sp.pathology.jhu.edu/week-798-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 798: Case 3",
+      "case_label": "Week 798: Case 3",
+      "attribution": "Case presented by Dr. Andres Matoso, MD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This case is an adult male with a testicular tumor.",
+      "question_text": "Case presented by Dr. Andres Matoso, MD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis case is an adult male with a testicular tumor.",
+      "source_answer": "D. Metastatic melanoma",
+      "correct_answer": "Metastatic melanoma",
+      "canonical_answer": "Metastatic melanoma",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "A. Sex cord stromal tumor",
+        "B. Rhabdomyosarcoma",
+        "C. Ewing’s sarcoma",
+        "D. Metastatic melanoma"
+      ],
+      "choices": [
+        "Sex cord stromal tumor",
+        "Rhabdomyosarcoma",
+        "Ewing’s sarcoma",
+        "Metastatic melanoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8565.ndpi-3565931569676743481x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8565.ndpi-155353612726871472781x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8565.ndpi-245793932025509402354x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8565.ndpi-120073296612760337075x.png"
+      ],
+      "histology": "The lesion is a basaloid mass with prominent vasculature with large epithelioid cells that are falling apart. The nuclei have speckled chromatin, large nucleoli, and lots of mitosis. The background testis has spermatogenesis arrest.",
+      "discussion": "This is a metastatic melanoma to the testes. When thinking about a blue cell tumor in the testis, there are a wide range of poorly or undifferentiated tumors to consider in the differential. Examples of tumors and their stains include: carcinomas (keratins), lymphomas (CD45), and sarcomas such as rhabdomyosarcoma (desmin, myogenin). Other tumors to consider include sex cord stromal tumor, such as a Leydig cell tumor (SF1, inhibin), embryonal carcinoma (OCT3/4, CD30, keratin), Sertoli cell (SF1, GATA4), yolk sac tumor (Glypican3, CDX2), carcinoid (synaptophysin/chromogranin), vascular tumors (CD34, CD31), and Ewings sarcoma (CD99). In this case, all of the immunostains for these malignancies were negative. If stains are negative for every malignancy, think about metastatic melanoma in the differential.\nMetastatic melanoma is spread of melanoma from a cutaneous or extra-cutaneous primary melanoma to sites beyond the skin and subcutaneous fat. Approximately 60-80% of patients with metastatic melanoma have involvement of regional lymph nodes. Other sites of metastasis include distant nodes, lungs, liver, brain, bone, and intestine, with testes as a possible location as well.",
+      "references": [
+        {
+          "text": "PETERSEN NC, BODENHAM DC, LLOYD OC. Malignant melanomas of the skin. A study of the origin, development, aetiology, spread, treatment, and prognosis. I. Br J Plast Surg. 1962 Jan;15:49-94.",
+          "url": null
+        },
+        {
+          "text": "Gershenwald JE, Scolyer RA, Hess KR, Sondak VK, Long GV, Ross MI, Lazar AJ, Faries MB, Kirkwood JM, McArthur GA, Haydu LE, Eggermont AMM, Flaherty KT, Balch CM, Thompson JF; for members of the American Joint Committee on Cancer Melanoma Expert Panel and the International Melanoma Database and Discovery Platform. Melanoma staging: Evidence-based changes in the American Joint Committee on Cancer eighth edition cancer staging manual. CA Cancer J Clin. 2017 Nov;67(6):472-492.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: D. Metastatic melanoma\n\nHistology: The lesion is a basaloid mass with prominent vasculature with large epithelioid cells that are falling apart. The nuclei have speckled chromatin, large nucleoli, and lots of mitosis. The background testis has spermatogenesis arrest.\n\nDiscussion: This is a metastatic melanoma to the testes. When thinking about a blue cell tumor in the testis, there are a wide range of poorly or undifferentiated tumors to consider in the differential. Examples of tumors and their stains include: carcinomas (keratins), lymphomas (CD45), and sarcomas such as rhabdomyosarcoma (desmin, myogenin). Other tumors to consider include sex cord stromal tumor, such as a Leydig cell tumor (SF1, inhibin), embryonal carcinoma (OCT3/4, CD30, keratin), Sertoli cell (SF1, GATA4), yolk sac tumor (Glypican3, CDX2), carcinoid (synaptophysin/chromogranin), vascular tumors (CD34, CD31), and Ewings sarcoma (CD99). In this case, all of the immunostains for these malignancies were negative. If stains are negative for every malignancy, think about metastatic melanoma in the differential.\n\nMetastatic melanoma is spread of melanoma from a cutaneous or extra-cutaneous primary melanoma to sites beyond the skin and subcutaneous fat. Approximately 60-80% of patients with metastatic melanoma have involvement of regional lymph nodes. Other sites of metastasis include distant nodes, lungs, liver, brain, bone, and intestine, with testes as a possible location as well.\n\nReferences: PETERSEN NC, BODENHAM DC, LLOYD OC. Malignant melanomas of the skin. A study of the origin, development, aetiology, spread, treatment, and prognosis. I. Br J Plast Surg. 1962 Jan;15:49-94.\n\nGershenwald JE, Scolyer RA, Hess KR, Sondak VK, Long GV, Ross MI, Lazar AJ, Faries MB, Kirkwood JM, McArthur GA, Haydu LE, Eggermont AMM, Flaherty KT, Balch CM, Thompson JF; for members of the American Joint Committee on Cancer Melanoma Expert Panel and the International Melanoma Database and Discovery Platform. Melanoma staging: Evidence-based changes in the American Joint Committee on Cancer eighth edition cancer staging manual. CA Cancer J Clin. 2017 Nov;67(6):472-492.",
+      "feedback_html": "<strong>Answer:</strong> D. Metastatic melanoma<p></p>\n<p><strong>Histology:</strong> The lesion is a basaloid mass with prominent vasculature with large epithelioid cells that are falling apart. The nuclei have speckled chromatin, large nucleoli, and lots of mitosis. The background testis has spermatogenesis arrest.</p>\n<p><strong>Discussion:</strong> This is a metastatic melanoma to the testes. When thinking about a blue cell tumor in the testis, there are a wide range of poorly or undifferentiated tumors to consider in the differential. Examples of tumors and their stains include: carcinomas (keratins), lymphomas (CD45), and sarcomas such as rhabdomyosarcoma (desmin, myogenin). Other tumors to consider include sex cord stromal tumor, such as a Leydig cell tumor (SF1, inhibin), embryonal carcinoma (OCT3/4, CD30, keratin), Sertoli cell (SF1, GATA4), yolk sac tumor (Glypican3, CDX2), carcinoid (synaptophysin/chromogranin), vascular tumors (CD34, CD31), and Ewings sarcoma (CD99). In this case, all of the immunostains for these malignancies were negative. If stains are negative for every malignancy, think about metastatic melanoma in the differential.<br>\nMetastatic melanoma is spread of melanoma from a cutaneous or extra-cutaneous primary melanoma to sites beyond the skin and subcutaneous fat. Approximately 60-80% of patients with metastatic melanoma have involvement of regional lymph nodes. Other sites of metastasis include distant nodes, lungs, liver, brain, bone, and intestine, with testes as a possible location as well.</p>\n<p><strong>References: </strong>PETERSEN NC, BODENHAM DC, LLOYD OC. Malignant melanomas of the skin. A study of the origin, development, aetiology, spread, treatment, and prognosis. I. Br J Plast Surg. 1962 Jan;15:49-94.</p>\n<p>Gershenwald JE, Scolyer RA, Hess KR, Sondak VK, Long GV, Ross MI, Lazar AJ, Faries MB, Kirkwood JM, McArthur GA, Haydu LE, Eggermont AMM, Flaherty KT, Balch CM, Thompson JF; for members of the American Joint Committee on Cancer Melanoma Expert Panel and the International Melanoma Database and Discovery Platform. Melanoma staging: Evidence-based changes in the American Joint Committee on Cancer eighth edition cancer staging manual. CA Cancer J Clin. 2017 Nov;67(6):472-492.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:01:43.579Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w798c2",
+      "url": "https://sp.pathology.jhu.edu/week-798-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 798: Case 2",
+      "case_label": "Week 798: Case 2",
+      "attribution": "Case presented by Dr. Andres Matoso, MD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This case is an elderly female with a kidney tumor.",
+      "question_text": "Case presented by Dr. Andres Matoso, MD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis case is an elderly female with a kidney tumor.",
+      "source_answer": "A. Tubulocystic renal cell carcinoma",
+      "correct_answer": "Tubulocystic renal cell carcinoma",
+      "canonical_answer": "Tubulocystic renal cell carcinoma",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "A. Tubulocystic renal cell carcinoma",
+        "B. Oncocytoma",
+        "C. Chromophobe renal cell carcinoma",
+        "D. Clear cell renal cell carcinoma"
+      ],
+      "choices": [
+        "Tubulocystic renal cell carcinoma",
+        "Oncocytoma",
+        "Chromophobe renal cell carcinoma",
+        "Clear cell renal cell carcinoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8564.ndpi-52321511161552687131x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8564.ndpi-378632202555245385691x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8564.ndpi-393553116054707472901x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8564.ndpi-10061148664106460548102x.png"
+      ],
+      "histology": "The lesion is an unencapsulated, well-circumscribed eosinophilic mass with prominent cystic spaces. The cells appear hobnailed and cribriform with fibrotic stroma. Nucleoli are large.",
+      "discussion": "This is a tubulocystic renal cell carcinoma (TcRCC), which is a rare cystic renal epithelial neoplasm with exclusive tubulocystic growth. The tumor is found in the renal cortex and corticomedullar junction. This is an exceedingly rare tumor representing <1% of renal tumors. The median age of patients with this tumor are 58.4 years (ranging from 30-74) and there is a male predominance. Mutations in ABL1 and PDGFRA have been reported in a few cases. Upon gross examination, TcRCC is well circumscribed as a solitary mass with a spongy appearance and a cut surface with small white cysts with clear fluid. Microscopically, there are small tubules admixed with larger cysts lined by flat, cuboidal, and hobnail epithelium. The nuclei are enlarged with prominent nucleoli and abundant eosinophilic cytoplasm.\nLow-grade fumarate hydratase (FH)-deficient tumors must be excluded by immunohistochemistry. They are cognized by their heterogeneous architecture and high-grade features. FH deficiency tumors have a high chance of being syndromic. Immunostains showing fumarate hydratase loss of staining and staining of endothelium as an internal control can confirm FH deficiency. S-(2-succino)-cysteine (2SC) is another useful stain that will be positively overexpressed in FH deficient tumors. A pure tubulocystic renal cell carcinoma typically is indolent and has a good prognosis, with rare reports of metastasis.\n\nReference: Amin MB, MacLennan GT, Gupta R, Grignon D, Paraf F, Vieillefond A, Paner GP, Stovsky M, Young AN, Srigley JR, Cheville JC. Tubulocystic carcinoma of the kidney: clinicopathologic analysis of 31 cases of a distinctive rare subtype of renal cell carcinoma. Am J Surg Pathol. 2009 Mar;33(3):384-92.",
+      "references": [
+        {
+          "text": "Amin MB, MacLennan GT, Gupta R, Grignon D, Paraf F, Vieillefond A, Paner GP, Stovsky M, Young AN, Srigley JR, Cheville JC. Tubulocystic carcinoma of the kidney: clinicopathologic analysis of 31 cases of a distinctive rare subtype of renal cell carcinoma. Am J Surg Pathol. 2009 Mar;33(3):384-92.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: A. Tubulocystic renal cell carcinoma\n\nHistology: The lesion is an unencapsulated, well-circumscribed eosinophilic mass with prominent cystic spaces. The cells appear hobnailed and cribriform with fibrotic stroma. Nucleoli are large.\n\nDiscussion: This is a tubulocystic renal cell carcinoma (TcRCC), which is a rare cystic renal epithelial neoplasm with exclusive tubulocystic growth. The tumor is found in the renal cortex and corticomedullar junction. This is an exceedingly rare tumor representing <1% of renal tumors. The median age of patients with this tumor are 58.4 years (ranging from 30-74) and there is a male predominance. Mutations in ABL1 and PDGFRA have been reported in a few cases. Upon gross examination, TcRCC is well circumscribed as a solitary mass with a spongy appearance and a cut surface with small white cysts with clear fluid. Microscopically, there are small tubules admixed with larger cysts lined by flat, cuboidal, and hobnail epithelium. The nuclei are enlarged with prominent nucleoli and abundant eosinophilic cytoplasm.\n\nLow-grade fumarate hydratase (FH)-deficient tumors must be excluded by immunohistochemistry. They are cognized by their heterogeneous architecture and high-grade features. FH deficiency tumors have a high chance of being syndromic. Immunostains showing fumarate hydratase loss of staining and staining of endothelium as an internal control can confirm FH deficiency. S-(2-succino)-cysteine (2SC) is another useful stain that will be positively overexpressed in FH deficient tumors. A pure tubulocystic renal cell carcinoma typically is indolent and has a good prognosis, with rare reports of metastasis.\n\nReference: Amin MB, MacLennan GT, Gupta R, Grignon D, Paraf F, Vieillefond A, Paner GP, Stovsky M, Young AN, Srigley JR, Cheville JC. Tubulocystic carcinoma of the kidney: clinicopathologic analysis of 31 cases of a distinctive rare subtype of renal cell carcinoma. Am J Surg Pathol. 2009 Mar;33(3):384-92.",
+      "feedback_html": "<strong>Answer:</strong> A. Tubulocystic renal cell carcinoma<p></p>\n<p><strong>Histology:</strong> The lesion is an unencapsulated, well-circumscribed eosinophilic mass with prominent cystic spaces. The cells appear hobnailed and cribriform with fibrotic stroma. Nucleoli are large.</p>\n<p><strong>Discussion:</strong> This is a tubulocystic renal cell carcinoma (TcRCC), which is a rare cystic renal epithelial neoplasm with exclusive tubulocystic growth. The tumor is found in the renal cortex and corticomedullar junction. This is an exceedingly rare tumor representing &lt;1% of renal tumors. The median age of patients with this tumor are 58.4 years (ranging from 30-74) and there is a male predominance. Mutations in ABL1 and PDGFRA have been reported in a few cases. Upon gross examination, TcRCC is well circumscribed as a solitary mass with a spongy appearance and a cut surface with small white cysts with clear fluid. Microscopically, there are small tubules admixed with larger cysts lined by flat, cuboidal, and hobnail epithelium. The nuclei are enlarged with prominent nucleoli and abundant eosinophilic cytoplasm.<br>\nLow-grade fumarate hydratase (FH)-deficient tumors must be excluded by immunohistochemistry. They are cognized by their heterogeneous architecture and high-grade features. FH deficiency tumors have a high chance of being syndromic. Immunostains showing fumarate hydratase loss of staining and staining of endothelium as an internal control can confirm FH deficiency. S-(2-succino)-cysteine (2SC) is another useful stain that will be positively overexpressed in FH deficient tumors. A pure tubulocystic renal cell carcinoma typically is indolent and has a good prognosis, with rare reports of metastasis.</p>\n<p><strong>Reference:</strong> Amin MB, MacLennan GT, Gupta R, Grignon D, Paraf F, Vieillefond A, Paner GP, Stovsky M, Young AN, Srigley JR, Cheville JC. Tubulocystic carcinoma of the kidney: clinicopathologic analysis of 31 cases of a distinctive rare subtype of renal cell carcinoma. Am J Surg Pathol. 2009 Mar;33(3):384-92.</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:01:54.011Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w798c1",
+      "url": "https://sp.pathology.jhu.edu/week-798-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 798: Case 1",
+      "case_label": "Week 798: Case 1",
+      "attribution": "Case presented by Dr. Andres Matoso, MD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This case is an elderly male with a testicular tumor.",
+      "question_text": "Case presented by Dr. Andres Matoso, MD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis case is an elderly male with a testicular tumor.",
+      "source_answer": "C. Adenomatoid tumor",
+      "correct_answer": "Adenomatoid tumor",
+      "canonical_answer": "Adenomatoid tumor",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "A. Sex cord stromal tumor",
+        "B. Neurofibroma",
+        "C. Adenomatoid tumor",
+        "D. Germ cell tumor"
+      ],
+      "choices": [
+        "Sex cord stromal tumor",
+        "Neurofibroma",
+        "Adenomatoid tumor",
+        "Germ cell tumor"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8562.ndpi-28075538987901071351x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8562.ndpi-428165354060237709611x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8562.ndpi-415996142243259630823x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8562.ndpi-451625029046811519393x.png"
+      ],
+      "histology": "The lesion is within the testis and consists of a fibrous mass next to vessels and containing lymphocytic aggregates. There are epithelioid cells with cytoplasmic vacuoles in large tubule-like structures that are infiltrative between seminiferous tubules. On high power, the cells have a bland cytomorphology.",
+      "discussion": "An adenomatoid tumor is a benign neoplasm of mesothelial origin displaying a spectrum of tubular, nested, or cord-like patterns. Commonly, they are in a paratesticular location and most often arise from the epididymis and can grow between seminiferous tubules and into testicular parenchyma. Adenomatoid tumors account for 1/3 of all adnexal tumor and 60% of benign adnexal tumors. Although these tumors are most predominant in patients 40 years old, they have been described in all age groups. In terms of etiology, there has been an association between immunosuppression in patients undergoing treatment for autoimmune diseases or after allograft organ transplants and the development of these tumors. This association suggests that immune dysregulation within mesothelial cells could contribute to tumor formation. Upon gross examination, these tumors are well-circumscribed round to oval masses with a white or tan surface. Microscopically, these tumors are rounded nodules with proliferating gland-like or vascular-like spaces lined by columnar layer of neoplastic cells. Intracytoplasmic vacuolization is observed. In addition, the background stroma is fibrous or collagenous with scattered lymphoid aggregates present. Infarcted tumors may show have regenerative changes. Immunohistochemical stains may be helpful with pancytokeratin, CAM5.2, CK7, calretinin, WT1, HBME1, BAP1, L1CMA, and podoplanin positivity. Surgical resection is curative.\n\nReference: Sangoi AR, McKenney JK, Schwartz EJ, Rouse RV, Longacre TA. Adenomatoid tumors of the female and male genital tracts: a clinicopathological and immunohistochemical study of 44 cases. Mod Pathol. 2009 Sep;22(9):1228-35.",
+      "references": [
+        {
+          "text": "Sangoi AR, McKenney JK, Schwartz EJ, Rouse RV, Longacre TA. Adenomatoid tumors of the female and male genital tracts: a clinicopathological and immunohistochemical study of 44 cases. Mod Pathol. 2009 Sep;22(9):1228-35.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: C. Adenomatoid tumor\n\nHistology: The lesion is within the testis and consists of a fibrous mass next to vessels and containing lymphocytic aggregates. There are epithelioid cells with cytoplasmic vacuoles in large tubule-like structures that are infiltrative between seminiferous tubules. On high power, the cells have a bland cytomorphology.\n\nDiscussion: An adenomatoid tumor is a benign neoplasm of mesothelial origin displaying a spectrum of tubular, nested, or cord-like patterns. Commonly, they are in a paratesticular location and most often arise from the epididymis and can grow between seminiferous tubules and into testicular parenchyma. Adenomatoid tumors account for 1/3 of all adnexal tumor and 60% of benign adnexal tumors. Although these tumors are most predominant in patients 40 years old, they have been described in all age groups. In terms of etiology, there has been an association between immunosuppression in patients undergoing treatment for autoimmune diseases or after allograft organ transplants and the development of these tumors. This association suggests that immune dysregulation within mesothelial cells could contribute to tumor formation. Upon gross examination, these tumors are well-circumscribed round to oval masses with a white or tan surface. Microscopically, these tumors are rounded nodules with proliferating gland-like or vascular-like spaces lined by columnar layer of neoplastic cells. Intracytoplasmic vacuolization is observed. In addition, the background stroma is fibrous or collagenous with scattered lymphoid aggregates present. Infarcted tumors may show have regenerative changes. Immunohistochemical stains may be helpful with pancytokeratin, CAM5.2, CK7, calretinin, WT1, HBME1, BAP1, L1CMA, and podoplanin positivity. Surgical resection is curative.\n\nReference: Sangoi AR, McKenney JK, Schwartz EJ, Rouse RV, Longacre TA. Adenomatoid tumors of the female and male genital tracts: a clinicopathological and immunohistochemical study of 44 cases. Mod Pathol. 2009 Sep;22(9):1228-35.",
+      "feedback_html": "<strong>Answer:</strong> C. Adenomatoid tumor<p></p>\n<p><strong>Histology:</strong> The lesion is within the testis and consists of a fibrous mass next to vessels and containing lymphocytic aggregates. There are epithelioid cells with cytoplasmic vacuoles in large tubule-like structures that are infiltrative between seminiferous tubules. On high power, the cells have a bland cytomorphology.</p>\n<p><strong>Discussion:</strong> An adenomatoid tumor is a benign neoplasm of mesothelial origin displaying a spectrum of tubular, nested, or cord-like patterns. Commonly, they are in a paratesticular location and most often arise from the epididymis and can grow between seminiferous tubules and into testicular parenchyma. Adenomatoid tumors account for 1/3 of all adnexal tumor and 60% of benign adnexal tumors. Although these tumors are most predominant in patients 40 years old, they have been described in all age groups. In terms of etiology, there has been an association between immunosuppression in patients undergoing treatment for autoimmune diseases or after allograft organ transplants and the development of these tumors. This association suggests that immune dysregulation within mesothelial cells could contribute to tumor formation. Upon gross examination, these tumors are well-circumscribed round to oval masses with a white or tan surface. Microscopically, these tumors are rounded nodules with proliferating gland-like or vascular-like spaces lined by columnar layer of neoplastic cells. Intracytoplasmic vacuolization is observed. In addition, the background stroma is fibrous or collagenous with scattered lymphoid aggregates present. Infarcted tumors may show have regenerative changes. Immunohistochemical stains may be helpful with pancytokeratin, CAM5.2, CK7, calretinin, WT1, HBME1, BAP1, L1CMA, and podoplanin positivity. Surgical resection is curative.</p>\n<p><strong>Reference:</strong> Sangoi AR, McKenney JK, Schwartz EJ, Rouse RV, Longacre TA. Adenomatoid tumors of the female and male genital tracts: a clinicopathological and immunohistochemical study of 44 cases. Mod Pathol. 2009 Sep;22(9):1228-35.</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:02:03.542Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w797c3",
+      "url": "https://sp.pathology.jhu.edu/week-797-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 797: Case 3",
+      "case_label": "Week 797: Case 3",
+      "attribution": "Case presented by Dr. Pedram Argani, MD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This is a 30 year old female with a leg mass.",
+      "question_text": "Case presented by Dr. Pedram Argani, MD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis is a 30 year old female with a leg mass.",
+      "source_answer": "C. Synovial Sarcoma",
+      "correct_answer": "Synovial Sarcoma",
+      "canonical_answer": "Synovial Sarcoma",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "A. Solitary fibrous tumor, cellular",
+        "B. Malignant peripheral nerve sheath tumor",
+        "C. Synovial Sarcoma",
+        "D. Ewing sarcoma"
+      ],
+      "choices": [
+        "Solitary fibrous tumor, cellular",
+        "Malignant peripheral nerve sheath tumor",
+        "Synovial Sarcoma",
+        "Ewing sarcoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8559.ndpi-2799183021145311009441x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8559.ndpi-633413761771585464423x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8559.ndpi-736963803776241407609x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8559.ndpi-7475938465755443930628x.png"
+      ],
+      "histology": "This is a post-treatment specimen, but the characteristic features of the neoplasm are retained. The predominance of the neoplasm is composed of plump spindle cells forming sheets with a prominent staghorn (hemangiopericytomatous) vasculature. Some areas of the tumor are extremely cellular with prominent mitotic activity, whereas others are associated with less cellularity and more abundant collagen deposition in association with dilated vessels. Some portions of the tumor have a more round cell appearance with less spindling. The neoplasm demonstrates strong nuclear labeling for TLE1 protein, and demonstrated the characteristic SS18-SSX1 gene fusion of synovial sarcoma.",
+      "discussion": "Malignant peripheral nerve sheath tumor (MPNST) may overlap significantly with synovial sarcoma, as both may be biphasic and dominated by spindle cells forming poorly formed fascicles. MPNST typically demonstrates greater cytologic atypia than synovial sarcoma (which is a translocation associated cancer) and is frequently associated with nerve trunks and/or a history of neurofibromatosis type 1. Solitary fibrous tumor may overlap cytologically with synovial sarcoma, in that both are composed of plump spindle cells without significant pleomorphism. Both are associated with dilated “hemangiopericytomatous” vasculature and collagen deposition. Solitary fibrous tumor should not label for TLE 1, but instead labels for STAT6. It is associated with a NAB2-STAT6 gene fusion which is distinct from the gene fusion of synovial sarcoma. Ewing sarcoma is suggested by the more round cell (poorly differentiated) areas of the current neoplasm. However, the spindling and collagen deposition as well hemangiopericytomatous vasculature seen in the current specimen are much more typical of synovial sarcoma than Ewing sarcoma, which is prototypical small round cell neoplasm. Ewing sarcoma demonstrates the typical EWSR1-FLI1 gene fusion or variants thereof which are distinct from the synovial sarcoma gene fusion.",
+      "references": [
+        {
+          "text": "Ann Diagn Pathol. 2014 Dec;18(6):369-80.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: C. Synovial Sarcoma\n\nHistologic Description: This is a post-treatment specimen, but the characteristic features of the neoplasm are retained. The predominance of the neoplasm is composed of plump spindle cells forming sheets with a prominent staghorn (hemangiopericytomatous) vasculature. Some areas of the tumor are extremely cellular with prominent mitotic activity, whereas others are associated with less cellularity and more abundant collagen deposition in association with dilated vessels. Some portions of the tumor have a more round cell appearance with less spindling. The neoplasm demonstrates strong nuclear labeling for TLE1 protein, and demonstrated the characteristic SS18-SSX1 gene fusion of synovial sarcoma.\n\nDifferential Diagnosis: Malignant peripheral nerve sheath tumor (MPNST) may overlap significantly with synovial sarcoma, as both may be biphasic and dominated by spindle cells forming poorly formed fascicles. MPNST typically demonstrates greater cytologic atypia than synovial sarcoma (which is a translocation associated cancer) and is frequently associated with nerve trunks and/or a history of neurofibromatosis type 1. Solitary fibrous tumor may overlap cytologically with synovial sarcoma, in that both are composed of plump spindle cells without significant pleomorphism. Both are associated with dilated “hemangiopericytomatous” vasculature and collagen deposition. Solitary fibrous tumor should not label for TLE 1, but instead labels for STAT6. It is associated with a NAB2-STAT6 gene fusion which is distinct from the gene fusion of synovial sarcoma. Ewing sarcoma is suggested by the more round cell (poorly differentiated) areas of the current neoplasm. However, the spindling and collagen deposition as well hemangiopericytomatous vasculature seen in the current specimen are much more typical of synovial sarcoma than Ewing sarcoma, which is prototypical small round cell neoplasm. Ewing sarcoma demonstrates the typical EWSR1-FLI1 gene fusion or variants thereof which are distinct from the synovial sarcoma gene fusion.\n\nReference: Ann Diagn Pathol. 2014 Dec;18(6):369-80.",
+      "feedback_html": "<strong>Answer:</strong> C. Synovial Sarcoma<p></p>\n<p><strong>Histologic Description:</strong> This is a post-treatment specimen, but the characteristic features of the neoplasm are retained. The predominance of the neoplasm is composed of plump spindle cells forming sheets with a prominent staghorn (hemangiopericytomatous) vasculature. Some areas of the tumor are extremely cellular with prominent mitotic activity, whereas others are associated with less cellularity and more abundant collagen deposition in association with dilated vessels. Some portions of the tumor have a more round cell appearance with less spindling. The neoplasm demonstrates strong nuclear labeling for TLE1 protein, and demonstrated the characteristic SS18-SSX1 gene fusion of synovial sarcoma.</p>\n<p><strong>Differential Diagnosis:</strong> Malignant peripheral nerve sheath tumor (MPNST) may overlap significantly with synovial sarcoma, as both may be biphasic and dominated by spindle cells forming poorly formed fascicles. MPNST typically demonstrates greater cytologic atypia than synovial sarcoma (which is a translocation associated cancer) and is frequently associated with nerve trunks and/or a history of neurofibromatosis type 1. Solitary fibrous tumor may overlap cytologically with synovial sarcoma, in that both are composed of plump spindle cells without significant pleomorphism. Both are associated with dilated “hemangiopericytomatous” vasculature and collagen deposition. Solitary fibrous tumor should not label for TLE 1, but instead labels for STAT6. It is associated with a NAB2-STAT6 gene fusion which is distinct from the gene fusion of synovial sarcoma. Ewing sarcoma is suggested by the more round cell (poorly differentiated) areas of the current neoplasm. However, the spindling and collagen deposition as well hemangiopericytomatous vasculature seen in the current specimen are much more typical of synovial sarcoma than Ewing sarcoma, which is prototypical small round cell neoplasm. Ewing sarcoma demonstrates the typical EWSR1-FLI1 gene fusion or variants thereof which are distinct from the synovial sarcoma gene fusion.</p>\n<p><strong>Reference:</strong> Ann Diagn Pathol. 2014 Dec;18(6):369-80.</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:02:12.961Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w797c2",
+      "url": "https://sp.pathology.jhu.edu/week-797-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 797: Case 2",
+      "case_label": "Week 797: Case 2",
+      "attribution": "Case presented by Dr. Pedram Argani, MD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This is a 68 year old female with a liver mass. A previous biopsy of the tumor demonstrated immunoreactivity for synaptophysin.",
+      "question_text": "Case presented by Dr. Pedram Argani, MD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis is a 68 year old female with a liver mass. A previous biopsy of the tumor demonstrated immunoreactivity for synaptophysin.",
+      "source_answer": "C. Cholangioblastic cholangiocarcinoma",
+      "correct_answer": "Cholangioblastic cholangiocarcinoma",
+      "canonical_answer": "Cholangioblastic cholangiocarcinoma",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "A. Metastatic neuroendocrine neoplasm, grade 1",
+        "B. Metastatic neuroendocrine neoplasm, grade 2",
+        "C. Cholangioblastic cholangiocarcinoma",
+        "D. Metastatic breast carcinoma"
+      ],
+      "choices": [
+        "Metastatic neuroendocrine neoplasm, grade 1",
+        "Metastatic neuroendocrine neoplasm, grade 2",
+        "Cholangioblastic cholangiocarcinoma",
+        "Metastatic breast carcinoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8556.ndpi-1x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8556.ndpi-2x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8556.ndpi-7x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8556.ndpi-23x.png"
+      ],
+      "histology": "This is a solid cellular neoplasm with a prominent capillary vasculature. The nuclei are generally uniform. The chromatin is evenly distributed, raising the possibility of a metastatic neuroendocrine neoplasm from the gastrointestinal tract. Indeed, this is most likely diagnosis based on the morphologic features alone. However, focally one can appreciate a smaller population of basophilic cells which have less cytoplasm. Also, one can focally appreciate follicular architecture, with the neoplastic cells surrounding pink secretions similar to the pattern seen in a thyroid follicular neoplasm. No prior history of neuroendocrine neoplasm of the GI tract or elsewhere was obtained in the patient, and there was no history of breast carcinoma. The neoplasm demonstrated diffuse immunoreactivity for inhibin, as well as immunoreactivity for biliary cytokeratin 19. These are the hallmark features of what has been termed “cholangioblastic cholangiocarcinoma”.",
+      "discussion": "Well differentiated neuroendocrine neoplasm is the most common misdiagnosis for these cases. One helpful feature is that cholangioblastic cholangiocarcinomas do not label for INSM1, and typically have a higher mitotic rate than the usual grade 1 metastatic neuroendocrine neoplasm. Moreover, the absence of an identifiable primary outside of the liver should suggest this diagnosis. Metastatic breast carcinoma with endocrine differentiation is another significant consideration, particularly in women with a liver neoplasm demonstrating neuroendocrine differentiation but a higher grade than the usual grade 1 neuroendocrine neoplasm. Absence for immunoreactivity for estrogen receptor helps exclude this possibility. Cholangioblastic cholangiocarcinomas have been demonstrated by our group at Johns Hopkins to harbor a characteristic gene fusion between NIPBL and NACC1.",
+      "references": [
+        {
+          "text": "Am J Surg Pathol 2021; 45:1550-1560 PMID: 33999553; Human Pathology 2018; 82:76-86 PMID: 30031098.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: C. Cholangioblastic cholangiocarcinoma\n\nHistologic Description: This is a solid cellular neoplasm with a prominent capillary vasculature. The nuclei are generally uniform. The chromatin is evenly distributed, raising the possibility of a metastatic neuroendocrine neoplasm from the gastrointestinal tract. Indeed, this is most likely diagnosis based on the morphologic features alone. However, focally one can appreciate a smaller population of basophilic cells which have less cytoplasm. Also, one can focally appreciate follicular architecture, with the neoplastic cells surrounding pink secretions similar to the pattern seen in a thyroid follicular neoplasm. No prior history of neuroendocrine neoplasm of the GI tract or elsewhere was obtained in the patient, and there was no history of breast carcinoma. The neoplasm demonstrated diffuse immunoreactivity for inhibin, as well as immunoreactivity for biliary cytokeratin 19. These are the hallmark features of what has been termed “cholangioblastic cholangiocarcinoma”.\n\nDifferential Diagnosis: Well differentiated neuroendocrine neoplasm is the most common misdiagnosis for these cases. One helpful feature is that cholangioblastic cholangiocarcinomas do not label for INSM1, and typically have a higher mitotic rate than the usual grade 1 metastatic neuroendocrine neoplasm. Moreover, the absence of an identifiable primary outside of the liver should suggest this diagnosis. Metastatic breast carcinoma with endocrine differentiation is another significant consideration, particularly in women with a liver neoplasm demonstrating neuroendocrine differentiation but a higher grade than the usual grade 1 neuroendocrine neoplasm. Absence for immunoreactivity for estrogen receptor helps exclude this possibility. Cholangioblastic cholangiocarcinomas have been demonstrated by our group at Johns Hopkins to harbor a characteristic gene fusion between NIPBL and NACC1.\n\nReference: Am J Surg Pathol 2021; 45:1550-1560 PMID: 33999553; Human Pathology 2018; 82:76-86 PMID: 30031098.",
+      "feedback_html": "<strong>Answer:</strong> C. Cholangioblastic cholangiocarcinoma<p></p>\n<p><strong>Histologic Description:</strong> This is a solid cellular neoplasm with a prominent capillary vasculature. The nuclei are generally uniform. The chromatin is evenly distributed, raising the possibility of a metastatic neuroendocrine neoplasm from the gastrointestinal tract. Indeed, this is most likely diagnosis based on the morphologic features alone. However, focally one can appreciate a smaller population of basophilic cells which have less cytoplasm. Also, one can focally appreciate follicular architecture, with the neoplastic cells surrounding pink secretions similar to the pattern seen in a thyroid follicular neoplasm. No prior history of neuroendocrine neoplasm of the GI tract or elsewhere was obtained in the patient, and there was no history of breast carcinoma. The neoplasm demonstrated diffuse immunoreactivity for inhibin, as well as immunoreactivity for biliary cytokeratin 19. These are the hallmark features of what has been termed “cholangioblastic cholangiocarcinoma”.</p>\n<p><strong>Differential Diagnosis:</strong> Well differentiated neuroendocrine neoplasm is the most common misdiagnosis for these cases. One helpful feature is that cholangioblastic cholangiocarcinomas do not label for INSM1, and typically have a higher mitotic rate than the usual grade 1 metastatic neuroendocrine neoplasm. Moreover, the absence of an identifiable primary outside of the liver should suggest this diagnosis. Metastatic breast carcinoma with endocrine differentiation is another significant consideration, particularly in women with a liver neoplasm demonstrating neuroendocrine differentiation but a higher grade than the usual grade 1 neuroendocrine neoplasm. Absence for immunoreactivity for estrogen receptor helps exclude this possibility. Cholangioblastic cholangiocarcinomas have been demonstrated by our group at Johns Hopkins to harbor a characteristic gene fusion between NIPBL and NACC1.</p>\n<p><strong>Reference:</strong> Am J Surg Pathol 2021; 45:1550-1560 PMID: 33999553; Human Pathology 2018; 82:76-86 PMID: 30031098.</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:02:22.289Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w797c1",
+      "url": "https://sp.pathology.jhu.edu/week-797-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 797: Case 1",
+      "case_label": "Week 797: Case 1",
+      "attribution": "Case presented by Dr. Pedram Argani, MD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This is a 1 week old female with a large renal mass.",
+      "question_text": "Case presented by Dr. Pedram Argani, MD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis is a 1 week old female with a large renal mass.",
+      "source_answer": "A. Rhabdoid tumor of the kidney",
+      "correct_answer": "Rhabdoid tumor of the kidney",
+      "canonical_answer": "Rhabdoid tumor of the kidney",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "A. Rhabdoid tumor of the kidney",
+        "B. Cellular congenital mesoblastic nephroma",
+        "C. Wilms tumor (nephroblastoma), blastemal predominant",
+        "D. Synovial sarcoma, poorly differentiated"
+      ],
+      "choices": [
+        "Rhabdoid tumor of the kidney",
+        "Cellular congenital mesoblastic nephroma",
+        "Wilms tumor (nephroblastoma), blastemal predominant",
+        "Synovial sarcoma, poorly differentiated"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8553.ndpi-240478531106232912811x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8553.ndpi-458535692557245689622x-1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8553.ndpi-7024239267721964133110x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8553.ndpi-7897735466798023633723x.png"
+      ],
+      "histology": "The neoplastic cells are epithelioid to spindled, and permeate between native nephrons. Focally, the native renal tubules show primitive chromatin, mimicking the epithelial component of a nephroblastoma (embryonal hyperplasia). The neoplastic cells are focally spindled and are associated with collagen production. Mitotic activity is extremely high and there is prominent apoptosis. The neoplastic cells, where epithelioid, focally demonstrate the characteristic cytologic triad of vesicular chromatin, prominent nucleoli, and eccentric hyaline cytoplasm inclusions. These are the typical features of a rhabdoid tumor. The neoplasm demonstrates loss of INI1 protein (SMARCB4) by immunohistochemistry, supporting the diagnosis.",
+      "discussion": "The cellular variant of congenital mesoblastic nephroma is the key differential in this young age group. In individual fields, the spindle cell areas of this neoplasm are virtually indistinguishable from a cellular congenital mesoblastic nephroma. However, a cellular congenital mesoblastic nephroma typically has a pushing pattern and does not typically contain native nephrons within it. The variation of cellularity of the current neoplasm would also be unusual for a cellular congenital mesoblastic nephroma, which is essentially infantile fibrosarcoma of the renal sinus. Cellular congenital mesoblastic nephroma would typically demonstrate the ETV6-NTRK3 gene fusion, as opposed to the INI1 loss seen in rhabdoid tumor. Wilms tumor may be mimicked by the focal embryonal hyperplasia of the entrapped nephrons, suggesting an epithelial component. The vesicular chromatin and prominent nucleoli of the current lesion would be highly atypical for a nephroblastoma. Also, another important morphologic feature is that the cytology of the entrapped tubules undergoing embryonal hyperplasia is different from that of the surrounding rhabdoid tumor: embryonal hyperplasia nuclei are condensed and basophilic, while the chromatin of the rhabdoid tumor surrounding these tubules is vesicular and the nucleus contains a prominent nucleolus. Synovial sarcoma may have poorly differentiated areas that resemble the current case; however, the age at presentation is completely different. Primary synovial sarcomas typically occur in young adults, while rhabdoid tumors typically occur in children under the age of 3 years. Synovial sarcoma would demonstrate the characteristic SS18-SSX1/SSX2 fusions that are the hallmark of that entity, and would not typically demonstrate loss of INI1.\n\nRhabdoid tumor of the kidney is a highly lethal cancer that effects very young children. A significant proportion of cases (approximately one third) prove to have germline INI1 alterations, predisposing the child to second malignancies such as atypical teratoid tumor of the central nervous system, and having potential familial implications.",
+      "references": [
+        {
+          "text": "Am J Surg Pathol. 1989 Jun;13(6):439-58. Crit Rev Oncog. 2015;20(3-4):199-216.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: A. Rhabdoid tumor of the kidney\n\nHistologic Description: The neoplastic cells are epithelioid to spindled, and permeate between native nephrons. Focally, the native renal tubules show primitive chromatin, mimicking the epithelial component of a nephroblastoma (embryonal hyperplasia). The neoplastic cells are focally spindled and are associated with collagen production. Mitotic activity is extremely high and there is prominent apoptosis. The neoplastic cells, where epithelioid, focally demonstrate the characteristic cytologic triad of vesicular chromatin, prominent nucleoli, and eccentric hyaline cytoplasm inclusions. These are the typical features of a rhabdoid tumor. The neoplasm demonstrates loss of INI1 protein (SMARCB4) by immunohistochemistry, supporting the diagnosis.\n\nDifferential Diagnosis: The cellular variant of congenital mesoblastic nephroma is the key differential in this young age group. In individual fields, the spindle cell areas of this neoplasm are virtually indistinguishable from a cellular congenital mesoblastic nephroma. However, a cellular congenital mesoblastic nephroma typically has a pushing pattern and does not typically contain native nephrons within it. The variation of cellularity of the current neoplasm would also be unusual for a cellular congenital mesoblastic nephroma, which is essentially infantile fibrosarcoma of the renal sinus. Cellular congenital mesoblastic nephroma would typically demonstrate the ETV6-NTRK3 gene fusion, as opposed to the INI1 loss seen in rhabdoid tumor. Wilms tumor may be mimicked by the focal embryonal hyperplasia of the entrapped nephrons, suggesting an epithelial component. The vesicular chromatin and prominent nucleoli of the current lesion would be highly atypical for a nephroblastoma. Also, another important morphologic feature is that the cytology of the entrapped tubules undergoing embryonal hyperplasia is different from that of the surrounding rhabdoid tumor: embryonal hyperplasia nuclei are condensed and basophilic, while the chromatin of the rhabdoid tumor surrounding these tubules is vesicular and the nucleus contains a prominent nucleolus. Synovial sarcoma may have poorly differentiated areas that resemble the current case; however, the age at presentation is completely different. Primary synovial sarcomas typically occur in young adults, while rhabdoid tumors typically occur in children under the age of 3 years. Synovial sarcoma would demonstrate the characteristic SS18-SSX1/SSX2 fusions that are the hallmark of that entity, and would not typically demonstrate loss of INI1.\n\nRhabdoid tumor of the kidney is a highly lethal cancer that effects very young children. A significant proportion of cases (approximately one third) prove to have germline INI1 alterations, predisposing the child to second malignancies such as atypical teratoid tumor of the central nervous system, and having potential familial implications.\n\nReference: Am J Surg Pathol. 1989 Jun;13(6):439-58. Crit Rev Oncog. 2015;20(3-4):199-216.",
+      "feedback_html": "<strong>Answer:</strong> A. Rhabdoid tumor of the kidney<p></p>\n<p><strong>Histologic Description:</strong> The neoplastic cells are epithelioid to spindled, and permeate between native nephrons. Focally, the native renal tubules show primitive chromatin, mimicking the epithelial component of a nephroblastoma (embryonal hyperplasia). The neoplastic cells are focally spindled and are associated with collagen production. Mitotic activity is extremely high and there is prominent apoptosis. The neoplastic cells, where epithelioid, focally demonstrate the characteristic cytologic triad of vesicular chromatin, prominent nucleoli, and eccentric hyaline cytoplasm inclusions. These are the typical features of a rhabdoid tumor. The neoplasm demonstrates loss of INI1 protein (SMARCB4) by immunohistochemistry, supporting the diagnosis.</p>\n<p><strong>Differential Diagnosis:</strong> The cellular variant of congenital mesoblastic nephroma is the key differential in this young age group. In individual fields, the spindle cell areas of this neoplasm are virtually indistinguishable from a cellular congenital mesoblastic nephroma. However, a cellular congenital mesoblastic nephroma typically has a pushing pattern and does not typically contain native nephrons within it. The variation of cellularity of the current neoplasm would also be unusual for a cellular congenital mesoblastic nephroma, which is essentially infantile fibrosarcoma of the renal sinus. Cellular congenital mesoblastic nephroma would typically demonstrate the ETV6-NTRK3 gene fusion, as opposed to the INI1 loss seen in rhabdoid tumor. Wilms tumor may be mimicked by the focal embryonal hyperplasia of the entrapped nephrons, suggesting an epithelial component. The vesicular chromatin and prominent nucleoli of the current lesion would be highly atypical for a nephroblastoma. Also, another important morphologic feature is that the cytology of the entrapped tubules undergoing embryonal hyperplasia is different from that of the surrounding rhabdoid tumor: embryonal hyperplasia nuclei are condensed and basophilic, while the chromatin of the rhabdoid tumor surrounding these tubules is vesicular and the nucleus contains a prominent nucleolus. Synovial sarcoma may have poorly differentiated areas that resemble the current case; however, the age at presentation is completely different. Primary synovial sarcomas typically occur in young adults, while rhabdoid tumors typically occur in children under the age of 3 years. Synovial sarcoma would demonstrate the characteristic SS18-SSX1/SSX2 fusions that are the hallmark of that entity, and would not typically demonstrate loss of INI1.</p>\n<p>Rhabdoid tumor of the kidney is a highly lethal cancer that effects very young children. A significant proportion of cases (approximately one third) prove to have germline INI1 alterations, predisposing the child to second malignancies such as atypical teratoid tumor of the central nervous system, and having potential familial implications.</p>\n<p><strong>Reference:</strong> Am J Surg Pathol. 1989 Jun;13(6):439-58. Crit Rev Oncog. 2015;20(3-4):199-216.</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:02:31.330Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w796c3",
+      "url": "https://sp.pathology.jhu.edu/week-796-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 796: Case 3",
+      "case_label": "Week 796: Case 3",
+      "attribution": "Case presented by Dr. Ashley Cimino-Mathews, MD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This case is an adult male with an adrenal mass.",
+      "question_text": "Case presented by Dr. Ashley Cimino-Mathews, MD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis case is an adult male with an adrenal mass.",
+      "source_answer": "D. Pheochromocytoma",
+      "correct_answer": "Pheochromocytoma",
+      "canonical_answer": "Pheochromocytoma",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "A. Adrenal cortical carcinoma",
+        "B. Renal cell carcinoma",
+        "C. Hepatocellular carcinoma",
+        "D. Pheochromocytoma"
+      ],
+      "choices": [
+        "Adrenal cortical carcinoma",
+        "Renal cell carcinoma",
+        "Hepatocellular carcinoma",
+        "Pheochromocytoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8549.svs-163462675172099827181x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8549.svs-112203391942193650121x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8549.svs-488756830654186736383x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8549.svs-641447460965783762547x.png"
+      ],
+      "histology": "This lesion is located centrally in the adrenal gland and is composed of cells with abundant amphophilic, granular cytoplasm and a delicate capillary vasculature. The nuclei have evenly dispersed chromatin, variably pleomophic forms, and variably prominent nucleoli.",
+      "discussion": "This lesion is a pheochromoctyoma, which is a catecholamine-secreting neuroendocrine tumor arising from the central adrenal medulla. More than 40% of pheochromocytomas are hereditary and occur in patients demonstrating multiple tumors or presenting in childhood or before age 40. The clinical presentation of pheochromocytoma is largely related to the tumor’s production of catecholamines, which results in hypertension, tremor, headache, and palpitations. Grossly, pheochromocytomas have a tan cut surface with focal hemorrhage and areas of necrosis. The classic microscopic findings for pheochromocytoma are cells with amphophilic cytoplasm arranged in nests (“Zellballen” pattern) and with a delicate capillary vasculature. Pheochromocytoma label for immunostains for neuroendocrine differentiation, including synaptophysin, chromogranin, and INSM1. Notably, pheochromocytomas (as well as their extraadrenal counterpart, paragrangliomas) are negative for cytokeratin by immunohistochemistry, which distinguishes them from neuroendocrine tumors with epithelial differentiation (e.g., carcinoid tumor/well-differentiated neuroendocrine tumors, neuroendocrine carcinomas, and neuroendocrine adenomas such as parathyroid adenoma).",
+      "references": [
+        {
+          "text": "Mete O, Asa SL, Gill AJ, Kimura N, de Krijger RR, Tischler A. Overview of the 2022 WHO Classification of Paragangliomas and Pheochromocytomas. Endocr Pathol. 2022 Mar;33(1):90-114.",
+          "url": null
+        },
+        {
+          "text": "Flores SK, Estrada-Zuniga CM, Thallapureddy K, Armaiz-Peña G, Dahia PLM. Insights into Mechanisms of Pheochromocytomas and Paragangliomas Driven by Known or New Genetic Drivers. Cancers (Basel). 2021 Sep 14;13(18):4602.",
+          "url": null
+        },
+        {
+          "text": "Toledo RA, Dahia PL. Next-generation sequencing for the diagnosis of hereditary pheochromocytoma and paraganglioma syndromes. Curr Opin Endocrinol Diabetes Obes. 2015 Jun;22(3):169-79.",
+          "url": null
+        },
+        {
+          "text": "Koopman K, Gaal J, de Krijger RR. Pheochromocytomas and Paragangliomas: New Developments with Regard to Classification, Genetics, and Cell of Origin. Cancers (Basel). 2019 Jul 29;11(8):1070.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: D. Pheochromocytoma\n\nHistology: This lesion is located centrally in the adrenal gland and is composed of cells with abundant amphophilic, granular cytoplasm and a delicate capillary vasculature. The nuclei have evenly dispersed chromatin, variably pleomophic forms, and variably prominent nucleoli.\n\nDiscussion: This lesion is a pheochromoctyoma, which is a catecholamine-secreting neuroendocrine tumor arising from the central adrenal medulla. More than 40% of pheochromocytomas are hereditary and occur in patients demonstrating multiple tumors or presenting in childhood or before age 40. The clinical presentation of pheochromocytoma is largely related to the tumor’s production of catecholamines, which results in hypertension, tremor, headache, and palpitations. Grossly, pheochromocytomas have a tan cut surface with focal hemorrhage and areas of necrosis. The classic microscopic findings for pheochromocytoma are cells with amphophilic cytoplasm arranged in nests (“Zellballen” pattern) and with a delicate capillary vasculature. Pheochromocytoma label for immunostains for neuroendocrine differentiation, including synaptophysin, chromogranin, and INSM1. Notably, pheochromocytomas (as well as their extraadrenal counterpart, paragrangliomas) are negative for cytokeratin by immunohistochemistry, which distinguishes them from neuroendocrine tumors with epithelial differentiation (e.g., carcinoid tumor/well-differentiated neuroendocrine tumors, neuroendocrine carcinomas, and neuroendocrine adenomas such as parathyroid adenoma).\n\nReferences: Mete O, Asa SL, Gill AJ, Kimura N, de Krijger RR, Tischler A. Overview of the 2022 WHO Classification of Paragangliomas and Pheochromocytomas. Endocr Pathol. 2022 Mar;33(1):90-114.\n\nFlores SK, Estrada-Zuniga CM, Thallapureddy K, Armaiz-Peña G, Dahia PLM. Insights into Mechanisms of Pheochromocytomas and Paragangliomas Driven by Known or New Genetic Drivers. Cancers (Basel). 2021 Sep 14;13(18):4602.\n\nToledo RA, Dahia PL. Next-generation sequencing for the diagnosis of hereditary pheochromocytoma and paraganglioma syndromes. Curr Opin Endocrinol Diabetes Obes. 2015 Jun;22(3):169-79.\n\nKoopman K, Gaal J, de Krijger RR. Pheochromocytomas and Paragangliomas: New Developments with Regard to Classification, Genetics, and Cell of Origin. Cancers (Basel). 2019 Jul 29;11(8):1070.",
+      "feedback_html": "<strong>Answer:</strong> D. Pheochromocytoma<p></p>\n<p><strong>Histology:</strong> This lesion is located centrally in the adrenal gland and is composed of cells with abundant amphophilic, granular cytoplasm and a delicate capillary vasculature. The nuclei have evenly dispersed chromatin, variably pleomophic forms, and variably prominent nucleoli.</p>\n<p><strong>Discussion:</strong> This lesion is a pheochromoctyoma, which is a catecholamine-secreting neuroendocrine tumor arising from the central adrenal medulla. More than 40% of pheochromocytomas are hereditary and occur in patients demonstrating multiple tumors or presenting in childhood or before age 40. The clinical presentation of pheochromocytoma is largely related to the tumor’s production of catecholamines, which results in hypertension, tremor, headache, and palpitations. Grossly, pheochromocytomas have a tan cut surface with focal hemorrhage and areas of necrosis. The classic microscopic findings for pheochromocytoma are cells with amphophilic cytoplasm arranged in nests (“Zellballen” pattern) and with a delicate capillary vasculature. Pheochromocytoma label for immunostains for neuroendocrine differentiation, including synaptophysin, chromogranin, and INSM1. Notably, pheochromocytomas (as well as their extraadrenal counterpart, paragrangliomas) are negative for cytokeratin by immunohistochemistry, which distinguishes them from neuroendocrine tumors with epithelial differentiation (e.g., carcinoid tumor/well-differentiated neuroendocrine tumors, neuroendocrine carcinomas, and neuroendocrine adenomas such as parathyroid adenoma).</p>\n<p><strong>References:&nbsp;</strong> Mete O, Asa SL, Gill AJ, Kimura N, de Krijger RR, Tischler A. Overview of the 2022 WHO Classification of Paragangliomas and Pheochromocytomas. Endocr Pathol. 2022 Mar;33(1):90-114.</p>\n<p>Flores SK, Estrada-Zuniga CM, Thallapureddy K, Armaiz-Peña G, Dahia PLM. Insights into Mechanisms of Pheochromocytomas and Paragangliomas Driven by Known or New Genetic Drivers. Cancers (Basel). 2021 Sep 14;13(18):4602.</p>\n<p>Toledo RA, Dahia PL. Next-generation sequencing for the diagnosis of hereditary pheochromocytoma and paraganglioma syndromes. Curr Opin Endocrinol Diabetes Obes. 2015 Jun;22(3):169-79.</p>\n<p>Koopman K, Gaal J, de Krijger RR. Pheochromocytomas and Paragangliomas: New Developments with Regard to Classification, Genetics, and Cell of Origin. Cancers (Basel). 2019 Jul 29;11(8):1070.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:02:41.122Z",
+      "extractor_version": "1.0.0"
+    }
+  ]
+}
