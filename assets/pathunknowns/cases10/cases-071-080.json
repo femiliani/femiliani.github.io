@@ -1,0 +1,448 @@
+{
+  "case_start": 71,
+  "case_end": 80,
+  "case_count": 10,
+  "cases": [
+    {
+      "id": "w796c2",
+      "url": "https://sp.pathology.jhu.edu/week-796-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 796: Case 2",
+      "case_label": "Week 796: Case 2",
+      "attribution": "Case presented by Dr. Ashley Cimino-Mathews, MD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This case is an adult male with a thyroid mass.",
+      "question_text": "Case presented by Dr. Ashley Cimino-Mathews, MD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis case is an adult male with a thyroid mass.",
+      "source_answer": "B. Medullary thyroid carcinoma",
+      "correct_answer": "Medullary thyroid carcinoma",
+      "canonical_answer": "Medullary thyroid carcinoma",
+      "correct_choice_index": 1,
+      "choices_raw": [
+        "A. Hyalinizing trabecular tumor",
+        "B. Medullary thyroid carcinoma",
+        "C. Paraganglioma",
+        "D. Anaplastic thyroid carcinoma"
+      ],
+      "choices": [
+        "Hyalinizing trabecular tumor",
+        "Medullary thyroid carcinoma",
+        "Paraganglioma",
+        "Anaplastic thyroid carcinoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8548.svs-7800996280771804821x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8548.svs-394745390451987659962x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8548.svs-418215823943966603128x.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8548.svs-4477617686460301889813x.png"
+      ],
+      "histology": "The lesion has two well-circumscribed nodules of the same entity. The smaller nodule contains epithelioid cells with salt-and-pepper chromatin and a nested architecture. The larger nodule contains spindle cells with a higher nuclear to cytoplasmic ratio, rendering them “darker” from low magnification, and a streaming architectural pattern.",
+      "discussion": "This is a medullary thyroid carcinoma, which is a malignant tumor of parafollicular C cell origin. Medullary thyroid carcinoma typically presents as a solitary nodule in the upper two-thirds of the lateral lobes. While invasion of surrounding structures can result in difficulty breathing or swallowing, the tumors typically come to clinical attention due to the high levels of calcitonin secreted from these tumors, which results in symptoms such as diarrhea, flushing, or weight loss. This malignancy accounts for 2% of all thyroid malignancies. Patients with sporadic medullary thyroid carcinoma typically present with unilateral disease at age 45-55 years old with a slight female predominance. The etiology of sporadic medullary thyroid carcinoma is unknown. Patients with hereditary medullary thyroid carcinoma present earlier at age 20-30 with multifocal and bilateral disease. The hereditary mutation is a gain-of-function in the RET protooncogene indicating MEN2A or MEN2B. Grossly, the tumors are well-circumscribed but unencapsulated with a tan-yellow color. Microscopically, the tumor cells can be arranged in solid nests separated by fibrous septae that may contain stromal amyloid deposition. In addition, medullary thyroid tumors can have a streaming architecture with spindle cells arranged in short intersecting fascicles. This pattern often seen in neoplasms with neuroendicrine differentiation, such as carcinoid tumors in the lung. In some cases, medullary tumors contain pleomorphic cells with bizarre nuclei, which is also typical of the “neuroendocrine atypia” seen in neuroendocrine tumors. Medullary carcinoma typically label diffusely with immunostains calcitonin and for neuroendocrine differentiation, including synaptophysin, chromogranin and INSM1. Medullary carcinomas are immunoreactive for TTF-1, which overlaps with the labeling of papillary thyroid carcinoma and follicular carcinoma, however, in contrast to the latter two, medullary carcinomas are negative for thyroglobulin and PAX8.",
+      "references": [
+        {
+          "text": "Matias-Guiu X, De Lellis R. Medullary thyroid carcinoma: a 25-year perspective. Endocr Pathol. 2014 Mar;25(1):21-9.",
+          "url": null
+        },
+        {
+          "text": "Barletta JA, Nosé V, Sadow PM. Genomics and Epigenomics of Medullary Thyroid Carcinoma: From Sporadic Disease to Familial Manifestations. Endocr Pathol. 2021 Mar;32(1):35-43.",
+          "url": null
+        },
+        {
+          "text": "Khurana R, Agarwal A, Bajpai VK, Verma N, Sharma AK, Gupta RP, Madhusudan KP. Unraveling the amyloid associated with human medullary thyroid carcinoma. Endocrinology. 2004 Dec;145(12):5465-70.",
+          "url": null
+        },
+        {
+          "text": "Gucer H, Caliskan S, Kefeli M, Mete O. Do You Know the Details of Your PAX8 Antibody? Monoclonal PAX8 (MRQ-50) Is Not Expressed in a Series of 45 Medullary Thyroid Carcinomas. Endocr Pathol. 2020 Mar;31(1):33-38.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: B. Medullary thyroid carcinoma\n\nHistology: The lesion has two well-circumscribed nodules of the same entity. The smaller nodule contains epithelioid cells with salt-and-pepper chromatin and a nested architecture. The larger nodule contains spindle cells with a higher nuclear to cytoplasmic ratio, rendering them “darker” from low magnification, and a streaming architectural pattern.\n\nDiscussion: This is a medullary thyroid carcinoma, which is a malignant tumor of parafollicular C cell origin. Medullary thyroid carcinoma typically presents as a solitary nodule in the upper two-thirds of the lateral lobes. While invasion of surrounding structures can result in difficulty breathing or swallowing, the tumors typically come to clinical attention due to the high levels of calcitonin secreted from these tumors, which results in symptoms such as diarrhea, flushing, or weight loss. This malignancy accounts for 2% of all thyroid malignancies. Patients with sporadic medullary thyroid carcinoma typically present with unilateral disease at age 45-55 years old with a slight female predominance. The etiology of sporadic medullary thyroid carcinoma is unknown. Patients with hereditary medullary thyroid carcinoma present earlier at age 20-30 with multifocal and bilateral disease. The hereditary mutation is a gain-of-function in the RET protooncogene indicating MEN2A or MEN2B. Grossly, the tumors are well-circumscribed but unencapsulated with a tan-yellow color. Microscopically, the tumor cells can be arranged in solid nests separated by fibrous septae that may contain stromal amyloid deposition. In addition, medullary thyroid tumors can have a streaming architecture with spindle cells arranged in short intersecting fascicles. This pattern often seen in neoplasms with neuroendicrine differentiation, such as carcinoid tumors in the lung. In some cases, medullary tumors contain pleomorphic cells with bizarre nuclei, which is also typical of the “neuroendocrine atypia” seen in neuroendocrine tumors. Medullary carcinoma typically label diffusely with immunostains calcitonin and for neuroendocrine differentiation, including synaptophysin, chromogranin and INSM1. Medullary carcinomas are immunoreactive for TTF-1, which overlaps with the labeling of papillary thyroid carcinoma and follicular carcinoma, however, in contrast to the latter two, medullary carcinomas are negative for thyroglobulin and PAX8.\n\nReferences: Matias-Guiu X, De Lellis R. Medullary thyroid carcinoma: a 25-year perspective. Endocr Pathol. 2014 Mar;25(1):21-9.\n\nBarletta JA, Nosé V, Sadow PM. Genomics and Epigenomics of Medullary Thyroid Carcinoma: From Sporadic Disease to Familial Manifestations. Endocr Pathol. 2021 Mar;32(1):35-43.\n\nKhurana R, Agarwal A, Bajpai VK, Verma N, Sharma AK, Gupta RP, Madhusudan KP. Unraveling the amyloid associated with human medullary thyroid carcinoma. Endocrinology. 2004 Dec;145(12):5465-70.\n\nGucer H, Caliskan S, Kefeli M, Mete O. Do You Know the Details of Your PAX8 Antibody? Monoclonal PAX8 (MRQ-50) Is Not Expressed in a Series of 45 Medullary Thyroid Carcinomas. Endocr Pathol. 2020 Mar;31(1):33-38.",
+      "feedback_html": "<strong>Answer:</strong> B. Medullary thyroid carcinoma<p></p>\n<p><strong>Histology:</strong> The lesion has two well-circumscribed nodules of the same entity. The smaller nodule contains epithelioid cells with salt-and-pepper chromatin and a nested architecture. The larger nodule contains spindle cells with a higher nuclear to cytoplasmic ratio, rendering them “darker” from low magnification, and a streaming architectural pattern.</p>\n<p><strong>Discussion:</strong> This is a medullary thyroid carcinoma, which is a malignant tumor of parafollicular C cell origin. Medullary thyroid carcinoma typically presents as a solitary nodule in the upper two-thirds of the lateral lobes. While invasion of surrounding structures can result in difficulty breathing or swallowing, the tumors typically come to clinical attention due to the high levels of calcitonin secreted from these tumors, which results in symptoms such as diarrhea, flushing, or weight loss. This malignancy accounts for 2% of all thyroid malignancies. Patients with sporadic medullary thyroid carcinoma typically present with unilateral disease at age 45-55 years old with a slight female predominance. The etiology of sporadic medullary thyroid carcinoma is unknown. Patients with hereditary medullary thyroid carcinoma present earlier at age 20-30 with multifocal and bilateral disease. The hereditary mutation is a gain-of-function in the RET protooncogene indicating MEN2A or MEN2B. Grossly, the tumors are well-circumscribed but unencapsulated with a tan-yellow color. Microscopically, the tumor cells can be arranged in solid nests separated by fibrous septae that may contain stromal amyloid deposition. In addition, medullary thyroid tumors can have a streaming architecture with spindle cells arranged in short intersecting fascicles. This pattern often seen in neoplasms with neuroendicrine differentiation, such as carcinoid tumors in the lung. In some cases, medullary tumors contain pleomorphic cells with bizarre nuclei, which is also typical of the “neuroendocrine atypia” seen in neuroendocrine tumors. Medullary carcinoma typically label diffusely with immunostains calcitonin and for neuroendocrine differentiation, including synaptophysin, chromogranin and INSM1. Medullary carcinomas are immunoreactive for TTF-1, which overlaps with the labeling of papillary thyroid carcinoma and follicular carcinoma, however, in contrast to the latter two, medullary carcinomas are negative for thyroglobulin and PAX8.</p>\n<p><strong>References:</strong> Matias-Guiu X, De Lellis R. Medullary thyroid carcinoma: a 25-year perspective. Endocr Pathol. 2014 Mar;25(1):21-9.</p>\n<p>Barletta JA, Nosé V, Sadow PM. Genomics and Epigenomics of Medullary Thyroid Carcinoma: From Sporadic Disease to Familial Manifestations. Endocr Pathol. 2021 Mar;32(1):35-43.</p>\n<p>Khurana R, Agarwal A, Bajpai VK, Verma N, Sharma AK, Gupta RP, Madhusudan KP. Unraveling the amyloid associated with human medullary thyroid carcinoma. Endocrinology. 2004 Dec;145(12):5465-70.</p>\n<p>Gucer H, Caliskan S, Kefeli M, Mete O. Do You Know the Details of Your PAX8 Antibody? Monoclonal PAX8 (MRQ-50) Is Not Expressed in a Series of 45 Medullary Thyroid Carcinomas. Endocr Pathol. 2020 Mar;31(1):33-38.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:02:50.458Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w796c1",
+      "url": "https://sp.pathology.jhu.edu/week-796-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 796: Case 1",
+      "case_label": "Week 796: Case 1",
+      "attribution": "Case presented by Dr. Ashley Cimino-Mathews, MD and prepared by Dr. Annie A. Wu, MD, PhD.",
+      "vignette": "This case is an adult female with a mediastinal mass.",
+      "question_text": "Case presented by Dr. Ashley Cimino-Mathews, MD and prepared by Dr. Annie A. Wu, MD, PhD.\nThis case is an adult female with a mediastinal mass.",
+      "source_answer": "A. Parathyroid adenoma",
+      "correct_answer": "Parathyroid adenoma",
+      "canonical_answer": "Parathyroid adenoma",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "A. Parathyroid adenoma",
+        "B. Hemangioma",
+        "C. Paraganglioma",
+        "D. Metastatic clear cell renal cell carcinoma"
+      ],
+      "choices": [
+        "Parathyroid adenoma",
+        "Hemangioma",
+        "Paraganglioma",
+        "Metastatic clear cell renal cell carcinoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8547.svs-7829299378007708131x-3.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8547.svs-656991860472385250643x-1.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8547.svs-518211614653884181408x-2.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/08/8547.svs-6542522272661212294523x-2.png"
+      ],
+      "histology": "The lesion is a well-circumscribed encapsulated mass in thymic lymphoid structure with Hassle corpuscles. The mass contains sheets of monotonous round uniform cells with round salt and pepper nuclei. The cells are surrounded by pale, clear cytoplasm with distinct borders. There are no mitoses. The cells are surrounded by delicate vasculature and form pseudofollicles containing colloid-like secretions.",
+      "discussion": "This is a parathyroid adenoma, which is a benign parathyroid neoplasm composed of predominantly 1-2 cell types (chief, transitional oncocytic, oncocytic, or clear cells). Parathyroid adenomas typically arise in parathyroid glands, more frequently the inferior glands than superior glands. However, parathyroid adenomas can also occur in ectopic regions related to embryologic development. For instance, thymus, thyroid, and mediastinum are other potential locations of parathyroid adenoma occurrence. Up to 10% of parathyroid adenomas are hereditary, either as part of a syndrome, such as MEN (multiple endocrine neoplasia), or non-syndromic. A risk factor for parathyroid adenoma is neck radiation and external ionizing radiation exposure from atomic bombs or nuclear power plants. Grossly, parathyroid adenomas are ovoid pink or tan with delicate pseudocapsules and may contain fluid-filled cysts. Microscopically, most parathyroid adenomas are composed of chief cells often with a mixture of clear cells and oncophils. Immunohistochemically, parathyroid adenomas label for parathyroid hormone (PTH) and markers of neuroendocrine differentiation including synaptophysin, chromogranin and INSM1. They are negative for TTF-1 and thyroglobulin, which distinguishes them from thyroid, and they are negative for PAX8, which distinguishes them from thyroid and renal cell carcinoma.",
+      "references": [
+        {
+          "text": "Friedman E, Sakaguchi K, Bale AE, Falchetti A, Streeten E, Zimering MB, Weinstein LS, McBride WO, Nakamura Y, Brandi ML, et al. Clonality of parathyroid tumors in familial multiple endocrine neoplasia type 1. N Engl J Med. 1989 Jul 27;321(4):213-8.",
+          "url": null
+        },
+        {
+          "text": "Erickson LA, Mete O. Immunohistochemistry in Diagnostic Parathyroid Pathology. Endocr Pathol. 2018 Jun;29(2):113-129.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Answer: A. Parathyroid adenoma\n\nHistology: The lesion is a well-circumscribed encapsulated mass in thymic lymphoid structure with Hassle corpuscles. The mass contains sheets of monotonous round uniform cells with round salt and pepper nuclei. The cells are surrounded by pale, clear cytoplasm with distinct borders. There are no mitoses. The cells are surrounded by delicate vasculature and form pseudofollicles containing colloid-like secretions.\n\nDiscussion: This is a parathyroid adenoma, which is a benign parathyroid neoplasm composed of predominantly 1-2 cell types (chief, transitional oncocytic, oncocytic, or clear cells). Parathyroid adenomas typically arise in parathyroid glands, more frequently the inferior glands than superior glands. However, parathyroid adenomas can also occur in ectopic regions related to embryologic development. For instance, thymus, thyroid, and mediastinum are other potential locations of parathyroid adenoma occurrence. Up to 10% of parathyroid adenomas are hereditary, either as part of a syndrome, such as MEN (multiple endocrine neoplasia), or non-syndromic. A risk factor for parathyroid adenoma is neck radiation and external ionizing radiation exposure from atomic bombs or nuclear power plants. Grossly, parathyroid adenomas are ovoid pink or tan with delicate pseudocapsules and may contain fluid-filled cysts. Microscopically, most parathyroid adenomas are composed of chief cells often with a mixture of clear cells and oncophils. Immunohistochemically, parathyroid adenomas label for parathyroid hormone (PTH) and markers of neuroendocrine differentiation including synaptophysin, chromogranin and INSM1. They are negative for TTF-1 and thyroglobulin, which distinguishes them from thyroid, and they are negative for PAX8, which distinguishes them from thyroid and renal cell carcinoma.\n\nReferences: Friedman E, Sakaguchi K, Bale AE, Falchetti A, Streeten E, Zimering MB, Weinstein LS, McBride WO, Nakamura Y, Brandi ML, et al. Clonality of parathyroid tumors in familial multiple endocrine neoplasia type 1. N Engl J Med. 1989 Jul 27;321(4):213-8.\n\nErickson LA, Mete O. Immunohistochemistry in Diagnostic Parathyroid Pathology. Endocr Pathol. 2018 Jun;29(2):113-129.",
+      "feedback_html": "<strong>Answer:</strong> A. Parathyroid adenoma<p></p>\n<p><strong>Histology:</strong> The lesion is a well-circumscribed encapsulated mass in thymic lymphoid structure with Hassle corpuscles.&nbsp;The mass contains sheets of monotonous round uniform cells with round salt and pepper nuclei. The cells are surrounded by pale, clear cytoplasm with distinct borders. There are no mitoses. The cells are surrounded by delicate vasculature and form pseudofollicles containing colloid-like secretions.</p>\n<p><strong>Discussion:</strong> This is a parathyroid adenoma, which is a benign parathyroid neoplasm composed of predominantly 1-2 cell types (chief, transitional oncocytic, oncocytic, or clear cells). Parathyroid adenomas typically arise in parathyroid glands, more frequently the inferior glands than superior glands. However, parathyroid adenomas can also occur in ectopic regions related to embryologic development. For instance, thymus, thyroid, and mediastinum are other potential locations of parathyroid adenoma occurrence. Up to 10% of parathyroid adenomas are hereditary, either as part of a syndrome, such as MEN (multiple endocrine neoplasia), or non-syndromic. A risk factor for parathyroid adenoma is neck radiation and external ionizing radiation exposure from atomic bombs or nuclear power plants. Grossly, parathyroid adenomas are ovoid pink or tan with delicate pseudocapsules and may contain fluid-filled cysts. Microscopically, most parathyroid adenomas are composed of chief cells often with a mixture of clear cells and oncophils. Immunohistochemically, parathyroid adenomas label for parathyroid hormone (PTH) and markers of neuroendocrine differentiation including synaptophysin, chromogranin and INSM1. They are negative for TTF-1 and thyroglobulin, which distinguishes them from thyroid, and they are negative for PAX8, which distinguishes them from thyroid and renal cell carcinoma.</p>\n<p><strong>References:</strong> Friedman E, Sakaguchi K, Bale AE, Falchetti A, Streeten E, Zimering MB, Weinstein LS, McBride WO, Nakamura Y, Brandi ML, et al. Clonality of parathyroid tumors in familial multiple endocrine neoplasia type 1. N Engl J Med. 1989 Jul 27;321(4):213-8.</p>\n<p>Erickson LA, Mete O. Immunohistochemistry in Diagnostic Parathyroid Pathology. Endocr Pathol. 2018 Jun;29(2):113-129.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:03:02.449Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w795c3",
+      "url": "https://sp.pathology.jhu.edu/week-795-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 795: Case 3",
+      "case_label": "Week 795: Case 3",
+      "attribution": "Case presented by Dr. Pedram Argani and prepared by Dr. Jae W. Lee.",
+      "vignette": "This is a 47 year old female with renal mass.",
+      "question_text": "Case presented by Dr. Pedram Argani and prepared by Dr. Jae W. Lee.\nThis is a 47 year old female with renal mass.",
+      "source_answer": "Angiomyolipoma",
+      "correct_answer": "Angiomyolipoma",
+      "canonical_answer": "Angiomyolipoma",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "Eosinophilic chromophobe renal cell carcinoma",
+        "Eosinophilic vacuolated tumor",
+        "Low grade oncocytic tumor",
+        "Angiomyolipoma"
+      ],
+      "choices": [
+        "Eosinophilic chromophobe renal cell carcinoma",
+        "Eosinophilic vacuolated tumor",
+        "Low grade oncocytic tumor",
+        "Angiomyolipoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/07/795_3.1-1024x762.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/07/795_3.2-1024x762.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/07/795_3.3-1024x762.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/07/795_3.4-1024x762.png"
+      ],
+      "histology": "The main lesion in this kidney is a solid epithelioid cell neoplasm with focal nested and corded architecture which strongly suggests epithelial differentiation. One clue to the diagnosis of the main tumor, however, it is the presence of incipient muscle predominant angiomyolipomas in the surrounding kidney. The main epithelioid lesion is completely negative for all cytokeratins and for PAX8, and demonstrates immunoreactivity for HMB45, Melan A, and cathepsin K in a patchy fashion. These are the findings of epithelioid angiomyolipoma. The current case has oncocytoma like morphology (which may account for the less than usual immunolabeling for melanocytic markers as the cells likely are filled with mitochondria), and also demonstrates cytologic atypia which indicates that close follow-up is indicated.",
+      "discussion": "Eosinophilic chromophobe renal cell carcinoma should demonstrate immunoreactivity for cytokeratin, and demonstrates edematous hyalinized stroma and irregular nuclei. Eosinophilic vacuolated tumor should label for cytokeratins, and demonstrates prominent cytoplasmic vacuolization not seen in the current case. Low grade oncocytic tumor labels diffusely for cytokeratin 7, should not label for melanocytic markers.",
+      "references": [],
+      "feedback_text": "Histologic Description: The main lesion in this kidney is a solid epithelioid cell neoplasm with focal nested and corded architecture which strongly suggests epithelial differentiation. One clue to the diagnosis of the main tumor, however, it is the presence of incipient muscle predominant angiomyolipomas in the surrounding kidney. The main epithelioid lesion is completely negative for all cytokeratins and for PAX8, and demonstrates immunoreactivity for HMB45, Melan A, and cathepsin K in a patchy fashion. These are the findings of epithelioid angiomyolipoma. The current case has oncocytoma like morphology (which may account for the less than usual immunolabeling for melanocytic markers as the cells likely are filled with mitochondria), and also demonstrates cytologic atypia which indicates that close follow-up is indicated.\n\nDifferential Diagnosis: Eosinophilic chromophobe renal cell carcinoma should demonstrate immunoreactivity for cytokeratin, and demonstrates edematous hyalinized stroma and irregular nuclei. Eosinophilic vacuolated tumor should label for cytokeratins, and demonstrates prominent cytoplasmic vacuolization not seen in the current case. Low grade oncocytic tumor labels diffusely for cytokeratin 7, should not label for melanocytic markers.",
+      "feedback_html": "Histologic Description: The main lesion in this kidney is a solid epithelioid cell neoplasm with focal nested and corded architecture which strongly suggests epithelial differentiation. One clue to the diagnosis of the main tumor, however, it is the presence of incipient muscle predominant angiomyolipomas in the surrounding kidney. The main epithelioid lesion is completely negative for all cytokeratins and for PAX8, and demonstrates immunoreactivity for HMB45, Melan A, and cathepsin K in a patchy fashion. These are the findings of epithelioid angiomyolipoma. The current case has oncocytoma like morphology (which may account for the less than usual immunolabeling for melanocytic markers as the cells likely are filled with mitochondria), &nbsp;and also demonstrates cytologic atypia which indicates that close follow-up is indicated.<p></p>\n<p>Differential Diagnosis: Eosinophilic chromophobe renal cell carcinoma should demonstrate immunoreactivity for cytokeratin, and demonstrates edematous hyalinized stroma and irregular nuclei. Eosinophilic vacuolated tumor should label for cytokeratins, and demonstrates prominent cytoplasmic vacuolization not seen in the current case. Low grade oncocytic tumor labels diffusely for cytokeratin 7, should not label for melanocytic markers.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:03:12.030Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w795c2",
+      "url": "https://sp.pathology.jhu.edu/week-795-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 795: Case 2",
+      "case_label": "Week 795: Case 2",
+      "attribution": "Case presented by Dr. Pedram Argani and prepared by Dr. Jae W. Lee.",
+      "vignette": "This is an 85 year old female with renal mass.",
+      "question_text": "Case presented by Dr. Pedram Argani and prepared by Dr. Jae W. Lee.\nThis is an 85 year old female with renal mass.",
+      "source_answer": "Eosinophilic chromophobe renal cell carcinoma",
+      "correct_answer": "Eosinophilic chromophobe renal cell carcinoma",
+      "canonical_answer": "Eosinophilic chromophobe renal cell carcinoma",
+      "correct_choice_index": 3,
+      "choices_raw": [
+        "Oncocytoma",
+        "Low grade oncocytic tumor",
+        "Eosinophilic vacuolated tumor",
+        "Eosinophilic chromophobe renal cell carcinoma"
+      ],
+      "choices": [
+        "Oncocytoma",
+        "Low grade oncocytic tumor",
+        "Eosinophilic vacuolated tumor",
+        "Eosinophilic chromophobe renal cell carcinoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/07/795_2.1-1024x762.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/07/795_2.2-1024x762.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/07/795_2.3-1024x762.png"
+      ],
+      "histology": "The neoplasm has solid architecture, and is composed of epithelioid cells with abundant eosinophilic cytoplasm and well defined cell borders. The nuclei have somewhat convoluted, raisinoid contours. The stromal vessels are hyalinized and relatively hypocellular. The neoplasm demonstrates immunoreactivity for CD117 and focal labeling for cytokeratin 7. The morphology and immunoprofile are consistent with eosinophilic chromophobe renal cell carcinoma.",
+      "discussion": "Oncocytoma typically has nested architecture within edematous stroma, and the nuclei are perfectly round without the irregularity seen in the current case. Low grade oncocytic tumors typically have solid architecture, but have central areas with linear cords of neoplastic cells within loose stroma (“boats in a bay”), and typically label for cytokeratin 7 but not CD117. Eosinophilic vacuolated tumor typically consists of eosinophilic polygonal cells with prominent cytoplasmic vacuolization, set in an edematous hyalinized stroma with thick walled vessels and calcification. These neoplasms typical label for CD117 but not for cytokeratin 7.",
+      "references": [],
+      "feedback_text": "Histologic Description: The neoplasm has solid architecture, and is composed of epithelioid cells with abundant eosinophilic cytoplasm and well defined cell borders. The nuclei have somewhat convoluted, raisinoid contours. The stromal vessels are hyalinized and relatively hypocellular. The neoplasm demonstrates immunoreactivity for CD117 and focal labeling for cytokeratin 7. The morphology and immunoprofile are consistent with eosinophilic chromophobe renal cell carcinoma.\n\nDifferential Diagnosis: Oncocytoma typically has nested architecture within edematous stroma, and the nuclei are perfectly round without the irregularity seen in the current case. Low grade oncocytic tumors typically have solid architecture, but have central areas with linear cords of neoplastic cells within loose stroma (“boats in a bay”), and typically label for cytokeratin 7 but not CD117. Eosinophilic vacuolated tumor typically consists of eosinophilic polygonal cells with prominent cytoplasmic vacuolization, set in an edematous hyalinized stroma with thick walled vessels and calcification. These neoplasms typical label for CD117 but not for cytokeratin 7.",
+      "feedback_html": "Histologic Description: The neoplasm has solid architecture, and is composed of epithelioid cells with abundant eosinophilic cytoplasm and well defined cell borders. The nuclei have somewhat convoluted, raisinoid contours. The stromal vessels are hyalinized and relatively hypocellular. The neoplasm demonstrates immunoreactivity for CD117 and focal labeling for cytokeratin 7. The morphology and immunoprofile are consistent with eosinophilic chromophobe renal cell carcinoma.<p></p>\n<p>Differential Diagnosis: Oncocytoma typically has nested architecture within edematous stroma, and the nuclei are perfectly round without the irregularity seen in the current case. Low grade oncocytic tumors typically have solid architecture, but have central areas with linear cords of neoplastic cells within loose stroma (“boats in a bay”), and typically label for cytokeratin 7 but not CD117. Eosinophilic vacuolated tumor typically consists of eosinophilic polygonal cells with prominent cytoplasmic vacuolization, set in an edematous hyalinized stroma with thick walled vessels and calcification. These neoplasms typical label for CD117 but not for cytokeratin 7.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:03:21.720Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w795c1",
+      "url": "https://sp.pathology.jhu.edu/week-795-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 795: Case 1",
+      "case_label": "Week 795: Case 1",
+      "attribution": "Case presented by Dr. Pedram Argani and prepared by Dr. Jae W. Lee.",
+      "vignette": "This is a 60 year old female with a renal/perirenal mass.",
+      "question_text": "Case presented by Dr. Pedram Argani and prepared by Dr. Jae W. Lee.\nThis is a 60 year old female with a renal/perirenal mass.",
+      "source_answer": "Dedifferentiated liposarcoma",
+      "correct_answer": "Dedifferentiated liposarcoma",
+      "canonical_answer": "Dedifferentiated liposarcoma",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "Adrenal cortical carcinoma",
+        "Ewing sarcoma",
+        "Dedifferentiated liposarcoma",
+        "Malignant solitary fibrous tumor"
+      ],
+      "choices": [
+        "Adrenal cortical carcinoma",
+        "Ewing sarcoma",
+        "Dedifferentiated liposarcoma",
+        "Malignant solitary fibrous tumor"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/07/795_1.1-1024x762.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/07/795_1.2-1024x762.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/07/795_1.3-1024x762.png"
+      ],
+      "histology": "This malignant neoplasm is centered in the perirenal soft tissue. The majority of the neoplasm consists undifferentiated small round cells with abundant mitotic activity and necrosis. There is focal spindling. These cells have a nonspecific immunophenotype, with negative reactions for cytokeratin, CD99, S100, SF1, melanocytic markers, and CD34.\n\nThe best clue to the diagnosis of the case is the fat surrounding the high grade lesion. While much of it appears at first glance to be normal fat, one can appreciate focally the presence of enlarged hyperchromatic nuclei in the thin fibrous septa separating fat lobules. This is the typical morphology of well differentiated liposarcoma. The diagnosis is confirmed by strong nuclear immunoreactivity for MDM2 and positive in situ hybridization for MDM2 in the well differentiated liposarcomatous component and the high grade component, which thus constitutes dedifferentiated liposarcoma.",
+      "discussion": "Adrenal cortical carcinoma would typically label for SF1, typically features epithelioid eosinophilic cells, and lacks a lipomatous component. The primitive appearance of the neoplasm raised the possibility of Ewing sarcoma; however, the absence of immunoreactivity for CD99 as well as the lipomatous component helps exclude that diagnosis. Malignant solitary fibrous tumors may lose CD34 immunoreactivity and hence mimic primitive neoplasms such as Ewing sarcoma or (in the kidney) clear cell sarcoma, particularly since they overexpress BCOR protein (Am J Surg Pathol 2019; 43:773-782 PMID 30864973). However, the absence of immunoreactivity for STAT6 as well as the atypical lipomatous component helps exclude this diagnosis.",
+      "references": [],
+      "feedback_text": "Histologic Description: This malignant neoplasm is centered in the perirenal soft tissue. The majority of the neoplasm consists undifferentiated small round cells with abundant mitotic activity and necrosis. There is focal spindling. These cells have a nonspecific immunophenotype, with negative reactions for cytokeratin, CD99, S100, SF1, melanocytic markers, and CD34.\n\nThe best clue to the diagnosis of the case is the fat surrounding the high grade lesion. While much of it appears at first glance to be normal fat, one can appreciate focally the presence of enlarged hyperchromatic nuclei in the thin fibrous septa separating fat lobules. This is the typical morphology of well differentiated liposarcoma. The diagnosis is confirmed by strong nuclear immunoreactivity for MDM2 and positive in situ hybridization for MDM2 in the well differentiated liposarcomatous component and the high grade component, which thus constitutes dedifferentiated liposarcoma.\n\nDifferential Diagnosis: Adrenal cortical carcinoma would typically label for SF1, typically features epithelioid eosinophilic cells, and lacks a lipomatous component. The primitive appearance of the neoplasm raised the possibility of Ewing sarcoma; however, the absence of immunoreactivity for CD99 as well as the lipomatous component helps exclude that diagnosis. Malignant solitary fibrous tumors may lose CD34 immunoreactivity and hence mimic primitive neoplasms such as Ewing sarcoma or (in the kidney) clear cell sarcoma, particularly since they overexpress BCOR protein (Am J Surg Pathol 2019; 43:773-782 PMID 30864973). However, the absence of immunoreactivity for STAT6 as well as the atypical lipomatous component helps exclude this diagnosis.",
+      "feedback_html": "Histologic Description: This malignant neoplasm is centered in the perirenal soft tissue. The majority of the neoplasm consists undifferentiated small round cells with abundant mitotic activity and necrosis. There is focal spindling. These cells have a nonspecific immunophenotype, with negative reactions for cytokeratin, CD99, S100, SF1, melanocytic markers, and CD34.<p></p>\n<p>The best clue to the diagnosis of the case is the fat surrounding the high grade lesion. While much of it appears at first glance to be normal fat, one can appreciate focally the presence of enlarged hyperchromatic nuclei in the thin fibrous septa separating fat lobules. This is the typical morphology of well differentiated liposarcoma. The diagnosis is confirmed by strong nuclear immunoreactivity for MDM2 and positive in situ hybridization for MDM2 in the well differentiated liposarcomatous component and the high grade component, which thus constitutes dedifferentiated liposarcoma.</p>\n<p>Differential Diagnosis:&nbsp; Adrenal cortical carcinoma would typically label for SF1, typically features epithelioid eosinophilic cells, and lacks a lipomatous component. The primitive appearance of the neoplasm raised the possibility of Ewing sarcoma; however, the absence of immunoreactivity for CD99 as well as the lipomatous component helps exclude that diagnosis. Malignant solitary fibrous tumors may lose CD34 immunoreactivity and hence mimic primitive neoplasms such as Ewing sarcoma or (in the kidney) clear cell sarcoma, particularly since they overexpress BCOR protein (Am J Surg Pathol 2019; 43:773-782 PMID 30864973). However, the absence of immunoreactivity for STAT6 as well as the atypical lipomatous component helps exclude this diagnosis.</p>\n<p>&nbsp;</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:03:30.926Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w794c3",
+      "url": "https://sp.pathology.jhu.edu/week-794-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 794: Case 3",
+      "case_label": "Week 794: Case 3",
+      "attribution": "Case presented by Dr. Jonathan I. Epstein and prepared by Dr. Jae W. Lee.",
+      "vignette": "A 50 year-old man underwent a biopsy of a prostatic urethral lesion. There was no pertinent clinical history at the time of the consult. Outside stains were negative for NKX3.1, PSA, GATA3, p63, keratin 7 and PAX8. The lesion was diffusely positive for Keratin 20 and SATB2.",
+      "question_text": "Case presented by Dr. Jonathan I. Epstein and prepared by Dr. Jae W. Lee.\nA 50 year-old man underwent a biopsy of a prostatic urethral lesion. There was no pertinent clinical history at the time of the consult. Outside stains were negative for NKX3.1, PSA, GATA3, p63, keratin 7 and PAX8. The lesion was diffusely positive for Keratin 20 and SATB2.",
+      "source_answer": "Involvement by an intestinal adenocarcinoma",
+      "correct_answer": "Involvement by an intestinal adenocarcinoma",
+      "canonical_answer": "Involvement by an intestinal adenocarcinoma",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "Villous adenoma of the urethra",
+        "Villous adenoma with high grade dysplasia of the urethra",
+        "Involvement by an intestinal adenocarcinoma"
+      ],
+      "choices": [
+        "Villous adenoma of the urethra",
+        "Villous adenoma with high grade dysplasia of the urethra",
+        "Involvement by an intestinal adenocarcinoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/07/794_3.1-1024x762.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/07/794_3.2-1024x762.png"
+      ],
+      "histology": "A villous adenomatous lesion is present.",
+      "discussion": "Colon carcinoma can involve the bladder either via direct invasion or metastases. Histologically, when colon adenocarcinomas involves the bladder it can either: 1) undermine the normal urothelium, which is a clue that the tumor is secondarily involving the bladder; 2) colonize the surface mimicking in situ adenocarcinoma; or 3) when the colon adenocarcinoma reaches the bladder luminal surface, there is a tendency to form papillary fronds of cancer that can be histologically indistinguishable from a primary villous adenoma of the bladder.\n\nColonic adenocarcinoma invading the bladder can also resemble prostatic ductal adenocarcinoma, unless there is more mucinous appearing epithelium which would be unusual for prostatic duct adenocarcinoma. Prostatic duct adenocarcinoma would be NKX3.1 positive, but can also express CDX2. Immunohistochemically, there is no way to distinguish colon carcinoma from bladder adenocarcinoma as both express CDX2 and SATB2. Nuclear beta-catenin would favor colon, but I still would rely on clinically ruling out a colon cancer. Patients with colon cancer invading the bladder may present with bladder involvement at the time of diagnosis of colon cancer or develop vesical lesions several years after resection of their colonic primary. The majority have genitourinary symptoms at presentation with gastrointestinal manifestations less common. The initial clinical impression, largely based on cystoscopic and radiographic studies, can either be a bladder primary or colon cancer.\n\nDistinguishing a primary bladder adenocarcinoma from spread of a colonic carcinoma to the bladder may not be possible on histopathologic grounds alone. Consideration should be given to the possibility of an extravesical primary even when symptomatology, cystoscopy, radiographic studies, and histopathology suggest a primary bladder glandular neoplasm. There are a couple of situations where one can be more definitive that a glandular neoplasm in the bladder is primary at that site. One is if the villous adenoma or adenocarcinoma is arising in the setting of intestinal metaplasia. The other is in lesions arising in the dome of the bladder, which would favor urachal origin, and is not a typical site of spread from the intestines. In the current case, clinically there was a history of advanced colonic adenocarcinoma. In cases, without a history of colon carcinoma with a villous appearance, I will diagnose as: \"Villous adenomatous lesion. See note:\n\nNote: This lesion may be a primary villous adenoma of the bladder. However, colonic adenocarcinoma can involve the bladder mimicking a villous adenoma. Clinical correlation is required.”\n\nReference: Silver SA, Epstein JI. Adenocarcinoma of the colon simulating primary urinary bladder neoplasia. A report of nine cases. Am J Surg Pathol. 1993 Feb;17(2):171-8.",
+      "references": [
+        {
+          "text": "Silver SA, Epstein JI. Adenocarcinoma of the colon simulating primary urinary bladder neoplasia. A report of nine cases. Am J Surg Pathol. 1993 Feb;17(2):171-8.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Histology: A villous adenomatous lesion is present.\n\nDiscussion: Colon carcinoma can involve the bladder either via direct invasion or metastases. Histologically, when colon adenocarcinomas involves the bladder it can either: 1) undermine the normal urothelium, which is a clue that the tumor is secondarily involving the bladder; 2) colonize the surface mimicking in situ adenocarcinoma; or 3) when the colon adenocarcinoma reaches the bladder luminal surface, there is a tendency to form papillary fronds of cancer that can be histologically indistinguishable from a primary villous adenoma of the bladder.\n\nColonic adenocarcinoma invading the bladder can also resemble prostatic ductal adenocarcinoma, unless there is more mucinous appearing epithelium which would be unusual for prostatic duct adenocarcinoma. Prostatic duct adenocarcinoma would be NKX3.1 positive, but can also express CDX2. Immunohistochemically, there is no way to distinguish colon carcinoma from bladder adenocarcinoma as both express CDX2 and SATB2. Nuclear beta-catenin would favor colon, but I still would rely on clinically ruling out a colon cancer. Patients with colon cancer invading the bladder may present with bladder involvement at the time of diagnosis of colon cancer or develop vesical lesions several years after resection of their colonic primary. The majority have genitourinary symptoms at presentation with gastrointestinal manifestations less common. The initial clinical impression, largely based on cystoscopic and radiographic studies, can either be a bladder primary or colon cancer.\n\nDistinguishing a primary bladder adenocarcinoma from spread of a colonic carcinoma to the bladder may not be possible on histopathologic grounds alone. Consideration should be given to the possibility of an extravesical primary even when symptomatology, cystoscopy, radiographic studies, and histopathology suggest a primary bladder glandular neoplasm. There are a couple of situations where one can be more definitive that a glandular neoplasm in the bladder is primary at that site. One is if the villous adenoma or adenocarcinoma is arising in the setting of intestinal metaplasia. The other is in lesions arising in the dome of the bladder, which would favor urachal origin, and is not a typical site of spread from the intestines. In the current case, clinically there was a history of advanced colonic adenocarcinoma. In cases, without a history of colon carcinoma with a villous appearance, I will diagnose as: \"Villous adenomatous lesion. See note:\n\nNote: This lesion may be a primary villous adenoma of the bladder. However, colonic adenocarcinoma can involve the bladder mimicking a villous adenoma. Clinical correlation is required.”\n\nReference: Silver SA, Epstein JI. Adenocarcinoma of the colon simulating primary urinary bladder neoplasia. A report of nine cases. Am J Surg Pathol. 1993 Feb;17(2):171-8.",
+      "feedback_html": "Histology: A villous adenomatous lesion is present.<p></p>\n<p>Discussion: Colon carcinoma can involve the bladder either via direct invasion or metastases. Histologically, when colon adenocarcinomas involves the bladder it can either: 1) undermine the normal urothelium, which is a clue that the tumor is secondarily involving the bladder; 2) colonize the surface mimicking in situ adenocarcinoma; or 3) when the colon adenocarcinoma reaches the bladder luminal surface, there is a tendency to form papillary fronds of cancer that can be histologically indistinguishable from a primary villous adenoma of the bladder.</p>\n<p>Colonic adenocarcinoma invading the bladder can also resemble prostatic ductal adenocarcinoma, unless there is more mucinous appearing epithelium which would be unusual for prostatic duct adenocarcinoma. Prostatic duct adenocarcinoma would be NKX3.1 positive, but can also express CDX2. Immunohistochemically, there is no way to distinguish colon carcinoma from bladder adenocarcinoma as both express CDX2 and SATB2. Nuclear beta-catenin would favor colon, but I still would rely on clinically ruling out a colon cancer. Patients with colon cancer invading the bladder may present with bladder involvement at the time of diagnosis of colon cancer or develop vesical lesions several years after resection of their colonic primary. The majority have genitourinary symptoms at presentation with gastrointestinal manifestations less common. The initial clinical impression, largely based on cystoscopic and radiographic studies, can either be a bladder primary or colon cancer.</p>\n<p>Distinguishing a primary bladder adenocarcinoma from spread of a colonic carcinoma to the bladder may not be possible on histopathologic grounds alone. Consideration should be given to the possibility of an extravesical primary even when symptomatology, cystoscopy, radiographic studies, and histopathology suggest a primary bladder glandular neoplasm. There are a couple of situations where one can be more definitive that a glandular neoplasm in the bladder is primary at that site. One is if the villous adenoma or adenocarcinoma is arising in the setting of intestinal metaplasia. The other is in lesions arising in the dome of the bladder, which would favor urachal origin, and is not a typical site of spread from the intestines. In the current case, clinically there was a history of advanced colonic adenocarcinoma. In cases, without a history of colon carcinoma with a villous appearance, I will diagnose as: \"Villous adenomatous lesion. See note:</p>\n<p>Note: This lesion may be a primary villous adenoma of the bladder. However, colonic adenocarcinoma can involve the bladder mimicking a villous adenoma. Clinical correlation is required.”</p>\n<p>Reference: Silver SA, Epstein JI. Adenocarcinoma of the colon simulating primary urinary bladder neoplasia. A report of nine cases. Am J Surg Pathol. 1993 Feb;17(2):171-8.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:03:40.137Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w794c2",
+      "url": "https://sp.pathology.jhu.edu/week-794-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 794: Case 2",
+      "case_label": "Week 794: Case 2",
+      "attribution": "Case presented by Dr. Jonathan I. Epstein and prepared by Dr. Jae W. Lee.",
+      "vignette": "A 63 year-old male underwent a partial nephrectomy of a 3.5 cm renal nodule.",
+      "question_text": "Case presented by Dr. Jonathan I. Epstein and prepared by Dr. Jae W. Lee.\nA 63 year-old male underwent a partial nephrectomy of a 3.5 cm renal nodule.",
+      "source_answer": "Low grade oncocytic tumor",
+      "correct_answer": "Low grade oncocytic tumor",
+      "canonical_answer": "Low grade oncocytic tumor",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "Oncocytoma",
+        "Chromophobe renal cell carcinoma",
+        "Low grade oncocytic tumor",
+        "Low grade oncocytic neoplasm, unclassified type"
+      ],
+      "choices": [
+        "Oncocytoma",
+        "Chromophobe renal cell carcinoma",
+        "Low grade oncocytic tumor",
+        "Low grade oncocytic neoplasm, unclassified type"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/07/794_2.1-1024x762.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/07/794_2.2-1024x762.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/07/794_2.3-1024x762.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/07/794_2.4-1024x762.png"
+      ],
+      "histology": "The tumor is well-circumscribed with a pushing border. Its architecture is variably solid or compact nests. Cytologically, there are large, round-to-polygonal cells with abundant eosinophilic cytoplasm with round to oval nuclei lacking irregularity surrounded by halos. Focally, there are myxoid areas with strands and individual cells.",
+      "discussion": "Low Grade Oncocytic Tumor (LOT) is considered an “emerging tumor” in the latest 2022 WHO Classification. However, there are several series in the literature and in my experience, this is a well-established entity. It is rare and consequently most GU pathology experts who do not see a lot of renal tumor consults will have no experience with this entity, which has contributed to this lesion not being established as a definitive entity by the WHO. The main differential diagnoses is oncocytoma and chromophobe RCC. In contrast to oncocytoma, LOTs have a diffuse growth pattern as opposed to nests in oncocytoma. Although nuclei are uniform and round in LOT, similar to oncocytoma, LOTs have prominent perinuclear halos which are not seen in oncocytoma. Diffuse CK7 in LOTs would also rule out oncocytoma. While the perinuclear halos suggest chromophobe RCC, the round nuclei of LOT differ from the crinkled, notched, raisinoid nuclei of chromophobe RCC. Negative CD117 in LOT also differs from the diffuse membranous CD117 seen in chromophobe RCCs. Another characteristic feature of LOT that is not seen in oncocytoma or chromophobe RCC is what is described as an archipelago appearing myxoid matrix with cords of cells, some of which appear elongated and tethered with almost a tissue-culture appearance.\n\nLOTs occur typically in adults with a wide age range. Tumors are usually unifocal, asymptomatic, and detected incidentally on imaging studies. LOTs are nonsyndromic. To date, LOTs have not exhibited malignant behavior, but there is insufficient data to claim they are totally benign. In addition to the characteristic CK7 diffuse positive with negative CD117, in our experience, LOTS have been diffusely positive for GPNMB, a marker associated with TSC/MTOR mutations, which have been found in LOTS. The term “LOT” is not well-known by urologists and can be misconstrued as a low grade oncocytic neoplasm that is not further classifiable. Consequently, when I diagnose LOT, I specify that this is a well-defined entity and give references on the lesion.\n\nReference: Hes O, Trpkov K. Do we need an updated classification of oncocytic renal tumors?: Emergence of low-grade oncocytic tumor (LOT) and eosinophilic vacuolated tumor (EVT) as novel renal entities. Mod Pathol. 2022 Sep;35(9):1140-1150.\n\nWilliamson SR, Hes O, Trpkov K, et al. Low-grade oncocytic tumour of the kidney is characterized by genetic alterations of TSC1, TSC2, MTOR or PIK3CA and consistent GATA3 positivity. Histopathology. 2023 Jan;82(2):296-304.",
+      "references": [
+        {
+          "text": "Hes O, Trpkov K. Do we need an updated classification of oncocytic renal tumors?: Emergence of low-grade oncocytic tumor (LOT) and eosinophilic vacuolated tumor (EVT) as novel renal entities. Mod Pathol. 2022 Sep;35(9):1140-1150.",
+          "url": null
+        },
+        {
+          "text": "Williamson SR, Hes O, Trpkov K, et al. Low-grade oncocytic tumour of the kidney is characterized by genetic alterations of TSC1, TSC2, MTOR or PIK3CA and consistent GATA3 positivity. Histopathology. 2023 Jan;82(2):296-304.",
+          "url": null
+        }
+      ],
+      "feedback_text": "Histology: The tumor is well-circumscribed with a pushing border. Its architecture is variably solid or compact nests. Cytologically, there are large, round-to-polygonal cells with abundant eosinophilic cytoplasm with round to oval nuclei lacking irregularity surrounded by halos. Focally, there are myxoid areas with strands and individual cells.\n\nDiscussion: Low Grade Oncocytic Tumor (LOT) is considered an “emerging tumor” in the latest 2022 WHO Classification. However, there are several series in the literature and in my experience, this is a well-established entity. It is rare and consequently most GU pathology experts who do not see a lot of renal tumor consults will have no experience with this entity, which has contributed to this lesion not being established as a definitive entity by the WHO. The main differential diagnoses is oncocytoma and chromophobe RCC. In contrast to oncocytoma, LOTs have a diffuse growth pattern as opposed to nests in oncocytoma. Although nuclei are uniform and round in LOT, similar to oncocytoma, LOTs have prominent perinuclear halos which are not seen in oncocytoma. Diffuse CK7 in LOTs would also rule out oncocytoma. While the perinuclear halos suggest chromophobe RCC, the round nuclei of LOT differ from the crinkled, notched, raisinoid nuclei of chromophobe RCC. Negative CD117 in LOT also differs from the diffuse membranous CD117 seen in chromophobe RCCs. Another characteristic feature of LOT that is not seen in oncocytoma or chromophobe RCC is what is described as an archipelago appearing myxoid matrix with cords of cells, some of which appear elongated and tethered with almost a tissue-culture appearance.\n\nLOTs occur typically in adults with a wide age range. Tumors are usually unifocal, asymptomatic, and detected incidentally on imaging studies. LOTs are nonsyndromic. To date, LOTs have not exhibited malignant behavior, but there is insufficient data to claim they are totally benign. In addition to the characteristic CK7 diffuse positive with negative CD117, in our experience, LOTS have been diffusely positive for GPNMB, a marker associated with TSC/MTOR mutations, which have been found in LOTS. The term “LOT” is not well-known by urologists and can be misconstrued as a low grade oncocytic neoplasm that is not further classifiable. Consequently, when I diagnose LOT, I specify that this is a well-defined entity and give references on the lesion.\n\nReference: Hes O, Trpkov K. Do we need an updated classification of oncocytic renal tumors?: Emergence of low-grade oncocytic tumor (LOT) and eosinophilic vacuolated tumor (EVT) as novel renal entities. Mod Pathol. 2022 Sep;35(9):1140-1150.\n\nWilliamson SR, Hes O, Trpkov K, et al. Low-grade oncocytic tumour of the kidney is characterized by genetic alterations of TSC1, TSC2, MTOR or PIK3CA and consistent GATA3 positivity. Histopathology. 2023 Jan;82(2):296-304.",
+      "feedback_html": "Histology: The tumor is well-circumscribed with a pushing border. Its architecture is variably solid or compact nests. Cytologically, there are large, round-to-polygonal cells with abundant eosinophilic cytoplasm with round to oval nuclei lacking irregularity surrounded by halos. Focally, there are myxoid areas with strands and individual cells.<p></p>\n<p>Discussion: Low Grade Oncocytic Tumor (LOT) is considered an “emerging tumor” in the latest 2022 WHO Classification. However, there are several series in the literature and in my experience, this is a well-established entity. It is rare and consequently most GU pathology experts who do not see a lot of renal tumor consults will have no experience with this entity, which has contributed to this lesion not being established as a definitive entity by the WHO. The main differential diagnoses is oncocytoma and chromophobe RCC. In contrast to oncocytoma, LOTs have a diffuse growth pattern as opposed to nests in oncocytoma. Although nuclei are uniform and round in LOT, similar to oncocytoma, LOTs have prominent perinuclear halos which are not seen in oncocytoma. Diffuse CK7 in LOTs would also rule out oncocytoma. While the perinuclear halos suggest chromophobe RCC, the round nuclei of LOT differ from the crinkled, notched, raisinoid nuclei of chromophobe RCC. Negative CD117 in LOT also differs from the diffuse membranous CD117 seen in chromophobe RCCs. Another characteristic feature of LOT that is not seen in oncocytoma or chromophobe RCC is what is described as an archipelago appearing myxoid matrix with cords of cells, some of which appear elongated and tethered with almost a tissue-culture appearance.</p>\n<p>LOTs occur typically in adults with a wide age range. Tumors are usually unifocal, asymptomatic, and detected incidentally on imaging studies. LOTs are nonsyndromic. To date, LOTs have not exhibited malignant behavior, but there is insufficient data to claim they are totally benign. In addition to the characteristic CK7 diffuse positive with negative CD117, in our experience, LOTS have been diffusely positive for GPNMB, a marker associated with TSC/MTOR mutations, which have been found in LOTS. The term “LOT” is not well-known by urologists and can be misconstrued as a low grade oncocytic neoplasm that is not further classifiable. Consequently, when I diagnose LOT, I specify that this is a well-defined entity and give references on the lesion.</p>\n<p>Reference: Hes O, Trpkov K. Do we need an updated classification of oncocytic renal tumors?: Emergence of low-grade oncocytic tumor (LOT) and eosinophilic vacuolated tumor (EVT) as novel renal entities. Mod Pathol. 2022 Sep;35(9):1140-1150.</p>\n<p>Williamson SR, Hes O, Trpkov K, et al. Low-grade oncocytic tumour of the kidney is characterized by genetic alterations of TSC1, TSC2, MTOR or PIK3CA and consistent GATA3 positivity. Histopathology. 2023 Jan;82(2):296-304.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:03:49.773Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w794c1",
+      "url": "https://sp.pathology.jhu.edu/week-794-case-1/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 794: Case 1",
+      "case_label": "Week 794: Case 1",
+      "attribution": "Case presented by Dr. Jonathan I. Epstein and prepared by Dr. Jae W. Lee.",
+      "vignette": "A 20 year old male underwent a radical nephrectomy for a 9.0 cm mass. The tumor invaded perirenal and hilar fat and was metastatic to multiple hilar lymph nodes.",
+      "question_text": "Case presented by Dr. Jonathan I. Epstein and prepared by Dr. Jae W. Lee.\nA 20 year old male underwent a radical nephrectomy for a 9.0 cm mass. The tumor invaded perirenal and hilar fat and was metastatic to multiple hilar lymph nodes.",
+      "source_answer": "Renal medullary RCC",
+      "correct_answer": "Renal medullary RCC",
+      "canonical_answer": "Renal medullary RCC",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "Renal medullary RCC",
+        "Collecting duct carcinoma",
+        "Metastatic adenocarcinoma",
+        "Invasive urothelial carcinoma with glandular differentiation"
+      ],
+      "choices": [
+        "Renal medullary RCC",
+        "Collecting duct carcinoma",
+        "Metastatic adenocarcinoma",
+        "Invasive urothelial carcinoma with glandular differentiation"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/07/794_1.1-1024x762.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/07/794_1.2-1024x762.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/07/794_1.3-1024x762.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/07/794_1.4-1024x762.png"
+      ],
+      "histology": "The tumor consists of a sieve-like (cribriform) growth pattern with a very irregular infiltrative border invading between glomeruli. The tumor has a moderate amount of eosinophilic cytoplasm with vesicular pleomorphic nuclei with prominent nucleoli. Frequent mitotic activity is noted. There is abundant dense desmoplastic stroma.",
+      "discussion": "Renal medullary carcinoma affects young adults, and is almost exclusively seen in Black patients with sickle cell trait. Inactivation of tumor suppressor gene hSNF5/INI1 on long arm of chromosome 22 is frequently detected. If there is morphology of medullary RCC and loss of INI1, but there is no history of sickle cell trait, it is termed INI-deficient RCC with medullary features. In this case, one can appreciate overt sickled cells in some of the vessels, so a definitive diagnosis of renal medullary RCC can be established. A typical feature of renal medullary RCC that is not prominent in the current case is the presence of microabcess formation and diffuse infiltration by neutrophils within the tumor. There is overlap with renal medullary RCC and collecting duct carcinoma. However, collecting duct carcinoma tends to have more individual tubules as opposed to a sieve-like growth pattern, and the clinical finding of sickle cell trait confirms the diagnosis of medullary RCC. Renal medullary RCC is associated with a very poor prognosis with >90% of patients at presentation having metastases to lymph nodes or other organs, with a median survival of 8 months.",
+      "references": [],
+      "feedback_text": "Histology: The tumor consists of a sieve-like (cribriform) growth pattern with a very irregular infiltrative border invading between glomeruli. The tumor has a moderate amount of eosinophilic cytoplasm with vesicular pleomorphic nuclei with prominent nucleoli. Frequent mitotic activity is noted. There is abundant dense desmoplastic stroma.\n\nDiscussion: Renal medullary carcinoma affects young adults, and is almost exclusively seen in Black patients with sickle cell trait. Inactivation of tumor suppressor gene hSNF5/INI1 on long arm of chromosome 22 is frequently detected. If there is morphology of medullary RCC and loss of INI1, but there is no history of sickle cell trait, it is termed INI-deficient RCC with medullary features. In this case, one can appreciate overt sickled cells in some of the vessels, so a definitive diagnosis of renal medullary RCC can be established. A typical feature of renal medullary RCC that is not prominent in the current case is the presence of microabcess formation and diffuse infiltration by neutrophils within the tumor. There is overlap with renal medullary RCC and collecting duct carcinoma. However, collecting duct carcinoma tends to have more individual tubules as opposed to a sieve-like growth pattern, and the clinical finding of sickle cell trait confirms the diagnosis of medullary RCC. Renal medullary RCC is associated with a very poor prognosis with >90% of patients at presentation having metastases to lymph nodes or other organs, with a median survival of 8 months.",
+      "feedback_html": "Histology: The tumor consists of a sieve-like (cribriform) growth pattern with a very irregular infiltrative border invading between glomeruli. The tumor has a moderate amount of eosinophilic cytoplasm with vesicular pleomorphic nuclei with prominent nucleoli. Frequent mitotic activity is noted. There is abundant dense desmoplastic stroma.<p></p>\n<p>Discussion: Renal medullary carcinoma affects young adults, and is almost exclusively seen in Black patients with sickle cell trait. Inactivation of tumor suppressor gene <em>hSNF5/INI1</em> on long arm of chromosome 22 is frequently detected. If there is morphology of medullary RCC and loss of INI1, but there is no history of sickle cell trait, it is termed INI-deficient RCC with medullary features. In this case, one can appreciate overt sickled cells in some of the vessels, so a definitive diagnosis of renal medullary RCC can be established. A typical feature of renal medullary RCC that is not prominent in the current case is the presence of microabcess formation and diffuse infiltration by neutrophils within the tumor. There is overlap with renal medullary RCC and collecting duct carcinoma. However, collecting duct carcinoma tends to have more individual tubules as opposed to a sieve-like growth pattern, and the clinical finding of sickle cell trait confirms the diagnosis of medullary RCC. Renal medullary RCC is associated with a very poor prognosis with &gt;90% of patients at presentation having metastases to lymph nodes or other organs, with a median survival of 8 months.</p>",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:04:00.109Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w793c3",
+      "url": "https://sp.pathology.jhu.edu/week-793-case-3/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 793: Case 3",
+      "case_label": "Week 793: Case 3",
+      "attribution": "Case presented by Dr. Ezra Baraban and prepared by Dr. Jae W. Lee.",
+      "vignette": "This is a transurethral resection of the prostate (TURP) specimen from a 57 year old male.",
+      "question_text": "Case presented by Dr. Ezra Baraban and prepared by Dr. Jae W. Lee.\nThis is a transurethral resection of the prostate (TURP) specimen from a 57 year old male.",
+      "source_answer": "Nephrogenic adenoma",
+      "correct_answer": "Nephrogenic adenoma",
+      "canonical_answer": "Nephrogenic adenoma",
+      "correct_choice_index": 0,
+      "choices_raw": [
+        "Nephrogenic adenoma",
+        "Clear cell adenocarcinoma",
+        "Granulation tissue",
+        "Urothelial carcinoma with glandular differentiation"
+      ],
+      "choices": [
+        "Nephrogenic adenoma",
+        "Clear cell adenocarcinoma",
+        "Granulation tissue",
+        "Urothelial carcinoma with glandular differentiation"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/07/793_3.1-1024x762.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/07/793_3.2-1024x762.png"
+      ],
+      "histology": "",
+      "discussion": "",
+      "references": [],
+      "feedback_text": "Sections show prostate tissue with a small focus of tubules lined by bland cuboidal epithelium, with admixed inflammation. Clear cell adenocarcinoma would typically form a mass lesion and should demonstrate mitotic activity as well as nuclear hyperchromasia, although shows extensive immunohistochemical overlap with nephrogenic adenoma. Urothelial carcinoma with glandular differentiation would typically label with GATA3 and lack PAX8 expression. Small vessels of granulation tissue can mimic tubules of nephrogenic adenoma, but these would label with endothelial but not epithelial markers.\n\nThe primary importance of nephrogenic adenoma, which represents colonization of the urinary tract (most commonly bladder or urethra) by shedding benign renal epithelial cells, is in not over diagnosing it as a neoplastic lesion. Diagnostic confusion may result from the presence of tubules in the bladder lamina propria and keratin labeling may also lead to concern for an epithelial neoplasm. The incidental nature, associated inflammation, hyaline cuff of basement membrane, lack of mitotic activity and nuclear hyperchromasia, and PAX8 labeling support this diagnosis.",
+      "feedback_html": "Sections show prostate tissue with a small focus of tubules lined by bland cuboidal epithelium, with admixed inflammation. Clear cell adenocarcinoma would typically form a mass lesion and should demonstrate mitotic activity as well as nuclear hyperchromasia, although shows extensive immunohistochemical overlap with nephrogenic adenoma. Urothelial carcinoma with glandular differentiation would typically label with GATA3 and lack PAX8 expression. Small vessels of granulation tissue can mimic tubules of nephrogenic adenoma, but these would label with endothelial but not epithelial markers.<p></p>\n<p>The primary importance of nephrogenic adenoma, which represents colonization of the urinary tract (most commonly bladder or urethra) by shedding benign renal epithelial cells, is in not over diagnosing it as a neoplastic lesion. Diagnostic confusion may result from the presence of tubules in the bladder lamina propria and keratin labeling may also lead to concern for an epithelial neoplasm. The incidental nature, associated inflammation, hyaline cuff of basement membrane, lack of mitotic activity and nuclear hyperchromasia, and PAX8 labeling support this diagnosis.</p>\n",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:04:11.353Z",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "w793c2",
+      "url": "https://sp.pathology.jhu.edu/week-793-case-2/",
+      "source": "Johns Hopkins Surgical Pathology Unknown Conference",
+      "title": "Week 793: Case 2",
+      "case_label": "Week 793: Case 2",
+      "attribution": "Case presented by Dr. Ezra Baraban and prepared by Dr. Jae W. Lee.",
+      "vignette": "This is a 76 year old female with a kidney mass.",
+      "question_text": "Case presented by Dr. Ezra Baraban and prepared by Dr. Jae W. Lee.\nThis is a 76 year old female with a kidney mass.",
+      "source_answer": "Low-grade oncocytic tumor",
+      "correct_answer": "Low-grade oncocytic tumor",
+      "canonical_answer": "Low-grade oncocytic tumor",
+      "correct_choice_index": 2,
+      "choices_raw": [
+        "Chromophobe renal cell carcinoma",
+        "Oncocytoma",
+        "Low-grade oncocytic tumor",
+        "Adrenal cortical adenoma"
+      ],
+      "choices": [
+        "Chromophobe renal cell carcinoma",
+        "Oncocytoma",
+        "Low-grade oncocytic tumor",
+        "Adrenal cortical adenoma"
+      ],
+      "images": [
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/07/793_2.1-1024x762.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/07/793_2.2-1024x762.png",
+        "https://sp.pathology.jhu.edu/wp-content/uploads/2023/07/793_2.3-1024x762.png"
+      ],
+      "histology": "",
+      "discussion": "",
+      "references": [],
+      "feedback_text": "Sections show a neoplasm composed of a diffuse proliferation of low grade epithelial cells with eosinophilic granular cytoplasm. Perinuclear haloes and binucleation are also seen. Chromophobe carcinoma, particularly the eosinophilic variant shows morphologic overlap and before the recent description of low-grade oncocytic tumor many were likely diagnosed as such. However, low-grade oncocytic tumor typically lack CD117 expression and would not be associated with areas of conventional chromophobe carcinoma. Diffuse expression of CK7 as seen in low-grade oncocytic tumor excludes oncocytoma. PAX8 expression excludes an adrenal cortical lesion.",
+      "feedback_html": "Sections show a neoplasm composed of a diffuse proliferation of low grade epithelial cells with eosinophilic granular cytoplasm. Perinuclear haloes and binucleation are also seen. Chromophobe carcinoma, particularly the eosinophilic variant shows morphologic overlap and before the recent description of low-grade oncocytic tumor many were likely diagnosed as such. However, low-grade oncocytic tumor typically lack CD117 expression and would not be associated with areas of conventional chromophobe carcinoma. Diffuse expression of CK7 as seen in low-grade oncocytic tumor excludes oncocytoma. PAX8 expression excludes an adrenal cortical lesion.",
+      "stains": [],
+      "stain_status": "not-curated",
+      "extracted_at": "2026-11-07T20:04:20.589Z",
+      "extractor_version": "1.0.0"
+    }
+  ]
+}
