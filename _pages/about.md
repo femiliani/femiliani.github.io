@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello! Welcome to the early beginnings of this website. I'm from Milan, Italy, grew up in Dubai, UAE, ended up in Baltimore for college, and now I'm in New Hampshire! I'm currently an MD-PhD student at Dartmouth pursuing my PhD in the lab of Dr. Aaron McKenna. Broadly my research interests lie in developing new molecular and computational tools for research and diagnostics. I have gotten more involved with long-read sequencing lately and can't help but notice the potential it has for rapid and affordable diagnostics. What seemed like a sci-fi dream of putting in a sample and getting a near instant result is slowly becoming reality and I aim to be part of that. 
+Hello! Welcome to my attempt at putting together a website. I’m from Milan, Italy, grew up in Dubai, UAE, ended up in Baltimore for college, rural New Hampshire for an MD-PhD, and am currently back in Baltimore for pathology (AP-only) residency! I pursued a PhD in the lab of Dr. Aaron McKenna. Broadly my research interests lie in developing new molecular and computational tools for research and diagnostics. I have gotten more involved with long-read sequencing lately and can’t help but notice the potential it has for rapid and affordable diagnostics. What seemed like a sci-fi dream of putting in a sample and getting a near instant result is slowly becoming reality and I aim to be part of that. Working with Dr. Chun-Chieh Lin (a neuropathologist at DHMC) we developed an intraoperative assay for methylation classification and copy-number alteration in CNS tumors. Now that I am on to residency I am studying methylation in the context of EBV-related malignancies (with bisulfite sequencing instead of long reads, I know, very sad). Despite feeling like I have just started residency I am already applying for fellowships in Molecular Pathology for the '28-'29 cycle. I am excited to apply all these years of molecular biology and genomics to this field and help develop novel assays and study new biology.
 
 Lessons in MolBio
 ======
@@ -20,7 +20,7 @@ Explore my [drone photography of the Upper Valley](/photography/).
 
 Hobbies
 ======
-Sometimes we have to do things other than science to stay sane. If you want to learn how to make jewelry with lost-wax casting, try out some of my favorite recipes (including my grandmother's apple cake), or try to grow hot peppers in a climate that's definitely not suited for them [check out this section](/portfolio/).
+Sometimes we have to do things other than medicine/science to stay sane. I've dabbled in jewelry making at the phenomenal Dartmouth Jewelry Studio, I enjoy cooking you can check out some recipes (including my grandmother’s apple cake), and have enjoyed growing spicy (and even habaneros with no capsaicin production) [check out this section](https://femiliani.github.io/portfolio/). (This is a work in progress, I was a bit too ambitious here but hope to find the time to get back to this).
 
 <!--
 header
