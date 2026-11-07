@@ -9,7 +9,10 @@ author_profile: false
 .pathunknowns { --pu-card:#fff; --pu-text:#17191c; --pu-muted:#646a73; --pu-line:#dfe3e8; --pu-accent:#111827; --pu-soft:#eef1f5; --pu-good:#238636; --pu-bad:#cf222e; color:var(--pu-text); }
 .pathunknowns * { box-sizing:border-box; }
 .pathunknowns .pu-intro { margin:0 0 1.5rem; }
-.pathunknowns .pu-intro p { color:var(--pu-muted); max-width:58rem; line-height:1.55; }
+.pathunknowns .pu-intro p, .pathunknowns .pu-intro ol { color:var(--pu-muted); max-width:58rem; line-height:1.55; }
+.pathunknowns .pu-intro ol { padding-left:1.4rem; }
+.pathunknowns .pu-intro li { margin:.35rem 0; }
+.pathunknowns .pu-intro h3 { margin:.9rem 0 .45rem; }
 .pathunknowns .pu-card { background:var(--pu-card); border:1px solid var(--pu-line); border-radius:16px; box-shadow:0 8px 24px rgba(0,0,0,.05); overflow:hidden; }
 .pathunknowns .pu-topbar { padding:1rem 1.2rem; border-bottom:1px solid var(--pu-line); display:flex; justify-content:space-between; gap:1rem; align-items:center; flex-wrap:wrap; }
 .pathunknowns .pu-meta { color:var(--pu-muted); font-size:.9rem; }
@@ -85,6 +88,11 @@ body.pu-lightbox-open { overflow:hidden; }
 .pathunknowns .pu-progress { margin-bottom:1rem; padding:.85rem 1rem; border:1px solid var(--pu-line); border-radius:12px; background:#fafbfc; }
 .pathunknowns .pu-progress-summary { font-size:.9rem; color:var(--pu-muted); margin-bottom:.65rem; }
 .pathunknowns .pu-progress-actions { display:flex; gap:.55rem; flex-wrap:wrap; align-items:center; }
+.pathunknowns .pu-filter-row { display:flex; gap:.6rem; align-items:center; flex-wrap:wrap; margin-bottom:.7rem; }
+.pathunknowns .pu-filter-row label { margin:0; }
+.pathunknowns .pu-filter-row select { min-width:180px; padding:.62rem .75rem; border:1px solid #cdd3da; border-radius:9px; background:#fff; font:inherit; }
+.pathunknowns .pu-filter-status { color:var(--pu-muted); font-size:.84rem; }
+.pathunknowns #puResetProgressBtn { border-color:#d0a0a5; color:#9a1f2b; }
 .pathunknowns .pu-progress-status { min-height:1.2rem; color:var(--pu-muted); font-size:.84rem; margin-top:.5rem; }
 .pathunknowns .pu-progress-legend { margin-top:.5rem; color:var(--pu-muted); font-size:.8rem; }
 .pathunknowns .pu-footer { margin-top:1rem; color:var(--pu-muted); font-size:.84rem; line-height:1.5; }
@@ -97,12 +105,27 @@ body.pu-lightbox-open { overflow:hidden; }
 }
 </style>
 
-<div class="pathunknowns" data-pathunknowns-build="2026-11-07.progress1">
+<div class="pathunknowns" data-pathunknowns-build="2026-11-07.filters1">
   <div class="pu-intro">
     <p>
-      Pathology unknowns drawn from the Johns Hopkins Surgical Pathology Unknown Conference. The current archive includes 200 cases.
-      Images are displayed from their original JHU media URLs rather than copied into this repository.
-      Submit a diagnosis to reveal the official JHU answer and explanatory feedback.
+      This is a work in progress, the goal is to create an educational tool for pathologists in training, and give us an opportunity to learn which IHCs to order, and what differential diagnosis to keep in mind. Currently I am drawing heavily from the Johns Hopkins Surgical Pathology Unknown Conference. The current archive includes 200 cases. Images are displayed from their original JHU media URLs rather than copied into this repository. For which I am immensely grateful.
+    </p>
+
+    <h3>How to use:</h3>
+    <ol>
+      <li>Look at the slides</li>
+      <li>You can try to answer the case if you think you know it, if you dont...</li>
+      <li>Consider some stains to order, you can freeform them, or click on IHC/stain suggester to see which are available</li>
+      <li>Now try to answer the question</li>
+      <li>After providing an answer, a set of options will be available. Your answer might be amongst them. You can choose to double down on what you said, or pick an answer that might actually make more sense but you hadn't thought of.</li>
+    </ol>
+
+    <p>
+      Once you have submitted an answer, you will get the chance to read a discussion about the case. Your answers are stored locally on your computer, giving you the ability to go back to cases that you struggled with and try to learn more!
+    </p>
+
+    <p>
+      I hope you find this helpful on your path to becoming a pathologist, and if you have suggestions (or cases to submit) feel free to reach out to me!
     </p>
   </div>
 
@@ -162,9 +185,20 @@ body.pu-lightbox-open { overflow:hidden; }
 
         <div class="pu-progress">
           <div class="pu-progress-summary" id="puProgressSummary">0 completed</div>
+          <div class="pu-filter-row">
+            <label for="puCaseFilter"><strong>Show:</strong></label>
+            <select id="puCaseFilter" aria-label="Filter cases by progress">
+              <option value="all">All cases</option>
+              <option value="unseen">Unseen</option>
+              <option value="review">Needs review</option>
+              <option value="correct">Correct first try</option>
+              <option value="mastered">Mastered after retry</option>
+            </select>
+            <span class="pu-filter-status" id="puFilterStatus"></span>
+          </div>
           <div class="pu-progress-actions">
             <button id="puReviewMissedBtn" type="button">Review missed</button>
-            <button id="puResetProgressBtn" type="button">Reset progress</button>
+            <button id="puResetProgressBtn" type="button">Reset all progress</button>
           </div>
           <div class="pu-progress-status" id="puProgressStatus"></div>
           <div class="pu-progress-legend">✓ correct first try · ✓* learned on retry · • needs review</div>
@@ -193,7 +227,7 @@ body.pu-lightbox-open { overflow:hidden; }
   <img id="puLightboxImage" referrerpolicy="no-referrer" alt="">
 </div>
 
-<script src="/assets/js/pathunknowns.js?v=20261107-progress1"></script>
+<script src="/assets/js/pathunknowns.js?v=20261107-filters1"></script>
 <noscript>
   <div style="margin-top:1rem;padding:1rem;border:1px solid #cf222e;border-radius:10px;">
     PathUnknowns requires JavaScript to run.
