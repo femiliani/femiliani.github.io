@@ -2244,13 +2244,13 @@
             "cytokeratin 7"
           ],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Low grade oncocytic tumor labels diffusely for cytokeratin 7, should not label for melanocytic markers.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "panCK",
@@ -2258,13 +2258,13 @@
             "cytokeratin"
           ],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Eosinophilic chromophobe renal cell carcinoma should demonstrate immunoreactivity for cytokeratin, and demonstrates edematous hyalinized stroma and irregular nuclei. Low grade oncocytic tumor labels diffusely for cytokeratin 7, should not label for melanocytic markers.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "Cathepsin K",
@@ -2512,13 +2512,13 @@
           "name": "CD99",
           "aliases": [],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "These cells have a nonspecific immunophenotype, with negative reactions for cytokeratin, CD99, S100, SF1, melanocytic markers, and CD34. The primitive appearance of the neoplasm raised the possibility of Ewing sarcoma; however, the absence of immunoreactivity for CD99 as well as the lipomatous component helps exclude that diagnosis.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker negativity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "SF1",
@@ -2807,25 +2807,25 @@
           "name": "GATA3",
           "aliases": [],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Urothelial carcinoma with glandular differentiation would typically label with GATA3 and lack PAX8 expression.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "PAX8",
           "aliases": [],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Urothelial carcinoma with glandular differentiation would typically label with GATA3 and lack PAX8 expression. The incidental nature, associated inflammation, hyaline cuff of basement membrane, lack of mitotic activity and nuclear hyperchromasia, and PAX8 labeling support this diagnosis.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker negativity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         }
       ],
       "references": [],
@@ -4017,13 +4017,13 @@
           "name": "SOX10",
           "aliases": [],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Melanoma could show similar cytomorphology but is often pleomorphic and would label with SOX10 and more specific melanocytic markers.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "ALK",
@@ -4326,13 +4326,13 @@
             "cytokeratin 7"
           ],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Immunohistochemically, clear cell papillary renal tumor has a distinct staining pattern with diffuse CK7 and diffuse CAIX. A pitfall that many pathologists are not aware of is that low grade clear cell RCC can show a fair degree of CK7 positivity, yet will not be diffusely immunoreactive as in clear cell papillary renal cell tumor. In cases of clear cell papillary renal cell tumor with classic morphology, it is not necessary to stain with CK7 and CAIX, but the staining can be confirmatory if there is any uncertainty with the diagnosis.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "CAIX",
