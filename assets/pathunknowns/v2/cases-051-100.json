@@ -838,21 +838,7 @@
       ],
       "stains": [
         {
-          "name": "PR",
-          "aliases": [
-            "progesterone receptor"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "On immunostains, the decidualized cells were negative for CD68, S100, and AE1/3, while positive for CD10 and PR.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "CD10",
+          "name": "CD68",
           "aliases": [],
           "type": "IHC",
           "result": "negative",
@@ -861,7 +847,7 @@
           "context": "On immunostains, the decidualized cells were negative for CD68, S100, and AE1/3, while positive for CD10 and PR.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "The JHU answer states that the decidualized cells were negative for CD68."
         },
         {
           "name": "S100",
@@ -873,11 +859,14 @@
           "context": "On immunostains, the decidualized cells were negative for CD68, S100, and AE1/3, while positive for CD10 and PR.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "The JHU answer states that the decidualized cells were negative for S100."
         },
         {
-          "name": "CD68",
-          "aliases": [],
+          "name": "AE1/AE3",
+          "aliases": [
+            "AE1/3",
+            "AE1-AE3"
+          ],
           "type": "IHC",
           "result": "negative",
           "result_display": "Negative",
@@ -885,7 +874,33 @@
           "context": "On immunostains, the decidualized cells were negative for CD68, S100, and AE1/3, while positive for CD10 and PR.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "The JHU answer states that the decidualized cells were negative for AE1/3."
+        },
+        {
+          "name": "CD10",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "On immunostains, the decidualized cells were negative for CD68, S100, and AE1/3, while positive for CD10 and PR.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "The JHU answer states that the decidualized cells were positive for CD10."
+        },
+        {
+          "name": "PR",
+          "aliases": [
+            "progesterone receptor"
+          ],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "On immunostains, the decidualized cells were negative for CD68, S100, and AE1/3, while positive for CD10 and PR.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "The JHU answer states that the decidualized cells were positive for PR."
         }
       ],
       "references": [
@@ -897,7 +912,7 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "manually_reviewed",
         "original_extractor_version": "1.0.0",
         "review_flags": []
       }
