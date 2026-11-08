@@ -1546,7 +1546,56 @@
         "Invasive and In-situ urothelial carcinoma",
         "Invasive urothelial carcinoma and intraductal carcinoma of the prostate"
       ],
-      "stains": [],
+      "stains": [
+        {
+          "name": "GATA3",
+          "aliases": [],
+          "type": "IHC",
+          "result": "negative_variable",
+          "result_display": "Negative / variable",
+          "interpretation": "Expected/supportive immunophenotype described in the source answer.",
+          "context": "GATA3, P40, or uroplakin, along with negativity for some combination of NKX3.1, P501S, and PSA would confirm the urothelial nature of these cells.",
+          "provenance": "entity_profile",
+          "confidence": "medium",
+          "basis": "Source answer describes this marker as a negative/non-supportive immunophenotypic feature."
+        },
+        {
+          "name": "p40",
+          "aliases": [],
+          "type": "IHC",
+          "result": "negative_variable",
+          "result_display": "Negative / variable",
+          "interpretation": "Expected/supportive immunophenotype described in the source answer.",
+          "context": "GATA3, P40, or uroplakin, along with negativity for some combination of NKX3.1, P501S, and PSA would confirm the urothelial nature of these cells.",
+          "provenance": "entity_profile",
+          "confidence": "medium",
+          "basis": "Source answer describes this marker as a negative/non-supportive immunophenotypic feature."
+        },
+        {
+          "name": "NKX3.1",
+          "aliases": [],
+          "type": "IHC",
+          "result": "negative_variable",
+          "result_display": "Negative / variable",
+          "interpretation": "Expected/supportive immunophenotype described in the source answer.",
+          "context": "GATA3, P40, or uroplakin, along with negativity for some combination of NKX3.1, P501S, and PSA would confirm the urothelial nature of these cells.",
+          "provenance": "entity_profile",
+          "confidence": "medium",
+          "basis": "Source answer describes this marker as a negative/non-supportive immunophenotypic feature."
+        },
+        {
+          "name": "PSA",
+          "aliases": [],
+          "type": "IHC",
+          "result": "variable",
+          "result_display": "Variable / context-dependent",
+          "interpretation": "Expected/supportive immunophenotype described in the source answer.",
+          "context": "GATA3, P40, or uroplakin, along with negativity for some combination of NKX3.1, P501S, and PSA would confirm the urothelial nature of these cells.",
+          "provenance": "contextual_inference",
+          "confidence": "low",
+          "basis": "Marker is discussed in a stain-related context but the source does not support a single polarity."
+        }
+      ],
       "references": [],
       "metadata": {
         "case_version": 1,
@@ -1657,6 +1706,18 @@
           "provenance": "differential_inference",
           "confidence": "medium",
           "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
+        },
+        {
+          "name": "GATA3",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
+          "context": "A recent publication suggested that MUC4 positivity and GATA3 negativity can be used to support sarcomatoid carcinoma versus sarcomatoid mesothelioma in the setting of a malignant spindled tumor involving pleura.",
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker negativity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         }
       ],
       "references": [],
@@ -2794,6 +2855,18 @@
           "provenance": "entity_profile",
           "confidence": "medium",
           "basis": "Source answer describes diagnostically useful staining/expression for this marker."
+        },
+        {
+          "name": "MUC4",
+          "aliases": [],
+          "type": "IHC",
+          "result": "negative_variable",
+          "result_display": "Negative / variable",
+          "interpretation": "Expected/supportive immunophenotype described in the source answer.",
+          "context": "Atypical mitotic figures would be unusual for neoplasms with simple karyotypes such as fibromatosis and low-grade fibromyxoid sarcoma, with negativity for MUC4 essentially excluding the latter.",
+          "provenance": "entity_profile",
+          "confidence": "medium",
+          "basis": "Source answer describes this marker as a negative/non-supportive immunophenotypic feature."
         }
       ],
       "references": [],
@@ -3975,6 +4048,30 @@
           "provenance": "differential_inference",
           "confidence": "medium",
           "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
+        },
+        {
+          "name": "SOX10",
+          "aliases": [],
+          "type": "IHC",
+          "result": "negative_variable",
+          "result_display": "Negative / variable",
+          "interpretation": "Expected/supportive immunophenotype described in the source answer.",
+          "context": "Negativity for S100 and SOX10 eliminate melanoma.",
+          "provenance": "entity_profile",
+          "confidence": "medium",
+          "basis": "Source answer describes this marker as a negative/non-supportive immunophenotypic feature."
+        },
+        {
+          "name": "S100",
+          "aliases": [],
+          "type": "IHC",
+          "result": "negative_variable",
+          "result_display": "Negative / variable",
+          "interpretation": "Expected/supportive immunophenotype described in the source answer.",
+          "context": "Negativity for S100 and SOX10 eliminate melanoma.",
+          "provenance": "entity_profile",
+          "confidence": "medium",
+          "basis": "Source answer describes this marker as a negative/non-supportive immunophenotypic feature."
         }
       ],
       "references": [],
