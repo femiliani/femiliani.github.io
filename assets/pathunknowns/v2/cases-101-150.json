@@ -651,13 +651,13 @@
           "name": "TFE3",
           "aliases": [],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Expected/supportive immunophenotype described for the diagnosed entity.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "These cells label diffusely for TFE3 and demonstrate rearrangement of TFE3 by FISH. Clear cell renal cell carcinoma could demonstrate hyalinization like this, but would be expected to label for carbonic anhydrase 9 and not for TFE3. It would label for cytokeratin 7 and carbonic anhydrase 9, not for TFE3.",
-          "provenance": "entity_profile",
+          "provenance": "differential_inference",
           "confidence": "medium",
-          "basis": "Source answer describes this as a typical/possible immunophenotypic feature of the diagnosed entity."
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         }
       ],
       "references": [],
@@ -709,13 +709,13 @@
             "estrogen receptor"
           ],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Expected/supportive immunophenotype described for the diagnosed entity.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "The spindle cells label diffusely for estrogen receptor and for CD10, consistent with endometrial stroma This patient had a history of endometriosis in other organ sites. Organizing hematoma would not be expected to label diffusely for estrogen receptor. It would not be expected to label for estrogen receptor.",
-          "provenance": "entity_profile",
+          "provenance": "differential_inference",
           "confidence": "medium",
-          "basis": "Source answer describes this as a typical/possible immunophenotypic feature of the diagnosed entity."
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "panCK",
@@ -1279,13 +1279,13 @@
           "name": "NKX3.1",
           "aliases": [],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Prostatic adenocarcinoma would label with NKX3.1.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "TTF-1",
@@ -1306,13 +1306,13 @@
           "name": "CD20",
           "aliases": [],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Diffuse large B cell lymphoma would lack keratin expression and will label with CD20 and other B-cell markers.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         }
       ],
       "references": [
@@ -1797,13 +1797,13 @@
           "name": "PAX8",
           "aliases": [],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Translocation RCC may label with melanocytic markers and/or cathepsin-K but typically expresses PAX8 and/or cytokeratin. Sarcomatoid renal cell carcinoma will be overtly malignant histologically and expression of keratin and/or PAX8 would support the diagnosis.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         }
       ],
       "references": [
@@ -1964,13 +1964,13 @@
           "name": "GATA3",
           "aliases": [],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "This tumor also labeled with keratin and GATA3 while negative for PAX8, supporting sarcomatoid urothelial carcinoma. Although mesothelioma could certainly express cytokeratin and GATA3, the history of urothelial carcinoma, epicenter of the tumor in the renal pelvis and lack of peritoneal disease, and lack of expression of other mesothelial markers exclude that diagnosis.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker negativity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "SOX10",
@@ -3377,13 +3377,13 @@
           "name": "p63",
           "aliases": [],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Squamous cell carcinoma in-situ could show pagetoid growth, but tumor cells should label with squamous markers such as high molecular weight keratin and/or P63/40.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         }
       ],
       "references": [],
@@ -3745,13 +3745,13 @@
             "CDKN2A"
           ],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Cilia formation can complicate differentiating the tumor from benign upper aerodigestive lesions but the ciliated cells are closely intermixed with the tumor cells and are positive for p16 and high-risk HPV RNA in-situ hybridization. The College of American Pathologists guidelines recommend that all new squamous cell carcinomas arising in the oropharynx or neck metastasis of unknown primary should be tested for involvement by high-risk HPV via p16 immunohistochemistry.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         }
       ],
       "references": [],
