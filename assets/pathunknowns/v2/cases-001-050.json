@@ -2515,6 +2515,18 @@
           "provenance": "explicit",
           "confidence": "high",
           "basis": "Negative/lack-of-expression language in source answer."
+        },
+        {
+          "name": "MYB",
+          "aliases": [],
+          "type": "IHC",
+          "result": "negative_variable",
+          "result_display": "Negative / variable",
+          "interpretation": "Expected/supportive immunophenotype described in the source answer.",
+          "context": "Discussion: HPV-related multiphenotypic sinonasal carcinoma is a neoplasm described as recently as 2013 that is located exclusively in the sinonasal tract and is noted for its strong association with human papillomavirus 33 (HPV33) and its negativity for MYB/NFIB translocations.",
+          "provenance": "entity_profile",
+          "confidence": "medium",
+          "basis": "Source answer describes this marker as a negative/non-supportive immunophenotypic feature."
         }
       ],
       "references": [
@@ -4946,6 +4958,18 @@
           "provenance": "contextual_inference",
           "confidence": "low",
           "basis": "Marker is recommended/associated in the source answer, but a case-specific polarity is not explicit."
+        },
+        {
+          "name": "CD99",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive_variable",
+          "result_display": "Positive / variable",
+          "interpretation": "Expected/supportive immunophenotype described in the source answer.",
+          "context": "Poorly differentiated forms may assume a round-cell morphology and have scattered CD99 positivity akin to Ewing sarcoma.",
+          "provenance": "entity_profile",
+          "confidence": "medium",
+          "basis": "Source answer describes this marker as a positive/supportive immunophenotypic feature."
         }
       ],
       "references": [],
