@@ -3731,13 +3731,13 @@
             "HPV-ISH"
           ],
           "type": "ISH",
-          "result": "negative",
-          "result_display": "Negative",
+          "result": "positive",
+          "result_display": "Positive",
           "interpretation": "Result stated directly in the source answer.",
           "context": "Cilia formation can complicate differentiating the tumor from benign upper aerodigestive lesions but the ciliated cells are closely intermixed with the tumor cells and are positive for p16 and high-risk HPV RNA in-situ hybridization. In general, histologic variants of HPV-associated squamous cell carcinoma do not affect prognosis, which is more favorable than HPV-negative squamous cell carcinomas of the head and neck. The College of American Pathologists guidelines recommend that all new squamous cell carcinomas arising in the oropharynx or neck metastasis of unknown primary should be tested for involvement by high-risk HPV via p16 immunohistochemistry. Outside of these sites, however, HPV specific testing such as in-situ hybridization or PCR is required to confirm involvement by HPV due to the imperfect specificity for p16 in non-oropharyngeal sites.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
+          "basis": "Direct case-specific positive result in source answer."
         },
         {
           "name": "p16",
@@ -3745,13 +3745,13 @@
             "CDKN2A"
           ],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
           "context": "Cilia formation can complicate differentiating the tumor from benign upper aerodigestive lesions but the ciliated cells are closely intermixed with the tumor cells and are positive for p16 and high-risk HPV RNA in-situ hybridization. The College of American Pathologists guidelines recommend that all new squamous cell carcinomas arising in the oropharynx or neck metastasis of unknown primary should be tested for involvement by high-risk HPV via p16 immunohistochemistry.",
-          "provenance": "differential_inference",
-          "confidence": "medium",
-          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Direct case-specific positive result in source answer."
         }
       ],
       "references": [],
@@ -3925,13 +3925,13 @@
             "TTF"
           ],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
+          "result": "positive",
+          "result_display": "Positive",
           "interpretation": "Result stated directly in the source answer.",
           "context": "On immunostains (not shown), the neoplastic cells were positive for chromogranin A, synaptophysin, and TTF-1. Large cell neuroendocrine carcinoma and small cell lung carcinoma are also TTF-1 positive.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
+          "basis": "Direct case-specific positive result in source answer."
         }
       ],
       "references": [],
