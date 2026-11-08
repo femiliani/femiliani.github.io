@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0.0",
   "generated_date": "2026-11-08",
-  "description": "Canonical PathUnknowns case dataset. Full source answer text is preserved once per case. Stains are extracted from source-answer immunophenotypic context; educational fallback stains are used only when the answer contains no stain discussion.",
+  "description": "Canonical PathUnknowns case dataset. Full source answer text is preserved once per case. Stains are extracted from source-answer immunophenotypic context; educational fallback stains are used only when the answer contains no stain discussion. Rebuilt with clause-scoped stain parser v2.0.0.",
   "stain_result_vocabulary": [
     "positive",
     "negative",
@@ -149,41 +149,17 @@
         "Torsion",
         "Necrotizing infectious granulomas"
       ],
-      "stains": [
-        {
-          "name": "OCT3/4",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "In these cases, sometimes OCT3/4 and CD117 may still label the tumor.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "CD117",
-          "aliases": [
-            "KIT"
-          ],
-          "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "In these cases, sometimes OCT3/4 and CD117 may still label the tumor.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        }
-      ],
+      "stains": [],
       "references": [],
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: removed 2 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -327,24 +303,24 @@
           "aliases": [],
           "type": "IHC",
           "result": "variable",
-          "result_display": "Variable / context-dependent",
-          "interpretation": "Contextual educational inference from the source answer.",
+          "result_display": "Patchy",
+          "interpretation": "Result stated directly in the source answer.",
           "context": "By immunohistochemistry, the lesion demonstrates patchy nuclear labeling for WT1, but also demonstrates patchy immunoreactivity for ALK protein.",
-          "provenance": "contextual_inference",
-          "confidence": "low",
-          "basis": "Marker is discussed in a staining context but the source text does not support a single definite polarity."
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Patchy; qualifier(s): nuclear."
         },
         {
           "name": "ALK",
           "aliases": [],
           "type": "IHC",
           "result": "variable",
-          "result_display": "Variable / context-dependent",
-          "interpretation": "Contextual educational inference from the source answer.",
+          "result_display": "Patchy",
+          "interpretation": "Result stated directly in the source answer.",
           "context": "By immunohistochemistry, the lesion demonstrates patchy nuclear labeling for WT1, but also demonstrates patchy immunoreactivity for ALK protein.",
-          "provenance": "contextual_inference",
-          "confidence": "low",
-          "basis": "Marker is discussed in a staining context but the source text does not support a single definite polarity."
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Patchy."
         }
       ],
       "references": [
@@ -360,11 +336,12 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized_review_recommended",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
         "review_flags": [
           "Review low-confidence stain interpretation: WT1, ALK"
-        ]
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -431,29 +408,19 @@
           "provenance": "contextual_inference",
           "confidence": "low",
           "basis": "Marker is discussed in a staining context but the source text does not support a single definite polarity."
-        },
-        {
-          "name": "S100",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "However, the absence of cytokeratin immunoreactivity and absence of S100 protein labeling argue against that possibility. However, the absence of immunoreactivity for S100 excludes that possibility.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
         }
       ],
       "references": [],
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized_review_recommended",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
         "review_flags": [
-          "Review low-confidence stain interpretation: ER, panCK"
-        ]
+          "Review low-confidence stain interpretation: ER, panCK",
+          "stain_parser_v2: removed 1 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -505,29 +472,19 @@
           "provenance": "contextual_inference",
           "confidence": "low",
           "basis": "Marker is discussed in a staining context but the source text does not support a single definite polarity."
-        },
-        {
-          "name": "TFEB",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "However, BHP RCC does not demonstrate TFEB rearrangements, and does not label for melanocytic markers like Melan A and HMB45 as is characteristic of the TFEB rearranged renal cell carcinoma.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
         }
       ],
       "references": [],
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized_review_recommended",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
         "review_flags": [
-          "Review low-confidence stain interpretation: HMB45"
-        ]
+          "Review low-confidence stain interpretation: HMB45",
+          "stain_parser_v2: removed 1 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -568,70 +525,6 @@
       ],
       "stains": [
         {
-          "name": "CK7",
-          "aliases": [
-            "cytokeratin 7"
-          ],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Similar to EMPD and breast carcinomas, apocrine carcinomas are positive for GATA3, GCDFP15, CK7 and mammaglobin.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "Mammaglobin",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Similar to EMPD and breast carcinomas, apocrine carcinomas are positive for GATA3, GCDFP15, CK7 and mammaglobin.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "GCDFP15",
-          "aliases": [
-            "GCDFP-15"
-          ],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Some experts would require morphologic evidence of apocrine differentiation including tumor cells with granular eosinophilic cytoplasm and evidence of decapitation, while others would accept tumors with a wider range of morphologic features but with expression of GCDFP15 and occurring in the axillary or anogenital regions that are known to harbor apocrine glands. Similar to EMPD and breast carcinomas, apocrine carcinomas are positive for GATA3, GCDFP15, CK7 and mammaglobin.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "NKX3.1",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "AR could also be positive, and tumors can occasionally show positive staining for NKX3.1 and PSA, as also seen in EMPD.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "GATA3",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Similar to EMPD and breast carcinomas, apocrine carcinomas are positive for GATA3, GCDFP15, CK7 and mammaglobin.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
           "name": "PSA",
           "aliases": [],
           "type": "IHC",
@@ -642,18 +535,6 @@
           "provenance": "prior_curated",
           "confidence": "medium",
           "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated."
-        },
-        {
-          "name": "AR",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "AR could also be positive, and tumors can occasionally show positive staining for NKX3.1 and PSA, as also seen in EMPD.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
         }
       ],
       "references": [
@@ -669,9 +550,12 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: removed 6 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -813,75 +697,28 @@
       ],
       "stains": [
         {
-          "name": "ER",
-          "aliases": [
-            "estrogen receptor"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Both plasmacytoid urothelial carcinoma and lobular breast carcinomas are positive for GATA3 and negative for e-cadherin; but in contrast to breast carcinomas, urothelial carcinoma is commonly negative for ER.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "E-cadherin",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Both plasmacytoid urothelial carcinoma and lobular breast carcinomas are positive for GATA3 and negative for e-cadherin; but in contrast to breast carcinomas, urothelial carcinoma is commonly negative for ER.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "GATA3",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Both plasmacytoid urothelial carcinoma and lobular breast carcinomas are positive for GATA3 and negative for e-cadherin; but in contrast to breast carcinomas, urothelial carcinoma is commonly negative for ER.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
           "name": "CD138",
           "aliases": [],
           "type": "IHC",
           "result": "positive",
           "result_display": "Positive",
-          "interpretation": "Carried forward from the project's prior curated stain panel.",
-          "context": "When tumor cells closely resemble plasma cells, immunostaining for CD138 could be a diagnostic pitfall as both, plasmacytoid variant of urothelial carcinoma and plasma cell neoplasia, are both positive.",
-          "provenance": "prior_curated",
-          "confidence": "medium",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated."
-        },
-        {
-          "name": "CDX2",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "When the main differential diagnosis is with gastrointestinal signet ring cell carcinoma, it is important to remember that plasmacytoid urothelial carcinoma can be positive for CDX2 in approximately 15% of the cases and that CDX2 does not necessarily exclude a gastrointestinal origin, for which clinical/radiologic correlation is essential.",
+          "context": "When tumor cells closely resemble plasma cells, immunostaining for CD138 could be a diagnostic pitfall as both, plasmacytoid variant of urothelial carcinoma and plasma cell neoplasia, are both positive.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
         }
       ],
       "references": [],
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: removed 4 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -1178,191 +1015,17 @@
         "Adrenal cortical adenoma",
         "Sarcomatoid carcinoma of the adrenal"
       ],
-      "stains": [
-        {
-          "name": "PR",
-          "aliases": [
-            "progesterone receptor"
-          ],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Additional stains were performed at Johns Hopkins showing that the Leydig cell component was focally positive for PR and the spindle cell component was diffusely positive for ER and PR.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "SMA",
-          "aliases": [
-            "smooth muscle actin"
-          ],
-          "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The spindle cell component was positive for SMA (patchy) and desmin (focal).",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "ER",
-          "aliases": [
-            "estrogen receptor"
-          ],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Additional stains were performed at Johns Hopkins showing that the Leydig cell component was focally positive for PR and the spindle cell component was diffusely positive for ER and PR.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "Inhibin",
-          "aliases": [
-            "alpha-inhibin"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Both were negative for PAX8, inhibin, calretinin, S100, CD34, HMB45, p63, and chromogranin.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "Synaptophysin",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Stains were performed at the outside institution demonstrating that the Leydig cell component was positive for SF1 and synaptophysin.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "Chromogranin",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Both were negative for PAX8, inhibin, calretinin, S100, CD34, HMB45, p63, and chromogranin.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "Calretinin",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Both were negative for PAX8, inhibin, calretinin, S100, CD34, HMB45, p63, and chromogranin.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "Desmin",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The spindle cell component was positive for SMA (patchy) and desmin (focal).",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "HMB45",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Both were negative for PAX8, inhibin, calretinin, S100, CD34, HMB45, p63, and chromogranin.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "PAX8",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Both were negative for PAX8, inhibin, calretinin, S100, CD34, HMB45, p63, and chromogranin.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "S100",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Both were negative for PAX8, inhibin, calretinin, S100, CD34, HMB45, p63, and chromogranin.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "CD34",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Both were negative for PAX8, inhibin, calretinin, S100, CD34, HMB45, p63, and chromogranin.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "SF1",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Stains were performed at the outside institution demonstrating that the Leydig cell component was positive for SF1 and synaptophysin.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "p63",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Both were negative for PAX8, inhibin, calretinin, S100, CD34, HMB45, p63, and chromogranin.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        }
-      ],
+      "stains": [],
       "references": [],
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: removed 14 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -1410,22 +1073,23 @@
             "β-hCG"
           ],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Expected/supportive immunophenotype described for the diagnosed entity.",
-          "context": "Urothelial carcinoma with trophoblastic differentiation can manifest as: 1) invasive high grade pleomorphic urothelial carcinoma without syncytiotrophoblasts aberrantly expressing HCG; 2) invasive urothelial carcinoma or non-invasive papillary urothelial carcinoma of various grades with syncytiotrophoblasts; or rarely 3) choriocarcinoma. In high grade pleomorphic urothelial carcinoma, HCG can be present in tumor cells or elevated in the serum that lack the histological features of syncytiotrophoblasts. Aberrantly expression of HCG can be seen in in pleomorphic tumors in other organs, as well. These cells will express HCG, but if there is elevated levels of serum HCG then often there is a lot of background staining immunohistochemically with HCG.",
-          "provenance": "entity_profile",
-          "confidence": "medium",
-          "basis": "Source answer describes this as a typical/possible immunophenotypic feature of the diagnosed entity."
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "In high grade pleomorphic urothelial carcinoma, HCG can be present in tumor cells or elevated in the serum that lack the histological features of syncytiotrophoblasts.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Negative."
         }
       ],
       "references": [],
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -1480,18 +1144,6 @@
           "basis": "Marker is discussed in a staining context but the source text does not support a single definite polarity."
         },
         {
-          "name": "Cathepsin K",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Typically, Cathepsin K is diffusely positive in AMLs but not smooth muscle tumors.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
           "name": "Desmin",
           "aliases": [],
           "type": "IHC",
@@ -1502,41 +1154,19 @@
           "provenance": "contextual_inference",
           "confidence": "low",
           "basis": "Marker is discussed in a staining context but the source text does not support a single definite polarity."
-        },
-        {
-          "name": "HMB45",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "However, AMLs are also positive for HMB45 and Melan A, yet can be very focal.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "S100",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "S100 protein can be positive.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
         }
       ],
       "references": [],
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized_review_recommended",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
         "review_flags": [
-          "Review low-confidence stain interpretation: SMA, Desmin"
-        ]
+          "Review low-confidence stain interpretation: SMA, Desmin",
+          "stain_parser_v2: removed 3 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -1673,20 +1303,6 @@
       ],
       "stains": [
         {
-          "name": "panCK",
-          "aliases": [
-            "cytokeratin"
-          ],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "In this case, an epithelioid component was present in other sections and both components labeled with cytokeratin as well as multiple mesothelial markers, confirming the diagnosis of biphasic (epithelioid and sarcomatoid) mesothelioma.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
           "name": "TTF-1",
           "aliases": [
             "TTF1",
@@ -1754,9 +1370,12 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: removed 1 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -1916,48 +1535,7 @@
         "Chromophobe renal cell carcinoma",
         "Epithelioid angiomyolipoma"
       ],
-      "stains": [
-        {
-          "name": "CK20",
-          "aliases": [
-            "cytokeratin 20"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "There is frequent CK20 positivity, whereas CK7 is usually negative or only focally positive.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "CK7",
-          "aliases": [
-            "cytokeratin 7"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "There is frequent CK20 positivity, whereas CK7 is usually negative or only focally positive.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "PAX8",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Cathepsin-K can be positive, which is also positive in epithelioid AMLs but AMLs are negative for PAX8 while ESC RCC is most frequently positive.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        }
-      ],
+      "stains": [],
       "references": [
         {
           "text": "Trpkov K, Hes O, Bonert M, et al. Eosinophilic, solid, and cystic renal cell carcinoma: clinicopathologic study of 16 unique, sporadic neoplasms occurring in women. Am J Surg Pathol. 2016;40:60\"71.",
@@ -1975,9 +1553,12 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: removed 3 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -2027,7 +1608,7 @@
           "context": "Histiocytes of Rosai Dorfman have eosinophilic cytoplasm and are positive for S100 by immunohistochemistry.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
         }
       ],
       "references": [
@@ -2190,53 +1771,19 @@
           "provenance": "contextual_inference",
           "confidence": "low",
           "basis": "Marker is discussed in a staining context but the source text does not support a single definite polarity."
-        },
-        {
-          "name": "Cathepsin K",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The stromal component labels for HMB45 and cathepsin K, whereas epithelium is PAX8 positive.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "HMB45",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The stromal component labels for HMB45 and cathepsin K, whereas epithelium is PAX8 positive. Mixed epithelial stromal tumor also is biphasic; however, the stroma is of conventional smooth muscle and doesn\"t not label for HMB45 or Melan A.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "PAX8",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The stromal component labels for HMB45 and cathepsin K, whereas epithelium is PAX8 positive.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
         }
       ],
       "references": [],
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized_review_recommended",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
         "review_flags": [
-          "Review low-confidence stain interpretation: ER"
-        ]
+          "Review low-confidence stain interpretation: ER",
+          "stain_parser_v2: removed 3 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -2281,33 +1828,25 @@
           "aliases": [],
           "type": "IHC",
           "result": "positive",
-          "result_display": "Positive",
+          "result_display": "Diffuse (diffuse)",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "The neoplastic cells were immunoreactive for TFE3 and cathepsin K, and FISH confirmed a TFE3 rearrangement. Tubulocystic carcinoma could be suggested by the prominent tubular architecture and focally elastotic stroma; however, the extensive ossification is not typical of that lesion, and the diffuse cathepsin K immunoreactivity also excludes it.",
+          "context": "Tubulocystic carcinoma could be suggested by the prominent tubular architecture and focally elastotic stroma; however, the extensive ossification is not typical of that lesion, and the diffuse cathepsin K immunoreactivity also excludes it.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "TFE3",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The neoplastic cells were immunoreactive for TFE3 and cathepsin K, and FISH confirmed a TFE3 rearrangement.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "basis": "Clause-scoped stain parser: Diffuse; qualifier(s): diffuse."
         }
       ],
       "references": [],
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: removed 1 unsupported prior explicit stain result(s)",
+          "stain_parser_v2: corrected 1 explicit result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -2350,6 +1889,18 @@
       ],
       "stains": [
         {
+          "name": "Cathepsin K",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Diffuse (diffuse)",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Differential Diagnosis: The clear cell areas of this neoplasm closely resemble clear cell RCC; however, the latter would not have these small cell component and diffuse immunoreactivity for cathepsin K and Melan A.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Diffuse; qualifier(s): diffuse."
+        },
+        {
           "name": "CK20",
           "aliases": [
             "cytokeratin 20"
@@ -2390,18 +1941,6 @@
           "provenance": "contextual_inference",
           "confidence": "low",
           "basis": "Marker is recommended/associated in the source answer, but a case-specific polarity is not explicit."
-        },
-        {
-          "name": "Cathepsin K",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The neoplasm is diffusely immunoreactivity for cathepsin K and Melan A, focally immunoreactivity for HMB45, and demonstrated TFEB rearrangement by FISH. The clear cell areas of this neoplasm closely resemble clear cell RCC; however, the latter would not have these small cell component and diffuse immunoreactivity for cathepsin K and Melan A.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
         },
         {
           "name": "HMB45",
@@ -2446,11 +1985,13 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized_review_recommended",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
         "review_flags": [
-          "Review low-confidence stain interpretation: CK20, CK7, panCK, HMB45, CD117, TFEB"
-        ]
+          "Review low-confidence stain interpretation: CK20, CK7, panCK, HMB45, CD117, TFEB",
+          "stain_parser_v2: corrected 1 explicit result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -2491,65 +2032,17 @@
         "Urothelial carcinoma, not otherwise specified, with inflammation",
         "Xanthogranulomatous inflammation"
       ],
-      "stains": [
-        {
-          "name": "CK7",
-          "aliases": [
-            "cytokeratin 7"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "In this case CK7 and GATA3 were positive in the large atypical cells, which were negative for CD45 and CD20, diagnostic of LELC.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "GATA3",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "In this case CK7 and GATA3 were positive in the large atypical cells, which were negative for CD45 and CD20, diagnostic of LELC.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "CD45",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "In this case CK7 and GATA3 were positive in the large atypical cells, which were negative for CD45 and CD20, diagnostic of LELC.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "CD20",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "In this case CK7 and GATA3 were positive in the large atypical cells, which were negative for CD45 and CD20, diagnostic of LELC.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        }
-      ],
+      "stains": [],
       "references": [],
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: removed 4 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -2591,39 +2084,17 @@
         "Seminoma with prominent granulomatous reaction",
         "IgG 4 related disease"
       ],
-      "stains": [
-        {
-          "name": "von Kossa",
-          "aliases": [],
-          "type": "special stain",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Although typically these stains are usually not necessary, Michaelis-Gutmann bodies are positive for calcium stains (von Kossa) and iron stains (Prussian blue).",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "CD68",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "CD68) and negative for keratins.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        }
-      ],
+      "stains": [],
       "references": [],
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: removed 2 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -2780,20 +2251,6 @@
           "basis": "Marker is discussed in a staining context but the source text does not support a single definite polarity."
         },
         {
-          "name": "panCK",
-          "aliases": [
-            "cytokeratin"
-          ],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The primitive blue cell component shows synaptophysin labeling and the epithelioid, pigmented component expresses cytokeratin and HMB-45.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
           "name": "Myogenin",
           "aliases": [],
           "type": "IHC",
@@ -2834,11 +2291,13 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized_review_recommended",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
         "review_flags": [
-          "Review low-confidence stain interpretation: Synaptophysin, Myogenin, Desmin, S100"
-        ]
+          "Review low-confidence stain interpretation: Synaptophysin, Myogenin, Desmin, S100",
+          "stain_parser_v2: removed 1 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -2971,18 +2430,6 @@
       ],
       "stains": [
         {
-          "name": "Synaptophysin",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Both entities typically lack keratin expression and are frequently synaptophysin positive so these stains are not useful in their distinction.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
           "name": "GATA3",
           "aliases": [],
           "type": "IHC",
@@ -3011,11 +2458,13 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized_review_recommended",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
         "review_flags": [
-          "Review low-confidence stain interpretation: GATA3, TFE3"
-        ]
+          "Review low-confidence stain interpretation: GATA3, TFE3",
+          "stain_parser_v2: removed 1 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -3058,18 +2507,16 @@
       ],
       "stains": [
         {
-          "name": "PR",
-          "aliases": [
-            "progesterone receptor"
-          ],
+          "name": "S100",
+          "aliases": [],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
+          "result": "positive",
+          "result_display": "Positive",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "CD34 is positive in most cases and ER/PR can be variable.",
+          "context": "The main differential diagnoses include schwannoma and neurofibroma which are positive for S100, while cellular angiofibromas are negative.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
         },
         {
           "name": "SMA",
@@ -3086,20 +2533,6 @@
           "basis": "Marker is recommended/associated in the source answer, but a case-specific polarity is not explicit."
         },
         {
-          "name": "ER",
-          "aliases": [
-            "estrogen receptor"
-          ],
-          "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "CD34 is positive in most cases and ER/PR can be variable.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
           "name": "Desmin",
           "aliases": [],
           "type": "IHC",
@@ -3110,30 +2543,6 @@
           "provenance": "contextual_inference",
           "confidence": "low",
           "basis": "Marker is recommended/associated in the source answer, but a case-specific polarity is not explicit."
-        },
-        {
-          "name": "S100",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The main differential diagnoses include schwannoma and neurofibroma which are positive for S100, while cellular angiofibromas are negative.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "CD34",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "CD34 is positive in most cases and ER/PR can be variable.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
         }
       ],
       "references": [
@@ -3145,11 +2554,14 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized_review_recommended",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
         "review_flags": [
-          "Review low-confidence stain interpretation: SMA, Desmin"
-        ]
+          "Review low-confidence stain interpretation: SMA, Desmin",
+          "stain_parser_v2: removed 3 unsupported prior explicit stain result(s)",
+          "stain_parser_v2: corrected 1 explicit result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -3195,39 +2607,32 @@
           "name": "Synaptophysin",
           "aliases": [],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
+          "result": "positive",
+          "result_display": "Positive",
           "interpretation": "Result stated directly in the source answer.",
           "context": "While rhabdomyosarcoma could be positive for synaptophysin, in contrast to small cell carcinoma they are negative for cytokeratin and show expression of desmin and/or myogenin.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
         },
         {
           "name": "panCK",
           "aliases": [
-            "cytokeratin"
+            "cytokeratin",
+            "cytokeratins",
+            "pan-cytokeratin",
+            "pancytokeratin",
+            "pan keratin",
+            "broad-spectrum cytokeratin"
           ],
           "type": "IHC",
           "result": "negative",
           "result_display": "Negative",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "While rhabdomyosarcoma could be positive for synaptophysin, in contrast to small cell carcinoma they are negative for cytokeratin and show expression of desmin and/or myogenin. Small cell carcinomas are negative for lymphoid markers but can be focally positive for CD99 and NKX2.2, which are markers of PNET, but similarly to rhabdomyosarcoma, PNETs do not have significant expression of cytokeratin and are diffusely positive for CD99 or NKX2.2.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "Myogenin",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
           "context": "While rhabdomyosarcoma could be positive for synaptophysin, in contrast to small cell carcinoma they are negative for cytokeratin and show expression of desmin and/or myogenin.",
           "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "confidence": "medium",
+          "basis": "Clause-scoped stain parser: Negative."
         },
         {
           "name": "Desmin",
@@ -3239,31 +2644,43 @@
           "context": "While rhabdomyosarcoma could be positive for synaptophysin, in contrast to small cell carcinoma they are negative for cytokeratin and show expression of desmin and/or myogenin.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Clause-scoped stain parser: Negative."
         },
         {
-          "name": "NKX2.2",
+          "name": "Myogenin",
           "aliases": [],
           "type": "IHC",
           "result": "negative",
           "result_display": "Negative",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "Small cell carcinomas are negative for lymphoid markers but can be focally positive for CD99 and NKX2.2, which are markers of PNET, but similarly to rhabdomyosarcoma, PNETs do not have significant expression of cytokeratin and are diffusely positive for CD99 or NKX2.2.",
+          "context": "While rhabdomyosarcoma could be positive for synaptophysin, in contrast to small cell carcinoma they are negative for cytokeratin and show expression of desmin and/or myogenin.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Clause-scoped stain parser: Negative."
         },
         {
           "name": "CD99",
           "aliases": [],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
+          "result": "positive_variable",
+          "result_display": "Focally positive (focal)",
           "interpretation": "Result stated directly in the source answer.",
           "context": "Small cell carcinomas are negative for lymphoid markers but can be focally positive for CD99 and NKX2.2, which are markers of PNET, but similarly to rhabdomyosarcoma, PNETs do not have significant expression of cytokeratin and are diffusely positive for CD99 or NKX2.2.",
           "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "confidence": "medium",
+          "basis": "Clause-scoped stain parser: Focally positive; qualifier(s): focal."
+        },
+        {
+          "name": "NKX2.2",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive_variable",
+          "result_display": "Focally positive (focal)",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Small cell carcinomas are negative for lymphoid markers but can be focally positive for CD99 and NKX2.2, which are markers of PNET, but similarly to rhabdomyosarcoma, PNETs do not have significant expression of cytokeratin and are diffusely positive for CD99 or NKX2.2.",
+          "provenance": "explicit",
+          "confidence": "medium",
+          "basis": "Clause-scoped stain parser: Focally positive; qualifier(s): focal."
         }
       ],
       "references": [
@@ -3275,9 +2692,12 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: corrected 3 explicit result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -3320,6 +2740,44 @@
       ],
       "stains": [
         {
+          "name": "Synaptophysin",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive_variable",
+          "result_display": "Focally positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "By immunohistochemistry, renal carcinoids are positive for neuroendocrine markers synaptophysin and chromogranin and focally positive for CK7 or CK20 and negative for TTF-1 and WT1.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Focally positive."
+        },
+        {
+          "name": "Chromogranin",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive_variable",
+          "result_display": "Focally positive (focal)",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "By immunohistochemistry, renal carcinoids are positive for neuroendocrine markers synaptophysin and chromogranin and focally positive for CK7 or CK20 and negative for TTF-1 and WT1.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Focally positive; qualifier(s): focal."
+        },
+        {
+          "name": "CK7",
+          "aliases": [
+            "cytokeratin 7"
+          ],
+          "type": "IHC",
+          "result": "positive_variable",
+          "result_display": "Focally positive (focal)",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "By immunohistochemistry, renal carcinoids are positive for neuroendocrine markers synaptophysin and chromogranin and focally positive for CK7 or CK20 and negative for TTF-1 and WT1.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Focally positive; qualifier(s): focal."
+        },
+        {
           "name": "CK20",
           "aliases": [
             "cytokeratin 20"
@@ -3331,71 +2789,7 @@
           "context": "By immunohistochemistry, renal carcinoids are positive for neuroendocrine markers synaptophysin and chromogranin and focally positive for CK7 or CK20 and negative for TTF-1 and WT1.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "CK7",
-          "aliases": [
-            "cytokeratin 7"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "By immunohistochemistry, renal carcinoids are positive for neuroendocrine markers synaptophysin and chromogranin and focally positive for CK7 or CK20 and negative for TTF-1 and WT1.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "Synaptophysin",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "By immunohistochemistry, renal carcinoids are positive for neuroendocrine markers synaptophysin and chromogranin and focally positive for CK7 or CK20 and negative for TTF-1 and WT1.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "Chromogranin",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "By immunohistochemistry, renal carcinoids are positive for neuroendocrine markers synaptophysin and chromogranin and focally positive for CK7 or CK20 and negative for TTF-1 and WT1.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "panCK",
-          "aliases": [
-            "cytokeratin"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Paragangliomas are negative for cytokeratin and contain a nested arrangement of tumor cells that are positive for GATA3.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "GATA3",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Paragangliomas are negative for cytokeratin and contain a nested arrangement of tumor cells that are positive for GATA3.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Clause-scoped stain parser: Negative; qualifier(s): focal."
         },
         {
           "name": "TTF-1",
@@ -3410,7 +2804,50 @@
           "context": "By immunohistochemistry, renal carcinoids are positive for neuroendocrine markers synaptophysin and chromogranin and focally positive for CK7 or CK20 and negative for TTF-1 and WT1.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
+          "basis": "Clause-scoped stain parser: Negative."
+        },
+        {
+          "name": "WT1",
+          "aliases": [],
+          "type": "IHC",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "By immunohistochemistry, renal carcinoids are positive for neuroendocrine markers synaptophysin and chromogranin and focally positive for CK7 or CK20 and negative for TTF-1 and WT1.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Negative."
+        },
+        {
+          "name": "panCK",
+          "aliases": [
+            "cytokeratin",
+            "cytokeratins",
+            "pan-cytokeratin",
+            "pancytokeratin",
+            "pan keratin",
+            "broad-spectrum cytokeratin"
+          ],
+          "type": "IHC",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Paragangliomas are negative for cytokeratin and contain a nested arrangement of tumor cells that are positive for GATA3.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Negative."
+        },
+        {
+          "name": "GATA3",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Paragangliomas are negative for cytokeratin and contain a nested arrangement of tumor cells that are positive for GATA3.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
         },
         {
           "name": "CD99",
@@ -3423,29 +2860,19 @@
           "provenance": "contextual_inference",
           "confidence": "low",
           "basis": "Marker is discussed in a staining context but the source text does not support a single definite polarity."
-        },
-        {
-          "name": "WT1",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "By immunohistochemistry, renal carcinoids are positive for neuroendocrine markers synaptophysin and chromogranin and focally positive for CK7 or CK20 and negative for TTF-1 and WT1.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
         }
       ],
       "references": [],
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized_review_recommended",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
         "review_flags": [
-          "Review low-confidence stain interpretation: CD99"
-        ]
+          "Review low-confidence stain interpretation: CD99",
+          "stain_parser_v2: corrected 4 explicit result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -3489,66 +2916,18 @@
       ],
       "stains": [
         {
-          "name": "Synaptophysin",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
-          "context": "\" Melanoma should label for S100, SOX10, and/or HMB45, and would be SDH intact.\" Leiomyosarcoma would demonstrate immunoreactivity for muscle markers, \"and typically does not show the multinodular appearance seen in the current case.\" Paraganglioma would label for neuroendocrine markers such as synaptophysin and chromogranin.\" A subset of these would be SDH deficient, but paragangliomas should not typically label for CD117 or DOG1.",
-          "provenance": "differential_inference",
-          "confidence": "medium",
-          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
-        },
-        {
-          "name": "Chromogranin",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
-          "context": "\" Melanoma should label for S100, SOX10, and/or HMB45, and would be SDH intact.\" Leiomyosarcoma would demonstrate immunoreactivity for muscle markers, \"and typically does not show the multinodular appearance seen in the current case.\" Paraganglioma would label for neuroendocrine markers such as synaptophysin and chromogranin.\" A subset of these would be SDH deficient, but paragangliomas should not typically label for CD117 or DOG1.",
-          "provenance": "differential_inference",
-          "confidence": "medium",
-          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
-        },
-        {
           "name": "HMB45",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "\" The morphology of this neoplasm closely resembles that of metastatic melanoma.\" The neoplastic cells are spindled and epithelioid, have focal intranuclear inclusions, and amphophilic cytoplasm.\" The neoplasm\" demonstrated immunoreactivity (focal) for Melan A, which furthers the overlap with melanoma.\" However, other melanoma markers such as HMB45 and S100 were negative. \" Melanoma should label for S100, SOX10, and/or HMB45, and would be SDH intact.\" Leiomyosarcoma would demonstrate immunoreactivity for muscle markers, \"and typically does not show the multinodular appearance seen in the current case.\" Paraganglioma would label for neuroendocrine markers such as synaptophysin and chromogranin.\" A subset of these would be SDH deficient, but paragangliomas should not typically label for CD117 or DOG1.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "CD117",
           "aliases": [
-            "KIT"
+            "HMB-45"
           ],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "\"The neoplasm labeled diffusely for CD117 (which could also be seen in melanoma) but also for DOG1.\" Importantly, the neoplasm demonstrated loss of SDH immunoreactivity, supporting the diagnosis of a succinate dehydrogenase deficient gastrointestinal stromal tumor. \" Melanoma should label for S100, SOX10, and/or HMB45, and would be SDH intact.\" Leiomyosarcoma would demonstrate immunoreactivity for muscle markers, \"and typically does not show the multinodular appearance seen in the current case.\" Paraganglioma would label for neuroendocrine markers such as synaptophysin and chromogranin.\" A subset of these would be SDH deficient, but paragangliomas should not typically label for CD117 or DOG1.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Direct case-specific positive result in source answer."
-        },
-        {
-          "name": "SOX10",
-          "aliases": [],
-          "type": "IHC",
           "result": "negative",
           "result_display": "Negative",
-          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
-          "context": "\" Melanoma should label for S100, SOX10, and/or HMB45, and would be SDH intact.\" Leiomyosarcoma would demonstrate immunoreactivity for muscle markers, \"and typically does not show the multinodular appearance seen in the current case.\" Paraganglioma would label for neuroendocrine markers such as synaptophysin and chromogranin.\" A subset of these would be SDH deficient, but paragangliomas should not typically label for CD117 or DOG1.",
-          "provenance": "differential_inference",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Histologic Description:\" The morphology of this neoplasm closely resembles that of metastatic melanoma.\" The neoplastic cells are spindled and epithelioid, have focal intranuclear inclusions, and amphophilic cytoplasm.\" The neoplasm\" demonstrated immunoreactivity (focal) for Melan A, which furthers the overlap with melanoma.\" However, other melanoma markers such as HMB45 and S100 were negative.",
+          "provenance": "explicit",
           "confidence": "medium",
-          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
+          "basis": "Clause-scoped stain parser: Negative."
         },
         {
           "name": "S100",
@@ -3557,31 +2936,71 @@
           "result": "negative",
           "result_display": "Negative",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "\" The morphology of this neoplasm closely resembles that of metastatic melanoma.\" The neoplastic cells are spindled and epithelioid, have focal intranuclear inclusions, and amphophilic cytoplasm.\" The neoplasm\" demonstrated immunoreactivity (focal) for Melan A, which furthers the overlap with melanoma.\" However, other melanoma markers such as HMB45 and S100 were negative. \" Melanoma should label for S100, SOX10, and/or HMB45, and would be SDH intact.\" Leiomyosarcoma would demonstrate immunoreactivity for muscle markers, \"and typically does not show the multinodular appearance seen in the current case.\" Paraganglioma would label for neuroendocrine markers such as synaptophysin and chromogranin.\" A subset of these would be SDH deficient, but paragangliomas should not typically label for CD117 or DOG1.",
+          "context": "Histologic Description:\" The morphology of this neoplasm closely resembles that of metastatic melanoma.\" The neoplastic cells are spindled and epithelioid, have focal intranuclear inclusions, and amphophilic cytoplasm.\" The neoplasm\" demonstrated immunoreactivity (focal) for Melan A, which furthers the overlap with melanoma.\" However, other melanoma markers such as HMB45 and S100 were negative.",
           "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "confidence": "medium",
+          "basis": "Clause-scoped stain parser: Negative."
         },
         {
           "name": "DOG1",
           "aliases": [],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
+          "result": "loss",
+          "result_display": "Loss",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "\"The neoplasm labeled diffusely for CD117 (which could also be seen in melanoma) but also for DOG1.\" Importantly, the neoplasm demonstrated loss of SDH immunoreactivity, supporting the diagnosis of a succinate dehydrogenase deficient gastrointestinal stromal tumor. \" Melanoma should label for S100, SOX10, and/or HMB45, and would be SDH intact.\" Leiomyosarcoma would demonstrate immunoreactivity for muscle markers, \"and typically does not show the multinodular appearance seen in the current case.\" Paraganglioma would label for neuroendocrine markers such as synaptophysin and chromogranin.\" A subset of these would be SDH deficient, but paragangliomas should not typically label for CD117 or DOG1.",
+          "context": "\"The neoplasm labeled diffusely for CD117 (which could also be seen in melanoma) but also for DOG1.\" Importantly, the neoplasm demonstrated loss of SDH immunoreactivity, supporting the diagnosis of a succinate dehydrogenase deficient gastrointestinal stromal tumor.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Direct case-specific positive result in source answer."
+          "basis": "Clause-scoped stain parser: Loss."
+        },
+        {
+          "name": "SOX10",
+          "aliases": [],
+          "type": "IHC",
+          "result": "retained",
+          "result_display": "Intact",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Differential Diagnosis:\" Melanoma should label for S100, SOX10, and/or HMB45, and would be SDH intact.\" Leiomyosarcoma would demonstrate immunoreactivity for muscle markers, \"and typically does not show the multinodular appearance seen in the current case.\" Paraganglioma would label for neuroendocrine markers such as synaptophysin and chromogranin.\" A subset of these would be SDH deficient, but paragangliomas should not typically label for CD117 or DOG1.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Intact."
+        },
+        {
+          "name": "Synaptophysin",
+          "aliases": [],
+          "type": "IHC",
+          "result": "retained",
+          "result_display": "Intact",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Differential Diagnosis:\" Melanoma should label for S100, SOX10, and/or HMB45, and would be SDH intact.\" Leiomyosarcoma would demonstrate immunoreactivity for muscle markers, \"and typically does not show the multinodular appearance seen in the current case.\" Paraganglioma would label for neuroendocrine markers such as synaptophysin and chromogranin.\" A subset of these would be SDH deficient, but paragangliomas should not typically label for CD117 or DOG1.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Intact."
+        },
+        {
+          "name": "Chromogranin",
+          "aliases": [],
+          "type": "IHC",
+          "result": "retained",
+          "result_display": "Intact",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Differential Diagnosis:\" Melanoma should label for S100, SOX10, and/or HMB45, and would be SDH intact.\" Leiomyosarcoma would demonstrate immunoreactivity for muscle markers, \"and typically does not show the multinodular appearance seen in the current case.\" Paraganglioma would label for neuroendocrine markers such as synaptophysin and chromogranin.\" A subset of these would be SDH deficient, but paragangliomas should not typically label for CD117 or DOG1.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Intact."
         }
       ],
       "references": [],
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: removed 1 unsupported prior explicit stain result(s)",
+          "stain_parser_v2: corrected 1 explicit result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -3632,49 +3051,44 @@
           ],
           "type": "IHC",
           "result": "positive",
-          "result_display": "Positive",
+          "result_display": "Diffuse (diffuse)",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "\" The lesion has two distinctive components.\" One is a hypervascular clear cell neoplasm which has the typical morphology of clear cell RCC, and demonstrates diffuse immunoreactivity for CA-IX.\" The second component labels not for CA-IX, but instead for cytokeratin 7 and not CD117.\" The neoplastic cells are epithelioid, and have slightly irregular nuclei with minimal with perinuclear halos, less well developed than those of chromophobe RCC.\" These are the typical features of low grade oncocytic tumor, a provisional entity which has been associated with TSC gene mutations. \" High grade clear cell RCC typically would not demonstrate diffuse immunoreactivity for cytokeratin 7, and would have hypervascular stroma with greater nuclear atypia.\" Xp11 translocation RCC may have variable morphology, but does not demonstrate diffuse labeling for carbonic anhydrase IX and typically does not demonstrate the hypervascular stroma of the current clear cell lesion.\" Granular cell RCC is a historic term for high grade clear cell RCC which is no longer in use.",
+          "context": "Differential Diagnosis:\" High grade clear cell RCC typically would not demonstrate diffuse immunoreactivity for cytokeratin 7, and would have hypervascular stroma with greater nuclear atypia.\" Xp11 translocation RCC may have variable morphology, but does not demonstrate diffuse labeling for carbonic anhydrase IX and typically does not demonstrate the hypervascular stroma of the current clear cell lesion.\" Granular cell RCC is a historic term for high grade clear cell RCC which is no longer in use.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Direct case-specific positive result in source answer."
+          "basis": "Clause-scoped stain parser: Diffuse; qualifier(s): diffuse."
         },
         {
           "name": "panCK",
           "aliases": [
-            "cytokeratin"
+            "cytokeratin",
+            "cytokeratins",
+            "pan-cytokeratin",
+            "pancytokeratin",
+            "pan keratin",
+            "broad-spectrum cytokeratin"
           ],
           "type": "IHC",
           "result": "positive",
-          "result_display": "Positive",
+          "result_display": "Diffuse (diffuse)",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "\" The lesion has two distinctive components.\" One is a hypervascular clear cell neoplasm which has the typical morphology of clear cell RCC, and demonstrates diffuse immunoreactivity for CA-IX.\" The second component labels not for CA-IX, but instead for cytokeratin 7 and not CD117.\" The neoplastic cells are epithelioid, and have slightly irregular nuclei with minimal with perinuclear halos, less well developed than those of chromophobe RCC.\" These are the typical features of low grade oncocytic tumor, a provisional entity which has been associated with TSC gene mutations. \" High grade clear cell RCC typically would not demonstrate diffuse immunoreactivity for cytokeratin 7, and would have hypervascular stroma with greater nuclear atypia.\" Xp11 translocation RCC may have variable morphology, but does not demonstrate diffuse labeling for carbonic anhydrase IX and typically does not demonstrate the hypervascular stroma of the current clear cell lesion.\" Granular cell RCC is a historic term for high grade clear cell RCC which is no longer in use.",
+          "context": "Differential Diagnosis:\" High grade clear cell RCC typically would not demonstrate diffuse immunoreactivity for cytokeratin 7, and would have hypervascular stroma with greater nuclear atypia.\" Xp11 translocation RCC may have variable morphology, but does not demonstrate diffuse labeling for carbonic anhydrase IX and typically does not demonstrate the hypervascular stroma of the current clear cell lesion.\" Granular cell RCC is a historic term for high grade clear cell RCC which is no longer in use.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Direct case-specific positive result in source answer."
-        },
-        {
-          "name": "CD117",
-          "aliases": [
-            "KIT"
-          ],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "\" The lesion has two distinctive components.\" One is a hypervascular clear cell neoplasm which has the typical morphology of clear cell RCC, and demonstrates diffuse immunoreactivity for CA-IX.\" The second component labels not for CA-IX, but instead for cytokeratin 7 and not CD117.\" The neoplastic cells are epithelioid, and have slightly irregular nuclei with minimal with perinuclear halos, less well developed than those of chromophobe RCC.\" These are the typical features of low grade oncocytic tumor, a provisional entity which has been associated with TSC gene mutations.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Direct case-specific positive result in source answer."
+          "basis": "Clause-scoped stain parser: Diffuse; qualifier(s): diffuse."
         }
       ],
       "references": [],
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: removed 1 unsupported prior explicit stain result(s)",
+          "stain_parser_v2: corrected 2 explicit result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -3851,43 +3265,17 @@
         "Cystic nephroma",
         "Tubulocystic renal cell carcinoma"
       ],
-      "stains": [
-        {
-          "name": "CK20",
-          "aliases": [
-            "cytokeratin 20"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "IHC reactivity for CK20 (either diffuse or focal) is present in about 85% of cases, with negative or very focally positive CK7.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "CK7",
-          "aliases": [
-            "cytokeratin 7"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "IHC reactivity for CK20 (either diffuse or focal) is present in about 85% of cases, with negative or very focally positive CK7.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        }
-      ],
+      "stains": [],
       "references": [],
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: removed 2 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -3928,43 +3316,17 @@
         "Oncocytoma",
         "Eosinophilic solid and cystic renal cell carcinoma (ESC RCC)"
       ],
-      "stains": [
-        {
-          "name": "CK7",
-          "aliases": [
-            "cytokeratin 7"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Diffuse CK7 staining also rules out oncocytoma, which are negative or shows only patchy staining. Chromophobe RCC typically is CK7 and CD117 positive.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "CD117",
-          "aliases": [
-            "KIT"
-          ],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Chromophobe RCC typically is CK7 and CD117 positive.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        }
-      ],
+      "stains": [],
       "references": [],
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: removed 2 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -4069,21 +3431,6 @@
       ],
       "stains": [
         {
-          "name": "SMARCB1",
-          "aliases": [
-            "INI1",
-            "INI-1"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "CD31 is typically negative, and importantly, INI1 expression will invariably be absent in epithelioid sarcoma and retained in epithelioid angiosarcoma.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
           "name": "CD34",
           "aliases": [],
           "type": "IHC",
@@ -4094,18 +3441,6 @@
           "provenance": "differential_inference",
           "confidence": "medium",
           "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
-        },
-        {
-          "name": "CD31",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Expression of ERG, CD31, and CD34 support epithelioid angiosarcoma. CD31 is typically negative, and importantly, INI1 expression will invariably be absent in epithelioid sarcoma and retained in epithelioid angiosarcoma.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
         },
         {
           "name": "ERG",
@@ -4148,9 +3483,12 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: removed 2 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -4192,18 +3530,6 @@
       ],
       "stains": [
         {
-          "name": "Calretinin",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Immunohistochemistry is critical, with positivity for multiple mesothelial markers (CK5/6, WT1, calretinin, and D240) and negativity for multiple carcinoma markers (claudin-4, MOC31, BerEP4) essential to support the mesothelial nature of this proliferation. Desmoplastic small round cell tumor can have immunophenotypic overlap with mesothelioma (keratin, WT1 expression), but should lack calretinin and D240 expression, and would also typically label with desmin, and importantly, has an undifferentiated appearance morphologically, as opposed to the tubular morphology that predominates in this case.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Direct case-specific positive result in source answer."
-        },
-        {
           "name": "Claudin-4",
           "aliases": [],
           "type": "IHC",
@@ -4214,18 +3540,6 @@
           "provenance": "differential_inference",
           "confidence": "medium",
           "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
-        },
-        {
-          "name": "Desmin",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Desmoplastic small round cell tumor can have immunophenotypic overlap with mesothelioma (keratin, WT1 expression), but should lack calretinin and D240 expression, and would also typically label with desmin, and importantly, has an undifferentiated appearance morphologically, as opposed to the tubular morphology that predominates in this case.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Direct case-specific positive result in source answer."
         },
         {
           "name": "BerEP4",
@@ -4252,18 +3566,6 @@
           "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
-          "name": "BAP1",
-          "aliases": [],
-          "type": "IHC",
-          "result": "loss",
-          "result_display": "Loss",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "If definitive invasion is not present, BAP1 or MTAP loss can support a diagnosis of mesothelioma, but retention of either of these does not exclude it.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Loss language in source answer."
-        },
-        {
           "name": "WT1",
           "aliases": [],
           "type": "IHC",
@@ -4280,9 +3582,12 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: removed 3 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -4524,55 +3829,48 @@
       ],
       "stains": [
         {
-          "name": "HPV ISH",
+          "name": "panCK",
           "aliases": [
-            "HPV",
-            "HPV in situ hybridization",
-            "HPV-ISH"
-          ],
-          "type": "ISH",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Given the basaloid phenotype of tumor cells and the presence of cystic changes, HPV-related carcinomas should be considered and the addition of p16 immunohistochemistry or in-situ hybridization for HPV. HPV positive carcinoma in the retroperitoneum is usually metastatic from anogenital origin but could also originate from the head and neck area. Urothelial carcinoma is almost invariably negative for HPV. Immunostaining for p16 alone is not helpful in the differential diagnosis of urothelial carcinoma versus HPV-related squamous cell carcinoma because a large proportion of conventional urothelial carcinomas are positive for p16 without being HPV-positive.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
-        },
-        {
-          "name": "p16",
-          "aliases": [
-            "CDKN2A"
+            "cytokeratin",
+            "cytokeratins",
+            "pan-cytokeratin",
+            "pancytokeratin",
+            "pan keratin",
+            "broad-spectrum cytokeratin"
           ],
           "type": "IHC",
           "result": "positive",
           "result_display": "Positive",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "Given the basaloid phenotype of tumor cells and the presence of cystic changes, HPV-related carcinomas should be considered and the addition of p16 immunohistochemistry or in-situ hybridization for HPV. Immunostaining for p16 alone is not helpful in the differential diagnosis of urothelial carcinoma versus HPV-related squamous cell carcinoma because a large proportion of conventional urothelial carcinomas are positive for p16 without being HPV-positive.",
+          "context": "Immunohistochemistry for cytokeratins was positive while melanoma markers were negative.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
         },
         {
           "name": "GATA3",
           "aliases": [],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
+          "result": "positive",
+          "result_display": "Positive",
           "interpretation": "Result stated directly in the source answer.",
           "context": "Additional markers show that tumor cells are also positive for GATA3, which can lead to confusion with urothelial carcinoma.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
         }
       ],
       "references": [],
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: removed 2 unsupported prior explicit stain result(s)",
+          "stain_parser_v2: corrected 1 explicit result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -4711,6 +4009,21 @@
       ],
       "stains": [
         {
+          "name": "SMARCB1",
+          "aliases": [
+            "INI1",
+            "INI-1"
+          ],
+          "type": "IHC",
+          "result": "loss",
+          "result_display": "Loss",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "The lesion demonstrates loss of INI1 protein, supporting this diagnosis.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Loss."
+        },
+        {
           "name": "Synaptophysin",
           "aliases": [],
           "type": "IHC",
@@ -4733,21 +4046,6 @@
           "provenance": "contextual_inference",
           "confidence": "low",
           "basis": "Marker is discussed in a staining context but the source text does not support a single definite polarity."
-        },
-        {
-          "name": "SMARCB1",
-          "aliases": [
-            "INI1",
-            "INI-1"
-          ],
-          "type": "IHC",
-          "result": "loss",
-          "result_display": "Loss",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The lesion demonstrates loss of INI1 protein, supporting this diagnosis. However, neuroblastoma has intact INI1 protein, and would label for PHOX2B and other neuroendocrine markers like synaptophysin. Malignant lymphoma would demonstrate greater discohesion, typically less cytoplasm, would label for lymphoid markers and have intact INI1. Rhabdomyosarcoma is suggested by the eccentric pink cytoplasm of the cells; however, rhabdomyosarcoma should label for myogenin and desmin and have intact INI1.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Loss language in source answer."
         },
         {
           "name": "Desmin",
@@ -5002,53 +4300,17 @@
         "Oncocytoma",
         "Eosinophilic solid and cystic tumor (ESC)"
       ],
-      "stains": [
-        {
-          "name": "CK7",
-          "aliases": [
-            "cytokeratin 7"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "CK7 is variable, from negative to focally positive.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "Cathepsin K",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The neoplastic cells are immunoreactive for PAX8, AE1/ AE3, and often for cathepsin K.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Direct case-specific positive result in source answer."
-        },
-        {
-          "name": "PAX8",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The neoplastic cells are immunoreactive for PAX8, AE1/ AE3, and often for cathepsin K.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Direct case-specific positive result in source answer."
-        }
-      ],
+      "stains": [],
       "references": [],
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: removed 3 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     }
   ]
