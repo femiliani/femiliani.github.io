@@ -997,13 +997,13 @@
             "cytokeratin 7"
           ],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Expected/supportive immunophenotype described for the diagnosed entity.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "The neoplastic cells label for CK7 and carbonic anhydrase 9 (the latter in a cup shaped pattern), but not for TFE3. Clear cell RCC typically would not label diffusely for CK7, though occasion low grade variants do. Renal cell carcinomas with leiomyomatous stroma have a similar labeling pattern for CK7 and CA-IX as the current lesion; however, they typically have voluminous cytoplasm, and are associated with mutations in either the ELOC1 or TSC genes.",
-          "provenance": "entity_profile",
+          "provenance": "differential_inference",
           "confidence": "medium",
-          "basis": "Source answer describes this as a typical/possible immunophenotypic feature of the diagnosed entity."
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "TFE3",
@@ -1732,25 +1732,25 @@
           "name": "CD34",
           "aliases": [],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Angiosarcoma should label with at least two of the three endothelial markers CD31, ERG, or CD34.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "CD31",
           "aliases": [],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Angiosarcoma should label with at least two of the three endothelial markers CD31, ERG, or CD34.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "p40",
@@ -1768,13 +1768,13 @@
           "name": "ERG",
           "aliases": [],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Angiosarcoma should label with at least two of the three endothelial markers CD31, ERG, or CD34.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         }
       ],
       "references": [],
@@ -3396,13 +3396,13 @@
             "KIT"
           ],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Expected/supportive immunophenotype described for the diagnosed entity.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "\"The neoplasm labeled diffusely for CD117 (which could also be seen in melanoma) but also for DOG1.\" Importantly, the neoplasm demonstrated loss of SDH immunoreactivity, supporting the diagnosis of a succinate dehydrogenase deficient gastrointestinal stromal tumor. \" Melanoma should label for S100, SOX10, and/or HMB45, and would be SDH intact.\" Leiomyosarcoma would demonstrate immunoreactivity for muscle markers, \"and typically does not show the multinodular appearance seen in the current case.\" Paraganglioma would label for neuroendocrine markers such as synaptophysin and chromogranin.\" A subset of these would be SDH deficient, but paragangliomas should not typically label for CD117 or DOG1.",
-          "provenance": "entity_profile",
+          "provenance": "differential_inference",
           "confidence": "medium",
-          "basis": "Source answer describes this as a typical/possible immunophenotypic feature of the diagnosed entity."
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "SOX10",
@@ -3432,13 +3432,13 @@
           "name": "DOG1",
           "aliases": [],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Expected/supportive immunophenotype described for the diagnosed entity.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "\"The neoplasm labeled diffusely for CD117 (which could also be seen in melanoma) but also for DOG1.\" Importantly, the neoplasm demonstrated loss of SDH immunoreactivity, supporting the diagnosis of a succinate dehydrogenase deficient gastrointestinal stromal tumor. \" Melanoma should label for S100, SOX10, and/or HMB45, and would be SDH intact.\" Leiomyosarcoma would demonstrate immunoreactivity for muscle markers, \"and typically does not show the multinodular appearance seen in the current case.\" Paraganglioma would label for neuroendocrine markers such as synaptophysin and chromogranin.\" A subset of these would be SDH deficient, but paragangliomas should not typically label for CD117 or DOG1.",
-          "provenance": "entity_profile",
+          "provenance": "differential_inference",
           "confidence": "medium",
-          "basis": "Source answer describes this as a typical/possible immunophenotypic feature of the diagnosed entity."
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         }
       ],
       "references": [],
@@ -3944,13 +3944,13 @@
           "name": "CD34",
           "aliases": [],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Expected/supportive immunophenotype described for the diagnosed entity.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Expression of ERG, CD31, and CD34 support epithelioid angiosarcoma. Importantly, epithelioid sarcoma may express multiple endothelial markers, particularly CD34 and ERG.",
-          "provenance": "entity_profile",
+          "provenance": "differential_inference",
           "confidence": "medium",
-          "basis": "Source answer describes this as a typical/possible immunophenotypic feature of the diagnosed entity."
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "CD31",
@@ -3968,13 +3968,13 @@
           "name": "ERG",
           "aliases": [],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Expected/supportive immunophenotype described for the diagnosed entity.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Expression of ERG, CD31, and CD34 support epithelioid angiosarcoma. Importantly, epithelioid sarcoma may express multiple endothelial markers, particularly CD34 and ERG.",
-          "provenance": "entity_profile",
+          "provenance": "differential_inference",
           "confidence": "medium",
-          "basis": "Source answer describes this as a typical/possible immunophenotypic feature of the diagnosed entity."
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         }
       ],
       "references": [],
@@ -4027,61 +4027,61 @@
           "name": "Calretinin",
           "aliases": [],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Immunohistochemistry is critical, with positivity for multiple mesothelial markers (CK5/6, WT1, calretinin, and D240) and negativity for multiple carcinoma markers (claudin-4, MOC31, BerEP4) essential to support the mesothelial nature of this proliferation. Desmoplastic small round cell tumor can have immunophenotypic overlap with mesothelioma (keratin, WT1 expression), but should lack calretinin and D240 expression, and would also typically label with desmin, and importantly, has an undifferentiated appearance morphologically, as opposed to the tubular morphology that predominates in this case.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "Claudin-4",
           "aliases": [],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
+          "result": "negative",
+          "result_display": "Negative",
           "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Immunohistochemistry is critical, with positivity for multiple mesothelial markers (CK5/6, WT1, calretinin, and D240) and negativity for multiple carcinoma markers (claudin-4, MOC31, BerEP4) essential to support the mesothelial nature of this proliferation.",
           "provenance": "differential_inference",
           "confidence": "medium",
-          "basis": "Marker negativity is presented as supporting an alternative diagnosis that was not the final diagnosis."
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "Desmin",
           "aliases": [],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Desmoplastic small round cell tumor can have immunophenotypic overlap with mesothelioma (keratin, WT1 expression), but should lack calretinin and D240 expression, and would also typically label with desmin, and importantly, has an undifferentiated appearance morphologically, as opposed to the tubular morphology that predominates in this case.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "BerEP4",
           "aliases": [],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
+          "result": "negative",
+          "result_display": "Negative",
           "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Immunohistochemistry is critical, with positivity for multiple mesothelial markers (CK5/6, WT1, calretinin, and D240) and negativity for multiple carcinoma markers (claudin-4, MOC31, BerEP4) essential to support the mesothelial nature of this proliferation.",
           "provenance": "differential_inference",
           "confidence": "medium",
-          "basis": "Marker negativity is presented as supporting an alternative diagnosis that was not the final diagnosis."
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "CK5/6",
           "aliases": [],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
+          "result": "negative",
+          "result_display": "Negative",
           "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Immunohistochemistry is critical, with positivity for multiple mesothelial markers (CK5/6, WT1, calretinin, and D240) and negativity for multiple carcinoma markers (claudin-4, MOC31, BerEP4) essential to support the mesothelial nature of this proliferation.",
           "provenance": "differential_inference",
           "confidence": "medium",
-          "basis": "Marker negativity is presented as supporting an alternative diagnosis that was not the final diagnosis."
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "BAP1",
@@ -4099,13 +4099,13 @@
           "name": "WT1",
           "aliases": [],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Immunohistochemistry is critical, with positivity for multiple mesothelial markers (CK5/6, WT1, calretinin, and D240) and negativity for multiple carcinoma markers (claudin-4, MOC31, BerEP4) essential to support the mesothelial nature of this proliferation. Desmoplastic small round cell tumor can have immunophenotypic overlap with mesothelioma (keratin, WT1 expression), but should lack calretinin and D240 expression, and would also typically label with desmin, and importantly, has an undifferentiated appearance morphologically, as opposed to the tubular morphology that predominates in this case.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         }
       ],
       "references": [],
