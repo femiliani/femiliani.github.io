@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0.0",
   "generated_date": "2026-11-08",
-  "description": "Canonical PathUnknowns case dataset. Full source answer text is preserved once per case. Stains are extracted from source-answer immunophenotypic context; educational fallback stains are used only when the answer contains no stain discussion.",
+  "description": "Canonical PathUnknowns case dataset. Full source answer text is preserved once per case. Stains are extracted from source-answer immunophenotypic context; educational fallback stains are used only when the answer contains no stain discussion. Rebuilt with clause-scoped stain parser v2.0.0.",
   "stain_result_vocabulary": [
     "positive",
     "negative",
@@ -58,6 +58,35 @@
       ],
       "stains": [
         {
+          "name": "HMB45",
+          "aliases": [
+            "HMB-45"
+          ],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Conventional PEComas will stain positive for melanocytic markers (HMB45, melan-A) and smooth muscle markers (SMA, desmin, and h-caldesmon) with varying intensity and extent.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "Melan-A",
+          "aliases": [
+            "MART1",
+            "MART-1"
+          ],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Conventional PEComas will stain positive for melanocytic markers (HMB45, melan-A) and smooth muscle markers (SMA, desmin, and h-caldesmon) with varying intensity and extent.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
           "name": "SMA",
           "aliases": [
             "smooth muscle actin"
@@ -69,7 +98,19 @@
           "context": "Conventional PEComas will stain positive for melanocytic markers (HMB45, melan-A) and smooth muscle markers (SMA, desmin, and h-caldesmon) with varying intensity and extent.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "Desmin",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Conventional PEComas will stain positive for melanocytic markers (HMB45, melan-A) and smooth muscle markers (SMA, desmin, and h-caldesmon) with varying intensity and extent.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
         },
         {
           "name": "h-caldesmon",
@@ -84,70 +125,7 @@
           "context": "Conventional PEComas will stain positive for melanocytic markers (HMB45, melan-A) and smooth muscle markers (SMA, desmin, and h-caldesmon) with varying intensity and extent.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "Cathepsin K",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "TFE3 translocation–associated PEComas would be diffusely positive for TFE3, HMB45, and cathepsin K, with focal to absent melan-A.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "Melan-A",
-          "aliases": [
-            "MART1",
-            "MART-1"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Conventional PEComas will stain positive for melanocytic markers (HMB45, melan-A) and smooth muscle markers (SMA, desmin, and h-caldesmon) with varying intensity and extent. TFE3 translocation–associated PEComas would be diffusely positive for TFE3, HMB45, and cathepsin K, with focal to absent melan-A.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "Desmin",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Conventional PEComas will stain positive for melanocytic markers (HMB45, melan-A) and smooth muscle markers (SMA, desmin, and h-caldesmon) with varying intensity and extent.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "HMB45",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Conventional PEComas will stain positive for melanocytic markers (HMB45, melan-A) and smooth muscle markers (SMA, desmin, and h-caldesmon) with varying intensity and extent. TFE3 translocation–associated PEComas would be diffusely positive for TFE3, HMB45, and cathepsin K, with focal to absent melan-A.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "TFE3",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "TFE3 translocation–associated PEComas would be diffusely positive for TFE3, HMB45, and cathepsin K, with focal to absent melan-A.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
         }
       ],
       "references": [
@@ -171,9 +149,13 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: removed 2 unsupported prior explicit stain result(s)",
+          "stain_parser_v2: corrected 2 explicit result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -214,18 +196,69 @@
       ],
       "stains": [
         {
-          "name": "PR",
-          "aliases": [
-            "progesterone receptor"
-          ],
+          "name": "PAX8",
+          "aliases": [],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
+          "result": "positive",
+          "result_display": "Positive",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "The epithelial component in tumors of the mesonephric type will stain positive for Pax8, CK7, GATA3, TTF and luminal CD10, but negative for WT-1, ER and PR. Most endometrioid carcinoma is positive for ER and PR.",
+          "context": "The epithelial component in tumors of the mesonephric type will stain positive for Pax8, CK7, GATA3, TTF and luminal CD10, but negative for WT-1, ER and PR.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "CK7",
+          "aliases": [
+            "cytokeratin 7"
+          ],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "The epithelial component in tumors of the mesonephric type will stain positive for Pax8, CK7, GATA3, TTF and luminal CD10, but negative for WT-1, ER and PR.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "GATA3",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "The epithelial component in tumors of the mesonephric type will stain positive for Pax8, CK7, GATA3, TTF and luminal CD10, but negative for WT-1, ER and PR.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "TTF-1",
+          "aliases": [
+            "TTF1",
+            "TTF"
+          ],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive (luminal)",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "The epithelial component in tumors of the mesonephric type will stain positive for Pax8, CK7, GATA3, TTF and luminal CD10, but negative for WT-1, ER and PR.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive; qualifier(s): luminal."
+        },
+        {
+          "name": "CD10",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive (luminal)",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "The epithelial component in tumors of the mesonephric type will stain positive for Pax8, CK7, GATA3, TTF and luminal CD10, but negative for WT-1, ER and PR.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive; qualifier(s): luminal."
         },
         {
           "name": "ER",
@@ -236,15 +269,15 @@
           "result": "negative",
           "result_display": "Negative",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "The epithelial component in tumors of the mesonephric type will stain positive for Pax8, CK7, GATA3, TTF and luminal CD10, but negative for WT-1, ER and PR. Most endometrioid carcinoma is positive for ER and PR.",
+          "context": "The epithelial component in tumors of the mesonephric type will stain positive for Pax8, CK7, GATA3, TTF and luminal CD10, but negative for WT-1, ER and PR.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Clause-scoped stain parser: Negative."
         },
         {
-          "name": "CK7",
+          "name": "PR",
           "aliases": [
-            "cytokeratin 7"
+            "progesterone receptor"
           ],
           "type": "IHC",
           "result": "negative",
@@ -253,7 +286,21 @@
           "context": "The epithelial component in tumors of the mesonephric type will stain positive for Pax8, CK7, GATA3, TTF and luminal CD10, but negative for WT-1, ER and PR.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Clause-scoped stain parser: Negative."
+        },
+        {
+          "name": "p53",
+          "aliases": [
+            "TP53"
+          ],
+          "type": "IHC",
+          "result": "variable",
+          "result_display": "Wild-type",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "P53 is usually wild-type and p16 is patchy..",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Wild-type."
         },
         {
           "name": "p16",
@@ -263,76 +310,11 @@
           "type": "IHC",
           "result": "variable",
           "result_display": "Patchy",
-          "interpretation": "Carried forward from the project's prior curated stain panel.",
+          "interpretation": "Result stated directly in the source answer.",
           "context": "P53 is usually wild-type and p16 is patchy..",
-          "provenance": "prior_curated",
-          "confidence": "medium",
-          "basis": "JHU answer: p16 is patchy."
-        },
-        {
-          "name": "GATA3",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The epithelial component in tumors of the mesonephric type will stain positive for Pax8, CK7, GATA3, TTF and luminal CD10, but negative for WT-1, ER and PR. Clear cell carcinoma lacks Gata3 and TTF-1 expression.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "TTF-1",
-          "aliases": [
-            "TTF1",
-            "TTF"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The epithelial component in tumors of the mesonephric type will stain positive for Pax8, CK7, GATA3, TTF and luminal CD10, but negative for WT-1, ER and PR. Clear cell carcinoma lacks Gata3 and TTF-1 expression.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
-        },
-        {
-          "name": "PAX8",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The epithelial component in tumors of the mesonephric type will stain positive for Pax8, CK7, GATA3, TTF and luminal CD10, but negative for WT-1, ER and PR.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "CD10",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The epithelial component in tumors of the mesonephric type will stain positive for Pax8, CK7, GATA3, TTF and luminal CD10, but negative for WT-1, ER and PR.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "p53",
-          "aliases": [
-            "TP53"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "P53 is usually wild-type and p16 is patchy.. Unlike high-grade serous carcinoma, the mesonephric-like carcinoma shows a wild-type p53 staining pattern and negative for WT-1.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Clause-scoped stain parser: Patchy."
         }
       ],
       "references": [
@@ -348,9 +330,12 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: corrected 6 explicit result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -391,60 +376,6 @@
       ],
       "stains": [
         {
-          "name": "PR",
-          "aliases": [
-            "progesterone receptor"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Immunohistochemistry staining will show that the tumors have strong expression of CD10, ER, and PR. GIST is positive for C-Kit and DOG-1, negative for ER and PR.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "ER",
-          "aliases": [
-            "estrogen receptor"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Immunohistochemistry staining will show that the tumors have strong expression of CD10, ER, and PR. GIST is positive for C-Kit and DOG-1, negative for ER and PR.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "CD117",
-          "aliases": [
-            "KIT"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "GIST is positive for C-Kit and DOG-1, negative for ER and PR.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "CD10",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Immunohistochemistry staining will show that the tumors have strong expression of CD10, ER, and PR.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
           "name": "ALK",
           "aliases": [],
           "type": "IHC",
@@ -454,7 +385,7 @@
           "context": "The tumor cells are usually ALK positive.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
         }
       ],
       "references": [
@@ -466,9 +397,12 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: removed 4 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -507,36 +441,7 @@
         "Luteinized granulosa cell tumor",
         "Steroid cell tumor"
       ],
-      "stains": [
-        {
-          "name": "Reticulin",
-          "aliases": [
-            "reticulin stain"
-          ],
-          "type": "special stain",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Reticulin stain will show positive fibers enclosing groups of cells, rather than individual cells.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "Inhibin",
-          "aliases": [
-            "alpha-inhibin"
-          ],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Immunostains will show strong positivity of inhibin in the tumor cells.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        }
-      ],
+      "stains": [],
       "references": [
         {
           "text": "WHO Classification of Tumours Editorial Board. Female Genital Tumours. WHO Classification of Tumours, ( 5th ed.). IARC; 2020.",
@@ -550,9 +455,12 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: removed 2 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -593,18 +501,18 @@
       ],
       "stains": [
         {
-          "name": "SMA",
+          "name": "2SC",
           "aliases": [
-            "smooth muscle actin"
+            "2-succinocysteine"
           ],
           "type": "IHC",
           "result": "positive",
-          "result_display": "Positive",
+          "result_display": "Positive (diffuse)",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "Immunohistochemical stains will show positivity for myogenic markers (desmin, SMA, caldesmon). These tumors will stain positive for melanocytic markers (HMB45, MART1), cathepsin K, and GPNMB, as well as myogenic markers (SMA, desmin, caldesmon).",
+          "context": "In addition, the tumor will exhibit diffuse positive staining for 2-succinocysteine (2SC) and complete loss of staining for FH.",
           "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "confidence": "medium",
+          "basis": "Clause-scoped stain parser: Positive; qualifier(s): diffuse."
         },
         {
           "name": "FH",
@@ -615,43 +523,16 @@
           "result": "loss",
           "result_display": "Loss",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "In addition, the tumor will exhibit diffuse positive staining for 2-succinocysteine (2SC) and complete loss of staining for FH. The loss of FH IHC staining correlates with the presence of an FH gene mutation, either germline or somatic. Retained or variable FH staining patterns (and negative 2SC) may be observed across these other entities.",
+          "context": "In addition, the tumor will exhibit diffuse positive staining for 2-succinocysteine (2SC) and complete loss of staining for FH.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Direct case-specific loss result in source answer."
+          "basis": "Clause-scoped stain parser: Loss."
         },
         {
-          "name": "2SC",
+          "name": "HMB45",
           "aliases": [
-            "2-succinocysteine"
+            "HMB-45"
           ],
-          "type": "IHC",
-          "result": "loss",
-          "result_display": "Loss",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "In addition, the tumor will exhibit diffuse positive staining for 2-succinocysteine (2SC) and complete loss of staining for FH. Retained or variable FH staining patterns (and negative 2SC) may be observed across these other entities.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Direct case-specific loss result in source answer."
-        },
-        {
-          "name": "h-caldesmon",
-          "aliases": [
-            "caldesmon",
-            "H-caldesmon"
-          ],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Immunohistochemical stains will show positivity for myogenic markers (desmin, SMA, caldesmon). These tumors will stain positive for melanocytic markers (HMB45, MART1), cathepsin K, and GPNMB, as well as myogenic markers (SMA, desmin, caldesmon).",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "Cathepsin K",
-          "aliases": [],
           "type": "IHC",
           "result": "positive",
           "result_display": "Positive",
@@ -659,7 +540,7 @@
           "context": "These tumors will stain positive for melanocytic markers (HMB45, MART1), cathepsin K, and GPNMB, as well as myogenic markers (SMA, desmin, caldesmon).",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
         },
         {
           "name": "Melan-A",
@@ -674,22 +555,10 @@
           "context": "These tumors will stain positive for melanocytic markers (HMB45, MART1), cathepsin K, and GPNMB, as well as myogenic markers (SMA, desmin, caldesmon).",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
         },
         {
-          "name": "Desmin",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Immunohistochemical stains will show positivity for myogenic markers (desmin, SMA, caldesmon). These tumors will stain positive for melanocytic markers (HMB45, MART1), cathepsin K, and GPNMB, as well as myogenic markers (SMA, desmin, caldesmon).",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "HMB45",
+          "name": "Cathepsin K",
           "aliases": [],
           "type": "IHC",
           "result": "positive",
@@ -698,7 +567,48 @@
           "context": "These tumors will stain positive for melanocytic markers (HMB45, MART1), cathepsin K, and GPNMB, as well as myogenic markers (SMA, desmin, caldesmon).",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "SMA",
+          "aliases": [
+            "smooth muscle actin"
+          ],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "These tumors will stain positive for melanocytic markers (HMB45, MART1), cathepsin K, and GPNMB, as well as myogenic markers (SMA, desmin, caldesmon).",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "Desmin",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "These tumors will stain positive for melanocytic markers (HMB45, MART1), cathepsin K, and GPNMB, as well as myogenic markers (SMA, desmin, caldesmon).",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "h-caldesmon",
+          "aliases": [
+            "caldesmon",
+            "H-caldesmon"
+          ],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "These tumors will stain positive for melanocytic markers (HMB45, MART1), cathepsin K, and GPNMB, as well as myogenic markers (SMA, desmin, caldesmon).",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
         }
       ],
       "references": [
@@ -722,9 +632,12 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: corrected 1 explicit result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -765,20 +678,6 @@
       ],
       "stains": [
         {
-          "name": "CK20",
-          "aliases": [
-            "cytokeratin 20"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "These tumors share morphologic and immunohistochemical features of low-grade mucinous tumors of appendiceal origin, often displaying a CK7 negative, CK20 positive immunoprofile. These tumors would exhibit CK7-positive and CK20-negative immunoprofiles. These tumors also exhibit CK7-positive and CK20-negative immunoprofiles.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
-        },
-        {
           "name": "CK7",
           "aliases": [
             "cytokeratin 7"
@@ -787,10 +686,24 @@
           "result": "negative",
           "result_display": "Negative",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "These tumors share morphologic and immunohistochemical features of low-grade mucinous tumors of appendiceal origin, often displaying a CK7 negative, CK20 positive immunoprofile. These tumors would exhibit CK7-positive and CK20-negative immunoprofiles. These tumors also exhibit CK7-positive and CK20-negative immunoprofiles.",
+          "context": "These tumors share morphologic and immunohistochemical features of low-grade mucinous tumors of appendiceal origin, often displaying a CK7 negative, CK20 positive immunoprofile.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
+          "basis": "Clause-scoped stain parser: Negative."
+        },
+        {
+          "name": "CK20",
+          "aliases": [
+            "cytokeratin 20"
+          ],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "These tumors share morphologic and immunohistochemical features of low-grade mucinous tumors of appendiceal origin, often displaying a CK7 negative, CK20 positive immunoprofile.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
         }
       ],
       "references": [
@@ -806,9 +719,12 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: corrected 1 explicit result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -849,68 +765,73 @@
       ],
       "stains": [
         {
-          "name": "Inhibin",
-          "aliases": [
-            "alpha-inhibin"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
-          "context": "Immunohistochemistry can show positive expression of cytokeratin (panCK), smooth muscle markers (desmin), endometrial stromal markers, and sex cord markers (inhibin, SF1, calretinin).",
-          "provenance": "differential_inference",
-          "confidence": "medium",
-          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
-        },
-        {
           "name": "panCK",
           "aliases": [
-            "cytokeratin"
+            "cytokeratin",
+            "cytokeratins",
+            "pan-cytokeratin",
+            "pancytokeratin",
+            "pan keratin",
+            "broad-spectrum cytokeratin"
           ],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
           "context": "Immunohistochemistry can show positive expression of cytokeratin (panCK), smooth muscle markers (desmin), endometrial stromal markers, and sex cord markers (inhibin, SF1, calretinin).",
-          "provenance": "differential_inference",
-          "confidence": "medium",
-          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
-        },
-        {
-          "name": "Calretinin",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
-          "context": "Immunohistochemistry can show positive expression of cytokeratin (panCK), smooth muscle markers (desmin), endometrial stromal markers, and sex cord markers (inhibin, SF1, calretinin).",
-          "provenance": "differential_inference",
-          "confidence": "medium",
-          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
         },
         {
           "name": "Desmin",
           "aliases": [],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
           "context": "Immunohistochemistry can show positive expression of cytokeratin (panCK), smooth muscle markers (desmin), endometrial stromal markers, and sex cord markers (inhibin, SF1, calretinin).",
-          "provenance": "differential_inference",
-          "confidence": "medium",
-          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "Inhibin",
+          "aliases": [
+            "alpha-inhibin"
+          ],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Immunohistochemistry can show positive expression of cytokeratin (panCK), smooth muscle markers (desmin), endometrial stromal markers, and sex cord markers (inhibin, SF1, calretinin).",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
         },
         {
           "name": "SF1",
           "aliases": [],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
           "context": "Immunohistochemistry can show positive expression of cytokeratin (panCK), smooth muscle markers (desmin), endometrial stromal markers, and sex cord markers (inhibin, SF1, calretinin).",
-          "provenance": "differential_inference",
-          "confidence": "medium",
-          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "Calretinin",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Immunohistochemistry can show positive expression of cytokeratin (panCK), smooth muscle markers (desmin), endometrial stromal markers, and sex cord markers (inhibin, SF1, calretinin).",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
         }
       ],
       "references": [
@@ -926,9 +847,10 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -976,41 +898,13 @@
             "HPV-ISH"
           ],
           "type": "ISH",
-          "result": "negative",
-          "result_display": "Negative",
+          "result": "positive",
+          "result_display": "Diffuse",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "Endometrial squamous cell carcinomas show aberrant/mutation-type p53 expression, are negative for ER, PR, and p16, and have no detectable HPV by ISH. An HPV-associated cervical squamous cell carcinoma will have diffuse or block positive immunohistochemical staining of p16 or ISH detection of HPV, unlike this entity that is HPV and p16 negative.",
+          "context": "An HPV-associated cervical squamous cell carcinoma will have diffuse or block positive immunohistochemical staining of p16 or ISH detection of HPV, unlike this entity that is HPV and p16 negative.",
           "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
-        },
-        {
-          "name": "PR",
-          "aliases": [
-            "progesterone receptor"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Endometrial squamous cell carcinomas show aberrant/mutation-type p53 expression, are negative for ER, PR, and p16, and have no detectable HPV by ISH.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "ER",
-          "aliases": [
-            "estrogen receptor"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Endometrial squamous cell carcinomas show aberrant/mutation-type p53 expression, are negative for ER, PR, and p16, and have no detectable HPV by ISH.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "confidence": "medium",
+          "basis": "Clause-scoped stain parser: Diffuse."
         },
         {
           "name": "p16",
@@ -1018,27 +912,13 @@
             "CDKN2A"
           ],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
+          "result": "positive",
+          "result_display": "Block positive",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "Endometrial squamous cell carcinomas show aberrant/mutation-type p53 expression, are negative for ER, PR, and p16, and have no detectable HPV by ISH. An HPV-associated cervical squamous cell carcinoma will have diffuse or block positive immunohistochemical staining of p16 or ISH detection of HPV, unlike this entity that is HPV and p16 negative.",
+          "context": "An HPV-associated cervical squamous cell carcinoma will have diffuse or block positive immunohistochemical staining of p16 or ISH detection of HPV, unlike this entity that is HPV and p16 negative.",
           "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "p53",
-          "aliases": [
-            "TP53"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Endometrial squamous cell carcinomas show aberrant/mutation-type p53 expression, are negative for ER, PR, and p16, and have no detectable HPV by ISH.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "confidence": "medium",
+          "basis": "Clause-scoped stain parser: Block positive."
         }
       ],
       "references": [
@@ -1054,9 +934,13 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: removed 3 unsupported prior explicit stain result(s)",
+          "stain_parser_v2: corrected 2 explicit result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -1097,18 +981,28 @@
       ],
       "stains": [
         {
-          "name": "PR",
-          "aliases": [
-            "progesterone receptor"
-          ],
+          "name": "CD10",
+          "aliases": [],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
+          "result": "positive",
+          "result_display": "Positive",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "These tumors may stain positive for CD10, IFITM1, WT1, ER, PR, keratins, smooth muscle markers (desmin and h-caldesmon), sex cord markers (inhibin, calretinin, melan-A, CD99), and beta catenin. High-grade endometrial stromal sarcomas also have YWHAE-NUTM2AB/fusions, BCOR fusions, or internal tandem duplications; they are frequently positive for Cyclin D1 and BCOR while negative for ER/PR, which contrasts with low-grade endometrial stromal sarcomas that are positive for ER/PR, but negative for BCOR and Cyclin D1.",
+          "context": "These tumors may stain positive for CD10, IFITM1, WT1, ER, PR, keratins, smooth muscle markers (desmin and h-caldesmon), sex cord markers (inhibin, calretinin, melan-A, CD99), and beta catenin.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "WT1",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "These tumors may stain positive for CD10, IFITM1, WT1, ER, PR, keratins, smooth muscle markers (desmin and h-caldesmon), sex cord markers (inhibin, calretinin, melan-A, CD99), and beta catenin.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
         },
         {
           "name": "ER",
@@ -1116,27 +1010,39 @@
             "estrogen receptor"
           ],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
+          "result": "positive",
+          "result_display": "Positive",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "These tumors may stain positive for CD10, IFITM1, WT1, ER, PR, keratins, smooth muscle markers (desmin and h-caldesmon), sex cord markers (inhibin, calretinin, melan-A, CD99), and beta catenin. High-grade endometrial stromal sarcomas also have YWHAE-NUTM2AB/fusions, BCOR fusions, or internal tandem duplications; they are frequently positive for Cyclin D1 and BCOR while negative for ER/PR, which contrasts with low-grade endometrial stromal sarcomas that are positive for ER/PR, but negative for BCOR and Cyclin D1.",
+          "context": "These tumors may stain positive for CD10, IFITM1, WT1, ER, PR, keratins, smooth muscle markers (desmin and h-caldesmon), sex cord markers (inhibin, calretinin, melan-A, CD99), and beta catenin.",
           "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "confidence": "medium",
+          "basis": "Clause-scoped stain parser: Positive."
         },
         {
-          "name": "Inhibin",
+          "name": "PR",
           "aliases": [
-            "alpha-inhibin"
+            "progesterone receptor"
           ],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "These tumors may stain positive for CD10, IFITM1, WT1, ER, PR, keratins, smooth muscle markers (desmin and h-caldesmon), sex cord markers (inhibin, calretinin, melan-A, CD99), and beta catenin.",
+          "provenance": "explicit",
+          "confidence": "medium",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "Desmin",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
           "interpretation": "Result stated directly in the source answer.",
           "context": "These tumors may stain positive for CD10, IFITM1, WT1, ER, PR, keratins, smooth muscle markers (desmin and h-caldesmon), sex cord markers (inhibin, calretinin, melan-A, CD99), and beta catenin.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
         },
         {
           "name": "h-caldesmon",
@@ -1145,40 +1051,39 @@
             "H-caldesmon"
           ],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
+          "result": "positive",
+          "result_display": "Positive",
           "interpretation": "Result stated directly in the source answer.",
           "context": "These tumors may stain positive for CD10, IFITM1, WT1, ER, PR, keratins, smooth muscle markers (desmin and h-caldesmon), sex cord markers (inhibin, calretinin, melan-A, CD99), and beta catenin.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "Inhibin",
+          "aliases": [
+            "alpha-inhibin"
+          ],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "These tumors may stain positive for CD10, IFITM1, WT1, ER, PR, keratins, smooth muscle markers (desmin and h-caldesmon), sex cord markers (inhibin, calretinin, melan-A, CD99), and beta catenin.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
         },
         {
           "name": "Calretinin",
           "aliases": [],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
+          "result": "positive",
+          "result_display": "Positive",
           "interpretation": "Result stated directly in the source answer.",
           "context": "These tumors may stain positive for CD10, IFITM1, WT1, ER, PR, keratins, smooth muscle markers (desmin and h-caldesmon), sex cord markers (inhibin, calretinin, melan-A, CD99), and beta catenin.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "Cyclin D1",
-          "aliases": [
-            "CyclinD1",
-            "CCND1"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "High-grade endometrial stromal sarcomas also have YWHAE-NUTM2AB/fusions, BCOR fusions, or internal tandem duplications; they are frequently positive for Cyclin D1 and BCOR while negative for ER/PR, which contrasts with low-grade endometrial stromal sarcomas that are positive for ER/PR, but negative for BCOR and Cyclin D1.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
         },
         {
           "name": "Melan-A",
@@ -1187,73 +1092,67 @@
             "MART-1"
           ],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
+          "result": "positive",
+          "result_display": "Positive",
           "interpretation": "Result stated directly in the source answer.",
           "context": "These tumors may stain positive for CD10, IFITM1, WT1, ER, PR, keratins, smooth muscle markers (desmin and h-caldesmon), sex cord markers (inhibin, calretinin, melan-A, CD99), and beta catenin.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "Desmin",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "These tumors may stain positive for CD10, IFITM1, WT1, ER, PR, keratins, smooth muscle markers (desmin and h-caldesmon), sex cord markers (inhibin, calretinin, melan-A, CD99), and beta catenin.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "CD10",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "These tumors may stain positive for CD10, IFITM1, WT1, ER, PR, keratins, smooth muscle markers (desmin and h-caldesmon), sex cord markers (inhibin, calretinin, melan-A, CD99), and beta catenin. However, they typically have CD10 overexpression with very little muscle marker expression except for cases with smooth muscle differentiation.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "BCOR",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "High-grade endometrial stromal sarcomas also have YWHAE-NUTM2AB/fusions, BCOR fusions, or internal tandem duplications; they are frequently positive for Cyclin D1 and BCOR while negative for ER/PR, which contrasts with low-grade endometrial stromal sarcomas that are positive for ER/PR, but negative for BCOR and Cyclin D1.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
         },
         {
           "name": "CD99",
           "aliases": [],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
+          "result": "positive",
+          "result_display": "Positive",
           "interpretation": "Result stated directly in the source answer.",
           "context": "These tumors may stain positive for CD10, IFITM1, WT1, ER, PR, keratins, smooth muscle markers (desmin and h-caldesmon), sex cord markers (inhibin, calretinin, melan-A, CD99), and beta catenin.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
         },
         {
-          "name": "WT1",
-          "aliases": [],
+          "name": "Beta-catenin",
+          "aliases": [
+            "β-catenin",
+            "beta catenin"
+          ],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
+          "result": "positive",
+          "result_display": "Positive",
           "interpretation": "Result stated directly in the source answer.",
           "context": "These tumors may stain positive for CD10, IFITM1, WT1, ER, PR, keratins, smooth muscle markers (desmin and h-caldesmon), sex cord markers (inhibin, calretinin, melan-A, CD99), and beta catenin.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "BCOR",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "High-grade endometrial stromal sarcomas also have YWHAE-NUTM2AB/fusions, BCOR fusions, or internal tandem duplications; they are frequently positive for Cyclin D1 and BCOR while negative for ER/PR, which contrasts with low-grade endometrial stromal sarcomas that are positive for ER/PR, but negative for BCOR and Cyclin D1.",
+          "provenance": "explicit",
+          "confidence": "medium",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "Cyclin D1",
+          "aliases": [
+            "CyclinD1",
+            "CCND1"
+          ],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "High-grade endometrial stromal sarcomas also have YWHAE-NUTM2AB/fusions, BCOR fusions, or internal tandem duplications; they are frequently positive for Cyclin D1 and BCOR while negative for ER/PR, which contrasts with low-grade endometrial stromal sarcomas that are positive for ER/PR, but negative for BCOR and Cyclin D1.",
+          "provenance": "explicit",
+          "confidence": "medium",
+          "basis": "Clause-scoped stain parser: Positive."
         }
       ],
       "references": [
@@ -1265,9 +1164,12 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: corrected 12 explicit result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -1319,7 +1221,7 @@
           "context": "The sertoli cells and leydig cells will stain positive for sex cord markers (α-inhibin, calretinin, SF1, WT1, and FOXL2).",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
         },
         {
           "name": "Calretinin",
@@ -1331,43 +1233,7 @@
           "context": "The sertoli cells and leydig cells will stain positive for sex cord markers (α-inhibin, calretinin, SF1, WT1, and FOXL2).",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "Myogenin",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The rhabdomyosarcoma will stain positive for myogenin.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "FOXL2",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The sertoli cells and leydig cells will stain positive for sex cord markers (α-inhibin, calretinin, SF1, WT1, and FOXL2).",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "WT1",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The sertoli cells and leydig cells will stain positive for sex cord markers (α-inhibin, calretinin, SF1, WT1, and FOXL2).",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
         },
         {
           "name": "SF1",
@@ -1379,7 +1245,43 @@
           "context": "The sertoli cells and leydig cells will stain positive for sex cord markers (α-inhibin, calretinin, SF1, WT1, and FOXL2).",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "WT1",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "The sertoli cells and leydig cells will stain positive for sex cord markers (α-inhibin, calretinin, SF1, WT1, and FOXL2).",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "FOXL2",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "The sertoli cells and leydig cells will stain positive for sex cord markers (α-inhibin, calretinin, SF1, WT1, and FOXL2).",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "Myogenin",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "The rhabdomyosarcoma will stain positive for myogenin.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
         }
       ],
       "references": [
@@ -1438,36 +1340,8 @@
       ],
       "stains": [
         {
-          "name": "PR",
-          "aliases": [
-            "progesterone receptor"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
-          "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
-          "provenance": "differential_inference",
-          "confidence": "medium",
-          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
-        },
-        {
-          "name": "Synaptophysin",
+          "name": "CD10",
           "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
-          "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
-          "provenance": "differential_inference",
-          "confidence": "medium",
-          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
-        },
-        {
-          "name": "Beta-catenin",
-          "aliases": [
-            "β-catenin"
-          ],
           "type": "IHC",
           "result": "positive",
           "result_display": "Positive",
@@ -1475,7 +1349,58 @@
           "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Direct case-specific positive result in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "CD56",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "CD99",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "WT1",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "Beta-catenin",
+          "aliases": [
+            "β-catenin",
+            "beta catenin"
+          ],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive (nuclear)",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive; qualifier(s): nuclear."
         },
         {
           "name": "CAM5.2",
@@ -1489,7 +1414,33 @@
           "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Direct case-specific positive result in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "PR",
+          "aliases": [
+            "progesterone receptor"
+          ],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "Synaptophysin",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
         },
         {
           "name": "CD117",
@@ -1497,61 +1448,13 @@
             "KIT"
           ],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
           "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
-          "provenance": "differential_inference",
+          "provenance": "explicit",
           "confidence": "medium",
-          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
-        },
-        {
-          "name": "CD10",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Direct case-specific positive result in source answer."
-        },
-        {
-          "name": "CD56",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Direct case-specific positive result in source answer."
-        },
-        {
-          "name": "CD99",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Direct case-specific positive result in source answer."
-        },
-        {
-          "name": "WT1",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Direct case-specific positive result in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
         }
       ],
       "references": [
@@ -1563,9 +1466,12 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: corrected 1 explicit result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -1606,6 +1512,84 @@
       ],
       "stains": [
         {
+          "name": "Beta-catenin",
+          "aliases": [
+            "β-catenin",
+            "beta catenin"
+          ],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive (nuclear, cytoplasmic)",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Immunohistochemistry staining of the tumor cells will be positive for nuclear and cytoplasmic β-catenin, and positive for CD10, WT1, FOXL2, cyclin D1, and SF1, but negative for inhibin, calretinin, and EMA.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive; qualifier(s): nuclear, cytoplasmic."
+        },
+        {
+          "name": "CD10",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Immunohistochemistry staining of the tumor cells will be positive for nuclear and cytoplasmic β-catenin, and positive for CD10, WT1, FOXL2, cyclin D1, and SF1, but negative for inhibin, calretinin, and EMA.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "WT1",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Immunohistochemistry staining of the tumor cells will be positive for nuclear and cytoplasmic β-catenin, and positive for CD10, WT1, FOXL2, cyclin D1, and SF1, but negative for inhibin, calretinin, and EMA.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "FOXL2",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Immunohistochemistry staining of the tumor cells will be positive for nuclear and cytoplasmic β-catenin, and positive for CD10, WT1, FOXL2, cyclin D1, and SF1, but negative for inhibin, calretinin, and EMA.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "Cyclin D1",
+          "aliases": [
+            "CyclinD1",
+            "CCND1"
+          ],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Immunohistochemistry staining of the tumor cells will be positive for nuclear and cytoplasmic β-catenin, and positive for CD10, WT1, FOXL2, cyclin D1, and SF1, but negative for inhibin, calretinin, and EMA.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "SF1",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Immunohistochemistry staining of the tumor cells will be positive for nuclear and cytoplasmic β-catenin, and positive for CD10, WT1, FOXL2, cyclin D1, and SF1, but negative for inhibin, calretinin, and EMA.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
           "name": "Inhibin",
           "aliases": [
             "alpha-inhibin"
@@ -1617,21 +1601,7 @@
           "context": "Immunohistochemistry staining of the tumor cells will be positive for nuclear and cytoplasmic β-catenin, and positive for CD10, WT1, FOXL2, cyclin D1, and SF1, but negative for inhibin, calretinin, and EMA.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "Beta-catenin",
-          "aliases": [
-            "β-catenin"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Immunohistochemistry staining of the tumor cells will be positive for nuclear and cytoplasmic β-catenin, and positive for CD10, WT1, FOXL2, cyclin D1, and SF1, but negative for inhibin, calretinin, and EMA.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Clause-scoped stain parser: Negative."
         },
         {
           "name": "Calretinin",
@@ -1643,70 +1613,7 @@
           "context": "Immunohistochemistry staining of the tumor cells will be positive for nuclear and cytoplasmic β-catenin, and positive for CD10, WT1, FOXL2, cyclin D1, and SF1, but negative for inhibin, calretinin, and EMA.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "Cyclin D1",
-          "aliases": [
-            "CyclinD1",
-            "CCND1"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Immunohistochemistry staining of the tumor cells will be positive for nuclear and cytoplasmic β-catenin, and positive for CD10, WT1, FOXL2, cyclin D1, and SF1, but negative for inhibin, calretinin, and EMA.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "FOXL2",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Immunohistochemistry staining of the tumor cells will be positive for nuclear and cytoplasmic β-catenin, and positive for CD10, WT1, FOXL2, cyclin D1, and SF1, but negative for inhibin, calretinin, and EMA.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "CD10",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Immunohistochemistry staining of the tumor cells will be positive for nuclear and cytoplasmic β-catenin, and positive for CD10, WT1, FOXL2, cyclin D1, and SF1, but negative for inhibin, calretinin, and EMA.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "WT1",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Immunohistochemistry staining of the tumor cells will be positive for nuclear and cytoplasmic β-catenin, and positive for CD10, WT1, FOXL2, cyclin D1, and SF1, but negative for inhibin, calretinin, and EMA.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "SF1",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Immunohistochemistry staining of the tumor cells will be positive for nuclear and cytoplasmic β-catenin, and positive for CD10, WT1, FOXL2, cyclin D1, and SF1, but negative for inhibin, calretinin, and EMA.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Clause-scoped stain parser: Negative."
         },
         {
           "name": "EMA",
@@ -1718,7 +1625,7 @@
           "context": "Immunohistochemistry staining of the tumor cells will be positive for nuclear and cytoplasmic β-catenin, and positive for CD10, WT1, FOXL2, cyclin D1, and SF1, but negative for inhibin, calretinin, and EMA.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Clause-scoped stain parser: Negative."
         }
       ],
       "references": [
@@ -1730,9 +1637,12 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: corrected 6 explicit result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -1773,6 +1683,18 @@
       ],
       "stains": [
         {
+          "name": "p63",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "The tumor cells will stain positive for HSD3B1, HLA-G, p63, cyclin E, α-inhibin, and GATA3.",
+          "provenance": "explicit",
+          "confidence": "medium",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
           "name": "Inhibin",
           "aliases": [
             "alpha-inhibin"
@@ -1784,22 +1706,7 @@
           "context": "The tumor cells will stain positive for HSD3B1, HLA-G, p63, cyclin E, α-inhibin, and GATA3.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "hCG",
-          "aliases": [
-            "beta-hCG",
-            "β-hCG"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Squamous cell carcinoma is on the differential, however, it usually does not have an increase in hCG, is negative for trophoblastic differentiation markers, and has definitive cell bridges and true keratin formation, unlike epithelioid trophoblastic tumors.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
         },
         {
           "name": "GATA3",
@@ -1811,19 +1718,7 @@
           "context": "The tumor cells will stain positive for HSD3B1, HLA-G, p63, cyclin E, α-inhibin, and GATA3.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "p63",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The tumor cells will stain positive for HSD3B1, HLA-G, p63, cyclin E, α-inhibin, and GATA3. Placental site trophoblastic tumor (PSTT) is also a neoplastic proliferation of implantation-type intermediate trophoblast, however, the tumor will be positive for HPL and negative for p63 negative.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Direct case-specific positive result in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
         }
       ],
       "references": [
@@ -1835,9 +1730,12 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: removed 1 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -1974,100 +1872,7 @@
         "Mucinous borderline tumor",
         "Seromucinous carcinoma"
       ],
-      "stains": [
-        {
-          "name": "PR",
-          "aliases": [
-            "progesterone receptor"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The epithelial cells are typically positive for CK7, PAX8, ER, and PR, and negative for WT1, CK20, and CDX2.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "ER",
-          "aliases": [
-            "estrogen receptor"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The epithelial cells are typically positive for CK7, PAX8, ER, and PR, and negative for WT1, CK20, and CDX2.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "CK20",
-          "aliases": [
-            "cytokeratin 20"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The epithelial cells are typically positive for CK7, PAX8, ER, and PR, and negative for WT1, CK20, and CDX2.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "CK7",
-          "aliases": [
-            "cytokeratin 7"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The epithelial cells are typically positive for CK7, PAX8, ER, and PR, and negative for WT1, CK20, and CDX2.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "PAX8",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The epithelial cells are typically positive for CK7, PAX8, ER, and PR, and negative for WT1, CK20, and CDX2.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "CDX2",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The epithelial cells are typically positive for CK7, PAX8, ER, and PR, and negative for WT1, CK20, and CDX2.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "WT1",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The epithelial cells are typically positive for CK7, PAX8, ER, and PR, and negative for WT1, CK20, and CDX2. In contrast, serous borderline tumors consist of epithelial cells that are low cuboidal with not much-rich cytoplasm, and the epithelial cells would be positive for WT1.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        }
-      ],
+      "stains": [],
       "references": [
         {
           "text": "WHO Classification of Tumours Editorial Board. Female Genital Tumours. WHO Classification of Tumours, ( 5th ed.). IARC; 2020.",
@@ -2081,9 +1886,12 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: removed 7 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -2126,6 +1934,20 @@
       ],
       "stains": [
         {
+          "name": "HMB45",
+          "aliases": [
+            "HMB-45"
+          ],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Stains for melanocytic differentiation were positive (HMB45 and MelanA), thereby confirming the diagnosis of angiomyolipoma (AML)",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
           "name": "Cathepsin K",
           "aliases": [],
           "type": "IHC",
@@ -2136,18 +1958,6 @@
           "provenance": "entity_profile",
           "confidence": "medium",
           "basis": "Source answer describes diagnostically useful staining/expression for this marker."
-        },
-        {
-          "name": "HMB45",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
-          "context": "Stains for melanocytic differentiation were positive (HMB45 and MelanA), thereby confirming the diagnosis of angiomyolipoma (AML) Angiomyolipoma (AML) is a member of the PEComa family of tumors (perivascular epithelioid cell tumor family), and despite their name, may have an uneven/varying proportion of angiomatoid, smooth muscle/myoid, and lipomatous components. The distribution of staining for HMB45 and MelanA in AML is peculiar. HMB45 stains 90% of the adipose tissue, 85% of the myoid component, and 80% of the vasculature, while MelanA stains, to a lesser degree, 70% of the adipose component, 60% of the smooth muscle component, and 40% of the vasculature. Lipomas would display mature adipocytic differentiation but are not expected to be positive for HMB45 and MelanA, and the kidney/perirenal space would not be a common site for lipoma.",
-          "provenance": "differential_inference",
-          "confidence": "medium",
-          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         }
       ],
       "references": [
@@ -2175,9 +1985,10 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -2284,6 +2095,21 @@
       ],
       "stains": [
         {
+          "name": "Beta-catenin",
+          "aliases": [
+            "β-catenin",
+            "beta catenin"
+          ],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive (nuclear, diffuse)",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "SPN would be diffusely positive for nuclear beta-catenin, unlike in pancreatoblastoma.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive; qualifier(s): nuclear, diffuse."
+        },
+        {
           "name": "Synaptophysin",
           "aliases": [],
           "type": "IHC",
@@ -2291,20 +2117,6 @@
           "result_display": "Negative",
           "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "synaptophysin) would be positive. Large cell neuroendocrine carcinoma would exhibit greater nuclear atypia, have no squamoid nests, and would be positive for neuroendocrine markers (synaptophysin, chromogranin, INSM1).",
-          "provenance": "differential_inference",
-          "confidence": "medium",
-          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
-        },
-        {
-          "name": "Beta-catenin",
-          "aliases": [
-            "β-catenin"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
-          "context": "Pancreatoblastoma, most notably, would display nuclear beta-catenin staining in the squamoid nests. Acinar cell carcinoma would not show squamoid nests or other lineages, and thus would not have nuclear beta-catenin staining. SPN would be diffusely positive for nuclear beta-catenin, unlike in pancreatoblastoma.",
           "provenance": "differential_inference",
           "confidence": "medium",
           "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
@@ -2401,11 +2213,12 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized_review_recommended",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
         "review_flags": [
           "Review low-confidence stain interpretation: panCK, Trypsin, CK19, CEA"
-        ]
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -2521,10 +2334,10 @@
           "result": "positive",
           "result_display": "Positive",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "This case was positive upon HPV in-situ-hybridization immunohistochemistry. The IHC findings and the combined presence of cribriform glands and squamous differentiation points to a diagnosis of HPV-related multiphenotypic sinonasal carcinoma. Though ACC shares morphologic overlap with HPV-related multiphenotypic sinonasal carcinoma, ACC would not be positive for high-risk HPV in-situ hybridization and has no known association with HPV infection. Lastly, SMARCB1 deficient sinonasal carcinoma would demonstrate INI1/BAF47 (SMARCB1) loss by immunohistochemistry, and it will be HPV-ISH negative.",
+          "context": "This case was positive upon HPV in-situ-hybridization immunohistochemistry.",
           "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Direct case-specific positive result in source answer."
+          "confidence": "medium",
+          "basis": "Clause-scoped stain parser: Positive."
         },
         {
           "name": "SMARCB1",
@@ -2533,13 +2346,13 @@
             "INI-1"
           ],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
+          "result": "loss",
+          "result_display": "Loss",
           "interpretation": "Result stated directly in the source answer.",
           "context": "Lastly, SMARCB1 deficient sinonasal carcinoma would demonstrate INI1/BAF47 (SMARCB1) loss by immunohistochemistry, and it will be HPV-ISH negative.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Clause-scoped stain parser: Loss."
         },
         {
           "name": "MYB",
@@ -2571,9 +2384,12 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: corrected 1 explicit result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -2613,39 +2429,17 @@
         "Mucoepidermoid carcinoma",
         "Adenoid cystic carcinoma"
       ],
-      "stains": [
-        {
-          "name": "p63",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "It is typically p63/p40 (+) as opposed to PLGA, which is p63+/p40-. Polymorphous low grade adenocarcinoma has a consistent p63+/p40- immunophenotype that helps distinguish it from adenoid cystic carcinoma and cellular pleomorphic adenoma.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
-        },
-        {
-          "name": "p40",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "It is typically p63/p40 (+) as opposed to PLGA, which is p63+/p40-. In essence, absence of p40 staining in PLGA, which is a more sensitive marker of myoepithelial differentiation, reveals that PLGAs do not harbor myoepithelial elements and also highlights ACC's biphasic morphology. Polymorphous low grade adenocarcinoma has a consistent p63+/p40- immunophenotype that helps distinguish it from adenoid cystic carcinoma and cellular pleomorphic adenoma.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
-        }
-      ],
+      "stains": [],
       "references": [],
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: removed 2 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -2688,6 +2482,44 @@
       ],
       "stains": [
         {
+          "name": "SOX10",
+          "aliases": [],
+          "type": "IHC",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Melanoma, especially the desmoplastic subtype, may be subtle on low power just like invasive lobular carcinoma; however, desmoplastic melanoma subtype stains for Sox10 and S100 and, interestingly, is negative for MelanA and HMB45.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Negative."
+        },
+        {
+          "name": "S100",
+          "aliases": [],
+          "type": "IHC",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Melanoma, especially the desmoplastic subtype, may be subtle on low power just like invasive lobular carcinoma; however, desmoplastic melanoma subtype stains for Sox10 and S100 and, interestingly, is negative for MelanA and HMB45.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Negative."
+        },
+        {
+          "name": "HMB45",
+          "aliases": [
+            "HMB-45"
+          ],
+          "type": "IHC",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Melanoma, especially the desmoplastic subtype, may be subtle on low power just like invasive lobular carcinoma; however, desmoplastic melanoma subtype stains for Sox10 and S100 and, interestingly, is negative for MelanA and HMB45.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Negative."
+        },
+        {
           "name": "PR",
           "aliases": [
             "progesterone receptor"
@@ -2728,18 +2560,6 @@
           "basis": "Marker is recommended/associated in the source answer, but a case-specific polarity is not explicit."
         },
         {
-          "name": "HMB45",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Melanoma, especially the desmoplastic subtype, may be subtle on low power just like invasive lobular carcinoma; however, desmoplastic melanoma subtype stains for Sox10 and S100 and, interestingly, is negative for MelanA and HMB45. Other subtypes of melanoma (lentigo maligna, among others) will be positive for not only Sox10 and S100 but HMB45 and MelanA.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
           "name": "GATA3",
           "aliases": [],
           "type": "IHC",
@@ -2752,18 +2572,6 @@
           "basis": "Marker is recommended/associated in the source answer, but a case-specific polarity is not explicit."
         },
         {
-          "name": "SOX10",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Melanoma, especially the desmoplastic subtype, may be subtle on low power just like invasive lobular carcinoma; however, desmoplastic melanoma subtype stains for Sox10 and S100 and, interestingly, is negative for MelanA and HMB45. Other subtypes of melanoma (lentigo maligna, among others) will be positive for not only Sox10 and S100 but HMB45 and MelanA.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
           "name": "CDX2",
           "aliases": [],
           "type": "IHC",
@@ -2774,18 +2582,6 @@
           "provenance": "contextual_inference",
           "confidence": "low",
           "basis": "Marker is recommended/associated in the source answer, but a case-specific polarity is not explicit."
-        },
-        {
-          "name": "S100",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Melanoma, especially the desmoplastic subtype, may be subtle on low power just like invasive lobular carcinoma; however, desmoplastic melanoma subtype stains for Sox10 and S100 and, interestingly, is negative for MelanA and HMB45. Other subtypes of melanoma (lentigo maligna, among others) will be positive for not only Sox10 and S100 but HMB45 and MelanA.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
         }
       ],
       "references": [],
@@ -2840,20 +2636,6 @@
       ],
       "stains": [
         {
-          "name": "PR",
-          "aliases": [
-            "progesterone receptor"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Metaplastic carcinoma (MC) is a varied, heterogenous group of triple negative (ER-, PR-, HER2-) invasive breast cancers that characteristically demonstrate differentiation of the neoplastic epithelial elements (in this case, may stem from the LCIS) into squamous cells or mesenchymal-appearing cells.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
-        },
-        {
           "name": "ER",
           "aliases": [
             "estrogen receptor"
@@ -2865,19 +2647,21 @@
           "context": "Metaplastic carcinoma (MC) is a varied, heterogenous group of triple negative (ER-, PR-, HER2-) invasive breast cancers that characteristically demonstrate differentiation of the neoplastic epithelial elements (in this case, may stem from the LCIS) into squamous cells or mesenchymal-appearing cells.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
+          "basis": "Clause-scoped stain parser: Negative."
         },
         {
-          "name": "CD34",
-          "aliases": [],
+          "name": "PR",
+          "aliases": [
+            "progesterone receptor"
+          ],
           "type": "IHC",
           "result": "negative",
           "result_display": "Negative",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "CD34 should be positive in phyllodes tumor and negative in metaplastic carcinoma.",
+          "context": "Metaplastic carcinoma (MC) is a varied, heterogenous group of triple negative (ER-, PR-, HER2-) invasive breast cancers that characteristically demonstrate differentiation of the neoplastic epithelial elements (in this case, may stem from the LCIS) into squamous cells or mesenchymal-appearing cells.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Clause-scoped stain parser: Negative."
         },
         {
           "name": "HER2",
@@ -2889,7 +2673,7 @@
           "context": "Metaplastic carcinoma (MC) is a varied, heterogenous group of triple negative (ER-, PR-, HER2-) invasive breast cancers that characteristically demonstrate differentiation of the neoplastic epithelial elements (in this case, may stem from the LCIS) into squamous cells or mesenchymal-appearing cells.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
+          "basis": "Clause-scoped stain parser: Negative."
         },
         {
           "name": "p63",
@@ -2898,10 +2682,10 @@
           "result": "negative",
           "result_display": "Negative",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "Essentially, an invasive breast carcinoma or precursor lesion accompanied by a squamoid, spindled, or mesenchymal element is necessary for the diagnosis, and cases that lack an in situ or invasive component require a immunohistochemical panel to look for evidence of epithelial differentiation (i.e., HMWCK, p63, p40). It would usually be keratin/p63/p40 negative; however, a subset of cases show immunopositivity for keratins and squamous markers which is a diagnostic pitfall. The myoepithelial cells can be highlighted via immunohistochemistry with calponin/smooth muscle myosin heavy chain (SMMHC) or p63 as surrounding the epithelial elements.",
+          "context": "Essentially, an invasive breast carcinoma or precursor lesion accompanied by a squamoid, spindled, or mesenchymal element is necessary for the diagnosis, and cases that lack an in situ or invasive component require a immunohistochemical panel to look for evidence of epithelial differentiation (i.e., HMWCK, p63, p40).",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Clause-scoped stain parser: Negative."
         },
         {
           "name": "p40",
@@ -2910,10 +2694,22 @@
           "result": "negative",
           "result_display": "Negative",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "Essentially, an invasive breast carcinoma or precursor lesion accompanied by a squamoid, spindled, or mesenchymal element is necessary for the diagnosis, and cases that lack an in situ or invasive component require a immunohistochemical panel to look for evidence of epithelial differentiation (i.e., HMWCK, p63, p40). It would usually be keratin/p63/p40 negative; however, a subset of cases show immunopositivity for keratins and squamous markers which is a diagnostic pitfall.",
+          "context": "Essentially, an invasive breast carcinoma or precursor lesion accompanied by a squamoid, spindled, or mesenchymal element is necessary for the diagnosis, and cases that lack an in situ or invasive component require a immunohistochemical panel to look for evidence of epithelial differentiation (i.e., HMWCK, p63, p40).",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Clause-scoped stain parser: Negative."
+        },
+        {
+          "name": "CD34",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "CD34 should be positive in phyllodes tumor and negative in metaplastic carcinoma.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
         }
       ],
       "references": [
@@ -2937,9 +2733,12 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: corrected 1 explicit result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -2983,46 +2782,6 @@
       ],
       "stains": [
         {
-          "name": "Beta-catenin",
-          "aliases": [
-            "β-catenin"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Of note, unlike desmoid fibromatosis (DF), F-LMC lacks nuclear beta-catenin expression.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "panCK",
-          "aliases": [
-            "cytokeratin"
-          ],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "F-LMC would also be cytokeratin positive.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "CD34",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Metaplastic carcinomas would usually be negative for CD34, while phyllodes tumors would be immunopositive for this antigen.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
           "name": "p63",
           "aliases": [],
           "type": "IHC",
@@ -3064,11 +2823,13 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized_review_recommended",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
         "review_flags": [
-          "Review low-confidence stain interpretation: p63, p40"
-        ]
+          "Review low-confidence stain interpretation: p63, p40",
+          "stain_parser_v2: removed 3 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -3111,15 +2872,18 @@
       "stains": [
         {
           "name": "Beta-catenin",
-          "aliases": [],
+          "aliases": [
+            "β-catenin",
+            "beta catenin"
+          ],
           "type": "IHC",
           "result": "positive",
           "result_display": "Positive",
-          "interpretation": "Educational fallback because the source answer did not discuss stains.",
-          "context": "",
-          "provenance": "educational_fallback",
-          "confidence": "medium",
-          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain."
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Immunohistochemical modalities that may assist in the diagnosis include beta catenin, which should be nuclear-stain positive in basal cell adenoma and not in canalicular adenoma.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
         },
         {
           "name": "S100",
@@ -3175,9 +2939,10 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -3231,7 +2996,43 @@
           "context": "In comparison to our case, parathyroid carcinoma would lack the nuclear features of PTC and be immunoreactive for parathyroid hormone, GATA3, and neuroendocrine markers while negative for thyroglobulin and PAX8.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Clause-scoped stain parser: Negative."
+        },
+        {
+          "name": "GATA3",
+          "aliases": [],
+          "type": "IHC",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "In comparison to our case, parathyroid carcinoma would lack the nuclear features of PTC and be immunoreactive for parathyroid hormone, GATA3, and neuroendocrine markers while negative for thyroglobulin and PAX8.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Negative."
+        },
+        {
+          "name": "Thyroglobulin",
+          "aliases": [],
+          "type": "IHC",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "In comparison to our case, parathyroid carcinoma would lack the nuclear features of PTC and be immunoreactive for parathyroid hormone, GATA3, and neuroendocrine markers while negative for thyroglobulin and PAX8.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Negative."
+        },
+        {
+          "name": "PAX8",
+          "aliases": [],
+          "type": "IHC",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "In comparison to our case, parathyroid carcinoma would lack the nuclear features of PTC and be immunoreactive for parathyroid hormone, GATA3, and neuroendocrine markers while negative for thyroglobulin and PAX8.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Negative."
         },
         {
           "name": "Synaptophysin",
@@ -3246,18 +3047,6 @@
           "basis": "Marker is recommended/associated in the source answer, but a case-specific polarity is not explicit."
         },
         {
-          "name": "Thyroglobulin",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "In comparison to our case, parathyroid carcinoma would lack the nuclear features of PTC and be immunoreactive for parathyroid hormone, GATA3, and neuroendocrine markers while negative for thyroglobulin and PAX8.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
           "name": "Chromogranin",
           "aliases": [],
           "type": "IHC",
@@ -3270,18 +3059,6 @@
           "basis": "Marker is recommended/associated in the source answer, but a case-specific polarity is not explicit."
         },
         {
-          "name": "GATA3",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "In comparison to our case, parathyroid carcinoma would lack the nuclear features of PTC and be immunoreactive for parathyroid hormone, GATA3, and neuroendocrine markers while negative for thyroglobulin and PAX8.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
           "name": "INSM1",
           "aliases": [],
           "type": "IHC",
@@ -3292,18 +3069,6 @@
           "provenance": "contextual_inference",
           "confidence": "low",
           "basis": "Marker is recommended/associated in the source answer, but a case-specific polarity is not explicit."
-        },
-        {
-          "name": "PAX8",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "In comparison to our case, parathyroid carcinoma would lack the nuclear features of PTC and be immunoreactive for parathyroid hormone, GATA3, and neuroendocrine markers while negative for thyroglobulin and PAX8.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
         }
       ],
       "references": [
@@ -3373,24 +3138,7 @@
         "SWI/SNF complex-deficient sinonasal carcinoma",
         "HPV-associated multiphenotypic sinonasal carcinoma"
       ],
-      "stains": [
-        {
-          "name": "HPV ISH",
-          "aliases": [
-            "HPV",
-            "HPV in situ hybridization",
-            "HPV-ISH"
-          ],
-          "type": "ISH",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "HPV-associated multiphenotypic sinonasal carcinoma shares histologic and immunostaining features of salivary-type carcinomas and squamous cell carcinomas, with a biphasic population of cells undergoing ductal and myoepithelial differentiation with adenoid cystic carcinoma-like areas (cribriforming).",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
-        }
-      ],
+      "stains": [],
       "references": [
         {
           "text": "AlMadan NM, AlEssa EA, AlGhamdi DA. SMARCB1-Deficient Sinonasal Carcinoma: Case Report and Review of the Literature. Am J Case Rep. 2023 May 18;24:e939244. doi: 10.12659/AJCR.939244. PMID: 37198880; PMCID: PMC10201868.",
@@ -3408,9 +3156,12 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: removed 1 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -3680,25 +3431,37 @@
           "name": "CD34",
           "aliases": [],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
+          "result": "positive",
+          "result_display": "Positive",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "Interestingly, three different vessel types within the nodules can be characterized by immunohistochemistry: capillaries (CD34/CD31-positive and CD8-negative), sinusoids (CD34-negative, and CD8/CD31-positive), and small veins (CD34/CD8-negative and CD31-positive). The splenic littoral cells that line the splenic red pulp sinuses have histiocytic and endothelial differentiation with positivity for CD68 and CD31, yet interestingly, lack CD34 positivity.",
+          "context": "Interestingly, three different vessel types within the nodules can be characterized by immunohistochemistry: capillaries (CD34/CD31-positive and CD8-negative), sinusoids (CD34-negative, and CD8/CD31-positive), and small veins (CD34/CD8-negative and CD31-positive).",
           "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
+          "confidence": "medium",
+          "basis": "Clause-scoped stain parser: Positive."
         },
         {
           "name": "CD31",
           "aliases": [],
           "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Interestingly, three different vessel types within the nodules can be characterized by immunohistochemistry: capillaries (CD34/CD31-positive and CD8-negative), sinusoids (CD34-negative, and CD8/CD31-positive), and small veins (CD34/CD8-negative and CD31-positive).",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "CD8",
+          "aliases": [],
+          "type": "IHC",
           "result": "negative",
           "result_display": "Negative",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "Interestingly, three different vessel types within the nodules can be characterized by immunohistochemistry: capillaries (CD34/CD31-positive and CD8-negative), sinusoids (CD34-negative, and CD8/CD31-positive), and small veins (CD34/CD8-negative and CD31-positive). The splenic littoral cells that line the splenic red pulp sinuses have histiocytic and endothelial differentiation with positivity for CD68 and CD31, yet interestingly, lack CD34 positivity.",
+          "context": "Interestingly, three different vessel types within the nodules can be characterized by immunohistochemistry: capillaries (CD34/CD31-positive and CD8-negative), sinusoids (CD34-negative, and CD8/CD31-positive), and small veins (CD34/CD8-negative and CD31-positive).",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
+          "basis": "Clause-scoped stain parser: Negative."
         },
         {
           "name": "CD68",
@@ -3711,18 +3474,6 @@
           "provenance": "contextual_inference",
           "confidence": "low",
           "basis": "Marker is discussed in a staining context but the source text does not support a single definite polarity."
-        },
-        {
-          "name": "CD8",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Interestingly, three different vessel types within the nodules can be characterized by immunohistochemistry: capillaries (CD34/CD31-positive and CD8-negative), sinusoids (CD34-negative, and CD8/CD31-positive), and small veins (CD34/CD8-negative and CD31-positive).",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
         }
       ],
       "references": [
@@ -3742,11 +3493,13 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized_review_recommended",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
         "review_flags": [
-          "Review low-confidence stain interpretation: CD68"
-        ]
+          "Review low-confidence stain interpretation: CD68",
+          "stain_parser_v2: corrected 2 explicit result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -4058,10 +3811,10 @@
           "result": "negative",
           "result_display": "Negative",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "Immunohistochemical stains performed demonstrate the following: ALK = negative, FISH analysis (fluorescent in situ hybridization) indicates no detectable rearrangement involving the ALK gene region. Despite lack of ALK gene rearrangement, the morphology is in keeping with an inflammatory myofibroblastic tumor.",
+          "context": "Immunohistochemical stains performed demonstrate the following: ALK = negative, FISH analysis (fluorescent in situ hybridization) indicates no detectable rearrangement involving the ALK gene region.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Clause-scoped stain parser: Negative."
         }
       ],
       "references": [
@@ -4120,6 +3873,42 @@
       ],
       "stains": [
         {
+          "name": "PAX8",
+          "aliases": [],
+          "type": "IHC",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Immunohistochemically, this high-grade component shows: Pax8: negative; Sall4: positive (diffuse); AFP: positive; Glypican 3: positive; HNF-1b: focally positive; Napsin A: negative; ER: negative.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Negative."
+        },
+        {
+          "name": "SALL4",
+          "aliases": [],
+          "type": "IHC",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Immunohistochemically, this high-grade component shows: Pax8: negative; Sall4: positive (diffuse); AFP: positive; Glypican 3: positive; HNF-1b: focally positive; Napsin A: negative; ER: negative.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Negative."
+        },
+        {
+          "name": "AFP",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive (diffuse)",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Immunohistochemically, this high-grade component shows: Pax8: negative; Sall4: positive (diffuse); AFP: positive; Glypican 3: positive; HNF-1b: focally positive; Napsin A: negative; ER: negative.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive; qualifier(s): diffuse."
+        },
+        {
           "name": "ER",
           "aliases": [
             "estrogen receptor"
@@ -4131,43 +3920,7 @@
           "context": "Immunohistochemically, this high-grade component shows: Pax8: negative; Sall4: positive (diffuse); AFP: positive; Glypican 3: positive; HNF-1b: focally positive; Napsin A: negative; ER: negative.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "SALL4",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Immunohistochemically, this high-grade component shows: Pax8: negative; Sall4: positive (diffuse); AFP: positive; Glypican 3: positive; HNF-1b: focally positive; Napsin A: negative; ER: negative.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "PAX8",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Immunohistochemically, this high-grade component shows: Pax8: negative; Sall4: positive (diffuse); AFP: positive; Glypican 3: positive; HNF-1b: focally positive; Napsin A: negative; ER: negative.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "AFP",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Immunohistochemically, this high-grade component shows: Pax8: negative; Sall4: positive (diffuse); AFP: positive; Glypican 3: positive; HNF-1b: focally positive; Napsin A: negative; ER: negative.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "basis": "Clause-scoped stain parser: Negative; qualifier(s): focal."
         }
       ],
       "references": [
@@ -4183,9 +3936,12 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: corrected 2 explicit result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -4231,32 +3987,31 @@
       ],
       "stains": [
         {
-          "name": "PR",
+          "name": "TTF-1",
           "aliases": [
-            "progesterone receptor"
+            "TTF1",
+            "TTF"
           ],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
+          "result": "variable",
+          "result_display": "Patchy",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "ER/PR are negative. A negative ER/PR may make endometrioid adenocarcinoma less likely. A negative ER/PR may make endometrioid adenocarcinoma less likely.",
+          "context": "A TTF-1 patchy positivity and a focal weak GATA3 positivity may facilitate the diagnosis of mesonephric-like adenocarcinoma.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Clause-scoped stain parser: Patchy."
         },
         {
-          "name": "ER",
-          "aliases": [
-            "estrogen receptor"
-          ],
+          "name": "GATA3",
+          "aliases": [],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
+          "result": "variable",
+          "result_display": "Patchy",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "ER/PR are negative. A negative ER/PR may make endometrioid adenocarcinoma less likely. A negative ER/PR may make endometrioid adenocarcinoma less likely.",
+          "context": "A TTF-1 patchy positivity and a focal weak GATA3 positivity may facilitate the diagnosis of mesonephric-like adenocarcinoma.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Clause-scoped stain parser: Patchy; qualifier(s): weak, focal."
         },
         {
           "name": "p16",
@@ -4271,45 +4026,6 @@
           "provenance": "contextual_inference",
           "confidence": "low",
           "basis": "Marker is discussed in a staining context but the source text does not support a single definite polarity."
-        },
-        {
-          "name": "GATA3",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "A TTF-1 is patchy positive and a GATA3 is focal and weakly positive. A TTF-1 patchy positivity and a focal weak GATA3 positivity may facilitate the diagnosis of mesonephric-like adenocarcinoma. A TTF-1 patchy positivity and a focal weak GATA3 positivity may facilitate the diagnosis of mesonephric-like adenocarcinoma.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "TTF-1",
-          "aliases": [
-            "TTF1",
-            "TTF"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "A TTF-1 is patchy positive and a GATA3 is focal and weakly positive. A TTF-1 patchy positivity and a focal weak GATA3 positivity may facilitate the diagnosis of mesonephric-like adenocarcinoma. A TTF-1 patchy positivity and a focal weak GATA3 positivity may facilitate the diagnosis of mesonephric-like adenocarcinoma.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
-        },
-        {
-          "name": "PAX8",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "WT1 is negative, and PAX8 is positive.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
         },
         {
           "name": "CD10",
@@ -4336,18 +4052,6 @@
           "provenance": "contextual_inference",
           "confidence": "low",
           "basis": "Marker is discussed in a staining context but the source text does not support a single definite polarity."
-        },
-        {
-          "name": "WT1",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "WT1 is negative, and PAX8 is positive.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
         }
       ],
       "references": [
@@ -4363,11 +4067,14 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized_review_recommended",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
         "review_flags": [
-          "Review low-confidence stain interpretation: p16, p53"
-        ]
+          "Review low-confidence stain interpretation: p16, p53",
+          "stain_parser_v2: removed 4 unsupported prior explicit stain result(s)",
+          "stain_parser_v2: corrected 2 explicit result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -4653,30 +4360,6 @@
           "basis": "Marker is recommended/associated in the source answer, but a case-specific polarity is not explicit."
         },
         {
-          "name": "MUC4",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "In some cases, diagnosis may be difficult if the sclerotic stroma is absent, but recognizing a population of monotonous cells with MUC4 overexpression, present in 80-90% of SEF cases, may be useful.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "ALK",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Although anaplastic lymphoma kinase-gene (ALK) has been characteristically associated with IMT, it has been shown that ~50% of IMT may be ALK-negative; highly sensitive ALK antibody clones may improve detection.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
-        },
-        {
           "name": "EMA",
           "aliases": [],
           "type": "IHC",
@@ -4710,11 +4393,13 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized_review_recommended",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
         "review_flags": [
-          "Review low-confidence stain interpretation: SMA, EMA"
-        ]
+          "Review low-confidence stain interpretation: SMA, EMA",
+          "stain_parser_v2: removed 2 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -4753,27 +4438,17 @@
         "Malignant peripheral nerve sheath tumor",
         "Dedifferentiated liposarcoma"
       ],
-      "stains": [
-        {
-          "name": "Myogenin",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "It would be immunoreactive for MyoD1 and myogenin.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        }
-      ],
+      "stains": [],
       "references": [],
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: removed 1 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -4912,6 +4587,21 @@
       ],
       "stains": [
         {
+          "name": "SMARCB1",
+          "aliases": [
+            "INI1",
+            "INI-1"
+          ],
+          "type": "IHC",
+          "result": "loss",
+          "result_display": "Loss",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Immunohistochemically and molecularly it Is characterized by near-complete INI1/BAF47 (SMARCB1) loss.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Loss."
+        },
+        {
           "name": "panCK",
           "aliases": [
             "cytokeratin"
@@ -4936,21 +4626,6 @@
           "provenance": "contextual_inference",
           "confidence": "low",
           "basis": "Marker is discussed in a staining context but the source text does not support a single definite polarity."
-        },
-        {
-          "name": "SMARCB1",
-          "aliases": [
-            "INI1",
-            "INI-1"
-          ],
-          "type": "IHC",
-          "result": "loss",
-          "result_display": "Loss",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Immunohistochemically and molecularly it Is characterized by near-complete INI1/BAF47 (SMARCB1) loss.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Loss language in source answer."
         },
         {
           "name": "Desmin",
@@ -5092,6 +4767,90 @@
       ],
       "stains": [
         {
+          "name": "ALK",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "The neoplastic cells are positive for ALK+, CD30+, CD68+, CD163+, CD3+, CD4+, CD7+, and negative for CD20-, EBER ISH, and CD8-.",
+          "provenance": "explicit",
+          "confidence": "medium",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "CD30",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "The neoplastic cells are positive for ALK+, CD30+, CD68+, CD163+, CD3+, CD4+, CD7+, and negative for CD20-, EBER ISH, and CD8-.",
+          "provenance": "explicit",
+          "confidence": "medium",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "CD68",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "The neoplastic cells are positive for ALK+, CD30+, CD68+, CD163+, CD3+, CD4+, CD7+, and negative for CD20-, EBER ISH, and CD8-.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "CD163",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "The neoplastic cells are positive for ALK+, CD30+, CD68+, CD163+, CD3+, CD4+, CD7+, and negative for CD20-, EBER ISH, and CD8-.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Positive."
+        },
+        {
+          "name": "CD3",
+          "aliases": [],
+          "type": "IHC",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "The neoplastic cells are positive for ALK+, CD30+, CD68+, CD163+, CD3+, CD4+, CD7+, and negative for CD20-, EBER ISH, and CD8-.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Negative."
+        },
+        {
+          "name": "CD4",
+          "aliases": [],
+          "type": "IHC",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "The neoplastic cells are positive for ALK+, CD30+, CD68+, CD163+, CD3+, CD4+, CD7+, and negative for CD20-, EBER ISH, and CD8-.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Negative."
+        },
+        {
+          "name": "CD20",
+          "aliases": [],
+          "type": "IHC",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "The neoplastic cells are positive for ALK+, CD30+, CD68+, CD163+, CD3+, CD4+, CD7+, and negative for CD20-, EBER ISH, and CD8-.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Negative."
+        },
+        {
           "name": "EBER ISH",
           "aliases": [
             "EBER"
@@ -5103,43 +4862,19 @@
           "context": "The neoplastic cells are positive for ALK+, CD30+, CD68+, CD163+, CD3+, CD4+, CD7+, and negative for CD20-, EBER ISH, and CD8-.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Clause-scoped stain parser: Negative."
         },
         {
-          "name": "CD163",
+          "name": "CD8",
           "aliases": [],
           "type": "IHC",
           "result": "negative",
           "result_display": "Negative",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "The neoplastic cells are positive for ALK+, CD30+, CD68+, CD163+, CD3+, CD4+, CD7+, and negative for CD20-, EBER ISH, and CD8-. Just like ALK-positive ALCL, histiocytic sarcoma is positive for CD68 and CD163 but will not demonstrate immunoreactivity for ALK, CD30, nor CD3.",
+          "context": "The neoplastic cells are positive for ALK+, CD30+, CD68+, CD163+, CD3+, CD4+, CD7+, and negative for CD20-, EBER ISH, and CD8-.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Direct case-specific negative result in source answer."
-        },
-        {
-          "name": "CD68",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The neoplastic cells are positive for ALK+, CD30+, CD68+, CD163+, CD3+, CD4+, CD7+, and negative for CD20-, EBER ISH, and CD8-. Just like ALK-positive ALCL, histiocytic sarcoma is positive for CD68 and CD163 but will not demonstrate immunoreactivity for ALK, CD30, nor CD3.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Direct case-specific negative result in source answer."
-        },
-        {
-          "name": "CD30",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The neoplastic cells are positive for ALK+, CD30+, CD68+, CD163+, CD3+, CD4+, CD7+, and negative for CD20-, EBER ISH, and CD8-. Classical Hodgkin lymphoma would also be CD15+ combined with CD30+ positivity and will not display ALK positivity, and may also express positivity for PAX5, thus delineating CHL as a B-cell neoplasm. Peripheral T-cell lymphoma, NOS usually has a CD4 predominance as seen with the current case and contains variable CD30 positivity; it is usually ALK negative. Just like ALK-positive ALCL, histiocytic sarcoma is positive for CD68 and CD163 but will not demonstrate immunoreactivity for ALK, CD30, nor CD3. Of note, there is the entity known as ALK negative anaplastic large cell lymphoma, which will be CD30+ but ALK negative.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Direct case-specific negative result in source answer."
+          "basis": "Clause-scoped stain parser: Negative."
         },
         {
           "name": "CD15",
@@ -5164,66 +4899,6 @@
           "provenance": "differential_inference",
           "confidence": "medium",
           "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
-        },
-        {
-          "name": "CD20",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The neoplastic cells are positive for ALK+, CD30+, CD68+, CD163+, CD3+, CD4+, CD7+, and negative for CD20-, EBER ISH, and CD8-.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
-        },
-        {
-          "name": "ALK",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The neoplastic cells are positive for ALK+, CD30+, CD68+, CD163+, CD3+, CD4+, CD7+, and negative for CD20-, EBER ISH, and CD8-. Together, these point to the diagnosis of ALK-positive anaplastic large cell lymphoma. Classical Hodgkin lymphoma would also be CD15+ combined with CD30+ positivity and will not display ALK positivity, and may also express positivity for PAX5, thus delineating CHL as a B-cell neoplasm. Peripheral T-cell lymphoma, NOS usually has a CD4 predominance as seen with the current case and contains variable CD30 positivity; it is usually ALK negative. Just like ALK-positive ALCL, histiocytic sarcoma is positive for CD68 and CD163 but will not demonstrate immunoreactivity for ALK, CD30, nor CD3. Of note, there is the entity known as ALK negative anaplastic large cell lymphoma, which will be CD30+ but ALK negative.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Direct case-specific negative result in source answer."
-        },
-        {
-          "name": "CD8",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The neoplastic cells are positive for ALK+, CD30+, CD68+, CD163+, CD3+, CD4+, CD7+, and negative for CD20-, EBER ISH, and CD8-.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
-        },
-        {
-          "name": "CD3",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The neoplastic cells are positive for ALK+, CD30+, CD68+, CD163+, CD3+, CD4+, CD7+, and negative for CD20-, EBER ISH, and CD8-. Just like ALK-positive ALCL, histiocytic sarcoma is positive for CD68 and CD163 but will not demonstrate immunoreactivity for ALK, CD30, nor CD3.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Direct case-specific negative result in source answer."
-        },
-        {
-          "name": "CD4",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The neoplastic cells are positive for ALK+, CD30+, CD68+, CD163+, CD3+, CD4+, CD7+, and negative for CD20-, EBER ISH, and CD8-. Peripheral T-cell lymphoma, NOS usually has a CD4 predominance as seen with the current case and contains variable CD30 positivity; it is usually ALK negative. CD4 may not be helpful as it also stains histiocytes.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Direct case-specific negative result in source answer."
         }
       ],
       "references": [
@@ -5239,9 +4914,12 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: corrected 4 explicit result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -5285,30 +4963,34 @@
       ],
       "stains": [
         {
+          "name": "AE1/AE3",
+          "aliases": [
+            "AE1/3",
+            "AE1-AE3",
+            "AE1 AE3"
+          ],
+          "type": "IHC",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "An AE1/AE3 is negative in the lesional cells and highlights background sinonasal glands.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Negative."
+        },
+        {
           "name": "EBER ISH",
           "aliases": [
             "EBER"
           ],
           "type": "ISH",
-          "result": "negative",
-          "result_display": "Negative",
+          "result": "positive",
+          "result_display": "Positive",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "An EBER-ISH is positive This supports the diagnosis of extranodal NK/T cell lymphoma. EBER ISH is positive in almost 100% of cases and appears to be a driver in the pathogenesis. Angioimmunoblastic T cell lymphoma has a polymorphic morphology with prominent endothelial cells, expansion of follicular dendritic framework, and with expression of PD-1, CD10, BCL-6, CXCL13 or CCR5, although larger cells may be EBER ISH positive.",
+          "context": "An EBER-ISH is positive This supports the diagnosis of extranodal NK/T cell lymphoma.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
-        },
-        {
-          "name": "AE1/AE3",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "An AE1/AE3 is negative in the lesional cells and highlights background sinonasal glands. An undifferentiated sinonasal carcinoma will not display the discohesive architecture seen here, and would be positive for AE1/AE3 although it is important to note that undifferentiated carcinomas may lose keratin expression commensurate with the degree of undifferentiation.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Clause-scoped stain parser: Positive."
         },
         {
           "name": "CD10",
@@ -5321,30 +5003,6 @@
           "provenance": "differential_inference",
           "confidence": "medium",
           "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
-        },
-        {
-          "name": "CD56",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "CD56 and CD4, markers of NK and helper T cell differentiation, are positive and aid in the diagnosis. Primary cutaneous NK/T-cell lymphoma, nasal type and CD56-positive peripheral T-cell lymphoma: a cellular lineage and clinicopathologic study of 60 patients from Asia.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
-        },
-        {
-          "name": "CD45",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The clinical history of a fungating, nasal mass may raise suspicion for Wegener’s granulomatosis, but in this case CD45 diffusely highlights a lymphocytic neoplasm. It would not be floridly positive for CD45 like in the current case.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
         },
         {
           "name": "CD57",
@@ -5371,18 +5029,6 @@
           "basis": "Marker is recommended/associated in the source answer, but a case-specific polarity is not explicit."
         },
         {
-          "name": "CD4",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "CD56 and CD4, markers of NK and helper T cell differentiation, are positive and aid in the diagnosis.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
           "name": "CD5",
           "aliases": [],
           "type": "IHC",
@@ -5399,11 +5045,14 @@
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized_review_recommended",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
         "review_flags": [
-          "Review low-confidence stain interpretation: CD57, CD8, CD5"
-        ]
+          "Review low-confidence stain interpretation: CD57, CD8, CD5",
+          "stain_parser_v2: removed 3 unsupported prior explicit stain result(s)",
+          "stain_parser_v2: corrected 1 explicit result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -5446,18 +5095,64 @@
       ],
       "stains": [
         {
-          "name": "EBER ISH",
-          "aliases": [
-            "EBER"
-          ],
-          "type": "ISH",
+          "name": "CD20",
+          "aliases": [],
+          "type": "IHC",
           "result": "negative",
           "result_display": "Negative",
           "interpretation": "Result stated directly in the source answer.",
-          "context": "Epstein-Barr encoded RNA in situ hybridization (EBER-ISH) is negative.",
+          "context": "Like CHL, NLP HL is composed of a small proportion of neoplastic cells that appear like popcorn cells but are overall smaller and stain for CD20 and CD45 (unlike the neoplastic cells of CHL which stain for CD15 and CD30 with negative staining for CD20 and CD45.) Diffuse large B-cell lymphoma will have (on the hematopathology scale) large cells with atypical, sometimes bizarre nuclear atypia that may resemble a dedifferentiated carcinoma.",
+          "provenance": "explicit",
+          "confidence": "medium",
+          "basis": "Clause-scoped stain parser: Negative."
+        },
+        {
+          "name": "CD45",
+          "aliases": [],
+          "type": "IHC",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Like CHL, NLP HL is composed of a small proportion of neoplastic cells that appear like popcorn cells but are overall smaller and stain for CD20 and CD45 (unlike the neoplastic cells of CHL which stain for CD15 and CD30 with negative staining for CD20 and CD45.) Diffuse large B-cell lymphoma will have (on the hematopathology scale) large cells with atypical, sometimes bizarre nuclear atypia that may resemble a dedifferentiated carcinoma.",
+          "provenance": "explicit",
+          "confidence": "medium",
+          "basis": "Clause-scoped stain parser: Negative."
+        },
+        {
+          "name": "CD15",
+          "aliases": [],
+          "type": "IHC",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Like CHL, NLP HL is composed of a small proportion of neoplastic cells that appear like popcorn cells but are overall smaller and stain for CD20 and CD45 (unlike the neoplastic cells of CHL which stain for CD15 and CD30 with negative staining for CD20 and CD45.) Diffuse large B-cell lymphoma will have (on the hematopathology scale) large cells with atypical, sometimes bizarre nuclear atypia that may resemble a dedifferentiated carcinoma.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
+          "basis": "Clause-scoped stain parser: Negative."
+        },
+        {
+          "name": "CD30",
+          "aliases": [],
+          "type": "IHC",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Like CHL, NLP HL is composed of a small proportion of neoplastic cells that appear like popcorn cells but are overall smaller and stain for CD20 and CD45 (unlike the neoplastic cells of CHL which stain for CD15 and CD30 with negative staining for CD20 and CD45.) Diffuse large B-cell lymphoma will have (on the hematopathology scale) large cells with atypical, sometimes bizarre nuclear atypia that may resemble a dedifferentiated carcinoma.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Negative."
+        },
+        {
+          "name": "ALK",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Diffuse",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Lastly, anaplastic large cell lymphoma (ALCL) is considered the T-cell equivalent of diffuse large B-cell lymphoma, and is split into two entities with anaplastic lymphoma kinase (ALK) immunohistochemical positivity and those with ALK nonreactivity.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Diffuse."
         },
         {
           "name": "CD10",
@@ -5470,89 +5165,20 @@
           "provenance": "contextual_inference",
           "confidence": "low",
           "basis": "Marker is recommended/associated in the source answer, but a case-specific polarity is not explicit."
-        },
-        {
-          "name": "CD30",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "A provided CD15 and CD30 stain highlight these large binucleated cells. Like CHL, NLP HL is composed of a small proportion of neoplastic cells that appear like popcorn cells but are overall smaller and stain for CD20 and CD45 (unlike the neoplastic cells of CHL which stain for CD15 and CD30 with negative staining for CD20 and CD45.) Diffuse large B-cell lymphoma will have (on the hematopathology scale) large cells with atypical, sometimes bizarre nuclear atypia that may resemble a dedifferentiated carcinoma.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "CD15",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "A provided CD15 and CD30 stain highlight these large binucleated cells. Like CHL, NLP HL is composed of a small proportion of neoplastic cells that appear like popcorn cells but are overall smaller and stain for CD20 and CD45 (unlike the neoplastic cells of CHL which stain for CD15 and CD30 with negative staining for CD20 and CD45.) Diffuse large B-cell lymphoma will have (on the hematopathology scale) large cells with atypical, sometimes bizarre nuclear atypia that may resemble a dedifferentiated carcinoma.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "CD45",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Like CHL, NLP HL is composed of a small proportion of neoplastic cells that appear like popcorn cells but are overall smaller and stain for CD20 and CD45 (unlike the neoplastic cells of CHL which stain for CD15 and CD30 with negative staining for CD20 and CD45.) Diffuse large B-cell lymphoma will have (on the hematopathology scale) large cells with atypical, sometimes bizarre nuclear atypia that may resemble a dedifferentiated carcinoma.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "CD20",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The inflammatory infiltrate is predominantly composed of CD3 positive T cells as well as CD20 positive B cells. Like CHL, NLP HL is composed of a small proportion of neoplastic cells that appear like popcorn cells but are overall smaller and stain for CD20 and CD45 (unlike the neoplastic cells of CHL which stain for CD15 and CD30 with negative staining for CD20 and CD45.) Diffuse large B-cell lymphoma will have (on the hematopathology scale) large cells with atypical, sometimes bizarre nuclear atypia that may resemble a dedifferentiated carcinoma.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "ALK",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Lastly, anaplastic large cell lymphoma (ALCL) is considered the T-cell equivalent of diffuse large B-cell lymphoma, and is split into two entities with anaplastic lymphoma kinase (ALK) immunohistochemical positivity and those with ALK nonreactivity. ALK-positive anaplastic large cell lymphoma mimicking nodular sclerosis Hodgkin's lymphoma: report of 10 cases.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
-        },
-        {
-          "name": "CD3",
-          "aliases": [],
-          "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The inflammatory infiltrate is predominantly composed of CD3 positive T cells as well as CD20 positive B cells.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
         }
       ],
       "references": [],
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized_review_recommended",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
         "review_flags": [
-          "Review low-confidence stain interpretation: CD10"
-        ]
+          "Review low-confidence stain interpretation: CD10",
+          "stain_parser_v2: removed 2 unsupported prior explicit stain result(s)",
+          "stain_parser_v2: corrected 1 explicit result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -5598,22 +5224,23 @@
             "progesterone receptor"
           ],
           "type": "IHC",
-          "result": "negative_variable",
-          "result_display": "Negative / variable",
-          "interpretation": "Expected/supportive immunophenotype described for the diagnosed entity.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result stated directly in the source answer.",
           "context": "Well-differentiated neuroendocrine tumor (WDNET) would contain a similar nested, trabecular organization as seen here but would lack the triphasic morphology, and pancreatic polypeptide with progesterone receptor (PR) immunostains have been shown in some studies to aid in distinguishing the two.",
-          "provenance": "entity_profile",
-          "confidence": "medium",
-          "basis": "Source answer describes this as a typical/possible negative feature of the diagnosed entity."
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Negative."
         }
       ],
       "references": [],
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -5654,34 +5281,6 @@
       ],
       "stains": [
         {
-          "name": "SMA",
-          "aliases": [
-            "smooth muscle actin"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "Glomus tumor is a pericytic-like neoplasm but is extremely rare in the sinonasal region, and is positive for smooth muscle actin but negative for beta-catenin nuclear staining.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
-          "name": "Beta-catenin",
-          "aliases": [
-            "β-catenin"
-          ],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "The beta-catenin immunostain will highlight nearly all tumor cells in a nuclear and cytoplasmic fashion. Glomus tumor is a pericytic-like neoplasm but is extremely rare in the sinonasal region, and is positive for smooth muscle actin but negative for beta-catenin nuclear staining.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
-        },
-        {
           "name": "Cyclin D1",
           "aliases": [
             "CyclinD1",
@@ -5695,27 +5294,18 @@
           "provenance": "entity_profile",
           "confidence": "medium",
           "basis": "Source answer describes diagnostically useful staining/expression for this marker."
-        },
-        {
-          "name": "STAT6",
-          "aliases": [],
-          "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result stated directly in the source answer.",
-          "context": "SFT will be positive for STAT6 and negative for beta catenin nuclear staining.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
         }
       ],
       "references": [],
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
-        "review_flags": []
+        "review_flags": [
+          "stain_parser_v2: removed 3 unsupported prior explicit stain result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
@@ -5851,18 +5441,37 @@
       ],
       "stains": [
         {
+          "name": "panCK",
+          "aliases": [
+            "cytokeratin",
+            "cytokeratins",
+            "pan-cytokeratin",
+            "pancytokeratin",
+            "pan keratin",
+            "broad-spectrum cytokeratin"
+          ],
+          "type": "IHC",
+          "result": "positive",
+          "result_display": "Diffuse",
+          "interpretation": "Result stated directly in the source answer.",
+          "context": "Cholangioblastic cholangiocarcinoma typically labels for biliary cytokeratins such as cytokeratin 7, and demonstrates diffuse immunoreactivity for inhibin.",
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Diffuse."
+        },
+        {
           "name": "CK7",
           "aliases": [
             "cytokeratin 7"
           ],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Contextual educational inference from the source answer.",
+          "result": "positive",
+          "result_display": "Diffuse",
+          "interpretation": "Result stated directly in the source answer.",
           "context": "Cholangioblastic cholangiocarcinoma typically labels for biliary cytokeratins such as cytokeratin 7, and demonstrates diffuse immunoreactivity for inhibin.",
-          "provenance": "contextual_inference",
-          "confidence": "low",
-          "basis": "Marker is recommended/associated in the source answer, but a case-specific polarity is not explicit."
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Clause-scoped stain parser: Diffuse."
         },
         {
           "name": "Inhibin",
@@ -5871,37 +5480,25 @@
           ],
           "type": "IHC",
           "result": "positive",
-          "result_display": "Positive",
+          "result_display": "Diffuse (diffuse)",
           "interpretation": "Result stated directly in the source answer.",
           "context": "Cholangioblastic cholangiocarcinoma typically labels for biliary cytokeratins such as cytokeratin 7, and demonstrates diffuse immunoreactivity for inhibin.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
-        },
-        {
-          "name": "panCK",
-          "aliases": [
-            "cytokeratin"
-          ],
-          "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Contextual educational inference from the source answer.",
-          "context": "Cholangioblastic cholangiocarcinoma typically labels for biliary cytokeratins such as cytokeratin 7, and demonstrates diffuse immunoreactivity for inhibin.",
-          "provenance": "contextual_inference",
-          "confidence": "low",
-          "basis": "Marker is recommended/associated in the source answer, but a case-specific polarity is not explicit."
+          "basis": "Clause-scoped stain parser: Diffuse; qualifier(s): diffuse."
         }
       ],
       "references": [],
       "metadata": {
         "case_version": 1,
         "source_type": "external",
-        "curation_status": "auto_normalized_review_recommended",
+        "curation_status": "stain_parser_v2_rebuilt",
         "original_extractor_version": "1.0.0",
         "review_flags": [
-          "Review low-confidence stain interpretation: CK7, panCK"
-        ]
+          "Review low-confidence stain interpretation: CK7, panCK",
+          "stain_parser_v2: corrected 1 explicit result(s)"
+        ],
+        "stain_parser_version": "2.0.0"
       }
     },
     {
