@@ -1,0 +1,11 @@
+{
+  "schema_version": "2.0.0",
+  "generated_date": "2026-11-08",
+  "case_count": 200,
+  "chunks": [
+    "assets/pathunknowns/v2/cases-001-050.json",
+    "assets/pathunknowns/v2/cases-051-100.json",
+    "assets/pathunknowns/v2/cases-101-150.json",
+    "assets/pathunknowns/v2/cases-151-200.json"
+  ]
+}
