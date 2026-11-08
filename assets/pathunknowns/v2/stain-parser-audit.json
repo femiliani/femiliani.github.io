@@ -1,0 +1,1693 @@
+{
+  "parser_version": "2.0.0",
+  "generated_date": "2026-11-08",
+  "method": "Clause-scoped rule parser over answer.text; explicit case-level results replace prior auto-parsed explicit entries; non-explicit curated/inferred entries are retained.",
+  "safeguards": [
+    "Contrast clauses (but/while/whereas/however) are parsed separately.",
+    "Differential/general-profile statements are excluded when not case-scoped.",
+    "Recommended or proposed stains are not treated as performed results.",
+    "Generic marker groups are not expanded into invented individual stains.",
+    "Wild-type, patchy, retained/intact, loss, focal and compartment qualifiers are preserved in result_display/context."
+  ],
+  "summary": {
+    "cases": 200,
+    "cases_changed": 116,
+    "old_explicit": 420,
+    "new_explicit": 262,
+    "explicit_added": 40,
+    "explicit_removed": 198,
+    "explicit_result_changed": 95
+  },
+  "cases": [
+    {
+      "id": "w819c3",
+      "diagnosis": "Perivascular epithelioid cell tumor (PEComa)",
+      "added": [],
+      "removed": [
+        "Cathepsin K",
+        "TFE3"
+      ],
+      "changed": [
+        {
+          "name": "HMB45",
+          "from": "Negative",
+          "to": "Positive"
+        },
+        {
+          "name": "Melan-A",
+          "from": "Negative",
+          "to": "Positive"
+        }
+      ]
+    },
+    {
+      "id": "w819c2",
+      "diagnosis": "Mesonephric/mesonephic-like carcinosarcoma",
+      "added": [
+        "p16"
+      ],
+      "removed": [],
+      "changed": [
+        {
+          "name": "PAX8",
+          "from": "Negative",
+          "to": "Positive"
+        },
+        {
+          "name": "CK7",
+          "from": "Negative",
+          "to": "Positive"
+        },
+        {
+          "name": "GATA3",
+          "from": "Negative",
+          "to": "Positive"
+        },
+        {
+          "name": "TTF-1",
+          "from": "Negative",
+          "to": "Positive (luminal)"
+        },
+        {
+          "name": "CD10",
+          "from": "Negative",
+          "to": "Positive (luminal)"
+        },
+        {
+          "name": "p53",
+          "from": "Negative",
+          "to": "Wild-type"
+        }
+      ]
+    },
+    {
+      "id": "w819c1",
+      "diagnosis": "Low grade endometrioid stromal sarcoma",
+      "added": [],
+      "removed": [
+        "PR",
+        "ER",
+        "CD117",
+        "CD10"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w818c3",
+      "diagnosis": "Pregnancy luteoma",
+      "added": [],
+      "removed": [
+        "Reticulin",
+        "Inhibin"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w818c2",
+      "diagnosis": "Fumarate hydratase-deficient atypical leiomyoma",
+      "added": [],
+      "removed": [],
+      "changed": [
+        {
+          "name": "2SC",
+          "from": "Loss",
+          "to": "Positive (diffuse)"
+        }
+      ]
+    },
+    {
+      "id": "w818c1",
+      "diagnosis": "Appendiceal-type low-grade mucinous neoplasm arising from a mature cystic teratoma",
+      "added": [],
+      "removed": [],
+      "changed": [
+        {
+          "name": "CK20",
+          "from": "Negative",
+          "to": "Positive"
+        }
+      ]
+    },
+    {
+      "id": "w817c3",
+      "diagnosis": "Uterine tumor resembling ovarian sex cord tumor (UTROSCT)",
+      "added": [
+        "panCK",
+        "Desmin",
+        "Inhibin",
+        "SF1",
+        "Calretinin"
+      ],
+      "removed": [],
+      "changed": []
+    },
+    {
+      "id": "w817c2",
+      "diagnosis": "Primary endometrial squamous cell carcinoma",
+      "added": [],
+      "removed": [
+        "PR",
+        "ER",
+        "p53"
+      ],
+      "changed": [
+        {
+          "name": "HPV ISH",
+          "from": "Negative",
+          "to": "Diffuse"
+        },
+        {
+          "name": "p16",
+          "from": "Negative",
+          "to": "Block positive"
+        }
+      ]
+    },
+    {
+      "id": "w817c1",
+      "diagnosis": "Low-grade endometrial stromal sarcoma",
+      "added": [
+        "Beta-catenin"
+      ],
+      "removed": [],
+      "changed": [
+        {
+          "name": "CD10",
+          "from": "Positive / variable",
+          "to": "Positive"
+        },
+        {
+          "name": "WT1",
+          "from": "Positive / variable",
+          "to": "Positive"
+        },
+        {
+          "name": "ER",
+          "from": "Negative",
+          "to": "Positive"
+        },
+        {
+          "name": "PR",
+          "from": "Negative",
+          "to": "Positive"
+        },
+        {
+          "name": "Desmin",
+          "from": "Positive / variable",
+          "to": "Positive"
+        },
+        {
+          "name": "h-caldesmon",
+          "from": "Positive / variable",
+          "to": "Positive"
+        },
+        {
+          "name": "Inhibin",
+          "from": "Positive / variable",
+          "to": "Positive"
+        },
+        {
+          "name": "Calretinin",
+          "from": "Positive / variable",
+          "to": "Positive"
+        },
+        {
+          "name": "Melan-A",
+          "from": "Positive / variable",
+          "to": "Positive"
+        },
+        {
+          "name": "CD99",
+          "from": "Positive / variable",
+          "to": "Positive"
+        },
+        {
+          "name": "BCOR",
+          "from": "Negative",
+          "to": "Positive"
+        },
+        {
+          "name": "Cyclin D1",
+          "from": "Negative",
+          "to": "Positive"
+        }
+      ]
+    },
+    {
+      "id": "w816c2",
+      "diagnosis": "Solid pseudopapillary neoplasm of ovary",
+      "added": [
+        "PR",
+        "Synaptophysin",
+        "CD117"
+      ],
+      "removed": [],
+      "changed": [
+        {
+          "name": "Beta-catenin",
+          "from": "Positive",
+          "to": "Positive (nuclear)"
+        }
+      ]
+    },
+    {
+      "id": "w816c1",
+      "diagnosis": "Microcystic stromal tumor",
+      "added": [],
+      "removed": [],
+      "changed": [
+        {
+          "name": "Beta-catenin",
+          "from": "Negative",
+          "to": "Positive (nuclear, cytoplasmic)"
+        },
+        {
+          "name": "CD10",
+          "from": "Negative",
+          "to": "Positive"
+        },
+        {
+          "name": "WT1",
+          "from": "Negative",
+          "to": "Positive"
+        },
+        {
+          "name": "FOXL2",
+          "from": "Negative",
+          "to": "Positive"
+        },
+        {
+          "name": "Cyclin D1",
+          "from": "Negative",
+          "to": "Positive"
+        },
+        {
+          "name": "SF1",
+          "from": "Negative",
+          "to": "Positive"
+        }
+      ]
+    },
+    {
+      "id": "w815c3",
+      "diagnosis": "Metastatic epithelioid trophoblastic tumor (ETT)",
+      "added": [],
+      "removed": [
+        "hCG"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w815c1",
+      "diagnosis": "Seromucinous borderline tumor",
+      "added": [],
+      "removed": [
+        "PR",
+        "ER",
+        "CK20",
+        "CK7",
+        "PAX8",
+        "CDX2",
+        "WT1"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w814c3",
+      "diagnosis": "Angiomyolipoma",
+      "added": [
+        "HMB45"
+      ],
+      "removed": [],
+      "changed": []
+    },
+    {
+      "id": "w814c1",
+      "diagnosis": "Pancreatoblastoma",
+      "added": [
+        "Beta-catenin"
+      ],
+      "removed": [],
+      "changed": []
+    },
+    {
+      "id": "w813c2",
+      "diagnosis": "HPV-related multiphenotypic sinonasal carcinoma",
+      "added": [],
+      "removed": [],
+      "changed": [
+        {
+          "name": "SMARCB1",
+          "from": "Negative",
+          "to": "Loss"
+        }
+      ]
+    },
+    {
+      "id": "w813c1",
+      "diagnosis": "Polymorphous adenocarcinoma",
+      "added": [],
+      "removed": [
+        "p63",
+        "p40"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w812c2",
+      "diagnosis": "Metaplastic carcinoma with lobular carcinoma in situ (LCIS)",
+      "added": [],
+      "removed": [],
+      "changed": [
+        {
+          "name": "CD34",
+          "from": "Negative",
+          "to": "Positive"
+        }
+      ]
+    },
+    {
+      "id": "w812c1",
+      "diagnosis": "Malignant phyllodes tumor",
+      "added": [],
+      "removed": [
+        "Beta-catenin",
+        "panCK",
+        "CD34"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w811c3",
+      "diagnosis": "Canalicular adenoma",
+      "added": [
+        "Beta-catenin"
+      ],
+      "removed": [],
+      "changed": []
+    },
+    {
+      "id": "w811c1",
+      "diagnosis": "Sinonasal carcinoma with DEK-AFF2 gene fusion",
+      "added": [],
+      "removed": [
+        "HPV ISH"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w810c1",
+      "diagnosis": "Sclerosing angiomatoid nodular transformation (SANT)",
+      "added": [],
+      "removed": [],
+      "changed": [
+        {
+          "name": "CD34",
+          "from": "Negative",
+          "to": "Positive"
+        },
+        {
+          "name": "CD31",
+          "from": "Negative",
+          "to": "Positive"
+        }
+      ]
+    },
+    {
+      "id": "w808c2",
+      "diagnosis": "Endometrioid carcinoma with yolk sac tumor differentiation",
+      "added": [],
+      "removed": [],
+      "changed": [
+        {
+          "name": "SALL4",
+          "from": "Positive",
+          "to": "Negative"
+        },
+        {
+          "name": "AFP",
+          "from": "Positive",
+          "to": "Positive (diffuse)"
+        }
+      ]
+    },
+    {
+      "id": "w808c1",
+      "diagnosis": "Mesonephric-like adenocarcinoma",
+      "added": [],
+      "removed": [
+        "PR",
+        "ER",
+        "PAX8",
+        "WT1"
+      ],
+      "changed": [
+        {
+          "name": "TTF-1",
+          "from": "Negative",
+          "to": "Patchy"
+        },
+        {
+          "name": "GATA3",
+          "from": "Positive / variable",
+          "to": "Patchy"
+        }
+      ]
+    },
+    {
+      "id": "w807c1",
+      "diagnosis": "Sclerosing epithelioid fibrosarcoma",
+      "added": [],
+      "removed": [
+        "MUC4",
+        "ALK"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w806c3",
+      "diagnosis": "Pleomorphic liposarcoma",
+      "added": [],
+      "removed": [
+        "Myogenin"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w805c3",
+      "diagnosis": "Anaplastic large cell lymphoma, ALK positive",
+      "added": [],
+      "removed": [],
+      "changed": [
+        {
+          "name": "ALK",
+          "from": "Negative",
+          "to": "Positive"
+        },
+        {
+          "name": "CD30",
+          "from": "Negative",
+          "to": "Positive"
+        },
+        {
+          "name": "CD68",
+          "from": "Negative",
+          "to": "Positive"
+        },
+        {
+          "name": "CD163",
+          "from": "Negative",
+          "to": "Positive"
+        }
+      ]
+    },
+    {
+      "id": "w805c2",
+      "diagnosis": "Extranodal NK/T cell lymphoma",
+      "added": [],
+      "removed": [
+        "CD56",
+        "CD45",
+        "CD4"
+      ],
+      "changed": [
+        {
+          "name": "EBER ISH",
+          "from": "Negative",
+          "to": "Positive"
+        }
+      ]
+    },
+    {
+      "id": "w805c1",
+      "diagnosis": "Classical Hodgkin lymphoma",
+      "added": [],
+      "removed": [
+        "EBER ISH",
+        "CD3"
+      ],
+      "changed": [
+        {
+          "name": "ALK",
+          "from": "Negative",
+          "to": "Diffuse"
+        }
+      ]
+    },
+    {
+      "id": "w804c3",
+      "diagnosis": "Gangliocytic paraganglioma with invasive moderately differentiated adenocarcinoma",
+      "added": [
+        "PR"
+      ],
+      "removed": [],
+      "changed": []
+    },
+    {
+      "id": "w804c2",
+      "diagnosis": "Sinonasal glomangiopericytoma",
+      "added": [],
+      "removed": [
+        "SMA",
+        "Beta-catenin",
+        "STAT6"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w803c3",
+      "diagnosis": "Fibrolamellar hepatocellular carcinoma",
+      "added": [
+        "panCK",
+        "CK7"
+      ],
+      "removed": [],
+      "changed": [
+        {
+          "name": "Inhibin",
+          "from": "Positive",
+          "to": "Diffuse (diffuse)"
+        }
+      ]
+    },
+    {
+      "id": "w803c1",
+      "diagnosis": "Atypical carcinoid tumor",
+      "added": [
+        "AE1/AE3"
+      ],
+      "removed": [],
+      "changed": [
+        {
+          "name": "panCK",
+          "from": "Positive",
+          "to": "Diffuse (diffuse)"
+        },
+        {
+          "name": "Chromogranin",
+          "from": "Positive",
+          "to": "Diffuse"
+        },
+        {
+          "name": "Synaptophysin",
+          "from": "Positive",
+          "to": "Diffuse"
+        }
+      ]
+    },
+    {
+      "id": "w801c1",
+      "diagnosis": "Complete hydatidiform mole with prominent trophoblastic hyperplasia",
+      "added": [],
+      "removed": [],
+      "changed": [
+        {
+          "name": "p57",
+          "from": "Positive",
+          "to": "Negative"
+        }
+      ]
+    },
+    {
+      "id": "w800c3",
+      "diagnosis": "Adrenocortical carcinoma",
+      "added": [
+        "AE1/AE3"
+      ],
+      "removed": [],
+      "changed": [
+        {
+          "name": "Synaptophysin",
+          "from": "Positive",
+          "to": "Positive (focal)"
+        },
+        {
+          "name": "panCK",
+          "from": "Positive",
+          "to": "Focally positive (focal)"
+        }
+      ]
+    },
+    {
+      "id": "w800c2",
+      "diagnosis": "Deciduosis",
+      "added": [
+        "AE1/AE3"
+      ],
+      "removed": [],
+      "changed": [
+        {
+          "name": "CD10",
+          "from": "Negative",
+          "to": "Positive"
+        },
+        {
+          "name": "PR",
+          "from": "Negative",
+          "to": "Positive"
+        }
+      ]
+    },
+    {
+      "id": "w799c2",
+      "diagnosis": "Metastatic carcinoma",
+      "added": [],
+      "removed": [
+        "TTF-1",
+        "p40"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w797c3",
+      "diagnosis": "Synovial Sarcoma",
+      "added": [],
+      "removed": [
+        "TLE1"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w797c2",
+      "diagnosis": "Cholangioblastic cholangiocarcinoma",
+      "added": [],
+      "removed": [],
+      "changed": [
+        {
+          "name": "Inhibin",
+          "from": "Positive",
+          "to": "Diffuse (diffuse)"
+        },
+        {
+          "name": "panCK",
+          "from": "Positive",
+          "to": "Diffuse"
+        }
+      ]
+    },
+    {
+      "id": "w796c2",
+      "diagnosis": "Medullary thyroid carcinoma",
+      "added": [],
+      "removed": [
+        "Calcitonin",
+        "TTF-1"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w796c1",
+      "diagnosis": "Parathyroid adenoma",
+      "added": [],
+      "removed": [
+        "Thyroglobulin",
+        "TTF-1",
+        "PAX8"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w795c3",
+      "diagnosis": "Angiomyolipoma",
+      "added": [
+        "panCK"
+      ],
+      "removed": [],
+      "changed": [
+        {
+          "name": "HMB45",
+          "from": "Negative",
+          "to": "Patchy"
+        },
+        {
+          "name": "Cathepsin K",
+          "from": "Negative",
+          "to": "Patchy"
+        }
+      ]
+    },
+    {
+      "id": "w795c1",
+      "diagnosis": "Dedifferentiated liposarcoma",
+      "added": [],
+      "removed": [
+        "panCK",
+        "STAT6",
+        "S100",
+        "CD34",
+        "CD99",
+        "SF1"
+      ],
+      "changed": [
+        {
+          "name": "MDM2",
+          "from": "Positive",
+          "to": "Positive (nuclear, strong)"
+        }
+      ]
+    },
+    {
+      "id": "w794c3",
+      "diagnosis": "Involvement by an intestinal adenocarcinoma",
+      "added": [],
+      "removed": [
+        "NKX3.1",
+        "CDX2"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w794c2",
+      "diagnosis": "Low grade oncocytic tumor",
+      "added": [],
+      "removed": [
+        "CK7",
+        "CD117"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w794c1",
+      "diagnosis": "Renal medullary RCC",
+      "added": [],
+      "removed": [
+        "SMARCB1"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w793c2",
+      "diagnosis": "Low-grade oncocytic tumor",
+      "added": [
+        "CD117"
+      ],
+      "removed": [],
+      "changed": [
+        {
+          "name": "CK7",
+          "from": "Positive",
+          "to": "Diffuse (diffuse)"
+        }
+      ]
+    },
+    {
+      "id": "w792c3",
+      "diagnosis": "Xanthogranulomatous pyelonephritis",
+      "added": [
+        "AE1/AE3",
+        "CD68",
+        "CD163"
+      ],
+      "removed": [],
+      "changed": []
+    },
+    {
+      "id": "w792c2",
+      "diagnosis": "Prostatic adenocarcinoma with aberrant p63 expression",
+      "added": [],
+      "removed": [
+        "AMACR",
+        "PSA"
+      ],
+      "changed": [
+        {
+          "name": "p63",
+          "from": "Positive",
+          "to": "Diffuse (nuclear, diffuse)"
+        },
+        {
+          "name": "AR",
+          "from": "Positive",
+          "to": "Diffuse"
+        },
+        {
+          "name": "NKX3.1",
+          "from": "Positive",
+          "to": "Diffuse"
+        }
+      ]
+    },
+    {
+      "id": "w792c1",
+      "diagnosis": "Papillary renal neoplasm with reversed polarity",
+      "added": [],
+      "removed": [],
+      "changed": [
+        {
+          "name": "CK7",
+          "from": "Negative",
+          "to": "Positive"
+        }
+      ]
+    },
+    {
+      "id": "w791c3",
+      "diagnosis": "Pancreatoblastoma",
+      "added": [],
+      "removed": [
+        "Chymotrypsin",
+        "Trypsin"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w791c2",
+      "diagnosis": "Metastatic hepatocellular carcinoma",
+      "added": [],
+      "removed": [
+        "Melan-A",
+        "HMB45",
+        "SOX10",
+        "S100"
+      ],
+      "changed": [
+        {
+          "name": "CK7",
+          "from": "Positive / variable",
+          "to": "Positive"
+        },
+        {
+          "name": "ER",
+          "from": "Positive / variable",
+          "to": "Positive"
+        },
+        {
+          "name": "PR",
+          "from": "Positive / variable",
+          "to": "Positive"
+        },
+        {
+          "name": "GATA3",
+          "from": "Positive / variable",
+          "to": "Positive"
+        }
+      ]
+    },
+    {
+      "id": "w791c1",
+      "diagnosis": "Hepatoid carcinoma of the pancreas",
+      "added": [],
+      "removed": [
+        "Chymotrypsin",
+        "Trypsin",
+        "BCL10"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w790c1",
+      "diagnosis": "Invasive micropapillary carcinoma of the breast",
+      "added": [
+        "E-cadherin"
+      ],
+      "removed": [
+        "PAX8"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w789c3",
+      "diagnosis": "Basal cell carcinoma",
+      "added": [],
+      "removed": [
+        "NKX3.1"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w788c3",
+      "diagnosis": "Predominantly yolk sac tumor with focal embryonal carcinoma and teratoma",
+      "added": [],
+      "removed": [
+        "Glypican-3"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w788c2",
+      "diagnosis": "Vasitis nodosa",
+      "added": [],
+      "removed": [
+        "NKX3.1"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w788c1",
+      "diagnosis": "Clear cell papillary renal cell tumor",
+      "added": [
+        "CK7",
+        "CAIX"
+      ],
+      "removed": [],
+      "changed": []
+    },
+    {
+      "id": "w787c3",
+      "diagnosis": "Pleomorphic adenoma",
+      "added": [],
+      "removed": [
+        "S100",
+        "p63"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w787c2",
+      "diagnosis": "Sinonasal glomangiopericytoma",
+      "added": [],
+      "removed": [
+        "Desmin",
+        "S100",
+        "CD34"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w787c1",
+      "diagnosis": "Metastatic olfactory neuroblastoma",
+      "added": [],
+      "removed": [
+        "Synaptophysin",
+        "Chromogranin",
+        "CD45"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w786c3",
+      "diagnosis": "Inflammatory fibroid polyp",
+      "added": [],
+      "removed": [
+        "S100",
+        "CD34",
+        "DOG1",
+        "EMA"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w786c2",
+      "diagnosis": "Mullerianosis/endometriosis",
+      "added": [],
+      "removed": [
+        "ER",
+        "PAX8",
+        "CD10"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w786c1",
+      "diagnosis": "Acinar cell cystadenoma (acinar cystic transformation)",
+      "added": [],
+      "removed": [
+        "Trypsin",
+        "BCL10",
+        "CK19",
+        "PAS"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w785c3",
+      "diagnosis": "Warthin tumor",
+      "added": [],
+      "removed": [
+        "S100",
+        "p63"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w785c2",
+      "diagnosis": "Adenoid cystic carcinoma",
+      "added": [],
+      "removed": [
+        "SMA",
+        "TTF-1",
+        "CD117",
+        "S100",
+        "MYB"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w785c1",
+      "diagnosis": "Atrial myxoma",
+      "added": [],
+      "removed": [
+        "Calretinin",
+        "CD117",
+        "CD34"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w783c3",
+      "diagnosis": "Stromal tumor of uncertain malignant potential (STUMP)",
+      "added": [],
+      "removed": [
+        "PR",
+        "SMA",
+        "Desmin",
+        "CD34"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w782c2",
+      "diagnosis": "Small cell carcinoma",
+      "added": [],
+      "removed": [
+        "Synaptophysin",
+        "panCK",
+        "Myogenin",
+        "Desmin",
+        "TTF-1"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w782c1",
+      "diagnosis": "Atypical Fibroxanthoma",
+      "added": [],
+      "removed": [],
+      "changed": [
+        {
+          "name": "CD34",
+          "from": "Positive",
+          "to": "Negative"
+        }
+      ]
+    },
+    {
+      "id": "w781c3",
+      "diagnosis": "Medullary thyroid carcinoma",
+      "added": [],
+      "removed": [],
+      "changed": [
+        {
+          "name": "TTF-1",
+          "from": "Negative",
+          "to": "Positive"
+        }
+      ]
+    },
+    {
+      "id": "w781c2",
+      "diagnosis": "Micronodular thymoma with lymphoid stroma",
+      "added": [],
+      "removed": [
+        "CD10",
+        "CD99",
+        "CD20"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w781c1",
+      "diagnosis": "acinic cell carcinoma",
+      "added": [],
+      "removed": [
+        "Mucicarmine",
+        "PAS"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w780c3",
+      "diagnosis": "Angiomyolipoma",
+      "added": [],
+      "removed": [
+        "panCK"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w780c2",
+      "diagnosis": "Tubulocystic renal cell carcinoma",
+      "added": [],
+      "removed": [
+        "FH",
+        "2SC"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w780c1",
+      "diagnosis": "Sarcomatoid urothelial carcinoma",
+      "added": [
+        "panCK",
+        "GATA3"
+      ],
+      "removed": [],
+      "changed": []
+    },
+    {
+      "id": "w779c2",
+      "diagnosis": "Metanephric adenoma",
+      "added": [],
+      "removed": [],
+      "changed": [
+        {
+          "name": "CD57",
+          "from": "Negative",
+          "to": "Positive"
+        }
+      ]
+    },
+    {
+      "id": "w779c1",
+      "diagnosis": "Fibrothecoma",
+      "added": [
+        "HMB45"
+      ],
+      "removed": [],
+      "changed": [
+        {
+          "name": "Inhibin",
+          "from": "Negative",
+          "to": "Positive"
+        },
+        {
+          "name": "SF1",
+          "from": "Negative",
+          "to": "Positive"
+        },
+        {
+          "name": "Calretinin",
+          "from": "Negative",
+          "to": "Positive"
+        },
+        {
+          "name": "ER",
+          "from": "Negative",
+          "to": "Positive"
+        },
+        {
+          "name": "PR",
+          "from": "Negative",
+          "to": "Positive"
+        }
+      ]
+    },
+    {
+      "id": "w778c1",
+      "diagnosis": "Eosinophilic and vacuolated tumor (EVT)",
+      "added": [],
+      "removed": [
+        "CK20",
+        "CK7",
+        "CD117"
+      ],
+      "changed": [
+        {
+          "name": "SDHB",
+          "from": "Loss",
+          "to": "Negative"
+        }
+      ]
+    },
+    {
+      "id": "w777c2",
+      "diagnosis": "Clear cell carcinoma",
+      "added": [],
+      "removed": [
+        "BAP1"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w776c2",
+      "diagnosis": "Cystic neutrophilic granulomatous mastitis",
+      "added": [],
+      "removed": [
+        "Gram stain"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w775c3",
+      "diagnosis": "Paget’s disease",
+      "added": [],
+      "removed": [
+        "Melan-A",
+        "SOX10"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w775c2",
+      "diagnosis": "Prostate adenocarcinoma, Grade Group 5, with pleomorphic giant cell features",
+      "added": [],
+      "removed": [
+        "GATA3",
+        "p63"
+      ],
+      "changed": [
+        {
+          "name": "NKX3.1",
+          "from": "Positive",
+          "to": "Negative"
+        },
+        {
+          "name": "PSA",
+          "from": "Positive",
+          "to": "Negative"
+        }
+      ]
+    },
+    {
+      "id": "w772c3",
+      "diagnosis": "Seminoma",
+      "added": [
+        "panCK"
+      ],
+      "removed": [],
+      "changed": []
+    },
+    {
+      "id": "w771c1",
+      "diagnosis": "Condyloma",
+      "added": [
+        "p16"
+      ],
+      "removed": [],
+      "changed": []
+    },
+    {
+      "id": "w770c3",
+      "diagnosis": "Clear cell hidradenoma",
+      "added": [],
+      "removed": [],
+      "changed": [
+        {
+          "name": "NKX3.1",
+          "from": "Negative",
+          "to": "Diffuse"
+        },
+        {
+          "name": "GATA3",
+          "from": "Positive",
+          "to": "Diffuse (diffuse)"
+        }
+      ]
+    },
+    {
+      "id": "w770c2",
+      "diagnosis": "Xp11 translocation carcinoma",
+      "added": [],
+      "removed": [
+        "CK7",
+        "panCK",
+        "TFE3"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w769c2",
+      "diagnosis": "Infarct with necrotizing granulomatous vasculitis",
+      "added": [],
+      "removed": [
+        "OCT3/4",
+        "CD117"
+      ],
+      "changed": []
+    },
+    {
+      "id": "week769bonuscase3",
+      "diagnosis": "ALK rearranged renal cell carcinoma",
+      "added": [
+        "WT1",
+        "ALK"
+      ],
+      "removed": [],
+      "changed": []
+    },
+    {
+      "id": "week769bonuscase2",
+      "diagnosis": "GLI1 rearranged neoplasm",
+      "added": [],
+      "removed": [
+        "S100"
+      ],
+      "changed": []
+    },
+    {
+      "id": "week769bonuscase1",
+      "diagnosis": "Biphasic hyalinizing psammomatous renal cell carcinoma",
+      "added": [],
+      "removed": [
+        "TFEB"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w768c3",
+      "diagnosis": "Metastatic carcinoma with apocrine features",
+      "added": [],
+      "removed": [
+        "CK7",
+        "Mammaglobin",
+        "GCDFP15",
+        "NKX3.1",
+        "GATA3",
+        "AR"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w768c1",
+      "diagnosis": "Plasmacytoid variant of urothelial carcinoma",
+      "added": [
+        "CD138"
+      ],
+      "removed": [
+        "ER",
+        "E-cadherin",
+        "GATA3",
+        "CDX2"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w766c3",
+      "diagnosis": "Sex cord stromal nodule or tumor composed of thecal and Leydig cells",
+      "added": [],
+      "removed": [
+        "PR",
+        "SMA",
+        "ER",
+        "Inhibin",
+        "Synaptophysin",
+        "Chromogranin",
+        "Calretinin",
+        "Desmin",
+        "HMB45",
+        "PAX8",
+        "S100",
+        "CD34",
+        "SF1",
+        "p63"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w766c2",
+      "diagnosis": "Invasive high grade urothelial carcinoma with syncytiotrophoblasts",
+      "added": [
+        "hCG"
+      ],
+      "removed": [],
+      "changed": []
+    },
+    {
+      "id": "w766c1",
+      "diagnosis": "Leiomyosarcoma",
+      "added": [],
+      "removed": [
+        "Cathepsin K",
+        "HMB45",
+        "S100"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w765c2",
+      "diagnosis": "Sarcomatoid mesothelioma",
+      "added": [],
+      "removed": [
+        "panCK"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w764c3",
+      "diagnosis": "Eosinophilic solid and cystic renal cell carcinoma",
+      "added": [],
+      "removed": [
+        "CK20",
+        "CK7",
+        "PAX8"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w763c3",
+      "diagnosis": "Angiomyolipoma with epithelial cysts (AMLEC)",
+      "added": [],
+      "removed": [
+        "Cathepsin K",
+        "HMB45",
+        "PAX8"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w763c2",
+      "diagnosis": "Xp11 translocation RCC",
+      "added": [],
+      "removed": [
+        "TFE3"
+      ],
+      "changed": [
+        {
+          "name": "Cathepsin K",
+          "from": "Positive",
+          "to": "Diffuse (diffuse)"
+        }
+      ]
+    },
+    {
+      "id": "w763c1",
+      "diagnosis": "TFEB rearranged renal cell carcinoma",
+      "added": [],
+      "removed": [],
+      "changed": [
+        {
+          "name": "Cathepsin K",
+          "from": "Positive",
+          "to": "Diffuse (diffuse)"
+        }
+      ]
+    },
+    {
+      "id": "w762c3",
+      "diagnosis": "Lymphoepithelioma-like urothelial carcinoma",
+      "added": [],
+      "removed": [
+        "CK7",
+        "GATA3",
+        "CD45",
+        "CD20"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w762c2",
+      "diagnosis": "Malakoplakia",
+      "added": [],
+      "removed": [
+        "von Kossa",
+        "CD68"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w761c3",
+      "diagnosis": "Melanotic neuroectodermal tumor of infancy",
+      "added": [],
+      "removed": [
+        "panCK"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w761c1",
+      "diagnosis": "Paraganglioma",
+      "added": [],
+      "removed": [
+        "Synaptophysin"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w760c3",
+      "diagnosis": "Cellular angiofibroma",
+      "added": [],
+      "removed": [
+        "PR",
+        "ER",
+        "CD34"
+      ],
+      "changed": [
+        {
+          "name": "S100",
+          "from": "Negative",
+          "to": "Positive"
+        }
+      ]
+    },
+    {
+      "id": "w760c2",
+      "diagnosis": "Small cell carcinoma arising in urothelial carcinoma",
+      "added": [],
+      "removed": [],
+      "changed": [
+        {
+          "name": "Synaptophysin",
+          "from": "Negative",
+          "to": "Positive"
+        },
+        {
+          "name": "CD99",
+          "from": "Negative",
+          "to": "Focally positive (focal)"
+        },
+        {
+          "name": "NKX2.2",
+          "from": "Negative",
+          "to": "Focally positive (focal)"
+        }
+      ]
+    },
+    {
+      "id": "w760c1",
+      "diagnosis": "Renal carcinoid",
+      "added": [],
+      "removed": [],
+      "changed": [
+        {
+          "name": "Synaptophysin",
+          "from": "Negative",
+          "to": "Focally positive"
+        },
+        {
+          "name": "Chromogranin",
+          "from": "Negative",
+          "to": "Focally positive (focal)"
+        },
+        {
+          "name": "CK7",
+          "from": "Negative",
+          "to": "Focally positive (focal)"
+        },
+        {
+          "name": "GATA3",
+          "from": "Negative",
+          "to": "Positive"
+        }
+      ]
+    },
+    {
+      "id": "w759c3",
+      "diagnosis": "Gastrointestinal stromal tumor",
+      "added": [
+        "SOX10",
+        "Synaptophysin",
+        "Chromogranin"
+      ],
+      "removed": [
+        "CD117"
+      ],
+      "changed": [
+        {
+          "name": "DOG1",
+          "from": "Positive",
+          "to": "Loss"
+        }
+      ]
+    },
+    {
+      "id": "w759c2",
+      "diagnosis": "Clear cell carcinoma and low grade oncocytic tumor (LOT) (collision)",
+      "added": [],
+      "removed": [
+        "CD117"
+      ],
+      "changed": [
+        {
+          "name": "CK7",
+          "from": "Positive",
+          "to": "Diffuse (diffuse)"
+        },
+        {
+          "name": "panCK",
+          "from": "Positive",
+          "to": "Diffuse (diffuse)"
+        }
+      ]
+    },
+    {
+      "id": "w758c2",
+      "diagnosis": "Eosinophilic solid and cystic renal cell carcinoma (ESC RCC)",
+      "added": [],
+      "removed": [
+        "CK20",
+        "CK7"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w758c1",
+      "diagnosis": "Low grade oncocytic tumor (LOT)",
+      "added": [],
+      "removed": [
+        "CK7",
+        "CD117"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w757c2",
+      "diagnosis": "Epithelioid angiosarcoma",
+      "added": [],
+      "removed": [
+        "SMARCB1",
+        "CD31"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w757c1",
+      "diagnosis": "Malignant mesothelioma",
+      "added": [],
+      "removed": [
+        "Calretinin",
+        "Desmin",
+        "BAP1"
+      ],
+      "changed": []
+    },
+    {
+      "id": "w756c1",
+      "diagnosis": "Metastatic HPV(+) carcinoma",
+      "added": [
+        "panCK"
+      ],
+      "removed": [
+        "HPV ISH",
+        "p16"
+      ],
+      "changed": [
+        {
+          "name": "GATA3",
+          "from": "Positive / variable",
+          "to": "Positive"
+        }
+      ]
+    },
+    {
+      "id": "w754c2",
+      "diagnosis": "Eosinophilic vacuolated tumor (EVT)",
+      "added": [],
+      "removed": [
+        "CK7",
+        "Cathepsin K",
+        "PAX8"
+      ],
+      "changed": []
+    }
+  ]
+}
