@@ -746,7 +746,7 @@
     "w765c2": {
       "case_label": "Week 765: Case 2",
       "diagnosis": "Sarcomatoid mesothelioma",
-      "stain_selection": "jhu_discussion",
+      "stain_selection": "case_text_reasoned_panel",
       "discussion_source": "feedback_text_fallback",
       "stains": [
         {
@@ -756,55 +756,55 @@
             "cytokeratin"
           ],
           "type": "IHC",
-          "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
-          "source_url": "https://sp.pathology.jhu.edu/week-765-case-2/"
-        },
-        {
-          "name": "GATA3",
-          "result": "Not specified in JHU discussion",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
-          "source_url": "https://sp.pathology.jhu.edu/week-765-case-2/"
-        },
-        {
-          "name": "STAT6",
-          "result": "Not specified in JHU discussion",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_type": "jhu_case_text_explicit",
+          "basis": "The case text states that both tumor components labeled with cytokeratin.",
           "source_url": "https://sp.pathology.jhu.edu/week-765-case-2/"
         },
         {
           "name": "CD34",
-          "result": "Not specified in JHU discussion",
+          "result": "Negative",
           "aliases": [],
           "type": "IHC",
-          "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_type": "jhu_case_text_inference",
+          "basis": "The discussion identifies CD34 expression as supporting solitary fibrous tumor. Because the case is ultimately confirmed as mesothelioma rather than solitary fibrous tumor, the discriminatory result is inferred as negative.",
           "source_url": "https://sp.pathology.jhu.edu/week-765-case-2/"
         },
         {
-          "name": "MUC4",
-          "result": "Not specified in JHU discussion",
+          "name": "STAT6",
+          "result": "Negative",
           "aliases": [],
           "type": "IHC",
-          "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_type": "jhu_case_text_inference",
+          "basis": "The discussion identifies STAT6 expression as supporting solitary fibrous tumor. Because the case is ultimately confirmed as mesothelioma rather than solitary fibrous tumor, the discriminatory result is inferred as negative.",
           "source_url": "https://sp.pathology.jhu.edu/week-765-case-2/"
         },
         {
           "name": "TTF-1",
-          "result": "Not specified in JHU discussion",
+          "result": "Negative",
           "aliases": [
             "TTF1"
           ],
           "type": "IHC",
-          "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_type": "jhu_case_text_inference",
+          "basis": "The discussion states that TTF1 expression would support sarcomatoid carcinoma of lung origin. Because the final diagnosis is mesothelioma, the discriminatory result is inferred as negative.",
+          "source_url": "https://sp.pathology.jhu.edu/week-765-case-2/"
+        },
+        {
+          "name": "MUC4",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_case_text_inference",
+          "basis": "The discussion says MUC4 expression supports low-grade fibromyxoid sarcoma and that MUC4 positivity favors sarcomatoid carcinoma over sarcomatoid mesothelioma. Given the final diagnosis of mesothelioma, the discriminatory result is inferred as negative.",
+          "source_url": "https://sp.pathology.jhu.edu/week-765-case-2/"
+        },
+        {
+          "name": "GATA3",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_case_text_inference",
+          "basis": "The discussion states that GATA3 negativity supports sarcomatoid carcinoma over sarcomatoid mesothelioma. Given the final diagnosis of mesothelioma, the discriminatory result is inferred as positive.",
           "source_url": "https://sp.pathology.jhu.edu/week-765-case-2/"
         }
       ]
