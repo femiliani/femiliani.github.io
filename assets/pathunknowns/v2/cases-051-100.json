@@ -101,7 +101,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -197,7 +198,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -292,7 +294,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -386,7 +389,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -451,7 +455,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -554,7 +559,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -624,7 +630,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -789,7 +796,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -890,7 +898,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -982,7 +991,10 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized_review_recommended",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": [
+          "Review low-confidence stain interpretation: CD10"
+        ]
       }
     },
     {
@@ -1098,7 +1110,10 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized_review_recommended",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": [
+          "Review low-confidence stain interpretation: panCK, Glypican-3, hCG, OCT3/4, CD30"
+        ]
       }
     },
     {
@@ -1206,7 +1221,10 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized_review_recommended",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": [
+          "Review low-confidence stain interpretation: CDX2"
+        ]
       }
     },
     {
@@ -1260,7 +1278,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -1351,7 +1370,10 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized_review_recommended",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": [
+          "Review low-confidence stain interpretation: Myogenin, Desmin, CD45"
+        ]
       }
     },
     {
@@ -1430,7 +1452,10 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized_review_recommended",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": [
+          "Review low-confidence stain interpretation: 2SC"
+        ]
       }
     },
     {
@@ -1545,7 +1570,10 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized_review_recommended",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": [
+          "Review low-confidence stain interpretation: CK7, Calretinin, CAM5.2, BAP1, WT1"
+        ]
       }
     },
     {
@@ -1620,7 +1648,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -1725,7 +1754,10 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized_review_recommended",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": [
+          "Review low-confidence stain interpretation: ER, INSM1"
+        ]
       }
     },
     {
@@ -1791,7 +1823,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -1904,7 +1937,10 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized_review_recommended",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": [
+          "Review low-confidence stain interpretation: Synaptophysin, Chromogranin, INSM1"
+        ]
       }
     },
     {
@@ -2054,7 +2090,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -2198,7 +2235,10 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized_review_recommended",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": [
+          "Review low-confidence stain interpretation: PTH, Synaptophysin, Chromogranin, INSM1"
+        ]
       }
     },
     {
@@ -2308,7 +2348,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -2395,7 +2436,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -2538,7 +2580,10 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized_review_recommended",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": [
+          "Review low-confidence stain interpretation: BCOR"
+        ]
       }
     },
     {
@@ -2621,7 +2666,10 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized_review_recommended",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": [
+          "Review low-confidence stain interpretation: SATB2"
+        ]
       }
     },
     {
@@ -2716,7 +2764,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -2777,7 +2826,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -2845,7 +2895,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -2930,7 +2981,10 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized_review_recommended",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": [
+          "Review low-confidence stain interpretation: PAX8"
+        ]
       }
     },
     {
@@ -3013,7 +3067,10 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized_review_recommended",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": [
+          "Review low-confidence stain interpretation: CK7"
+        ]
       }
     },
     {
@@ -3094,7 +3151,10 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized_review_recommended",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": [
+          "Review low-confidence stain interpretation: CD163, CD68"
+        ]
       }
     },
     {
@@ -3226,7 +3286,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -3306,7 +3367,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -3400,7 +3462,10 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized_review_recommended",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": [
+          "Review low-confidence stain interpretation: Beta-catenin, BCL10"
+        ]
       }
     },
     {
@@ -3549,7 +3614,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -3653,7 +3719,10 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized_review_recommended",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": [
+          "Review low-confidence stain interpretation: Synaptophysin, Chromogranin"
+        ]
       }
     },
     {
@@ -3738,7 +3807,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -3834,7 +3904,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -3902,7 +3973,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -3987,7 +4059,10 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized_review_recommended",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": [
+          "Review low-confidence stain interpretation: GATA3, p63"
+        ]
       }
     },
     {
@@ -4060,7 +4135,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -4157,7 +4233,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -4226,7 +4303,10 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized_review_recommended",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": [
+          "Review low-confidence stain interpretation: AFP"
+        ]
       }
     },
     {
@@ -4294,7 +4374,10 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized_review_recommended",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": [
+          "Review low-confidence stain interpretation: PSA"
+        ]
       }
     },
     {
@@ -4364,7 +4447,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -4449,7 +4533,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -4548,7 +4633,10 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized_review_recommended",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": [
+          "Review low-confidence stain interpretation: SMA"
+        ]
       }
     },
     {
@@ -4634,7 +4722,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     },
     {
@@ -4732,7 +4821,8 @@
         "case_version": 1,
         "source_type": "external",
         "curation_status": "auto_normalized",
-        "original_extractor_version": "1.0.0"
+        "original_extractor_version": "1.0.0",
+        "review_flags": []
       }
     }
   ]
