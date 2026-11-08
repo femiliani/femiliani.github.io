@@ -1,6 +1,6 @@
 {
-  "catalog_version": "2.0.0",
-  "selection_policy": "Use every stain/IHC explicitly named in the JHU Discussion section. If no discussion stain is present, retain educational fallback stains.",
+  "catalog_version": "2.1.0",
+  "selection_policy": "Use every stain/IHC explicitly named in the JHU Discussion text. Recover Discussion from feedback_text when the dedicated discussion field is missing. If no discussion stain is present, retain educational fallback stains.",
   "case_start": 1,
   "case_end": 50,
   "case_count": 50,
@@ -9,6 +9,7 @@
       "case_label": "Week 819: Case 3",
       "diagnosis": "Perivascular epithelioid cell tumor (PEComa)",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "HMB45",
@@ -68,6 +69,7 @@
       "case_label": "Week 819: Case 2",
       "diagnosis": "Mesonephric/mesonephic-like carcinosarcoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "PR",
@@ -77,7 +79,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-819-case-2/"
         },
         {
@@ -88,7 +90,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-819-case-2/"
         },
         {
@@ -97,7 +99,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-819-case-2/"
         },
         {
@@ -106,7 +108,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-819-case-2/"
         },
         {
@@ -117,7 +119,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-819-case-2/"
         }
       ]
@@ -126,6 +128,7 @@
       "case_label": "Week 819: Case 1",
       "diagnosis": "Low grade endometrioid stromal sarcoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "PR",
@@ -135,7 +138,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-819-case-1/"
         },
         {
@@ -146,7 +149,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-819-case-1/"
         },
         {
@@ -157,7 +160,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-819-case-1/"
         },
         {
@@ -166,7 +169,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-819-case-1/"
         }
       ]
@@ -175,6 +178,7 @@
       "case_label": "Week 818: Case 3",
       "diagnosis": "Pregnancy luteoma",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "Inhibin",
@@ -224,6 +228,7 @@
       "case_label": "Week 818: Case 2",
       "diagnosis": "Fumarate hydratase-deficient atypical leiomyoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "SMA",
@@ -233,7 +238,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-818-case-2/"
         },
         {
@@ -244,7 +249,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-818-case-2/"
         },
         {
@@ -255,7 +260,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-818-case-2/"
         },
         {
@@ -264,7 +269,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-818-case-2/"
         },
         {
@@ -276,7 +281,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-818-case-2/"
         },
         {
@@ -285,7 +290,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-818-case-2/"
         },
         {
@@ -294,7 +299,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-818-case-2/"
         }
       ]
@@ -303,6 +308,7 @@
       "case_label": "Week 818: Case 1",
       "diagnosis": "Appendiceal-type low-grade mucinous neoplasm arising from a mature cystic teratoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "CK20",
@@ -312,7 +318,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-818-case-1/"
         },
         {
@@ -323,7 +329,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-818-case-1/"
         }
       ]
@@ -332,6 +338,7 @@
       "case_label": "Week 817: Case 3",
       "diagnosis": "Uterine tumor resembling ovarian sex cord tumor (UTROSCT)",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "Inhibin",
@@ -377,6 +384,7 @@
       "case_label": "Week 817: Case 2",
       "diagnosis": "Primary endometrial squamous cell carcinoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "HPV ISH",
@@ -387,7 +395,7 @@
           ],
           "type": "ISH",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-817-case-2/"
         },
         {
@@ -396,7 +404,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-817-case-2/"
         }
       ]
@@ -405,6 +413,7 @@
       "case_label": "Week 817: Case 1",
       "diagnosis": "Low-grade endometrial stromal sarcoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "PR",
@@ -414,7 +423,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-817-case-1/"
         },
         {
@@ -425,7 +434,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-817-case-1/"
         },
         {
@@ -434,7 +443,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-817-case-1/"
         }
       ]
@@ -443,6 +452,7 @@
       "case_label": "Week 816: Case 3",
       "diagnosis": "Sertoli-leydig cell tumor with high-grade sarcomatous component",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "Inhibin",
@@ -488,6 +498,7 @@
       "case_label": "Week 816: Case 2",
       "diagnosis": "Solid pseudopapillary neoplasm of ovary",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "Beta-catenin",
@@ -535,6 +546,7 @@
       "case_label": "Week 816: Case 1",
       "diagnosis": "Microcystic stromal tumor",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "Beta-catenin",
@@ -580,6 +592,7 @@
       "case_label": "Week 815: Case 3",
       "diagnosis": "Metastatic epithelioid trophoblastic tumor (ETT)",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "hCG",
@@ -590,7 +603,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-815-case-3/"
         },
         {
@@ -599,7 +612,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-815-case-3/"
         }
       ]
@@ -608,6 +621,7 @@
       "case_label": "Week 815: Case 2",
       "diagnosis": "Sertoli-Leydig cell tumor",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "Inhibin",
@@ -617,7 +631,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-815-case-2/"
         },
         {
@@ -628,7 +642,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-815-case-2/"
         },
         {
@@ -637,7 +651,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-815-case-2/"
         }
       ]
@@ -646,6 +660,7 @@
       "case_label": "Week 815: Case 1",
       "diagnosis": "Seromucinous borderline tumor",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "WT1",
@@ -653,7 +668,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-815-case-1/"
         }
       ]
@@ -662,6 +677,7 @@
       "case_label": "Week 814: Case 3",
       "diagnosis": "Angiomyolipoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "Cathepsin K",
@@ -669,7 +685,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-814-case-3/"
         },
         {
@@ -678,7 +694,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-814-case-3/"
         },
         {
@@ -689,7 +705,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-814-case-3/"
         },
         {
@@ -698,7 +714,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-814-case-3/"
         }
       ]
@@ -707,6 +723,7 @@
       "case_label": "Week 814: Case 2",
       "diagnosis": "Intraductal papillary mucinous neoplasm (IPMN) with background chronic pancreatitis",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "CEA",
@@ -714,7 +731,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-814-case-2/"
         }
       ]
@@ -723,6 +740,7 @@
       "case_label": "Week 814: Case 1",
       "diagnosis": "Pancreatoblastoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "Synaptophysin",
@@ -730,7 +748,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-814-case-1/"
         },
         {
@@ -741,7 +759,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-814-case-1/"
         },
         {
@@ -750,7 +768,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-814-case-1/"
         },
         {
@@ -761,7 +779,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-814-case-1/"
         },
         {
@@ -770,7 +788,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-814-case-1/"
         },
         {
@@ -779,7 +797,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-814-case-1/"
         },
         {
@@ -788,16 +806,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
-          "source_url": "https://sp.pathology.jhu.edu/week-814-case-1/"
-        },
-        {
-          "name": "AFP",
-          "result": "Not specified in JHU discussion",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-814-case-1/"
         },
         {
@@ -806,7 +815,16 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-814-case-1/"
+        },
+        {
+          "name": "AFP",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-814-case-1/"
         }
       ]
@@ -815,6 +833,7 @@
       "case_label": "Week 813: Case 3",
       "diagnosis": "Calcifying epithelial odontogenic tumor",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "Congo red",
@@ -822,7 +841,7 @@
           "aliases": [],
           "type": "special stain",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-813-case-3/"
         }
       ]
@@ -831,6 +850,7 @@
       "case_label": "Week 813: Case 2",
       "diagnosis": "HPV-related multiphenotypic sinonasal carcinoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "HPV ISH",
@@ -841,7 +861,7 @@
           ],
           "type": "ISH",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-813-case-2/"
         },
         {
@@ -853,7 +873,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-813-case-2/"
         },
         {
@@ -862,7 +882,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-813-case-2/"
         }
       ]
@@ -871,6 +891,7 @@
       "case_label": "Week 813: Case 1",
       "diagnosis": "Polymorphous adenocarcinoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "p63",
@@ -878,7 +899,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-813-case-1/"
         },
         {
@@ -887,7 +908,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-813-case-1/"
         }
       ]
@@ -896,6 +917,7 @@
       "case_label": "Week 812: Case 3",
       "diagnosis": "Invasive lobular carcinoma and seborrheic keratosis",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "PR",
@@ -905,7 +927,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-812-case-3/"
         },
         {
@@ -916,7 +938,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-812-case-3/"
         },
         {
@@ -925,7 +947,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-812-case-3/"
         },
         {
@@ -934,7 +956,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-812-case-3/"
         },
         {
@@ -943,7 +965,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-812-case-3/"
         },
         {
@@ -952,7 +974,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-812-case-3/"
         },
         {
@@ -961,7 +983,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-812-case-3/"
         },
         {
@@ -970,7 +992,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-812-case-3/"
         }
       ]
@@ -979,6 +1001,7 @@
       "case_label": "Week 812: Case 2",
       "diagnosis": "Metaplastic carcinoma with lobular carcinoma in situ (LCIS)",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "PR",
@@ -988,7 +1011,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-812-case-2/"
         },
         {
@@ -999,7 +1022,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-812-case-2/"
         },
         {
@@ -1008,7 +1031,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-812-case-2/"
         },
         {
@@ -1017,7 +1040,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-812-case-2/"
         },
         {
@@ -1026,7 +1049,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-812-case-2/"
         },
         {
@@ -1035,7 +1058,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-812-case-2/"
         }
       ]
@@ -1044,6 +1067,7 @@
       "case_label": "Week 812: Case 1",
       "diagnosis": "Malignant phyllodes tumor",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "Beta-catenin",
@@ -1053,7 +1077,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-812-case-1/"
         },
         {
@@ -1064,7 +1088,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-812-case-1/"
         },
         {
@@ -1073,7 +1097,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-812-case-1/"
         },
         {
@@ -1082,7 +1106,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-812-case-1/"
         },
         {
@@ -1091,7 +1115,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-812-case-1/"
         }
       ]
@@ -1100,6 +1124,7 @@
       "case_label": "Week 811: Case 3",
       "diagnosis": "Canalicular adenoma",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "Beta-catenin",
@@ -1143,6 +1168,7 @@
       "case_label": "Week 811: Case 2",
       "diagnosis": "Differentiated high-grade papillary thyroid carcinoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "PTH",
@@ -1152,16 +1178,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
-          "source_url": "https://sp.pathology.jhu.edu/week-811-case-2/"
-        },
-        {
-          "name": "Thyroglobulin",
-          "result": "Negative",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-811-case-2/"
         },
         {
@@ -1170,7 +1187,16 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-811-case-2/"
+        },
+        {
+          "name": "Thyroglobulin",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-811-case-2/"
         },
         {
@@ -1179,7 +1205,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-811-case-2/"
         },
         {
@@ -1188,7 +1214,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-811-case-2/"
         },
         {
@@ -1197,7 +1223,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-811-case-2/"
         },
         {
@@ -1206,7 +1232,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-811-case-2/"
         }
       ]
@@ -1215,6 +1241,7 @@
       "case_label": "Week 811: Case 1",
       "diagnosis": "Sinonasal carcinoma with DEK-AFF2 gene fusion",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "HPV ISH",
@@ -1225,7 +1252,7 @@
           ],
           "type": "ISH",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-811-case-1/"
         },
         {
@@ -1237,7 +1264,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-811-case-1/"
         },
         {
@@ -1246,7 +1273,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-811-case-1/"
         }
       ]
@@ -1255,6 +1282,7 @@
       "case_label": "Week 810: Case 3",
       "diagnosis": "Cryptococcosis",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "GMS",
@@ -1300,6 +1328,7 @@
       "case_label": "Week 810: Case 2",
       "diagnosis": "Metastasizing leiomyoma",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "Desmin",
@@ -1343,6 +1372,7 @@
       "case_label": "Week 810: Case 1",
       "diagnosis": "Sclerosing angiomatoid nodular transformation (SANT)",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "CD34",
@@ -1350,7 +1380,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-810-case-1/"
         },
         {
@@ -1359,7 +1389,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-810-case-1/"
         },
         {
@@ -1368,7 +1398,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-810-case-1/"
         },
         {
@@ -1377,7 +1407,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-810-case-1/"
         }
       ]
@@ -1386,6 +1416,7 @@
       "case_label": "Week 809: Case 3",
       "diagnosis": "Inflammatory subtype of well-differentiated liposarcoma",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "MDM2",
@@ -1429,6 +1460,7 @@
       "case_label": "Week 809: Case 2",
       "diagnosis": "Osteoblastoma",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "SATB2",
@@ -1463,6 +1495,7 @@
       "case_label": "Week 809: Case 1",
       "diagnosis": "Maturing lipoblastoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "PLAG1",
@@ -1470,7 +1503,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-809-case-1/"
         }
       ]
@@ -1479,6 +1512,7 @@
       "case_label": "Week 808: Case 3",
       "diagnosis": "Inflammatory myofibroblastic tumor",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "ALK",
@@ -1522,6 +1556,7 @@
       "case_label": "Week 808: Case 2",
       "diagnosis": "Endometrioid carcinoma with yolk sac tumor differentiation",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "SALL4",
@@ -1565,6 +1600,7 @@
       "case_label": "Week 808: Case 1",
       "diagnosis": "Mesonephric-like adenocarcinoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "PR",
@@ -1574,7 +1610,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-808-case-1/"
         },
         {
@@ -1585,7 +1621,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-808-case-1/"
         },
         {
@@ -1594,7 +1630,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-808-case-1/"
         },
         {
@@ -1603,16 +1639,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
-          "source_url": "https://sp.pathology.jhu.edu/week-808-case-1/"
-        },
-        {
-          "name": "CD10",
-          "result": "Not specified in JHU discussion",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-808-case-1/"
         },
         {
@@ -1623,7 +1650,16 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-808-case-1/"
+        },
+        {
+          "name": "CD10",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-808-case-1/"
         },
         {
@@ -1632,7 +1668,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-808-case-1/"
         }
       ]
@@ -1641,6 +1677,7 @@
       "case_label": "Week 807: Case 3",
       "diagnosis": "EWSR1-NFATC2 fusion sarcoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "NKX2.2",
@@ -1648,7 +1685,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-807-case-3/"
         },
         {
@@ -1657,7 +1694,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-807-case-3/"
         },
         {
@@ -1666,7 +1703,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-807-case-3/"
         },
         {
@@ -1675,7 +1712,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-807-case-3/"
         },
         {
@@ -1684,7 +1721,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-807-case-3/"
         }
       ]
@@ -1693,6 +1730,7 @@
       "case_label": "Week 807: Case 2",
       "diagnosis": "Tenosynovial giant cell tumor, localized type",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "CD68",
@@ -1736,6 +1774,7 @@
       "case_label": "Week 807: Case 1",
       "diagnosis": "Sclerosing epithelioid fibrosarcoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "SMA",
@@ -1745,16 +1784,16 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-807-case-1/"
         },
         {
           "name": "MUC4",
-          "result": "Negative",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-807-case-1/"
         },
         {
@@ -1763,7 +1802,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-807-case-1/"
         },
         {
@@ -1772,7 +1811,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-807-case-1/"
         }
       ]
@@ -1781,6 +1820,7 @@
       "case_label": "Week 806: Case 3",
       "diagnosis": "Pleomorphic liposarcoma",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "MDM2",
@@ -1824,6 +1864,7 @@
       "case_label": "Week 806: Case 2",
       "diagnosis": "Intimal sarcoma with chondrosarcomatous elements",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "MDM2",
@@ -1867,6 +1908,7 @@
       "case_label": "Week 806: Case 1",
       "diagnosis": "Synovial sarcoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "panCK",
@@ -1876,7 +1918,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-806-case-1/"
         },
         {
@@ -1885,7 +1927,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-806-case-1/"
         },
         {
@@ -1897,7 +1939,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-806-case-1/"
         },
         {
@@ -1906,7 +1948,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-806-case-1/"
         },
         {
@@ -1915,7 +1957,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-806-case-1/"
         },
         {
@@ -1924,7 +1966,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-806-case-1/"
         },
         {
@@ -1933,7 +1975,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-806-case-1/"
         },
         {
@@ -1942,7 +1984,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-806-case-1/"
         },
         {
@@ -1951,7 +1993,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-806-case-1/"
         },
         {
@@ -1960,7 +2002,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-806-case-1/"
         },
         {
@@ -1969,7 +2011,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-806-case-1/"
         },
         {
@@ -1978,7 +2020,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-806-case-1/"
         }
       ]
@@ -1987,6 +2029,7 @@
       "case_label": "Week 805: Case 3",
       "diagnosis": "Anaplastic large cell lymphoma, ALK positive",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "CD163",
@@ -1994,7 +2037,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-805-case-3/"
         },
         {
@@ -2003,16 +2046,16 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-805-case-3/"
         },
         {
           "name": "CD30",
-          "result": "Negative",
+          "result": "Positive",
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-805-case-3/"
         },
         {
@@ -2021,7 +2064,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-805-case-3/"
         },
         {
@@ -2030,7 +2073,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-805-case-3/"
         },
         {
@@ -2039,7 +2082,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-805-case-3/"
         },
         {
@@ -2048,7 +2091,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-805-case-3/"
         },
         {
@@ -2057,7 +2100,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-805-case-3/"
         }
       ]
@@ -2066,6 +2109,7 @@
       "case_label": "Week 805: Case 2",
       "diagnosis": "Extranodal NK/T cell lymphoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "EBER ISH",
@@ -2075,7 +2119,7 @@
           ],
           "type": "ISH",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-805-case-2/"
         },
         {
@@ -2084,7 +2128,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-805-case-2/"
         },
         {
@@ -2093,7 +2137,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-805-case-2/"
         },
         {
@@ -2102,7 +2146,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-805-case-2/"
         },
         {
@@ -2111,7 +2155,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-805-case-2/"
         },
         {
@@ -2120,7 +2164,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-805-case-2/"
         },
         {
@@ -2129,7 +2173,7 @@
           "aliases": [],
           "type": "special stain",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-805-case-2/"
         },
         {
@@ -2138,7 +2182,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-805-case-2/"
         },
         {
@@ -2147,7 +2191,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-805-case-2/"
         },
         {
@@ -2156,7 +2200,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-805-case-2/"
         }
       ]
@@ -2165,6 +2209,7 @@
       "case_label": "Week 805: Case 1",
       "diagnosis": "Classical Hodgkin lymphoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "CD10",
@@ -2172,7 +2217,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-805-case-1/"
         },
         {
@@ -2181,16 +2226,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
-          "source_url": "https://sp.pathology.jhu.edu/week-805-case-1/"
-        },
-        {
-          "name": "CD45",
-          "result": "Negative",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-805-case-1/"
         },
         {
@@ -2199,7 +2235,16 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-805-case-1/"
+        },
+        {
+          "name": "CD45",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-805-case-1/"
         },
         {
@@ -2208,16 +2253,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
-          "source_url": "https://sp.pathology.jhu.edu/week-805-case-1/"
-        },
-        {
-          "name": "PAS",
-          "result": "Not specified in JHU discussion",
-          "aliases": [],
-          "type": "special stain",
-          "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-805-case-1/"
         },
         {
@@ -2226,7 +2262,16 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-805-case-1/"
+        },
+        {
+          "name": "PAS",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "special stain",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-805-case-1/"
         }
       ]
@@ -2235,6 +2280,7 @@
       "case_label": "Week 804: Case 3",
       "diagnosis": "Gangliocytic paraganglioma with invasive moderately differentiated adenocarcinoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "PR",
@@ -2244,7 +2290,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-804-case-3/"
         },
         {
@@ -2253,7 +2299,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-804-case-3/"
         },
         {
@@ -2262,7 +2308,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-804-case-3/"
         }
       ]
@@ -2271,6 +2317,7 @@
       "case_label": "Week 804: Case 2",
       "diagnosis": "Sinonasal glomangiopericytoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "SMA",
@@ -2280,7 +2327,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-804-case-2/"
         },
         {
@@ -2291,7 +2338,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-804-case-2/"
         },
         {
@@ -2300,7 +2347,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-804-case-2/"
         },
         {
@@ -2309,7 +2356,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-804-case-2/"
         }
       ]
@@ -2318,6 +2365,7 @@
       "case_label": "Week 804: Case 1",
       "diagnosis": "Plexiform schwannoma",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "S100",
@@ -2361,6 +2409,7 @@
       "case_label": "Week 803: Case 3",
       "diagnosis": "Fibrolamellar hepatocellular carcinoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "Inhibin",
@@ -2370,7 +2419,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-803-case-3/"
         },
         {
@@ -2381,7 +2430,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-803-case-3/"
         },
         {
@@ -2392,7 +2441,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-803-case-3/"
         }
       ]
@@ -2401,6 +2450,7 @@
       "case_label": "Week 803: Case 2",
       "diagnosis": "Nephrogenic adenoma",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "PAX8",

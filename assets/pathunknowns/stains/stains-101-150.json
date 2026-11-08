@@ -1,6 +1,6 @@
 {
-  "catalog_version": "2.0.0",
-  "selection_policy": "Use every stain/IHC explicitly named in the JHU Discussion section. If no discussion stain is present, retain educational fallback stains.",
+  "catalog_version": "2.1.0",
+  "selection_policy": "Use every stain/IHC explicitly named in the JHU Discussion text. Recover Discussion from feedback_text when the dedicated discussion field is missing. If no discussion stain is present, retain educational fallback stains.",
   "case_start": 101,
   "case_end": 150,
   "case_count": 50,
@@ -9,6 +9,7 @@
       "case_label": "Week 786: Case 2",
       "diagnosis": "Mullerianosis/endometriosis",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "ER",
@@ -18,7 +19,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-786-case-2/"
         }
       ]
@@ -27,6 +28,7 @@
       "case_label": "Week 786: Case 1",
       "diagnosis": "Acinar cell cystadenoma (acinar cystic transformation)",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "PAS",
@@ -34,7 +36,7 @@
           "aliases": [],
           "type": "special stain",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-786-case-1/"
         }
       ]
@@ -43,6 +45,7 @@
       "case_label": "Week 785: Case 3",
       "diagnosis": "Warthin tumor",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "CK7",
@@ -77,6 +80,7 @@
       "case_label": "Week 785: Case 2",
       "diagnosis": "Adenoid cystic carcinoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "CD117",
@@ -86,7 +90,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-785-case-2-2/"
         },
         {
@@ -95,7 +99,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-785-case-2-2/"
         },
         {
@@ -104,7 +108,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-785-case-2-2/"
         }
       ]
@@ -113,6 +117,7 @@
       "case_label": "Week 785: Case 1",
       "diagnosis": "Atrial myxoma",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "Calretinin",
@@ -156,6 +161,7 @@
       "case_label": "Week 784: Case 3",
       "diagnosis": "Xp11 translocation renal cell carcinoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "CK7",
@@ -165,7 +171,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-784-case-2-2/"
         },
         {
@@ -176,7 +182,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-784-case-2-2/"
         },
         {
@@ -185,7 +191,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-784-case-2-2/"
         },
         {
@@ -194,7 +200,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-784-case-2-2/"
         }
       ]
@@ -203,6 +209,7 @@
       "case_label": "Week 784: Case 2",
       "diagnosis": "Endometriosis",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "ER",
@@ -212,7 +219,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-784-case-2/"
         },
         {
@@ -223,7 +230,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-784-case-2/"
         }
       ]
@@ -232,6 +239,7 @@
       "case_label": "Week 784: Case 1",
       "diagnosis": "Crypt cell dysplasia",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "p53",
@@ -241,7 +249,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-784-case-1/"
         }
       ]
@@ -250,6 +258,7 @@
       "case_label": "Week 783: Case 3",
       "diagnosis": "Stromal tumor of uncertain malignant potential (STUMP)",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "PR",
@@ -259,7 +268,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-783-case-3/"
         },
         {
@@ -270,7 +279,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-783-case-3/"
         },
         {
@@ -281,7 +290,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-783-case-3/"
         },
         {
@@ -290,7 +299,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-783-case-3/"
         },
         {
@@ -299,7 +308,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-783-case-3/"
         },
         {
@@ -308,7 +317,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-783-case-3/"
         }
       ]
@@ -317,6 +326,7 @@
       "case_label": "Week 783: Case 2",
       "diagnosis": "Infarcted stromal nodular BPH",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "p63",
@@ -360,6 +370,7 @@
       "case_label": "Week 783: Case 1",
       "diagnosis": "Polypoid cystitis",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "GATA3",
@@ -403,6 +414,7 @@
       "case_label": "Week 782: Case 3",
       "diagnosis": "Teratoma, post-pubertal type",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "SALL4",
@@ -445,351 +457,364 @@
     "w782c2": {
       "case_label": "Week 782: Case 2",
       "diagnosis": "Small cell carcinoma",
-      "stain_selection": "educational_fallback",
+      "stain_selection": "jhu_discussion",
+      "discussion_source": "feedback_text_fallback",
       "stains": [
         {
-          "name": "INSM1",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Small cell carcinoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
-        },
-        {
           "name": "Synaptophysin",
-          "result": "Positive",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Small cell carcinoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
-        },
-        {
-          "name": "Chromogranin",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Small cell carcinoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-782-case-2/"
         },
         {
           "name": "panCK",
           "result": "Positive",
+          "aliases": [
+            "cytokeratin"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-782-case-2/"
+        },
+        {
+          "name": "Myogenin",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Small cell carcinoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-782-case-2/"
+        },
+        {
+          "name": "Desmin",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-782-case-2/"
+        },
+        {
+          "name": "NKX3.1",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-782-case-2/"
+        },
+        {
+          "name": "CD20",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-782-case-2/"
         }
       ]
     },
     "w782c1": {
       "case_label": "Week 782: Case 1",
       "diagnosis": "Atypical Fibroxanthoma",
-      "stain_selection": "educational_fallback",
+      "stain_selection": "jhu_discussion",
+      "discussion_source": "feedback_text_fallback",
       "stains": [
         {
-          "name": "CD10",
-          "result": "Positive",
+          "name": "CD34",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Atypical Fibroxanthoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pubmed.ncbi.nlm.nih.gov/36395448/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-782-case-1/"
         },
         {
-          "name": "panCK",
-          "result": "Negative",
+          "name": "p40",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Atypical Fibroxanthoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pubmed.ncbi.nlm.nih.gov/36395448/"
-        },
-        {
-          "name": "SOX10",
-          "result": "Negative",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Atypical Fibroxanthoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pubmed.ncbi.nlm.nih.gov/36395448/"
-        },
-        {
-          "name": "ERG",
-          "result": "Negative",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Atypical Fibroxanthoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pubmed.ncbi.nlm.nih.gov/36395448/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-782-case-1/"
         }
       ]
     },
     "w781c3": {
       "case_label": "Week 781: Case 3",
       "diagnosis": "Medullary thyroid carcinoma",
-      "stain_selection": "educational_fallback",
+      "stain_selection": "jhu_discussion",
+      "discussion_source": "feedback_text_fallback",
       "stains": [
         {
-          "name": "Calcitonin",
+          "name": "Synaptophysin",
           "result": "Positive",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Medullary thyroid carcinoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
-        },
-        {
-          "name": "CEA",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Medullary thyroid carcinoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-781-case-3-2/"
         },
         {
           "name": "Chromogranin",
           "result": "Positive",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Medullary thyroid carcinoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-781-case-3-2/"
         },
         {
-          "name": "Thyroglobulin",
-          "result": "Negative",
+          "name": "Calcitonin",
+          "result": "Positive",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Medullary thyroid carcinoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-781-case-3-2/"
+        },
+        {
+          "name": "TTF-1",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-781-case-3-2/"
+        },
+        {
+          "name": "INSM1",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-781-case-3-2/"
+        },
+        {
+          "name": "PAX8",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-781-case-3-2/"
         }
       ]
     },
     "w781c2": {
       "case_label": "Week 781: Case 2",
       "diagnosis": "Micronodular thymoma with lymphoid stroma",
-      "stain_selection": "educational_fallback",
+      "stain_selection": "jhu_discussion",
+      "discussion_source": "feedback_text_fallback",
       "stains": [
         {
-          "name": "panCK",
-          "result": "Positive in epithelial islands",
+          "name": "CD10",
+          "result": "Positive",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Micronodular thymoma with lymphoid stroma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-781-case-2/"
         },
         {
-          "name": "p63",
-          "result": "Positive in epithelial cells",
+          "name": "CD99",
+          "result": "Positive",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Micronodular thymoma with lymphoid stroma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-781-case-2/"
+        },
+        {
+          "name": "CD20",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-781-case-2/"
         },
         {
           "name": "TdT",
-          "result": "Positive in immature T cells",
+          "result": "Positive",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Micronodular thymoma with lymphoid stroma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
-        },
-        {
-          "name": "CD3",
-          "result": "Positive in T-cell stroma",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Micronodular thymoma with lymphoid stroma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-781-case-2/"
         }
       ]
     },
     "w781c1": {
       "case_label": "Week 781: Case 1",
       "diagnosis": "acinic cell carcinoma",
-      "stain_selection": "educational_fallback",
+      "stain_selection": "jhu_discussion",
+      "discussion_source": "feedback_text_fallback",
       "stains": [
         {
-          "name": "NR4A3",
-          "result": "Nuclear positive",
+          "name": "Mammaglobin",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for acinic cell carcinoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10963686/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-781-case-3/"
+        },
+        {
+          "name": "Mucicarmine",
+          "result": "Positive",
+          "aliases": [],
+          "type": "special stain",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-781-case-3/"
+        },
+        {
+          "name": "NR4A3",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-781-case-3/"
         },
         {
           "name": "DOG1",
           "result": "Positive",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for acinic cell carcinoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10963686/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-781-case-3/"
         },
         {
-          "name": "SOX10",
+          "name": "PAS",
           "result": "Positive",
           "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for acinic cell carcinoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10963686/"
-        },
-        {
-          "name": "p63",
-          "result": "Negative",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for acinic cell carcinoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10963686/"
+          "type": "special stain",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-781-case-3/"
         }
       ]
     },
     "w780c3": {
       "case_label": "Week 780: Case 3",
       "diagnosis": "Angiomyolipoma",
-      "stain_selection": "educational_fallback",
+      "stain_selection": "jhu_discussion",
+      "discussion_source": "feedback_text_fallback",
       "stains": [
         {
-          "name": "HMB45",
-          "result": "Positive",
+          "name": "panCK",
+          "result": "Not specified in JHU discussion",
           "aliases": [
-            "HMB-45"
+            "cytokeratin"
           ],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Angiomyolipoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/23879-2/"
         },
         {
-          "name": "Melan-A",
-          "result": "Positive",
-          "aliases": [
-            "MART1",
-            "MART-1"
-          ],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Angiomyolipoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
-        },
-        {
-          "name": "SMA",
-          "result": "Positive",
-          "aliases": [
-            "smooth muscle actin"
-          ],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Angiomyolipoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
-        },
-        {
-          "name": "Cathepsin K",
-          "result": "Positive",
+          "name": "PAX8",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Angiomyolipoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/23879-2/"
         }
       ]
     },
     "w780c2": {
       "case_label": "Week 780: Case 2",
       "diagnosis": "Tubulocystic renal cell carcinoma",
-      "stain_selection": "educational_fallback",
+      "stain_selection": "jhu_discussion",
+      "discussion_source": "feedback_text_fallback",
       "stains": [
         {
-          "name": "PAX8",
-          "result": "Positive",
-          "aliases": [],
+          "name": "FH",
+          "result": "Retained",
+          "aliases": [
+            "fumarate hydratase"
+          ],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Tubulocystic renal cell carcinoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-780-case-2/"
         },
         {
-          "name": "AMACR",
-          "result": "Positive",
-          "aliases": [],
+          "name": "2SC",
+          "result": "Retained",
+          "aliases": [
+            "2-succinocysteine"
+          ],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Tubulocystic renal cell carcinoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-780-case-2/"
         },
         {
           "name": "CK7",
-          "result": "Negative / focal",
-          "aliases": [],
+          "result": "Not specified in JHU discussion",
+          "aliases": [
+            "cytokeratin 7"
+          ],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Tubulocystic renal cell carcinoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
-        },
-        {
-          "name": "CAIX",
-          "result": "Negative",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Tubulocystic renal cell carcinoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-780-case-2/"
         }
       ]
     },
     "w780c1": {
       "case_label": "Week 780: Case 1",
       "diagnosis": "Sarcomatoid urothelial carcinoma",
-      "stain_selection": "educational_fallback",
+      "stain_selection": "jhu_discussion",
+      "discussion_source": "feedback_text_fallback",
       "stains": [
+        {
+          "name": "panCK",
+          "result": "Not specified in JHU discussion",
+          "aliases": [
+            "cytokeratin"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-780-case-1/"
+        },
         {
           "name": "GATA3",
           "result": "Positive",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Sarcomatoid urothelial carcinoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-780-case-1/"
         },
         {
-          "name": "p63",
+          "name": "SOX10",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-780-case-1/"
+        },
+        {
+          "name": "PAX8",
           "result": "Positive",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Sarcomatoid urothelial carcinoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
-        },
-        {
-          "name": "CK7",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Sarcomatoid urothelial carcinoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
-        },
-        {
-          "name": "Uroplakin II",
-          "result": "Positive / variable",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Sarcomatoid urothelial carcinoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-780-case-1/"
         }
       ]
     },
@@ -797,6 +822,7 @@
       "case_label": "Week 779: Case 3",
       "diagnosis": "Teratoma with somatic-type malignancy",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "SALL4",
@@ -840,6 +866,7 @@
       "case_label": "Week 779: Case 2",
       "diagnosis": "Metanephric adenoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "CK7",
@@ -849,7 +876,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-779-case-2/"
         },
         {
@@ -858,7 +885,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-779-case-2/"
         },
         {
@@ -867,7 +894,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-779-case-2/"
         }
       ]
@@ -876,6 +903,7 @@
       "case_label": "Week 779: Case 1",
       "diagnosis": "Fibrothecoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "PR",
@@ -885,7 +913,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-779-case-1/"
         },
         {
@@ -896,7 +924,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-779-case-1/"
         },
         {
@@ -907,7 +935,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-779-case-1/"
         },
         {
@@ -916,7 +944,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-779-case-1/"
         },
         {
@@ -925,7 +953,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-779-case-1/"
         },
         {
@@ -934,7 +962,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-779-case-1/"
         }
       ]
@@ -943,6 +971,7 @@
       "case_label": "Week 778: Case 3",
       "diagnosis": "Fibrothecoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "Inhibin",
@@ -952,7 +981,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-778-case-3/"
         },
         {
@@ -961,7 +990,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-778-case-3/"
         },
         {
@@ -973,7 +1002,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-778-case-3/"
         },
         {
@@ -982,7 +1011,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-778-case-3/"
         },
         {
@@ -991,7 +1020,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-778-case-3/"
         },
         {
@@ -1000,7 +1029,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-778-case-3/"
         }
       ]
@@ -1009,6 +1038,7 @@
       "case_label": "Week 778: Case 2",
       "diagnosis": "Inverted papilloma",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "GATA3",
@@ -1052,6 +1082,7 @@
       "case_label": "Week 778: Case 1",
       "diagnosis": "Eosinophilic and vacuolated tumor (EVT)",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "CK20",
@@ -1061,7 +1092,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-778-case-1/"
         },
         {
@@ -1072,7 +1103,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-778-case-1/"
         },
         {
@@ -1083,7 +1114,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-778-case-1/"
         },
         {
@@ -1092,7 +1123,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-778-case-1/"
         }
       ]
@@ -1101,6 +1132,7 @@
       "case_label": "Week 777: Case 3",
       "diagnosis": "Carcinoid tumor",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "panCK",
@@ -1110,7 +1142,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-777-case-3/"
         }
       ]
@@ -1119,6 +1151,7 @@
       "case_label": "Week 777: Case 2",
       "diagnosis": "Clear cell carcinoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "CK7",
@@ -1128,7 +1161,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-777-case-2/"
         },
         {
@@ -1139,7 +1172,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-777-case-2/"
         }
       ]
@@ -1148,6 +1181,7 @@
       "case_label": "Week 777: Case 1",
       "diagnosis": "Anaplastic large cell lymphoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "panCK",
@@ -1157,7 +1191,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-777-case-1/"
         },
         {
@@ -1166,7 +1200,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-777-case-1/"
         },
         {
@@ -1175,7 +1209,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-777-case-1/"
         }
       ]
@@ -1184,6 +1218,7 @@
       "case_label": "Week 776: Case 3",
       "diagnosis": "Malignant phyllodes tumor",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "CD34",
@@ -1227,6 +1262,7 @@
       "case_label": "Week 776: Case 2",
       "diagnosis": "Cystic neutrophilic granulomatous mastitis",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "Gram stain",
@@ -1234,7 +1270,7 @@
           "aliases": [],
           "type": "special stain",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-776-case-2/"
         }
       ]
@@ -1243,6 +1279,7 @@
       "case_label": "Week 776: Case 1",
       "diagnosis": "Granular cell tumor",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "Inhibin",
@@ -1252,7 +1289,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-776-case-1/"
         },
         {
@@ -1263,7 +1300,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-776-case-1/"
         },
         {
@@ -1272,7 +1309,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-776-case-1/"
         },
         {
@@ -1281,7 +1318,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-776-case-1/"
         },
         {
@@ -1290,7 +1327,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-776-case-1/"
         }
       ]
@@ -1298,129 +1335,157 @@
     "w775c3": {
       "case_label": "Week 775: Case 3",
       "diagnosis": "Paget’s disease",
-      "stain_selection": "educational_fallback",
+      "stain_selection": "jhu_discussion",
+      "discussion_source": "feedback_text_fallback",
       "stains": [
         {
-          "name": "CK7",
-          "result": "Positive",
+          "name": "PR",
+          "result": "Not specified in JHU discussion",
+          "aliases": [
+            "progesterone receptor"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-775-case-3/"
+        },
+        {
+          "name": "ER",
+          "result": "Not specified in JHU discussion",
+          "aliases": [
+            "estrogen receptor"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-775-case-3/"
+        },
+        {
+          "name": "Mammaglobin",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Paget’s disease; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8167791/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-775-case-3/"
+        },
+        {
+          "name": "Melan-A",
+          "result": "Not specified in JHU discussion",
+          "aliases": [
+            "MART1",
+            "MART-1"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-775-case-3/"
         },
         {
           "name": "GATA3",
-          "result": "Positive",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Paget’s disease; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8167791/"
-        },
-        {
-          "name": "GCDFP-15",
-          "result": "Positive / variable",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Paget’s disease; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8167791/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-775-case-3/"
         },
         {
           "name": "SOX10",
-          "result": "Negative",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Paget’s disease; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8167791/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-775-case-3/"
+        },
+        {
+          "name": "HER2",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-775-case-3/"
+        },
+        {
+          "name": "p63",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-775-case-3/"
         }
       ]
     },
     "w775c2": {
       "case_label": "Week 775: Case 2",
       "diagnosis": "Prostate adenocarcinoma, Grade Group 5, with pleomorphic giant cell features",
-      "stain_selection": "educational_fallback",
+      "stain_selection": "jhu_discussion",
+      "discussion_source": "feedback_text_fallback",
       "stains": [
+        {
+          "name": "Synaptophysin",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-775-case-2/"
+        },
         {
           "name": "NKX3.1",
           "result": "Positive",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Prostate adenocarcinoma, Grade Group 5, with pleomorphic giant cell features; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://doi.org/10.1097/PAS.0000000000000238"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-775-case-2/"
         },
         {
-          "name": "PSA",
-          "result": "Positive",
+          "name": "GATA3",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Prostate adenocarcinoma, Grade Group 5, with pleomorphic giant cell features; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://doi.org/10.1097/PAS.0000000000000238"
-        },
-        {
-          "name": "AMACR",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Prostate adenocarcinoma, Grade Group 5, with pleomorphic giant cell features; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://doi.org/10.1097/PAS.0000000000000238"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-775-case-2/"
         },
         {
           "name": "p63",
-          "result": "Negative",
+          "result": "Positive",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Prostate adenocarcinoma, Grade Group 5, with pleomorphic giant cell features; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://doi.org/10.1097/PAS.0000000000000238"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-775-case-2/"
+        },
+        {
+          "name": "PSA",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-775-case-2/"
         }
       ]
     },
     "w775c1": {
       "case_label": "Week 775: Case 1",
       "diagnosis": "Benign rete testis epithelium",
-      "stain_selection": "educational_fallback",
+      "stain_selection": "jhu_discussion",
+      "discussion_source": "feedback_text_fallback",
       "stains": [
         {
-          "name": "CK7",
-          "result": "Positive",
+          "name": "CD56",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Benign rete testis epithelium; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
-        },
-        {
-          "name": "PAX8",
-          "result": "Positive / variable",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Benign rete testis epithelium; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
-        },
-        {
-          "name": "Calretinin",
-          "result": "Positive / variable",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Benign rete testis epithelium; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
-        },
-        {
-          "name": "GATA3",
-          "result": "Negative",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Benign rete testis epithelium; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-775-case-1/"
         }
       ]
     },
@@ -1428,6 +1493,7 @@
       "case_label": "Week 774: Case 3",
       "diagnosis": "Chondro-osseous respiratory epithelial (CORE) hamartoma",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "panCK",
@@ -1462,6 +1528,7 @@
       "case_label": "Week 774: Case 2",
       "diagnosis": "Squamous cell carcinoma ex-inverted papilloma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "HPV ISH",
@@ -1472,7 +1539,7 @@
           ],
           "type": "ISH",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-774-case-2/"
         },
         {
@@ -1481,7 +1548,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-774-case-2/"
         }
       ]
@@ -1490,6 +1557,7 @@
       "case_label": "Week 774: Case 1",
       "diagnosis": "HPV-associated ciliated adenosquamous carcinoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "HPV ISH",
@@ -1500,7 +1568,7 @@
           ],
           "type": "ISH",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-774-case-1/"
         },
         {
@@ -1509,7 +1577,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-774-case-1/"
         },
         {
@@ -1518,7 +1586,7 @@
           "aliases": [],
           "type": "special stain",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-774-case-1/"
         }
       ]
@@ -1527,6 +1595,7 @@
       "case_label": "Week 773: Case 3",
       "diagnosis": "Malakoplakia",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "CD68",
@@ -1570,6 +1639,7 @@
       "case_label": "Week 773: Case 2",
       "diagnosis": "Large cell neuroendocrine carcinoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "TTF-1",
@@ -1577,7 +1647,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-773-case-2/"
         }
       ]
@@ -1586,6 +1656,7 @@
       "case_label": "Week 773: Case 1",
       "diagnosis": "Bronchiolitis obliterans",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "Trichrome",
@@ -1620,6 +1691,7 @@
       "case_label": "Week 772: Case 3",
       "diagnosis": "Seminoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "CD30",
@@ -1627,7 +1699,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-772-case-3/"
         },
         {
@@ -1636,7 +1708,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-772-case-3/"
         },
         {
@@ -1645,7 +1717,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-772-case-3/"
         }
       ]
@@ -1654,6 +1726,7 @@
       "case_label": "Week 772: Case 2",
       "diagnosis": "Angiosarcoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "CD34",
@@ -1661,7 +1734,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-772-case-2/"
         },
         {
@@ -1670,7 +1743,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-772-case-2/"
         },
         {
@@ -1679,7 +1752,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-772-case-2/"
         }
       ]
@@ -1688,6 +1761,7 @@
       "case_label": "Week 772: Case 1",
       "diagnosis": "Traumatic neuroma",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "S100",
@@ -1731,6 +1805,7 @@
       "case_label": "Week 771: Case 3",
       "diagnosis": "Renal carcinoid tumor",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "Synaptophysin",
@@ -1738,7 +1813,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-771-case-3/"
         },
         {
@@ -1747,7 +1822,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-771-case-3/"
         }
       ]
@@ -1756,6 +1831,7 @@
       "case_label": "Week 771: Case 2",
       "diagnosis": "Squamous Cell Carcinoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "HPV ISH",
@@ -1766,7 +1842,7 @@
           ],
           "type": "ISH",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-771-case-2/"
         }
       ]
@@ -1775,6 +1851,7 @@
       "case_label": "Week 771: Case 1",
       "diagnosis": "Condyloma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "HPV ISH",
@@ -1785,7 +1862,7 @@
           ],
           "type": "ISH",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-771-case-1/"
         },
         {
@@ -1794,7 +1871,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-771-case-1/"
         }
       ]
@@ -1803,6 +1880,7 @@
       "case_label": "Week 770: Case 3",
       "diagnosis": "Clear cell hidradenoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "NKX3.1",
@@ -1810,7 +1888,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-770-case-3/"
         },
         {
@@ -1819,7 +1897,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-770-case-3/"
         }
       ]
@@ -1828,6 +1906,7 @@
       "case_label": "Week 770: Case 2",
       "diagnosis": "Xp11 translocation carcinoma",
       "stain_selection": "jhu_discussion",
+      "discussion_source": "discussion_field",
       "stains": [
         {
           "name": "CK7",
@@ -1837,7 +1916,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-770-case-2/"
         },
         {
@@ -1848,7 +1927,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-770-case-2/"
         },
         {
@@ -1857,7 +1936,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-770-case-2/"
         }
       ]
@@ -1866,6 +1945,7 @@
       "case_label": "Week 770: Case 1",
       "diagnosis": "Malignant phyllodes tumor",
       "stain_selection": "educational_fallback",
+      "discussion_source": "none",
       "stains": [
         {
           "name": "CD34",
