@@ -848,13 +848,13 @@
             "alpha-inhibin"
           ],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Immunohistochemistry can show positive expression of cytokeratin (panCK), smooth muscle markers (desmin), endometrial stromal markers, and sex cord markers (inhibin, SF1, calretinin).",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "panCK",
@@ -862,49 +862,49 @@
             "cytokeratin"
           ],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Immunohistochemistry can show positive expression of cytokeratin (panCK), smooth muscle markers (desmin), endometrial stromal markers, and sex cord markers (inhibin, SF1, calretinin).",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "Calretinin",
           "aliases": [],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Immunohistochemistry can show positive expression of cytokeratin (panCK), smooth muscle markers (desmin), endometrial stromal markers, and sex cord markers (inhibin, SF1, calretinin).",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "Desmin",
           "aliases": [],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Immunohistochemistry can show positive expression of cytokeratin (panCK), smooth muscle markers (desmin), endometrial stromal markers, and sex cord markers (inhibin, SF1, calretinin).",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "SF1",
           "aliases": [],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Immunohistochemistry can show positive expression of cytokeratin (panCK), smooth muscle markers (desmin), endometrial stromal markers, and sex cord markers (inhibin, SF1, calretinin).",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         }
       ],
       "references": [
@@ -1433,25 +1433,25 @@
             "progesterone receptor"
           ],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Carried forward from the project's prior curated stain panel.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
-          "provenance": "prior_curated",
+          "provenance": "differential_inference",
           "confidence": "medium",
-          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain."
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "Synaptophysin",
           "aliases": [],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Contextual educational inference from the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
-          "provenance": "contextual_inference",
-          "confidence": "low",
-          "basis": "Marker is recommended/associated in the source answer, but a case-specific polarity is not explicit."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "Beta-catenin",
@@ -1459,13 +1459,13 @@
             "β-catenin"
           ],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "CAM5.2",
@@ -1473,13 +1473,13 @@
             "CAM 5.2"
           ],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "CD117",
@@ -1487,61 +1487,61 @@
             "KIT"
           ],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Contextual educational inference from the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
-          "provenance": "contextual_inference",
-          "confidence": "low",
-          "basis": "Marker is recommended/associated in the source answer, but a case-specific polarity is not explicit."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "CD10",
           "aliases": [],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "CD56",
           "aliases": [],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "CD99",
           "aliases": [],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "WT1",
           "aliases": [],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         }
       ],
       "references": [
@@ -2124,13 +2124,13 @@
           "name": "HMB45",
           "aliases": [],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Stains for melanocytic differentiation were positive (HMB45 and MelanA), thereby confirming the diagnosis of angiomyolipoma (AML) Angiomyolipoma (AML) is a member of the PEComa family of tumors (perivascular epithelioid cell tumor family), and despite their name, may have an uneven/varying proportion of angiomatoid, smooth muscle/myoid, and lipomatous components. The distribution of staining for HMB45 and MelanA in AML is peculiar. HMB45 stains 90% of the adipose tissue, 85% of the myoid component, and 80% of the vasculature, while MelanA stains, to a lesser degree, 70% of the adipose component, 60% of the smooth muscle component, and 40% of the vasculature. Lipomas would display mature adipocytic differentiation but are not expected to be positive for HMB45 and MelanA, and the kidney/perirenal space would not be a common site for lipoma.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         }
       ],
       "references": [
@@ -2268,13 +2268,13 @@
           "name": "Synaptophysin",
           "aliases": [],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "synaptophysin) would be positive. Large cell neuroendocrine carcinoma would exhibit greater nuclear atypia, have no squamoid nests, and would be positive for neuroendocrine markers (synaptophysin, chromogranin, INSM1).",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "Beta-catenin",
@@ -2282,25 +2282,25 @@
             "β-catenin"
           ],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Pancreatoblastoma, most notably, would display nuclear beta-catenin staining in the squamoid nests. Acinar cell carcinoma would not show squamoid nests or other lineages, and thus would not have nuclear beta-catenin staining. SPN would be diffusely positive for nuclear beta-catenin, unlike in pancreatoblastoma.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "Chromogranin",
           "aliases": [],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Large cell neuroendocrine carcinoma would exhibit greater nuclear atypia, have no squamoid nests, and would be positive for neuroendocrine markers (synaptophysin, chromogranin, INSM1).",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "panCK",
@@ -2332,13 +2332,13 @@
           "name": "INSM1",
           "aliases": [],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Large cell neuroendocrine carcinoma would exhibit greater nuclear atypia, have no squamoid nests, and would be positive for neuroendocrine markers (synaptophysin, chromogranin, INSM1).",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "CK19",
@@ -5041,37 +5041,37 @@
           "name": "CD30",
           "aliases": [],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "The neoplastic cells are positive for ALK+, CD30+, CD68+, CD163+, CD3+, CD4+, CD7+, and negative for CD20-, EBER ISH, and CD8-. Classical Hodgkin lymphoma would also be CD15+ combined with CD30+ positivity and will not display ALK positivity, and may also express positivity for PAX5, thus delineating CHL as a B-cell neoplasm. Peripheral T-cell lymphoma, NOS usually has a CD4 predominance as seen with the current case and contains variable CD30 positivity; it is usually ALK negative. Just like ALK-positive ALCL, histiocytic sarcoma is positive for CD68 and CD163 but will not demonstrate immunoreactivity for ALK, CD30, nor CD3. Of note, there is the entity known as ALK negative anaplastic large cell lymphoma, which will be CD30+ but ALK negative.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "CD15",
           "aliases": [],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Classical Hodgkin lymphoma would also be CD15+ combined with CD30+ positivity and will not display ALK positivity, and may also express positivity for PAX5, thus delineating CHL as a B-cell neoplasm.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "PAX5",
           "aliases": [],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Expected/supportive immunophenotype described for the diagnosed entity.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Classical Hodgkin lymphoma would also be CD15+ combined with CD30+ positivity and will not display ALK positivity, and may also express positivity for PAX5, thus delineating CHL as a B-cell neoplasm.",
-          "provenance": "entity_profile",
+          "provenance": "differential_inference",
           "confidence": "medium",
-          "basis": "Source answer describes this as a typical/possible immunophenotypic feature of the diagnosed entity."
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "CD20",
@@ -5089,13 +5089,13 @@
           "name": "ALK",
           "aliases": [],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "The neoplastic cells are positive for ALK+, CD30+, CD68+, CD163+, CD3+, CD4+, CD7+, and negative for CD20-, EBER ISH, and CD8-. Together, these point to the diagnosis of ALK-positive anaplastic large cell lymphoma. Classical Hodgkin lymphoma would also be CD15+ combined with CD30+ positivity and will not display ALK positivity, and may also express positivity for PAX5, thus delineating CHL as a B-cell neoplasm. Peripheral T-cell lymphoma, NOS usually has a CD4 predominance as seen with the current case and contains variable CD30 positivity; it is usually ALK negative. Just like ALK-positive ALCL, histiocytic sarcoma is positive for CD68 and CD163 but will not demonstrate immunoreactivity for ALK, CD30, nor CD3. Of note, there is the entity known as ALK negative anaplastic large cell lymphoma, which will be CD30+ but ALK negative.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "CD8",
@@ -5221,13 +5221,13 @@
           "name": "CD10",
           "aliases": [],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Result stated directly in the source answer.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Angioimmunoblastic T cell lymphoma has a polymorphic morphology with prominent endothelial cells, expansion of follicular dendritic framework, and with expression of PD-1, CD10, BCL-6, CXCL13 or CCR5, although larger cells may be EBER ISH positive.",
-          "provenance": "explicit",
-          "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "provenance": "differential_inference",
+          "confidence": "medium",
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         },
         {
           "name": "CD56",
