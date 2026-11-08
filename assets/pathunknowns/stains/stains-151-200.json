@@ -795,6 +795,17 @@
           "source_type": "jhu_discussion_text",
           "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-765-case-2/"
+        },
+        {
+          "name": "TTF-1",
+          "result": "Not specified in JHU discussion",
+          "aliases": [
+            "TTF1"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-765-case-2/"
         }
       ]
     },
