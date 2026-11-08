@@ -1,0 +1,237 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://femiliani.github.io/assets/pathunknowns/v2/schema.json",
+  "title": "PathUnknowns Case",
+  "type": "object",
+  "required": [
+    "id",
+    "source",
+    "clinical",
+    "images",
+    "question",
+    "answer",
+    "differential",
+    "stains",
+    "references",
+    "metadata"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "name",
+        "url",
+        "case_label",
+        "attribution"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "case_label": {
+          "type": "string"
+        },
+        "attribution": {
+          "type": "string"
+        }
+      }
+    },
+    "clinical": {
+      "type": "object",
+      "required": [
+        "vignette"
+      ],
+      "properties": {
+        "vignette": {
+          "type": "string"
+        }
+      }
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "question": {
+      "type": "object",
+      "required": [
+        "prompt",
+        "choices"
+      ],
+      "properties": {
+        "prompt": {
+          "type": "string"
+        },
+        "choices": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "answer": {
+      "type": "object",
+      "required": [
+        "diagnosis",
+        "correct_choice_index",
+        "text"
+      ],
+      "properties": {
+        "diagnosis": {
+          "type": "string"
+        },
+        "correct_choice_index": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "text": {
+          "type": "string"
+        }
+      }
+    },
+    "differential": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "stains": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "aliases",
+          "type",
+          "result",
+          "result_display",
+          "interpretation",
+          "context",
+          "provenance",
+          "confidence",
+          "basis"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "type": {
+            "type": "string"
+          },
+          "result": {
+            "enum": [
+              "positive",
+              "negative",
+              "positive_variable",
+              "negative_variable",
+              "loss",
+              "retained",
+              "variable"
+            ]
+          },
+          "result_display": {
+            "type": "string"
+          },
+          "interpretation": {
+            "type": "string"
+          },
+          "context": {
+            "type": "string"
+          },
+          "provenance": {
+            "enum": [
+              "explicit",
+              "entity_profile",
+              "differential_inference",
+              "prior_curated",
+              "contextual_inference",
+              "educational_fallback"
+            ]
+          },
+          "confidence": {
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "basis": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "text",
+          "url"
+        ],
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "required": [
+        "case_version",
+        "source_type",
+        "curation_status",
+        "review_flags"
+      ],
+      "properties": {
+        "case_version": {
+          "type": "integer"
+        },
+        "source_type": {
+          "type": "string"
+        },
+        "curation_status": {
+          "type": "string"
+        },
+        "review_flags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "original_extractor_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}
