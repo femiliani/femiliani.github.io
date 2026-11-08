@@ -2688,6 +2688,18 @@
           "provenance": "explicit",
           "confidence": "high",
           "basis": "Negative/lack-of-expression language in source answer."
+        },
+        {
+          "name": "GATA3",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive_variable",
+          "result_display": "Positive / variable",
+          "interpretation": "Expected/supportive immunophenotype described in the source answer.",
+          "context": "Low-grade oncocytic tumour of the kidney is characterized by genetic alterations of TSC1, TSC2, MTOR or PIK3CA and consistent GATA3 positivity.",
+          "provenance": "entity_profile",
+          "confidence": "medium",
+          "basis": "Source answer describes this marker as a positive/supportive immunophenotypic feature."
         }
       ],
       "references": [
