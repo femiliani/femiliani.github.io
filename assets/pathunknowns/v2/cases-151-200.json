@@ -3396,13 +3396,13 @@
             "KIT"
           ],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
           "context": "\"The neoplasm labeled diffusely for CD117 (which could also be seen in melanoma) but also for DOG1.\" Importantly, the neoplasm demonstrated loss of SDH immunoreactivity, supporting the diagnosis of a succinate dehydrogenase deficient gastrointestinal stromal tumor. \" Melanoma should label for S100, SOX10, and/or HMB45, and would be SDH intact.\" Leiomyosarcoma would demonstrate immunoreactivity for muscle markers, \"and typically does not show the multinodular appearance seen in the current case.\" Paraganglioma would label for neuroendocrine markers such as synaptophysin and chromogranin.\" A subset of these would be SDH deficient, but paragangliomas should not typically label for CD117 or DOG1.",
-          "provenance": "differential_inference",
-          "confidence": "medium",
-          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Direct case-specific positive result in source answer."
         },
         {
           "name": "SOX10",
@@ -3432,13 +3432,13 @@
           "name": "DOG1",
           "aliases": [],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
           "context": "\"The neoplasm labeled diffusely for CD117 (which could also be seen in melanoma) but also for DOG1.\" Importantly, the neoplasm demonstrated loss of SDH immunoreactivity, supporting the diagnosis of a succinate dehydrogenase deficient gastrointestinal stromal tumor. \" Melanoma should label for S100, SOX10, and/or HMB45, and would be SDH intact.\" Leiomyosarcoma would demonstrate immunoreactivity for muscle markers, \"and typically does not show the multinodular appearance seen in the current case.\" Paraganglioma would label for neuroendocrine markers such as synaptophysin and chromogranin.\" A subset of these would be SDH deficient, but paragangliomas should not typically label for CD117 or DOG1.",
-          "provenance": "differential_inference",
-          "confidence": "medium",
-          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Direct case-specific positive result in source answer."
         }
       ],
       "references": [],
@@ -3496,13 +3496,13 @@
             "cytokeratin 7"
           ],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
+          "result": "positive",
+          "result_display": "Positive",
           "interpretation": "Result stated directly in the source answer.",
           "context": "\" The lesion has two distinctive components.\" One is a hypervascular clear cell neoplasm which has the typical morphology of clear cell RCC, and demonstrates diffuse immunoreactivity for CA-IX.\" The second component labels not for CA-IX, but instead for cytokeratin 7 and not CD117.\" The neoplastic cells are epithelioid, and have slightly irregular nuclei with minimal with perinuclear halos, less well developed than those of chromophobe RCC.\" These are the typical features of low grade oncocytic tumor, a provisional entity which has been associated with TSC gene mutations. \" High grade clear cell RCC typically would not demonstrate diffuse immunoreactivity for cytokeratin 7, and would have hypervascular stroma with greater nuclear atypia.\" Xp11 translocation RCC may have variable morphology, but does not demonstrate diffuse labeling for carbonic anhydrase IX and typically does not demonstrate the hypervascular stroma of the current clear cell lesion.\" Granular cell RCC is a historic term for high grade clear cell RCC which is no longer in use.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "basis": "Direct case-specific positive result in source answer."
         },
         {
           "name": "panCK",
@@ -3510,13 +3510,13 @@
             "cytokeratin"
           ],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
+          "result": "positive",
+          "result_display": "Positive",
           "interpretation": "Result stated directly in the source answer.",
           "context": "\" The lesion has two distinctive components.\" One is a hypervascular clear cell neoplasm which has the typical morphology of clear cell RCC, and demonstrates diffuse immunoreactivity for CA-IX.\" The second component labels not for CA-IX, but instead for cytokeratin 7 and not CD117.\" The neoplastic cells are epithelioid, and have slightly irregular nuclei with minimal with perinuclear halos, less well developed than those of chromophobe RCC.\" These are the typical features of low grade oncocytic tumor, a provisional entity which has been associated with TSC gene mutations. \" High grade clear cell RCC typically would not demonstrate diffuse immunoreactivity for cytokeratin 7, and would have hypervascular stroma with greater nuclear atypia.\" Xp11 translocation RCC may have variable morphology, but does not demonstrate diffuse labeling for carbonic anhydrase IX and typically does not demonstrate the hypervascular stroma of the current clear cell lesion.\" Granular cell RCC is a historic term for high grade clear cell RCC which is no longer in use.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "basis": "Direct case-specific positive result in source answer."
         },
         {
           "name": "CD117",
@@ -3524,13 +3524,13 @@
             "KIT"
           ],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
-          "interpretation": "Contextual educational inference from the source answer.",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
           "context": "\" The lesion has two distinctive components.\" One is a hypervascular clear cell neoplasm which has the typical morphology of clear cell RCC, and demonstrates diffuse immunoreactivity for CA-IX.\" The second component labels not for CA-IX, but instead for cytokeratin 7 and not CD117.\" The neoplastic cells are epithelioid, and have slightly irregular nuclei with minimal with perinuclear halos, less well developed than those of chromophobe RCC.\" These are the typical features of low grade oncocytic tumor, a provisional entity which has been associated with TSC gene mutations.",
-          "provenance": "contextual_inference",
-          "confidence": "low",
-          "basis": "Marker is recommended/associated in the source answer, but a case-specific polarity is not explicit."
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Direct case-specific positive result in source answer."
         }
       ],
       "references": [],
@@ -4027,13 +4027,13 @@
           "name": "Calretinin",
           "aliases": [],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
           "context": "Immunohistochemistry is critical, with positivity for multiple mesothelial markers (CK5/6, WT1, calretinin, and D240) and negativity for multiple carcinoma markers (claudin-4, MOC31, BerEP4) essential to support the mesothelial nature of this proliferation. Desmoplastic small round cell tumor can have immunophenotypic overlap with mesothelioma (keratin, WT1 expression), but should lack calretinin and D240 expression, and would also typically label with desmin, and importantly, has an undifferentiated appearance morphologically, as opposed to the tubular morphology that predominates in this case.",
-          "provenance": "differential_inference",
-          "confidence": "medium",
-          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Direct case-specific positive result in source answer."
         },
         {
           "name": "Claudin-4",
@@ -4051,13 +4051,13 @@
           "name": "Desmin",
           "aliases": [],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
           "context": "Desmoplastic small round cell tumor can have immunophenotypic overlap with mesothelioma (keratin, WT1 expression), but should lack calretinin and D240 expression, and would also typically label with desmin, and importantly, has an undifferentiated appearance morphologically, as opposed to the tubular morphology that predominates in this case.",
-          "provenance": "differential_inference",
-          "confidence": "medium",
-          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Direct case-specific positive result in source answer."
         },
         {
           "name": "BerEP4",
@@ -4843,25 +4843,25 @@
           "name": "Cathepsin K",
           "aliases": [],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
+          "result": "positive",
+          "result_display": "Positive",
           "interpretation": "Result stated directly in the source answer.",
           "context": "The neoplastic cells are immunoreactive for PAX8, AE1/ AE3, and often for cathepsin K.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "basis": "Direct case-specific positive result in source answer."
         },
         {
           "name": "PAX8",
           "aliases": [],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
+          "result": "positive",
+          "result_display": "Positive",
           "interpretation": "Result stated directly in the source answer.",
           "context": "The neoplastic cells are immunoreactive for PAX8, AE1/ AE3, and often for cathepsin K.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "basis": "Direct case-specific positive result in source answer."
         }
       ],
       "references": [],
