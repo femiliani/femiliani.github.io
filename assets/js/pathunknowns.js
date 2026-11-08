@@ -273,8 +273,11 @@
     byId("puStainInput").style.display = stainSuggesterOn ? "none" : "";
     byId("puStainSelect").style.display = stainSuggesterOn ? "" : "none";
 
+    var sourceLabel = c.stain_selection === "jhu_discussion"
+      ? " from the JHU discussion"
+      : (c.stain_selection === "educational_fallback" ? " (educational fallback)" : "");
     byId("puStainAvailability").textContent = stains.length
-      ? stains.length + " stain" + (stains.length === 1 ? "" : "s") + " available to order for this case"
+      ? stains.length + " stain" + (stains.length === 1 ? "" : "s") + " available to order" + sourceLabel
       : "No stain data loaded for this case.";
 
     byId("puStainSelect").innerHTML =
@@ -405,22 +408,9 @@
     var catalogEntry = stainMap && stainMap[caseData.id];
     if (!catalogEntry) return caseData;
 
-    var combined = [];
-    var seen = {};
-
-    function add(items) {
-      (items || []).forEach(function (stain) {
-        var key = normalizeStain(stain.name);
-        if (!key || seen[key]) return;
-        seen[key] = true;
-        combined.push(stain);
-      });
-    }
-
-    add(caseData.stains);
-    add(catalogEntry.stains);
-    caseData.stains = combined;
-    caseData.stain_status = combined.length ? "available" : "unavailable";
+    caseData.stains = (catalogEntry.stains || []).slice();
+    caseData.stain_selection = catalogEntry.stain_selection || "";
+    caseData.stain_status = caseData.stains.length ? "available" : "unavailable";
     return caseData;
   }
 

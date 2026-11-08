@@ -1,5 +1,6 @@
 {
-  "catalog_version": "1.0.0",
+  "catalog_version": "2.0.0",
+  "selection_policy": "Use every stain/IHC explicitly named in the JHU Discussion section. If no discussion stain is present, retain educational fallback stains.",
   "case_start": 1,
   "case_end": 50,
   "case_count": 50,
@@ -7,6 +8,7 @@
     "w819c3": {
       "case_label": "Week 819: Case 3",
       "diagnosis": "Perivascular epithelioid cell tumor (PEComa)",
+      "stain_selection": "educational_fallback",
       "stains": [
         {
           "name": "HMB45",
@@ -16,7 +18,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://sp.pathology.jhu.edu/week-819-case-3/"
         },
         {
@@ -28,7 +30,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://sp.pathology.jhu.edu/week-819-case-3/"
         },
         {
@@ -39,7 +41,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://sp.pathology.jhu.edu/week-819-case-3/"
         },
         {
@@ -48,7 +50,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://sp.pathology.jhu.edu/week-819-case-3/"
         },
         {
@@ -57,7 +59,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Educational simulated result requested for gameplay; JHU discusses TFE3 positivity in the TFE3-rearranged PEComa subset but does not establish this case as TFE3-rearranged.",
+          "basis": "Educational simulated result requested for gameplay; JHU discusses TFE3 positivity in the TFE3-rearranged PEComa subset but does not establish this case as TFE3-rearranged. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11664289/"
         }
       ]
@@ -65,45 +67,57 @@
     "w819c2": {
       "case_label": "Week 819: Case 2",
       "diagnosis": "Mesonephric/mesonephic-like carcinosarcoma",
+      "stain_selection": "jhu_discussion",
       "stains": [
         {
-          "name": "GATA3",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-819-case-2/"
-        },
-        {
-          "name": "TTF-1",
+          "name": "PR",
           "result": "Positive",
           "aliases": [
-            "TTF1"
+            "progesterone receptor"
           ],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Mesonephric/mesonephic-like carcinosarcoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
-        },
-        {
-          "name": "CD10",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-819-case-2/"
         },
         {
           "name": "ER",
-          "result": "Negative",
+          "result": "Positive",
           "aliases": [
             "estrogen receptor"
           ],
           "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-819-case-2/"
+        },
+        {
+          "name": "GATA3",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-819-case-2/"
+        },
+        {
+          "name": "TTF-1",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-819-case-2/"
+        },
+        {
+          "name": "p53",
+          "result": "Negative",
+          "aliases": [
+            "TP53"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-819-case-2/"
         }
       ]
@@ -111,15 +125,18 @@
     "w819c1": {
       "case_label": "Week 819: Case 1",
       "diagnosis": "Low grade endometrioid stromal sarcoma",
+      "stain_selection": "jhu_discussion",
       "stains": [
         {
-          "name": "CD10",
-          "result": "Positive",
-          "aliases": [],
+          "name": "PR",
+          "result": "Negative",
+          "aliases": [
+            "progesterone receptor"
+          ],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Low grade endometrioid stromal sarcoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-819-case-1/"
         },
         {
           "name": "ER",
@@ -128,35 +145,36 @@
             "estrogen receptor"
           ],
           "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-819-case-1/"
         },
         {
-          "name": "PR",
-          "result": "Negative",
+          "name": "CD117",
+          "result": "Positive",
           "aliases": [
-            "progesterone receptor"
+            "KIT"
           ],
           "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-819-case-1/"
         },
         {
-          "name": "Cyclin D1",
-          "result": "Negative",
+          "name": "ALK",
+          "result": "Positive",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Low grade endometrioid stromal sarcoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-819-case-1/"
         }
       ]
     },
     "w818c3": {
       "case_label": "Week 818: Case 3",
       "diagnosis": "Pregnancy luteoma",
+      "stain_selection": "educational_fallback",
       "stains": [
         {
           "name": "Inhibin",
@@ -166,7 +184,7 @@
           ],
           "type": "IHC",
           "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://sp.pathology.jhu.edu/week-818-case-3/"
         },
         {
@@ -175,7 +193,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Pregnancy luteoma; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Pregnancy luteoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11664289/"
         },
         {
@@ -186,7 +204,7 @@
           ],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Pregnancy luteoma; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Pregnancy luteoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11664289/"
         },
         {
@@ -197,7 +215,7 @@
           ],
           "type": "special stain",
           "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://sp.pathology.jhu.edu/week-818-case-3/"
         }
       ]
@@ -205,38 +223,8 @@
     "w818c2": {
       "case_label": "Week 818: Case 2",
       "diagnosis": "Fumarate hydratase-deficient atypical leiomyoma",
+      "stain_selection": "jhu_discussion",
       "stains": [
-        {
-          "name": "FH",
-          "result": "Loss",
-          "aliases": [
-            "fumarate hydratase"
-          ],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-818-case-2/"
-        },
-        {
-          "name": "2SC",
-          "result": "Loss",
-          "aliases": [
-            "2-succinocysteine"
-          ],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-818-case-2/"
-        },
-        {
-          "name": "Desmin",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-818-case-2/"
-        },
         {
           "name": "SMA",
           "result": "Positive",
@@ -244,474 +232,40 @@
             "smooth muscle actin"
           ],
           "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-818-case-2/"
-        }
-      ]
-    },
-    "w818c1": {
-      "case_label": "Week 818: Case 1",
-      "diagnosis": "Appendiceal-type low-grade mucinous neoplasm arising from a mature cystic teratoma",
-      "stains": [
+        },
         {
-          "name": "CK7",
-          "result": "Negative",
+          "name": "FH",
+          "result": "Retained",
           "aliases": [
-            "cytokeratin 7"
+            "fumarate hydratase"
           ],
           "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-818-case-1/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-818-case-2/"
         },
         {
-          "name": "CK20",
-          "result": "Negative",
+          "name": "2SC",
+          "result": "Retained",
           "aliases": [
-            "cytokeratin 20"
+            "2-succinocysteine"
           ],
           "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-818-case-1/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-818-case-2/"
         },
         {
-          "name": "CDX2",
+          "name": "Cathepsin K",
           "result": "Positive",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Appendiceal-type low-grade mucinous neoplasm arising from a mature cystic teratoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8815357/"
-        },
-        {
-          "name": "SATB2",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Appendiceal-type low-grade mucinous neoplasm arising from a mature cystic teratoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8815357/"
-        }
-      ]
-    },
-    "w817c3": {
-      "case_label": "Week 817: Case 3",
-      "diagnosis": "Uterine tumor resembling ovarian sex cord tumor (UTROSCT)",
-      "stains": [
-        {
-          "name": "Inhibin",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-817-case-3/"
-        },
-        {
-          "name": "SF1",
-          "result": "Positive",
-          "aliases": [
-            "SF-1"
-          ],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-817-case-3/"
-        },
-        {
-          "name": "Calretinin",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-817-case-3/"
-        },
-        {
-          "name": "Desmin",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-817-case-3/"
-        }
-      ]
-    },
-    "w817c2": {
-      "case_label": "Week 817: Case 2",
-      "diagnosis": "Primary endometrial squamous cell carcinoma",
-      "stains": [
-        {
-          "name": "p53",
-          "result": "Aberrant / mutation-type",
-          "aliases": [
-            "TP53"
-          ],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-817-case-2/"
-        },
-        {
-          "name": "p16",
-          "result": "Aberrant / mutation-type",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-817-case-2/"
-        },
-        {
-          "name": "ER",
-          "result": "Aberrant / mutation-type",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-817-case-2/"
-        },
-        {
-          "name": "HPV ISH",
-          "result": "Aberrant / mutation-type",
-          "aliases": [
-            "HPV",
-            "HPV-ISH"
-          ],
-          "type": "ISH",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-817-case-2/"
-        }
-      ]
-    },
-    "w817c1": {
-      "case_label": "Week 817: Case 1",
-      "diagnosis": "Low-grade endometrial stromal sarcoma",
-      "stains": [
-        {
-          "name": "CD10",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-817-case-1/"
-        },
-        {
-          "name": "ER",
-          "result": "Positive",
-          "aliases": [
-            "estrogen receptor"
-          ],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-817-case-1/"
-        },
-        {
-          "name": "PR",
-          "result": "Positive",
-          "aliases": [
-            "progesterone receptor"
-          ],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-817-case-1/"
-        },
-        {
-          "name": "Cyclin D1",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-817-case-1/"
-        }
-      ]
-    },
-    "w816c3": {
-      "case_label": "Week 816: Case 3",
-      "diagnosis": "Sertoli-leydig cell tumor with high-grade sarcomatous component",
-      "stains": [
-        {
-          "name": "Inhibin",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-816-week-3/"
-        },
-        {
-          "name": "SF1",
-          "result": "Positive",
-          "aliases": [
-            "SF-1"
-          ],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-816-week-3/"
-        },
-        {
-          "name": "Calretinin",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-816-week-3/"
-        },
-        {
-          "name": "Myogenin",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-816-week-3/"
-        }
-      ]
-    },
-    "w816c2": {
-      "case_label": "Week 816: Case 2",
-      "diagnosis": "Solid pseudopapillary neoplasm of ovary",
-      "stains": [
-        {
-          "name": "Beta-catenin",
-          "result": "Positive",
-          "aliases": [
-            "β-catenin"
-          ],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-816-case-2/"
-        },
-        {
-          "name": "CD10",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-816-case-2/"
-        },
-        {
-          "name": "CD56",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-816-case-2/"
-        },
-        {
-          "name": "PR",
-          "result": "Positive",
-          "aliases": [
-            "progesterone receptor"
-          ],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-816-case-2/"
-        }
-      ]
-    },
-    "w816c1": {
-      "case_label": "Week 816: Case 1",
-      "diagnosis": "Microcystic stromal tumor",
-      "stains": [
-        {
-          "name": "Beta-catenin",
-          "result": "Positive",
-          "aliases": [
-            "β-catenin"
-          ],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-816-case-1/"
-        },
-        {
-          "name": "Cyclin D1",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-816-case-1/"
-        },
-        {
-          "name": "WT1",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-816-case-1/"
-        },
-        {
-          "name": "Inhibin",
-          "result": "Negative",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-816-case-1/"
-        }
-      ]
-    },
-    "w815c3": {
-      "case_label": "Week 815: Case 3",
-      "diagnosis": "Metastatic epithelioid trophoblastic tumor (ETT)",
-      "stains": [
-        {
-          "name": "p63",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-815-case-3/"
-        },
-        {
-          "name": "GATA3",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-815-case-3/"
-        },
-        {
-          "name": "Inhibin",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-815-case-3/"
-        },
-        {
-          "name": "hCG",
-          "result": "Negative",
-          "aliases": [
-            "beta-hCG",
-            "β-hCG"
-          ],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-815-case-3/"
-        }
-      ]
-    },
-    "w815c2": {
-      "case_label": "Week 815: Case 2",
-      "diagnosis": "Sertoli-Leydig cell tumor",
-      "stains": [
-        {
-          "name": "Inhibin",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Sertoli-Leydig cell tumor; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11664289/"
-        },
-        {
-          "name": "SF1",
-          "result": "Positive",
-          "aliases": [
-            "SF-1"
-          ],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Sertoli-Leydig cell tumor; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11664289/"
-        },
-        {
-          "name": "Calretinin",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Sertoli-Leydig cell tumor; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11664289/"
-        },
-        {
-          "name": "FOXL2",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Sertoli-Leydig cell tumor; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11664289/"
-        }
-      ]
-    },
-    "w815c1": {
-      "case_label": "Week 815: Case 1",
-      "diagnosis": "Seromucinous borderline tumor",
-      "stains": [
-        {
-          "name": "PAX8",
-          "result": "Negative",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-815-case-1/"
-        },
-        {
-          "name": "CK7",
-          "result": "Negative",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-815-case-1/"
-        },
-        {
-          "name": "ER",
-          "result": "Negative",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-815-case-1/"
-        },
-        {
-          "name": "WT1",
-          "result": "Negative",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-815-case-1/"
-        }
-      ]
-    },
-    "w814c3": {
-      "case_label": "Week 814: Case 3",
-      "diagnosis": "Angiomyolipoma",
-      "stains": [
-        {
-          "name": "HMB45",
-          "result": "Positive",
-          "aliases": [
-            "HMB-45"
-          ],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-814-case-3/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-818-case-2/"
         },
         {
           "name": "Melan-A",
@@ -721,164 +275,109 @@
             "MART-1"
           ],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Angiomyolipoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-818-case-2/"
         },
         {
-          "name": "SMA",
-          "result": "Positive",
-          "aliases": [
-            "smooth muscle actin"
-          ],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Angiomyolipoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
-        },
-        {
-          "name": "Cathepsin K",
+          "name": "Desmin",
           "result": "Positive",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Angiomyolipoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-818-case-2/"
+        },
+        {
+          "name": "HMB45",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-818-case-2/"
         }
       ]
     },
-    "w814c2": {
-      "case_label": "Week 814: Case 2",
-      "diagnosis": "Intraductal papillary mucinous neoplasm (IPMN) with background chronic pancreatitis",
+    "w818c1": {
+      "case_label": "Week 818: Case 1",
+      "diagnosis": "Appendiceal-type low-grade mucinous neoplasm arising from a mature cystic teratoma",
+      "stain_selection": "jhu_discussion",
       "stains": [
+        {
+          "name": "CK20",
+          "result": "Positive",
+          "aliases": [
+            "cytokeratin 20"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-818-case-1/"
+        },
         {
           "name": "CK7",
           "result": "Positive",
-          "aliases": [],
+          "aliases": [
+            "cytokeratin 7"
+          ],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Intraductal papillary mucinous neoplasm (IPMN) with background chronic pancreatitis; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11334167/"
-        },
-        {
-          "name": "MUC5AC",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Intraductal papillary mucinous neoplasm (IPMN) with background chronic pancreatitis; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11334167/"
-        },
-        {
-          "name": "MUC2",
-          "result": "Variable",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Intraductal papillary mucinous neoplasm (IPMN) with background chronic pancreatitis; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11334167/"
-        },
-        {
-          "name": "MUC1",
-          "result": "Variable",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Intraductal papillary mucinous neoplasm (IPMN) with background chronic pancreatitis; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11334167/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-818-case-1/"
         }
       ]
     },
-    "w814c1": {
-      "case_label": "Week 814: Case 1",
-      "diagnosis": "Pancreatoblastoma",
+    "w817c3": {
+      "case_label": "Week 817: Case 3",
+      "diagnosis": "Uterine tumor resembling ovarian sex cord tumor (UTROSCT)",
+      "stain_selection": "educational_fallback",
       "stains": [
         {
-          "name": "Beta-catenin",
-          "result": "Diffuse positive",
+          "name": "Inhibin",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
+          "source_url": "https://sp.pathology.jhu.edu/week-817-case-3/"
+        },
+        {
+          "name": "SF1",
+          "result": "Positive",
           "aliases": [
-            "β-catenin"
+            "SF-1"
           ],
           "type": "IHC",
           "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-814-case-1/"
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
+          "source_url": "https://sp.pathology.jhu.edu/week-817-case-3/"
         },
         {
-          "name": "Trypsin",
+          "name": "Calretinin",
           "result": "Positive",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Pancreatoblastoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11334167/"
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
+          "source_url": "https://sp.pathology.jhu.edu/week-817-case-3/"
         },
         {
-          "name": "BCL10",
+          "name": "Desmin",
           "result": "Positive",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Pancreatoblastoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11334167/"
-        },
-        {
-          "name": "AFP",
-          "result": "Variable positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Pancreatoblastoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11334167/"
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
+          "source_url": "https://sp.pathology.jhu.edu/week-817-case-3/"
         }
       ]
     },
-    "w813c3": {
-      "case_label": "Week 813: Case 3",
-      "diagnosis": "Calcifying epithelial odontogenic tumor",
+    "w817c2": {
+      "case_label": "Week 817: Case 2",
+      "diagnosis": "Primary endometrial squamous cell carcinoma",
+      "stain_selection": "jhu_discussion",
       "stains": [
-        {
-          "name": "Congo red",
-          "result": "Positive in amyloid",
-          "aliases": [],
-          "type": "special stain",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Calcifying epithelial odontogenic tumor; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
-        },
-        {
-          "name": "panCK",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Calcifying epithelial odontogenic tumor; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
-        },
-        {
-          "name": "p63",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Calcifying epithelial odontogenic tumor; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
-        }
-      ]
-    },
-    "w813c2": {
-      "case_label": "Week 813: Case 2",
-      "diagnosis": "HPV-related multiphenotypic sinonasal carcinoma",
-      "stains": [
-        {
-          "name": "p16",
-          "result": "Block positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for HPV-related multiphenotypic sinonasal carcinoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
-        },
         {
           "name": "HPV ISH",
           "result": "Positive",
@@ -887,134 +386,647 @@
             "HPV-ISH"
           ],
           "type": "ISH",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-817-case-2/"
+        },
+        {
+          "name": "p16",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-817-case-2/"
+        }
+      ]
+    },
+    "w817c1": {
+      "case_label": "Week 817: Case 1",
+      "diagnosis": "Low-grade endometrial stromal sarcoma",
+      "stain_selection": "jhu_discussion",
+      "stains": [
+        {
+          "name": "PR",
+          "result": "Positive",
+          "aliases": [
+            "progesterone receptor"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-817-case-1/"
+        },
+        {
+          "name": "ER",
+          "result": "Positive",
+          "aliases": [
+            "estrogen receptor"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-817-case-1/"
+        },
+        {
+          "name": "Cyclin D1",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-817-case-1/"
+        }
+      ]
+    },
+    "w816c3": {
+      "case_label": "Week 816: Case 3",
+      "diagnosis": "Sertoli-leydig cell tumor with high-grade sarcomatous component",
+      "stain_selection": "educational_fallback",
+      "stains": [
+        {
+          "name": "Inhibin",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
           "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
+          "source_url": "https://sp.pathology.jhu.edu/week-816-week-3/"
+        },
+        {
+          "name": "SF1",
+          "result": "Positive",
+          "aliases": [
+            "SF-1"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
+          "source_url": "https://sp.pathology.jhu.edu/week-816-week-3/"
+        },
+        {
+          "name": "Calretinin",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
+          "source_url": "https://sp.pathology.jhu.edu/week-816-week-3/"
+        },
+        {
+          "name": "Myogenin",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
+          "source_url": "https://sp.pathology.jhu.edu/week-816-week-3/"
+        }
+      ]
+    },
+    "w816c2": {
+      "case_label": "Week 816: Case 2",
+      "diagnosis": "Solid pseudopapillary neoplasm of ovary",
+      "stain_selection": "educational_fallback",
+      "stains": [
+        {
+          "name": "Beta-catenin",
+          "result": "Positive",
+          "aliases": [
+            "β-catenin"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
+          "source_url": "https://sp.pathology.jhu.edu/week-816-case-2/"
+        },
+        {
+          "name": "CD10",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
+          "source_url": "https://sp.pathology.jhu.edu/week-816-case-2/"
+        },
+        {
+          "name": "CD56",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
+          "source_url": "https://sp.pathology.jhu.edu/week-816-case-2/"
+        },
+        {
+          "name": "PR",
+          "result": "Positive",
+          "aliases": [
+            "progesterone receptor"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
+          "source_url": "https://sp.pathology.jhu.edu/week-816-case-2/"
+        }
+      ]
+    },
+    "w816c1": {
+      "case_label": "Week 816: Case 1",
+      "diagnosis": "Microcystic stromal tumor",
+      "stain_selection": "educational_fallback",
+      "stains": [
+        {
+          "name": "Beta-catenin",
+          "result": "Positive",
+          "aliases": [
+            "β-catenin"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
+          "source_url": "https://sp.pathology.jhu.edu/week-816-case-1/"
+        },
+        {
+          "name": "Cyclin D1",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
+          "source_url": "https://sp.pathology.jhu.edu/week-816-case-1/"
+        },
+        {
+          "name": "WT1",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
+          "source_url": "https://sp.pathology.jhu.edu/week-816-case-1/"
+        },
+        {
+          "name": "Inhibin",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_answer_text",
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
+          "source_url": "https://sp.pathology.jhu.edu/week-816-case-1/"
+        }
+      ]
+    },
+    "w815c3": {
+      "case_label": "Week 815: Case 3",
+      "diagnosis": "Metastatic epithelioid trophoblastic tumor (ETT)",
+      "stain_selection": "jhu_discussion",
+      "stains": [
+        {
+          "name": "hCG",
+          "result": "Negative",
+          "aliases": [
+            "beta-hCG",
+            "β-hCG"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-815-case-3/"
+        },
+        {
+          "name": "p63",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-815-case-3/"
+        }
+      ]
+    },
+    "w815c2": {
+      "case_label": "Week 815: Case 2",
+      "diagnosis": "Sertoli-Leydig cell tumor",
+      "stain_selection": "jhu_discussion",
+      "stains": [
+        {
+          "name": "Inhibin",
+          "result": "Not specified in JHU discussion",
+          "aliases": [
+            "alpha-inhibin"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-815-case-2/"
+        },
+        {
+          "name": "CK7",
+          "result": "Not specified in JHU discussion",
+          "aliases": [
+            "cytokeratin 7"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-815-case-2/"
+        },
+        {
+          "name": "EMA",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-815-case-2/"
+        }
+      ]
+    },
+    "w815c1": {
+      "case_label": "Week 815: Case 1",
+      "diagnosis": "Seromucinous borderline tumor",
+      "stain_selection": "jhu_discussion",
+      "stains": [
+        {
+          "name": "WT1",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-815-case-1/"
+        }
+      ]
+    },
+    "w814c3": {
+      "case_label": "Week 814: Case 3",
+      "diagnosis": "Angiomyolipoma",
+      "stain_selection": "jhu_discussion",
+      "stains": [
+        {
+          "name": "Cathepsin K",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-814-case-3/"
+        },
+        {
+          "name": "HMB45",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-814-case-3/"
+        },
+        {
+          "name": "p53",
+          "result": "Not specified in JHU discussion",
+          "aliases": [
+            "TP53"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-814-case-3/"
+        },
+        {
+          "name": "MDM2",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-814-case-3/"
+        }
+      ]
+    },
+    "w814c2": {
+      "case_label": "Week 814: Case 2",
+      "diagnosis": "Intraductal papillary mucinous neoplasm (IPMN) with background chronic pancreatitis",
+      "stain_selection": "jhu_discussion",
+      "stains": [
+        {
+          "name": "CEA",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-814-case-2/"
+        }
+      ]
+    },
+    "w814c1": {
+      "case_label": "Week 814: Case 1",
+      "diagnosis": "Pancreatoblastoma",
+      "stain_selection": "jhu_discussion",
+      "stains": [
+        {
+          "name": "Synaptophysin",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-814-case-1/"
+        },
+        {
+          "name": "Beta-catenin",
+          "result": "Positive",
+          "aliases": [
+            "β-catenin"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-814-case-1/"
+        },
+        {
+          "name": "Chromogranin",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-814-case-1/"
+        },
+        {
+          "name": "panCK",
+          "result": "Not specified in JHU discussion",
+          "aliases": [
+            "cytokeratin"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-814-case-1/"
+        },
+        {
+          "name": "Trypsin",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-814-case-1/"
+        },
+        {
+          "name": "INSM1",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-814-case-1/"
+        },
+        {
+          "name": "CK19",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-814-case-1/"
+        },
+        {
+          "name": "AFP",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-814-case-1/"
+        },
+        {
+          "name": "CEA",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-814-case-1/"
+        }
+      ]
+    },
+    "w813c3": {
+      "case_label": "Week 813: Case 3",
+      "diagnosis": "Calcifying epithelial odontogenic tumor",
+      "stain_selection": "jhu_discussion",
+      "stains": [
+        {
+          "name": "Congo red",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "special stain",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-813-case-3/"
+        }
+      ]
+    },
+    "w813c2": {
+      "case_label": "Week 813: Case 2",
+      "diagnosis": "HPV-related multiphenotypic sinonasal carcinoma",
+      "stain_selection": "jhu_discussion",
+      "stains": [
+        {
+          "name": "HPV ISH",
+          "result": "Positive",
+          "aliases": [
+            "HPV",
+            "HPV-ISH"
+          ],
+          "type": "ISH",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-813-case-2/"
         },
         {
-          "name": "SOX10",
-          "result": "Positive",
-          "aliases": [],
+          "name": "SMARCB1",
+          "result": "Loss",
+          "aliases": [
+            "INI1",
+            "INI-1"
+          ],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for HPV-related multiphenotypic sinonasal carcinoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-813-case-2/"
         },
         {
-          "name": "S100",
-          "result": "Positive",
+          "name": "MYB",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for HPV-related multiphenotypic sinonasal carcinoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-813-case-2/"
         }
       ]
     },
     "w813c1": {
       "case_label": "Week 813: Case 1",
       "diagnosis": "Polymorphous adenocarcinoma",
+      "stain_selection": "jhu_discussion",
       "stains": [
         {
-          "name": "S100",
-          "result": "Diffuse positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Polymorphous adenocarcinoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10963686/"
-        },
-        {
-          "name": "SOX10",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Polymorphous adenocarcinoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10963686/"
-        },
-        {
           "name": "p63",
-          "result": "Positive",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Polymorphous adenocarcinoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10963686/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-813-case-1/"
         },
         {
           "name": "p40",
-          "result": "Negative",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Polymorphous adenocarcinoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10963686/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-813-case-1/"
         }
       ]
     },
     "w812c3": {
       "case_label": "Week 812: Case 3",
       "diagnosis": "Invasive lobular carcinoma and seborrheic keratosis",
+      "stain_selection": "jhu_discussion",
       "stains": [
         {
-          "name": "GATA3",
-          "result": "Positive",
-          "aliases": [],
+          "name": "PR",
+          "result": "Not specified in JHU discussion",
+          "aliases": [
+            "progesterone receptor"
+          ],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Invasive lobular carcinoma and seborrheic keratosis; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8167791/"
-        },
-        {
-          "name": "ER",
-          "result": "Negative",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-812-case-3/"
         },
         {
-          "name": "E-cadherin",
-          "result": "Loss",
-          "aliases": [],
+          "name": "ER",
+          "result": "Not specified in JHU discussion",
+          "aliases": [
+            "estrogen receptor"
+          ],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Invasive lobular carcinoma and seborrheic keratosis; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8167791/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-812-case-3/"
         },
         {
-          "name": "p120",
-          "result": "Cytoplasmic",
+          "name": "Mammaglobin",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Invasive lobular carcinoma and seborrheic keratosis; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8167791/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-812-case-3/"
+        },
+        {
+          "name": "HMB45",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-812-case-3/"
+        },
+        {
+          "name": "GATA3",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-812-case-3/"
+        },
+        {
+          "name": "SOX10",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-812-case-3/"
+        },
+        {
+          "name": "CDX2",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-812-case-3/"
+        },
+        {
+          "name": "S100",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-812-case-3/"
         }
       ]
     },
     "w812c2": {
       "case_label": "Week 812: Case 2",
       "diagnosis": "Metaplastic carcinoma with lobular carcinoma in situ (LCIS)",
+      "stain_selection": "jhu_discussion",
       "stains": [
         {
-          "name": "panCK",
+          "name": "PR",
+          "result": "Negative",
+          "aliases": [
+            "progesterone receptor"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-812-case-2/"
+        },
+        {
+          "name": "ER",
+          "result": "Negative",
+          "aliases": [
+            "estrogen receptor"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-812-case-2/"
+        },
+        {
+          "name": "CD34",
           "result": "Positive",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Metaplastic carcinoma with lobular carcinoma in situ (LCIS); not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8167791/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-812-case-2/"
+        },
+        {
+          "name": "HER2",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-812-case-2/"
         },
         {
           "name": "p63",
           "result": "Negative",
           "aliases": [],
           "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-812-case-2/"
         },
         {
@@ -1022,59 +1034,64 @@
           "result": "Negative",
           "aliases": [],
           "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-812-case-2/"
-        },
-        {
-          "name": "GATA3",
-          "result": "Variable",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Metaplastic carcinoma with lobular carcinoma in situ (LCIS); not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8167791/"
         }
       ]
     },
     "w812c1": {
       "case_label": "Week 812: Case 1",
       "diagnosis": "Malignant phyllodes tumor",
+      "stain_selection": "jhu_discussion",
       "stains": [
         {
-          "name": "CD34",
-          "result": "Negative",
-          "aliases": [],
+          "name": "Beta-catenin",
+          "result": "Not specified in JHU discussion",
+          "aliases": [
+            "β-catenin"
+          ],
           "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-812-case-1/"
         },
         {
           "name": "panCK",
           "result": "Positive",
+          "aliases": [
+            "cytokeratin"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-812-case-1/"
+        },
+        {
+          "name": "CD34",
+          "result": "Negative",
           "aliases": [],
           "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-812-case-1/"
         },
         {
           "name": "p63",
-          "result": "Positive",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-812-case-1/"
         },
         {
           "name": "p40",
-          "result": "Positive",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-812-case-1/"
         }
       ]
@@ -1082,6 +1099,7 @@
     "w811c3": {
       "case_label": "Week 811: Case 3",
       "diagnosis": "Canalicular adenoma",
+      "stain_selection": "educational_fallback",
       "stains": [
         {
           "name": "Beta-catenin",
@@ -1089,7 +1107,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://sp.pathology.jhu.edu/week-811-case-3/"
         },
         {
@@ -1098,7 +1116,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Canalicular adenoma; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Canalicular adenoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10963686/"
         },
         {
@@ -1107,7 +1125,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Canalicular adenoma; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Canalicular adenoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10963686/"
         },
         {
@@ -1116,7 +1134,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Canalicular adenoma; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Canalicular adenoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10963686/"
         }
       ]
@@ -1124,90 +1142,119 @@
     "w811c2": {
       "case_label": "Week 811: Case 2",
       "diagnosis": "Differentiated high-grade papillary thyroid carcinoma",
+      "stain_selection": "jhu_discussion",
       "stains": [
         {
-          "name": "PAX8",
+          "name": "PTH",
           "result": "Negative",
-          "aliases": [],
+          "aliases": [
+            "parathyroid hormone"
+          ],
           "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-811-case-2/"
-        },
-        {
-          "name": "TTF-1",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Differentiated high-grade papillary thyroid carcinoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
         },
         {
           "name": "Thyroglobulin",
           "result": "Negative",
           "aliases": [],
           "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-811-case-2/"
         },
         {
-          "name": "BRAF VE1",
-          "result": "Variable / mutation-dependent",
+          "name": "Synaptophysin",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Differentiated high-grade papillary thyroid carcinoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-811-case-2/"
+        },
+        {
+          "name": "Chromogranin",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-811-case-2/"
+        },
+        {
+          "name": "GATA3",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-811-case-2/"
+        },
+        {
+          "name": "INSM1",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-811-case-2/"
+        },
+        {
+          "name": "PAX8",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-811-case-2/"
         }
       ]
     },
     "w811c1": {
       "case_label": "Week 811: Case 1",
       "diagnosis": "Sinonasal carcinoma with DEK-AFF2 gene fusion",
+      "stain_selection": "jhu_discussion",
       "stains": [
         {
+          "name": "HPV ISH",
+          "result": "Not specified in JHU discussion",
+          "aliases": [
+            "HPV",
+            "HPV-ISH"
+          ],
+          "type": "ISH",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-811-case-1/"
+        },
+        {
+          "name": "SMARCB1",
+          "result": "Not specified in JHU discussion",
+          "aliases": [
+            "INI1",
+            "INI-1"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-811-case-1/"
+        },
+        {
           "name": "AFF2",
-          "result": "Nuclear positive",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Sinonasal carcinoma with DEK-AFF2 gene fusion; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11420419/"
-        },
-        {
-          "name": "p40",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Sinonasal carcinoma with DEK-AFF2 gene fusion; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11420419/"
-        },
-        {
-          "name": "p63",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Sinonasal carcinoma with DEK-AFF2 gene fusion; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11420419/"
-        },
-        {
-          "name": "CK5/6",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Sinonasal carcinoma with DEK-AFF2 gene fusion; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11420419/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-811-case-1/"
         }
       ]
     },
     "w810c3": {
       "case_label": "Week 810: Case 3",
       "diagnosis": "Cryptococcosis",
+      "stain_selection": "educational_fallback",
       "stains": [
         {
           "name": "GMS",
@@ -1217,7 +1264,7 @@
           ],
           "type": "special stain",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Cryptococcosis; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Cryptococcosis; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
         },
         {
@@ -1226,7 +1273,7 @@
           "aliases": [],
           "type": "special stain",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Cryptococcosis; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Cryptococcosis; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
         },
         {
@@ -1235,7 +1282,7 @@
           "aliases": [],
           "type": "special stain",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Cryptococcosis; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Cryptococcosis; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
         },
         {
@@ -1244,7 +1291,7 @@
           "aliases": [],
           "type": "special stain",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Cryptococcosis; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Cryptococcosis; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
         }
       ]
@@ -1252,6 +1299,7 @@
     "w810c2": {
       "case_label": "Week 810: Case 2",
       "diagnosis": "Metastasizing leiomyoma",
+      "stain_selection": "educational_fallback",
       "stains": [
         {
           "name": "Desmin",
@@ -1259,7 +1307,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Metastasizing leiomyoma; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Metastasizing leiomyoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11664289/"
         },
         {
@@ -1268,7 +1316,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Metastasizing leiomyoma; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Metastasizing leiomyoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11664289/"
         },
         {
@@ -1277,7 +1325,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Metastasizing leiomyoma; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Metastasizing leiomyoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11664289/"
         },
         {
@@ -1286,7 +1334,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://sp.pathology.jhu.edu/week-810-case-2/"
         }
       ]
@@ -1294,41 +1342,42 @@
     "w810c1": {
       "case_label": "Week 810: Case 1",
       "diagnosis": "Sclerosing angiomatoid nodular transformation (SANT)",
+      "stain_selection": "jhu_discussion",
       "stains": [
         {
-          "name": "CD31",
-          "result": "Negative",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-810-case-1/"
-        },
-        {
           "name": "CD34",
-          "result": "Negative",
+          "result": "Positive",
           "aliases": [],
           "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-810-case-1/"
         },
         {
-          "name": "CD8",
-          "result": "Negative",
+          "name": "CD31",
+          "result": "Positive",
           "aliases": [],
           "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-810-case-1/"
         },
         {
           "name": "CD68",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-810-case-1/"
+        },
+        {
+          "name": "CD8",
           "result": "Positive",
           "aliases": [],
           "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-810-case-1/"
         }
       ]
@@ -1336,6 +1385,7 @@
     "w809c3": {
       "case_label": "Week 809: Case 3",
       "diagnosis": "Inflammatory subtype of well-differentiated liposarcoma",
+      "stain_selection": "educational_fallback",
       "stains": [
         {
           "name": "MDM2",
@@ -1343,7 +1393,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Inflammatory subtype of well-differentiated liposarcoma; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Inflammatory subtype of well-differentiated liposarcoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
         },
         {
@@ -1352,7 +1402,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Inflammatory subtype of well-differentiated liposarcoma; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Inflammatory subtype of well-differentiated liposarcoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
         },
         {
@@ -1361,7 +1411,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Inflammatory subtype of well-differentiated liposarcoma; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Inflammatory subtype of well-differentiated liposarcoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
         },
         {
@@ -1370,7 +1420,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Inflammatory subtype of well-differentiated liposarcoma; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Inflammatory subtype of well-differentiated liposarcoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
         }
       ]
@@ -1378,6 +1428,7 @@
     "w809c2": {
       "case_label": "Week 809: Case 2",
       "diagnosis": "Osteoblastoma",
+      "stain_selection": "educational_fallback",
       "stains": [
         {
           "name": "SATB2",
@@ -1385,7 +1436,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Osteoblastoma; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Osteoblastoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
         },
         {
@@ -1394,7 +1445,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Osteoblastoma; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Osteoblastoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
         },
         {
@@ -1403,7 +1454,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Osteoblastoma; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Osteoblastoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
         }
       ]
@@ -1411,48 +1462,23 @@
     "w809c1": {
       "case_label": "Week 809: Case 1",
       "diagnosis": "Maturing lipoblastoma",
+      "stain_selection": "jhu_discussion",
       "stains": [
         {
           "name": "PLAG1",
-          "result": "Nuclear positive",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Maturing lipoblastoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
-        },
-        {
-          "name": "S100",
-          "result": "Positive in lipoblasts",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Maturing lipoblastoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
-        },
-        {
-          "name": "MDM2",
-          "result": "Negative",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Maturing lipoblastoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
-        },
-        {
-          "name": "CDK4",
-          "result": "Negative",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Maturing lipoblastoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-809-case-1/"
         }
       ]
     },
     "w808c3": {
       "case_label": "Week 808: Case 3",
       "diagnosis": "Inflammatory myofibroblastic tumor",
+      "stain_selection": "educational_fallback",
       "stains": [
         {
           "name": "ALK",
@@ -1460,7 +1486,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://sp.pathology.jhu.edu/week-808-case-3/"
         },
         {
@@ -1469,7 +1495,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Inflammatory myofibroblastic tumor; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Inflammatory myofibroblastic tumor; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
         },
         {
@@ -1478,7 +1504,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Inflammatory myofibroblastic tumor; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Inflammatory myofibroblastic tumor; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
         },
         {
@@ -1487,7 +1513,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Inflammatory myofibroblastic tumor; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Inflammatory myofibroblastic tumor; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
         }
       ]
@@ -1495,6 +1521,7 @@
     "w808c2": {
       "case_label": "Week 808: Case 2",
       "diagnosis": "Endometrioid carcinoma with yolk sac tumor differentiation",
+      "stain_selection": "educational_fallback",
       "stains": [
         {
           "name": "SALL4",
@@ -1502,7 +1529,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://sp.pathology.jhu.edu/week-808-case-2/"
         },
         {
@@ -1511,7 +1538,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Endometrioid carcinoma with yolk sac tumor differentiation; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Endometrioid carcinoma with yolk sac tumor differentiation; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8815357/"
         },
         {
@@ -1520,7 +1547,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://sp.pathology.jhu.edu/week-808-case-2/"
         },
         {
@@ -1529,7 +1556,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "basis": "Marker result/profile described in the JHU answer text. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://sp.pathology.jhu.edu/week-808-case-2/"
         }
       ]
@@ -1537,35 +1564,18 @@
     "w808c1": {
       "case_label": "Week 808: Case 1",
       "diagnosis": "Mesonephric-like adenocarcinoma",
+      "stain_selection": "jhu_discussion",
       "stains": [
         {
-          "name": "GATA3",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
-          "source_url": "https://sp.pathology.jhu.edu/week-808-case-1/"
-        },
-        {
-          "name": "TTF-1",
-          "result": "Positive",
+          "name": "PR",
+          "result": "Negative",
           "aliases": [
-            "TTF1"
+            "progesterone receptor"
           ],
           "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-808-case-1/"
-        },
-        {
-          "name": "CD10",
-          "result": "Luminal positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Mesonephric-like adenocarcinoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
         },
         {
           "name": "ER",
@@ -1574,8 +1584,55 @@
             "estrogen receptor"
           ],
           "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-808-case-1/"
+        },
+        {
+          "name": "GATA3",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-808-case-1/"
+        },
+        {
+          "name": "TTF-1",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-808-case-1/"
+        },
+        {
+          "name": "CD10",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-808-case-1/"
+        },
+        {
+          "name": "p53",
+          "result": "Not specified in JHU discussion",
+          "aliases": [
+            "TP53"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-808-case-1/"
+        },
+        {
+          "name": "PAX8",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-808-case-1/"
         }
       ]
@@ -1583,48 +1640,59 @@
     "w807c3": {
       "case_label": "Week 807: Case 3",
       "diagnosis": "EWSR1-NFATC2 fusion sarcoma",
+      "stain_selection": "jhu_discussion",
       "stains": [
         {
-          "name": "CD99",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for EWSR1-NFATC2 fusion sarcoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
-        },
-        {
           "name": "NKX2.2",
-          "result": "Variable positive",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for EWSR1-NFATC2 fusion sarcoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-807-case-3/"
         },
         {
-          "name": "SATB2",
-          "result": "Variable positive",
+          "name": "CD99",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for EWSR1-NFATC2 fusion sarcoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-807-case-3/"
         },
         {
-          "name": "panCK",
-          "result": "Negative",
+          "name": "FLI1",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for EWSR1-NFATC2 fusion sarcoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-807-case-3/"
+        },
+        {
+          "name": "WT1",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-807-case-3/"
+        },
+        {
+          "name": "ERG",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-807-case-3/"
         }
       ]
     },
     "w807c2": {
       "case_label": "Week 807: Case 2",
       "diagnosis": "Tenosynovial giant cell tumor, localized type",
+      "stain_selection": "educational_fallback",
       "stains": [
         {
           "name": "CD68",
@@ -1632,7 +1700,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Tenosynovial giant cell tumor, localized type; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Tenosynovial giant cell tumor, localized type; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
         },
         {
@@ -1641,7 +1709,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Tenosynovial giant cell tumor, localized type; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Tenosynovial giant cell tumor, localized type; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
         },
         {
@@ -1650,7 +1718,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Tenosynovial giant cell tumor, localized type; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Tenosynovial giant cell tumor, localized type; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
         },
         {
@@ -1659,7 +1727,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Tenosynovial giant cell tumor, localized type; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Tenosynovial giant cell tumor, localized type; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
         }
       ]
@@ -1667,48 +1735,52 @@
     "w807c1": {
       "case_label": "Week 807: Case 1",
       "diagnosis": "Sclerosing epithelioid fibrosarcoma",
+      "stain_selection": "jhu_discussion",
       "stains": [
         {
+          "name": "SMA",
+          "result": "Not specified in JHU discussion",
+          "aliases": [
+            "smooth muscle actin"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-807-case-1/"
+        },
+        {
           "name": "MUC4",
-          "result": "Diffuse positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Sclerosing epithelioid fibrosarcoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
-        },
-        {
-          "name": "EMA",
-          "result": "Variable positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Sclerosing epithelioid fibrosarcoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
-        },
-        {
-          "name": "panCK",
-          "result": "Usually negative / focal",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Sclerosing epithelioid fibrosarcoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
-        },
-        {
-          "name": "S100",
           "result": "Negative",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Sclerosing epithelioid fibrosarcoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-807-case-1/"
+        },
+        {
+          "name": "ALK",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-807-case-1/"
+        },
+        {
+          "name": "EMA",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-807-case-1/"
         }
       ]
     },
     "w806c3": {
       "case_label": "Week 806: Case 3",
       "diagnosis": "Pleomorphic liposarcoma",
+      "stain_selection": "educational_fallback",
       "stains": [
         {
           "name": "MDM2",
@@ -1716,7 +1788,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Pleomorphic liposarcoma; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Pleomorphic liposarcoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
         },
         {
@@ -1725,7 +1797,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Pleomorphic liposarcoma; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Pleomorphic liposarcoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
         },
         {
@@ -1734,7 +1806,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Pleomorphic liposarcoma; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Pleomorphic liposarcoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
         },
         {
@@ -1743,7 +1815,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Pleomorphic liposarcoma; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Pleomorphic liposarcoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
         }
       ]
@@ -1751,6 +1823,7 @@
     "w806c2": {
       "case_label": "Week 806: Case 2",
       "diagnosis": "Intimal sarcoma with chondrosarcomatous elements",
+      "stain_selection": "educational_fallback",
       "stains": [
         {
           "name": "MDM2",
@@ -1758,7 +1831,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Intimal sarcoma with chondrosarcomatous elements; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Intimal sarcoma with chondrosarcomatous elements; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
         },
         {
@@ -1767,7 +1840,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Intimal sarcoma with chondrosarcomatous elements; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Intimal sarcoma with chondrosarcomatous elements; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
         },
         {
@@ -1776,7 +1849,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Intimal sarcoma with chondrosarcomatous elements; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Intimal sarcoma with chondrosarcomatous elements; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
         },
         {
@@ -1785,7 +1858,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Intimal sarcoma with chondrosarcomatous elements; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Intimal sarcoma with chondrosarcomatous elements; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
         }
       ]
@@ -1793,41 +1866,119 @@
     "w806c1": {
       "case_label": "Week 806: Case 1",
       "diagnosis": "Synovial sarcoma",
+      "stain_selection": "jhu_discussion",
       "stains": [
         {
-          "name": "TLE1",
-          "result": "Diffuse positive",
-          "aliases": [],
+          "name": "panCK",
+          "result": "Not specified in JHU discussion",
+          "aliases": [
+            "cytokeratin"
+          ],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Synovial sarcoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-806-case-1/"
         },
         {
-          "name": "SS18-SSX",
-          "result": "Nuclear positive",
+          "name": "Myogenin",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Synovial sarcoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-806-case-1/"
+        },
+        {
+          "name": "SMARCB1",
+          "result": "Loss",
+          "aliases": [
+            "INI1",
+            "INI-1"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-806-case-1/"
+        },
+        {
+          "name": "Desmin",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-806-case-1/"
+        },
+        {
+          "name": "CD34",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-806-case-1/"
+        },
+        {
+          "name": "CD99",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-806-case-1/"
+        },
+        {
+          "name": "TLE1",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-806-case-1/"
+        },
+        {
+          "name": "PAX3",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-806-case-1/"
+        },
+        {
+          "name": "PAX7",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-806-case-1/"
+        },
+        {
+          "name": "WT1",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-806-case-1/"
         },
         {
           "name": "EMA",
-          "result": "Positive",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Synovial sarcoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-806-case-1/"
         },
         {
-          "name": "panCK",
-          "result": "Positive",
+          "name": "ERG",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "jhu_answer_text",
-          "basis": "Marker result/profile described in the JHU answer text.",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
           "source_url": "https://sp.pathology.jhu.edu/week-806-case-1/"
         }
       ]
@@ -1835,58 +1986,87 @@
     "w805c3": {
       "case_label": "Week 805: Case 3",
       "diagnosis": "Anaplastic large cell lymphoma, ALK positive",
+      "stain_selection": "jhu_discussion",
       "stains": [
         {
-          "name": "CD30",
-          "result": "Diffuse strong positive",
+          "name": "CD163",
+          "result": "Positive",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Anaplastic large cell lymphoma, ALK positive; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-805-case-3/"
+        },
+        {
+          "name": "CD68",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-805-case-3/"
+        },
+        {
+          "name": "CD30",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-805-case-3/"
+        },
+        {
+          "name": "CD15",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-805-case-3/"
+        },
+        {
+          "name": "PAX5",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-805-case-3/"
         },
         {
           "name": "ALK",
-          "result": "Positive",
+          "result": "Negative",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Anaplastic large cell lymphoma, ALK positive; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-805-case-3/"
         },
         {
-          "name": "EMA",
+          "name": "CD3",
           "result": "Positive",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Anaplastic large cell lymphoma, ALK positive; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-805-case-3/"
         },
         {
-          "name": "CD45",
-          "result": "Positive",
+          "name": "CD4",
+          "result": "Negative",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Anaplastic large cell lymphoma, ALK positive; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-805-case-3/"
         }
       ]
     },
     "w805c2": {
       "case_label": "Week 805: Case 2",
       "diagnosis": "Extranodal NK/T cell lymphoma",
+      "stain_selection": "jhu_discussion",
       "stains": [
-        {
-          "name": "CD56",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Extranodal NK/T cell lymphoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
-        },
         {
           "name": "EBER ISH",
           "result": "Positive",
@@ -1894,159 +2074,250 @@
             "EBER"
           ],
           "type": "ISH",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Extranodal NK/T cell lymphoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-805-case-2/"
         },
         {
-          "name": "CD3",
-          "result": "Cytoplasmic positive",
+          "name": "AE1/AE3",
+          "result": "Positive",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Extranodal NK/T cell lymphoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-805-case-2/"
         },
         {
-          "name": "panCK",
-          "result": "Negative",
+          "name": "CD10",
+          "result": "Positive",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Extranodal NK/T cell lymphoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-805-case-2/"
+        },
+        {
+          "name": "CD56",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-805-case-2/"
+        },
+        {
+          "name": "CD45",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-805-case-2/"
+        },
+        {
+          "name": "CD57",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-805-case-2/"
+        },
+        {
+          "name": "PAS",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "special stain",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-805-case-2/"
+        },
+        {
+          "name": "CD8",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-805-case-2/"
+        },
+        {
+          "name": "CD4",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-805-case-2/"
+        },
+        {
+          "name": "CD5",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-805-case-2/"
         }
       ]
     },
     "w805c1": {
       "case_label": "Week 805: Case 1",
       "diagnosis": "Classical Hodgkin lymphoma",
+      "stain_selection": "jhu_discussion",
       "stains": [
         {
+          "name": "CD10",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-805-case-1/"
+        },
+        {
           "name": "CD30",
-          "result": "Positive",
+          "result": "Negative",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Classical Hodgkin lymphoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
-        },
-        {
-          "name": "CD15",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Classical Hodgkin lymphoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
-        },
-        {
-          "name": "PAX5",
-          "result": "Weak positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Classical Hodgkin lymphoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-805-case-1/"
         },
         {
           "name": "CD45",
           "result": "Negative",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Classical Hodgkin lymphoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-805-case-1/"
+        },
+        {
+          "name": "CD15",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-805-case-1/"
+        },
+        {
+          "name": "CD20",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-805-case-1/"
+        },
+        {
+          "name": "PAS",
+          "result": "Not specified in JHU discussion",
+          "aliases": [],
+          "type": "special stain",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-805-case-1/"
+        },
+        {
+          "name": "ALK",
+          "result": "Positive",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-805-case-1/"
         }
       ]
     },
     "w804c3": {
       "case_label": "Week 804: Case 3",
       "diagnosis": "Gangliocytic paraganglioma with invasive moderately differentiated adenocarcinoma",
+      "stain_selection": "jhu_discussion",
       "stains": [
         {
-          "name": "Synaptophysin",
-          "result": "Positive",
-          "aliases": [],
+          "name": "PR",
+          "result": "Not specified in JHU discussion",
+          "aliases": [
+            "progesterone receptor"
+          ],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Gangliocytic paraganglioma with invasive moderately differentiated adenocarcinoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7177196/"
-        },
-        {
-          "name": "Chromogranin",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Gangliocytic paraganglioma with invasive moderately differentiated adenocarcinoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7177196/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-804-case-3/"
         },
         {
           "name": "S100",
-          "result": "Sustentacular positive",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Gangliocytic paraganglioma with invasive moderately differentiated adenocarcinoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7177196/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-804-case-3/"
         },
         {
-          "name": "panCK",
-          "result": "Positive in epithelial component",
+          "name": "AR",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Gangliocytic paraganglioma with invasive moderately differentiated adenocarcinoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7177196/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-804-case-3/"
         }
       ]
     },
     "w804c2": {
       "case_label": "Week 804: Case 2",
       "diagnosis": "Sinonasal glomangiopericytoma",
+      "stain_selection": "jhu_discussion",
       "stains": [
-        {
-          "name": "Beta-catenin",
-          "result": "Nuclear positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Sinonasal glomangiopericytoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
-        },
-        {
-          "name": "Cyclin D1",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Sinonasal glomangiopericytoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
-        },
         {
           "name": "SMA",
           "result": "Positive",
+          "aliases": [
+            "smooth muscle actin"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-804-case-2/"
+        },
+        {
+          "name": "Beta-catenin",
+          "result": "Positive",
+          "aliases": [
+            "β-catenin"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-804-case-2/"
+        },
+        {
+          "name": "Cyclin D1",
+          "result": "Not specified in JHU discussion",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Sinonasal glomangiopericytoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-804-case-2/"
         },
         {
           "name": "STAT6",
-          "result": "Negative",
+          "result": "Positive",
           "aliases": [],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Sinonasal glomangiopericytoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7670586/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-804-case-2/"
         }
       ]
     },
     "w804c1": {
       "case_label": "Week 804: Case 1",
       "diagnosis": "Plexiform schwannoma",
+      "stain_selection": "educational_fallback",
       "stains": [
         {
           "name": "S100",
@@ -2054,7 +2325,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Plexiform schwannoma; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Plexiform schwannoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
         },
         {
@@ -2063,7 +2334,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Plexiform schwannoma; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Plexiform schwannoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
         },
         {
@@ -2072,7 +2343,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Plexiform schwannoma; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Plexiform schwannoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
         },
         {
@@ -2081,7 +2352,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Plexiform schwannoma; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Plexiform schwannoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10713813/"
         }
       ]
@@ -2089,48 +2360,47 @@
     "w803c3": {
       "case_label": "Week 803: Case 3",
       "diagnosis": "Fibrolamellar hepatocellular carcinoma",
+      "stain_selection": "jhu_discussion",
       "stains": [
         {
-          "name": "HepPar1",
-          "result": "Positive",
-          "aliases": [],
+          "name": "Inhibin",
+          "result": "Not specified in JHU discussion",
+          "aliases": [
+            "alpha-inhibin"
+          ],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Fibrolamellar hepatocellular carcinoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12428263/"
-        },
-        {
-          "name": "Arginase-1",
-          "result": "Positive",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Fibrolamellar hepatocellular carcinoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12428263/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-803-case-3/"
         },
         {
           "name": "CK7",
-          "result": "Positive",
-          "aliases": [],
+          "result": "Not specified in JHU discussion",
+          "aliases": [
+            "cytokeratin 7"
+          ],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Fibrolamellar hepatocellular carcinoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12428263/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-803-case-3/"
         },
         {
-          "name": "CD68",
-          "result": "Granular cytoplasmic positive",
-          "aliases": [],
+          "name": "panCK",
+          "result": "Not specified in JHU discussion",
+          "aliases": [
+            "cytokeratin"
+          ],
           "type": "IHC",
-          "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Fibrolamellar hepatocellular carcinoma; not documented as performed in this source case.",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12428263/"
+          "source_type": "jhu_discussion_text",
+          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion section; result is taken from the JHU case text when stated.",
+          "source_url": "https://sp.pathology.jhu.edu/week-803-case-3/"
         }
       ]
     },
     "w803c2": {
       "case_label": "Week 803: Case 2",
       "diagnosis": "Nephrogenic adenoma",
+      "stain_selection": "educational_fallback",
       "stains": [
         {
           "name": "PAX8",
@@ -2138,7 +2408,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Nephrogenic adenoma; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Nephrogenic adenoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
         },
         {
@@ -2147,7 +2417,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Nephrogenic adenoma; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Nephrogenic adenoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
         },
         {
@@ -2156,7 +2426,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Nephrogenic adenoma; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Nephrogenic adenoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
         },
         {
@@ -2165,7 +2435,7 @@
           "aliases": [],
           "type": "IHC",
           "source_type": "educational_simulated",
-          "basis": "Expected educational immunophenotype for Nephrogenic adenoma; not documented as performed in this source case.",
+          "basis": "Expected educational immunophenotype for Nephrogenic adenoma; not documented as performed in this source case. Used as a fallback because the JHU Discussion section does not name a playable stain.",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342215/"
         }
       ]
