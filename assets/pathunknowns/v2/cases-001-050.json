@@ -608,13 +608,13 @@
             "fumarate hydratase"
           ],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
+          "result": "loss",
+          "result_display": "Loss",
           "interpretation": "Result stated directly in the source answer.",
           "context": "In addition, the tumor will exhibit diffuse positive staining for 2-succinocysteine (2SC) and complete loss of staining for FH. The loss of FH IHC staining correlates with the presence of an FH gene mutation, either germline or somatic. Retained or variable FH staining patterns (and negative 2SC) may be observed across these other entities.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Direct case-specific loss result in source answer."
         },
         {
           "name": "2SC",
@@ -622,13 +622,13 @@
             "2-succinocysteine"
           ],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
+          "result": "loss",
+          "result_display": "Loss",
           "interpretation": "Result stated directly in the source answer.",
           "context": "In addition, the tumor will exhibit diffuse positive staining for 2-succinocysteine (2SC) and complete loss of staining for FH. Retained or variable FH staining patterns (and negative 2SC) may be observed across these other entities.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Direct case-specific loss result in source answer."
         },
         {
           "name": "h-caldesmon",
@@ -1459,13 +1459,13 @@
             "β-catenin"
           ],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
           "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
-          "provenance": "differential_inference",
-          "confidence": "medium",
-          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Direct case-specific positive result in source answer."
         },
         {
           "name": "CAM5.2",
@@ -1473,13 +1473,13 @@
             "CAM 5.2"
           ],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
           "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
-          "provenance": "differential_inference",
-          "confidence": "medium",
-          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Direct case-specific positive result in source answer."
         },
         {
           "name": "CD117",
@@ -1499,49 +1499,49 @@
           "name": "CD10",
           "aliases": [],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
           "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
-          "provenance": "differential_inference",
-          "confidence": "medium",
-          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Direct case-specific positive result in source answer."
         },
         {
           "name": "CD56",
           "aliases": [],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
           "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
-          "provenance": "differential_inference",
-          "confidence": "medium",
-          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Direct case-specific positive result in source answer."
         },
         {
           "name": "CD99",
           "aliases": [],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
           "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
-          "provenance": "differential_inference",
-          "confidence": "medium",
-          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Direct case-specific positive result in source answer."
         },
         {
           "name": "WT1",
           "aliases": [],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
-          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
+          "result": "positive",
+          "result_display": "Positive",
+          "interpretation": "Result stated directly in the source answer.",
           "context": "The tumor cells are positive for CD10, CD56, CD99, WT1, β-catenin (nuclear and cytoplasmic), and α1-antitrypsin, and they may stain for CAM5.2 (dot-like perinuclear), PR, synaptophysin, and KIT (CD117).",
-          "provenance": "differential_inference",
-          "confidence": "medium",
-          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Direct case-specific positive result in source answer."
         }
       ],
       "references": [
@@ -1805,13 +1805,13 @@
           "name": "p63",
           "aliases": [],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
+          "result": "positive",
+          "result_display": "Positive",
           "interpretation": "Result stated directly in the source answer.",
           "context": "The tumor cells will stain positive for HSD3B1, HLA-G, p63, cyclin E, α-inhibin, and GATA3. Placental site trophoblastic tumor (PSTT) is also a neoplastic proliferation of implantation-type intermediate trophoblast, however, the tumor will be positive for HPL and negative for p63 negative.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Direct case-specific positive result in source answer."
         }
       ],
       "references": [
@@ -2493,13 +2493,13 @@
             "HPV-ISH"
           ],
           "type": "ISH",
-          "result": "negative",
-          "result_display": "Negative",
+          "result": "positive",
+          "result_display": "Positive",
           "interpretation": "Result stated directly in the source answer.",
           "context": "This case was positive upon HPV in-situ-hybridization immunohistochemistry. The IHC findings and the combined presence of cribriform glands and squamous differentiation points to a diagnosis of HPV-related multiphenotypic sinonasal carcinoma. Though ACC shares morphologic overlap with HPV-related multiphenotypic sinonasal carcinoma, ACC would not be positive for high-risk HPV in-situ hybridization and has no known association with HPV infection. Lastly, SMARCB1 deficient sinonasal carcinoma would demonstrate INI1/BAF47 (SMARCB1) loss by immunohistochemistry, and it will be HPV-ISH negative.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
+          "basis": "Direct case-specific positive result in source answer."
         },
         {
           "name": "SMARCB1",
@@ -5017,25 +5017,25 @@
           "name": "CD163",
           "aliases": [],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
+          "result": "negative",
+          "result_display": "Negative",
           "interpretation": "Result stated directly in the source answer.",
           "context": "The neoplastic cells are positive for ALK+, CD30+, CD68+, CD163+, CD3+, CD4+, CD7+, and negative for CD20-, EBER ISH, and CD8-. Just like ALK-positive ALCL, histiocytic sarcoma is positive for CD68 and CD163 but will not demonstrate immunoreactivity for ALK, CD30, nor CD3.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
+          "basis": "Direct case-specific negative result in source answer."
         },
         {
           "name": "CD68",
           "aliases": [],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
+          "result": "negative",
+          "result_display": "Negative",
           "interpretation": "Result stated directly in the source answer.",
           "context": "The neoplastic cells are positive for ALK+, CD30+, CD68+, CD163+, CD3+, CD4+, CD7+, and negative for CD20-, EBER ISH, and CD8-. Just like ALK-positive ALCL, histiocytic sarcoma is positive for CD68 and CD163 but will not demonstrate immunoreactivity for ALK, CD30, nor CD3.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
+          "basis": "Direct case-specific negative result in source answer."
         },
         {
           "name": "CD30",
@@ -5043,11 +5043,11 @@
           "type": "IHC",
           "result": "negative",
           "result_display": "Negative",
-          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
+          "interpretation": "Result stated directly in the source answer.",
           "context": "The neoplastic cells are positive for ALK+, CD30+, CD68+, CD163+, CD3+, CD4+, CD7+, and negative for CD20-, EBER ISH, and CD8-. Classical Hodgkin lymphoma would also be CD15+ combined with CD30+ positivity and will not display ALK positivity, and may also express positivity for PAX5, thus delineating CHL as a B-cell neoplasm. Peripheral T-cell lymphoma, NOS usually has a CD4 predominance as seen with the current case and contains variable CD30 positivity; it is usually ALK negative. Just like ALK-positive ALCL, histiocytic sarcoma is positive for CD68 and CD163 but will not demonstrate immunoreactivity for ALK, CD30, nor CD3. Of note, there is the entity known as ALK negative anaplastic large cell lymphoma, which will be CD30+ but ALK negative.",
-          "provenance": "differential_inference",
-          "confidence": "medium",
-          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Direct case-specific negative result in source answer."
         },
         {
           "name": "CD15",
@@ -5091,11 +5091,11 @@
           "type": "IHC",
           "result": "negative",
           "result_display": "Negative",
-          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
+          "interpretation": "Result stated directly in the source answer.",
           "context": "The neoplastic cells are positive for ALK+, CD30+, CD68+, CD163+, CD3+, CD4+, CD7+, and negative for CD20-, EBER ISH, and CD8-. Together, these point to the diagnosis of ALK-positive anaplastic large cell lymphoma. Classical Hodgkin lymphoma would also be CD15+ combined with CD30+ positivity and will not display ALK positivity, and may also express positivity for PAX5, thus delineating CHL as a B-cell neoplasm. Peripheral T-cell lymphoma, NOS usually has a CD4 predominance as seen with the current case and contains variable CD30 positivity; it is usually ALK negative. Just like ALK-positive ALCL, histiocytic sarcoma is positive for CD68 and CD163 but will not demonstrate immunoreactivity for ALK, CD30, nor CD3. Of note, there is the entity known as ALK negative anaplastic large cell lymphoma, which will be CD30+ but ALK negative.",
-          "provenance": "differential_inference",
-          "confidence": "medium",
-          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Direct case-specific negative result in source answer."
         },
         {
           "name": "CD8",
@@ -5113,25 +5113,25 @@
           "name": "CD3",
           "aliases": [],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
+          "result": "negative",
+          "result_display": "Negative",
           "interpretation": "Result stated directly in the source answer.",
           "context": "The neoplastic cells are positive for ALK+, CD30+, CD68+, CD163+, CD3+, CD4+, CD7+, and negative for CD20-, EBER ISH, and CD8-. Just like ALK-positive ALCL, histiocytic sarcoma is positive for CD68 and CD163 but will not demonstrate immunoreactivity for ALK, CD30, nor CD3.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
+          "basis": "Direct case-specific negative result in source answer."
         },
         {
           "name": "CD4",
           "aliases": [],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
+          "result": "negative",
+          "result_display": "Negative",
           "interpretation": "Result stated directly in the source answer.",
           "context": "The neoplastic cells are positive for ALK+, CD30+, CD68+, CD163+, CD3+, CD4+, CD7+, and negative for CD20-, EBER ISH, and CD8-. Peripheral T-cell lymphoma, NOS usually has a CD4 predominance as seen with the current case and contains variable CD30 positivity; it is usually ALK negative. CD4 may not be helpful as it also stains histiocytes.",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Compact +/- notation in source answer."
+          "basis": "Direct case-specific negative result in source answer."
         }
       ],
       "references": [
