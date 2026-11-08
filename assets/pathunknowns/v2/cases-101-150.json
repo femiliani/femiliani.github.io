@@ -1721,6 +1721,18 @@
           "provenance": "explicit",
           "confidence": "high",
           "basis": "Compact +/- notation in source answer."
+        },
+        {
+          "name": "Mammaglobin",
+          "aliases": [],
+          "type": "IHC",
+          "result": "variable",
+          "result_display": "Variable / context-dependent",
+          "interpretation": "Expected/supportive immunophenotype described in the source answer.",
+          "context": "12(1):e4, 2021 Said-Al-Naief N et al: Combined DOG1 and mammaglobin immunohistochemistry is comparable to ETV6-breakapart analysis for differentiating between papillary cystic variants of acinic cell carcinoma and mammary analogue secretory carcinoma.",
+          "provenance": "contextual_inference",
+          "confidence": "low",
+          "basis": "Marker is discussed in a stain-related context but the source does not support a single polarity."
         }
       ],
       "references": [
@@ -2398,7 +2410,83 @@
         "Solitary fibrous tumor",
         "Granulosa cell tumor"
       ],
-      "stains": [],
+      "stains": [
+        {
+          "name": "Melan-A",
+          "aliases": [
+            "MART1",
+            "MART-1"
+          ],
+          "type": "IHC",
+          "result": "positive_variable",
+          "result_display": "Positive / variable",
+          "interpretation": "Expected/supportive immunophenotype described in the source answer.",
+          "context": "Other positivity that is not as specific or sensitive is with inhibin, calretinin, Melan-A, pan keratin, CD34, S100 protein, muscle-specific actin, and desmin.",
+          "provenance": "entity_profile",
+          "confidence": "medium",
+          "basis": "Source answer describes this marker as a positive/supportive immunophenotypic feature."
+        },
+        {
+          "name": "Desmin",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive_variable",
+          "result_display": "Positive / variable",
+          "interpretation": "Expected/supportive immunophenotype described in the source answer.",
+          "context": "Other positivity that is not as specific or sensitive is with inhibin, calretinin, Melan-A, pan keratin, CD34, S100 protein, muscle-specific actin, and desmin.",
+          "provenance": "entity_profile",
+          "confidence": "medium",
+          "basis": "Source answer describes this marker as a positive/supportive immunophenotypic feature."
+        },
+        {
+          "name": "Inhibin",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive_variable",
+          "result_display": "Positive / variable",
+          "interpretation": "Expected/supportive immunophenotype described in the source answer.",
+          "context": "Other positivity that is not as specific or sensitive is with inhibin, calretinin, Melan-A, pan keratin, CD34, S100 protein, muscle-specific actin, and desmin.",
+          "provenance": "entity_profile",
+          "confidence": "medium",
+          "basis": "Source answer describes this marker as a positive/supportive immunophenotypic feature."
+        },
+        {
+          "name": "Calretinin",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive_variable",
+          "result_display": "Positive / variable",
+          "interpretation": "Expected/supportive immunophenotype described in the source answer.",
+          "context": "Other positivity that is not as specific or sensitive is with inhibin, calretinin, Melan-A, pan keratin, CD34, S100 protein, muscle-specific actin, and desmin.",
+          "provenance": "entity_profile",
+          "confidence": "medium",
+          "basis": "Source answer describes this marker as a positive/supportive immunophenotypic feature."
+        },
+        {
+          "name": "S100",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive_variable",
+          "result_display": "Positive / variable",
+          "interpretation": "Expected/supportive immunophenotype described in the source answer.",
+          "context": "Other positivity that is not as specific or sensitive is with inhibin, calretinin, Melan-A, pan keratin, CD34, S100 protein, muscle-specific actin, and desmin.",
+          "provenance": "entity_profile",
+          "confidence": "medium",
+          "basis": "Source answer describes this marker as a positive/supportive immunophenotypic feature."
+        },
+        {
+          "name": "CD34",
+          "aliases": [],
+          "type": "IHC",
+          "result": "positive_variable",
+          "result_display": "Positive / variable",
+          "interpretation": "Expected/supportive immunophenotype described in the source answer.",
+          "context": "Other positivity that is not as specific or sensitive is with inhibin, calretinin, Melan-A, pan keratin, CD34, S100 protein, muscle-specific actin, and desmin.",
+          "provenance": "entity_profile",
+          "confidence": "medium",
+          "basis": "Source answer describes this marker as a positive/supportive immunophenotypic feature."
+        }
+      ],
       "references": [],
       "metadata": {
         "case_version": 1,
