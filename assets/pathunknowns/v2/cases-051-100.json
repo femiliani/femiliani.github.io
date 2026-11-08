@@ -601,13 +601,13 @@
             "p57KIP2"
           ],
           "type": "IHC",
-          "result": "negative",
-          "result_display": "Negative",
+          "result": "positive",
+          "result_display": "Positive",
           "interpretation": "Result stated directly in the source answer.",
           "context": "This diagnosis can be confirmed with immunohistochemical analysis of p57 expression, which is particularly useful when a hydatidiform mole is an earlier form and morphologic features are less well-developed. The p57 immunostain for this case demonstrates that the villous cytotrophoblast and villous stromal cells lack nuclear p57 expression, while intermediate trophoblastic cells retain p57 expression (this staining of intermediate trophoblast, as well as decidua when present, serves as an internal positive control, which is required to guarantee that the p57 stain is satisfactory). The lack of p57 expression reflects the genetics of complete hydatidiform moles. P57 is a paternally imprinted gene on chromosome 11, with expression derived from the maternal copy. Thus, since complete hydatidiform moles contain no maternal genetic material, they lack p57 expression (with rare exceptions).",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Negative/lack-of-expression language in source answer."
+          "basis": "Direct case-specific positive result in source answer."
         }
       ],
       "references": [
@@ -2512,13 +2512,13 @@
           "name": "CD99",
           "aliases": [],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
-          "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
+          "result": "negative",
+          "result_display": "Negative",
+          "interpretation": "Result stated directly in the source answer.",
           "context": "These cells have a nonspecific immunophenotype, with negative reactions for cytokeratin, CD99, S100, SF1, melanocytic markers, and CD34. The primitive appearance of the neoplasm raised the possibility of Ewing sarcoma; however, the absence of immunoreactivity for CD99 as well as the lipomatous component helps exclude that diagnosis.",
-          "provenance": "differential_inference",
-          "confidence": "medium",
-          "basis": "Marker negativity is presented as supporting an alternative diagnosis that was not the final diagnosis."
+          "provenance": "explicit",
+          "confidence": "high",
+          "basis": "Direct case-specific negative result in source answer."
         },
         {
           "name": "SF1",
@@ -2819,13 +2819,13 @@
           "name": "PAX8",
           "aliases": [],
           "type": "IHC",
-          "result": "positive",
-          "result_display": "Positive",
+          "result": "negative",
+          "result_display": "Negative",
           "interpretation": "Result inferred from how the source answer uses this marker to separate the final diagnosis from an alternative.",
           "context": "Urothelial carcinoma with glandular differentiation would typically label with GATA3 and lack PAX8 expression. The incidental nature, associated inflammation, hyaline cuff of basement membrane, lack of mitotic activity and nuclear hyperchromasia, and PAX8 labeling support this diagnosis.",
           "provenance": "differential_inference",
           "confidence": "medium",
-          "basis": "Marker negativity is presented as supporting an alternative diagnosis that was not the final diagnosis."
+          "basis": "Marker positivity is presented as supporting an alternative diagnosis that was not the final diagnosis."
         }
       ],
       "references": [],
@@ -3163,13 +3163,13 @@
           "name": "p63",
           "aliases": [],
           "type": "IHC",
-          "result": "positive_variable",
-          "result_display": "Positive / variable",
+          "result": "positive",
+          "result_display": "Positive",
           "interpretation": "Result stated directly in the source answer.",
           "context": "By immunohistochemistry, the neoplasm demonstrates diffuse nuclear expression of p63 and expresses markers of androgen axis signaling in luminal cells, including androgen receptor (AR), NKX3.1, and prostein (P501S). Together, these findings support the diagnosis of prostatic adenocarcinoma with aberrant p63 expression. Prostatic adenocarcinoma with aberrant p63 expression typically shows diffuse nuclear expression of p63, and the absence of basal cells can be confirmed by the lack of expression of high molecular weight cytokeratin (HMWCK). Prostatic adenocarcinoma with aberrant p63 expression is often mixed with conventional adenocarcinoma (85% of cases).",
           "provenance": "explicit",
           "confidence": "high",
-          "basis": "Positive/expression language in source answer."
+          "basis": "Direct case-specific positive result in source answer."
         },
         {
           "name": "PSA",
