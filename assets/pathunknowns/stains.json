@@ -5943,86 +5943,106 @@
     "w775c3": {
       "case_label": "Week 775: Case 3",
       "diagnosis": "Paget’s disease",
-      "stain_selection": "jhu_discussion",
+      "stain_selection": "case_text_reasoned_panel",
       "discussion_source": "feedback_text_fallback",
       "stains": [
         {
-          "name": "PR",
-          "result": "Not specified in JHU discussion",
-          "aliases": [
-            "progesterone receptor"
-          ],
-          "type": "IHC",
-          "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
-          "source_url": "https://sp.pathology.jhu.edu/week-775-case-3/"
-        },
-        {
-          "name": "ER",
-          "result": "Not specified in JHU discussion",
-          "aliases": [
-            "estrogen receptor"
-          ],
-          "type": "IHC",
-          "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
-          "source_url": "https://sp.pathology.jhu.edu/week-775-case-3/"
-        },
-        {
-          "name": "Mammaglobin",
-          "result": "Not specified in JHU discussion",
+          "name": "SOX10",
+          "result": "Negative",
           "aliases": [],
           "type": "IHC",
-          "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_type": "jhu_case_text_explicit",
+          "basis": "The case text states that lack of SOX10 expression excludes melanoma.",
           "source_url": "https://sp.pathology.jhu.edu/week-775-case-3/"
         },
         {
           "name": "Melan-A",
-          "result": "Not specified in JHU discussion",
+          "result": "Negative",
           "aliases": [
             "MART1",
             "MART-1"
           ],
           "type": "IHC",
-          "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
-          "source_url": "https://sp.pathology.jhu.edu/week-775-case-3/"
-        },
-        {
-          "name": "GATA3",
-          "result": "Not specified in JHU discussion",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
-          "source_url": "https://sp.pathology.jhu.edu/week-775-case-3/"
-        },
-        {
-          "name": "SOX10",
-          "result": "Not specified in JHU discussion",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
-          "source_url": "https://sp.pathology.jhu.edu/week-775-case-3/"
-        },
-        {
-          "name": "HER2",
-          "result": "Not specified in JHU discussion",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_type": "jhu_case_text_explicit",
+          "basis": "The case text states that lack of Melan-A expression excludes melanoma.",
           "source_url": "https://sp.pathology.jhu.edu/week-775-case-3/"
         },
         {
           "name": "p63",
-          "result": "Not specified in JHU discussion",
+          "result": "Negative",
           "aliases": [],
           "type": "IHC",
-          "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_type": "jhu_case_text_inference",
+          "basis": "The discussion states that squamous cell carcinoma in situ should label with squamous markers such as p63/p40. Because the final diagnosis is Paget disease, the discriminatory result is inferred as negative.",
+          "source_url": "https://sp.pathology.jhu.edu/week-775-case-3/"
+        },
+        {
+          "name": "p40",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_case_text_inference",
+          "basis": "The discussion states that squamous cell carcinoma in situ should label with squamous markers such as p63/p40. Because the final diagnosis is Paget disease, the discriminatory result is inferred as negative.",
+          "source_url": "https://sp.pathology.jhu.edu/week-775-case-3/"
+        },
+        {
+          "name": "GATA3",
+          "result": "Positive / variable",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_case_text_inference",
+          "basis": "The discussion states that Paget disease can show an adnexal/breast-like immunophenotype including GATA3 labeling. This is treated as a supportive expected result rather than an explicitly performed stain.",
+          "source_url": "https://sp.pathology.jhu.edu/week-775-case-3/"
+        },
+        {
+          "name": "GCDFP15",
+          "result": "Positive / variable",
+          "aliases": [
+            "GCDFP-15"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_case_text_inference",
+          "basis": "The discussion states that Paget disease can label with GCDFP15. This is treated as a supportive expected result rather than an explicitly performed stain.",
+          "source_url": "https://sp.pathology.jhu.edu/week-775-case-3/"
+        },
+        {
+          "name": "Mammaglobin",
+          "result": "Positive / variable",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_case_text_inference",
+          "basis": "The discussion states that Paget disease can label with mammaglobin. This is treated as a supportive expected result rather than an explicitly performed stain.",
+          "source_url": "https://sp.pathology.jhu.edu/week-775-case-3/"
+        },
+        {
+          "name": "ER",
+          "result": "Positive / variable",
+          "aliases": [
+            "estrogen receptor"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_case_text_inference",
+          "basis": "The discussion states that Paget disease can show ER labeling. This is treated as a supportive expected result rather than an explicitly performed stain.",
+          "source_url": "https://sp.pathology.jhu.edu/week-775-case-3/"
+        },
+        {
+          "name": "PR",
+          "result": "Positive / variable",
+          "aliases": [
+            "progesterone receptor"
+          ],
+          "type": "IHC",
+          "source_type": "jhu_case_text_inference",
+          "basis": "The discussion states that Paget disease can show PR labeling. This is treated as a supportive expected result rather than an explicitly performed stain.",
+          "source_url": "https://sp.pathology.jhu.edu/week-775-case-3/"
+        },
+        {
+          "name": "HER2",
+          "result": "Positive / variable",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_case_text_inference",
+          "basis": "The discussion states that Paget disease can show HER2 labeling. This is treated as a supportive expected result rather than an explicitly performed stain.",
           "source_url": "https://sp.pathology.jhu.edu/week-775-case-3/"
         }
       ]
