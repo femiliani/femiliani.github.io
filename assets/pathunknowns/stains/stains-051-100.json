@@ -371,18 +371,37 @@
     "w800c2": {
       "case_label": "Week 800: Case 2",
       "diagnosis": "Deciduosis",
-      "stain_selection": "jhu_discussion",
+      "stain_selection": "jhu_case_text_explicit",
       "discussion_source": "discussion_field",
       "stains": [
         {
-          "name": "PR",
-          "result": "Positive",
+          "name": "CD68",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_case_text_explicit",
+          "basis": "The JHU answer states that the decidualized cells were negative for CD68.",
+          "source_url": "https://sp.pathology.jhu.edu/week-800-case-2/"
+        },
+        {
+          "name": "S100",
+          "result": "Negative",
+          "aliases": [],
+          "type": "IHC",
+          "source_type": "jhu_case_text_explicit",
+          "basis": "The JHU answer states that the decidualized cells were negative for S100.",
+          "source_url": "https://sp.pathology.jhu.edu/week-800-case-2/"
+        },
+        {
+          "name": "AE1/AE3",
+          "result": "Negative",
           "aliases": [
-            "progesterone receptor"
+            "AE1/3",
+            "AE1-AE3"
           ],
           "type": "IHC",
-          "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_type": "jhu_case_text_explicit",
+          "basis": "The JHU answer states that the decidualized cells were negative for AE1/3.",
           "source_url": "https://sp.pathology.jhu.edu/week-800-case-2/"
         },
         {
@@ -390,26 +409,19 @@
           "result": "Positive",
           "aliases": [],
           "type": "IHC",
-          "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_type": "jhu_case_text_explicit",
+          "basis": "The JHU answer states that the decidualized cells were positive for CD10.",
           "source_url": "https://sp.pathology.jhu.edu/week-800-case-2/"
         },
         {
-          "name": "S100",
+          "name": "PR",
           "result": "Positive",
-          "aliases": [],
+          "aliases": [
+            "progesterone receptor"
+          ],
           "type": "IHC",
-          "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
-          "source_url": "https://sp.pathology.jhu.edu/week-800-case-2/"
-        },
-        {
-          "name": "CD68",
-          "result": "Negative",
-          "aliases": [],
-          "type": "IHC",
-          "source_type": "jhu_discussion_text",
-          "basis": "Marker selected because it is explicitly discussed in the JHU Discussion text; result is taken from the JHU case text when stated.",
+          "source_type": "jhu_case_text_explicit",
+          "basis": "The JHU answer states that the decidualized cells were positive for PR.",
           "source_url": "https://sp.pathology.jhu.edu/week-800-case-2/"
         }
       ]
